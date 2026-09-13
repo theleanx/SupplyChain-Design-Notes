@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+<title id="title">Portfolio complexity</title><desc id="desc">Original educational visualization created for the Supply Chain Design Notes repository.</desc>
+<style>
+.text{font-family:Arial,Helvetica,sans-serif;fill:#172033} .muted{fill:#596579} .grid{stroke:#d9dee8;stroke-width:1} .axis{stroke:#606b7d;stroke-width:2} .line1{stroke:#245a8d;stroke-width:4;fill:none} .line2{stroke:#2a8b7b;stroke-width:4;fill:none} .line3{stroke:#b7791f;stroke-width:4;fill:none} .dash{stroke:#7b8799;stroke-width:3;stroke-dasharray:10 8;fill:none} .card{fill:#f7f9fc;stroke:#cbd3df;stroke-width:1.5} .accent{fill:#eaf2fb;stroke:#8fb3da;stroke-width:1.5}
+</style><rect x="0" y="0" width="960" height="520" fill="white"/>
+<text class="text" x="70" y="42" font-size="24" font-weight="700">Portfolio complexity: why more SKUs eventually stop helping</text>
+<line class="axis" x1="95" y1="430" x2="890" y2="430"/><line class="axis" x1="95" y1="430" x2="95" y2="85"/>
+<text class="text" x="390" y="485" font-size="18">Number of active SKUs →</text><text class="text" transform="translate(35 330) rotate(-90)" font-size="18">Relative financial effect</text>
+<path class="line1" d="M110 390 C230 300 330 210 445 165 C575 120 730 115 870 118"/>
+<path class="line2" d="M110 405 C230 380 355 330 470 255 C585 180 720 125 870 92"/>
+<path class="line3" d="M110 415 C245 340 360 240 470 205 C575 170 675 235 870 355"/>
+<text class="text" x="770" y="137" font-size="17" font-weight="700">Revenue</text><text class="text" x="790" y="92" font-size="17" font-weight="700">Cost</text><text class="text" x="735" y="337" font-size="17" font-weight="700">Profit</text>
+<rect class="accent" x="400" y="185" width="170" height="52" rx="12"/><text class="text" x="485" y="207" text-anchor="middle" font-size="15" font-weight="700">Useful variety zone</text><text class="muted" x="485" y="226" text-anchor="middle" font-size="13">Enough choice, controlled complexity</text>
+<text class="muted" x="118" y="455" font-size="13">Too little variety</text><text class="muted" x="760" y="455" font-size="13">Too much complexity</text>
+<text class="muted" x="95" y="507" font-size="12">Illustrative curves only — not measured company data.</text></svg>

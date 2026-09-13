@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+<title id="title">Economic cycle and trend</title><desc id="desc">Original educational visualization created for the Supply Chain Design Notes repository.</desc>
+<style>
+.text{font-family:Arial,Helvetica,sans-serif;fill:#172033} .muted{fill:#596579} .grid{stroke:#d9dee8;stroke-width:1} .axis{stroke:#606b7d;stroke-width:2} .line1{stroke:#245a8d;stroke-width:4;fill:none} .line2{stroke:#2a8b7b;stroke-width:4;fill:none} .line3{stroke:#b7791f;stroke-width:4;fill:none} .dash{stroke:#7b8799;stroke-width:3;stroke-dasharray:10 8;fill:none} .card{fill:#f7f9fc;stroke:#cbd3df;stroke-width:1.5} .accent{fill:#eaf2fb;stroke:#8fb3da;stroke-width:1.5}
+</style><rect x="0" y="0" width="960" height="520" fill="white"/>
+<text class="text" x="70" y="42" font-size="24" font-weight="700">Economic cycle around a longer-term growth path</text>
+<line class="axis" x1="95" y1="430" x2="890" y2="430"/><line class="axis" x1="95" y1="430" x2="95" y2="85"/>
+<text class="text" x="455" y="485" font-size="18">Time →</text><text class="text" transform="translate(35 325) rotate(-90)" font-size="18">Economic output</text>
+<path class="dash" d="M105 385 L875 145"/>
+<path class="line1" d="M110 360 C180 255 245 225 315 315 C385 410 455 345 515 245 C575 150 645 160 705 260 C770 365 825 265 875 175"/>
+<circle cx="245" cy="238" r="6" fill="#245a8d"/><text class="text" x="225" y="215" font-size="14">Peak</text>
+<circle cx="385" cy="365" r="6" fill="#245a8d"/><text class="text" x="367" y="392" font-size="14">Trough</text>
+<text class="text" x="295" y="295" font-size="14">Contraction</text><text class="text" x="430" y="300" font-size="14">Expansion</text>
+<text class="muted" x="615" y="135" font-size="14">Longer-term trend</text>
+<text class="muted" x="95" y="507" font-size="12">Conceptual illustration: cycle length and amplitude are not fixed.</text></svg>

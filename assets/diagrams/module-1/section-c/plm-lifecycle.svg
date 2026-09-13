@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
+<title id="title">Product lifecycle management from beginning to end of life</title><desc id="desc">Original educational visualization showing PLM focus across beginning, middle, and end of life.</desc>
+
+<style>
+.text{font-family:Arial,Helvetica,sans-serif;fill:#172033}
+.muted{font-family:Arial,Helvetica,sans-serif;fill:#596579}
+.small{font-family:Arial,Helvetica,sans-serif;fill:#596579;font-size:13px}
+.title{font-family:Arial,Helvetica,sans-serif;fill:#172033;font-size:24px;font-weight:700}
+.box{fill:#f7f9fc;stroke:#cbd3df;stroke-width:1.6}
+.blue{fill:#eaf2fb;stroke:#8fb3da;stroke-width:1.6}
+.green{fill:#ebf6f1;stroke:#86b8a8;stroke-width:1.6}
+.gold{fill:#fff6df;stroke:#d7b363;stroke-width:1.6}
+.purple{fill:#f3eefb;stroke:#aa95d4;stroke-width:1.6}
+.red{fill:#faeeee;stroke:#d59898;stroke-width:1.6}
+.line{stroke:#526172;stroke-width:2.2;fill:none}
+.dash{stroke:#7b8799;stroke-width:2;fill:none;stroke-dasharray:8 7}
+.axis{stroke:#606b7d;stroke-width:2}
+</style>
+<rect width="1040" height="560" fill="white"/>
+<text class="title" x="50" y="45">PLM connects product information and decisions from idea to end of support</text>
+<rect class="green" x="55" y="110" width="290" height="320" rx="16"/><text class="text" x="200" y="145" text-anchor="middle" font-size="19" font-weight="700">Beginning of life</text>
+<text class="small" x="85" y="190">Research &amp; market need</text><text class="small" x="85" y="225">Concept / design</text><text class="small" x="85" y="260">Prototype / engineering</text><text class="small" x="85" y="295">Supplier &amp; manufacturing readiness</text><text class="small" x="85" y="330">Launch and controlled effectivity</text><text class="small" x="85" y="365">Version / BOM / document control</text>
+<rect class="blue" x="375" y="110" width="290" height="320" rx="16"/><text class="text" x="520" y="145" text-anchor="middle" font-size="19" font-weight="700">Middle of life</text>
+<text class="small" x="405" y="190">Growth and capacity scale-up</text><text class="small" x="405" y="225">Product use and performance</text><text class="small" x="405" y="260">Quality / service feedback</text><text class="small" x="405" y="295">Engineering changes</text><text class="small" x="405" y="330">Serial / lot traceability</text><text class="small" x="405" y="365">Upgrade and recall readiness</text>
+<rect class="gold" x="695" y="110" width="290" height="320" rx="16"/><text class="text" x="840" y="145" text-anchor="middle" font-size="19" font-weight="700">End of life</text>
+<text class="small" x="725" y="190">Phase-out planning</text><text class="small" x="725" y="225">Last-time buys / final production</text><text class="small" x="725" y="260">Warranty / service obligations</text><text class="small" x="725" y="295">Returns and reverse logistics</text><text class="small" x="725" y="330">Reuse / recycle / remanufacture</text><text class="small" x="725" y="365">Supplier / asset exit decisions</text>
+<path class="line" d="M345 270 L375 270"/><path class="line" d="M665 270 L695 270"/><text class="small" x="55" y="500">A major PLM value is preserving the right product information - version, effectivity, configuration, lot/serial identity - across all three phases.</text>
+</svg>

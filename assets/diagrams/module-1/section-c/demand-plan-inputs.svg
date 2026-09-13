@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="600" viewBox="0 0 980 600" role="img" aria-labelledby="title desc">
+<title id="title">Demand plan inputs and uses</title><desc id="desc">Original educational visualization showing the main contributors to a consensus demand plan and the business functions that use it.</desc>
+
+<style>
+.text{font-family:Arial,Helvetica,sans-serif;fill:#172033}
+.muted{font-family:Arial,Helvetica,sans-serif;fill:#596579}
+.small{font-family:Arial,Helvetica,sans-serif;fill:#596579;font-size:13px}
+.title{font-family:Arial,Helvetica,sans-serif;fill:#172033;font-size:24px;font-weight:700}
+.box{fill:#f7f9fc;stroke:#cbd3df;stroke-width:1.6}
+.blue{fill:#eaf2fb;stroke:#8fb3da;stroke-width:1.6}
+.green{fill:#ebf6f1;stroke:#86b8a8;stroke-width:1.6}
+.gold{fill:#fff6df;stroke:#d7b363;stroke-width:1.6}
+.purple{fill:#f3eefb;stroke:#aa95d4;stroke-width:1.6}
+.red{fill:#faeeee;stroke:#d59898;stroke-width:1.6}
+.line{stroke:#526172;stroke-width:2.2;fill:none}
+.dash{stroke:#7b8799;stroke-width:2;fill:none;stroke-dasharray:8 7}
+.axis{stroke:#606b7d;stroke-width:2}
+</style>
+<rect width="980" height="600" fill="white"/>
+<text class="title" x="55" y="45">A demand plan is built from evidence, assumptions, and commercial commitments</text>
+<rect class="blue" x="365" y="215" width="250" height="120" rx="18"/><text class="text" x="490" y="255" text-anchor="middle" font-size="20" font-weight="700">Consensus demand plan</text><text class="muted" x="490" y="286" text-anchor="middle" font-size="14">Units, value, timing, price assumptions</text>
+<g><rect class="green" x="55" y="100" width="215" height="90" rx="12"/><text class="text" x="162" y="135" text-anchor="middle" font-size="17" font-weight="700">Forecasts</text><text class="muted" x="162" y="160" text-anchor="middle" font-size="13">History + market evidence</text></g>
+<g><rect class="green" x="55" y="235" width="215" height="90" rx="12"/><text class="text" x="162" y="270" text-anchor="middle" font-size="17" font-weight="700">Commercial plans</text><text class="muted" x="162" y="295" text-anchor="middle" font-size="13">Marketing, sales, brand actions</text></g>
+<g><rect class="green" x="55" y="370" width="215" height="90" rx="12"/><text class="text" x="162" y="405" text-anchor="middle" font-size="17" font-weight="700">Business direction</text><text class="muted" x="162" y="430" text-anchor="middle" font-size="13">Strategy and financial goals</text></g>
+<g><rect class="gold" x="710" y="85" width="215" height="82" rx="12"/><text class="text" x="817" y="117" text-anchor="middle" font-size="16" font-weight="700">Operations &amp; logistics</text><text class="muted" x="817" y="142" text-anchor="middle" font-size="13">Capacity and flow planning</text></g>
+<g><rect class="gold" x="710" y="195" width="215" height="82" rx="12"/><text class="text" x="817" y="227" text-anchor="middle" font-size="16" font-weight="700">Finance</text><text class="muted" x="817" y="252" text-anchor="middle" font-size="13">Revenue, margin, cash</text></g>
+<g><rect class="gold" x="710" y="305" width="215" height="82" rx="12"/><text class="text" x="817" y="337" text-anchor="middle" font-size="16" font-weight="700">Sales &amp; marketing</text><text class="muted" x="817" y="362" text-anchor="middle" font-size="13">Targets and execution</text></g>
+<g><rect class="gold" x="710" y="415" width="215" height="82" rx="12"/><text class="text" x="817" y="447" text-anchor="middle" font-size="16" font-weight="700">Product / service teams</text><text class="muted" x="817" y="472" text-anchor="middle" font-size="13">Roadmap and lifecycle choices</text></g>
+<path class="line" d="M270 145 C330 150 330 235 365 250"/><path class="line" d="M270 280 L365 275"/><path class="line" d="M270 415 C330 400 330 320 365 300"/>
+<path class="line" d="M615 255 C660 230 670 145 710 128"/><path class="line" d="M615 270 L710 238"/><path class="line" d="M615 285 L710 345"/><path class="line" d="M615 300 C660 330 670 430 710 455"/>
+<rect class="box" x="330" y="395" width="320" height="100" rx="12"/><text class="text" x="490" y="425" text-anchor="middle" font-size="16" font-weight="700">Always document the uncertainty</text><text class="muted" x="490" y="452" text-anchor="middle" font-size="13">Assumptions • risks • opportunities • confidence</text><text class="muted" x="490" y="475" text-anchor="middle" font-size="13">These make the number discussable, not just reportable.</text>
+</svg>

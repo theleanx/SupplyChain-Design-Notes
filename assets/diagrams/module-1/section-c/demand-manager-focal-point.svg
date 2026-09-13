@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="600" viewBox="0 0 980 600" role="img" aria-labelledby="title desc">
+<title id="title">Demand manager as cross-functional focal point</title><desc id="desc">Original educational visualization showing a demand manager connecting commercial, supply, finance, product, and key customer stakeholders.</desc>
+
+<style>
+.text{font-family:Arial,Helvetica,sans-serif;fill:#172033}
+.muted{font-family:Arial,Helvetica,sans-serif;fill:#596579}
+.small{font-family:Arial,Helvetica,sans-serif;fill:#596579;font-size:13px}
+.title{font-family:Arial,Helvetica,sans-serif;fill:#172033;font-size:24px;font-weight:700}
+.box{fill:#f7f9fc;stroke:#cbd3df;stroke-width:1.6}
+.blue{fill:#eaf2fb;stroke:#8fb3da;stroke-width:1.6}
+.green{fill:#ebf6f1;stroke:#86b8a8;stroke-width:1.6}
+.gold{fill:#fff6df;stroke:#d7b363;stroke-width:1.6}
+.purple{fill:#f3eefb;stroke:#aa95d4;stroke-width:1.6}
+.red{fill:#faeeee;stroke:#d59898;stroke-width:1.6}
+.line{stroke:#526172;stroke-width:2.2;fill:none}
+.dash{stroke:#7b8799;stroke-width:2;fill:none;stroke-dasharray:8 7}
+.axis{stroke:#606b7d;stroke-width:2}
+</style>
+<rect width="980" height="600" fill="white"/>
+<text class="title" x="55" y="45">Demand manager: the person who keeps the demand conversation connected</text>
+<circle cx="490" cy="300" r="105" fill="#eaf2fb" stroke="#8fb3da" stroke-width="2"/><text class="text" x="490" y="285" text-anchor="middle" font-size="20" font-weight="700">Demand manager</text><text class="muted" x="490" y="315" text-anchor="middle" font-size="14">Analyze • challenge • build consensus</text><text class="muted" x="490" y="338" text-anchor="middle" font-size="14">communicate • monitor • replan</text><circle cx="160" cy="130" r="78" fill="#ebf6f1" stroke="#86b8a8" stroke-width="1.6"/><text class="text" x="160" y="123" text-anchor="middle" font-size="16" font-weight="700">Marketing</text><text class="muted" x="160" y="148" text-anchor="middle" font-size="12">Market activity &amp; signals</text><path class="line" d="M160 130 L398 252"/><circle cx="490" cy="105" r="78" fill="#ebf6f1" stroke="#86b8a8" stroke-width="1.6"/><text class="text" x="490" y="98" text-anchor="middle" font-size="16" font-weight="700">Sales</text><text class="muted" x="490" y="123" text-anchor="middle" font-size="12">Pipeline &amp; commitments</text><path class="line" d="M490 105 L490 245"/><circle cx="820" cy="130" r="78" fill="#ebf6f1" stroke="#86b8a8" stroke-width="1.6"/><text class="text" x="820" y="123" text-anchor="middle" font-size="16" font-weight="700">Key customers</text><text class="muted" x="820" y="148" text-anchor="middle" font-size="12">Requirement visibility</text><path class="line" d="M820 130 L582 252"/><circle cx="150" cy="430" r="78" fill="#ebf6f1" stroke="#86b8a8" stroke-width="1.6"/><text class="text" x="150" y="423" text-anchor="middle" font-size="16" font-weight="700">Product / brand</text><text class="muted" x="150" y="448" text-anchor="middle" font-size="12">Lifecycle &amp; offer choices</text><path class="line" d="M150 430 L395 336"/><circle cx="490" cy="500" r="78" fill="#ebf6f1" stroke="#86b8a8" stroke-width="1.6"/><text class="text" x="490" y="493" text-anchor="middle" font-size="16" font-weight="700">Finance</text><text class="muted" x="490" y="518" text-anchor="middle" font-size="12">Value and business-plan fit</text><path class="line" d="M490 500 L490 356"/><circle cx="830" cy="430" r="78" fill="#fff6df" stroke="#d7b363" stroke-width="1.6"/><text class="text" x="830" y="423" text-anchor="middle" font-size="16" font-weight="700">Supply planners</text><text class="muted" x="830" y="448" text-anchor="middle" font-size="12">Capacity and response</text><path class="line" d="M830 430 L585 336"/><text class="small" x="55" y="565">The role is not to “own every forecast.” It is to make assumptions visible, align stakeholders, and trigger action when actual demand diverges from plan.</text></svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="650" viewBox="0 0 980 650" role="img" aria-labelledby="title desc">
+<title id="title">NPI frequency versus demand uncertainty</title><desc id="desc">Original educational matrix comparing low and high new-product-introduction frequency with stable and unstable demand.</desc>
+
+<style>
+.text{font-family:Arial,Helvetica,sans-serif;fill:#172033}
+.muted{font-family:Arial,Helvetica,sans-serif;fill:#596579}
+.small{font-family:Arial,Helvetica,sans-serif;fill:#596579;font-size:13px}
+.title{font-family:Arial,Helvetica,sans-serif;fill:#172033;font-size:24px;font-weight:700}
+.box{fill:#f7f9fc;stroke:#cbd3df;stroke-width:1.6}
+.blue{fill:#eaf2fb;stroke:#8fb3da;stroke-width:1.6}
+.green{fill:#ebf6f1;stroke:#86b8a8;stroke-width:1.6}
+.gold{fill:#fff6df;stroke:#d7b363;stroke-width:1.6}
+.purple{fill:#f3eefb;stroke:#aa95d4;stroke-width:1.6}
+.red{fill:#faeeee;stroke:#d59898;stroke-width:1.6}
+.line{stroke:#526172;stroke-width:2.2;fill:none}
+.dash{stroke:#7b8799;stroke-width:2;fill:none;stroke-dasharray:8 7}
+.axis{stroke:#606b7d;stroke-width:2}
+</style>
+<rect width="980" height="650" fill="white"/>
+<text class="title" x="55" y="45">Match product design and supply-chain response to clockspeed and demand uncertainty</text>
+<text class="text" x="505" y="610" text-anchor="middle" font-size="16">NPI frequency / technology clockspeed →</text><text class="text" x="25" y="340" transform="rotate(-90 25 340)" text-anchor="middle" font-size="16">Demand uncertainty →</text>
+<rect class="green" x="110" y="110" width="355" height="220" rx="12"/><rect class="purple" x="500" y="110" width="355" height="220" rx="12"/>
+<rect class="blue" x="110" y="355" width="355" height="220" rx="12"/><rect class="gold" x="500" y="355" width="355" height="220" rx="12"/>
+<text class="text" x="287" y="145" text-anchor="middle" font-size="17" font-weight="700">Unstable demand + low clockspeed</text><text class="small" x="135" y="185">• Longer life cycle</text><text class="small" x="135" y="215">• Forecast to common components</text><text class="small" x="135" y="245">• Postpone final configuration</text><text class="small" x="135" y="275">• Hybrid push / pull can work</text>
+<text class="text" x="677" y="145" text-anchor="middle" font-size="17" font-weight="700">Unstable demand + high clockspeed</text><text class="small" x="525" y="185">• Short life cycle</text><text class="small" x="525" y="215">• Pull / MTO bias</text><text class="small" x="525" y="245">• Modular design and short lead time</text><text class="small" x="525" y="275">• Responsiveness over lowest cost</text>
+<text class="text" x="287" y="390" text-anchor="middle" font-size="17" font-weight="700">Stable demand + low clockspeed</text><text class="small" x="135" y="430">• Functional / staple products</text><text class="small" x="135" y="460">• Make-to-stock</text><text class="small" x="135" y="490">• Efficiency and high turnover</text><text class="small" x="135" y="520">• Integral design can be practical</text>
+<text class="text" x="677" y="390" text-anchor="middle" font-size="17" font-weight="700">Stable demand + high clockspeed</text><text class="small" x="525" y="430">• Often components / platforms</text><text class="small" x="525" y="460">• Modular reuse across versions</text><text class="small" x="525" y="490">• Push can remain efficient</text><text class="small" x="525" y="520">• Fast design change, steady volume</text>
+<text class="small" x="115" y="595">Low</text><text class="small" x="825" y="595">High</text><text class="small" x="55" y="570">Stable</text><text class="small" x="55" y="120">Unstable</text>
+</svg>

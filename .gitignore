@@ -1,0 +1,18 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Local working material and protected sources
+private/
+source-materials/
+*.pdf
+*.ppt
+*.pptx
+*.doc
+*.docx
+
+# Generated output
+dist/
+build/

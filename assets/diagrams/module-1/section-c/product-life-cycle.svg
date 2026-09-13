@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">Product life cycle and supply-chain priorities</title><desc id="desc">Original educational visualization of development, introduction, growth, maturity, and decline with changing supply-chain priorities.</desc>
+
+<style>
+.text{font-family:Arial,Helvetica,sans-serif;fill:#172033}
+.muted{font-family:Arial,Helvetica,sans-serif;fill:#596579}
+.small{font-family:Arial,Helvetica,sans-serif;fill:#596579;font-size:13px}
+.title{font-family:Arial,Helvetica,sans-serif;fill:#172033;font-size:24px;font-weight:700}
+.box{fill:#f7f9fc;stroke:#cbd3df;stroke-width:1.6}
+.blue{fill:#eaf2fb;stroke:#8fb3da;stroke-width:1.6}
+.green{fill:#ebf6f1;stroke:#86b8a8;stroke-width:1.6}
+.gold{fill:#fff6df;stroke:#d7b363;stroke-width:1.6}
+.purple{fill:#f3eefb;stroke:#aa95d4;stroke-width:1.6}
+.red{fill:#faeeee;stroke:#d59898;stroke-width:1.6}
+.line{stroke:#526172;stroke-width:2.2;fill:none}
+.dash{stroke:#7b8799;stroke-width:2;fill:none;stroke-dasharray:8 7}
+.axis{stroke:#606b7d;stroke-width:2}
+</style>
+<rect width="1000" height="560" fill="white"/>
+<text class="title" x="55" y="45">Product life cycle: the supply-chain priority changes as the market changes</text>
+<line class="axis" x1="90" y1="385" x2="930" y2="385"/><line class="axis" x1="90" y1="385" x2="90" y2="95"/>
+<path d="M105 370 C180 365 205 335 245 300 C305 245 340 165 430 145 C535 120 620 145 690 175 C760 205 815 260 900 355" stroke="#245a8d" stroke-width="5" fill="none"/>
+<line class="dash" x1="210" y1="100" x2="210" y2="385"/><line class="dash" x1="365" y1="100" x2="365" y2="385"/><line class="dash" x1="595" y1="100" x2="595" y2="385"/><line class="dash" x1="790" y1="100" x2="790" y2="385"/>
+<text class="text" x="145" y="420" text-anchor="middle" font-size="15" font-weight="700">Development</text><text class="text" x="285" y="420" text-anchor="middle" font-size="15" font-weight="700">Introduction</text><text class="text" x="480" y="420" text-anchor="middle" font-size="15" font-weight="700">Growth</text><text class="text" x="690" y="420" text-anchor="middle" font-size="15" font-weight="700">Maturity</text><text class="text" x="860" y="420" text-anchor="middle" font-size="15" font-weight="700">Decline</text>
+<text class="small" x="115" y="462">Design + market validation</text><text class="small" x="235" y="485">Build awareness and channels</text><text class="small" x="425" y="462">Scale capacity; avoid stockouts</text><text class="small" x="640" y="485">Efficiency + differentiation</text><text class="small" x="810" y="462">Phase-out + service support</text>
+<text class="muted" x="20" y="250" transform="rotate(-90 20 250)" font-size="15">Sales / market demand</text>
+<text class="small" x="55" y="535">The curve is conceptual. Different products can have very different durations and peak shapes.</text>
+</svg>

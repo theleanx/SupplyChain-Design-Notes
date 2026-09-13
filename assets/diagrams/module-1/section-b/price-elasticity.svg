@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+<title id="title">Price elasticity comparison</title><desc id="desc">Original educational visualization created for the Supply Chain Design Notes repository.</desc>
+<style>
+.text{font-family:Arial,Helvetica,sans-serif;fill:#172033} .muted{fill:#596579} .grid{stroke:#d9dee8;stroke-width:1} .axis{stroke:#606b7d;stroke-width:2} .line1{stroke:#245a8d;stroke-width:4;fill:none} .line2{stroke:#2a8b7b;stroke-width:4;fill:none} .line3{stroke:#b7791f;stroke-width:4;fill:none} .dash{stroke:#7b8799;stroke-width:3;stroke-dasharray:10 8;fill:none} .card{fill:#f7f9fc;stroke:#cbd3df;stroke-width:1.5} .accent{fill:#eaf2fb;stroke:#8fb3da;stroke-width:1.5}
+</style><rect x="0" y="0" width="960" height="520" fill="white"/>
+<text class="text" x="70" y="42" font-size="24" font-weight="700">Price elasticity: same price change, different demand response</text>
+<rect class="card" x="70" y="90" width="380" height="335" rx="14"/><rect class="card" x="510" y="90" width="380" height="335" rx="14"/>
+<text class="text" x="260" y="125" text-anchor="middle" font-size="19" font-weight="700">Relatively inelastic</text><text class="muted" x="260" y="150" text-anchor="middle" font-size="13">Demand changes only modestly</text>
+<line class="axis" x1="120" y1="370" x2="405" y2="370"/><line class="axis" x1="120" y1="370" x2="120" y2="175"/><path class="line1" d="M220 190 L285 350"/><text class="text" x="305" y="305" font-size="14">steep response</text>
+<text class="text" x="700" y="125" text-anchor="middle" font-size="19" font-weight="700">Relatively elastic</text><text class="muted" x="700" y="150" text-anchor="middle" font-size="13">Demand changes strongly</text>
+<line class="axis" x1="560" y1="370" x2="845" y2="370"/><line class="axis" x1="560" y1="370" x2="560" y2="175"/><path class="line2" d="M590 220 L825 315"/><text class="text" x="690" y="205" font-size="14">flatter response</text>
+<text class="muted" x="70" y="468" font-size="14">Classification uses the magnitude of % change in quantity ÷ % change in price.</text><text class="muted" x="70" y="493" font-size="12">Conceptual curves — not empirical demand functions.</text></svg>
