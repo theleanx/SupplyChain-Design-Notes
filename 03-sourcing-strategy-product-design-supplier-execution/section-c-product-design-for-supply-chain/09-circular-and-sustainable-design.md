@@ -16,30 +16,25 @@ Sustainable design considers materials, energy, safety, durability, repair, pack
 
 Recovery is rarely economical when disassembly, identification, testing, ownership, and return incentives are added after launch.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Map lifecycle impacts and obligations"] --> B
-    B["Select a recovery hierarchy"] --> C
-    C["Design identification and disassembly"] --> D
-    D["Create return economics and channels"] --> E
-    E["Measure recovery yield and residual waste"]
-```
+![Circular and Sustainable Design decision workflow](../../assets/diagrams/module-3/section-c/09-circular-and-sustainable-design-workflow.svg)
 
-1. **Map lifecycle impacts and obligations.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Select a recovery hierarchy.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Design identification and disassembly.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Create return economics and channels.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Measure recovery yield and residual waste.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
 
-## Original diagram
-
-![Circular design loop](../../assets/diagrams/module-3/section-c/circular-design.svg)
+| Stage | Required evidence or output |
+|---|---|
+| **1. Map lifecycle impacts and obligations** | Lifecycle impact, material, energy, emissions, regulatory, labor, and waste baseline |
+| **2. Select a recovery hierarchy** | Preferred hierarchy emphasizing prevention, life extension, reuse, repair, remanufacture, then recycling |
+| **3. Design identification and disassembly** | Identification, diagnostic, disassembly, cleaning, repair, and material-separation features |
+| **4. Create return economics and channels** | Return channel and economic model covering incentive, transport, inspection, yield, demand, and ownership |
+| **5. Measure recovery yield and residual waste** | Recovery dashboard for return rate, reuse yield, recovered value, energy, emissions, and residual waste |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark designs compressor cores with serial traceability, replaceable wear parts, standardized test ports, and a refundable core charge. Returned units are screened for reuse, remanufacture, parts harvesting, or recycling.
+
+**Decision insight.** Traceability and standardized tests allow each return to follow the highest-value safe recovery path instead of defaulting all units to recycling.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -53,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Durability may add material and upfront cost | Quantify the benefit and the exposure using the same scope and horizon. |
-| Easy disassembly can conflict with sealing or tamper resistance | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Durability may add material and upfront cost | Evaluate added material against longer life, repairability, failure reduction, recovery value, and avoided replacement—not purchase cost alone. |
+| Easy disassembly can conflict with sealing or tamper resistance | Use selective access, reversible joints, tamper evidence, and controlled service procedures to balance recovery with safety and sealing. |
 
 ## Commonly confused with
 

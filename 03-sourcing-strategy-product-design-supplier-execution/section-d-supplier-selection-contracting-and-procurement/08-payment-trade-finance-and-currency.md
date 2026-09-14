@@ -16,26 +16,25 @@ Payment terms allocate timing and counterparty risk. Documentary instruments can
 
 A favorable item price can be offset by financing cost, documentation failure, delayed cash, bank fees, or currency movement.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Assess buyer, seller, country, and transaction risk"] --> B
-    B["Choose payment timing and instrument"] --> C
-    C["Define documents, currency, and discrepancies"] --> D
-    D["Assign treasury and bank actions"] --> E
-    E["Reconcile shipment, title, and settlement"]
-```
+![Payment, Trade Finance, and Currency Exposure decision workflow](../../assets/diagrams/module-3/section-d/08-payment-trade-finance-and-currency-workflow.svg)
 
-1. **Assess buyer, seller, country, and transaction risk.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Choose payment timing and instrument.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Define documents, currency, and discrepancies.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Assign treasury and bank actions.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Reconcile shipment, title, and settlement.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Assess buyer, seller, country, and transaction risk** | Counterparty, country, bank, political, transport, fraud, and document risk assessment |
+| **2. Choose payment timing and instrument** | Payment timing and instrument aligned to trust, leverage, cash needs, and risk |
+| **3. Define documents, currency, and discrepancies** | Required documents, currencies, exchange-rate basis, fees, tolerances, and discrepancy process |
+| **4. Assign treasury and bank actions** | Treasury, finance, procurement, logistics, bank, and supplier responsibilities and deadlines |
+| **5. Reconcile shipment, title, and settlement** | Reconciliation of shipment, acceptance, title, documents, invoice, currency, and settlement |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark buys tooling in euros while reporting in U.S. dollars. Finance records the exposure at contract approval, compares natural offsets and hedging options, and defines who absorbs bank and document-discrepancy fees.
+
+**Decision insight.** Recording the euro exposure at approval makes currency risk visible before price variance appears, when treasury still has practical options.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| More secure instruments reduce counterparty risk but add cost and documentation | Quantify the benefit and the exposure using the same scope and horizon. |
-| Longer terms improve buyer cash but can weaken supplier health | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| More secure instruments reduce counterparty risk but add cost and documentation | Use more secure instruments for unfamiliar or high-risk transactions, then simplify as performance and trust become evidenced. |
+| Longer terms improve buyer cash but can weaken supplier health | Test payment terms against supplier liquidity and financing cost because apparent working-capital gains can return through price or failure risk. |
 
 ## Commonly confused with
 

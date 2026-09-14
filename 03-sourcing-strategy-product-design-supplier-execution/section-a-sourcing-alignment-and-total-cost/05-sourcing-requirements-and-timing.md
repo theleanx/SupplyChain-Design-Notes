@@ -16,26 +16,25 @@ A sourcing requirement states what the supply solution must achieve and by when.
 
 Vague requirements create incomparable proposals and late disputes. Timing must include qualification, tooling, integration, ramp-up, logistics, and approval—not just the supplier's quoted production lead time.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Segment demand and service needs"] --> B
-    B["Define measurable requirements"] --> C
-    C["Separate mandatory from weighted criteria"] --> D
-    D["Build the readiness timeline"] --> E
-    E["Approve assumptions and tolerances"]
-```
+![Sourcing Requirements and Timing decision workflow](../../assets/diagrams/module-3/section-a/05-sourcing-requirements-and-timing-workflow.svg)
 
-1. **Segment demand and service needs.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Define measurable requirements.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Separate mandatory from weighted criteria.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Build the readiness timeline.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Approve assumptions and tolerances.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Segment demand and service needs** | Demand and service segments with baseline, upside, downside, and emergency scenarios |
+| **2. Define measurable requirements** | Requirements written with unit, measurement method, tolerance, and evidence source |
+| **3. Separate mandatory from weighted criteria** | Pass/fail gates separated from scored preferences and negotiation variables |
+| **4. Build the readiness timeline** | Backward plan for design freeze, qualification, tooling, ramp, and first usable supply |
+| **5. Approve assumptions and tolerances** | Cross-functional approval of assumptions, ownership, exceptions, and change control |
 
 ## Realistic example — Rivermark Climate Systems
 
 For a refrigerant sensor, Rivermark specifies annual volume of 48,000 units, a peak month of 5,600, 12-week initial qualification, 98% delivery reliability, traceable calibration records, and a four-week surge response for a 20% increase.
+
+**Decision insight.** The requirement set is bid-ready because suppliers can tell exactly how delivery reliability, surge response, and calibration evidence will be measured.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Tighter requirements reduce risk but may reduce competition | Quantify the benefit and the exposure using the same scope and horizon. |
-| Earlier commitment protects capacity but increases forecast exposure | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Tighter requirements reduce risk but may reduce competition | Make a requirement mandatory only when failure creates an unacceptable safety, regulatory, quality, or service consequence. |
+| Earlier commitment protects capacity but increases forecast exposure | Secure flexible capacity in bands or options when forecast uncertainty makes a firm volume commitment unnecessarily expensive. |
 
 ## Commonly confused with
 

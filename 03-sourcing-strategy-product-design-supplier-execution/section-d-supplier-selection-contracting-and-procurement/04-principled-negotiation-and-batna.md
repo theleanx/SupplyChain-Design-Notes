@@ -16,26 +16,25 @@ Principled negotiation separates people from the problem, focuses on interests r
 
 Without a credible alternative, negotiators may accept an unattractive agreement or bluff beyond their ability to walk away.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Define interests, priorities, authority, and BATNA"] --> B
-    B["Estimate the counterpart's interests"] --> C
-    C["Build objective standards and options"] --> D
-    D["Trade conditionally across differences"] --> E
-    E["Document the complete agreement"]
-```
+![Principled Negotiation and BATNA decision workflow](../../assets/diagrams/module-3/section-d/04-principled-negotiation-and-batna-workflow.svg)
 
-1. **Define interests, priorities, authority, and BATNA.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Estimate the counterpart's interests.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Build objective standards and options.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Trade conditionally across differences.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Document the complete agreement.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Define interests, priorities, authority, and BATNA** | Interests, priorities, targets, reservation points, authority, risks, and credible alternative |
+| **2. Estimate the counterpart's interests** | Hypotheses about counterpart economics, constraints, stakeholders, alternatives, and priorities |
+| **3. Build objective standards and options** | Objective standards plus multiple packages that create value across differing preferences |
+| **4. Trade conditionally across differences** | Conditional trades written as linked exchanges rather than one-sided concessions |
+| **5. Document the complete agreement** | Complete term sheet covering price, scope, performance, risk, change, governance, and closure |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark wants surge capacity; the supplier wants stable loading. They exchange a rolling forecast and minimum annual volume for a reserved surge band, with performance evidence and an exit trigger.
+
+**Decision insight.** The exchange works because stable loading is valuable to the supplier and reserved surge capacity is valuable to Rivermark; both obligations are measurable.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| More transparency can unlock value but requires trust and information boundaries | Quantify the benefit and the exposure using the same scope and horizon. |
-| A strong alternative improves discipline but may cost money to maintain | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| More transparency can unlock value but requires trust and information boundaries | Disclose interests that enable joint problem solving while protecting reservation points, sensitive economics, and unauthorized commitments. |
+| A strong alternative improves discipline but may cost money to maintain | Invest in an alternative only when it is executable and its option value exceeds qualification, capacity, or switching cost. |
 
 ## Commonly confused with
 

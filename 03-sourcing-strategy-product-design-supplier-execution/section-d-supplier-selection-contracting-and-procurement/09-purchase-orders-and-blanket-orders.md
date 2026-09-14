@@ -16,26 +16,25 @@ A purchase order authorizes a defined purchase and communicates item, quantity, 
 
 Blanket structures reduce repeated transaction effort but create risks when forecasts, minimums, pricing, expiry, and release authority are unclear.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Approve the requisition and source"] --> B
-    B["Create and transmit the order or release"] --> C
-    C["Obtain supplier acknowledgement"] --> D
-    D["Control changes and commitments"] --> E
-    E["Close after receipt, acceptance, and settlement"]
-```
+![Purchase Orders and Blanket Arrangements decision workflow](../../assets/diagrams/module-3/section-d/09-purchase-orders-and-blanket-orders-workflow.svg)
 
-1. **Approve the requisition and source.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Create and transmit the order or release.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Obtain supplier acknowledgement.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Control changes and commitments.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Close after receipt, acceptance, and settlement.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Approve the requisition and source** | Approved requisition, source, price, budget, accounting, specification, quantity, date, and delivery point |
+| **2. Create and transmit the order or release** | Clear order or release transmitted through an agreed channel with version control |
+| **3. Obtain supplier acknowledgement** | Supplier acknowledgement of quantity, date, price, revision, location, and exceptions |
+| **4. Control changes and commitments** | Authorized change record covering commercial, schedule, design, and quantity effects |
+| **5. Close after receipt, acceptance, and settlement** | Closure after receipt, acceptance, invoice resolution, commitment release, and record retention |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark uses a twelve-month blanket arrangement for common filters with monthly releases. It sets forecast ranges, no automatic volume guarantee beyond firm releases, price breaks, lead time, and an exit path for repeated failure.
+
+**Decision insight.** The blanket arrangement reduces transaction effort without silently converting forecasts into guaranteed volume or allowing uncontrolled releases.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Blankets lower ordering cost but can create unintended commitments | Quantify the benefit and the exposure using the same scope and horizon. |
-| Discrete orders preserve flexibility but repeat administrative work | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Blankets lower ordering cost but can create unintended commitments | State that forecasts support planning while only defined releases create commitments; cap value, term, and quantity exposure explicitly. |
+| Discrete orders preserve flexibility but repeat administrative work | Use discrete orders for irregular or uncertain demand and automate repeat transactions where stable controls reduce total administrative cost. |
 
 ## Commonly confused with
 

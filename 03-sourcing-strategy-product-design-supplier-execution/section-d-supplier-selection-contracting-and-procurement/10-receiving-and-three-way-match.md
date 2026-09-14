@@ -16,30 +16,25 @@ Three-way match compares the authorized order, evidence of receipt or service ac
 
 The control prevents unauthorized, duplicate, incorrect, or premature payment while creating reliable inventory and financial records.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Record physical receipt or service acceptance"] --> B
-    B["Inspect according to risk and supplier status"] --> C
-    C["Compare order, receipt, and invoice"] --> D
-    D["Resolve tolerances and discrepancies"] --> E
-    E["Approve payment and close records"]
-```
+![Receiving and Three-Way Match decision workflow](../../assets/diagrams/module-3/section-d/10-receiving-and-three-way-match-workflow.svg)
 
-1. **Record physical receipt or service acceptance.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Inspect according to risk and supplier status.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Compare order, receipt, and invoice.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Resolve tolerances and discrepancies.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Approve payment and close records.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
 
-## Original diagram
-
-![Procure-to-pay control flow](../../assets/diagrams/module-3/section-d/procure-to-pay.svg)
+| Stage | Required evidence or output |
+|---|---|
+| **1. Record physical receipt or service acceptance** | Timestamped receipt or service acceptance linked to order, shipment, lot, serial, and location |
+| **2. Inspect according to risk and supplier status** | Risk-based inspection status, sample, result, nonconformance, disposition, and release authority |
+| **3. Compare order, receipt, and invoice** | Comparison of order, accepted receipt, and invoice for item, quantity, price, tax, freight, and terms |
+| **4. Resolve tolerances and discrepancies** | Owned discrepancy workflow with tolerances, evidence, debit or credit, and escalation |
+| **5. Approve payment and close records** | Payment approval and auditable closure of receipt, quality, invoice, and commitment records |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark receives 996 boards against an order for 1,000. Four were damaged in transit. The receipt records 996 accepted, the discrepancy is assigned, and the invoice is blocked until quantity and freight responsibility are resolved.
+
+**Decision insight.** Recording only the 996 accepted boards keeps inventory, supplier performance, liability, and payment aligned while the four damaged units are resolved.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -53,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Full inspection reduces escape risk but adds delay and cost | Quantify the benefit and the exposure using the same scope and horizon. |
-| Automatic match improves efficiency but depends on clean master and transaction data | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Full inspection reduces escape risk but adds delay and cost | Shift inspection intensity using supplier performance, process capability, item criticality, and change status—not convenience alone. |
+| Automatic match improves efficiency but depends on clean master and transaction data | Automate clean matches but route exceptions by cause and value so efficiency does not approve unsupported payment. |
 
 ## Commonly confused with
 

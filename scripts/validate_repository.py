@@ -12,9 +12,27 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+MODULE_3 = ROOT / "03-sourcing-strategy-product-design-supplier-execution"
 MARKDOWN_LINK = re.compile(r"(?<!!)\[[^\]]*\]\(([^)]+)\)")
 MARKDOWN_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 FENCE = "`" * 3
+MODULE_3_REQUIRED_HEADINGS = (
+    "## Decision workflow",
+    "### Evidence retained at each stage",
+    "## Realistic example",
+    "**Decision insight.**",
+    "## Trade-offs",
+    "## Common mistakes",
+    "## Original knowledge check",
+    "### Why it is correct",
+    "### Why the other answers are wrong",
+)
+MODULE_3_REJECTED_BOILERPLATE = (
+    "Confirm the decision boundary, inputs, and accountable owner before analysis begins.",
+    "Use comparable evidence and keep assumptions visible as the decision develops.",
+    "Quantify the benefit and the exposure using the same scope and horizon.",
+    "Set a guardrail, owner, and review trigger instead of assuming one permanent answer.",
+)
 
 
 def public_files() -> list[Path]:
@@ -39,6 +57,25 @@ def validate_markdown(paths: list[Path]) -> tuple[int, list[str]]:
         fence_count = sum(line.startswith(FENCE) for line in body.splitlines())
         if fence_count % 2:
             errors.append(f"{relative}: unbalanced fenced block")
+
+        if path.is_relative_to(MODULE_3) and f"{FENCE}mermaid" in body:
+            errors.append(
+                f"{relative}: Module 3 uses render-tested SVGs instead of client-rendered Mermaid"
+            )
+
+        if (
+            path.is_relative_to(MODULE_3)
+            and re.match(r"\d{2}-", path.name)
+            and "review" not in path.name
+        ):
+            if len(body.split()) < 500:
+                errors.append(f"{relative}: topic is below the 500-word content floor")
+            for heading in MODULE_3_REQUIRED_HEADINGS:
+                if heading not in body:
+                    errors.append(f"{relative}: missing quality element ({heading})")
+            for phrase in MODULE_3_REJECTED_BOILERPLATE:
+                if phrase in body:
+                    errors.append(f"{relative}: contains rejected generic boilerplate")
 
         for alt_text, target in MARKDOWN_IMAGE.findall(body):
             if not alt_text.strip():
@@ -69,6 +106,29 @@ def validate_svg(paths: list[Path]) -> list[str]:
         child_names = {child.tag.rsplit("}", 1)[-1] for child in list(root)}
         if "title" not in child_names or "desc" not in child_names:
             errors.append(f"{relative}: SVG requires title and description elements")
+
+        if path.is_relative_to(ROOT / "assets" / "diagrams" / "module-3"):
+            if root.get("role") != "img" or not root.get("aria-labelledby"):
+                errors.append(f"{relative}: SVG requires role=img and aria-labelledby")
+            if not root.get("viewBox"):
+                errors.append(f"{relative}: SVG requires a viewBox for responsive scaling")
+            descendants = list(root.iter())
+            if any(node.tag.rsplit("}", 1)[-1] == "foreignObject" for node in descendants):
+                errors.append(
+                    f"{relative}: foreignObject is prohibited because browser text can be clipped"
+                )
+            if path.name.endswith("-workflow.svg"):
+                tspans = [
+                    node
+                    for node in descendants
+                    if node.tag.rsplit("}", 1)[-1] == "tspan"
+                ]
+                if len(tspans) < 5 or any(
+                    node.get("x") is None or node.get("y") is None for node in tspans
+                ):
+                    errors.append(
+                        f"{relative}: workflow labels require explicit multiline coordinates"
+                    )
 
     return errors
 

@@ -16,26 +16,25 @@ Terms define price, scope, delivery, quality, ownership, data, confidentiality, 
 
 Ambiguous terms create different operating assumptions. Poor incentives optimize one measure while damaging another.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Define outcome and measurement method"] --> B
-    B["Assign responsibilities and dependencies"] --> C
-    C["Set thresholds, response, and remedies"] --> D
-    D["Balance incentives with guardrails"] --> E
-    E["Control changes and interpretation"]
-```
+![Terms, Service Levels, and Incentives decision workflow](../../assets/diagrams/module-3/section-d/07-terms-slas-and-incentives-workflow.svg)
 
-1. **Define outcome and measurement method.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Assign responsibilities and dependencies.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Set thresholds, response, and remedies.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Balance incentives with guardrails.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Control changes and interpretation.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Define outcome and measurement method** | Outcome definition with formula, source data, clock, exclusions, tolerance, and approval |
+| **2. Assign responsibilities and dependencies** | Responsibility matrix for supplier, buyer, carrier, system, and other dependencies |
+| **3. Set thresholds, response, and remedies** | Target, threshold, severity, notification, containment, recovery, remedy, and escalation |
+| **4. Balance incentives with guardrails** | Balanced incentive design protected by quality, safety, documentation, and behavior guardrails |
+| **5. Control changes and interpretation** | Change, interpretation, dispute, waiver, version, communication, and approval process |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark defines delivery as receipt within a two-day window, measured against the last mutually accepted schedule. A capacity incentive applies only when delivery, defect, and documentation thresholds are all met.
+
+**Decision insight.** Linking the capacity reward to delivery, quality, and documentation prevents the supplier from earning the incentive by optimizing only output volume.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Detailed terms reduce ambiguity but can become hard to operate | Quantify the benefit and the exposure using the same scope and horizon. |
-| Penalties deter failure but may encourage concealment or risk premiums | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Detailed terms reduce ambiguity but can become hard to operate | Turn only decision-relevant obligations into operational measures; keep definitions readable enough for daily users to apply consistently. |
+| Penalties deter failure but may encourage concealment or risk premiums | Use proportionate remedies alongside early-warning and recovery incentives so parties do not hide problems or price in excessive downside. |
 
 ## Commonly confused with
 

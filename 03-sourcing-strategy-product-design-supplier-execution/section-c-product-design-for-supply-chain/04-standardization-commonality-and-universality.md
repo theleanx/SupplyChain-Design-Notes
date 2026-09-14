@@ -16,26 +16,25 @@ Standardization establishes common specifications. Component commonality uses on
 
 Fewer unique items increase volume leverage, forecast pooling, interchangeability, learning, and service availability while reducing setup, inventory, and error.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Map variants and customer value"] --> B
-    B["Identify functionally equivalent parts"] --> C
-    C["Test common specifications"] --> D
-    D["Quantify lifecycle savings and compromise"] --> E
-    E["Govern new-part creation"]
-```
+![Standardization, Commonality, and Universality decision workflow](../../assets/diagrams/module-3/section-c/04-standardization-commonality-and-universality-workflow.svg)
 
-1. **Map variants and customer value.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Identify functionally equivalent parts.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Test common specifications.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Quantify lifecycle savings and compromise.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Govern new-part creation.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Map variants and customer value** | Variant-to-customer-value map showing which differences earn value and which are historical |
+| **2. Identify functionally equivalent parts** | Functionally equivalent parts and specifications identified across products and regions |
+| **3. Test common specifications** | Common design tested for performance, regulation, environment, interfaces, and failure consequence |
+| **4. Quantify lifecycle savings and compromise** | Lifecycle business case covering scale, inventory, tooling, service, qualification, and compromise |
+| **5. Govern new-part creation** | Part-creation governance with reuse search, approval authority, ownership, and retirement rules |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark replaces five low-voltage connectors with two keyed families and selects a universal power-input module. The change removes 14 stocked service combinations while preserving regional cable differences.
+
+**Decision insight.** The design removes 14 service combinations without pretending regional cable and regulatory differences can be eliminated.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Commonality improves scale but a common failure can affect more products | Quantify the benefit and the exposure using the same scope and horizon. |
-| Universality expands reach but may be suboptimal in individual markets | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Commonality improves scale but a common failure can affect more products | Reduce the blast radius of common failures through qualification, traceability, controlled change, and alternate-compatible designs. |
+| Universality expands reach but may be suboptimal in individual markets | Accept a universal design only when lifecycle simplification outweighs efficiency, cost, or performance compromises in individual markets. |
 
 ## Commonly confused with
 

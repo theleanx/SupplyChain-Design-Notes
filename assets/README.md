@@ -6,9 +6,11 @@ This directory contains independently created assets used by the learning notes.
 assets/
 ├── diagrams/module-1/section-x/   Module 1 standalone SVG diagrams
 ├── diagrams/module-2/section-x/   Module 2 standalone SVG diagrams
+├── diagrams/module-3/section-x/   Module 3 render-safe workflow SVG diagrams
 ├── data/module-1/section-x/       Module 1 section datasets
 ├── data/module-1/capstone/        Module 1 integrated case data
-└── data/module-2/section-x/       Module 2 section and capstone data
+├── data/module-2/section-x/       Module 2 section and capstone data
+└── data/module-3/section-x/       Module 3 section datasets
 ```
 
 Sections without standalone files use repository-native Mermaid diagrams or Markdown tables within their topic pages.
@@ -20,7 +22,8 @@ Sections without standalone files use repository-native Mermaid diagrams or Mark
 3. Place the asset under `diagrams/module-N/section-x/` and link it with a relative path.
 4. Add meaningful alternative text and a short explanation in the learning page.
 5. Explain its instructional purpose on the page where it is used.
-6. Confirm that the design is original and satisfies [`../ATTRIBUTION.md`](../ATTRIBUTION.md).
+6. Render the asset at full-page and narrow-page widths; inspect every label for clipping and overlap.
+7. Confirm that the design is original and satisfies [`../ATTRIBUTION.md`](../ATTRIBUTION.md).
 
 ## Mermaid process-flow placeholder
 
@@ -36,7 +39,7 @@ flowchart TD
 
 ## SVG placeholder requirements
 
-An original SVG should include a descriptive `<title>`, a useful `<desc>`, readable text, a `viewBox`, and no embedded raster image or external script. Keep the source editable and avoid copying the composition of a third-party diagram.
+An original SVG should include a descriptive `<title>`, a useful `<desc>`, readable text, a `viewBox`, and no embedded raster image or external script. Use explicit `<tspan>` line breaks when labels must wrap; do not depend on browser-specific `foreignObject` text wrapping. Keep the source editable and avoid copying the composition of a third-party diagram.
 
 ## Dataset requirements
 

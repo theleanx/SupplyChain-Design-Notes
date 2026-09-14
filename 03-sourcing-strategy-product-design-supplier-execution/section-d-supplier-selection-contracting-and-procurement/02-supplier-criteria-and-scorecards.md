@@ -16,26 +16,25 @@ Supplier evaluation combines mandatory gates with weighted criteria such as tota
 
 A numerical score is useful only when criteria are defined, evidence is comparable, and weighting reflects the category strategy.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Define pass/fail gates"] --> B
-    B["Define weighted criteria and scales"] --> C
-    C["Collect comparable evidence"] --> D
-    D["Score cross-functionally"] --> E
-    E["Test sensitivity and document judgment"]
-```
+![Supplier Criteria and Weighted Evaluation decision workflow](../../assets/diagrams/module-3/section-d/02-supplier-criteria-and-scorecards-workflow.svg)
 
-1. **Define pass/fail gates.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Define weighted criteria and scales.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Collect comparable evidence.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Score cross-functionally.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Test sensitivity and document judgment.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Define pass/fail gates** | Non-negotiable gates linked to safety, law, quality, security, capacity, or business continuity |
+| **2. Define weighted criteria and scales** | Weighted criteria, subcriteria, definitions, evidence rules, and anchored scoring scale |
+| **3. Collect comparable evidence** | Comparable supplier responses normalized for scope, volume, location, currency, and timing |
+| **4. Score cross-functionally** | Cross-functional scoring with comments, conflicts, confidence, and governance against bias |
+| **5. Test sensitivity and document judgment** | Sensitivity analysis and final judgment showing whether reasonable weight changes alter rank |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark gives compressor candidates 25% technical, 20% total cost, 15% quality, 15% capacity and delivery, 15% resilience, and 10% sustainability. A cybersecurity control is a mandatory gate rather than points that a low price can offset.
+
+**Decision insight.** Cybersecurity remains non-compensable, while the weighted model makes the economic and operational trade-offs among qualified suppliers transparent.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Weights make priorities explicit but can create false precision | Quantify the benefit and the exposure using the same scope and horizon. |
-| Gates protect critical needs but reduce the candidate pool | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Weights make priorities explicit but can create false precision | Use weights to expose priorities, then test rank stability and require narrative judgment for close or low-confidence results. |
+| Gates protect critical needs but reduce the candidate pool | Limit gates to true disqualifiers and create a time-bound remediation path only when the underlying risk can be controlled. |
 
 ## Commonly confused with
 

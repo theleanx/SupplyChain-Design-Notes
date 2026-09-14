@@ -16,30 +16,25 @@ Collaborative design brings engineering, commercial, quality, operations, sourci
 
 Sequential handoffs discover unavailable materials, impractical tolerances, packaging waste, and service problems after change becomes expensive.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Define the design question"] --> B
-    B["Invite the functions with relevant evidence"] --> C
-    C["Set confidentiality and decision rights"] --> D
-    D["Evaluate alternatives concurrently"] --> E
-    E["Record decisions and unresolved risks"]
-```
+![Collaborative Design and Early Involvement decision workflow](../../assets/diagrams/module-3/section-c/02-collaborative-design-and-early-involvement-workflow.svg)
 
-1. **Define the design question.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Invite the functions with relevant evidence.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Set confidentiality and decision rights.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Evaluate alternatives concurrently.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Record decisions and unresolved risks.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
 
-## Original diagram
-
-![Collaborative design gate](../../assets/diagrams/module-3/section-c/design-collaboration.svg)
+| Stage | Required evidence or output |
+|---|---|
+| **1. Define the design question** | Specific design decision, constraints, timing, and accountable decision owner |
+| **2. Invite the functions with relevant evidence** | Participants selected for relevant customer, engineering, supply, quality, service, and supplier evidence |
+| **3. Set confidentiality and decision rights** | Decision rights, confidentiality, background knowledge, and intellectual-property boundaries |
+| **4. Evaluate alternatives concurrently** | Concurrent alternatives compared for performance, cost, risk, timing, and lifecycle effects |
+| **5. Record decisions and unresolved risks** | Decision log recording evidence, dissent, assumptions, actions, and unresolved risks |
 
 ## Realistic example — Rivermark Climate Systems
 
 A Rivermark valve supplier identifies that a specified alloy creates a 22-week lead time. Engineering, quality, sourcing, and the supplier qualify an equivalent grade before prototype freeze, reducing lead time without weakening corrosion performance.
+
+**Decision insight.** Early involvement converts a 22-week constraint into a controlled material decision before tooling, validation, and launch timing make change expensive.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -53,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| More voices improve feasibility but can slow decisions without clear ownership | Quantify the benefit and the exposure using the same scope and horizon. |
-| Supplier involvement adds expertise but may create lock-in | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| More voices improve feasibility but can slow decisions without clear ownership | Use a clear decision owner and time-boxed evidence requests so broader expertise improves—not paralyzes—the decision. |
+| Supplier involvement adds expertise but may create lock-in | Preserve competition through interface ownership, alternative concepts, and explicit rights to tooling, data, and improvements. |
 
 ## Commonly confused with
 

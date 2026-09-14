@@ -16,26 +16,25 @@ Postponement delays irreversible product differentiation until demand is clearer
 
 Forecasts are usually more accurate at an aggregate level than for each finished variant. Holding common forms can reduce wrong-variant inventory while still serving diverse markets.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Map variants and demand uncertainty"] --> B
-    B["Find the latest feasible differentiation point"] --> C
-    C["Design common modules and local options"] --> D
-    D["Place skills, data, and capacity at the point"] --> E
-    E["Control configuration and quality"]
-```
+![Postponement, Mass Customization, and Localization decision workflow](../../assets/diagrams/module-3/section-c/08-postponement-mass-customization-and-localization-workflow.svg)
 
-1. **Map variants and demand uncertainty.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Find the latest feasible differentiation point.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Design common modules and local options.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Place skills, data, and capacity at the point.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Control configuration and quality.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Map variants and demand uncertainty** | Variant, demand-uncertainty, lead-time, and forecast-accuracy map by market and option |
+| **2. Find the latest feasible differentiation point** | Latest feasible differentiation point tested against customer response and process constraints |
+| **3. Design common modules and local options** | Common platform plus controlled modules, labels, software, packaging, and local content |
+| **4. Place skills, data, and capacity at the point** | Downstream capacity, skills, data, material, equipment, and quality-control design |
+| **5. Control configuration and quality** | Configuration rules, genealogy, test coverage, release authority, and exception handling |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark builds a common indoor unit and adds regional power cables, labels, firmware, and accessory kits at regional centers after orders are known. Common inventory absorbs demand swings across markets.
+
+**Decision insight.** Common inventory pools uncertainty across markets, while regional configuration occurs only after demand is known and remains traceable to the final unit.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Postponement reduces finished-goods risk but moves work downstream | Quantify the benefit and the exposure using the same scope and horizon. |
-| Localization improves market fit but can erode platform scale | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Postponement reduces finished-goods risk but moves work downstream | Postpone only work that downstream nodes can execute repeatedly within promised lead time and total-cost limits. |
+| Localization improves market fit but can erode platform scale | Localize customer- or regulatory-specific content while retaining common interfaces, master-data governance, and qualification standards. |
 
 ## Commonly confused with
 

@@ -16,26 +16,25 @@ Order tracking maintains shared status from acknowledgement through receipt and 
 
 Uncontrolled expediting raises freight and production cost, disrupts other customers, hides planning problems, and rewards the loudest request.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Capture confirmed dates and milestones"] --> B
-    B["Detect deviations early"] --> C
-    C["Assess customer and operational consequence"] --> D
-    D["Select the least-disruptive recovery"] --> E
-    E["Record cost, cause, and prevention"]
-```
+![Order Tracking, Exceptions, and Expediting decision workflow](../../assets/diagrams/module-3/section-d/11-order-tracking-exceptions-and-expediting-workflow.svg)
 
-1. **Capture confirmed dates and milestones.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Detect deviations early.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Assess customer and operational consequence.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Select the least-disruptive recovery.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Record cost, cause, and prevention.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Capture confirmed dates and milestones** | Supplier-confirmed dates, quantities, milestones, logistics events, and change history |
+| **2. Detect deviations early** | Exception signal comparing latest commitment with need date, buffer, and confidence |
+| **3. Assess customer and operational consequence** | Consequence assessment by customer promise, production, inventory, revenue, safety, and contract |
+| **4. Select the least-disruptive recovery** | Recovery options ranked by service protection, feasibility, collateral impact, cost, and authority |
+| **5. Record cost, cause, and prevention** | Closed-loop record of decision, premium cost, cause, accountability, and preventive action |
 
 ## Realistic example — Rivermark Climate Systems
 
 A late compressor threatens two customer units. Rivermark compares reallocating uncommitted inventory, partial shipment, supplier overtime, and air freight. The approved option protects the contractual priority customer and records the recovery cost against the cause.
+
+**Decision insight.** The recovery decision protects the highest contractual consequence while exposing premium cost and root cause instead of normalizing emergency work.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Earlier alerts create more decision time but may include false positives | Quantify the benefit and the exposure using the same scope and horizon. |
-| Buffers reduce expedites but tie up cash | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Earlier alerts create more decision time but may include false positives | Tune alerts to remaining decision time and consequence, suppress duplicates, and measure whether alerts lead to action. |
+| Buffers reduce expedites but tie up cash | Compare buffer cost with expedite frequency, premium freight, disruption consequence, and obsolescence at the item-segment level. |
 
 ## Commonly confused with
 

@@ -16,30 +16,25 @@ Contract deployment loads the agreement into processes, systems, roles, catalogs
 
 Savings and protections remain theoretical when buyers order outside the agreement, price tables are wrong, rebates are missed, or service measures are not collected.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Translate clauses into operational obligations"] --> B
-    B["Assign owners, dates, data, and controls"] --> C
-    C["Configure systems and train users"] --> D
-    D["Validate early transactions"] --> E
-    E["Monitor compliance, expiry, and improvement"]
-```
+![Contract Deployment and Compliance decision workflow](../../assets/diagrams/module-3/section-d/05-contract-deployment-and-compliance-workflow.svg)
 
-1. **Translate clauses into operational obligations.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Assign owners, dates, data, and controls.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Configure systems and train users.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Validate early transactions.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Monitor compliance, expiry, and improvement.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
 
-## Original diagram
-
-![Contract-to-control deployment](../../assets/diagrams/module-3/section-d/contract-deployment.svg)
+| Stage | Required evidence or output |
+|---|---|
+| **1. Translate clauses into operational obligations** | Clause-to-obligation register translating legal language into operational actions and conditions |
+| **2. Assign owners, dates, data, and controls** | Named owner, due date, source data, system control, evidence, escalation, and backup |
+| **3. Configure systems and train users** | Configured prices, tolerances, approvals, schedules, master data, alerts, and role-based training |
+| **4. Validate early transactions** | Early-transaction checks confirming ordering, acknowledgement, receipt, invoice, rebate, and reporting behavior |
+| **5. Monitor compliance, expiry, and improvement** | Compliance, leakage, expiry, renewal, claim, and improvement dashboard with actions |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark maps every compressor obligation to an owner: sourcing controls price and term, planning forecast cadence, quality audit evidence, engineering change notice, logistics delivery windows, and finance rebates and payment.
+
+**Decision insight.** The obligation map prevents negotiated value from remaining in a contract file by connecting every term to an operating owner, system, and evidence source.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -53,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Central control improves capture but requires accurate master data | Quantify the benefit and the exposure using the same scope and horizon. |
-| Detailed monitoring protects value but should remain proportional to risk | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Central control improves capture but requires accurate master data | Centralize obligation visibility and master-data standards while assigning operational ownership to the functions that control performance. |
+| Detailed monitoring protects value but should remain proportional to risk | Monitor high-value, high-risk, and failure-prone obligations more deeply; automate routine controls where evidence is reliable. |
 
 ## Commonly confused with
 
