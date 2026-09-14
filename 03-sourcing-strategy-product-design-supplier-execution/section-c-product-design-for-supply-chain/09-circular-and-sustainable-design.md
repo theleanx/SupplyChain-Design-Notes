@@ -33,6 +33,10 @@ flowchart TD
 4. **Create return economics and channels.** Use comparable evidence and keep assumptions visible as the decision develops.
 5. **Measure recovery yield and residual waste.** Record the result, evidence, residual risk, and next review trigger.
 
+## Original diagram
+
+![Circular design loop](../../assets/diagrams/module-3/section-c/circular-design.svg)
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark designs compressor cores with serial traceability, replaceable wear parts, standardized test ports, and a refundable core charge. Returned units are screened for reuse, remanufacture, parts harvesting, or recycling.

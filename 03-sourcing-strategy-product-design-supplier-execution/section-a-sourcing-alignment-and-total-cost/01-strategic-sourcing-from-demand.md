@@ -33,6 +33,10 @@ flowchart TD
 4. **Select relationship and commercial route.** Use comparable evidence and keep assumptions visible as the decision develops.
 5. **Contract, measure, and improve.** Record the result, evidence, residual risk, and next review trigger.
 
+## Original diagram
+
+![Demand-to-sourcing cycle](../../assets/diagrams/module-3/section-a/sourcing-cycle.svg)
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark expects service-part demand to grow 28% while new-equipment volume grows 9%. Treating both streams alike would understate the response-time requirement for service compressors. The sourcing brief therefore separates planned production replenishment from urgent installed-base support.

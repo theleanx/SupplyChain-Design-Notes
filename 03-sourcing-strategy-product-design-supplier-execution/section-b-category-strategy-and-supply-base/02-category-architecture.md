@@ -33,6 +33,10 @@ flowchart TD
 4. **Assign an accountable owner.** Use comparable evidence and keep assumptions visible as the decision develops.
 5. **Write the category strategy.** Record the result, evidence, residual risk, and next review trigger.
 
+## Original diagram
+
+![Category strategy loop](../../assets/diagrams/module-3/section-b/category-strategy.svg)
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark separates electronic controls from electrical commodities. Control boards, firmware-related services, and test fixtures share a constrained technical market; wire and standard connectors follow a broader competitive market.

@@ -121,6 +121,42 @@ Read the sections in sequence:
 
 **Finish with:** the executive scorecard and roadmap in the [AsterWorks capstone](./02-network-design-digital-connectivity-performance/capstone/README.md).
 
+## Module 3 sourcing strategy path
+
+**Goal:** convert demand and enterprise priorities into resilient sourcing and category decisions.
+
+1. [Strategic sourcing from demand](./03-sourcing-strategy-product-design-supplier-execution/section-a-sourcing-alignment-and-total-cost/01-strategic-sourcing-from-demand.md)
+2. [Make-or-buy and core capability](./03-sourcing-strategy-product-design-supplier-execution/section-a-sourcing-alignment-and-total-cost/02-make-buy-and-core-capability.md)
+3. [Landed cost and total cost of ownership](./03-sourcing-strategy-product-design-supplier-execution/section-a-sourcing-alignment-and-total-cost/06-landed-cost-and-total-cost-of-ownership.md)
+4. [Category portfolio analysis](./03-sourcing-strategy-product-design-supplier-execution/section-b-category-strategy-and-supply-base/03-portfolio-analysis.md)
+5. [Supplier attractiveness and segmentation](./03-sourcing-strategy-product-design-supplier-execution/section-b-category-strategy-and-supply-base/04-supplier-attractiveness-and-segmentation.md)
+6. [Supply-base right-sizing](./03-sourcing-strategy-product-design-supplier-execution/section-b-category-strategy-and-supply-base/07-supply-base-right-sizing.md)
+
+## Module 3 product-design path
+
+**Goal:** influence product architecture before cost, complexity, and supply risk become difficult to change.
+
+1. [Product design as a supply-chain lever](./03-sourcing-strategy-product-design-supplier-execution/section-c-product-design-for-supply-chain/01-design-as-economic-lever.md)
+2. [Collaborative design and early involvement](./03-sourcing-strategy-product-design-supplier-execution/section-c-product-design-for-supply-chain/02-collaborative-design-and-early-involvement.md)
+3. [Design for supply chain and logistics](./03-sourcing-strategy-product-design-supplier-execution/section-c-product-design-for-supply-chain/03-design-for-supply-chain-and-logistics.md)
+4. [Modular versus integral design](./03-sourcing-strategy-product-design-supplier-execution/section-c-product-design-for-supply-chain/05-modular-versus-integral-design.md)
+5. [Postponement, mass customization, and localization](./03-sourcing-strategy-product-design-supplier-execution/section-c-product-design-for-supply-chain/08-postponement-mass-customization-and-localization.md)
+6. [Circular and sustainable design](./03-sourcing-strategy-product-design-supplier-execution/section-c-product-design-for-supply-chain/09-circular-and-sustainable-design.md)
+
+## Module 3 supplier-execution path
+
+**Goal:** select, contract, transact with, and improve suppliers through auditable operating controls.
+
+1. [Purchasing flow and supplier-selection routes](./03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/01-purchasing-flow-and-selection-routes.md)
+2. [Supplier criteria and weighted evaluation](./03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/02-supplier-criteria-and-scorecards.md)
+3. [Principled negotiation and BATNA](./03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/04-principled-negotiation-and-batna.md)
+4. [Contract deployment and compliance](./03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/05-contract-deployment-and-compliance.md)
+5. [Contract types and risk allocation](./03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/06-contract-types-and-risk-allocation.md)
+6. [Receiving and three-way match](./03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/10-receiving-and-three-way-match.md)
+7. [Order tracking, exceptions, and expediting](./03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/11-order-tracking-exceptions-and-expediting.md)
+
+**Finish with:** the [Rivermark integrated sourcing-and-design capstone](./03-sourcing-strategy-product-design-supplier-execution/capstone/README.md).
+
 ## Time-boxed routes
 
 | Available time | Recommended route |
@@ -128,6 +164,6 @@ Read the sections in sequence:
 | 30 minutes | Read one module overview and the first three lessons in the most relevant role path |
 | 90 minutes | Complete one role path and its linked calculation pages |
 | Half day | Complete one section, its review, and the related capstone tasks |
-| Full study cycle | Complete both modules, all section reviews, and both capstones |
+| Full study cycle | Complete all published modules, section reviews, and capstones |
 
-Use the [glossary](./GLOSSARY.md) whenever a term is unfamiliar. For quantitative reference, open the [forecasting formula sheet](./calculations/forecasting/formula-sheet.md) or the [network and performance formula sheet](./calculations/network-performance/formula-sheet.md).
+Use the [glossary](./GLOSSARY.md) whenever a term is unfamiliar. For quantitative reference, open the [forecasting formula sheet](./calculations/forecasting/formula-sheet.md) or the [network and performance formula sheet](./calculations/network-performance/formula-sheet.md), or [sourcing and procurement formula sheet](./calculations/sourcing-procurement/formula-sheet.md).

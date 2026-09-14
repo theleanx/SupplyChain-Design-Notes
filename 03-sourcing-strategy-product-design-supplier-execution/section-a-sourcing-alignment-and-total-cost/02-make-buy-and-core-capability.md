@@ -33,6 +33,10 @@ flowchart TD
 4. **Model full economics and risk.** Use comparable evidence and keep assumptions visible as the decision develops.
 5. **Choose make, buy, or hybrid.** Record the result, evidence, residual risk, and next review trigger.
 
+## Original diagram
+
+![Make-or-buy decision path](../../assets/diagrams/module-3/section-a/make-buy-path.svg)
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark keeps control-algorithm design internal because field performance and energy efficiency differentiate its products. It buys standard fan motors and uses a qualified partner for circuit-board assembly while retaining test design, firmware, and final release.

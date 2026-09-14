@@ -33,6 +33,10 @@ flowchart TD
 4. **Resolve tolerances and discrepancies.** Use comparable evidence and keep assumptions visible as the decision develops.
 5. **Approve payment and close records.** Record the result, evidence, residual risk, and next review trigger.
 
+## Original diagram
+
+![Procure-to-pay control flow](../../assets/diagrams/module-3/section-d/procure-to-pay.svg)
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark receives 996 boards against an order for 1,000. Four were damaged in transit. The receipt records 996 accepted, the discrepancy is assigned, and the invoice is blocked until quantity and freight responsibility are resolved.

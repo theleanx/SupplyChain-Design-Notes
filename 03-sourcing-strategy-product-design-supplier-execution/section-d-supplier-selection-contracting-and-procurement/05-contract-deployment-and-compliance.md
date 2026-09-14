@@ -33,6 +33,10 @@ flowchart TD
 4. **Validate early transactions.** Use comparable evidence and keep assumptions visible as the decision develops.
 5. **Monitor compliance, expiry, and improvement.** Record the result, evidence, residual risk, and next review trigger.
 
+## Original diagram
+
+![Contract-to-control deployment](../../assets/diagrams/module-3/section-d/contract-deployment.svg)
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark maps every compressor obligation to an owner: sourcing controls price and term, planning forecast cadence, quality audit evidence, engineering change notice, logistics delivery windows, and finance rebates and payment.

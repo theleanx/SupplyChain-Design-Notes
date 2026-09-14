@@ -33,6 +33,10 @@ flowchart TD
 4. **Evaluate alternatives concurrently.** Use comparable evidence and keep assumptions visible as the decision develops.
 5. **Record decisions and unresolved risks.** Record the result, evidence, residual risk, and next review trigger.
 
+## Original diagram
+
+![Collaborative design gate](../../assets/diagrams/module-3/section-c/design-collaboration.svg)
+
 ## Realistic example — Rivermark Climate Systems
 
 A Rivermark valve supplier identifies that a specified alloy creates a 22-week lead time. Engineering, quality, sourcing, and the supplier qualify an equivalent grade before prototype freeze, reducing lead time without weakening corrosion performance.

@@ -33,6 +33,10 @@ flowchart TD
 4. **Close behavior or value gaps.** Use comparable evidence and keep assumptions visible as the decision develops.
 5. **Set engagement and escalation.** Record the result, evidence, residual risk, and next review trigger.
 
+## Original diagram
+
+![Mutual-dependence segmentation](../../assets/diagrams/module-3/section-b/supplier-segmentation.svg)
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark is a small share of a compressor supplier's revenue but offers entry to an energy-efficient product platform. It earns development attention by sharing a credible three-year roadmap, paying predictably, and reducing engineering-change churn.

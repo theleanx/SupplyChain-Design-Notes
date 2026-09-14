@@ -33,6 +33,10 @@ flowchart TD
 4. **Test configuration and failure interactions.** Use comparable evidence and keep assumptions visible as the decision develops.
 5. **Govern interface changes.** Record the result, evidence, residual risk, and next review trigger.
 
+## Original diagram
+
+![Modular platform logic](../../assets/diagrams/module-3/section-c/modular-platform.svg)
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark creates common compressor, control, and enclosure interfaces across three capacities. The acoustic treatment remains integral because its geometry depends on each enclosure and performance tier.

@@ -33,6 +33,10 @@ flowchart TD
 4. **Quantify uncertainty with scenarios.** Use comparable evidence and keep assumptions visible as the decision develops.
 5. **Compare cost with service and risk.** Record the result, evidence, residual risk, and next review trigger.
 
+## Original diagram
+
+![Quote-to-total-cost bridge](../../assets/diagrams/module-3/section-a/total-cost-bridge.svg)
+
 ## Realistic example — Rivermark Climate Systems
 
 A Rivermark control board costs $74 locally and $61 from a distant supplier. After freight, duty, 42 extra inventory days, expected defect cost, travel, and continuity controls, the annualized total is $79.20 locally versus $82.60 distantly.
