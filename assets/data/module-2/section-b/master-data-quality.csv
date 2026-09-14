@@ -1,0 +1,8 @@
+domain,records_evaluated,records_with_critical_defect,completeness_percent,timeliness_percent,primary_business_impact,owner
+Item,2400,86,97.8,96.2,planning and customs,product data lead
+Customer,860,21,99.1,98.4,promise and delivery,commercial operations lead
+Supplier,315,18,96.5,93.0,source and payment,procurement data owner
+Location,74,7,95.9,94.6,calendar and execution,network operations owner
+Resource,128,14,94.7,91.8,capacity planning,manufacturing data owner
+Lane,460,39,92.4,88.7,transport plan and promise,transportation data owner
+Finance,190,5,99.4,98.9,posting and reporting,finance data owner

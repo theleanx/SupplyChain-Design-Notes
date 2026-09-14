@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500" role="img" aria-labelledby="title desc">
+  <title id="title">Connected supply-network application landscape</title>
+  <desc id="desc">Six application layers connect engagement, transactions, planning, execution, integration, and analytics through a shared identity and governance foundation.</desc>
+  <rect width="960" height="500" rx="24" fill="#f8fafc"/>
+  <text x="48" y="46" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">Applications cooperate through governed records and events</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="80" y="85" width="800" height="52" rx="10" fill="#0f766e"/><text x="480" y="118" font-size="18" fill="white">Customer, supplier, and partner engagement</text>
+    <rect x="80" y="153" width="250" height="100" rx="12" fill="#0369a1"/><text x="205" y="195" font-size="18" fill="white">Core transactions</text><text x="205" y="220" font-size="14" fill="#e0f2fe">orders • inventory • finance</text>
+    <rect x="355" y="153" width="250" height="100" rx="12" fill="#1d4ed8"/><text x="480" y="195" font-size="18" fill="white">Planning and promise</text><text x="480" y="220" font-size="14" fill="#dbeafe">demand • supply • scenarios</text>
+    <rect x="630" y="153" width="250" height="100" rx="12" fill="#7c3aed"/><text x="755" y="195" font-size="18" fill="white">Physical execution</text><text x="755" y="220" font-size="14" fill="#ede9fe">make • store • move • return</text>
+    <rect x="80" y="280" width="385" height="72" rx="12" fill="#b45309"/><text x="272" y="323" font-size="18" fill="white">Integration, messages, APIs, and events</text>
+    <rect x="495" y="280" width="385" height="72" rx="12" fill="#be123c"/><text x="688" y="311" font-size="18" fill="white">Analytics, exceptions, and decisions</text><text x="688" y="334" font-size="14" fill="#ffe4e6">outcome learning feeds planning and policy</text>
+    <rect x="80" y="383" width="800" height="60" rx="12" fill="#334155"/><text x="480" y="419" font-size="18" fill="white">Shared identity • master data • security • observability • governance</text>
+  </g>
+  <g stroke="#64748b" stroke-width="3" fill="none"><path d="M205 137 V153"/><path d="M480 137 V153"/><path d="M755 137 V153"/><path d="M205 253 V280"/><path d="M480 253 V280"/><path d="M755 253 V280"/><path d="M272 352 V383"/><path d="M688 352 V383"/></g>
+</svg>

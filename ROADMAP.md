@@ -1,55 +1,54 @@
 # Roadmap
 
-## Phase 0 — Content blueprint
+## Repository foundation
 
-- [x] Module architecture
-- [x] Topic and learning-objective inventory
-- [x] Terminology, formula, and framework inventory
-- [x] Visual concept inventory
-- [x] Module 1 content-quality review
-- [ ] Complete a content-quality review before publishing each future module
-
-## Phase 1 — Repository foundation
-
-- [x] Root README and navigation
+- [x] Module architecture and authoring templates
 - [x] Visual design language
 - [x] Copyright and originality standard
-- [x] Contribution standard
+- [x] Contribution and automated validation standards
+- [x] Cross-module glossary and learning paths
 
-## Phase 2 — Module 1
+## Module 1 — Supply Chains, Demand, and Forecasting
 
 - [x] Complete Sections A–E
-- [x] Create original instructional visuals
-- [x] Add realistic examples and original knowledge checks
+- [x] Add original instructional visuals and fictional datasets
 - [x] Verify formulas, frameworks, navigation, and asset integrity
-- [x] Add role-based learning paths, glossary, and integrated capstone
+- [x] Add role-based routes and an integrated planning capstone
 
-## Phase 3 — Future modules
+## Module 2 — Network Design, Digital Connectivity, and Performance
 
-- [ ] Global supply-chain networks
+- [x] Complete Sections A–C
+- [x] Connect network, technology, data, risk, metric, and financial decisions
+- [x] Add original SVGs, process flows, datasets, calculations, and knowledge checks
+- [x] Add an integrated network-transformation capstone
+- [x] Complete content, calculation, visual, navigation, and originality review
+
+## Future modules
+
 - [ ] Sourcing products and services
 - [ ] Internal operations and inventory
 - [ ] Forward and reverse logistics
 - [ ] Supply-chain relationships
 - [ ] Supply-chain risk
-- [ ] Optimization, sustainability, and technology
+- [ ] Optimization and sustainability
 
 Future module folders will be published only when substantive content is ready.
 
-## Phase 4 — Cross-module learning layer
+## Cross-module learning layer
 
-- [x] Module 1 glossary
-- [ ] Calculations lab
-- [ ] Commonly confused concepts
+- [x] Cross-module glossary
+- [x] Forecasting calculations reference
+- [x] Network and performance calculations reference
+- [x] Two end-to-end case studies
+- [ ] Commonly confused concepts index
 - [ ] Framework library
-- [x] Module 1 end-to-end case study
-- [ ] Knowledge review
+- [ ] Cumulative knowledge review
 
-## Phase 5 — Documentation website
+## Documentation experience
 
-- [ ] Searchable site
-- [ ] Navigation and cross-link verification
+- [ ] Searchable documentation site
+- [ ] Cross-module visual index
 
 ## Current status
 
-Module 1 is complete and serves as the reference implementation. The next milestone is the global supply-chain networks content blueprint.
+Modules 1 and 2 are complete. The next module will follow the same full-release gate before it appears on the default branch.

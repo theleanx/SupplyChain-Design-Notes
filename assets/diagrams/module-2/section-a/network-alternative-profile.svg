@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">Network alternative profile</title>
+  <desc id="desc">Four fictional AsterWorks network alternatives are compared on investment, delivery time, inventory days, and qualitative resilience.</desc>
+  <rect width="960" height="460" rx="24" fill="#f8fafc"/>
+  <text x="48" y="48" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">Network alternatives expose different trade-offs</text>
+  <rect x="43" y="257" width="874" height="68" rx="10" fill="#ccfbf1" opacity="0.55"/>
+  <g font-family="Arial, sans-serif">
+    <text x="330" y="96" font-size="15" fill="#475569">Investment</text><text x="480" y="96" font-size="15" fill="#475569">Delivery days</text><text x="625" y="96" font-size="15" fill="#475569">Inventory days</text><text x="790" y="96" font-size="15" fill="#475569">Resilience</text>
+    <g font-size="17" fill="#0f172a">
+      <text x="54" y="145">Central network</text><text x="54" y="220">Regional stock hub</text><text x="54" y="295">Postponement center</text><text x="54" y="370">Regional plant</text>
+    </g>
+    <g font-size="18" text-anchor="middle" fill="#0f172a">
+      <text x="355" y="145">$0.25M</text><text x="490" y="145">12</text><text x="650" y="145">42</text><text x="805" y="145">Low</text>
+      <text x="355" y="220">$1.80M</text><text x="490" y="220">3</text><text x="650" y="220">67</text><text x="805" y="220">Medium</text>
+      <text x="355" y="295">$2.40M</text><text x="490" y="295">4</text><text x="650" y="295">51</text><text x="805" y="295">High</text>
+      <text x="355" y="370">$8.20M</text><text x="490" y="370">3</text><text x="650" y="370">58</text><text x="805" y="370">Very high</text>
+    </g>
+    <g fill="none" stroke="#cbd5e1"><path d="M45 113 H915"/><path d="M45 175 H915"/><path d="M45 250 H915"/><path d="M45 325 H915"/><path d="M45 400 H915"/></g>
+    <text x="480" y="432" font-size="14" text-anchor="middle" fill="#64748b">Illustrative inputs: use scenarios and sensitivity analysis before recommendation.</text>
+  </g>
+</svg>

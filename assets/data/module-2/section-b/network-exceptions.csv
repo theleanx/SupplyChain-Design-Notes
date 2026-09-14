@@ -1,0 +1,11 @@
+case_id,event_type,event_time_utc,affected_orders,priority_orders,estimated_revenue_at_risk_usd,severity,owner,response_minutes,outcome
+NX-1001,missed vessel connection,2026-01-08T14:20:00Z,18,3,240000,high,network duty manager,32,rebooked priority orders
+NX-1002,missing departure event,2026-01-11T09:00:00Z,4,0,18000,medium,transport analyst,74,carrier confirmed departure
+NX-1003,quality hold,2026-01-15T16:45:00Z,7,2,165000,high,quality lead,41,alternate lot released
+NX-1004,warehouse capacity threshold,2026-01-19T06:10:00Z,22,1,92000,medium,warehouse manager,96,second shift approved
+NX-1005,supplier confirmation late,2026-01-22T12:00:00Z,9,2,310000,high,supply planner,55,split source activated
+NX-1006,customs document defect,2026-01-24T18:30:00Z,6,1,76000,high,trade specialist,28,document corrected
+NX-1007,temperature excursion,2026-01-27T03:14:00Z,2,2,128000,critical,quality duty manager,17,shipment quarantined
+NX-1008,carrier tender rejected,2026-02-02T11:08:00Z,5,0,34000,medium,transport planner,63,alternate carrier accepted
+NX-1009,inventory status mismatch,2026-02-05T20:05:00Z,11,4,420000,critical,inventory control lead,21,availability corrected
+NX-1010,delivery appointment missed,2026-02-09T15:40:00Z,3,1,58000,high,customer logistics lead,46,new appointment confirmed

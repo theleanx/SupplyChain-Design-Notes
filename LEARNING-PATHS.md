@@ -1,8 +1,8 @@
 # Learning Paths
 
-Module 1 can be read from beginning to end, but different roles may need a faster route to the decisions most relevant to their work. The paths below use the same material without changing the underlying concepts.
+Both modules can be read from beginning to end, but different roles may need a faster route to the decisions most relevant to their work. The paths below preserve the conceptual sequence while making focused study easier.
 
-## Complete foundation path
+## Module 1 complete foundation path
 
 **Best for:** learners building a connected understanding of demand, forecasting, and operational alignment.
 
@@ -15,7 +15,7 @@ Read the sections in sequence:
 5. [Supply-demand alignment](./01-supply-chains-demand-forecasting/section-e-supply-demand-alignment/README.md)
 6. [Integrated capstone](./01-supply-chains-demand-forecasting/capstone/README.md)
 
-## Executive and supply-chain leader path
+## Module 1 executive and supply-chain leader path
 
 **Goal:** understand the decisions, governance, and trade-offs without beginning with calculation detail.
 
@@ -29,7 +29,7 @@ Read the sections in sequence:
 
 **Finish with:** the executive decision in the [capstone solution guide](./01-supply-chains-demand-forecasting/capstone/solution-guide.md).
 
-## Demand planner and forecasting analyst path
+## Module 1 demand planner and forecasting analyst path
 
 **Goal:** move from demand signals to a measurable, bias-aware forecast and an agreed demand plan.
 
@@ -44,7 +44,7 @@ Read the sections in sequence:
 
 **Finish with:** Tasks 2 and 3 in the [integrated capstone](./01-supply-chains-demand-forecasting/capstone/README.md).
 
-## Operations and manufacturing planner path
+## Module 1 operations and manufacturing planner path
 
 **Goal:** translate demand into feasible production, capacity, inventory, and service decisions.
 
@@ -59,7 +59,7 @@ Read the sections in sequence:
 
 **Finish with:** Tasks 4 and 5 in the [integrated capstone](./01-supply-chains-demand-forecasting/capstone/README.md).
 
-## Consultant and solution-architect path
+## Module 1 consultant and solution-architect path
 
 **Goal:** diagnose process weaknesses, design governance, and connect business decisions across functions.
 
@@ -72,13 +72,62 @@ Read the sections in sequence:
 7. [Implementation and stakeholder buy-in](./01-supply-chains-demand-forecasting/section-e-supply-demand-alignment/10-implementing-sop.md)
 8. [Integrated capstone](./01-supply-chains-demand-forecasting/capstone/README.md)
 
+## Module 2 complete network path
+
+**Best for:** learners who want to connect network structure, technology, data, operational performance, and financial outcomes.
+
+1. [Network design and technology investment](./02-network-design-digital-connectivity-performance/section-a-network-design-and-technology-investment/README.md)
+2. [Connected supply networks and master data](./02-network-design-digital-connectivity-performance/section-b-connected-supply-networks-and-master-data/README.md)
+3. [Performance measurement and financial insight](./02-network-design-digital-connectivity-performance/section-c-performance-and-financial-insight/README.md)
+4. [AsterWorks network-transformation capstone](./02-network-design-digital-connectivity-performance/capstone/README.md)
+
+## Module 2 network strategist path
+
+**Goal:** turn market and service choices into a robust physical and digital network.
+
+1. [Strategy to network design](./02-network-design-digital-connectivity-performance/section-a-network-design-and-technology-investment/01-strategy-to-network-design.md)
+2. [Market segmentation and service choices](./02-network-design-digital-connectivity-performance/section-a-network-design-and-technology-investment/02-market-segmentation-and-service-choices.md)
+3. [Network configuration and flow design](./02-network-design-digital-connectivity-performance/section-a-network-design-and-technology-investment/03-network-configuration-and-flow-design.md)
+4. [Efficiency, responsiveness, and resilience](./02-network-design-digital-connectivity-performance/section-a-network-design-and-technology-investment/04-efficiency-responsiveness-resilience.md)
+5. [Sourcing footprint and partner decisions](./02-network-design-digital-connectivity-performance/section-a-network-design-and-technology-investment/05-sourcing-footprint-and-partner-decisions.md)
+6. [Technology business case and total cost](./02-network-design-digital-connectivity-performance/section-a-network-design-and-technology-investment/07-technology-business-case-and-tco.md)
+
+**Finish with:** the network and investment portions of the [AsterWorks capstone](./02-network-design-digital-connectivity-performance/capstone/README.md).
+
+## Module 2 digital operations and data path
+
+**Goal:** design the application, integration, security, and data foundations for dependable decisions.
+
+1. [Application landscape and digital thread](./02-network-design-digital-connectivity-performance/section-b-connected-supply-networks-and-master-data/01-application-landscape-and-digital-thread.md)
+2. [Event management and control towers](./02-network-design-digital-connectivity-performance/section-b-connected-supply-networks-and-master-data/04-event-management-and-control-towers.md)
+3. [Integration patterns, APIs, middleware, and events](./02-network-design-digital-connectivity-performance/section-b-connected-supply-networks-and-master-data/09-integration-patterns-apis-middleware-events.md)
+4. [Partner visibility and data sharing](./02-network-design-digital-connectivity-performance/section-b-connected-supply-networks-and-master-data/11-partner-visibility-and-data-sharing.md)
+5. [Cybersecurity and third-party risk](./02-network-design-digital-connectivity-performance/section-b-connected-supply-networks-and-master-data/14-cybersecurity-and-third-party-risk.md)
+6. [Master-data domains and lifecycle](./02-network-design-digital-connectivity-performance/section-b-connected-supply-networks-and-master-data/15-master-data-domains-and-lifecycle.md)
+7. [Data quality, cleansing, and stewardship](./02-network-design-digital-connectivity-performance/section-b-connected-supply-networks-and-master-data/17-data-quality-cleansing-and-stewardship.md)
+8. [Decision support, analytics, and AI](./02-network-design-digital-connectivity-performance/section-b-connected-supply-networks-and-master-data/18-decision-support-analytics-and-ai.md)
+
+## Module 2 performance and finance path
+
+**Goal:** build measures that drive decisions and reveal cash, profit, service, and asset consequences.
+
+1. [Measurement system design](./02-network-design-digital-connectivity-performance/section-c-performance-and-financial-insight/01-measurement-system-design.md)
+2. [Metric hierarchies and process ownership](./02-network-design-digital-connectivity-performance/section-c-performance-and-financial-insight/04-metric-hierarchies-and-process-ownership.md)
+3. [Perfect order and customer service](./02-network-design-digital-connectivity-performance/section-c-performance-and-financial-insight/06-perfect-order-and-customer-service.md)
+4. [Cost, profit, and productivity](./02-network-design-digital-connectivity-performance/section-c-performance-and-financial-insight/08-cost-profit-and-productivity.md)
+5. [Cash-to-cash and working capital](./02-network-design-digital-connectivity-performance/section-c-performance-and-financial-insight/09-cash-to-cash-and-working-capital.md)
+6. [Financial statements for supply-chain decisions](./02-network-design-digital-connectivity-performance/section-c-performance-and-financial-insight/12-financial-statements-for-supply-chain.md)
+7. [Strategic profit model and return on assets](./02-network-design-digital-connectivity-performance/section-c-performance-and-financial-insight/15-strategic-profit-model-and-roa.md)
+
+**Finish with:** the executive scorecard and roadmap in the [AsterWorks capstone](./02-network-design-digital-connectivity-performance/capstone/README.md).
+
 ## Time-boxed routes
 
 | Available time | Recommended route |
 |---|---|
-| 30 minutes | Read the Module 1 overview, supply-chain fundamentals, forecasting principles, and monthly planning process |
-| 90 minutes | Add demand analysis, demand-management foundations, forecast error, and supply review |
-| Half day | Follow one role-based path and complete its capstone tasks |
-| Full study cycle | Complete Sections A–E, all knowledge checks, and the full capstone |
+| 30 minutes | Read one module overview and the first three lessons in the most relevant role path |
+| 90 minutes | Complete one role path and its linked calculation pages |
+| Half day | Complete one section, its review, and the related capstone tasks |
+| Full study cycle | Complete both modules, all section reviews, and both capstones |
 
-Use the [glossary](./GLOSSARY.md) whenever a term is unfamiliar, and use the [forecasting formula sheet](./calculations/forecasting/formula-sheet.md) for quantitative reference.
+Use the [glossary](./GLOSSARY.md) whenever a term is unfamiliar. For quantitative reference, open the [forecasting formula sheet](./calculations/forecasting/formula-sheet.md) or the [network and performance formula sheet](./calculations/network-performance/formula-sheet.md).

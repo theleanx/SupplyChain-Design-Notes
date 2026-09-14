@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">Decision-centered data-quality loop</title>
+  <desc id="desc">Critical data rules lead to entry prevention, monitoring, impact assessment, correction and reconciliation, root-cause removal, and control improvement.</desc>
+  <rect width="960" height="440" rx="24" fill="#f8fafc"/>
+  <text x="48" y="48" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">Data quality is maintained as a closed-loop operating process</text>
+  <g font-family="Arial, sans-serif" font-size="16" text-anchor="middle">
+    <rect x="60" y="105" width="240" height="68" rx="12" fill="#0f766e"/><text x="180" y="133" fill="white">Define critical data</text><text x="180" y="155" fill="white">and decision rule</text>
+    <rect x="360" y="105" width="240" height="68" rx="12" fill="#0369a1"/><text x="480" y="144" fill="white">Prevent invalid creation</text>
+    <rect x="660" y="105" width="240" height="68" rx="12" fill="#1d4ed8"/><text x="780" y="133" fill="white">Monitor defects</text><text x="780" y="155" fill="white">and timeliness</text>
+    <rect x="660" y="250" width="240" height="68" rx="12" fill="#7c3aed"/><text x="780" y="278" fill="white">Assess impact and</text><text x="780" y="300" fill="white">assign ownership</text>
+    <rect x="360" y="250" width="240" height="68" rx="12" fill="#b45309"/><text x="480" y="278" fill="white">Correct, approve,</text><text x="480" y="300" fill="white">and reconcile copies</text>
+    <rect x="60" y="250" width="240" height="68" rx="12" fill="#be123c"/><text x="180" y="278" fill="white">Remove root cause</text><text x="180" y="300" fill="white">and improve control</text>
+  </g>
+  <g stroke="#475569" stroke-width="4" fill="none" marker-end="url(#arrow)"><path d="M300 139 H353"/><path d="M600 139 H653"/><path d="M780 173 V243"/><path d="M660 284 H607"/><path d="M360 284 H307"/><path d="M180 250 V180"/></g>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#475569"/></marker></defs>
+  <text x="480" y="382" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#475569">Overall completeness never overrides a failed safety, compliance, service, or planning-critical rule.</text>
+</svg>

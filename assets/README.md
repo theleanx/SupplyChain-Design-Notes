@@ -4,9 +4,11 @@ This directory contains independently created assets used by the learning notes.
 
 ```text
 assets/
-├── diagrams/module-1/section-x/   Original standalone SVG diagrams
-├── data/module-1/section-x/       Original section datasets
-└── data/module-1/capstone/        Integrated case-study data
+├── diagrams/module-1/section-x/   Module 1 standalone SVG diagrams
+├── diagrams/module-2/section-x/   Module 2 standalone SVG diagrams
+├── data/module-1/section-x/       Module 1 section datasets
+├── data/module-1/capstone/        Module 1 integrated case data
+└── data/module-2/section-x/       Module 2 section and capstone data
 ```
 
 Sections without standalone files use repository-native Mermaid diagrams or Markdown tables within their topic pages.

@@ -1,0 +1,4 @@
+scenario,annual_revenue_usd,annual_cogs_usd,annual_purchases_usd,average_inventory_usd,average_receivables_usd,average_payables_usd,inventory_days,receivable_days,payable_days,cash_to_cash_days
+Current,60000000,36500000,35000000,6400000,6900000,3640000,64.0,42.0,38.0,68.0
+Target,60000000,36500000,35000000,5500000,5750000,4027000,55.0,35.0,42.0,48.0
+Downside launch,54000000,35000000,34000000,7000000,7100000,3440000,73.0,48.0,36.9,84.1

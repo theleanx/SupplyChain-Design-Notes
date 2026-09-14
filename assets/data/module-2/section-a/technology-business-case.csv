@@ -1,0 +1,8 @@
+type,category,year_0_usd,year_1_usd,year_2_usd,year_3_usd,measurement_basis
+Cost,Implementation,220000,0,0,0,configured capability and testing
+Cost,Integration,80000,0,0,0,partner and application interfaces
+Cost,Data and change,30000,0,0,0,cleansing training and adoption
+Cost,Subscription and support,0,60000,60000,60000,contracted annual service
+Benefit,Expedite reduction,0,100000,140000,150000,freight invoice baseline
+Benefit,Inventory write-off reduction,0,40000,60000,70000,disposal posting baseline
+Benefit,Planner capacity redeployed,0,30000,50000,50000,approved capacity use plan

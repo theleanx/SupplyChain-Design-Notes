@@ -1,0 +1,5 @@
+supplier,current_assets_usd,current_liabilities_usd,cash_and_receivables_usd,total_debt_usd,equity_usd,ebit_usd,interest_expense_usd,on_time_percent,critical_dependency
+Atlas Controls,6200000,4000000,3100000,5200000,4800000,1100000,360000,96.4,high
+BlueRiver Metals,8900000,5100000,4200000,2800000,7600000,1600000,210000,93.8,medium
+Cedar Sensorics,2400000,2100000,900000,3300000,1200000,380000,240000,88.1,critical
+Delta Packaging,5100000,2600000,2900000,1400000,5500000,970000,120000,98.2,low

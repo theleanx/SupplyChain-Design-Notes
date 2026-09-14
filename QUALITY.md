@@ -24,7 +24,10 @@ Before publication, confirm that:
 - formulas, assumptions, units, and illustrative values are clearly labeled;
 - fictional examples contain no confidential client information;
 - prose, questions, diagrams, and datasets are original or properly licensed; and
-- the section follows the repository structure and naming conventions.
+- the section follows the repository structure and naming conventions;
+- no source-working files, drafting notes, or source-identifying metadata entered the public tree;
+- quantitative examples have been recalculated independently; and
+- the complete repository passes a final content-policy and terminology scan.
 
 Run the repository checks locally with:
 
@@ -36,4 +39,4 @@ The same checks run automatically for every push and pull request.
 
 ## Release standard
 
-A module is released only when its public content is complete. Empty module shells, internal research records, comparison notes, and unfinished drafting artifacts do not belong on the default branch.
+A module is released only when its public content is complete. Empty module shells, internal research records, comparison notes, source files, and unfinished drafting artifacts do not belong on the default branch. Release review covers content completeness, visual rendering, calculations, navigation, terminology, and originality.

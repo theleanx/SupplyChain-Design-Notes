@@ -1,0 +1,7 @@
+lane_id,origin,destination,mode,shipments,loaded_weight_kg,usable_capacity_kg,freight_cost_usd,median_transit_days,on_time_percent,co2e_kg_estimate
+L-101,Houston,Rotterdam,Ocean,28,420000,504000,196000,18,91.2,48600
+L-102,Houston,Frankfurt,Air,14,22400,28000,168000,2,96.8,118400
+L-103,Rotterdam,Frankfurt,Road,44,572000,792000,101200,2,94.6,51480
+L-104,Rotterdam,Lyon,Road,31,372000,558000,68200,2,95.1,33480
+L-105,Rotterdam,Warsaw,Rail and road,18,270000,360000,59400,4,89.7,18900
+L-106,Houston,Chicago,Road,52,702000,936000,119600,3,93.4,63180

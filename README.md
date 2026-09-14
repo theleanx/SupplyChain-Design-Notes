@@ -1,22 +1,25 @@
 # Supply Chain Design Notes
 
-Independent, practitioner-oriented learning notes for supply chain design, demand management, forecasting, and planning.
+Independent, practitioner-oriented learning notes for designing supply networks, planning demand, connecting operations, and measuring performance.
 
-> **Current release:** Module 1, Sections A–E — complete and independently reviewed. The same content, visual, example, and originality controls will guide future modules.
+> **Current release:** Modules 1 and 2 are complete. The learning pages use original explanations, fictional examples, editable visuals, worked calculations, and independently authored knowledge checks.
 
 ## Start here
 
-| Section | Focus | Open |
+| Module | Focus | Open |
 |---|---|---|
-| A | Supply-chain foundations, entities, flows, integration, and maturity | [Section A](./01-supply-chains-demand-forecasting/section-a-introduction-to-supply-chains/) |
-| B | Environmental scanning, demand patterns, economics, and portfolio choices | [Section B](./01-supply-chains-demand-forecasting/section-b-demand-analysis-and-patterns/) |
-| C | Demand management, shaping, communication, PLM, and new products | [Section C](./01-supply-chains-demand-forecasting/section-c-demand-management/) |
-| D | Forecasting methods, errors, bias, regression, and worked calculations | [Section D](./01-supply-chains-demand-forecasting/section-d-forecasting/) |
-| E | Supply–demand alignment, operations strategies, and S&OP | [Section E](./01-supply-chains-demand-forecasting/section-e-supply-demand-alignment/) |
+| 1 | Supply-chain foundations, demand analysis, forecasting, and supply-demand alignment | [Supply Chains, Demand, and Forecasting](./01-supply-chains-demand-forecasting/) |
+| 2 | Network design, digital connectivity, master data, performance, and financial insight | [Network Design, Digital Connectivity, and Performance](./02-network-design-digital-connectivity-performance/) |
 
-For the full module sequence, begin with the [Module 1 overview](./01-supply-chains-demand-forecasting/README.md). For forecasting equations and worked relationships, use the [forecasting formula sheet](./calculations/forecasting/formula-sheet.md).
+Choose a route using the [role-based learning paths](./LEARNING-PATHS.md), look up a term in the [repository glossary](./GLOSSARY.md), or move directly to a quantitative reference:
 
-Choose a route through the material using the [role-based learning paths](./LEARNING-PATHS.md), browse the [Module 1 glossary](./GLOSSARY.md), or apply the full module through the [NorthStar integrated capstone](./01-supply-chains-demand-forecasting/capstone/README.md).
+- [Forecasting formula sheet](./calculations/forecasting/formula-sheet.md)
+- [Network and performance formula sheet](./calculations/network-performance/formula-sheet.md)
+
+Each module ends with an integrated fictional case:
+
+- [NorthStar planning capstone](./01-supply-chains-demand-forecasting/capstone/README.md)
+- [AsterWorks network-transformation capstone](./02-network-design-digital-connectivity-performance/capstone/README.md)
 
 ## What makes this repository useful
 
@@ -28,7 +31,7 @@ Each major topic follows a consistent learning pattern:
 4. a realistic, independently created example;
 5. a worked calculation when applicable;
 6. trade-offs, common confusion, and common mistakes;
-7. an original knowledge check and practitioner perspective;
+7. an original knowledge check and practitioner perspective; and
 8. related concepts and further exploration.
 
 The examples use fictional organizations and independently selected values. Diagrams are maintained as repository-native Mermaid or SVG assets, while calculation inputs are provided as CSV files where useful.
@@ -36,30 +39,32 @@ The examples use fictional organizations and independently selected values. Diag
 ## Repository map
 
 ```text
-01-supply-chains-demand-forecasting/   Module 1 learning content
-assets/diagrams/module-1/              Original standalone SVG diagrams
-assets/data/module-1/                  Original example datasets
-calculations/forecasting/              Formula and calculation references
-GLOSSARY.md                             Module 1 terminology index
-LEARNING-PATHS.md                       Role- and time-based reading routes
-CHANGELOG.md                            Version history and release summary
-_templates/                            Reusable authoring templates
-scripts/                               Automated repository validation
-QUALITY.md                             Quality and originality standards
+01-supply-chains-demand-forecasting/                  Module 1 learning content
+02-network-design-digital-connectivity-performance/  Module 2 learning content
+assets/diagrams/module-1/                             Module 1 SVG diagrams
+assets/diagrams/module-2/                             Module 2 SVG diagrams
+assets/data/module-1/                                 Module 1 example datasets
+assets/data/module-2/                                 Module 2 example datasets
+calculations/forecasting/                             Forecasting references
+calculations/network-performance/                     Network and performance references
+GLOSSARY.md                                            Cross-module terminology index
+LEARNING-PATHS.md                                      Role- and time-based reading routes
+_templates/                                           Reusable authoring templates
+scripts/                                              Automated repository validation
+QUALITY.md                                            Quality and originality standards
 ```
 
 ## Quality status
 
-Module 1 currently includes:
+The repository currently includes:
 
-- 58 structured Markdown learning pages;
-- five completed sections covering foundations through supply-demand alignment;
-- 36 original SVG diagrams plus GitHub-native process flows;
-- seven original CSV datasets for worked analysis;
-- 79 independently authored knowledge checks;
-- an integrated end-to-end planning capstone;
-- role-based learning paths and a linked glossary; and
-- 161 verified internal navigation links.
+- 111 structured Markdown files across two completed modules;
+- eight connected learning sections;
+- 45 original SVG diagrams plus 43 Module 2 process flows;
+- 16 original CSV datasets for worked analysis;
+- 169 answer-reveal knowledge checks;
+- two integrated end-to-end capstones; and
+- 307 verified internal navigation links across all 128 Markdown files.
 
 The repository runs a read-only content-quality workflow on every push and pull request to detect broken links, malformed datasets, invalid or inaccessible SVGs, and unbalanced Markdown blocks.
 
@@ -76,7 +81,7 @@ Repository licensing is deliberately split: authored learning content and visual
 
 ## Roadmap
 
-Module 1 is the reference implementation. Future modules will be added only when their content is ready for public review. See [ROADMAP.md](./ROADMAP.md).
+Modules are published only after their content, calculations, visuals, navigation, and originality controls pass release review. See [ROADMAP.md](./ROADMAP.md).
 
 ## Author
 

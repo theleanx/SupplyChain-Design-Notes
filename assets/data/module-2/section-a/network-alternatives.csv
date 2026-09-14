@@ -1,0 +1,5 @@
+alternative,annual_operating_cost_usd,one_time_investment_usd,service_score,resilience_score,implementation_score,inventory_days,median_europe_delivery_days
+Central network,4200000,250000,2,2,5,42,12
+Regional stock hub,4680000,1800000,5,3,4,67,3
+Postponement center,4490000,2400000,5,4,3,51,4
+Regional production plant,5050000,8200000,5,5,1,58,3

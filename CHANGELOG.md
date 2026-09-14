@@ -2,6 +2,23 @@
 
 Significant public improvements to this repository are recorded here.
 
+## Version 2.0.0 — Module 2
+
+Released: 2026-09-14
+
+### Learning content
+
+- Added three connected sections covering network design and investment, connected applications and governed data, and performance and financial insight.
+- Added 53 Module 2 Markdown files, nine original SVG diagrams, 43 repository-native process flows, nine original CSV datasets, and 104 answer-reveal knowledge checks.
+- Added the AsterWorks network-transformation capstone and solution guide.
+- Added a network and performance formula sheet covering design scoring, investment economics, service, working capital, asset efficiency, variance, financial health, quality, capacity, and maintenance.
+
+### Repository quality
+
+- Extended the root navigation, glossary, learning paths, asset guide, roadmap, and citation metadata across both modules.
+- Verified calculations, internal links, SVG rendering and accessibility, CSV structure, and Markdown fences.
+- Completed a repository-wide terminology, source-separation, and originality review before publication.
+
 ## Version 1.0.0 — Module 1
 
 Released: 2026-09-14
@@ -19,6 +36,3 @@ Released: 2026-09-14
 - Verified internal links, SVG parsing, CSV structure, and Markdown fences.
 - Established contribution, attribution, licensing, and content-quality guidance.
 - Added automated validation for links, Markdown structure, SVG accessibility, and CSV consistency.
-- Removed unfinished future-module shells from the public learning tree.
-
-Future versions will record substantive content additions or changes that affect the reader experience.
