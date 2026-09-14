@@ -16,26 +16,25 @@ Supplier relationships range from efficient transactions to preferred arrangemen
 
 Over-collaborating with routine suppliers wastes effort; under-collaborating with strategic suppliers leaves design, capacity, risk, and innovation unmanaged.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Classify the category and supplier"] --> B
-    B["Define shared outcomes"] --> C
-    C["Choose term and governance"] --> D
-    D["Set information boundaries"] --> E
-    E["Measure mutual value"]
-```
+![Supplier Relationship Models decision workflow](../../assets/diagrams/module-3/section-b/05-relationship-models-workflow.svg)
 
-1. **Classify the category and supplier.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Define shared outcomes.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Choose term and governance.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Set information boundaries.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Measure mutual value.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Classify the category and supplier** | Category and supplier segment supported by dependency and value evidence |
+| **2. Define shared outcomes** | Shared outcome statement covering cost, service, innovation, quality, and resilience |
+| **3. Choose term and governance** | Commercial term, governance cadence, participants, and escalation matched to need |
+| **4. Set information boundaries** | Information-sharing boundary defining purpose, access, retention, and confidentiality |
+| **5. Measure mutual value** | Balanced scorecard showing value created and obligations met by both parties |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark buys standard fasteners through catalog automation, manages sheet-metal partners as preferred sources, and holds quarterly executive reviews and joint capacity planning with its compressor partner.
+
+**Decision insight.** The three relationship models deliberately match governance cost to business need instead of labeling every major supplier strategic.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Closer relationships improve coordination but increase switching cost | Quantify the benefit and the exposure using the same scope and horizon. |
-| Transactional competition lowers search cost but may limit innovation | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Closer relationships improve coordination but increase switching cost | Reserve intensive governance for relationships where coordination value exceeds switching and management cost. |
+| Transactional competition lowers search cost but may limit innovation | Use competition for comparable supply, but create structured collaboration where joint learning or interdependence drives value. |
 
 ## Commonly confused with
 

@@ -16,26 +16,25 @@ Right-sizing seeks the supplier base that best supports cost, capacity, innovati
 
 Fewer suppliers can reduce transaction cost and increase leverage, but excessive consolidation creates capacity, bargaining, geographic, and recovery risk.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Define category objectives"] --> B
-    B["Map suppliers, sites, capabilities, and dependencies"] --> C
-    C["Model target concentration and capacity"] --> D
-    D["Sequence awards and exits"] --> E
-    E["Monitor savings and residual risk"]
-```
+![Supply-Base Right-Sizing decision workflow](../../assets/diagrams/module-3/section-b/07-supply-base-right-sizing-workflow.svg)
 
-1. **Define category objectives.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Map suppliers, sites, capabilities, and dependencies.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Model target concentration and capacity.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Sequence awards and exits.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Monitor savings and residual risk.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Define category objectives** | Category objectives for cost, innovation, capacity, service, resilience, and administration |
+| **2. Map suppliers, sites, capabilities, and dependencies** | Supplier-site network including ownership, common subtiers, tooling, technology, and geography |
+| **3. Model target concentration and capacity** | Target award shares tested against capacity, dependency, qualification, and failure scenarios |
+| **4. Sequence awards and exits** | Sequenced award, development, qualification, transition, and exit plan |
+| **5. Monitor savings and residual risk** | Benefits and risk dashboard covering concentration, utilization, switching readiness, and health |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark reduces fabricated-enclosure suppliers from nine to five but keeps two qualified geographic regions and no supplier above 45% of category volume. For the single-source sensor, right-sizing means adding—not removing—a second qualified source.
+
+**Decision insight.** The five-supplier design reduces administrative load while the regional and share caps prevent savings from creating a single failure point.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Consolidation lowers administrative cost but increases exposure | Quantify the benefit and the exposure using the same scope and horizon. |
-| Dual sourcing improves continuity but divides learning and volume | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Consolidation lowers administrative cost but increases exposure | Consolidate only after modeling the loss of a supplier, site, region, or shared subtier at the proposed award shares. |
+| Dual sourcing improves continuity but divides learning and volume | Use dual sourcing when independent qualified capacity justifies its cost; otherwise maintain a credible alternate process or recovery plan. |
 
 ## Commonly confused with
 

@@ -16,26 +16,25 @@ A sourcing supply plan defines how external capacity, categories, relationships,
 
 An optimized plan can still fail if it conflicts with service commitments, culture, regulatory duties, or local operating realities.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Confirm strategy and demand"] --> B
-    B["Compare feasible plan options"] --> C
-    C["Assess risk and mission fit"] --> D
-    D["Assign central and local decisions"] --> E
-    E["Approve, monitor, and refresh"]
-```
+![Supply-Plan Governance decision workflow](../../assets/diagrams/module-3/section-b/01-supply-plan-governance-workflow.svg)
 
-1. **Confirm strategy and demand.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Compare feasible plan options.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Assess risk and mission fit.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Assign central and local decisions.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Approve, monitor, and refresh.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Confirm strategy and demand** | Strategy, demand, service, risk appetite, and policy assumptions |
+| **2. Compare feasible plan options** | Feasible supply options with capacity, cost, timing, and constraint evidence |
+| **3. Assess risk and mission fit** | Mission-fit and risk comparison across categories, sites, and demand segments |
+| **4. Assign central and local decisions** | Decision-right matrix for enterprise, category, site, and transaction levels |
+| **5. Approve, monitor, and refresh** | Approved plan with owners, thresholds, exception paths, and refresh cadence |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark centralizes semiconductor and compressor strategies but permits plants to source low-risk maintenance supplies locally within approved controls. Capacity and continuity assumptions are reviewed quarterly.
+
+**Decision insight.** The governance model concentrates scarce specialist attention on constrained categories while preserving plant responsiveness for routine needs.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Centralization builds leverage and control | Quantify the benefit and the exposure using the same scope and horizon. |
-| Autonomy improves speed and local fit but can fragment spend | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Centralization builds leverage and control | Centralize standards, strategic categories, and aggregated market decisions; localize time-sensitive low-risk execution within explicit limits. |
+| Autonomy improves speed and local fit but can fragment spend | Measure local autonomy through compliance, service, and total-value outcomes so speed does not become uncontrolled fragmentation. |
 
 ## Commonly confused with
 

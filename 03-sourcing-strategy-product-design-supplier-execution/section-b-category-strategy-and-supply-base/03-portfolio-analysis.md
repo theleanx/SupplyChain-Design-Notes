@@ -16,26 +16,25 @@ Portfolio analysis positions a category using two dimensions: consequence to the
 
 Treating every category alike wastes scarce management capacity. Routine spend should be efficient; constrained and strategically important supply needs deliberate protection.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Define impact measures"] --> B
-    B["Define supply-risk measures"] --> C
-    C["Score with evidence"] --> D
-    D["Place the category"] --> E
-    E["Select and review the strategy"]
-```
+![Category Portfolio Analysis decision workflow](../../assets/diagrams/module-3/section-b/03-portfolio-analysis-workflow.svg)
 
-1. **Define impact measures.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Define supply-risk measures.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Score with evidence.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Place the category.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Select and review the strategy.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Define impact measures** | Business-impact measures covering margin, revenue, operations, quality, and customer consequence |
+| **2. Define supply-risk measures** | Supply-risk measures covering scarcity, switching time, concentration, technology, and location |
+| **3. Score with evidence** | Evidence-based scoring with sources, confidence, and cross-functional challenge |
+| **4. Place the category** | Portfolio placement with boundary cases and uncertainty made visible |
+| **5. Select and review the strategy** | Category action plan matched to the quadrant and reviewed after material changes |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark classifies fasteners as routine, sheet metal as leverage, refrigerant sensors as bottleneck, and compressor assemblies as strategic. The actions differ: automate fasteners, compete sheet metal, secure sensors, and co-plan compressors.
+
+**Decision insight.** The result prevents low spend from hiding the sensor constraint and prevents high spend alone from turning competitive sheet metal into a strategic partnership.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| A simple matrix improves focus but compresses nuance | Quantify the benefit and the exposure using the same scope and horizon. |
-| Scoring improves consistency but can conceal weak evidence | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| A simple matrix improves focus but compresses nuance | Use the matrix to allocate attention, then add category-specific evidence for decisions the two axes cannot represent. |
+| Scoring improves consistency but can conceal weak evidence | Keep the underlying facts beside every score so reviewers can distinguish measured exposure from judgment. |
 
 ## Commonly confused with
 

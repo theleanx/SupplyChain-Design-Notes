@@ -16,26 +16,25 @@ A should-cost model estimates what an efficient supplier would reasonably incur 
 
 Supplier quotations may hide the economics of material yield, labor content, cycle time, overhead, logistics, and margin. A driver-based model shows where collaboration can create real value.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Define process and bill-of-material assumptions"] --> B
-    B["Estimate material, conversion, overhead, logistics, and margin"] --> C
-    C["Validate with market evidence"] --> D
-    D["Test sensitivities"] --> E
-    E["Convert findings into options and commitments"]
-```
+![Should-Cost and the Sourcing Business Case decision workflow](../../assets/diagrams/module-3/section-a/07-should-cost-and-business-case-workflow.svg)
 
-1. **Define process and bill-of-material assumptions.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Estimate material, conversion, overhead, logistics, and margin.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Validate with market evidence.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Test sensitivities.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Convert findings into options and commitments.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Define process and bill-of-material assumptions** | Process route, bill of material, yield, cycle time, lot size, and utilization assumptions |
+| **2. Estimate material, conversion, overhead, logistics, and margin** | Transparent material, labor, machine, overhead, logistics, and margin cost stack |
+| **3. Validate with market evidence** | Benchmarks from drawings, market indices, process experts, and supplier evidence |
+| **4. Test sensitivities** | Sensitivity analysis for yield, volume, utilization, commodity, and wage changes |
+| **5. Convert findings into options and commitments** | Negotiation hypotheses, improvement options, investment needs, and benefit owners |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark models a sheet-metal enclosure at $88.40: $54.60 material after yield loss, $12.80 conversion, $7.00 overhead, $4.00 logistics, and $10.00 margin. A supplier quote of $96 prompts questions about scrap and changeover—not an arbitrary demand for an $88.40 price.
+
+**Decision insight.** The model isolates scrap and changeover as the likely gap, giving buyer and supplier two operational levers to investigate before discussing margin.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Detailed models improve insight but require reliable process knowledge | Quantify the benefit and the exposure using the same scope and horizon. |
-| Aggressive assumptions may damage credibility and relationships | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Detailed models improve insight but require reliable process knowledge | Use detail where it changes a decision or exposes a cost driver; mark weak assumptions rather than hiding them behind decimals. |
+| Aggressive assumptions may damage credibility and relationships | Treat the model as a fact-based conversation about process choices and risk, not as proof that the supplier must accept one number. |
 
 ## Commonly confused with
 

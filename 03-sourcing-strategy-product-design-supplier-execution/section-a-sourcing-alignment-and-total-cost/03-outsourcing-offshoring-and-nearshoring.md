@@ -16,26 +16,25 @@ Outsourcing changes who performs work; offshoring changes the country in which w
 
 Confusing ownership with geography hides the real decision. A company can own an offshore facility, outsource domestically, or combine external ownership with a distant location—each with different control and risk.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Separate ownership from location"] --> B
-    B["Set service and control requirements"] --> C
-    C["Compare regional operating conditions"] --> D
-    D["Model transition and steady-state cost"] --> E
-    E["Design contingencies and exit paths"]
-```
+![Outsourcing, Offshoring, and Nearshoring decision workflow](../../assets/diagrams/module-3/section-a/03-outsourcing-offshoring-and-nearshoring-workflow.svg)
 
-1. **Separate ownership from location.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Set service and control requirements.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Compare regional operating conditions.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Model transition and steady-state cost.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Design contingencies and exit paths.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Separate ownership from location** | Separate decisions for ownership, operating responsibility, and physical location |
+| **2. Set service and control requirements** | Minimum service, quality, data, security, and regulatory controls |
+| **3. Compare regional operating conditions** | Country and region assessment covering labor, logistics, infrastructure, tax, and disruption |
+| **4. Model transition and steady-state cost** | Transition and steady-state economics normalized to one horizon and currency |
+| **5. Design contingencies and exit paths** | Business-continuity design with alternate routes, recovery time, and exit rights |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark compares an owned U.S. assembly cell, a domestic contract manufacturer, and a nearshore partner. The nearshore option has lower conversion cost but adds border variability; the domestic partner has higher rates but can replenish service stock twice weekly.
+
+**Decision insight.** The comparison therefore treats contract manufacturing and geography as separate choices and shows when the domestic response-time premium is justified for service parts.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Distance may reduce labor cost while increasing inventory and coordination | Quantify the benefit and the exposure using the same scope and horizon. |
-| A specialist can improve scale while reducing direct control | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Distance may reduce labor cost while increasing inventory and coordination | Convert distance into measurable lead-time variability, working capital, response time, and recovery exposure before claiming savings. |
+| A specialist can improve scale while reducing direct control | Retain process ownership, acceptance authority, performance data, and escalation rights even when execution moves to a specialist. |
 
 ## Commonly confused with
 

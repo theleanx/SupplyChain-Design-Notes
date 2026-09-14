@@ -16,30 +16,27 @@ Purchase price is the quoted item amount. Landed cost adds the cost to place the
 
 A distant source may win on price and lose after freight, duty, longer pipeline inventory, defects, engineering support, and disruption exposure are included.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Fix the decision horizon and volume"] --> B
-    B["Identify costs that differ by option"] --> C
-    C["Normalize currency, timing, and units"] --> D
-    D["Quantify uncertainty with scenarios"] --> E
-    E["Compare cost with service and risk"]
-```
+![Landed Cost and Total Cost of Ownership decision workflow](../../assets/diagrams/module-3/section-a/06-landed-cost-and-total-cost-of-ownership-workflow.svg)
 
-1. **Fix the decision horizon and volume.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Identify costs that differ by option.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Normalize currency, timing, and units.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Quantify uncertainty with scenarios.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Compare cost with service and risk.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
 
-## Original diagram
-
-![Quote-to-total-cost bridge](../../assets/diagrams/module-3/section-a/total-cost-bridge.svg)
+| Stage | Required evidence or output |
+|---|---|
+| **1. Fix the decision horizon and volume** | Common volume, horizon, location, service level, and scenario assumptions |
+| **2. Identify costs that differ by option** | Cost boundary showing purchase, landed, ownership, risk, and end-of-life elements |
+| **3. Normalize currency, timing, and units** | Normalized cost model with currency date, payment timing, units, and tax treatment |
+| **4. Quantify uncertainty with scenarios** | Base, favorable, and adverse scenarios with named drivers and confidence ranges |
+| **5. Compare cost with service and risk** | Decision view separating expected cost, cash flow, service consequence, and residual risk |
 
 ## Realistic example — Rivermark Climate Systems
 
 A Rivermark control board costs $74 locally and $61 from a distant supplier. After freight, duty, 42 extra inventory days, expected defect cost, travel, and continuity controls, the annualized total is $79.20 locally versus $82.60 distantly.
+
+**Decision insight.** The $21 quote advantage disappears after the options are compared at the same destination, service level, quality expectation, and continuity design.
+
+All names1 quote advantage disappears after the options are compared at the same destination, service level, quality expectation, and continuity design.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -53,8 +50,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Broader scope improves completeness but increases uncertainty | Quantify the benefit and the exposure using the same scope and horizon. |
-| Monetizing risk supports comparison but can imply unjustified precision | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Broader scope improves completeness but increases uncertainty | Add a cost element only when it differs among options and can be estimated without double counting; show uncertain items as ranges. |
+| Monetizing risk supports comparison but can imply unjustified precision | Report expected loss and non-financial exposure separately when monetization would suggest more certainty than the evidence supports. |
 
 ## Commonly confused with
 

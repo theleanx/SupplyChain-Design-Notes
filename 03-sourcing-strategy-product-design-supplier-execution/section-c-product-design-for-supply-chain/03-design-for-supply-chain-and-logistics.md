@@ -16,26 +16,25 @@ Design for supply chain evaluates how a product will be sourced, made, moved, st
 
 A small dimensional, weight, labeling, or packaging choice can change pallet density, handling equipment, damage, mode, warehouse capacity, and reverse-flow cost.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Map the lifecycle flow"] --> B
-    B["Identify handling and space constraints"] --> C
-    C["Generate product and packaging alternatives"] --> D
-    D["Calculate unit-load economics"] --> E
-    E["Test damage, ergonomics, and recovery"]
-```
+![Design for Supply Chain and Logistics decision workflow](../../assets/diagrams/module-3/section-c/03-design-for-supply-chain-and-logistics-workflow.svg)
 
-1. **Map the lifecycle flow.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Identify handling and space constraints.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Generate product and packaging alternatives.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Calculate unit-load economics.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Test damage, ergonomics, and recovery.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Map the lifecycle flow** | End-to-end map of inbound, storage, production, outbound, installation, service, return, and recovery flows |
+| **2. Identify handling and space constraints** | Envelope, weight, handling, equipment, regulatory, and storage constraints by node |
+| **3. Generate product and packaging alternatives** | Product, packaging, unit-load, and returnable alternatives with assumptions |
+| **4. Calculate unit-load economics** | Comparable cube, weight, labor, damage, inventory, and transport economics |
+| **5. Test damage, ergonomics, and recovery** | Physical tests for damage, ergonomics, identification, stacking, climate, and recovery |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark redesigns service kits so four kits fit one standard tote instead of three. Annual outbound cartons fall by 6,400, but the team validates that extra density does not exceed manual-handling limits.
+
+**Decision insight.** The fourth kit per tote saves cartons and transport only after the team confirms weight, picking, damage, and customer handling remain acceptable.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Higher density lowers freight but may increase damage or ergonomic risk | Quantify the benefit and the exposure using the same scope and horizon. |
-| Reusable packaging reduces waste but needs return-loop control | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Higher density lowers freight but may increase damage or ergonomic risk | Optimize density inside damage, safety, ergonomic, unloading, and customer-handling limits rather than freight cost alone. |
+| Reusable packaging reduces waste but needs return-loop control | Use returnables where lane stability, ownership, tracking, cleaning, and reverse-flow economics close the loop. |
 
 ## Commonly confused with
 

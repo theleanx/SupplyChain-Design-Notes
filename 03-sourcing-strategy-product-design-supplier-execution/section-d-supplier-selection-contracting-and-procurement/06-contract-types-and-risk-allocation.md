@@ -16,26 +16,25 @@ Contract form allocates cost and performance uncertainty. Fixed-price structures
 
 Pushing risk to a party unable to control it usually returns as price, disputes, poor quality, or supplier failure.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Define scope and uncertainty"] --> B
-    B["Identify who controls each risk"] --> C
-    C["Select pricing and adjustment structure"] --> D
-    D["Set evidence and audit rights"] --> E
-    E["Test extreme outcomes"]
-```
+![Contract Types and Risk Allocation decision workflow](../../assets/diagrams/module-3/section-d/06-contract-types-and-risk-allocation-workflow.svg)
 
-1. **Define scope and uncertainty.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Identify who controls each risk.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Select pricing and adjustment structure.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Set evidence and audit rights.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Test extreme outcomes.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Define scope and uncertainty** | Scope definition, deliverables, acceptance, dependencies, duration, and uncertainty drivers |
+| **2. Identify who controls each risk** | Risk register showing cause, control, owner, financial exposure, and consequence |
+| **3. Select pricing and adjustment structure** | Pricing form and adjustment mechanism matched to controllability and evidence quality |
+| **4. Set evidence and audit rights** | Allowable-cost, index, open-book, audit, record-retention, and approval rules |
+| **5. Test extreme outcomes** | Stress test showing incentives and exposure under favorable, expected, and extreme outcomes |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark uses firm pricing for standard enclosures, indexed material adjustment for copper-intensive assemblies, and a target-cost sharing model for a jointly engineered compressor redesign.
+
+**Decision insight.** Each structure follows the underlying uncertainty: stable fabrication is fixed, observable copper exposure is indexed, and uncertain joint development shares target-cost outcomes.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Fixed price creates budget certainty but includes risk premium | Quantify the benefit and the exposure using the same scope and horizon. |
-| Cost reimbursement supports uncertain work but requires audit discipline | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Fixed price creates budget certainty but includes risk premium | Use fixed price when the supplier can define and control delivery; otherwise price the uncertainty explicitly or narrow the scope. |
+| Cost reimbursement supports uncertain work but requires audit discipline | For reimbursable work, cap exposure through budgets, ceilings, approval gates, allowable-cost rules, and audit rights. |
 
 ## Commonly confused with
 

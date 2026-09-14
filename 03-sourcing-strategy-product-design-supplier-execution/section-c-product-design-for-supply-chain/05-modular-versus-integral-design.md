@@ -16,30 +16,25 @@ Modular design creates defined interfaces so components can be reused, configure
 
 Modularity can delay differentiation and broaden sourcing options; integral design can achieve superior compactness, performance, appearance, or user experience.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Identify customer variation and technical coupling"] --> B
-    B["Define stable interfaces"] --> C
-    C["Allocate functions to modules"] --> D
-    D["Test configuration and failure interactions"] --> E
-    E["Govern interface changes"]
-```
+![Modular versus Integral Design decision workflow](../../assets/diagrams/module-3/section-c/05-modular-versus-integral-design-workflow.svg)
 
-1. **Identify customer variation and technical coupling.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Define stable interfaces.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Allocate functions to modules.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Test configuration and failure interactions.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Govern interface changes.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
 
-## Original diagram
-
-![Modular platform logic](../../assets/diagrams/module-3/section-c/modular-platform.svg)
+| Stage | Required evidence or output |
+|---|---|
+| **1. Identify customer variation and technical coupling** | Customer-variation map and technical-coupling analysis across functions and components |
+| **2. Define stable interfaces** | Stable mechanical, electrical, software, data, and service interface specifications |
+| **3. Allocate functions to modules** | Function-to-module allocation with ownership, sourcing, testing, and change boundaries |
+| **4. Test configuration and failure interactions** | Configuration, tolerance-stack, failure-interaction, performance, and safety test evidence |
+| **5. Govern interface changes** | Interface governance controlling versions, compatibility, deviations, and release timing |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark creates common compressor, control, and enclosure interfaces across three capacities. The acoustic treatment remains integral because its geometry depends on each enclosure and performance tier.
+
+**Decision insight.** Rivermark modularizes interfaces that support scale and configuration but keeps acoustics integral where geometry and performance are inseparable.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -53,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Modules accelerate variety but can add size, connectors, and unit cost | Quantify the benefit and the exposure using the same scope and horizon. |
-| Integral systems optimize performance but increase change propagation and dependence | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Modules accelerate variety but can add size, connectors, and unit cost | Use modularity where variety, replacement, parallel development, or postponement value exceeds connector, space, and interface cost. |
+| Integral systems optimize performance but increase change propagation and dependence | Keep tightly coupled performance elements integral while protecting supply and service through knowledge, tooling, and recovery controls. |
 
 ## Commonly confused with
 

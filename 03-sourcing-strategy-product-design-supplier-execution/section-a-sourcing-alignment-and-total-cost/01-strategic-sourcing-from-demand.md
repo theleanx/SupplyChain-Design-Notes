@@ -16,30 +16,25 @@ Strategic sourcing converts expected demand, customer promises, product requirem
 
 A low purchase price cannot compensate for a source that misses the required volume, timing, quality, or resilience. Starting with demand prevents the sourcing team from optimizing a specification that no longer supports the market.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Validate demand and supply assumptions"] --> B
-    B["Define category requirements"] --> C
-    C["Research the supply market"] --> D
-    D["Select relationship and commercial route"] --> E
-    E["Contract, measure, and improve"]
-```
+![Strategic Sourcing from Demand decision workflow](../../assets/diagrams/module-3/section-a/01-strategic-sourcing-from-demand-workflow.svg)
 
-1. **Validate demand and supply assumptions.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Define category requirements.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Research the supply market.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Select relationship and commercial route.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Contract, measure, and improve.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
 
-## Original diagram
-
-![Demand-to-sourcing cycle](../../assets/diagrams/module-3/section-a/sourcing-cycle.svg)
+| Stage | Required evidence or output |
+|---|---|
+| **1. Validate demand and supply assumptions** | Demand profile by segment, horizon, and service promise |
+| **2. Define category requirements** | Approved technical, commercial, quality, and continuity requirements |
+| **3. Research the supply market** | Supply-market map with capacity, capability, and constraint evidence |
+| **4. Select relationship and commercial route** | Documented sourcing route and relationship rationale |
+| **5. Contract, measure, and improve** | Contract baseline, scorecard, review cadence, and improvement backlog |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark expects service-part demand to grow 28% while new-equipment volume grows 9%. Treating both streams alike would understate the response-time requirement for service compressors. The sourcing brief therefore separates planned production replenishment from urgent installed-base support.
+
+**Decision insight.** The resulting sourcing brief sets different inventory, capacity, and response-time rules for production and service demand instead of forcing both through one average forecast.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -53,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Central control improves leverage but can miss local knowledge | Quantify the benefit and the exposure using the same scope and horizon. |
-| Early supplier involvement improves feasibility but requires information controls | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Central control improves leverage but can miss local knowledge | Set enterprise guardrails centrally, but require local teams to document regulatory, logistics, and service exceptions. |
+| Early supplier involvement improves feasibility but requires information controls | Share only the information needed for feasibility, under clear confidentiality, access, and decision-right controls. |
 
 ## Commonly confused with
 

@@ -16,26 +16,25 @@ Design quality chooses the characteristics customers need; conformance quality d
 
 A defect-free product can still disappoint if the design solves the wrong problem. Conversely, a valuable design fails when production cannot reproduce it.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Capture segmented customer needs"] --> B
-    B["Prioritize needs and competitive gaps"] --> C
-    C["Translate into measurable characteristics"] --> D
-    D["Analyze interactions and conflicts"] --> E
-    E["Set targets and verify capability"]
-```
+![Quality, Customer Translation, and Robust Design decision workflow](../../assets/diagrams/module-3/section-c/07-quality-qfd-and-robust-design-workflow.svg)
 
-1. **Capture segmented customer needs.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Prioritize needs and competitive gaps.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Translate into measurable characteristics.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Analyze interactions and conflicts.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Set targets and verify capability.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Capture segmented customer needs** | Segmented customer evidence with context, frequency, importance, and unmet need |
+| **2. Prioritize needs and competitive gaps** | Prioritized needs and competitor gaps separated from proposed solutions |
+| **3. Translate into measurable characteristics** | Traceable technical characteristics with units, targets, direction, and test methods |
+| **4. Analyze interactions and conflicts** | Interaction analysis showing positive support, conflict, technical difficulty, and risk |
+| **5. Set targets and verify capability** | Capability evidence proving the design remains acceptable across expected variation |
 
 ## Realistic example — Rivermark Climate Systems
 
 Customers say the rooftop unit must be 'quiet and easy to service.' Rivermark translates this into sound-power limits, panel-removal time, tool count, filter-access clearance, and diagnostic-code accuracy.
+
+**Decision insight.** The vague words “quiet” and “easy” become measurable targets that engineering, suppliers, production, and service teams can verify consistently.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Higher targets can increase cost or reduce another characteristic | Quantify the benefit and the exposure using the same scope and horizon. |
-| Extensive matrices improve traceability but require disciplined maintenance | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Higher targets can increase cost or reduce another characteristic | Resolve target conflicts through explicit customer priorities and sensitivity testing rather than maximizing every characteristic. |
+| Extensive matrices improve traceability but require disciplined maintenance | Maintain the translation matrix as a living decision record tied to requirements, tests, changes, and capability evidence. |
 
 ## Commonly confused with
 

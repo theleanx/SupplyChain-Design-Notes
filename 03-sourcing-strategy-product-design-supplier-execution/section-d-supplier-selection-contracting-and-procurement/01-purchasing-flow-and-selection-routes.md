@@ -16,26 +16,25 @@ The purchasing flow converts an approved external requirement into supplier eval
 
 A clear flow prevents unauthorized commitments, incomparable bids, conflicts of interest, and awards that cannot be operationalized.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Approve the requirement and route"] --> B
-    B["Identify and prequalify candidates"] --> C
-    C["Issue a consistent request"] --> D
-    D["Evaluate evidence and risk"] --> E
-    E["Negotiate, award, onboard, and measure"]
-```
+![Purchasing Flow and Supplier-Selection Routes decision workflow](../../assets/diagrams/module-3/section-d/01-purchasing-flow-and-selection-routes-workflow.svg)
 
-1. **Approve the requirement and route.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Identify and prequalify candidates.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Issue a consistent request.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Evaluate evidence and risk.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Negotiate, award, onboard, and measure.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Approve the requirement and route** | Approved business need, budget, specification maturity, risk level, and sourcing route |
+| **2. Identify and prequalify candidates** | Longlist and prequalification evidence for legal, technical, quality, capacity, security, and financial fitness |
+| **3. Issue a consistent request** | Consistent request package with instructions, timetable, assumptions, data, and evaluation method |
+| **4. Evaluate evidence and risk** | Cross-functional evaluation record covering gates, weighted value, risk, references, and site evidence |
+| **5. Negotiate, award, onboard, and measure** | Negotiated award, approvals, onboarding plan, master data, controls, and performance baseline |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark uses a proposal process for compressor assemblies because design support and capacity planning matter. It uses a quotation process for standard fasteners after suppliers pass quality and cybersecurity requirements.
+
+**Decision insight.** The route differs because compressors require solution capability and collaboration evidence, while qualified standard fasteners can be compared consistently by quotation.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Broad competition improves discovery but increases evaluation effort | Quantify the benefit and the exposure using the same scope and horizon. |
-| Direct negotiation is efficient with a unique source but weakens price discovery | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Broad competition improves discovery but increases evaluation effort | Broaden discovery for unfamiliar markets, then prequalify before demanding expensive proposals or exposing sensitive information. |
+| Direct negotiation is efficient with a unique source but weakens price discovery | Use direct negotiation only with documented source justification, cost evidence, approval, and periodic market testing. |
 
 ## Commonly confused with
 

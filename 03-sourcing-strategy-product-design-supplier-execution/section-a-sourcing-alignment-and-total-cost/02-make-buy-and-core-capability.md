@@ -16,30 +16,25 @@ A make-or-buy decision chooses where a capability should reside. The decision co
 
 Outsourcing a strategically differentiating capability can erase learning and increase dependence. Keeping a non-differentiating activity inside can consume capital and management attention better used elsewhere.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Define the capability and boundary"] --> B
-    B["Test strategic differentiation"] --> C
-    C["Assess internal readiness and capacity"] --> D
-    D["Model full economics and risk"] --> E
-    E["Choose make, buy, or hybrid"]
-```
+![Make-or-Buy and Core Capability decision workflow](../../assets/diagrams/module-3/section-a/02-make-buy-and-core-capability-workflow.svg)
 
-1. **Define the capability and boundary.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Test strategic differentiation.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Assess internal readiness and capacity.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Model full economics and risk.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Choose make, buy, or hybrid.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
 
-## Original diagram
-
-![Make-or-buy decision path](../../assets/diagrams/module-3/section-a/make-buy-path.svg)
+| Stage | Required evidence or output |
+|---|---|
+| **1. Define the capability and boundary** | A precise capability boundary covering process, assets, data, and know-how |
+| **2. Test strategic differentiation** | Evidence of customer value, scarcity, imitation difficulty, and strategic fit |
+| **3. Assess internal readiness and capacity** | Internal capacity, capability, investment, and execution-gap assessment |
+| **4. Model full economics and risk** | Comparable make, buy, and hybrid economics with transition and risk scenarios |
+| **5. Choose make, buy, or hybrid** | Approved operating model with retained controls, exit conditions, and review triggers |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark keeps control-algorithm design internal because field performance and energy efficiency differentiate its products. It buys standard fan motors and uses a qualified partner for circuit-board assembly while retaining test design, firmware, and final release.
+
+**Decision insight.** This hybrid boundary protects the algorithm and validation knowledge that create advantage while using external manufacturing scale where the market is capable.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -53,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Making preserves control but ties up capital | Quantify the benefit and the exposure using the same scope and horizon. |
-| Buying adds specialist scale but introduces dependency | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Making preserves control but ties up capital | Retain the differentiating knowledge and control points internally while testing whether selected execution steps can be partnered. |
+| Buying adds specialist scale but introduces dependency | Protect continuity through qualification, data access, tooling rights, and an executable exit plan—not merely a second supplier name. |
 
 ## Commonly confused with
 

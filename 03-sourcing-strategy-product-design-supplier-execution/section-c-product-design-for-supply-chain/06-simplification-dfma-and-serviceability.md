@@ -16,26 +16,25 @@ Simplification removes unnecessary parts, steps, adjustments, and choices. Desig
 
 Complexity increases touches, training, defects, setup, tools, spare parts, and repair time. A part removed cannot be purchased incorrectly, installed backward, fail, or require service.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Map parts, touches, tools, and failure modes"] --> B
-    B["Challenge each function and tolerance"] --> C
-    C["Combine or eliminate where safe"] --> D
-    D["Error-proof assembly and testing"] --> E
-    E["Validate service access and replacement"]
-```
+![Simplification, DFMA, and Serviceability decision workflow](../../assets/diagrams/module-3/section-c/06-simplification-dfma-and-serviceability-workflow.svg)
 
-1. **Map parts, touches, tools, and failure modes.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Challenge each function and tolerance.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Combine or eliminate where safe.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Error-proof assembly and testing.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Validate service access and replacement.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Map parts, touches, tools, and failure modes** | Baseline part count, touches, motions, orientations, tools, tests, access paths, and failure modes |
+| **2. Challenge each function and tolerance** | Function and tolerance challenge showing why every part and operation exists |
+| **3. Combine or eliminate where safe** | Concepts that eliminate, combine, standardize, self-locate, or relax features safely |
+| **4. Error-proof assembly and testing** | Assembly and test design using clear orientation, error proofing, access, and verification |
+| **5. Validate service access and replacement** | Service trial measuring diagnosis, isolation, access, replacement, reassembly, and confirmation |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark combines two brackets, makes fasteners accessible from one side, adds keyed connectors, and positions the filter behind a tool-less panel. Assembly time drops from 46 to 34 minutes and scheduled filter service from 18 to 7 minutes.
+
+**Decision insight.** The redesign improves both assembly and field service because it removes parts and ambiguous connections instead of merely asking operators to work faster.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Simplification lowers burden but can remove valued flexibility | Quantify the benefit and the exposure using the same scope and horizon. |
-| Easy access may compete with sealing, safety, or appearance | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Simplification lowers burden but can remove valued flexibility | Remove options and features only after confirming their customer, regulatory, manufacturing, and service purpose. |
+| Easy access may compete with sealing, safety, or appearance | Resolve service access against sealing and safety through controlled panels, interlocks, gaskets, and verified reassembly—not compromise by assumption. |
 
 ## Commonly confused with
 

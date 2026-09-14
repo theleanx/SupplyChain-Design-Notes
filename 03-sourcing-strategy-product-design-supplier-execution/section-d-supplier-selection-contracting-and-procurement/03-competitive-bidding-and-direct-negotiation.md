@@ -16,26 +16,25 @@ Competitive bidding works when the requirement is clear, suppliers are genuinely
 
 Forcing a strategic or poorly specified requirement into a price event can select the wrong solution and damage future collaboration.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Assess specification clarity and market depth"] --> B
-    B["Choose competitive or direct route"] --> C
-    C["Set communication controls"] --> D
-    D["Clarify consistently"] --> E
-    E["Evaluate complete value and finalize"]
-```
+![Competitive Bidding and Direct Negotiation decision workflow](../../assets/diagrams/module-3/section-d/03-competitive-bidding-and-direct-negotiation-workflow.svg)
 
-1. **Assess specification clarity and market depth.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Choose competitive or direct route.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Set communication controls.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Clarify consistently.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Evaluate complete value and finalize.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Assess specification clarity and market depth** | Assessment of specification clarity, switching feasibility, market depth, and offer comparability |
+| **2. Choose competitive or direct route** | Approved route with competition plan or documented single-source rationale |
+| **3. Set communication controls** | Communication protocol covering contacts, confidentiality, changes, questions, and deadlines |
+| **4. Clarify consistently** | Shared clarification log ensuring active bidders receive materially equivalent information |
+| **5. Evaluate complete value and finalize** | Normalized total-value evaluation and complete negotiated agreement with approvals |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark competitively bids standard sheet metal using a normalized cost template. It directly negotiates a compressor collaboration because interface development, tooling, forecast sharing, and service support require joint design.
+
+**Decision insight.** Rivermark uses competition where specifications and offers are comparable, but chooses structured negotiation where joint design determines value.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Bidding improves market discovery but can encourage gaming | Quantify the benefit and the exposure using the same scope and horizon. |
-| Direct negotiation supports problem solving but needs a strong fact base | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Bidding improves market discovery but can encourage gaming | Design bids around comparable requirements and total value; reject unbalanced offers that recover a low headline price elsewhere. |
+| Direct negotiation supports problem solving but needs a strong fact base | Prepare objective benchmarks, alternatives, approval limits, and fact-based cost drivers before entering a direct negotiation. |
 
 ## Commonly confused with
 

@@ -16,26 +16,25 @@ Spend analysis explains what was bought, from whom, by whom, at what total value
 
 Unclean supplier names, duplicate records, inconsistent units, and missing categories can create false leverage or hide dependence. Historical spend alone cannot describe future demand or market change.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Normalize suppliers, currencies, and categories"] --> B
-    B["Reconcile spend to financial totals"] --> C
-    C["Analyze value, volume, count, and compliance"] --> D
-    D["Forecast category demand"] --> E
-    E["Validate market assumptions from multiple sources"]
-```
+![Spend Analysis and Supply-Market Intelligence decision workflow](../../assets/diagrams/module-3/section-b/06-spend-analysis-and-market-intelligence-workflow.svg)
 
-1. **Normalize suppliers, currencies, and categories.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Reconcile spend to financial totals.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Analyze value, volume, count, and compliance.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Forecast category demand.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Validate market assumptions from multiple sources.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
+
+| Stage | Required evidence or output |
+|---|---|
+| **1. Normalize suppliers, currencies, and categories** | Normalized supplier hierarchy, category, currency, unit, and organizational records |
+| **2. Reconcile spend to financial totals** | Reconciliation to accounts payable and general-ledger totals with exclusions explained |
+| **3. Analyze value, volume, count, and compliance** | Views of spend, volume, price variance, transaction count, concentration, and compliance |
+| **4. Forecast category demand** | Forward demand profile including design changes, projects, growth, and service obligations |
+| **5. Validate market assumptions from multiple sources** | Market fact base triangulated across suppliers, indices, public data, and internal experts |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark initially appears to have 41 electronics suppliers. Entity matching shows 29 legal suppliers, while six names belong to one corporate group. That correction reveals greater concentration in control components than the raw report suggested.
+
+**Decision insight.** Entity resolution changes the risk conclusion: nominal supplier count falls, corporate concentration rises, and continuity actions move ahead of price negotiations.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -49,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| More data improves insight but can delay action | Quantify the benefit and the exposure using the same scope and horizon. |
-| External intelligence reduces uncertainty but may be costly or time-sensitive | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| More data improves insight but can delay action | Begin decisions once data is decision-fit, while tracking unresolved gaps by materiality instead of waiting for impossible perfection. |
+| External intelligence reduces uncertainty but may be costly or time-sensitive | Time-stamp market intelligence, identify its source and confidence, and retest it before irreversible commitments. |
 
 ## Commonly confused with
 

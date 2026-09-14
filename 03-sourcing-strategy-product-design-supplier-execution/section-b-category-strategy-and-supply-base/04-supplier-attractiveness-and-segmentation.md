@@ -16,30 +16,25 @@ Supplier segmentation asks both how much the buyer needs the supplier and how at
 
 A buyer may label a supplier strategic while remaining a minor, difficult, or unprofitable account. The desired relationship must match mutual incentives.
 
-## How it works
+## Decision workflow
 
-```mermaid
-flowchart TD
-    A["Assess category dependence"] --> B
-    B["Assess buyer attractiveness"] --> C
-    C["Compare desired and likely relationship"] --> D
-    D["Close behavior or value gaps"] --> E
-    E["Set engagement and escalation"]
-```
+![Supplier Attractiveness and Segmentation decision workflow](../../assets/diagrams/module-3/section-b/04-supplier-attractiveness-and-segmentation-workflow.svg)
 
-1. **Assess category dependence.** Confirm the decision boundary, inputs, and accountable owner before analysis begins.
-2. **Assess buyer attractiveness.** Use comparable evidence and keep assumptions visible as the decision develops.
-3. **Compare desired and likely relationship.** Use comparable evidence and keep assumptions visible as the decision develops.
-4. **Close behavior or value gaps.** Use comparable evidence and keep assumptions visible as the decision develops.
-5. **Set engagement and escalation.** Record the result, evidence, residual risk, and next review trigger.
+### Evidence retained at each stage
 
-## Original diagram
-
-![Mutual-dependence segmentation](../../assets/diagrams/module-3/section-b/supplier-segmentation.svg)
+| Stage | Required evidence or output |
+|---|---|
+| **1. Assess category dependence** | Buyer dependence assessment based on switching time, uniqueness, capacity, and consequence |
+| **2. Assess buyer attractiveness** | Supplier view of revenue, growth, profitability, fit, reputation, and ease of doing business |
+| **3. Compare desired and likely relationship** | Realistic relationship position compared with the relationship the category requires |
+| **4. Close behavior or value gaps** | Improvement actions that increase mutual value or reduce unhealthy dependence |
+| **5. Set engagement and escalation** | Engagement model with governance level, information rights, escalation, and review |
 
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark is a small share of a compressor supplier's revenue but offers entry to an energy-efficient product platform. It earns development attention by sharing a credible three-year roadmap, paying predictably, and reducing engineering-change churn.
+
+**Decision insight.** Rivermark improves its position by making the account easier to serve and strategically relevant, rather than assuming purchase volume alone earns priority.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 
@@ -53,8 +48,8 @@ All names and values in this example are fictional and independently selected fo
 
 | Choice tension | Decision implication |
 |---|---|
-| Greater commitment can win attention but reduce flexibility | Quantify the benefit and the exposure using the same scope and horizon. |
-| Sharing plans improves coordination but requires data and confidentiality controls | Set a guardrail, owner, and review trigger instead of assuming one permanent answer. |
+| Greater commitment can win attention but reduce flexibility | Offer credible volume, access, learning, or efficiency benefits in exchange for attention without creating commitments the forecast cannot support. |
+| Sharing plans improves coordination but requires data and confidentiality controls | Use staged disclosure, clean-team rules, access controls, and confidentiality terms for roadmap and cost information. |
 
 ## Commonly confused with
 
