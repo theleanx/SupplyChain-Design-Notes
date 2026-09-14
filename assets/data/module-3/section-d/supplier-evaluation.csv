@@ -1,0 +1,4 @@
+supplier,technical_25,total_cost_20,quality_15,capacity_delivery_15,resilience_15,sustainability_10,mandatory_gates_pass,weighted_total_100
+NorthPeak,22,15,14,13,11,8,Yes,83
+BlueHarbor,20,18,12,12,9,7,Yes,78
+VectorTherm,24,17,13,10,6,8,No,78

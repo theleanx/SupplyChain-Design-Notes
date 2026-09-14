@@ -1,0 +1,5 @@
+option,annual_volume,unit_conversion_cost,annual_fixed_cost,transition_cost,readiness_months,knowledge_control_1_to_5,continuity_risk_1_to_5
+Internal_Cell,24000,86.00,620000,180000,9,5,2
+Domestic_Partner,24000,101.00,110000,260000,6,4,2
+Nearshore_Partner,24000,78.00,170000,420000,11,3,3
+Hybrid_Internal_Partner,24000,93.00,390000,310000,8,5,1

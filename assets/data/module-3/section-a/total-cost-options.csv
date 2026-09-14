@@ -1,0 +1,9 @@
+cost_element,local_source,distant_source,unit
+Purchase_price,74.00,61.00,USD_per_unit
+Inbound_freight,1.20,4.80,USD_per_unit
+Duty_and_brokerage,0.00,3.10,USD_per_unit
+Pipeline_inventory,0.55,3.40,USD_per_unit
+Expected_quality_cost,1.35,4.20,USD_per_unit
+Relationship_and_control,1.10,3.00,USD_per_unit
+Continuity_controls,1.00,3.10,USD_per_unit
+Total,79.20,82.60,USD_per_unit

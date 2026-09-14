@@ -1,0 +1,4 @@
+alternative,unique_parts,assembly_minutes,service_minutes,units_per_pallet,annual_packaging_cost_usd,estimated_field_failures_per_1000
+Current_integral,184,46,18,6,310000,14
+Simplified_integral,151,38,12,7,268000,10
+Modular_platform,139,34,7,8,224000,8
