@@ -7,7 +7,7 @@
 - [x] Terminology, formula, and framework inventory
 - [x] Visual concept inventory
 - [x] Module 1 content-quality review
-- [ ] Repeat content-quality review for Modules 2–8
+- [ ] Complete a content-quality review before publishing each future module
 
 ## Phase 1 — Repository foundation
 
@@ -20,20 +20,29 @@
 
 - [x] Complete Sections A–E
 - [x] Create original instructional visuals
-- [x] Add realistic examples and original practice questions
+- [x] Add realistic examples and original knowledge checks
 - [x] Verify formulas, frameworks, navigation, and asset integrity
+- [x] Add role-based learning paths, glossary, and integrated capstone
 
-## Phase 3 — Modules 2–8
+## Phase 3 — Future modules
 
-- [ ] Repeat the Module 1 quality standard
+- [ ] Global supply-chain networks
+- [ ] Sourcing products and services
+- [ ] Internal operations and inventory
+- [ ] Forward and reverse logistics
+- [ ] Supply-chain relationships
+- [ ] Supply-chain risk
+- [ ] Optimization, sustainability, and technology
+
+Future module folders will be published only when substantive content is ready.
 
 ## Phase 4 — Cross-module learning layer
 
-- [ ] Glossary
+- [x] Module 1 glossary
 - [ ] Calculations lab
 - [ ] Commonly confused concepts
 - [ ] Framework library
-- [ ] End-to-end case study
+- [x] Module 1 end-to-end case study
 - [ ] Knowledge review
 
 ## Phase 5 — Documentation website
@@ -43,4 +52,4 @@
 
 ## Current status
 
-Module 1 is complete and serves as the reference implementation. The next milestone is the Module 2 content blueprint and Section A build.
+Module 1 is complete and serves as the reference implementation. The next milestone is the global supply-chain networks content blueprint.

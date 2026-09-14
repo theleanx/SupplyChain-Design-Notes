@@ -27,7 +27,7 @@ The supply chain therefore needs two capabilities at once:
 
 NorthStar sees strong regional growth in water-treatment infrastructure and wants to sell its NS-500 pump in three countries. The product itself can remain largely standardized, but the route to market differs:
 
-- Country A requires a local certification before installation.
+- Country A requires local regulatory approval before installation.
 - Country B has customers who prefer distributor-held spare parts.
 - Country C has long inland transport lead times during monsoon season.
 

@@ -102,7 +102,7 @@ The section content links the four demand-management components to different way
 
 ### Example
 
-A cloud-support provider keeps a large bench of certified engineers because lost enterprise incidents would be extremely costly. Its strategy leans heavily on **planning demand** and maintaining high capacity.
+A cloud-support provider keeps a large bench of qualified engineers because lost enterprise incidents would be extremely costly. Its strategy leans heavily on **planning demand** and maintaining high capacity.
 
 A seasonal fulfillment company instead uses temporary labor and third-party capacity. Its ability to react depends heavily on **communicating demand early**.
 

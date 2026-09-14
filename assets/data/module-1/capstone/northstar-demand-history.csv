@@ -1,0 +1,13 @@
+month,actual_units,baseline_forecast_units,promotion_or_event,market_index
+Y1-Jan,820,800,no,96.0
+Y1-Feb,840,815,no,96.5
+Y1-Mar,865,835,no,97.0
+Y1-Apr,900,860,no,97.8
+Y1-May,930,890,no,98.5
+Y1-Jun,960,920,no,99.3
+Y1-Jul,1010,955,yes,100.4
+Y1-Aug,1045,1000,no,101.0
+Y1-Sep,1090,1060,no,102.0
+Y1-Oct,1130,1100,no,103.0
+Y1-Nov,1200,1150,yes,104.0
+Y1-Dec,1320,1230,yes,105.5

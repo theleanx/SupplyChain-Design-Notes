@@ -5,7 +5,8 @@ This directory contains independently created assets used by the learning notes.
 ```text
 assets/
 ├── diagrams/module-1/section-x/   Original standalone SVG diagrams
-└── data/module-1/section-x/       Original example datasets
+├── data/module-1/section-x/       Original section datasets
+└── data/module-1/capstone/        Integrated case-study data
 ```
 
 Sections without standalone files use repository-native Mermaid diagrams or Markdown tables within their topic pages.
@@ -16,7 +17,7 @@ Sections without standalone files use repository-native Mermaid diagrams or Mark
 2. Name standalone assets with lower-case kebab case, such as `supplier-risk-response-flow.svg`.
 3. Place the asset under `diagrams/module-N/section-x/` and link it with a relative path.
 4. Add meaningful alternative text and a short explanation in the learning page.
-5. Record its instructional purpose in the appropriate visual coverage register.
+5. Explain its instructional purpose on the page where it is used.
 6. Confirm that the design is original and satisfies [`../ATTRIBUTION.md`](../ATTRIBUTION.md).
 
 ## Mermaid process-flow placeholder

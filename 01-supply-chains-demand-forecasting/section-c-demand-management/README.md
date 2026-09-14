@@ -17,7 +17,7 @@ The central idea is simple:
 7. [Product life cycle](07-product-life-cycle.md)
 8. [Product lifecycle management and new-product introduction](08-plm-and-new-product-introduction.md)
 9. [NPI frequency versus demand uncertainty](09-npi-frequency-and-demand-uncertainty.md)
-10. [Section C review and original practice](10-section-c-review.md)
+10. [Section C review and original knowledge checks](10-section-c-review.md)
 
 ## Section C visual set
 
@@ -45,4 +45,4 @@ Several examples use **NorthStar Industrial Systems**, a fictional manufacturer 
 
 ## Related concepts
 
-Section focus: **Module 1, Section C — Demand Management**. Public wording, examples, numerical values, practice questions, and visual compositions in this folder are independently created.
+Section focus: **Module 1, Section C — Demand Management**. Public wording, examples, numerical values, knowledge checks, and visual compositions in this folder are independently created.

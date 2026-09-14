@@ -2,7 +2,7 @@
 
 Independent, practitioner-oriented learning notes for supply chain design, demand management, forecasting, and planning.
 
-> **Current release:** Module 1, Sections A–E — audited complete. The same content, visual, example, and originality controls will guide future modules.
+> **Current release:** Module 1, Sections A–E — complete and independently reviewed. The same content, visual, example, and originality controls will guide future modules.
 
 ## Start here
 
@@ -16,6 +16,8 @@ Independent, practitioner-oriented learning notes for supply chain design, deman
 
 For the full module sequence, begin with the [Module 1 overview](./01-supply-chains-demand-forecasting/README.md). For forecasting equations and worked relationships, use the [forecasting formula sheet](./calculations/forecasting/formula-sheet.md).
 
+Choose a route through the material using the [role-based learning paths](./LEARNING-PATHS.md), browse the [Module 1 glossary](./GLOSSARY.md), or apply the full module through the [NorthStar integrated capstone](./01-supply-chains-demand-forecasting/capstone/README.md).
+
 ## What makes this repository useful
 
 Each major topic follows a consistent learning pattern:
@@ -26,7 +28,7 @@ Each major topic follows a consistent learning pattern:
 4. a realistic, independently created example;
 5. a worked calculation when applicable;
 6. trade-offs, common confusion, and common mistakes;
-7. an original practice question and practitioner perspective;
+7. an original knowledge check and practitioner perspective;
 8. related concepts and further exploration.
 
 The examples use fictional organizations and independently selected values. Diagrams are maintained as repository-native Mermaid or SVG assets, while calculation inputs are provided as CSV files where useful.
@@ -35,11 +37,14 @@ The examples use fictional organizations and independently selected values. Diag
 
 ```text
 01-supply-chains-demand-forecasting/   Module 1 learning content
-02-... through 08-.../                 Future module placeholders
 assets/diagrams/module-1/              Original standalone SVG diagrams
 assets/data/module-1/                  Original example datasets
 calculations/forecasting/              Formula and calculation references
+GLOSSARY.md                             Module 1 terminology index
+LEARNING-PATHS.md                       Role- and time-based reading routes
+CHANGELOG.md                            Version history and release summary
 _templates/                            Reusable authoring templates
+scripts/                               Automated repository validation
 QUALITY.md                             Quality and originality standards
 ```
 
@@ -47,14 +52,16 @@ QUALITY.md                             Quality and originality standards
 
 Module 1 currently includes:
 
-- 147/147 topic and subtopic rows mapped;
-- 76/76 canonical visual concepts implemented or mapped;
-- 50/50 key terms and 21/21 quantitative relationships covered;
-- 49/49 frameworks and processes covered;
-- 51/51 realistic-example requirements completed;
-- 79 independently authored public practice questions;
-- complete cross-linked navigation;
-- 36/36 SVG files parsed successfully.
+- 58 structured Markdown learning pages;
+- five completed sections covering foundations through supply-demand alignment;
+- 36 original SVG diagrams plus GitHub-native process flows;
+- seven original CSV datasets for worked analysis;
+- 79 independently authored knowledge checks;
+- an integrated end-to-end planning capstone;
+- role-based learning paths and a linked glossary; and
+- 161 verified internal navigation links.
+
+The repository runs a read-only content-quality workflow on every push and pull request to detect broken links, malformed datasets, invalid or inaccessible SVGs, and unbalanced Markdown blocks.
 
 ## Independence, attribution, and permitted use
 
@@ -69,7 +76,7 @@ Repository licensing is deliberately split: authored learning content and visual
 
 ## Roadmap
 
-Module 1 is the reference implementation. The next planned milestone is the Module 2 content blueprint and Section A build. See [ROADMAP.md](./ROADMAP.md).
+Module 1 is the reference implementation. Future modules will be added only when their content is ready for public review. See [ROADMAP.md](./ROADMAP.md).
 
 ## Author
 

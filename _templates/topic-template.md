@@ -22,7 +22,7 @@
 
 ## Common Mistakes
 
-## Original Practice Question
+## Original Knowledge Check
 
 <details>
 <summary>Answer and rationale</summary>

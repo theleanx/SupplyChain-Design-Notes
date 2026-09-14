@@ -39,7 +39,7 @@ D. A financial target that replaces the forecast
 
 ## Question 2
 
-A company competes in a regulated market. Certification compliance is required before a customer will even consider a supplier. Which concept best fits certification compliance?
+A company competes in a regulated market. Regulatory approval is required before a customer will even consider a supplier. Which concept best fits this mandatory compliance requirement?
 
 A. Order winner  
 B. Order qualifier  

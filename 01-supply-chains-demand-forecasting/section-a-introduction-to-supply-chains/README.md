@@ -21,7 +21,7 @@ By the end of this section, you should be able to:
 4. [Vertical vs. lateral integration](04-vertical-vs-lateral-integration.md)
 5. [Supply chain maturity](05-supply-chain-maturity.md)
 6. [Manufacturing, service, and specialized supply chains](06-supply-chain-examples.md)
-7. [Section A review and original practice questions](07-section-a-review.md)
+7. [Section A review and original knowledge checks](07-section-a-review.md)
 
 ## Visual approach
 

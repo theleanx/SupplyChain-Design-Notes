@@ -7,7 +7,7 @@ Thank you for helping improve these learning notes. Contributions are welcome wh
 1. Open an issue describing the learning gap, correction, or proposed module topic.
 2. Create a focused branch and use [`_templates/topic-template.md`](./_templates/topic-template.md).
 3. Add original explanatory content, a realistic example, and a visual or process-flow treatment where it improves understanding.
-4. Update navigation and the appropriate coverage register.
+4. Update navigation and complete the applicable quality checklist.
 5. Run the checks below and open a pull request explaining the instructional change and its sources.
 
 ## Required checks
@@ -34,6 +34,6 @@ Thank you for helping improve these learning notes. Contributions are welcome wh
 - [ ] I did not reproduce restricted or proprietary materials.
 - [ ] I documented all required citations and third-party licenses.
 - [ ] I verified links, visuals, data files, and navigation.
-- [ ] I updated the appropriate audit or coverage record.
+- [ ] I completed the applicable content-quality checklist.
 
 By contributing, you confirm that you have the right to submit the material and grant the repository owner permission to publish it under the applicable terms in [`LICENSE.md`](./LICENSE.md).

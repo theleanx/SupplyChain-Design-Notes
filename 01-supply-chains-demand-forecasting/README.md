@@ -9,6 +9,9 @@
 - [Section C: Demand Management](section-c-demand-management/README.md)
 - [Section D: Forecasting](section-d-forecasting/README.md)
 - [Section E: Supply and Demand Alignment](section-e-supply-demand-alignment/README.md)
+- [Integrated capstone: NorthStar Q1 planning decision](capstone/README.md)
+
+You can also use the repository-level [learning paths](../LEARNING-PATHS.md) and [glossary](../GLOSSARY.md).
 
 ## Learning design
 
@@ -16,12 +19,12 @@ Module 1 combines original explanations, decision frameworks, practical scenario
 
 ## Module snapshot
 
-- 147 topic and subtopic relationships represented
-- 76 instructional visual concepts implemented or mapped
-- 50 key terms and 21 quantitative relationships covered
-- 49 frameworks and processes explained
-- 51 realistic-example requirements completed
-- 79 original practice questions
+- 58 structured Markdown learning pages
+- Five completed sections
+- 36 original SVG diagrams plus GitHub-native process flows
+- Seven original CSV datasets
+- 79 original knowledge checks
+- One integrated planning capstone with a solution guide
 
 ## Quality checklist
 
@@ -29,6 +32,6 @@ Module 1 combines original explanations, decision frameworks, practical scenario
 - [x] Terminology and calculations complete
 - [x] Framework and process explanations complete
 - [x] Realistic examples complete
-- [x] Original practice questions complete
+- [x] Original knowledge checks complete
 - [x] Navigation and asset integrity verified
 - [x] Originality review complete

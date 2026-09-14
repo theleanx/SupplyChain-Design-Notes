@@ -15,7 +15,7 @@ You should now be able to explain:
 - MTS, MTO, ETO, ATO, and PTO;
 - demand prioritization, time fences, allocation, and customer-service measures.
 
-## Original practice questions
+## Original knowledge checks
 
 ### 1. Planning level
 

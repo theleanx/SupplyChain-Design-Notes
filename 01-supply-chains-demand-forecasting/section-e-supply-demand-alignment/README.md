@@ -17,7 +17,7 @@ The central idea is simple: **sales should sell to a plan that supply can suppor
 9. [Financial reconciliation and executive S&OP](09-reconciliation-and-executive-sop.md)
 10. [Implementing S&OP and gaining buy-in](10-implementing-sop.md)
 11. [Demand prioritization and customer service](11-demand-prioritization-and-customer-service.md)
-12. [Section E review and original practice](12-section-e-review.md)
+12. [Section E review and original knowledge checks](12-section-e-review.md)
 
 ## Visual coverage
 
@@ -29,4 +29,4 @@ The worked examples use **NorthStar Industrial Systems**, a fictional industrial
 
 ## Related concepts
 
-Section focus: **Module 1, Section E — Supply and Demand Alignment**. Public wording, examples, numbers, practice questions, and visual compositions are independently created.
+Section focus: **Module 1, Section E — Supply and Demand Alignment**. Public wording, examples, numbers, knowledge checks, and visual compositions are independently created.

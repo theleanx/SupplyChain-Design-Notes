@@ -16,7 +16,7 @@ The goal is not to produce a perfect forecast. The goal is to produce a forecast
 8. [Forecast error, accuracy, bias, and random variation](08-forecast-error-bias-random-variation.md)
 9. [MAD, tracking signal, standard deviation, and safety stock](09-mad-tracking-signal-standard-deviation.md)
 10. [MSE, MAPE, and choosing an error measure](10-mse-mape-and-error-measures.md)
-11. [Section D review and original practice](11-section-d-review.md)
+11. [Section D review and original knowledge checks](11-section-d-review.md)
 
 ## Visual coverage
 
@@ -32,4 +32,4 @@ These datasets use fictional entities and illustrative values created for the wo
 
 ## Related concepts
 
-Section focus: **Module 1, Section D — Forecasting**. Public wording, examples, numerical values, practice questions, and visual compositions in this folder are independently created.
+Section focus: **Module 1, Section D — Forecasting**. Public wording, examples, numerical values, knowledge checks, and visual compositions in this folder are independently created.

@@ -18,11 +18,11 @@ The section is deliberately split between two horizons:
 7. [Macroeconomic demand patterns](06-macroeconomic-demand-patterns.md)
 8. [Microeconomics, price elasticity, and marginal analysis](07-microeconomics-price-elasticity-marginal-analysis.md)
 9. [Short- and medium-term demand patterns](08-short-medium-term-demand-patterns.md)
-10. [Section B review and original practice](09-section-b-review.md)
+10. [Section B review and original knowledge checks](09-section-b-review.md)
 
 ## Section B visual set
 
-The content review identified 13 instructional visual concepts for Section B. They have been independently re-expressed as original Mermaid diagrams, tables, matrices, and SVG illustrations. Third-party artwork is not included.
+Section B uses 13 purpose-built instructional visual concepts implemented as original Mermaid diagrams, tables, matrices, and SVG illustrations. Third-party artwork is not included.
 
 ## Recurring scenario
 
@@ -30,4 +30,4 @@ Several examples use **NorthStar Industrial Systems**, a fictional manufacturer 
 
 ## Related concepts
 
-Section focus: **Module 1, Section B — Demand Analysis and Patterns**. The public wording, examples, practice questions, and visual compositions in this folder are independently created.
+Section focus: **Module 1, Section B — Demand Analysis and Patterns**. The public wording, examples, knowledge checks, and visual compositions in this folder are independently created.

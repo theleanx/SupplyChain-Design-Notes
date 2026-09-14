@@ -20,7 +20,7 @@ The six blocks are connected. Better forecasting will not improve customer servi
 
 ## 1. Build people capability
 
-A mature supply chain deliberately develops the knowledge and skills required to run it. Typical actions include setting development goals, supporting independent learning and certification, coaching/mentoring, targeted training, and periodically reviewing progress.
+A mature supply chain deliberately develops the knowledge and skills required to run it. Typical actions include setting development goals, supporting independent learning and professional qualifications, coaching/mentoring, targeted training, and periodically reviewing progress.
 
 ## 2. Build or source the infrastructure
 

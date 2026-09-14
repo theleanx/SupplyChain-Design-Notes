@@ -20,7 +20,7 @@
 | Stage 4 | Stage 5 | External collaboration vs. broader systematic orchestration |
 | Product flow | Information flow | Physical/service movement vs. planning/status/demand signals |
 
-## Original practice questions
+## Original knowledge checks
 
 ### Question 1
 

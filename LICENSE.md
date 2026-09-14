@@ -4,7 +4,7 @@ Copyright © 2026 Ankit Sharma / TheLeanX. All rights reserved except as express
 
 ## Educational content and assets
 
-All Markdown learning notes, written examples, practice questions, diagrams, illustrations, and datasets in this repository are proprietary educational content unless an individual file explicitly states otherwise.
+All Markdown learning notes, written examples, knowledge checks, diagrams, illustrations, and datasets in this repository are proprietary educational content unless an individual file explicitly states otherwise.
 
 You may view and link to this public repository for personal reference. No permission is granted to reproduce, redistribute, republish, sell, sublicense, create derivative training materials from, or use this content to train machine-learning models without prior written permission from the copyright holder.
 

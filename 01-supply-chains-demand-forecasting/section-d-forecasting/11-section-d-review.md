@@ -34,7 +34,7 @@ Measure error
 Improve model / assumptions
 ```
 
-## Original practice questions
+## Original knowledge checks
 
 ### 1. Orders vs. demand
 
