@@ -2,7 +2,7 @@
 
 Independent, practitioner-oriented learning notes for designing supply networks, planning demand, connecting operations, and measuring performance.
 
-> **Current release:** Modules 1 and 2 are complete. The learning pages use original explanations, fictional examples, editable visuals, worked calculations, and independently authored knowledge checks.
+> **Current release:** Modules 1, 2, and 3 are complete. The learning pages use original explanations, fictional examples, editable visuals, worked calculations, and independently authored knowledge checks.
 
 ## Start here
 
@@ -10,16 +10,19 @@ Independent, practitioner-oriented learning notes for designing supply networks,
 |---|---|---|
 | 1 | Supply-chain foundations, demand analysis, forecasting, and supply-demand alignment | [Supply Chains, Demand, and Forecasting](./01-supply-chains-demand-forecasting/) |
 | 2 | Network design, digital connectivity, master data, performance, and financial insight | [Network Design, Digital Connectivity, and Performance](./02-network-design-digital-connectivity-performance/) |
+| 3 | Sourcing strategy, category management, product design, supplier selection, contracting, and procurement | [Sourcing Strategy, Product Design, and Supplier Execution](./03-sourcing-strategy-product-design-supplier-execution/) |
 
 Choose a route using the [role-based learning paths](./LEARNING-PATHS.md), look up a term in the [repository glossary](./GLOSSARY.md), or move directly to a quantitative reference:
 
 - [Forecasting formula sheet](./calculations/forecasting/formula-sheet.md)
 - [Network and performance formula sheet](./calculations/network-performance/formula-sheet.md)
+- [Sourcing and procurement formula sheet](./calculations/sourcing-procurement/formula-sheet.md)
 
 Each module ends with an integrated fictional case:
 
 - [NorthStar planning capstone](./01-supply-chains-demand-forecasting/capstone/README.md)
 - [AsterWorks network-transformation capstone](./02-network-design-digital-connectivity-performance/capstone/README.md)
+- [Rivermark sourcing-and-design capstone](./03-sourcing-strategy-product-design-supplier-execution/capstone/README.md)
 
 ## What makes this repository useful
 
@@ -41,12 +44,16 @@ The examples use fictional organizations and independently selected values. Diag
 ```text
 01-supply-chains-demand-forecasting/                  Module 1 learning content
 02-network-design-digital-connectivity-performance/  Module 2 learning content
+03-sourcing-strategy-product-design-supplier-execution/ Module 3 learning content
 assets/diagrams/module-1/                             Module 1 SVG diagrams
 assets/diagrams/module-2/                             Module 2 SVG diagrams
+assets/diagrams/module-3/                             Module 3 SVG diagrams
 assets/data/module-1/                                 Module 1 example datasets
 assets/data/module-2/                                 Module 2 example datasets
+assets/data/module-3/                                 Module 3 example datasets
 calculations/forecasting/                             Forecasting references
 calculations/network-performance/                     Network and performance references
+calculations/sourcing-procurement/                      Sourcing and procurement references
 GLOSSARY.md                                            Cross-module terminology index
 LEARNING-PATHS.md                                      Role- and time-based reading routes
 _templates/                                           Reusable authoring templates
@@ -58,13 +65,13 @@ QUALITY.md                                            Quality and originality st
 
 The repository currently includes:
 
-- 111 structured Markdown files across two completed modules;
-- eight connected learning sections;
-- 45 original SVG diagrams plus 43 Module 2 process flows;
-- 16 original CSV datasets for worked analysis;
-- 183 independently authored knowledge checks;
-- two integrated end-to-end capstones; and
-- 307 verified internal navigation links across all 128 Markdown files.
+- 161 structured Markdown files across three completed modules;
+- twelve connected learning sections;
+- 55 original SVG diagrams plus repository-native Mermaid process flows;
+- 24 original CSV datasets for worked analysis;
+- 265 independently authored knowledge checks;
+- three integrated end-to-end capstones; and
+- automated validation of internal navigation, Markdown structure, SVG accessibility, and CSV consistency.
 
 The repository runs a read-only content-quality workflow on every push and pull request to detect broken links, malformed datasets, invalid or inaccessible SVGs, and unbalanced Markdown blocks.
 

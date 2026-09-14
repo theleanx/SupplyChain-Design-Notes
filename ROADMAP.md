@@ -23,9 +23,15 @@
 - [x] Add an integrated network-transformation capstone
 - [x] Complete content, calculation, visual, navigation, and originality review
 
-## Future modules
+## Module 3 — Sourcing Strategy, Product Design, and Supplier Execution
 
-- [ ] Sourcing products and services
+- [x] Complete Sections A–D
+- [x] Connect demand, make-or-buy, total cost, category strategy, product design, supplier selection, contracting, and procure-to-pay execution
+- [x] Add original SVGs, process flows, fictional datasets, calculations, and standardized knowledge checks
+- [x] Add the Rivermark integrated sourcing-and-design capstone
+- [x] Complete source separation, terminology, navigation, calculation, and originality controls
+
+## Future modules
 - [ ] Internal operations and inventory
 - [ ] Forward and reverse logistics
 - [ ] Supply-chain relationships
@@ -51,4 +57,4 @@ Future module folders will be published only when substantive content is ready.
 
 ## Current status
 
-Modules 1 and 2 are complete. The next module will follow the same full-release gate before it appears on the default branch.
+Modules 1, 2, and 3 are complete. The next module will follow the same full-release gate before it appears on the default branch.

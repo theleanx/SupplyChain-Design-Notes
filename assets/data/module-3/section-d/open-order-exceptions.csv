@@ -1,0 +1,5 @@
+purchase_order,item,confirmed_date,current_forecast_date,customer_impact,inventory_cover_days,recovery_option,incremental_cost_usd,owner
+4500712,Compressor_10kW,2026-10-08,2026-10-17,Two_priority_units,3,Partial_air_freight,6800,Category_Manager
+4500731,Control_board_V4,2026-10-12,2026-10-14,Service_stock_risk,9,Reallocate_uncommitted_stock,450,Planner
+4500748,Filter_kit,2026-10-15,2026-10-15,None,26,No_action,0,Buyer
+4500759,Refrigerant_sensor,2026-10-10,2026-10-22,Final_test_stoppage,2,Supplier_overtime_and_courier,3900,Sourcing_Lead

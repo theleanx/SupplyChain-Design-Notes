@@ -26,6 +26,8 @@ This glossary provides concise working definitions for terms used across the rep
 
 **Bullwhip effect** — Amplification of demand variation as orders and information move upstream through a supply network.
 
+**BATNA** — The best feasible course of action available if a negotiation does not produce an agreement.
+
 ## C
 
 **Capacity** — The output a resource, work center, facility, or supply network can produce during a defined period.
@@ -45,6 +47,10 @@ This glossary provides concise working definitions for terms used across the rep
 **Cycle** — A wave-like demand movement extending beyond a normal seasonal pattern and often associated with broader business conditions.
 
 **Cybersecurity** — Protection of systems, identities, data, and operations against unauthorized access, disruption, alteration, or misuse.
+
+**Category strategy** — A coordinated plan for managing a group of related external spend using shared demand, market, supplier, risk, and value actions.
+
+**Contract deployment** — Translation of signed commercial obligations into owners, processes, systems, data, training, measures, and escalation controls.
 
 ## D
 
@@ -106,6 +112,8 @@ This glossary provides concise working definitions for terms used across the rep
 
 **Level strategy** — An operations strategy that keeps output relatively stable and absorbs demand variation through inventory, backlog, or other buffers.
 
+**Landed cost** — The purchase or production cost plus the logistics, duty, brokerage, handling, and other costs required to place supply at the specified destination.
+
 ## M
 
 **Make-to-order (MTO)** — A production approach in which product completion is initiated by a specific customer order.
@@ -126,6 +134,10 @@ This glossary provides concise working definitions for terms used across the rep
 
 **Mean time to repair (MTTR)** — Average elapsed time required to restore failed equipment to service.
 
+**Make-or-buy decision** — A strategic choice about whether a defined capability, product, component, process, or service should be performed internally, externally, or through a hybrid model.
+
+**Modular design** — A product architecture with governed interfaces that allows components or subassemblies to be reused, configured, replaced, or upgraded with controlled independence.
+
 ## N
 
 **New-product introduction (NPI)** — The coordinated process of preparing a new product for commercial launch and operational execution.
@@ -135,6 +147,10 @@ This glossary provides concise working definitions for terms used across the rep
 **Operations plan** — A time-phased statement of the output, inventory, workforce, capacity, and service response required to support the agreed plan.
 
 **Order penetration point** — The point in the supply process where a specific customer order becomes linked to materials or capacity.
+
+**Offshoring** — Locating work in a different country, whether the work remains internally owned or is performed by an external organization.
+
+**Outsourcing** — Assigning a defined activity, capability, product, or service to an external provider.
 
 ## P
 
@@ -151,6 +167,8 @@ This glossary provides concise working definitions for terms used across the rep
 **Product portfolio** — The collection of products, services, families, and variants managed as a set of strategic and economic choices.
 
 **Production-to-order (PTO)** — A broad order-driven approach in which production activity is authorized in response to customer demand.
+
+**Purchase order** — An authorized commercial document stating the item or service, quantity, price, delivery, payment, and applicable execution terms.
 
 ## R
 
@@ -190,6 +208,10 @@ This glossary provides concise working definitions for terms used across the rep
 
 **SWOT** — A structured view of internal strengths and weaknesses alongside external opportunities and threats.
 
+**Should-cost estimate** — A driver-based estimate of the resources and economics reasonably expected to deliver a defined requirement under stated assumptions.
+
+**Supplier segmentation** — Classification of a supplier relationship using category dependence, supplier capability, mutual attractiveness, and the governance needed to create value.
+
 ## T
 
 **Tracking signal** — A ratio comparing cumulative forecast error with MAD to identify sustained bias.
@@ -201,6 +223,10 @@ This glossary provides concise working definitions for terms used across the rep
 **Transportation management system (TMS)** — An application that supports transport planning, tendering, execution, settlement, and performance analysis.
 
 **Trend** — A persistent long-term upward or downward movement in demand.
+
+**Three-way match** — A payment control comparing the authorized purchase order, receipt or acceptance evidence, and supplier invoice.
+
+**Total cost of ownership** — The relevant acquisition, transition, logistics, inventory, quality, administration, risk, use, service, and disposition consequences evaluated over a stated horizon.
 
 ## V
 
