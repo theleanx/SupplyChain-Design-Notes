@@ -62,7 +62,7 @@ The repository currently includes:
 - eight connected learning sections;
 - 45 original SVG diagrams plus 43 Module 2 process flows;
 - 16 original CSV datasets for worked analysis;
-- 169 answer-reveal knowledge checks;
+- 183 independently authored knowledge checks;
 - two integrated end-to-end capstones; and
 - 307 verified internal navigation links across all 128 Markdown files.
 

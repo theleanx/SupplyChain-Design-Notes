@@ -31,9 +31,11 @@ B. A consensus demand plan reflecting the forecast, commercial actions, and assu
 C. A production schedule immediately, without further review  
 D. A financial target that replaces the forecast  
 
-**Answer: B**
+<details><summary>Answer and rationale</summary>
 
-**Why:** Demand planning goes beyond the statistical forecast. The demand plan should incorporate planned actions and assumptions before supply commits resources.
+**B.** Demand planning goes beyond the statistical forecast. The demand plan should incorporate planned actions and assumptions before supply commits resources.
+
+</details>
 
 ---
 
@@ -46,9 +48,11 @@ B. Order qualifier
 C. Demand shaper  
 D. Promotional channel  
 
-**Answer: B**
+<details><summary>Answer and rationale</summary>
 
-**Why:** A qualifier is the minimum condition to compete. It may not be the reason the customer ultimately chooses the supplier.
+**B.** A qualifier is the minimum condition to compete. It may not be the reason the customer ultimately chooses the supplier.
+
+</details>
 
 ---
 
@@ -61,9 +65,11 @@ B. Communicate soon
 C. Product life-cycle management  
 D. Contribution margin  
 
-**Answer: B**
+<details><summary>Answer and rationale</summary>
 
-**Why:** Uncertain information can still be shared early as a range with assumptions. Delay removes response options.
+**B.** Uncertain information can still be shared early as a range with assumptions. Delay removes response options.
+
+</details>
 
 ---
 
@@ -76,9 +82,11 @@ B. Manage demand
 C. Communicate only after consensus  
 D. Demand generation  
 
-**Answer: A**
+<details><summary>Answer and rationale</summary>
 
-**Why:** The same underlying demand must be presented in the form most useful to the audience.
+**A.** The same underlying demand must be presented in the form most useful to the audience.
+
+</details>
 
 ---
 
@@ -91,9 +99,11 @@ B. Demand manager
 C. Warehouse supervisor  
 D. Supplier quality engineer  
 
-**Answer: B**
+<details><summary>Answer and rationale</summary>
 
-**Why:** Those are core demand-manager responsibilities.
+**B.** Those are core demand-manager responsibilities.
+
+</details>
 
 ---
 
@@ -106,9 +116,11 @@ B. Check and act
 C. Do and plan  
 D. Act only  
 
-**Answer: B**
+<details><summary>Answer and rationale</summary>
 
-**Why:** They evaluate results and root cause (check), then change the approach (act).
+**B.** They evaluate results and root cause (check), then change the approach (act).
+
+</details>
 
 ---
 
@@ -121,9 +133,11 @@ B. demand forecasting
 C. supply measurement  
 D. product traceability  
 
-**Answer: A**
+<details><summary>Answer and rationale</summary>
 
-**Why:** The company is intentionally changing the timing of customer demand.
+**A.** The company is intentionally changing the timing of customer demand.
+
+</details>
 
 ---
 
@@ -136,9 +150,11 @@ B. Price
 C. Place  
 D. Promotion  
 
-**Answer: C**
+<details><summary>Answer and rationale</summary>
 
-**Why:** The distribution/contact channel and fulfillment method are placement decisions.
+**C.** The distribution/contact channel and fulfillment method are placement decisions.
+
+</details>
 
 ---
 
@@ -151,9 +167,11 @@ B. Efficiency and service differentiation
 C. Eliminating all inventory immediately  
 D. Building unlimited launch capacity  
 
-**Answer: B**
+<details><summary>Answer and rationale</summary>
 
-**Why:** Mature products face stronger competition and slower growth, increasing pressure on cost and differentiation.
+**B.** Mature products face stronger competition and slower growth, increasing pressure on cost and differentiation.
+
+</details>
 
 ---
 
@@ -166,9 +184,11 @@ B. Price elasticity
 C. Forecast bias  
 D. Cross-docking  
 
-**Answer: A**
+<details><summary>Answer and rationale</summary>
 
-**Why:** PLM spans product information and support from development through end of life.
+**A.** PLM spans product information and support from development through end of life.
+
+</details>
 
 ---
 
@@ -181,9 +201,11 @@ B. Pull-oriented response, modular design, and short lead times
 C. Maximum standardization with no spare capacity  
 D. Fixed high inventory regardless of demand  
 
-**Answer: B**
+<details><summary>Answer and rationale</summary>
 
-**Why:** High uncertainty plus high clockspeed calls for responsiveness and protection against obsolescence.
+**B.** High uncertainty plus high clockspeed calls for responsiveness and protection against obsolescence.
+
+</details>
 
 ---
 
@@ -196,9 +218,11 @@ B. Modular design can preserve reusable portions across versions
 C. Demand must be fully make-to-order  
 D. Product life cycle is irrelevant  
 
-**Answer: B**
+<details><summary>Answer and rationale</summary>
 
-**Why:** Stable demand can coexist with high NPI frequency; modularity can separate fast-changing and stable portions.
+**B.** Stable demand can coexist with high NPI frequency; modularity can separate fast-changing and stable portions.
+
+</details>
 
 ---
 
@@ -211,9 +235,11 @@ B. Challenge the change and its assumptions
 C. Replace the number with the business-plan target without discussion  
 D. Increase safety stock immediately  
 
-**Answer: B**
+<details><summary>Answer and rationale</summary>
 
-**Why:** A demand plan should be evidence-based, and unexplained changes should be challenged.
+**B.** A demand plan should be evidence-based, and unexplained changes should be challenged.
+
+</details>
 
 ---
 
@@ -226,9 +252,11 @@ B. More branding
 C. A longer product name  
 D. A more complex channel  
 
-**Answer: A**
+<details><summary>Answer and rationale</summary>
 
-**Why:** Creating volume that reduces profit is not successful demand management.
+**A.** Creating volume that reduces profit is not successful demand management.
+
+</details>
 
 ---
 
@@ -241,9 +269,11 @@ B. Produce common modules in advance and postpone final configuration until dema
 C. Stop forecasting all components  
 D. Eliminate product variety  
 
-**Answer: B**
+<details><summary>Answer and rationale</summary>
 
-**Why:** This is a classic hybrid push/pull situation where postponement reduces mix risk.
+**B.** This is a classic hybrid push/pull situation where postponement reduces mix risk.
+
+</details>
 
 ---
 
