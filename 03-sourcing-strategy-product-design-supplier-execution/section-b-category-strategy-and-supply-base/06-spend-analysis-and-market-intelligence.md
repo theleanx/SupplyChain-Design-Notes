@@ -30,6 +30,18 @@ Unclean supplier names, duplicate records, inconsistent units, and missing categ
 | **4. Forecast category demand** | Forward demand profile including design changes, projects, growth, and service obligations |
 | **5. Validate market assumptions from multiple sources** | Market fact base triangulated across suppliers, indices, public data, and internal experts |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Collect PO, invoice, contract, and demand data"] --> B["Clean names, units, and currency"]
+    B --> C["Classify to category hierarchy"]
+    C --> D["Enrich with capacity, cost, and risk signals"]
+    D --> E["Size opportunity and exposure"]
+    E --> F["Convert insight into category action"]
+    F --> G["Track realized result"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark initially appears to have 41 electronics suppliers. Entity matching shows 29 legal suppliers, while six names belong to one corporate group. That correction reveals greater concentration in control components than the raw report suggested.
@@ -37,6 +49,16 @@ Rivermark initially appears to have 41 electronics suppliers. Entity matching sh
 **Decision insight.** Entity resolution changes the risk conclusion: nominal supplier count falls, corporate concentration rises, and continuity actions move ahead of price negotiations.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Worked decision — spend concentration baseline
+
+From the [category-spend dataset](../../assets/data/module-3/section-b/category-spend.csv), total annual spend is:
+
+`$8.40m + $6.20m + $4.10m + $0.98m + $0.42m + $0.76m = $20.86m`
+
+Compressor assemblies therefore represent `$8.40m ÷ $20.86m = 40.27%` of covered spend. That concentration is an inquiry trigger, not an automatic savings target. Enrich it with capacity, cost drivers, qualification lead time, and parent-company exposure.
+
+The analysis output should name the decision it enables—for example, capacity reservation, specification harmonization, competitive event, index formula, or risk mitigation—and a baseline against which finance can verify realized value. A dashboard without an action owner remains descriptive reporting.
 
 ## Decision logic
 
@@ -97,7 +119,9 @@ Publish data-confidence notes with every spend dashboard. Decision makers need t
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section B overview](./README.md)
+- [Section overview](./README.md)
+- [Category-spend dataset](../../assets/data/module-3/section-b/category-spend.csv)
+- [Category Architecture and Strategy](./02-category-architecture.md)
 - [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
 
 ---

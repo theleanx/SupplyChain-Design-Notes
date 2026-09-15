@@ -202,7 +202,7 @@ def hierarchy(title_: str, desc: str, levels: list[tuple[str, str]], eyebrow: st
     return root
 
 
-def cost_stack(title_: str, desc: str, items: list[tuple[str, int, str]], eyebrow: str) -> ET.Element:
+def cost_stack(title_: str, desc: str, items: list[tuple[str, float, str]], eyebrow: str) -> ET.Element:
     root = base(title_, desc, eyebrow)
     maximum = max(v for _, v, _ in items)
     x, y = 330, 170
@@ -211,7 +211,7 @@ def cost_stack(title_: str, desc: str, items: list[tuple[str, int, str]], eyebro
         fill = [BLUE, TEAL, GOLD, CORAL, MUTED][i % 5]
         el(root, "rect", x=x, y=y + i * 82, width=w, height=68, rx="10", fill=fill)
         text(root, x + 18, y + 27 + i * 82, label, cls="barlabel", max_chars=24)
-        text(root, 835, y + 39 + i * 82, f"{value}%", cls="metric")
+        text(root, 835, y + 39 + i * 82, f"${value:.2f}", cls="metric")
         text(root, 915, y + 39 + i * 82, note, cls="small", max_chars=26)
     text(root, 100, 210, "Visible price", cls="label")
     arrow(root, "M190 230 V555")
@@ -219,7 +219,7 @@ def cost_stack(title_: str, desc: str, items: list[tuple[str, int, str]], eyebro
     return root
 
 
-def waterfall(title_: str, desc: str, items: list[tuple[str, int]], eyebrow: str) -> ET.Element:
+def waterfall(title_: str, desc: str, items: list[tuple[str, float]], eyebrow: str) -> ET.Element:
     root = base(title_, desc, eyebrow)
     x0, basey, scale = 110, 580, 4.0
     cumulative = 0
@@ -232,14 +232,14 @@ def waterfall(title_: str, desc: str, items: list[tuple[str, int]], eyebrow: str
         h = abs(value) * scale
         fill = TEAL if value >= 0 else CORAL
         el(root, "rect", x=x, y=y, width=bw, height=max(h, 3), rx="6", fill=fill)
-        text(root, x + bw / 2, y - 12, f"{value:+}", cls="label", anchor="middle")
+        text(root, x + bw / 2, y - 12, f"${value:+.2f}", cls="label", anchor="middle")
         text(root, x + bw / 2, 615, label, cls="small", anchor="middle", max_chars=15)
         if i < len(items) - 1:
             el(root, "line", x1=x + bw, y1=basey - cumulative * scale, x2=x + bw + gap, y2=basey - cumulative * scale, stroke=LINE, **{"stroke-width": 2, "stroke-dasharray": "5 5"})
     x = x0 + len(items) * (bw + gap)
     total_h = cumulative * scale
     el(root, "rect", x=x, y=basey - total_h, width=bw, height=total_h, rx="6", fill=BLUE)
-    text(root, x + bw / 2, basey - total_h - 12, str(cumulative), cls="metric", anchor="middle")
+    text(root, x + bw / 2, basey - total_h - 12, f"${cumulative:.2f}", cls="metric", anchor="middle")
     text(root, x + bw / 2, 615, "Should cost", cls="small", anchor="middle")
     text(root, 80, 160, "Should-cost bridge", cls="label")
     text(root, 80, 190, "Build from transparent cost drivers; negotiate the assumptions, not only the final price.", cls="body", max_chars=58)
@@ -385,10 +385,10 @@ def build() -> None:
             [("Business need", "Demand, service promise, risk appetite"), ("Category requirement", "Scope, volumes, constraints, target economics"), ("Supplier specification", "Technical, quality, logistics, compliance"), ("Sourcing calendar", "Market test, award, qualification, launch")], "Requirement cascade")),
         ("section-a", "06-landed-cost-and-total-cost-of-ownership-workflow.svg", cost_stack(
             "Landed Cost and Total Cost of Ownership", "Look beyond unit price to the cost created across the relationship lifecycle.",
-            [("Unit price", 42, "Quoted purchase value"), ("Logistics and duties", 18, "Freight, handling, tariff"), ("Inventory and working capital", 15, "Pipeline and buffers"), ("Quality and disruption", 14, "Failure and recovery"), ("Lifecycle and exit", 11, "Change, disposal, switching")], "Cost exposure stack")),
+            [("Distant-source price", 61.00, "Quoted purchase value"), ("Freight and duty", 7.90, "Inbound and brokerage"), ("Pipeline inventory", 3.40, "Longer cash exposure"), ("Expected quality", 4.20, "Defect consequence"), ("Control and continuity", 6.10, "Relationship and recovery")], "Distant-source cost stack · $82.60 per unit")),
         ("section-a", "07-should-cost-and-business-case-workflow.svg", waterfall(
             "Should-Cost and Business-Case Bridge", "Reconcile technical cost drivers with risk-adjusted commercial value.",
-            [("Material", 38), ("Conversion", 20), ("Overhead", 12), ("Logistics", 8), ("Risk", 6), ("Productivity", -5)], "Transparent cost bridge")),
+            [("Material", 54.60), ("Conversion", 12.80), ("Overhead", 7.00), ("Logistics", 4.00), ("Margin", 10.00)], "Transparent cost bridge")),
 
         ("section-b", "01-supply-plan-governance-workflow.svg", cycle(
             "Supply Plan Governance", "Turn market evidence into owned actions and controlled refresh decisions.",
@@ -424,7 +424,7 @@ def build() -> None:
             [("Concept", "Invite capability options"), ("Architecture", "Trade modules and interfaces"), ("Detail design", "Validate tolerances and process"), ("Industrialize", "Prove tooling and capacity"), ("Launch", "Control changes and learning")], "Early involvement stage gates")),
         ("section-c", "03-design-for-supply-chain-and-logistics-workflow.svg", dashboard(
             "Design for Supply Chain and Logistics", "Use cross-functional measures to expose downstream design consequences.",
-            [("−18%", "Pack cube", "Space per sellable unit"), ("−12 days", "Lead time", "Supply response"), ("+1", "Source options", "Qualified alternatives"), ("−22%", "Damage", "Handling exposure")],
+            [("+33.3%", "Pallet density", "6 to 8 units per pallet"), ("−26.1%", "Assembly time", "46 to 34 minutes"), ("−61.1%", "Service time", "18 to 7 minutes"), ("−27.7%", "Packaging cost", "$310k to $224k")],
             ["Approve packaging against transport lanes", "Validate material availability and source depth", "Test postponement and inventory placement", "Record owners for unresolved trade-offs"], "Design scorecard")),
         ("section-c", "04-standardization-commonality-and-universality-workflow.svg", hierarchy(
             "Standardization, Commonality, and Universality", "Move from shared rules to reusable parts and broad application.",
@@ -452,7 +452,7 @@ def build() -> None:
             ["Need and specification", "Route decision", "Supplier evaluation", "Award and approval", "Order and control"], "Source-to-order route")),
         ("section-d", "02-supplier-criteria-and-scorecards-workflow.svg", dashboard(
             "Supplier Criteria and Scorecards", "Combine weighted selection evidence with hard qualification gates.",
-            [("30%", "Quality", "Capability and defect control"), ("25%", "Delivery", "Capacity and reliability"), ("25%", "Commercial", "TCO and transparency"), ("20%", "Risk and ESG", "Continuity and compliance")],
+            [("83", "NorthPeak", "Eligible weighted total"), ("78", "BlueHarbor", "Eligible weighted total"), ("78", "VectorTherm", "Mandatory gate failed"), ("1–5", "Raw score scale", "Weights applied separately")],
             ["Fail any mandatory gate → no award", "Keep scoring scale and evidence source explicit", "Separate evaluator notes from final consensus", "Set post-award measures before signature"], "Weighted scorecard")),
         ("section-d", "03-competitive-bidding-and-direct-negotiation-workflow.svg", split_compare(
             "Competitive Bidding or Direct Negotiation?", "Choose the event format based on specification clarity, market depth, and need for collaboration.",
@@ -471,7 +471,7 @@ def build() -> None:
             "Buyer risk", "Supplier risk", "Risk-allocation continuum")),
         ("section-d", "07-terms-slas-and-incentives-workflow.svg", dashboard(
             "Terms, SLAs, and Incentives", "Connect definitions, measures, consequences, and improvement behavior.",
-            [("98.5%", "On-time service", "Window and exclusions defined"), ("≤1.0%", "Defect rate", "Lot and sampling defined"), ("24 h", "Recovery response", "Clock and severity defined"), ("Quarterly", "Gainshare", "Baseline and cap defined")],
+            [("≥98%", "Delivery reliability", "Receipt vs confirmed date"), ("≤500", "Incoming PPM", "Accepted quantity and defects"), ("Day 5", "Forecast exchange", "Portal transmission log"), ("Quarterly", "Rebate review", "Eligible spend reconciled")],
             ["Define the data source and calculation", "Assign dispute and escalation paths", "Balance service credits with positive incentives", "Review for gaming and unintended behavior"], "Performance control panel")),
         ("section-d", "08-payment-trade-finance-and-currency-workflow.svg", timeline(
             "Payment, Trade Finance, and Currency", "Map cash, title, documents, and foreign-exchange exposure across the transaction.",

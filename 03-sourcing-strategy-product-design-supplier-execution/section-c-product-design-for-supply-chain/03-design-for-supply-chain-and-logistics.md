@@ -30,6 +30,17 @@ A small dimensional, weight, labeling, or packaging choice can change pallet den
 | **4. Calculate unit-load economics** | Comparable cube, weight, labor, damage, inventory, and transport economics |
 | **5. Test damage, ergonomics, and recovery** | Physical tests for damage, ergonomics, identification, stacking, climate, and recovery |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Map product across source, move, store, use, and return"] --> B["Generate design alternatives"]
+    B --> C["Calculate cube, weight, handling, and damage effects"]
+    C --> D["Validate packaging and material availability"]
+    D --> E["Test service, source depth, and postponement"]
+    E --> F["Approve trade-off or return to design"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark redesigns service kits so four kits fit one standard tote instead of three. Annual outbound cartons fall by 6,400, but the team validates that extra density does not exceed manual-handling limits.
@@ -37,6 +48,19 @@ Rivermark redesigns service kits so four kits fit one standard tote instead of t
 **Decision insight.** The fourth kit per tote saves cartons and transport only after the team confirms weight, picking, damage, and customer handling remain acceptable.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Worked decision — logistics effect of a modular platform
+
+Using the [design-alternatives dataset](../../assets/data/module-3/section-c/design-alternatives.csv), moving from the current integral design to the modular platform changes four downstream measures:
+
+| Measure | Current | Modular | Change |
+|---|---:|---:|---:|
+| Units per pallet | 6 | 8 | **+33.3%** |
+| Assembly minutes | 46 | 34 | **−26.1%** |
+| Service minutes | 18 | 7 | **−61.1%** |
+| Annual packaging cost | $310,000 | $224,000 | **−$86,000 / −27.7%** |
+
+Those recurring improvements must be weighed against $650,000 conversion cost and validation risk rated 4 of 5. Confirm pallet stability, damage, handling ergonomics, line balance, source availability, and repair performance in physical trials before approving the forecast benefit.
 
 ## Decision logic
 
@@ -97,7 +121,9 @@ Put a pallet, container, service van, and return box into the virtual design roo
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section C overview](./README.md)
+- [Section overview](./README.md)
+- [Design-alternatives dataset](../../assets/data/module-3/section-c/design-alternatives.csv)
+- [Modular versus Integral Design](./05-modular-versus-integral-design.md)
 - [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
 
 ---

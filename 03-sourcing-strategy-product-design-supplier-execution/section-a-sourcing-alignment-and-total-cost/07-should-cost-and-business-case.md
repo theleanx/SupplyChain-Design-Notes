@@ -30,6 +30,18 @@ Supplier quotations may hide the economics of material yield, labor content, cyc
 | **4. Test sensitivities** | Sensitivity analysis for yield, volume, utilization, commodity, and wage changes |
 | **5. Convert findings into options and commitments** | Negotiation hypotheses, improvement options, investment needs, and benefit owners |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Define product and process assumptions"] --> B["Build material and conversion model"]
+    B --> C["Add overhead, logistics, and reasonable margin"]
+    C --> D["Validate drivers with evidence"]
+    D --> E["Run sensitivity cases"]
+    E --> F["Convert gaps into operational hypotheses"]
+    F --> G["Approve benefit, investment, and owner"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark models a sheet-metal enclosure at $88.40: $54.60 material after yield loss, $12.80 conversion, $7.00 overhead, $4.00 logistics, and $10.00 margin. A supplier quote of $96 prompts questions about scrap and changeover—not an arbitrary demand for an $88.40 price.
@@ -37,6 +49,18 @@ Rivermark models a sheet-metal enclosure at $88.40: $54.60 material after yield 
 **Decision insight.** The model isolates scrap and changeover as the likely gap, giving buyer and supplier two operational levers to investigate before discussing margin.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Worked decision — should-cost bridge
+
+For the enclosure example, the transparent cost stack is:
+
+`$54.60 material + $12.80 conversion + $7.00 overhead + $4.00 logistics + $10.00 margin = $88.40`
+
+Against a $96.00 quotation, the modeled gap is **$7.60 per unit**. Do not label that gap “savings.” First test the assumptions most likely to explain it: actual material yield, production lot size, changeover time, utilization, and supplier-specific capital. Then translate validated opportunities into a business case:
+
+`net benefit = gross recurring benefit − implementation cost − transition cost − expected disruption cost`
+
+Assign each benefit a source, baseline date, implementation milestone, finance owner, and confidence range. A credible case distinguishes negotiated price movement from engineering or process changes that still require execution.
 
 ## Decision logic
 
@@ -71,7 +95,7 @@ B. Demand the modeled price without discussion
 
 C. Investigate the drivers and improvement options behind the difference
 
-D. Replace the supplier immediately
+D. Treat the entire modeled gap as supplier margin
 
 <details>
 <summary>Answer and rationale</summary>
@@ -86,7 +110,7 @@ The model creates questions and alternatives; it does not prove the supplier's a
 
 ### Why the other answers are wrong
 
-A and D jump to conclusions, while B treats assumptions as facts.
+A and D attribute the gap without validating drivers, while B treats assumptions as facts.
 
 </details>
 
@@ -97,7 +121,9 @@ A good model is auditable enough that finance, engineering, operations, and the 
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section A overview](./README.md)
+- [Section overview](./README.md)
+- [Landed Cost and Total Cost of Ownership](./06-landed-cost-and-total-cost-of-ownership.md)
+- [Design for Supply Chain and Logistics](../section-c-product-design-for-supply-chain/03-design-for-supply-chain-and-logistics.md)
 - [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
 
 ---

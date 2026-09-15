@@ -7,6 +7,7 @@ from __future__ import annotations
 import csv
 import copy
 import hashlib
+import math
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -21,6 +22,7 @@ FENCE = "`" * 3
 MODULE_3_REQUIRED_HEADINGS = (
     "## Decision model and workflow",
     "### Evidence retained through the workflow",
+    "## Practical process flow",
     "## Realistic example",
     "**Decision insight.**",
     "## Trade-offs",
@@ -35,6 +37,34 @@ MODULE_3_REJECTED_BOILERPLATE = (
     "Quantify the benefit and the exposure using the same scope and horizon.",
     "Set a guardrail, owner, and review trigger instead of assuming one permanent answer.",
 )
+MODULE_3_WEAK_DISTRACTORS = (
+    "supplier's logo",
+    "buyer's job title",
+    "choose the shortest presentation",
+    "ignore because spend is low",
+    "all three are identical",
+    "only if cheapest",
+    "only if incumbent",
+    "run a price-only auction",
+)
+MODULE_3_DATASET_LINKS = {
+    "section-a-sourcing-alignment-and-total-cost/02-make-buy-and-core-capability.md": "make-buy-options.csv",
+    "section-a-sourcing-alignment-and-total-cost/06-landed-cost-and-total-cost-of-ownership.md": "total-cost-options.csv",
+    "section-b-category-strategy-and-supply-base/02-category-architecture.md": "category-spend.csv",
+    "section-b-category-strategy-and-supply-base/03-portfolio-analysis.md": "category-portfolio.csv",
+    "section-b-category-strategy-and-supply-base/06-spend-analysis-and-market-intelligence.md": "category-spend.csv",
+    "section-b-category-strategy-and-supply-base/07-supply-base-right-sizing.md": "supplier-shares.csv",
+    "section-c-product-design-for-supply-chain/01-design-as-economic-lever.md": "design-alternatives.csv",
+    "section-c-product-design-for-supply-chain/03-design-for-supply-chain-and-logistics.md": "design-alternatives.csv",
+    "section-c-product-design-for-supply-chain/04-standardization-commonality-and-universality.md": "design-alternatives.csv",
+    "section-c-product-design-for-supply-chain/05-modular-versus-integral-design.md": "design-alternatives.csv",
+    "section-c-product-design-for-supply-chain/06-simplification-dfma-and-serviceability.md": "design-alternatives.csv",
+    "section-d-supplier-selection-contracting-and-procurement/02-supplier-criteria-and-scorecards.md": "supplier-evaluation.csv",
+    "section-d-supplier-selection-contracting-and-procurement/05-contract-deployment-and-compliance.md": "contract-obligations.csv",
+    "section-d-supplier-selection-contracting-and-procurement/07-terms-slas-and-incentives.md": "contract-obligations.csv",
+    "section-d-supplier-selection-contracting-and-procurement/10-receiving-and-three-way-match.md": "three-way-match.csv",
+    "section-d-supplier-selection-contracting-and-procurement/11-order-tracking-exceptions-and-expediting.md": "open-order-exceptions.csv",
+}
 
 
 def public_files() -> list[Path]:
@@ -60,11 +90,6 @@ def validate_markdown(paths: list[Path]) -> tuple[int, list[str]]:
         if fence_count % 2:
             errors.append(f"{relative}: unbalanced fenced block")
 
-        if path.is_relative_to(MODULE_3) and f"{FENCE}mermaid" in body:
-            errors.append(
-                f"{relative}: Module 3 uses render-tested SVGs instead of client-rendered Mermaid"
-            )
-
         if (
             path.is_relative_to(MODULE_3)
             and re.match(r"\d{2}-", path.name)
@@ -78,6 +103,40 @@ def validate_markdown(paths: list[Path]) -> tuple[int, list[str]]:
             for phrase in MODULE_3_REJECTED_BOILERPLATE:
                 if phrase in body:
                     errors.append(f"{relative}: contains rejected generic boilerplate")
+            mermaid_count = body.count(f"{FENCE}mermaid")
+            if mermaid_count != 1:
+                errors.append(
+                    f"{relative}: requires exactly one practical Mermaid process flow"
+                )
+            elif "flowchart TD" not in body or body.count("-->") < 4:
+                errors.append(
+                    f"{relative}: process flow requires a top-down flowchart with at least four transitions"
+                )
+            if not re.search(r"^## (Applied|Worked) decision", body, re.MULTILINE):
+                errors.append(f"{relative}: missing topic-specific applied decision section")
+
+            lesson_relative = str(path.relative_to(MODULE_3))
+            required_dataset = MODULE_3_DATASET_LINKS.get(lesson_relative)
+            if required_dataset and required_dataset not in body:
+                errors.append(
+                    f"{relative}: quantitative lesson must link {required_dataset} directly"
+                )
+
+            related_match = re.search(
+                r"^## Related concepts\n\n(?P<body>.*?)(?:\n\n---)",
+                body,
+                re.MULTILINE | re.DOTALL,
+            )
+            if not related_match or related_match.group("body").count("](") < 4:
+                errors.append(
+                    f"{relative}: related concepts require at least two topic-specific links"
+                )
+
+        if path.is_relative_to(MODULE_3):
+            lowered = body.lower()
+            for phrase in MODULE_3_WEAK_DISTRACTORS:
+                if phrase in lowered:
+                    errors.append(f"{relative}: contains weak distractor phrase ({phrase})")
 
         for alt_text, target in MARKDOWN_IMAGE.findall(body):
             if not alt_text.strip():
@@ -92,6 +151,90 @@ def validate_markdown(paths: list[Path]) -> tuple[int, list[str]]:
                 errors.append(f"{relative}: broken link ({target})")
 
     return checked_links, errors
+
+
+def validate_module_3_content() -> list[str]:
+    """Check calculations and learning-design guarantees that generic checks miss."""
+    errors: list[str] = []
+    topic_paths = sorted(
+        path
+        for path in MODULE_3.glob("section-*/*.md")
+        if re.match(r"\d{2}-", path.name) and "review" not in path.name
+    )
+    if len(topic_paths) != 35:
+        errors.append(f"Module 3: expected 35 topic lessons, found {len(topic_paths)}")
+
+    h2_sequences = {
+        tuple(line for line in path.read_text(encoding="utf-8").splitlines() if line.startswith("## "))
+        for path in topic_paths
+    }
+    if len(h2_sequences) < 20:
+        errors.append(
+            "Module 3: lesson structures are overly repetitive; fewer than 20 heading sequences"
+        )
+
+    total_cost_path = ROOT / "assets/data/module-3/section-a/total-cost-options.csv"
+    with total_cost_path.open(newline="", encoding="utf-8") as handle:
+        total_rows = list(csv.DictReader(handle))
+    components = [row for row in total_rows if row["cost_element"] != "Total"]
+    totals = next(row for row in total_rows if row["cost_element"] == "Total")
+    for source in ("local_source", "distant_source"):
+        calculated = sum(float(row[source]) for row in components)
+        if not math.isclose(calculated, float(totals[source]), abs_tol=0.005):
+            errors.append(f"{total_cost_path.relative_to(ROOT)}: {source} total is inconsistent")
+
+    landed = (
+        MODULE_3
+        / "section-a-sourcing-alignment-and-total-cost"
+        / "06-landed-cost-and-total-cost-of-ownership.md"
+    ).read_text(encoding="utf-8")
+    for required in ("$13 quote advantage", "$3.40 total-cost disadvantage", "$79.20 per unit"):
+        if required not in landed:
+            errors.append(f"Module 3 landed-cost lesson: missing verified statement ({required})")
+    if "$21 quote" in landed or "annualized total is $79.20" in landed:
+        errors.append("Module 3 landed-cost lesson: contains a known unit or arithmetic error")
+
+    make_buy_path = ROOT / "assets/data/module-3/section-a/make-buy-options.csv"
+    with make_buy_path.open(newline="", encoding="utf-8") as handle:
+        make_buy_rows = list(csv.DictReader(handle))
+    if {row["evaluation_horizon_years"] for row in make_buy_rows} != {"3"}:
+        errors.append(f"{make_buy_path.relative_to(ROOT)}: requires one explicit three-year horizon")
+    if {row["discount_rate_pct"] for row in make_buy_rows} != {"0"}:
+        errors.append(f"{make_buy_path.relative_to(ROOT)}: base-case discount rate must be explicit")
+
+    score_path = ROOT / "assets/data/module-3/section-d/supplier-evaluation.csv"
+    weights = (25, 20, 15, 15, 15, 10)
+    with score_path.open(newline="", encoding="utf-8") as handle:
+        score_rows = list(csv.DictReader(handle))
+    for row in score_rows:
+        raw = [float(value) for value in list(row.values())[1:7]]
+        calculated = sum(score / 5 * weight for score, weight in zip(raw, weights))
+        if not math.isclose(calculated, float(row["weighted_total_100"]), abs_tol=0.2):
+            errors.append(
+                f"{score_path.relative_to(ROOT)}: {row['supplier']} weighted total is inconsistent"
+            )
+
+    shares_path = ROOT / "assets/data/module-3/section-b/supplier-shares.csv"
+    with shares_path.open(newline="", encoding="utf-8") as handle:
+        share_rows = list(csv.DictReader(handle))
+    share_totals: dict[str, float] = {}
+    for row in share_rows:
+        share_totals[row["category"]] = share_totals.get(row["category"], 0) + float(row["share_pct"])
+    for category, total in share_totals.items():
+        if not math.isclose(total, 100, abs_tol=0.005):
+            errors.append(f"{shares_path.relative_to(ROOT)}: {category} shares total {total}, not 100")
+
+    capstone = (MODULE_3 / "capstone/README.md").read_text(encoding="utf-8")
+    solution = (MODULE_3 / "capstone/solution-guide.md").read_text(encoding="utf-8")
+    if f"{FENCE}mermaid" not in capstone or capstone.count("-->") < 7:
+        errors.append("Module 3 capstone: missing end-to-end process flow")
+    if len(solution.split()) < 1400:
+        errors.append("Module 3 capstone solution: below the 1,400-word worked-solution floor")
+    for required in ("$8,232,000", "$6,546,000", "3,888", "$4,900", "$160"):
+        if required not in solution:
+            errors.append(f"Module 3 capstone solution: missing worked result ({required})")
+
+    return errors
 
 
 def validate_svg(paths: list[Path]) -> list[str]:
@@ -186,7 +329,12 @@ def main() -> int:
     datasets = [path for path in files if path.suffix.lower() == ".csv"]
 
     link_count, markdown_errors = validate_markdown(markdown)
-    errors = markdown_errors + validate_svg(svg) + validate_csv(datasets)
+    errors = (
+        markdown_errors
+        + validate_svg(svg)
+        + validate_csv(datasets)
+        + validate_module_3_content()
+    )
 
     print(
         f"Validated {len(markdown)} Markdown files, {link_count} internal links, "

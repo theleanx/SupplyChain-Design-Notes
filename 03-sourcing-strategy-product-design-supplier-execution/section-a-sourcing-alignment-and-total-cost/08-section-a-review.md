@@ -6,13 +6,13 @@ Use these independently authored questions to test decision logic, not term reca
 
 **Question.** A make-or-buy model compares supplier price only with internal variable cost. What is missing?
 
-A. Only the supplier's logo
+A. Historic purchase price and current exchange rate only
 
 B. Relevant internal fixed, transition, risk, capacity, and lifecycle consequences
 
-C. The buyer's job title
+C. Supplier price adjusted for inbound freight only
 
-D. The prior purchase-order number
+D. The incumbent's latest quality score without transition economics
 
 <details>
 <summary>Answer and rationale</summary>
@@ -27,7 +27,7 @@ The alternatives need comparable full-scope economics and strategic consequences
 
 ### Why the other answers are wrong
 
-A, C, and D do not correct the decision boundary.
+A, C, and D add partial evidence but still omit material economic and strategic consequences.
 
 </details>
 
@@ -99,7 +99,7 @@ B. Translate it into measurable characteristics and evidence
 
 C. Make it a price discount
 
-D. Delete quality from evaluation
+D. Use an unweighted narrative judgment after proposals arrive
 
 <details>
 <summary>Answer and rationale</summary>
@@ -114,7 +114,7 @@ Comparable evaluation requires a definition and measurement method.
 
 ### Why the other answers are wrong
 
-A, C, and D do not make the requirement executable.
+A, C, and D do not create a measurable, pre-agreed basis for comparison.
 
 </details>
 
@@ -128,7 +128,7 @@ B. Price inside landed cost inside total cost
 
 C. Landed cost inside price
 
-D. All three are identical
+D. Total cost is purchase price plus inbound freight only
 
 <details>
 <summary>Answer and rationale</summary>
@@ -143,7 +143,7 @@ Landed cost extends price; total cost extends landed cost through the decision h
 
 ### Why the other answers are wrong
 
-A, C, and D reverse or erase the scopes.
+A and C reverse the scopes, while D stops at an incomplete landed-cost boundary.
 
 </details>
 
@@ -153,11 +153,11 @@ A, C, and D reverse or erase the scopes.
 
 A. When their basis is too uncertain for responsible monetization
 
-B. Never
+B. Whenever a precise percentage can be calculated from a risk score
 
-C. Only when the supplier is local
+C. When a finance owner prefers qualitative risks to appear in the cost column
 
-D. Only after award
+D. When the same exposure is already embedded in both price and expected loss
 
 <details>
 <summary>Answer and rationale</summary>
@@ -172,7 +172,7 @@ Separating uncertain exposure prevents false precision while keeping risk visibl
 
 ### Why the other answers are wrong
 
-B, C, and D use irrelevant rules.
+B and C substitute presentation preferences for evidence quality; D describes double counting, which should be removed rather than reported separately.
 
 </details>
 
@@ -215,7 +215,7 @@ B. Choose the option whose service, risk, cost, and capability evidence best mee
 
 C. Choose the incumbent
 
-D. Choose the shortest presentation
+D. Choose the highest technical score even when a mandatory gate fails
 
 <details>
 <summary>Answer and rationale</summary>
@@ -230,7 +230,7 @@ The approved brief defines the complete comparison.
 
 ### Why the other answers are wrong
 
-A, C, and D substitute shortcuts for evidence.
+A and C substitute price or incumbency for the full brief, while D improperly lets weighted value override feasibility.
 
 </details>
 
@@ -267,13 +267,13 @@ A, C, and D misstate its purpose.
 
 **Question.** Who retains accountability after outsourcing?
 
-A. Nobody
+A. The external supplier because it performs the transferred work
 
 B. The brand-owning organization remains accountable to customers and regulators
 
-C. Only the carrier
+C. The contracting buyer until goods are accepted, then the supplier
 
-D. Only the supplier's bank
+D. Responsibility is divided, so no party retains complete customer accountability
 
 <details>
 <summary>Answer and rationale</summary>
@@ -288,7 +288,7 @@ External performance does not remove enterprise accountability.
 
 ### Why the other answers are wrong
 
-A, C, and D improperly transfer responsibility.
+A, C, and D confuse execution roles or contractual remedies with the brand owner's continuing accountability.
 
 </details>
 

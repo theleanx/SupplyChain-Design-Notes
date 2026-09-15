@@ -1,0 +1,5 @@
+purchase_order,line,ordered_quantity,unit_price_usd,received_quantity,invoiced_quantity,invoiced_unit_price_usd,match_status,required_action
+4500810,1,100,50.00,98,100,50.00,Quantity_mismatch,Hold_unreceived_quantity
+4500811,1,60,82.00,60,60,82.00,Matched,Release_for_payment
+4500812,1,40,125.00,40,40,129.00,Price_mismatch,Validate_contract_price
+4500813,1,75,34.00,75,75,34.00,Matched,Release_for_payment

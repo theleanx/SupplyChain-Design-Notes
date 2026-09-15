@@ -30,6 +30,18 @@ Savings and protections remain theoretical when buyers order outside the agreeme
 | **4. Validate early transactions** | Early-transaction checks confirming ordering, acknowledgement, receipt, invoice, rebate, and reporting behavior |
 | **5. Monitor compliance, expiry, and improvement** | Compliance, leakage, expiry, renewal, claim, and improvement dashboard with actions |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Extract contract obligations and decision rights"] --> B["Assign owners and evidence sources"]
+    B --> C["Configure prices, catalogs, systems, and users"]
+    C --> D["Execute orders and service"]
+    D --> E["Monitor compliance and exceptions"]
+    E --> F["Correct leakage and resolve disputes"]
+    F --> G["Use evidence for renewal or exit"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark maps every compressor obligation to an owner: sourcing controls price and term, planning forecast cadence, quality audit evidence, engineering change notice, logistics delivery windows, and finance rebates and payment.
@@ -37,6 +49,12 @@ Rivermark maps every compressor obligation to an owner: sourcing controls price 
 **Decision insight.** The obligation map prevents negotiated value from remaining in a contract file by connecting every term to an operating owner, system, and evidence source.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — obligation-control register
+
+Translate the signed contract into an operational register. The [contract-obligations dataset](../../assets/data/module-3/section-d/contract-obligations.csv) shows the required fields: obligation, owner, evidence, frequency, threshold, and response. Add effective date, system configuration, escalation, and renewal notice.
+
+Test deployment by sampling transactions: approved price loaded, index formula current, catalog accessible, forecast transmitted, receipt data captured, rebate accrued, and SLA evidence reproducible. Route exceptions to named owners and distinguish supplier nonperformance from buyer process leakage. At renewal, use the register to calculate realized value and open exposure rather than reconstructing obligations from memory.
 
 ## Decision logic
 
@@ -97,8 +115,9 @@ No obligation should exist only as prose. Map it to an owner, evidence source, f
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section D overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Contract-obligations dataset](../../assets/data/module-3/section-d/contract-obligations.csv)
+- [Terms, Service Levels, and Incentives](./07-terms-slas-and-incentives.md)
 
 ---
 

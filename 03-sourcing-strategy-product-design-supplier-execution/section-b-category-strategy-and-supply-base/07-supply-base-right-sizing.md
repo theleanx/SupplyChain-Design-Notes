@@ -30,6 +30,19 @@ Fewer suppliers can reduce transaction cost and increase leverage, but excessive
 | **4. Sequence awards and exits** | Sequenced award, development, qualification, transition, and exit plan |
 | **5. Monitor savings and residual risk** | Benefits and risk dashboard covering concentration, utilization, switching readiness, and health |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Map demand, capacity, qualification, and parent exposure"] --> B["Calculate concentration and switching constraints"]
+    B --> C{"Aggregation benefit exceeds resilience loss?"}
+    C -->|Yes| D["Consolidate with continuity controls"]
+    C -->|No| E["Diversify or qualify alternate"]
+    D --> F["Set allocation and trigger limits"]
+    E --> F
+    F --> G["Monitor performance and concentration"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark reduces fabricated-enclosure suppliers from nine to five but keeps two qualified geographic regions and no supplier above 45% of category volume. For the single-source sensor, right-sizing means adding—not removing—a second qualified source.
@@ -37,6 +50,14 @@ Rivermark reduces fabricated-enclosure suppliers from nine to five but keeps two
 **Decision insight.** The five-supplier design reduces administrative load while the regional and share caps prevent savings from creating a single failure point.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Worked decision — parent-level concentration
+
+Use the [supplier-share dataset](../../assets/data/module-3/section-b/supplier-shares.csv), which reconciles suppliers to parent groups. Compressor-assembly shares are 52%, 28%, and 20%, producing:
+
+`HHI = 52² + 28² + 20² = 3,888`
+
+Refrigerant sensors have one qualified parent at 100%, so `HHI = 100² = 10,000`. The calculation exposes concentration but does not prescribe an arbitrary supplier count. Compare the benefit of consolidation with capacity headroom, recovery time, tooling portability, qualification expense, geographic correlation, and supplier investment. Set allocation limits and a trigger—for example, a capacity or financial event—that causes the sourcing team to activate an alternate path.
 
 ## Decision logic
 
@@ -65,13 +86,13 @@ Rationalization does not always mean reduction. The correct size may be larger w
 
 **Question.** When can adding a supplier be a right-sizing action?
 
-A. Never
+A. When the current sourcing team has unused administrative capacity
 
 B. When one qualified source creates unacceptable continuity risk
 
-C. Whenever a buyer wants more quotations
+C. When additional competition may lower price, without testing qualification cost or capacity need
 
-D. Only when spend increases
+D. When the incumbent's award share falls below an arbitrary percentage
 
 <details>
 <summary>Answer and rationale</summary>
@@ -86,7 +107,7 @@ Right-sizing optimizes the supply base; it is not synonymous with shrinking it.
 
 ### Why the other answers are wrong
 
-A is false, while C and D do not establish a strategic need.
+A, C, and D use workload, price pressure, or an arbitrary threshold without proving a resilience need.
 
 </details>
 
@@ -97,7 +118,9 @@ Track residual risk after consolidation. Savings are incomplete if the organizat
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section B overview](./README.md)
+- [Section overview](./README.md)
+- [Supplier-share dataset](../../assets/data/module-3/section-b/supplier-shares.csv)
+- [Category Portfolio Analysis](./03-portfolio-analysis.md)
 - [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
 
 ---

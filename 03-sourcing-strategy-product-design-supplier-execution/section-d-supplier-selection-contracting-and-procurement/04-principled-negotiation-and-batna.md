@@ -30,6 +30,19 @@ Without a credible alternative, negotiators may accept an unattractive agreement
 | **4. Trade conditionally across differences** | Conditional trades written as linked exchanges rather than one-sided concessions |
 | **5. Document the complete agreement** | Complete term sheet covering price, scope, performance, risk, change, governance, and closure |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Identify interests, issues, and stakeholders"] --> B["Build BATNA and walk-away boundaries"]
+    B --> C["Prepare objective criteria and tradable packages"]
+    C --> D["Exchange information and test assumptions"]
+    D --> E["Trade across variables, not positions"]
+    E --> F{"Agreement better than BATNA?"}
+    F -->|Yes| G["Document complete agreement"]
+    F -->|No| H["Pause, escalate, or use BATNA"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark wants surge capacity; the supplier wants stable loading. They exchange a rolling forecast and minimum annual volume for a reserved surge band, with performance evidence and an exit trigger.
@@ -37,6 +50,12 @@ Rivermark wants surge capacity; the supplier wants stable loading. They exchange
 **Decision insight.** The exchange works because stable loading is valuable to the supplier and reserved surge capacity is valuable to Rivermark; both obligations are measurable.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — negotiation preparation sheet
+
+Prepare each issue with target, limit, evidence, authority, and tradable variables. Include price structure, indexation, payment, volume flexibility, capacity, lead time, warranty, intellectual property, liability, implementation, and governance. Estimate the supplier’s likely interests without presenting assumptions as facts.
+
+Build a credible BATNA with owner, timing, switching cost, and probability; a theoretical alternative is not negotiating leverage. Design packages that exchange variables with different value to each side—for example, a longer commitment for capacity reservation and transparent indexation. Before closing, compare the complete package with the BATNA and document contingent terms, definitions, and unresolved items.
 
 ## Decision logic
 
@@ -97,8 +116,9 @@ Prepare a concession ledger with cost, value to the other party, conditions, and
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section D overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Competitive Bidding and Direct Negotiation](./03-competitive-bidding-and-direct-negotiation.md)
+- [Contract Types and Risk Allocation](./06-contract-types-and-risk-allocation.md)
 
 ---
 

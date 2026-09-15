@@ -30,6 +30,20 @@ An optimized plan can still fail if it conflicts with service commitments, cultu
 | **4. Assign central and local decisions** | Decision-right matrix for enterprise, category, site, and transaction levels |
 | **5. Approve, monitor, and refresh** | Approved plan with owners, thresholds, exception paths, and refresh cadence |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Consolidate demand, capacity, inventory, and risk"] --> B["Cross-functional challenge"]
+    B --> C["Identify gaps and decisions"]
+    C --> D{"Within delegated authority?"}
+    D -->|Yes| E["Approve supply actions"]
+    D -->|No| F["Escalate decision with options"]
+    E --> G["Execute and track variance"]
+    F --> G
+    G --> A
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark centralizes semiconductor and compressor strategies but permits plants to source low-risk maintenance supplies locally within approved controls. Capacity and continuity assumptions are reviewed quarterly.
@@ -37,6 +51,12 @@ Rivermark centralizes semiconductor and compressor strategies but permits plants
 **Decision insight.** The governance model concentrates scarce specialist attention on constrained categories while preserving plant responsiveness for routine needs.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — governance decision log
+
+A useful governance meeting ends with decisions, not presentation notes. Maintain a log containing decision statement, alternatives considered, evidence date, accountable owner, due date, financial/service exposure, and escalation trigger. Link every action to the specific demand-capacity gap it resolves.
+
+Use a two-horizon agenda: near-term exceptions that threaten customer or production commitments, and structural actions such as capacity reservations, qualification, inventory policy, or redesign. Close the loop by comparing the approved assumption with actual demand, delivery, and cost at the next review. Repeated variance should change the model or policy, not merely create another action.
 
 ## Decision logic
 
@@ -97,8 +117,9 @@ Governance should clarify who decides, who contributes evidence, and what event 
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section B overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Category Architecture and Strategy](./02-category-architecture.md)
+- [Strategic Sourcing from Demand](../section-a-sourcing-alignment-and-total-cost/01-strategic-sourcing-from-demand.md)
 
 ---
 

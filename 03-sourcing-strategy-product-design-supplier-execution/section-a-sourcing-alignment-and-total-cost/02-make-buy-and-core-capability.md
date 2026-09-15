@@ -30,6 +30,22 @@ Outsourcing a strategically differentiating capability can erase learning and in
 | **4. Model full economics and risk** | Comparable make, buy, and hybrid economics with transition and risk scenarios |
 | **5. Choose make, buy, or hybrid** | Approved operating model with retained controls, exit conditions, and review triggers |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Define capability boundary"] --> B{"Creates defensible advantage?"}
+    B -->|Yes| C{"Internal capability sustainable?"}
+    B -->|No| D{"Capable supply market?"}
+    C -->|Yes| E["Make and protect"]
+    C -->|No| F["Hybrid or capability investment"]
+    D -->|Yes| G["Buy with controls"]
+    D -->|No| F
+    E --> H["Set review and exit triggers"]
+    F --> H
+    G --> H
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark keeps control-algorithm design internal because field performance and energy efficiency differentiate its products. It buys standard fan motors and uses a qualified partner for circuit-board assembly while retaining test design, firmware, and final release.
@@ -37,6 +53,21 @@ Rivermark keeps control-algorithm design internal because field performance and 
 **Decision insight.** This hybrid boundary protects the algorithm and validation knowledge that create advantage while using external manufacturing scale where the market is capable.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Worked decision — three-year make-or-buy comparison
+
+The [make-or-buy dataset](../../assets/data/module-3/section-a/make-buy-options.csv) uses 24,000 units per year, a three-year horizon, and a 0% discount rate so the arithmetic is reproducible. For each option:
+
+`three-year cost = 3 × (annual volume × unit conversion cost + annual fixed cost) + transition cost`
+
+| Option | Calculation | Three-year cost |
+|---|---:|---:|
+| Internal cell | `3 × (24,000 × $86 + $620,000) + $180,000` | **$8,232,000** |
+| Domestic partner | `3 × (24,000 × $101 + $110,000) + $260,000` | **$7,862,000** |
+| Nearshore partner | `3 × (24,000 × $78 + $170,000) + $420,000` | **$6,546,000** |
+| Hybrid | `3 × (24,000 × $93 + $390,000) + $310,000` | **$8,176,000** |
+
+Nearshore is the modeled cost leader, but it also has an 11-month readiness period, lower knowledge control, and higher continuity risk. The decision record must therefore state whether the $1.63 million cost difference versus hybrid is sufficient compensation for those exposures; cost ranking alone does not decide the capability boundary.
 
 ## Decision logic
 
@@ -69,9 +100,9 @@ A. A supplier offers a temporary discount
 
 B. The activity contains differentiating know-how that is difficult to rebuild
 
-C. The internal team has always performed it
+C. The internal option has a lower stated variable cost before fixed and transition costs
 
-D. The purchase order process is slow
+D. External capacity is available sooner than internal capacity
 
 <details>
 <summary>Answer and rationale</summary>
@@ -86,7 +117,7 @@ Hard-to-rebuild differentiating knowledge is a strategic control issue, not mere
 
 ### Why the other answers are wrong
 
-A is temporary, C is historical rather than strategic, and D is a process problem that does not determine the capability boundary.
+A is temporary, C is an incomplete economic comparison, and D favors an external option rather than proving that the capability should remain internal.
 
 </details>
 
@@ -97,8 +128,10 @@ Define the smallest capability that must remain protected. A precise boundary of
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section A overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Make-or-buy dataset](../../assets/data/module-3/section-a/make-buy-options.csv)
+- [Transition Risk and Knowledge Retention](./04-transition-risk-and-knowledge-retention.md)
+- [Landed Cost and Total Cost of Ownership](./06-landed-cost-and-total-cost-of-ownership.md)
 
 ---
 

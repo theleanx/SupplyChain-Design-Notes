@@ -30,6 +30,18 @@ Forecasts are usually more accurate at an aggregate level than for each finished
 | **4. Place skills, data, and capacity at the point** | Downstream capacity, skills, data, material, equipment, and quality-control design |
 | **5. Control configuration and quality** | Configuration rules, genealogy, test coverage, release authority, and exception handling |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Map variant demand and forecast error"] --> B["Identify common platform"]
+    B --> C["Choose feasible differentiation activities"]
+    C --> D["Locate inventory decoupling point"]
+    D --> E["Test capacity, lead time, and data rules"]
+    E --> F["Configure or localize to actual demand"]
+    F --> G["Measure service, inventory, and obsolescence"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark builds a common indoor unit and adds regional power cables, labels, firmware, and accessory kits at regional centers after orders are known. Common inventory absorbs demand swings across markets.
@@ -37,6 +49,12 @@ Rivermark builds a common indoor unit and adds regional power cables, labels, fi
 **Decision insight.** Common inventory pools uncertainty across markets, while regional configuration occurs only after demand is known and remains traceable to the final unit.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — postponement boundary test
+
+List every differentiating activity—software load, label, language pack, accessory, color, packaging, or final assembly—and test whether it can move downstream without violating lead time, quality, regulation, or capacity. Quantify demand variability at the common and finished-good levels.
+
+Choose the decoupling point where a common unit can still absorb uncertainty and downstream resources can complete the variant within the customer promise. Define configuration data, component availability, work instructions, and error-proofing. Measure pooled inventory, finished-goods obsolescence, completion lead time, and late-stage capacity. Postponement creates value only when the downstream process is controlled and fast enough to serve actual demand.
 
 ## Decision logic
 
@@ -97,8 +115,9 @@ Locate the differentiation point where demand information improves faster than o
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section C overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Standardization, Commonality, and Universality](./04-standardization-commonality-and-universality.md)
+- [Supply-Plan Governance](../section-b-category-strategy-and-supply-base/01-supply-plan-governance.md)
 
 ---
 

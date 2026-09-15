@@ -30,6 +30,18 @@ A favorable item price can be offset by financing cost, documentation failure, d
 | **4. Assign treasury and bank actions** | Treasury, finance, procurement, logistics, bank, and supplier responsibilities and deadlines |
 | **5. Reconcile shipment, title, and settlement** | Reconciliation of shipment, acceptance, title, documents, invoice, currency, and settlement |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Set currency, Incoterm, title, and payment terms"] --> B["Map shipment, document, and bank events"]
+    B --> C["Measure cash, counterparty, and FX exposure"]
+    C --> D["Choose control, hedge, or finance instrument"]
+    D --> E["Ship, receive, and validate documents"]
+    E --> F["Settle payment and currency"]
+    F --> G["Reconcile fees, variances, and claims"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark buys tooling in euros while reporting in U.S. dollars. Finance records the exposure at contract approval, compares natural offsets and hedging options, and defines who absorbs bank and document-discrepancy fees.
@@ -37,6 +49,14 @@ Rivermark buys tooling in euros while reporting in U.S. dollars. Finance records
 **Decision insight.** Recording the euro exposure at approval makes currency risk visible before price variance appears, when treasury still has practical options.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Worked decision — early-payment economics
+
+For terms of `2/10, net 30`, the buyer can take a 2% discount by paying 20 days early. The supplier’s approximate annualized cost of declining that discount is:
+
+`0.02 ÷ 0.98 × 365 ÷ 20 = 37.2%`
+
+That rate supports a fact-based payment discussion, but the transaction design must also align currency, Incoterm, title transfer, transport insurance, documentary requirements, tax, banking fees, and foreign-exchange ownership. Map the event at which each exposure moves. Where a hedge or trade-finance instrument is used, record notional amount, period, counterparty, approvals, settlement evidence, and residual basis risk.
 
 ## Decision logic
 
@@ -97,7 +117,8 @@ Map the physical, document, title, and cash flows separately; they move on diffe
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section D overview](./README.md)
+- [Section overview](./README.md)
+- [Receiving and Three-Way Match](./10-receiving-and-three-way-match.md)
 - [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
 
 ---

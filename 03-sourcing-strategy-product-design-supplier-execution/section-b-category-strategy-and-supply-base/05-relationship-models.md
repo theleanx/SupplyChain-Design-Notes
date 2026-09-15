@@ -30,6 +30,19 @@ Over-collaborating with routine suppliers wastes effort; under-collaborating wit
 | **4. Set information boundaries** | Information-sharing boundary defining purpose, access, retention, and confidentiality |
 | **5. Measure mutual value** | Balanced scorecard showing value created and obligations met by both parties |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Assess value, dependency, and switching difficulty"] --> B["Choose relationship model"]
+    B --> C["Define decisions and information shared"]
+    C --> D["Assign cadence, roles, and escalation"]
+    D --> E["Run joint performance review"]
+    E --> F{"Model still justified?"}
+    F -->|No| B
+    F -->|Yes| E
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark buys standard fasteners through catalog automation, manages sheet-metal partners as preferred sources, and holds quarterly executive reviews and joint capacity planning with its compressor partner.
@@ -37,6 +50,12 @@ Rivermark buys standard fasteners through catalog automation, manages sheet-meta
 **Decision insight.** The three relationship models deliberately match governance cost to business need instead of labeling every major supplier strategic.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — relationship operating charter
+
+For each material supplier, state the relationship model and the behavior it requires. A charter should define joint decisions, information shared, meeting cadence, executive sponsors, improvement pipeline, intellectual-property rules, escalation, and exit criteria. The resource load must match the expected value.
+
+Use evidence to distinguish a preferred supplier from a strategic relationship. Preferred status may reward reliable execution; strategic governance is justified only when interdependence, switching difficulty, innovation, or joint investment requires it. Review the model when dependency, technology, or supplier performance changes. Continuing high-touch governance without a joint agenda creates ceremony, while under-governing a coupled relationship hides risk.
 
 ## Decision logic
 
@@ -97,8 +116,9 @@ Relationship depth should be visible in specific behaviors, decision rights, mea
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section B overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Supplier Attractiveness and Segmentation](./04-supplier-attractiveness-and-segmentation.md)
+- [Terms, Service Levels, and Incentives](../section-d-supplier-selection-contracting-and-procurement/07-terms-slas-and-incentives.md)
 
 ---
 

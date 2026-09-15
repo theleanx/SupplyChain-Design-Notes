@@ -30,6 +30,19 @@ Vague requirements create incomparable proposals and late disputes. Timing must 
 | **4. Build the readiness timeline** | Backward plan for design freeze, qualification, tooling, ramp, and first usable supply |
 | **5. Approve assumptions and tolerances** | Cross-functional approval of assumptions, ownership, exceptions, and change control |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Confirm business need"] --> B["Translate need into measurable specification"]
+    B --> C["Separate mandatory gates from preferences"]
+    C --> D["Validate demand and award timing"]
+    D --> E["Choose event and evaluation plan"]
+    E --> F{"Cross-functional approval?"}
+    F -->|No| B
+    F -->|Yes| G["Release sourcing brief"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 For a refrigerant sensor, Rivermark specifies annual volume of 48,000 units, a peak month of 5,600, 12-week initial qualification, 98% delivery reliability, traceable calibration records, and a four-week surge response for a 20% increase.
@@ -37,6 +50,12 @@ For a refrigerant sensor, Rivermark specifies annual volume of 48,000 units, a p
 **Decision insight.** The requirement set is bid-ready because suppliers can tell exactly how delivery reliability, surge response, and calibration evidence will be measured.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — requirement quality test
+
+Challenge every requirement with four questions: Is it measurable? Is its business reason documented? Does it discriminate among viable solutions? Can compliance be verified before award? Put non-negotiable legal, safety, cyber, and technical conditions in a gate table; put value-creating preferences in the weighted scorecard.
+
+Back-plan the event from the required operational date through contract approval, supplier qualification, tooling, validation, and transition buffer. If the calendar cannot support those activities, escalate the timing conflict instead of compressing supplier due diligence invisibly. Freeze a numbered requirement baseline for bids and log every later clarification so all suppliers compete against the same scope.
 
 ## Decision logic
 
@@ -97,8 +116,9 @@ A requirement is complete only when two evaluators would reach the same conclusi
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section A overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Strategic Sourcing from Demand](./01-strategic-sourcing-from-demand.md)
+- [Supplier Criteria and Weighted Evaluation](../section-d-supplier-selection-contracting-and-procurement/02-supplier-criteria-and-scorecards.md)
 
 ---
 
