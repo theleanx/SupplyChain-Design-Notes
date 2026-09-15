@@ -124,7 +124,19 @@ For PO 4500810, the PO authorizes 100 units at $50, the receipt is 98, and the i
 
 Every expedite should record decision authority, incremental cost, supplier commitment, next check, displaced consequence, root cause, and prevention owner. Premium freight is a recovery action, not a substitute for corrective action.
 
-## 9. Ninety-day implementation
+## Sensitivity and failure cases
+
+The recommendation is conditional rather than permanent. Reopen the affected decision when:
+
+- the nearshore transition slips, the three-year cost advantage narrows materially, or recovery testing cannot protect customer continuity;
+- the distant board's non-price costs fall enough to reverse its $3.40 per-unit disadvantage, or the local source fails the required capacity or service gate;
+- the modular platform misses safety, interface, transport, serviceability, or customer-acceptance criteria, in which case the simplified integral design remains the fallback;
+- approved supplier-score weights cause the eligible ranking to reverse, or NorthPeak fails a mandatory gate after award; or
+- sensor or compressor recovery evidence shows that concentration and qualification risk cannot be controlled within the approved horizon.
+
+Each trigger requires a dated recalculation or gate decision. It does not authorize changing weights, assumptions, or supplier eligibility silently to preserve the original recommendation.
+
+## Implementation roadmap
 
 | Timing | Decision and evidence gate | Accountable roles |
 |---|---|---|
@@ -137,6 +149,10 @@ Every expedite should record decision authority, incremental cost, supplier comm
 
 The day-90 decision is not “project complete.” It is an evidence gate: release, extend validation, use the fallback, or stop. The ongoing review should track total cost, delivery, incoming quality, capacity, expedite cost, design benefits, match exceptions, obligation compliance, and the triggers that would change the sourcing boundary.
 
-## Final quality test
+## Evaluation rubric
 
-The recommendation is ready only when another reviewer can reproduce every major number, trace each decision to a dataset or stated assumption, see why the strongest alternative was rejected, identify the residual risk and contingency, and name the system, evidence owner, threshold, and date that will show whether the decision works.
+| Level | Evidence of completion |
+|---|---|
+| Incomplete | selects sourcing, design, or supplier options without reproducing the economics, applying gates, or connecting the award to execution controls |
+| Competent | reproduces every major number, traces decisions to data or stated assumptions, and identifies owners, risks, controls, and the 90-day evidence gates |
+| Excellent | also explains why the strongest alternative was rejected, tests decision-changing cases, preserves an executable contingency, and names the system, evidence owner, threshold, and date that will show whether the decision works |

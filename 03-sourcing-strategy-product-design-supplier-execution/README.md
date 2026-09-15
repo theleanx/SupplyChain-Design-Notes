@@ -1,5 +1,7 @@
 # Module 3: Sourcing Strategy, Product Design, and Supplier Execution
 
+> **Status:** Complete. Sections A–D meet the repository's shared content, process-flow, visual, calculation, example, assessment, navigation, and originality standards.
+
 Module 3 connects four decisions that are often separated: **what capabilities should remain inside the enterprise, how external spend should be structured, how product design shapes supply-chain performance, and how supplier agreements should operate from award through payment and improvement**.
 
 The module follows fictional **Rivermark Climate Systems**, a manufacturer of modular commercial heat-pump systems and service kits. Growth has exposed constrained compressor capacity, fragmented electronics spend, avoidable product variety, weak contract adoption, and recurring expedites.
@@ -32,10 +34,23 @@ After completing this module, you should be able to:
 - [Module 3 reference register](REFERENCES.md)
 - [Module 3 datasets](../assets/data/module-3/README.md)
 
+## Cross-module prerequisites
+
+Module 3 converts the demand and supply requirements developed in [Module 1](../01-supply-chains-demand-forecasting/README.md) and the network, digital-thread, performance, and financial requirements developed in [Module 2](../02-network-design-digital-connectivity-performance/README.md) into sourcing, product-design, supplier, contract, and procure-to-pay decisions.
+
 ## How each lesson is structured
 
 Every topic moves from a plain-language concept to a topic-appropriate decision model, evidence requirements, a separate end-to-end process flow, a fictional operating example, and a practitioner-ready artifact or worked calculation. Each lesson then tests decision logic through topic-specific trade-offs, failure patterns, related concepts, and an answer-with-rationale knowledge check.
 
 The 35 SVG decision visuals use matrices, stage gates, cost structures, comparison views, control loops, scorecards, and execution flows with explicit multiline text so their labels remain visible when GitHub scales the page. The 35 repository-native Mermaid flows show the operational sequence and decision branches separately from those conceptual visuals. Ten linked datasets make quantitative examples and the integrated capstone reproducible.
+
+## Module snapshot
+
+- 47 structured Markdown learning pages
+- Four completed sections and 35 topic lessons
+- 35 repository-native process flows and 35 original SVG decision visuals
+- Ten original CSV datasets
+- 82 knowledge checks: 35 topic checks, 42 section-review checks, and five capstone checks
+- One integrated sourcing-and-design capstone with a reproducible solution guide
 
 Every example, dataset, diagram, and knowledge check is fictional and independently created for this repository. Contracting and trade-finance discussions are educational and are not legal or financial advice.

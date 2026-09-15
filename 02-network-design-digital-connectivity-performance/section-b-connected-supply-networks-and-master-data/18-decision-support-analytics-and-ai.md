@@ -63,6 +63,38 @@ Automate only when:
 - override and escalation exist; and
 - outcomes are logged and reviewed.
 
+## Why it matters
+
+Analytics and AI can scale poor objectives, biased data, or unsafe actions faster than manual decision making.
+
+## Decision logic
+
+Define the decision and baseline, validate data and model performance, set human and automated boundaries, monitor drift, and retain override and outcome evidence. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain decision objective, training and test data, model version, performance by segment, guardrails, approval mode, override, drift, and outcome. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **decision support, analytics, and AI decision record** with these fields:
+
+- **Decision and boundary:** Define the decision and baseline, validate data and model performance, set human and automated boundaries, monitor drift, and retain override and outcome evidence.
+- **Required evidence:** decision objective, training and test data, model version, performance by segment, guardrails, approval mode, override, drift, and outcome.
+- **Expected result:** Analytics and AI can scale poor objectives, biased data, or unsafe actions faster than manual decision making.
+- **Balancing condition:** Greater automation improves speed and consistency but increases model, control, explainability, and failure-propagation risk.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Greater automation improves speed and consistency but increases model, control, explainability, and failure-propagation risk.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Define the decision and baseline, validate data and model performance, set human and automated boundaries, monitor drift, and retain override and outcome evidence. Validate the result with decision objective, training and test data, model version, performance by segment, guardrails, approval mode, override, drift, and outcome; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Starting with available data rather than a decision.
@@ -75,11 +107,40 @@ Automate only when:
 
 A model is 95% accurate in a dataset where 95% of shipments are on time. What additional evidence is essential?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 Performance on late shipments, comparison with a simple baseline, calibration, decision lead time, and resulting operational value.
+
+### Why it is correct
+
+Analytics and AI can scale poor objectives, biased data, or unsafe actions faster than manual decision making. Define the decision and baseline, validate data and model performance, set human and automated boundaries, monitor drift, and retain override and outcome evidence.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Starting with available data rather than a decision.
+- Reporting model accuracy without business-event performance.
+- Training on future information unavailable at decision time.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: Greater automation improves speed and consistency but increases model, control, explainability, and failure-propagation risk.
+
 </details>
+
+## Practitioner perspective
+
+Use decision objective, training and test data, model version, performance by segment, guardrails, approval mode, override, drift, and outcome as the minimum review record. The artifact should let another practitioner reproduce the conclusion, identify the remaining exposure, and know which trigger reopens the decision.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/01-purchasing-flow-and-selection-routes.md)
 Complete the [Section B review](19-section-b-review.md).
+
+---
+
+[Previous: Data Quality, Cleansing, and Stewardship](17-data-quality-cleansing-and-stewardship.md) · [Section review](19-section-b-review.md)

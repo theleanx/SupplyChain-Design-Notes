@@ -78,8 +78,35 @@ Each number may be defensible in isolation, but the company cannot execute four 
 
 The S&OP cycle forces the organization to agree on one planning number and document what must happen to achieve it.
 
-## Common confusion
+## Why it matters
 
+Without a recurring decision cycle, functions optimize separate plans and unresolved gaps arrive in execution as expedites and service failures.
+
+## Decision logic
+
+Run data preparation, demand review, supply review, reconciliation, pre-S&OP, and executive approval with named inputs, outputs, and decisions. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain calendar, plan version, assumptions, demand and supply gaps, alternatives, financial effect, decision log, and follow-up. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **S&OP foundations and the monthly process decision record** with these fields:
+
+- **Decision and boundary:** Run data preparation, demand review, supply review, reconciliation, pre-S&OP, and executive approval with named inputs, outputs, and decisions.
+- **Required evidence:** calendar, plan version, assumptions, demand and supply gaps, alternatives, financial effect, decision log, and follow-up.
+- **Expected result:** Without a recurring decision cycle, functions optimize separate plans and unresolved gaps arrive in execution as expedites and service failures.
+- **Balancing condition:** A fixed cadence creates discipline, but material exceptions still need event-driven escalation between monthly meetings.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+A fixed cadence creates discipline, but material exceptions still need event-driven escalation between monthly meetings.
+
+## Commonly confused with
 **Consensus does not mean every function gets its preferred number.** It means all functions understand the assumptions, trade-offs, and final decision and agree to execute against the approved plan.
 
 ## Common mistakes
@@ -88,6 +115,47 @@ The S&OP cycle forces the organization to agree on one planning number and docum
 - The executive meeting is the culmination of prior analysis, not the place where raw data analysis begins.
 - S&OP links strategy with execution; it does not replace detailed planning systems.
 
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply S&OP foundations and the monthly process. Which proposal is most defensible?
+
+A. Use S&OP foundations and the monthly process as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Run data preparation, demand review, supply review, reconciliation, pre-S&OP, and executive approval with named inputs, outputs, and decisions.
+C. Choose the apparent upside without evaluating this balancing condition: A fixed cadence creates discipline, but material exceptions still need event-driven escalation between monthly meetings.
+D. Approve the choice without retaining calendar, plan version, assumptions, demand and supply gaps, alternatives, financial effect, decision log, and follow-up; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Run data preparation, demand review, supply review, reconciliation, pre-S&OP, and executive approval with named inputs, outputs, and decisions.**
+
+### Why it is correct
+
+Without a recurring decision cycle, functions optimize separate plans and unresolved gaps arrive in execution as expedites and service failures. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: run data preparation, demand review, supply review, reconciliation, pre-S&OP, and executive approval with named inputs, outputs, and decisions.
+- **C** optimizes one visible result and omits the balancing effects: A fixed cadence creates discipline, but material exceptions still need event-driven escalation between monthly meetings.
+- **D** leaves the approval unauditable. A reviewer would be missing calendar, plan version, assumptions, demand and supply gaps, alternatives, financial effect, decision log, and follow-up, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: A fixed cadence creates discipline, but material exceptions still need event-driven escalation between monthly meetings.
+
+</details>
+
+## Practitioner perspective
+
+A review should be able to reconstruct the choice from calendar, plan version, assumptions, demand and supply gaps, alternatives, financial effect, decision log, and follow-up. If those records cannot explain what changed, who decided, and when the decision will be revisited, the process is not yet controlled.
+
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-a-network-design-and-technology-investment/03-network-configuration-and-flow-design.md)
 Module 1 → Section E → S&OP Process and Meetings. Process treatment and example are original.
+
+---
+
+[Previous: Strategic, Business, Master, and Resource Planning](02-strategic-business-master-resource-planning.md) · [Next: Demand Review and the Demand-Plan Dashboard](04-demand-review-and-dashboard.md)

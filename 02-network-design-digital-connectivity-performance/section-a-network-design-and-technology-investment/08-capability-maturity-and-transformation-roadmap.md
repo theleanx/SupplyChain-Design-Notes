@@ -75,6 +75,38 @@ Organize the roadmap into value releases, not technology components:
 | Scenario response | comparable recovery options | cost, capacity, and policy data |
 | Controlled automation | low-risk actions executed within guardrails | proven rules, monitoring, and override |
 
+## Why it matters
+
+A roadmap fails when later capabilities depend on data, process, skills, or governance that earlier releases did not establish.
+
+## Decision logic
+
+Assess current capability with evidence, define the target decision behavior, map dependencies, and gate each release on measurable readiness and benefit. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain current and target maturity, dependency map, release outcomes, entry and exit criteria, owners, adoption, benefit, and stop decision. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **capability maturity and transformation roadmap decision record** with these fields:
+
+- **Decision and boundary:** Assess current capability with evidence, define the target decision behavior, map dependencies, and gate each release on measurable readiness and benefit.
+- **Required evidence:** current and target maturity, dependency map, release outcomes, entry and exit criteria, owners, adoption, benefit, and stop decision.
+- **Expected result:** A roadmap fails when later capabilities depend on data, process, skills, or governance that earlier releases did not establish.
+- **Balancing condition:** Rapid scope can demonstrate ambition but creates fragile dependencies; staged delivery reduces risk but delays some benefits.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Rapid scope can demonstrate ambition but creates fragile dependencies; staged delivery reduces risk but delays some benefits.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Assess current capability with evidence, define the target decision behavior, map dependencies, and gate each release on measurable readiness and benefit. Validate the result with current and target maturity, dependency map, release outcomes, entry and exit criteria, owners, adoption, benefit, and stop decision; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Assigning one maturity score to the entire enterprise.
@@ -83,19 +115,44 @@ Organize the roadmap into value releases, not technology components:
 - Building a roadmap by vendor product rather than business outcome.
 - Advancing analytics while foundational data remain unreliable.
 
-## Practitioner perspective
-
-The purpose of maturity assessment is sequencing. A lower score is not a failure if it reveals the dependency that prevents value. The dangerous result is a high score unsupported by operating evidence.
-
 ## Original knowledge check
 
 A company has a sophisticated optimization engine, but planners export results to spreadsheets because capacity and lead-time data are unreliable. Which capability should be addressed first?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 **Trusted planning data and ownership.** More advanced optimization will not create reliable decisions until the foundational inputs are controlled.
+
+### Why it is correct
+
+A roadmap fails when later capabilities depend on data, process, skills, or governance that earlier releases did not establish. Assess current capability with evidence, define the target decision behavior, map dependencies, and gate each release on measurable readiness and benefit.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Assigning one maturity score to the entire enterprise.
+- Assuming technology deployment proves adoption.
+- Automating an unstable process.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: Rapid scope can demonstrate ambition but creates fragile dependencies; staged delivery reduces risk but delays some benefits.
+
 </details>
+
+## Practitioner perspective
+
+The purpose of maturity assessment is sequencing. A lower score is not a failure if it reveals the dependency that prevents value. The dangerous result is a high score unsupported by operating evidence.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-a-sourcing-alignment-and-total-cost/01-strategic-sourcing-from-demand.md)
 Continue to [governance, change, and network orchestration](09-governance-change-and-network-orchestration.md).
+
+---
+
+[Previous: Technology Business Case and Total Cost](07-technology-business-case-and-tco.md) · [Next: Governance, Change, and Network Orchestration](09-governance-change-and-network-orchestration.md)

@@ -61,6 +61,38 @@ Remove or redesign a metric when:
 - users cannot explain the definition; or
 - the measure rewards behavior opposed to the objective.
 
+## Why it matters
+
+A metric portfolio loses value when it is inherited from available data rather than selected to test strategy and operating choices.
+
+## Decision logic
+
+Translate each strategic objective into an outcome, causal driver, risk, decision, measure, target, and action owner, then remove unused metrics. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain strategy-to-measure trace, causal hypothesis, definition, target basis, owner, decision cadence, balancing metric, and retirement rule. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **strategy-to-metric selection decision record** with these fields:
+
+- **Decision and boundary:** Translate each strategic objective into an outcome, causal driver, risk, decision, measure, target, and action owner, then remove unused metrics.
+- **Required evidence:** strategy-to-measure trace, causal hypothesis, definition, target basis, owner, decision cadence, balancing metric, and retirement rule.
+- **Expected result:** A metric portfolio loses value when it is inherited from available data rather than selected to test strategy and operating choices.
+- **Balancing condition:** Strategic measures support alignment but may lag; operational drivers enable action but can encourage local optimization.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Strategic measures support alignment but may lag; operational drivers enable action but can encourage local optimization.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Translate each strategic objective into an outcome, causal driver, risk, decision, measure, target, and action owner, then remove unused metrics. Validate the result with strategy-to-measure trace, causal hypothesis, definition, target basis, owner, decision cadence, balancing metric, and retirement rule; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Copying an industry list without strategy context.
@@ -73,11 +105,40 @@ Remove or redesign a metric when:
 
 A metric is widely used in the industry but does not influence any AsterWorks decision. Must it appear on the executive scorecard?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 **No.** External comparability may justify tracking it elsewhere, but executive attention should focus on measures connected to strategy and action.
+
+### Why it is correct
+
+A metric portfolio loses value when it is inherited from available data rather than selected to test strategy and operating choices. Translate each strategic objective into an outcome, causal driver, risk, decision, measure, target, and action owner, then remove unused metrics.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Copying an industry list without strategy context.
+- Selecting only measures with easily available data.
+- Using dozens of measures at executive level.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: Strategic measures support alignment but may lag; operational drivers enable action but can encourage local optimization.
+
 </details>
+
+## Practitioner perspective
+
+Use strategy-to-measure trace, causal hypothesis, definition, target basis, owner, decision cadence, balancing metric, and retirement rule as the minimum review record. The artifact should let another practitioner reproduce the conclusion, identify the remaining exposure, and know which trigger reopens the decision.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/02-supplier-criteria-and-scorecards.md)
 Continue to [dashboards, scorecards, and review cadence](03-dashboards-scorecards-and-cadence.md).
+
+---
+
+[Previous: Measurement System Design](01-measurement-system-design.md) · [Next: Dashboards, Scorecards, and Review Cadence](03-dashboards-scorecards-and-cadence.md)

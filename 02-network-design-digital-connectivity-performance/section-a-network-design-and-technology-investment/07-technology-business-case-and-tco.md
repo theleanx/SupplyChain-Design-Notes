@@ -105,6 +105,38 @@ Test at least:
 
 Do not use false precision. Present a base case, downside case, and key break-even assumption.
 
+## Why it matters
+
+Technology value depends on adoption, process change, data quality, and benefit ownership—not licensed functionality alone.
+
+## Decision logic
+
+Build a time-phased total-cost and benefit model, separate cash from capacity and risk, calculate ROI and payback, and test volume, adoption, and timing sensitivity. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain cost and benefit rows by year, baseline, measurement basis, owner, adoption assumption, dependencies, sensitivity, and realization evidence. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **technology business case and total cost decision record** with these fields:
+
+- **Decision and boundary:** Build a time-phased total-cost and benefit model, separate cash from capacity and risk, calculate ROI and payback, and test volume, adoption, and timing sensitivity.
+- **Required evidence:** cost and benefit rows by year, baseline, measurement basis, owner, adoption assumption, dependencies, sensitivity, and realization evidence.
+- **Expected result:** Technology value depends on adoption, process change, data quality, and benefit ownership—not licensed functionality alone.
+- **Balancing condition:** A broader first release may promise more value but increases integration, change, schedule, and benefit-realization risk.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+A broader first release may promise more value but increases integration, change, schedule, and benefit-realization risk.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Build a time-phased total-cost and benefit model, separate cash from capacity and risk, calculate ROI and payback, and test volume, adoption, and timing sensitivity. Validate the result with cost and benefit rows by year, baseline, measurement basis, owner, adoption assumption, dependencies, sensitivity, and realization evidence; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Counting every saved minute as headcount reduction.
@@ -117,11 +149,42 @@ Do not use false precision. Present a base case, downside case, and key break-ev
 
 A project claims 10,000 hours of capacity benefit but has no plan to reduce overtime, avoid hiring, increase output, or redeploy the time. Is the amount a realized cash benefit?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 **Not yet.** It is potential capacity. The business case must state how the released time changes cash, cost, throughput, or another measured outcome.
+
+### Why it is correct
+
+Technology value depends on adoption, process change, data quality, and benefit ownership—not licensed functionality alone. Build a time-phased total-cost and benefit model, separate cash from capacity and risk, calculate ROI and payback, and test volume, adoption, and timing sensitivity.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Counting every saved minute as headcount reduction.
+- Including revenue opportunity without probability or capacity constraints.
+- Omitting internal time and ongoing data cost.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: A broader first release may promise more value but increases integration, change, schedule, and benefit-realization risk.
+
 </details>
+
+## Practitioner perspective
+
+Use cost and benefit rows by year, baseline, measurement basis, owner, adoption assumption, dependencies, sensitivity, and realization evidence as the minimum review record. The artifact should let another practitioner reproduce the conclusion, identify the remaining exposure, and know which trigger reopens the decision.
 
 ## Related concepts
 
+
+
+- [Network and performance formula sheet](../../calculations/network-performance/formula-sheet.md)
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-a-sourcing-alignment-and-total-cost/01-strategic-sourcing-from-demand.md)
 Continue to [capability maturity and transformation roadmap](08-capability-maturity-and-transformation-roadmap.md).
+
+---
+
+[Previous: Digital Requirements and Information Latency](06-digital-requirements-and-information-latency.md) · [Next: Capability Maturity and Transformation Roadmap](08-capability-maturity-and-transformation-roadmap.md)

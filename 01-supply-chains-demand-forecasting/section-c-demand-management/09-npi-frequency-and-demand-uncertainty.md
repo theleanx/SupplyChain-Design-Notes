@@ -103,6 +103,10 @@ Push and pull are not necessarily all-or-nothing. A supply chain can push generi
 | Commercial aircraft cabin options | Unstable mix | Low/medium | Common platform + postponed configuration |
 | Standard processor module used across many devices | Stable aggregate | High | Modular reuse + efficient replenishment |
 
+## Why it matters
+
+High launch frequency and high demand uncertainty compound obsolescence, changeover, capacity, data, and supplier risk.
+
 ## Decision logic
 
 If the question gives you two pieces of information, separate them:
@@ -112,15 +116,75 @@ If the question gives you two pieces of information, separate them:
 
 Do not use "innovative" as a shortcut without considering both.
 
-## Common mistake
+## Evidence retained through the workflow
 
+Retain launch calendar, demand range, common-platform percentage, differentiation point, capacity and inventory exposure, and gate owner. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **NPI frequency versus demand uncertainty decision record** with these fields:
+
+- **Decision and boundary:** Place the portfolio on the launch-frequency and uncertainty matrix, then choose commonality, postponement, capacity, inventory, and governance controls.
+- **Required evidence:** launch calendar, demand range, common-platform percentage, differentiation point, capacity and inventory exposure, and gate owner.
+- **Expected result:** High launch frequency and high demand uncertainty compound obsolescence, changeover, capacity, data, and supplier risk.
+- **Balancing condition:** Frequent introductions may sustain innovation, but they fragment demand and shorten the time available to learn and stabilize operations.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Frequent introductions may sustain innovation, but they fragment demand and shorten the time available to learn and stabilize operations.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Place the portfolio on the launch-frequency and uncertainty matrix, then choose commonality, postponement, capacity, inventory, and governance controls. Validate the result with launch calendar, demand range, common-platform percentage, differentiation point, capacity and inventory exposure, and gate owner; the evidence, not the method's label, determines whether the choice worked.
+
+## Common mistakes
 High clockspeed does **not automatically mean unstable demand**. A component can change frequently while aggregate demand stays relatively stable.
 
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply NPI frequency versus demand uncertainty. Which proposal is most defensible?
+
+A. Use NPI frequency versus demand uncertainty as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Place the portfolio on the launch-frequency and uncertainty matrix, then choose commonality, postponement, capacity, inventory, and governance controls.
+C. Choose the apparent upside without evaluating this balancing condition: Frequent introductions may sustain innovation, but they fragment demand and shorten the time available to learn and stabilize operations.
+D. Approve the choice without retaining launch calendar, demand range, common-platform percentage, differentiation point, capacity and inventory exposure, and gate owner; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Place the portfolio on the launch-frequency and uncertainty matrix, then choose commonality, postponement, capacity, inventory, and governance controls.**
+
+### Why it is correct
+
+High launch frequency and high demand uncertainty compound obsolescence, changeover, capacity, data, and supplier risk. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: place the portfolio on the launch-frequency and uncertainty matrix, then choose commonality, postponement, capacity, inventory, and governance controls.
+- **C** optimizes one visible result and omits the balancing effects: frequent introductions may sustain innovation, but they fragment demand and shorten the time available to learn and stabilize operations.
+- **D** leaves the approval unauditable. A reviewer would be missing launch calendar, demand range, common-platform percentage, differentiation point, capacity and inventory exposure, and gate owner, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: frequent introductions may sustain innovation, but they fragment demand and shorten the time available to learn and stabilize operations.
+
+</details>
+
+## Practitioner perspective
+
+A review should be able to reconstruct the choice from launch calendar, demand range, common-platform percentage, differentiation point, capacity and inventory exposure, and gate owner. If those records cannot explain what changed, who decided, and when the decision will be revisited, the process is not yet controlled.
+
 ## Related concepts
 
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-b-connected-supply-networks-and-master-data/03-advanced-planning-and-constraint-management.md)
 - [PLM and NPI](08-plm-and-new-product-introduction.md)
 - [Product life cycle](07-product-life-cycle.md)
-
-## Related concepts
-
 Module 1 → Section C → NPI Frequency versus Demand Uncertainty.
+
+---
+
+[Previous: Product Lifecycle Management and New-Product Introduction](08-plm-and-new-product-introduction.md) · [Section review](10-section-c-review.md)

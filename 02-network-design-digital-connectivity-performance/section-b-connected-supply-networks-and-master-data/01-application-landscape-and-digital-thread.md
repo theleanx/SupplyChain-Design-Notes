@@ -54,6 +54,38 @@ Broken links create manual reconciliation and unreliable metrics.
 
 AsterWorks’ customer portal displays an order as “shipped,” the core platform shows goods issue, and the carrier platform shows the freight still at the dock. Each status answers a different question. AsterWorks defines canonical milestones and exposes the event time, source, and confidence so users do not confuse internal posting with physical departure.
 
+## Why it matters
+
+Disconnected applications create duplicate records, delayed events, reconciliation work, and decisions that cannot be traced to one operating state.
+
+## Decision logic
+
+Map capabilities, systems of record, planning and execution services, events, identifiers, and decision consumers before choosing applications. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain capability map, system-of-record decision, master identifiers, event lineage, interfaces, owner, service level, and retirement plan. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **application landscape and digital thread decision record** with these fields:
+
+- **Decision and boundary:** Map capabilities, systems of record, planning and execution services, events, identifiers, and decision consumers before choosing applications.
+- **Required evidence:** capability map, system-of-record decision, master identifiers, event lineage, interfaces, owner, service level, and retirement plan.
+- **Expected result:** Disconnected applications create duplicate records, delayed events, reconciliation work, and decisions that cannot be traced to one operating state.
+- **Balancing condition:** A unified platform simplifies ownership and integration but may sacrifice specialized capability; best-of-breed tools add capability and interfaces.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+A unified platform simplifies ownership and integration but may sacrifice specialized capability; best-of-breed tools add capability and interfaces.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Map capabilities, systems of record, planning and execution services, events, identifiers, and decision consumers before choosing applications. Validate the result with capability map, system-of-record decision, master identifiers, event lineage, interfaces, owner, service level, and retirement plan; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Drawing applications without the decisions and records that cross them.
@@ -62,19 +94,44 @@ AsterWorks’ customer portal displays an order as “shipped,” the core platf
 - Ignoring interface failures and replay.
 - Treating physical status and system status as identical.
 
-## Practitioner perspective
-
-Architecture becomes operational when every critical field has an authoritative owner and every cross-system handoff has monitoring, error ownership, and recovery instructions.
-
 ## Original knowledge check
 
 An order dashboard combines data from five systems. Does the dashboard become the authoritative source for every displayed field?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 **No.** It may be the preferred consumption view, while each field retains an authoritative operational source and owner.
+
+### Why it is correct
+
+Disconnected applications create duplicate records, delayed events, reconciliation work, and decisions that cannot be traced to one operating state. Map capabilities, systems of record, planning and execution services, events, identifiers, and decision consumers before choosing applications.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Drawing applications without the decisions and records that cross them.
+- Calling a reporting platform the source of every underlying fact.
+- Duplicating master-data ownership in multiple applications.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: A unified platform simplifies ownership and integration but may sacrifice specialized capability; best-of-breed tools add capability and interfaces.
+
 </details>
+
+## Practitioner perspective
+
+Architecture becomes operational when every critical field has an authoritative owner and every cross-system handoff has monitoring, error ownership, and recovery instructions.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/01-purchasing-flow-and-selection-routes.md)
 Continue to [core platforms versus specialized applications](02-core-platforms-vs-specialized-applications.md).
+
+---
+
+[Section overview](README.md) · [Next: Core Platforms Versus Specialized Applications](02-core-platforms-vs-specialized-applications.md)

@@ -68,6 +68,38 @@ Customer credit risk should also be connected to order promise, exposure, paymen
 - avoid actions that unnecessarily worsen supplier distress; and
 - maintain lawful, ethical information use.
 
+## Why it matters
+
+A financially weak supplier or customer can interrupt material, service, investment, collection, and the viability of the network design.
+
+## Decision logic
+
+Combine ratios, trends, payment behavior, dependency, qualitative evidence, and scenario exposure, then define proportionate monitoring and mitigation. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain financial statements and period, ratio definitions, trend, payment evidence, dependency, scenario exposure, mitigation, owner, and trigger. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **supplier financial health and customer credit risk decision record** with these fields:
+
+- **Decision and boundary:** Combine ratios, trends, payment behavior, dependency, qualitative evidence, and scenario exposure, then define proportionate monitoring and mitigation.
+- **Required evidence:** financial statements and period, ratio definitions, trend, payment evidence, dependency, scenario exposure, mitigation, owner, and trigger.
+- **Expected result:** A financially weak supplier or customer can interrupt material, service, investment, collection, and the viability of the network design.
+- **Balancing condition:** Tighter credit or sourcing controls reduce loss exposure but can constrain sales, supply options, or a partner's recovery.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Tighter credit or sourcing controls reduce loss exposure but can constrain sales, supply options, or a partner's recovery.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Combine ratios, trends, payment behavior, dependency, qualitative evidence, and scenario exposure, then define proportionate monitoring and mitigation. Validate the result with financial statements and period, ratio definitions, trend, payment evidence, dependency, scenario exposure, mitigation, owner, and trigger; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Applying one ratio threshold to every industry.
@@ -80,11 +112,42 @@ Customer credit risk should also be connected to order promise, exposure, paymen
 
 A supplier's current ratio improves because obsolete inventory rises. Has liquidity necessarily improved?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 No. Ratio composition and asset quality matter; obsolete inventory may not convert to cash when needed.
+
+### Why it is correct
+
+A financially weak supplier or customer can interrupt material, service, investment, collection, and the viability of the network design. Combine ratios, trends, payment behavior, dependency, qualitative evidence, and scenario exposure, then define proportionate monitoring and mitigation.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Applying one ratio threshold to every industry.
+- Treating a model score as certain failure.
+- Monitoring direct supplier finance while ignoring critical sub-tiers.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: Tighter credit or sourcing controls reduce loss exposure but can constrain sales, supply options, or a partner's recovery.
+
 </details>
+
+## Practitioner perspective
+
+Use financial statements and period, ratio definitions, trend, payment evidence, dependency, scenario exposure, mitigation, owner, and trigger as the minimum review record. The artifact should let another practitioner reproduce the conclusion, identify the remaining exposure, and know which trigger reopens the decision.
 
 ## Related concepts
 
+
+
+- [Network and performance formula sheet](../../calculations/network-performance/formula-sheet.md)
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/02-supplier-criteria-and-scorecards.md)
 Continue to [strategic profit model and return on assets](15-strategic-profit-model-and-roa.md).
+
+---
+
+[Previous: Standard Costing and Variance Analysis](13-standard-costing-and-variance-analysis.md) · [Next: Strategic Profit Model and Return on Assets](15-strategic-profit-model-and-roa.md)

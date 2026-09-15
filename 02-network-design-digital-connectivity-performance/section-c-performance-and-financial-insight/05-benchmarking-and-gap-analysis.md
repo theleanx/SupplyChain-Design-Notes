@@ -59,6 +59,38 @@ flowchart LR
 
 The best AsterWorks warehouse has 99.2% pick accuracy while the new region has 97.8%. Before copying the process, the team checks item mix, automation, counting policy, and error definition. It finds that the new region classifies corrected errors differently. Definition alignment reduces the apparent gap before operational work begins.
 
+## Why it matters
+
+A benchmark can misdirect investment when scope, mix, service, geography, accounting, maturity, or data definitions are not comparable.
+
+## Decision logic
+
+Normalize definitions, test comparability, calculate the gap, diagnose mechanisms, estimate value, and prioritize actions that fit strategy. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain benchmark source and period, definition, scope and normalization, comparable peer logic, gap, root cause, value case, and owner. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **benchmarking and gap analysis decision record** with these fields:
+
+- **Decision and boundary:** Normalize definitions, test comparability, calculate the gap, diagnose mechanisms, estimate value, and prioritize actions that fit strategy.
+- **Required evidence:** benchmark source and period, definition, scope and normalization, comparable peer logic, gap, root cause, value case, and owner.
+- **Expected result:** A benchmark can misdirect investment when scope, mix, service, geography, accounting, maturity, or data definitions are not comparable.
+- **Balancing condition:** External benchmarks create challenge but may lack context; internal benchmarks are comparable but can preserve a weak enterprise standard.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+External benchmarks create challenge but may lack context; internal benchmarks are comparable but can preserve a weak enterprise standard.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Normalize definitions, test comparability, calculate the gap, diagnose mechanisms, estimate value, and prioritize actions that fit strategy. Validate the result with benchmark source and period, definition, scope and normalization, comparable peer logic, gap, root cause, value case, and owner; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Comparing percentages with different denominators.
@@ -71,11 +103,40 @@ The best AsterWorks warehouse has 99.2% pick accuracy while the new region has 9
 
 Performance rises from 90% to 94%. Is the improvement 4% or 4 percentage points?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 It is **4 percentage points** and approximately **4.44% relative improvement**: `(94-90)/90`.
+
+### Why it is correct
+
+A benchmark can misdirect investment when scope, mix, service, geography, accounting, maturity, or data definitions are not comparable. Normalize definitions, test comparability, calculate the gap, diagnose mechanisms, estimate value, and prioritize actions that fit strategy.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Comparing percentages with different denominators.
+- Treating a benchmark as an entitlement or forecast.
+- Copying practice without understanding context.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: External benchmarks create challenge but may lack context; internal benchmarks are comparable but can preserve a weak enterprise standard.
+
 </details>
+
+## Practitioner perspective
+
+Use benchmark source and period, definition, scope and normalization, comparable peer logic, gap, root cause, value case, and owner as the minimum review record. The artifact should let another practitioner reproduce the conclusion, identify the remaining exposure, and know which trigger reopens the decision.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/02-supplier-criteria-and-scorecards.md)
 Continue to [perfect order and customer service](06-perfect-order-and-customer-service.md).
+
+---
+
+[Previous: Metric Hierarchies and Process Ownership](04-metric-hierarchies-and-process-ownership.md) · [Next: Perfect Order and Customer Service](06-perfect-order-and-customer-service.md)

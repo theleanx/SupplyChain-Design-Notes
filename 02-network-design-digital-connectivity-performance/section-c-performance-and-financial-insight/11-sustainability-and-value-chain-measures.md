@@ -53,6 +53,38 @@ Prefer:
 
 Record method, factor version, unit conversion, allocation, and uncertainty.
 
+## Why it matters
+
+Sustainability claims become misleading when boundaries, activity data, factors, allocation, and operational consequences are hidden.
+
+## Decision logic
+
+Define the decision and boundary, use the most specific credible activity data and factors, retain methodology, and pair impact with service and cost. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain organizational and value-chain boundary, activity data, factor source and version, allocation, uncertainty, owner, target, and action. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **sustainability and value-chain measures decision record** with these fields:
+
+- **Decision and boundary:** Define the decision and boundary, use the most specific credible activity data and factors, retain methodology, and pair impact with service and cost.
+- **Required evidence:** organizational and value-chain boundary, activity data, factor source and version, allocation, uncertainty, owner, target, and action.
+- **Expected result:** Sustainability claims become misleading when boundaries, activity data, factors, allocation, and operational consequences are hidden.
+- **Balancing condition:** Broader boundaries improve completeness but increase estimation uncertainty and dependence on partner data.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Broader boundaries improve completeness but increase estimation uncertainty and dependence on partner data.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Define the decision and boundary, use the most specific credible activity data and factors, retain methodology, and pair impact with service and cost. Validate the result with organizational and value-chain boundary, activity data, factor source and version, allocation, uncertainty, owner, target, and action; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Comparing footprints with different boundaries.
@@ -65,11 +97,40 @@ Record method, factor version, unit conversion, allocation, and uncertainty.
 
 Shipment emissions per unit fall 10%, but volume rises 25%. Can total shipment emissions still increase?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 **Yes.** Intensity and absolute impact answer different questions and should be evaluated together.
+
+### Why it is correct
+
+Sustainability claims become misleading when boundaries, activity data, factors, allocation, and operational consequences are hidden. Define the decision and boundary, use the most specific credible activity data and factors, retain methodology, and pair impact with service and cost.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Comparing footprints with different boundaries.
+- Reporting intensity without absolute impact.
+- Treating estimated and measured data as equally certain.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: Broader boundaries improve completeness but increase estimation uncertainty and dependence on partner data.
+
 </details>
+
+## Practitioner perspective
+
+Use organizational and value-chain boundary, activity data, factor source and version, allocation, uncertainty, owner, target, and action as the minimum review record. The artifact should let another practitioner reproduce the conclusion, identify the remaining exposure, and know which trigger reopens the decision.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/02-supplier-criteria-and-scorecards.md)
 Continue to [financial statements for supply-chain decisions](12-financial-statements-for-supply-chain.md).
+
+---
+
+[Previous: Asset Efficiency and Inventory Turnover](10-asset-efficiency-and-inventory-turnover.md) · [Next: Financial Statements for Supply-Chain Decisions](12-financial-statements-for-supply-chain.md)

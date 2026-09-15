@@ -79,6 +79,10 @@ Leadership does not immediately schedule individual pump orders. Instead:
 5. the MPS then schedules specific pump models and modules;
 6. MRP calculates motors, seals, castings, electronics, and purchased materials.
 
+## Why it matters
+
+Strategy, aggregate plans, master schedules, and execution fail when each horizon uses different assumptions or lacks a feedback path.
+
 ## Decision logic
 
 If the question concerns **aggregate product-family volume**, think S&OP / production planning.
@@ -89,8 +93,27 @@ If it concerns **specific end items or modules**, think master scheduling.
 
 If it concerns **component quantities and timing**, think MRP.
 
-## Common confusion
+## Evidence retained through the workflow
 
+Retain planning hierarchy, horizon and bucket, approved inputs, constraints, decision rights, schedule version, and variance feedback. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **operations planning and control decision record** with these fields:
+
+- **Decision and boundary:** Connect every planning level through defined inputs, outputs, time fences, owners, and variance escalation from execution back to planning.
+- **Required evidence:** planning hierarchy, horizon and bucket, approved inputs, constraints, decision rights, schedule version, and variance feedback.
+- **Expected result:** Strategy, aggregate plans, master schedules, and execution fail when each horizon uses different assumptions or lacks a feedback path.
+- **Balancing condition:** Central coordination improves alignment, while excessive control can slow local response to short-lived operating conditions.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Central coordination improves alignment, while excessive control can slow local response to short-lived operating conditions.
+
+## Commonly confused with
 **S&OP is not the master production schedule.** S&OP works at an aggregate family level. The MPS is a more detailed item- or module-level schedule used later in the planning hierarchy.
 
 ## Common mistakes
@@ -99,10 +122,47 @@ If it concerns **component quantities and timing**, think MRP.
 - Do not send a detailed component plan directly from the business plan.
 - Do not confuse resource planning with short-term capacity control.
 
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply operations planning and control. Which proposal is most defensible?
+
+A. Use operations planning and control as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Connect every planning level through defined inputs, outputs, time fences, owners, and variance escalation from execution back to planning.
+C. Choose the apparent upside without evaluating this balancing condition: Central coordination improves alignment, while excessive control can slow local response to short-lived operating conditions.
+D. Approve the choice without retaining planning hierarchy, horizon and bucket, approved inputs, constraints, decision rights, schedule version, and variance feedback; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Connect every planning level through defined inputs, outputs, time fences, owners, and variance escalation from execution back to planning.**
+
+### Why it is correct
+
+Strategy, aggregate plans, master schedules, and execution fail when each horizon uses different assumptions or lacks a feedback path. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: connect every planning level through defined inputs, outputs, time fences, owners, and variance escalation from execution back to planning.
+- **C** optimizes one visible result and omits the balancing effects: central coordination improves alignment, while excessive control can slow local response to short-lived operating conditions.
+- **D** leaves the approval unauditable. A reviewer would be missing planning hierarchy, horizon and bucket, approved inputs, constraints, decision rights, schedule version, and variance feedback, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: central coordination improves alignment, while excessive control can slow local response to short-lived operating conditions.
+
+</details>
+
 ## Practitioner perspective
 
 In ERP environments, these planning layers may be implemented by different applications or planning objects, but the business logic remains hierarchical: aggregate decisions should constrain and guide detailed planning.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-a-network-design-and-technology-investment/03-network-configuration-and-flow-design.md)
 Module 1 → Section E → Supply and Demand Alignment Road Map / Operations Planning and Control. Wording and visual composition are original.
+
+---
+
+[Section overview](README.md) · [Next: Strategic, Business, Master, and Resource Planning](02-strategic-business-master-resource-planning.md)

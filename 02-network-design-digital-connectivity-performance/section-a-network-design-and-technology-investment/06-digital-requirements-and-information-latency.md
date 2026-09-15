@@ -72,6 +72,38 @@ For each high-value decision, document:
 - response deadline; and
 - fallback when data are missing.
 
+## Why it matters
+
+Late or incomplete information turns a manageable deviation into a customer, cost, or inventory exception.
+
+## Decision logic
+
+Work backward from each decision to define the event, data fields, latency, quality, owner, threshold, and action required. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain decision-to-data card, event source, timestamp, required fields, latency target, quality rule, owner, and fallback. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **digital requirements and information latency decision record** with these fields:
+
+- **Decision and boundary:** Work backward from each decision to define the event, data fields, latency, quality, owner, threshold, and action required.
+- **Required evidence:** decision-to-data card, event source, timestamp, required fields, latency target, quality rule, owner, and fallback.
+- **Expected result:** Late or incomplete information turns a manageable deviation into a customer, cost, or inventory exception.
+- **Balancing condition:** Lower latency supports faster action but raises integration, monitoring, false-alert, and partner-readiness demands.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Lower latency supports faster action but raises integration, monitoring, false-alert, and partner-readiness demands.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Work backward from each decision to define the event, data fields, latency, quality, owner, threshold, and action required. Validate the result with decision-to-data card, event source, timestamp, required fields, latency target, quality rule, owner, and fallback; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Starting with a preferred technology rather than a decision.
@@ -80,19 +112,44 @@ For each high-value decision, document:
 - Ignoring event-time and time-zone semantics.
 - Sharing all available data instead of the minimum useful and permitted data.
 
-## Practitioner perspective
-
-Design information around exceptions and decisions, not around every possible field. High-value visibility is selective: it makes the material change obvious, connects it to impact, and routes it to someone who can act.
-
 ## Original knowledge check
 
 A carrier sends status messages within seconds, but warehouse departure scans are entered four hours late. Has real-time integration solved the visibility problem?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 **No.** Transmission is fast, but capture latency keeps the information stale. End-to-end latency must be measured from the physical event to the decision or action.
+
+### Why it is correct
+
+Late or incomplete information turns a manageable deviation into a customer, cost, or inventory exception. Work backward from each decision to define the event, data fields, latency, quality, owner, threshold, and action required.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Starting with a preferred technology rather than a decision.
+- Treating a dashboard as visibility even when no action follows.
+- Using “real time” without defining seconds, minutes, or hours.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: Lower latency supports faster action but raises integration, monitoring, false-alert, and partner-readiness demands.
+
 </details>
+
+## Practitioner perspective
+
+Design information around exceptions and decisions, not around every possible field. High-value visibility is selective: it makes the material change obvious, connects it to impact, and routes it to someone who can act.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-a-sourcing-alignment-and-total-cost/01-strategic-sourcing-from-demand.md)
 Continue to [technology business case and total cost](07-technology-business-case-and-tco.md).
+
+---
+
+[Previous: Sourcing Footprint and Partner Decisions](05-sourcing-footprint-and-partner-decisions.md) · [Next: Technology Business Case and Total Cost](07-technology-business-case-and-tco.md)

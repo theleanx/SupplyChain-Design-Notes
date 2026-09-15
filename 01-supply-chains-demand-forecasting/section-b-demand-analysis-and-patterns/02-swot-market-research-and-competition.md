@@ -1,5 +1,13 @@
 # 2. SWOT, Market Research, and Competitive Intelligence
 
+## Learning objectives
+
+You should be able to:
+
+- explain the operating logic behind swot, market research, and competitive intelligence;
+- apply the lesson to a realistic planning or supply-chain decision; and
+- identify the evidence, trade-off, and trigger needed for responsible use.
+
 ## Concept in plain English
 
 Strategic demand analysis needs both an **inside view** and an **outside view**. SWOT provides the frame; market research and competitive intelligence provide much of the evidence.
@@ -103,13 +111,69 @@ flowchart TD
     T --> L[Learn and scale]
 ```
 
-## Common mistake
+## Why it matters
 
+Strategy deteriorates when internal opinions, customer evidence, and competitor signals are blended without source or confidence.
+
+## Decision logic
+
+Use SWOT as a synthesis after research, document evidence separately, and show how each material finding changes demand, positioning, or capacity decisions. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain research question, source, sample or method, finding, confidence, competitive implication, assumption, and decision affected. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **SWOT, market research, and competitive intelligence decision record** with these fields:
+
+- **Decision and boundary:** Use SWOT as a synthesis after research, document evidence separately, and show how each material finding changes demand, positioning, or capacity decisions.
+- **Required evidence:** research question, source, sample or method, finding, confidence, competitive implication, assumption, and decision affected.
+- **Expected result:** Strategy deteriorates when internal opinions, customer evidence, and competitor signals are blended without source or confidence.
+- **Balancing condition:** More research reduces uncertainty but consumes time; stop when additional evidence is unlikely to change the decision or range.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+More research reduces uncertainty but consumes time; stop when additional evidence is unlikely to change the decision or range.
+
+## Commonly confused with
+**Market share** is the portion of current market demand captured by the company or product. It is not the same as revenue growth. A company can grow revenue while losing share if the total market grows faster.
+
+## Common mistakes
 A customer survey alone does not tell you whether the market contains an unmet need. You also need to understand competing and substitute offerings.
 
-## Common confusion
+## Original knowledge check
 
-**Market share** is the portion of current market demand captured by the company or product. It is not the same as revenue growth. A company can grow revenue while losing share if the total market grows faster.
+**Question.** NorthStar is deciding how to apply SWOT, market research, and competitive intelligence. Which proposal is most defensible?
+
+A. Use SWOT, market research, and competitive intelligence as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Use SWOT as a synthesis after research, document evidence separately, and show how each material finding changes demand, positioning, or capacity decisions.
+C. Choose the apparent upside without evaluating this balancing condition: More research reduces uncertainty but consumes time; stop when additional evidence is unlikely to change the decision or range.
+D. Approve the choice without retaining research question, source, sample or method, finding, confidence, competitive implication, assumption, and decision affected; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Use SWOT as a synthesis after research, document evidence separately, and show how each material finding changes demand, positioning, or capacity decisions.**
+
+### Why it is correct
+
+Strategy deteriorates when internal opinions, customer evidence, and competitor signals are blended without source or confidence. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: use SWOT as a synthesis after research, document evidence separately, and show how each material finding changes demand, positioning, or capacity decisions.
+- **C** optimizes one visible result and omits the balancing effects: more research reduces uncertainty but consumes time; stop when additional evidence is unlikely to change the decision or range.
+- **D** leaves the approval unauditable. A reviewer would be missing research question, source, sample or method, finding, confidence, competitive implication, assumption, and decision affected, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: more research reduces uncertainty but consumes time; stop when additional evidence is unlikely to change the decision or range.
+
+</details>
 
 ## Practitioner perspective
 
@@ -117,4 +181,11 @@ Market research becomes operationally valuable when it changes a decision: produ
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-a-network-design-and-technology-investment/02-market-segmentation-and-service-choices.md)
 Module 1 → Section B → SWOT Analysis, Market Research, Competition, Market Plan. Public wording and diagrams are original.
+
+---
+
+[Previous: Demand Analysis and Environmental Scanning](01-demand-analysis-and-environmental-scan.md) · [Next: Global Perspectives and Market Volatility](03-global-perspectives.md)

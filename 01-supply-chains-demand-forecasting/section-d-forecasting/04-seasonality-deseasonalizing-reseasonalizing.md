@@ -95,14 +95,83 @@ flowchart LR
     E --> F[Reseasonalized planning forecast]
 ```
 
-## Common confusion
+## Why it matters
 
+Strong recurring peaks can be mistaken for growth and cause distorted base forecasts, capacity plans, and inventory targets.
+
+## Decision logic
+
+Calculate normalized seasonal indices from comparable history, remove seasonality, forecast the base, and restore the future seasonal effect. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain source history, missing and event treatment, monthly averages, normalized indices, base forecast, future calendar, and refresh rule. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **seasonality, deseasonalizing, and reseasonalizing decision record** with these fields:
+
+- **Decision and boundary:** Calculate normalized seasonal indices from comparable history, remove seasonality, forecast the base, and restore the future seasonal effect.
+- **Required evidence:** source history, missing and event treatment, monthly averages, normalized indices, base forecast, future calendar, and refresh rule.
+- **Expected result:** Strong recurring peaks can be mistaken for growth and cause distorted base forecasts, capacity plans, and inventory targets.
+- **Balancing condition:** Stable indices simplify planning, but structural calendar, channel, or product changes can make historical seasonality misleading.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Stable indices simplify planning, but structural calendar, channel, or product changes can make historical seasonality misleading.
+
+## Commonly confused with
 **Deseasonalized demand is not the final customer forecast.** It is an intermediate series used to estimate the underlying pattern.
 
-## Common mistake
-
+## Common mistakes
 Do not forecast strong raw seasonality and then call the result a trend. Remove the seasonal effect, forecast the base series, and then put the seasonal effect back.
+
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply seasonality, deseasonalizing, and reseasonalizing. Which proposal is most defensible?
+
+A. Use seasonality, deseasonalizing, and reseasonalizing as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Calculate normalized seasonal indices from comparable history, remove seasonality, forecast the base, and restore the future seasonal effect.
+C. Choose the apparent upside without evaluating this balancing condition: Stable indices simplify planning, but structural calendar, channel, or product changes can make historical seasonality misleading.
+D. Approve the choice without retaining source history, missing and event treatment, monthly averages, normalized indices, base forecast, future calendar, and refresh rule; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Calculate normalized seasonal indices from comparable history, remove seasonality, forecast the base, and restore the future seasonal effect.**
+
+### Why it is correct
+
+Strong recurring peaks can be mistaken for growth and cause distorted base forecasts, capacity plans, and inventory targets. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: calculate normalized seasonal indices from comparable history, remove seasonality, forecast the base, and restore the future seasonal effect.
+- **C** optimizes one visible result and omits the balancing effects: stable indices simplify planning, but structural calendar, channel, or product changes can make historical seasonality misleading.
+- **D** leaves the approval unauditable. A reviewer would be missing source history, missing and event treatment, monthly averages, normalized indices, base forecast, future calendar, and refresh rule, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: stable indices simplify planning, but structural calendar, channel, or product changes can make historical seasonality misleading.
+
+</details>
+
+## Practitioner perspective
+
+A review should be able to reconstruct the choice from source history, missing and event treatment, monthly averages, normalized indices, base forecast, future calendar, and refresh rule. If those records cannot explain what changed, who decided, and when the decision will be revisited, the process is not yet controlled.
 
 ## Related concepts
 
+
+
+- [Forecasting formula sheet](../../calculations/forecasting/formula-sheet.md)
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-c-performance-and-financial-insight/01-measurement-system-design.md)
 Module 1 → Section D → Visualizing, Deseasonalizing, Reseasonalizing. Numerical values and visuals are original.
+
+---
+
+[Previous: Time-Series Forecasting and Method Selection](03-time-series-forecasting-and-method-selection.md) · [Next: Moving Averages and Exponential Smoothing](05-moving-averages-and-exponential-smoothing.md)

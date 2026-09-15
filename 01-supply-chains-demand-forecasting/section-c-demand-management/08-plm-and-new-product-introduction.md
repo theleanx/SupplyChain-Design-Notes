@@ -141,6 +141,73 @@ Because sourcing is involved before design freeze, NorthStar can compare:
 
 That decision can materially reduce launch risk.
 
+## Why it matters
+
+Product decisions made before launch determine supplier lead time, capacity, inventory, serviceability, compliance, and forecast risk.
+
+## Decision logic
+
+Use cross-functional gates that connect design maturity, demand scenarios, sourcing, capacity, quality, data, service, and launch readiness. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain requirement baseline, design maturity, demand scenarios, supplier and capacity evidence, quality gates, master data, and launch decision. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **product lifecycle management and new-product introduction decision record** with these fields:
+
+- **Decision and boundary:** Use cross-functional gates that connect design maturity, demand scenarios, sourcing, capacity, quality, data, service, and launch readiness.
+- **Required evidence:** requirement baseline, design maturity, demand scenarios, supplier and capacity evidence, quality gates, master data, and launch decision.
+- **Expected result:** Product decisions made before launch determine supplier lead time, capacity, inventory, serviceability, compliance, and forecast risk.
+- **Balancing condition:** Freezing design improves execution stability, while preserving late flexibility can capture learning at the cost of timing and control complexity.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Freezing design improves execution stability, while preserving late flexibility can capture learning at the cost of timing and control complexity.
+
+## Commonly confused with
+**NPI schedule vs. product life cycle:** NPI manages the development and launch process. The product life cycle continues long after launch.
+
+## Common mistakes
+
+- Involving supply, quality, and service only after the product design is frozen.
+- Treating one launch forecast as a committed demand quantity despite material uncertainty.
+- Launching before supplier, capacity, quality, master-data, and end-of-life gates have objective evidence.
+
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply product lifecycle management and new-product introduction. Which proposal is most defensible?
+
+A. Use product lifecycle management and new-product introduction as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Use cross-functional gates that connect design maturity, demand scenarios, sourcing, capacity, quality, data, service, and launch readiness.
+C. Choose the apparent upside without evaluating this balancing condition: Freezing design improves execution stability, while preserving late flexibility can capture learning at the cost of timing and control complexity.
+D. Approve the choice without retaining requirement baseline, design maturity, demand scenarios, supplier and capacity evidence, quality gates, master data, and launch decision; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Use cross-functional gates that connect design maturity, demand scenarios, sourcing, capacity, quality, data, service, and launch readiness.**
+
+### Why it is correct
+
+Product decisions made before launch determine supplier lead time, capacity, inventory, serviceability, compliance, and forecast risk. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: use cross-functional gates that connect design maturity, demand scenarios, sourcing, capacity, quality, data, service, and launch readiness.
+- **C** optimizes one visible result and omits the balancing effects: freezing design improves execution stability, while preserving late flexibility can capture learning at the cost of timing and control complexity.
+- **D** leaves the approval unauditable. A reviewer would be missing requirement baseline, design maturity, demand scenarios, supplier and capacity evidence, quality gates, master data, and launch decision, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: freezing design improves execution stability, while preserving late flexibility can capture learning at the cost of timing and control complexity.
+
+</details>
+
 ## Practitioner perspective
 
 In an enterprise environment, PLM and ERP often intersect around:
@@ -155,15 +222,14 @@ In an enterprise environment, PLM and ERP often intersect around:
 
 The business principle remains the same even when system names differ: **the right product definition must be valid at the right time for the right unit or batch**.
 
-## Common confusion
-
-**NPI schedule vs. product life cycle:** NPI manages the development and launch process. The product life cycle continues long after launch.
-
 ## Related concepts
 
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-b-connected-supply-networks-and-master-data/03-advanced-planning-and-constraint-management.md)
 - [Product life cycle](07-product-life-cycle.md)
 - [NPI frequency and demand uncertainty](09-npi-frequency-and-demand-uncertainty.md)
-
-## Related concepts
-
 Module 1 → Section C → Product Life Cycle Management; New Product Introduction Schedules.
+
+---
+
+[Previous: Product Life Cycle](07-product-life-cycle.md) · [Next: NPI Frequency versus Demand Uncertainty](09-npi-frequency-and-demand-uncertainty.md)

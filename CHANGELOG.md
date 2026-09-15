@@ -2,6 +2,26 @@
 
 Significant public improvements to this repository are recorded here.
 
+## Unreleased — Modules 1–3 harmonization
+
+### Shared learning design
+
+- Applied one lesson contract across all 122 topic pages: objectives, decision logic, retained evidence, topic-appropriate visuals, applied examples, explicit trade-offs, full assessment rationales, practitioner guidance, related concepts, and sequential navigation.
+- Added cross-module prerequisite and continuation links so forecasting and alignment decisions in Module 1 feed Module 2 network and digital decisions, which in turn feed Module 3 sourcing and supplier execution.
+- Added reusable section-review, capstone-assignment, and capstone-solution templates, and upgraded the topic template to match the published learning standard.
+
+### Capstones, references, and calculations
+
+- Rebuilt the AsterWorks Module 2 capstone around all nine module datasets, an end-to-end process flow, reproducible network and investment calculations, control gates, sensitivity analysis, performance baselines, and an implementation roadmap.
+- Added decision checks to the Module 1 capstone and a primary-source reference register for Module 1.
+- Aligned all three worked solutions around an executive recommendation, decision-changing sensitivity cases, an owned implementation roadmap, and a completion rubric.
+- Linked quantitative Module 1 and Module 2 lessons directly to their datasets and formula sheets, while preserving the completed Rivermark Module 3 benchmark.
+
+### Durable quality controls
+
+- Extended repository validation across all three modules for shared lesson structure, process flows, assessment rationale, navigation, direct data links, capstone depth, inventory totals, orphaned assets, SVG accessibility, and independently reproduced calculations.
+- Added an idempotent Module 1 and Module 2 harmonization script so future regeneration preserves the reviewed structure instead of creating manual drift.
+
 ## Version 3.1.0 — Module 3 applied learning and process flows
 
 Released: 2026-09-15

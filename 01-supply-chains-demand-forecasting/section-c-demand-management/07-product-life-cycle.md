@@ -115,19 +115,82 @@ Historical patterns from similar products can help estimate the likely shape and
 
 The method is not magic. It still depends on how similar the reference products really are.
 
-## Common confusion
+## Why it matters
 
+Using one demand and supply policy across introduction, growth, maturity, and decline creates predictable forecast, capacity, and inventory errors.
+
+## Decision logic
+
+Set stage-specific forecasting, capacity, inventory, channel, and service rules and review the stage when evidence changes. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain stage indicators, demand range, adoption or installed-base data, capacity posture, inventory rule, service commitment, and exit trigger. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **product life cycle decision record** with these fields:
+
+- **Decision and boundary:** Set stage-specific forecasting, capacity, inventory, channel, and service rules and review the stage when evidence changes.
+- **Required evidence:** stage indicators, demand range, adoption or installed-base data, capacity posture, inventory rule, service commitment, and exit trigger.
+- **Expected result:** Using one demand and supply policy across introduction, growth, maturity, and decline creates predictable forecast, capacity, and inventory errors.
+- **Balancing condition:** Early investment supports growth but increases downside exposure; late rationalization reduces cost but can damage service obligations.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Early investment supports growth but increases downside exposure; late rationalization reduces cost but can damage service obligations.
+
+## Commonly confused with
 **Product life cycle vs. PLM:** the product life cycle describes the stages. PLM is the broader management process and information discipline used across those stages.
 
-## Common mistake
-
+## Common mistakes
 During rapid **growth**, the supply-chain danger is often under-capacity and stockouts. During **decline**, the danger is often excess inventory and stranded capacity.
 
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply product life cycle. Which proposal is most defensible?
+
+A. Use product life cycle as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Set stage-specific forecasting, capacity, inventory, channel, and service rules and review the stage when evidence changes.
+C. Choose the apparent upside without evaluating this balancing condition: Early investment supports growth but increases downside exposure; late rationalization reduces cost but can damage service obligations.
+D. Approve the choice without retaining stage indicators, demand range, adoption or installed-base data, capacity posture, inventory rule, service commitment, and exit trigger; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Set stage-specific forecasting, capacity, inventory, channel, and service rules and review the stage when evidence changes.**
+
+### Why it is correct
+
+Using one demand and supply policy across introduction, growth, maturity, and decline creates predictable forecast, capacity, and inventory errors. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: set stage-specific forecasting, capacity, inventory, channel, and service rules and review the stage when evidence changes.
+- **C** optimizes one visible result and omits the balancing effects: early investment supports growth but increases downside exposure; late rationalization reduces cost but can damage service obligations.
+- **D** leaves the approval unauditable. A reviewer would be missing stage indicators, demand range, adoption or installed-base data, capacity posture, inventory rule, service commitment, and exit trigger, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: early investment supports growth but increases downside exposure; late rationalization reduces cost but can damage service obligations.
+
+</details>
+
+## Practitioner perspective
+
+A review should be able to reconstruct the choice from stage indicators, demand range, adoption or installed-base data, capacity posture, inventory rule, service commitment, and exit trigger. If those records cannot explain what changed, who decided, and when the decision will be revisited, the process is not yet controlled.
+
 ## Related concepts
 
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-b-connected-supply-networks-and-master-data/03-advanced-planning-and-constraint-management.md)
 - [PLM and NPI](08-plm-and-new-product-introduction.md)
 - [NPI frequency vs. demand uncertainty](09-npi-frequency-and-demand-uncertainty.md)
-
-## Related concepts
-
 Module 1 → Section C → Product Life Cycle Stages; Life Cycle Analysis.
+
+---
+
+[Previous: Demand Shaping and the Four Ps](06-demand-shaping-and-four-ps.md) · [Next: Product Lifecycle Management and New-Product Introduction](08-plm-and-new-product-introduction.md)

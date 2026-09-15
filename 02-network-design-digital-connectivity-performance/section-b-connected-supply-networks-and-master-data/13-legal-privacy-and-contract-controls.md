@@ -54,6 +54,38 @@ flowchart TD
 
 AsterWorks initially plans to send full customer-contact records to a carrier. The actual delivery decision requires destination, delivery window, access instruction, and one contact channel. The design removes unrelated commercial history and limits retention after proof of delivery.
 
+## Why it matters
+
+Connected networks can create obligations and exposure across jurisdictions, data subjects, intellectual property, records, and partner actions.
+
+## Decision logic
+
+Map data and process flows, classify obligations, minimize collection, assign permitted use and accountability, and retain control evidence. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain data-flow map, legal basis and purpose, roles, contract terms, access, retention, location, incident duty, audit rights, and deletion evidence. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **legal, privacy, and contract controls decision record** with these fields:
+
+- **Decision and boundary:** Map data and process flows, classify obligations, minimize collection, assign permitted use and accountability, and retain control evidence.
+- **Required evidence:** data-flow map, legal basis and purpose, roles, contract terms, access, retention, location, incident duty, audit rights, and deletion evidence.
+- **Expected result:** Connected networks can create obligations and exposure across jurisdictions, data subjects, intellectual property, records, and partner actions.
+- **Balancing condition:** Broader data use may improve planning and analytics but increases privacy, contractual, retention, localization, and breach exposure.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Broader data use may improve planning and analytics but increases privacy, contractual, retention, localization, and breach exposure.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Map data and process flows, classify obligations, minimize collection, assign permitted use and accountability, and retain control evidence. Validate the result with data-flow map, legal basis and purpose, roles, contract terms, access, retention, location, incident duty, audit rights, and deletion evidence; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Adding legal review after architecture is complete.
@@ -67,11 +99,40 @@ AsterWorks initially plans to send full customer-contact records to a carrier. T
 
 A partner requests ten years of detailed customer data for a six-month routing pilot. What should AsterWorks challenge first?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 Necessity and proportionality. The purpose may require a smaller field set, shorter history, aggregation, or de-identification.
+
+### Why it is correct
+
+Connected networks can create obligations and exposure across jurisdictions, data subjects, intellectual property, records, and partner actions. Map data and process flows, classify obligations, minimize collection, assign permitted use and accountability, and retain control evidence.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Adding legal review after architecture is complete.
+- Sharing all available fields because the interface can carry them.
+- Assuming the provider owns every derived analytic output.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: Broader data use may improve planning and analytics but increases privacy, contractual, retention, localization, and breach exposure.
+
 </details>
+
+## Practitioner perspective
+
+Use data-flow map, legal basis and purpose, roles, contract terms, access, retention, location, incident duty, audit rights, and deletion evidence as the minimum review record. The artifact should let another practitioner reproduce the conclusion, identify the remaining exposure, and know which trigger reopens the decision.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/01-purchasing-flow-and-selection-routes.md)
 Continue to [cybersecurity and third-party risk](14-cybersecurity-and-third-party-risk.md).
+
+---
+
+[Previous: Inventory Collaboration and Replenishment](12-inventory-collaboration-and-replenishment.md) · [Next: Cybersecurity and Third-Party Risk](14-cybersecurity-and-third-party-risk.md)

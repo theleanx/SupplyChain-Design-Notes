@@ -67,6 +67,38 @@ Ninety-eight percent of item fields are populated, but 14% of European items lac
 6. prevent recurrence at source; and
 7. monitor closure and reappearance.
 
+## Why it matters
+
+High average completeness can hide a small number of critical defects that block customs, planning, promise, production, or payment.
+
+## Decision logic
+
+Define decision-critical rules, prevent invalid creation, monitor defects, assess impact, correct and approve records, remove root causes, and verify improvement. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain critical rule catalog, defect record, affected decision and objects, severity, owner, correction approval, root cause, and recurrence measure. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **data quality, cleansing, and stewardship decision record** with these fields:
+
+- **Decision and boundary:** Define decision-critical rules, prevent invalid creation, monitor defects, assess impact, correct and approve records, remove root causes, and verify improvement.
+- **Required evidence:** critical rule catalog, defect record, affected decision and objects, severity, owner, correction approval, root cause, and recurrence measure.
+- **Expected result:** High average completeness can hide a small number of critical defects that block customs, planning, promise, production, or payment.
+- **Balancing condition:** Broad cleansing improves the baseline but can consume effort on low-impact fields; risk-based prioritization may leave noncritical defects visible longer.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Broad cleansing improves the baseline but can consume effort on low-impact fields; risk-based prioritization may leave noncritical defects visible longer.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Define decision-critical rules, prevent invalid creation, monitor defects, assess impact, correct and approve records, remove root causes, and verify improvement. Validate the result with critical rule catalog, defect record, affected decision and objects, severity, owner, correction approval, root cause, and recurrence measure; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Launching a one-time cleanup without process prevention.
@@ -79,11 +111,40 @@ Ninety-eight percent of item fields are populated, but 14% of European items lac
 
 Overall master-data completeness is 99%, but a missing hazardous-material flag can stop legal shipment. Is the dataset ready based on the aggregate score alone?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 **No.** Critical rules require separate thresholds and impact-based assessment.
+
+### Why it is correct
+
+High average completeness can hide a small number of critical defects that block customs, planning, promise, production, or payment. Define decision-critical rules, prevent invalid creation, monitor defects, assess impact, correct and approve records, remove root causes, and verify improvement.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Launching a one-time cleanup without process prevention.
+- Averaging critical and optional fields.
+- Correcting a reporting copy but not the authoritative record.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: Broad cleansing improves the baseline but can consume effort on low-impact fields; risk-based prioritization may leave noncritical defects visible longer.
+
 </details>
+
+## Practitioner perspective
+
+Use critical rule catalog, defect record, affected decision and objects, severity, owner, correction approval, root cause, and recurrence measure as the minimum review record. The artifact should let another practitioner reproduce the conclusion, identify the remaining exposure, and know which trigger reopens the decision.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/01-purchasing-flow-and-selection-routes.md)
 Continue to [decision support, analytics, and AI](18-decision-support-analytics-and-ai.md).
+
+---
+
+[Previous: Automatic Identification and Traceability](16-automatic-identification-and-traceability.md) · [Next: Decision Support, Analytics, and AI](18-decision-support-analytics-and-ai.md)

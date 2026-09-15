@@ -26,7 +26,6 @@ Even a make-to-order company still needs advance decisions about:
 - maintenance windows;
 - working capital.
 
-
 ## Terminology checkpoint
 
 - **Demand forecasting:** estimating how much of a specific product, component, or service customers will need in future periods.
@@ -124,6 +123,10 @@ The planning team first decides:
 
 A chart reveals repeated peaks each winter. That observation changes the model choice because forecasting the raw data directly would confuse seasonality with trend.
 
+## Why it matters
+
+Forecast value comes from disciplined decisions under uncertainty, not from presenting one number as certain.
+
 ## Decision logic
 
 When building a forecast, ask in this order:
@@ -136,6 +139,30 @@ When building a forecast, ask in this order:
 6. How will the model be tested?
 7. What error level is acceptable?
 
+## Evidence retained through the workflow
+
+Retain forecast purpose, scope, data vintage, method and parameters, assumptions, error history, owner, and change log. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **forecasting principles and process decision record** with these fields:
+
+- **Decision and boundary:** Define purpose, item and horizon, gather and clean data, select and validate a method, document assumptions, measure error, and improve the process.
+- **Required evidence:** forecast purpose, scope, data vintage, method and parameters, assumptions, error history, owner, and change log.
+- **Expected result:** Forecast value comes from disciplined decisions under uncertainty, not from presenting one number as certain.
+- **Balancing condition:** More sophisticated models may improve fit but reduce explainability, maintainability, and timely business challenge.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+More sophisticated models may improve fit but reduce explainability, maintainability, and timely business challenge.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Define purpose, item and horizon, gather and clean data, select and validate a method, document assumptions, measure error, and improve the process. Validate the result with forecast purpose, scope, data vintage, method and parameters, assumptions, error history, owner, and change log; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - A sales target is **not** automatically a forecast.
@@ -143,10 +170,47 @@ When building a forecast, ask in this order:
 - More detail does **not automatically mean** more accuracy.
 - Longer horizons generally create **more uncertainty**, not more precision.
 
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply forecasting principles and process. Which proposal is most defensible?
+
+A. Use forecasting principles and process as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Define purpose, item and horizon, gather and clean data, select and validate a method, document assumptions, measure error, and improve the process.
+C. Choose the apparent upside without evaluating this balancing condition: More sophisticated models may improve fit but reduce explainability, maintainability, and timely business challenge.
+D. Approve the choice without retaining forecast purpose, scope, data vintage, method and parameters, assumptions, error history, owner, and change log; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Define purpose, item and horizon, gather and clean data, select and validate a method, document assumptions, measure error, and improve the process.**
+
+### Why it is correct
+
+Forecast value comes from disciplined decisions under uncertainty, not from presenting one number as certain. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: define purpose, item and horizon, gather and clean data, select and validate a method, document assumptions, measure error, and improve the process.
+- **C** optimizes one visible result and omits the balancing effects: more sophisticated models may improve fit but reduce explainability, maintainability, and timely business challenge.
+- **D** leaves the approval unauditable. A reviewer would be missing forecast purpose, scope, data vintage, method and parameters, assumptions, error history, owner, and change log, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: more sophisticated models may improve fit but reduce explainability, maintainability, and timely business challenge.
+
+</details>
+
 ## Practitioner perspective
 
 In enterprise planning systems, statistical forecasting should be separated from commercial overrides so the organization can measure whether human adjustments improve or reduce forecast accuracy.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-c-performance-and-financial-insight/01-measurement-system-design.md)
 Module 1 → Section D → Forecasting Principles and Process. Wording, scenario, table, and visual composition are original.
+
+---
+
+[Section overview](README.md) · [Next: Qualitative and Combination Forecasting Methods](02-qualitative-and-combination-methods.md)

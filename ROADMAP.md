@@ -45,7 +45,7 @@ Future module folders will be published only when substantive content is ready.
 - [x] Cross-module glossary
 - [x] Forecasting calculations reference
 - [x] Network and performance calculations reference
-- [x] Two end-to-end case studies
+- [x] Three end-to-end case studies
 - [ ] Commonly confused concepts index
 - [ ] Framework library
 - [ ] Cumulative knowledge review
