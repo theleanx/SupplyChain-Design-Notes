@@ -2,7 +2,9 @@
 
 Significant public improvements to this repository are recorded here.
 
-## Unreleased — Modules 1–3 harmonization
+## Version 3.2.0 — Modules 1–3 harmonization
+
+Released: 2026-09-15
 
 ### Shared learning design
 
