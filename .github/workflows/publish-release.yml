@@ -1,0 +1,63 @@
+name: Publish validated release
+
+on:
+  workflow_run:
+    workflows: ["Content quality"]
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    if: github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out validated commit
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          fetch-depth: 2
+
+      - name: Detect a release manifest
+        id: release
+        shell: bash
+        run: |
+          manifest="$(git diff --name-only HEAD^ HEAD | sed -n '/^\.github\/releases\/v[0-9].*\.md$/p' | head -n 1)"
+          if [[ -z "$manifest" ]]; then
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          tag="$(basename "$manifest" .md)"
+          title="$(sed -n '1s/^# //p' "$manifest")"
+          if [[ -z "$title" ]]; then
+            echo "::error file=$manifest::Release manifest requires a level-one title"
+            exit 1
+          fi
+          echo "publish=true" >> "$GITHUB_OUTPUT"
+          echo "manifest=$manifest" >> "$GITHUB_OUTPUT"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          echo "title=$title" >> "$GITHUB_OUTPUT"
+
+      - name: Publish release
+        if: steps.release.outputs.publish == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ steps.release.outputs.tag }}
+          RELEASE_TITLE: ${{ steps.release.outputs.title }}
+          RELEASE_MANIFEST: ${{ steps.release.outputs.manifest }}
+          RELEASE_TARGET: ${{ github.event.workflow_run.head_sha }}
+        shell: bash
+        run: |
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            echo "::error::Release $RELEASE_TAG already exists"
+            exit 1
+          fi
+          notes_file="$(mktemp)"
+          tail -n +3 "$RELEASE_MANIFEST" > "$notes_file"
+          gh release create "$RELEASE_TAG" \
+            --target "$RELEASE_TARGET" \
+            --title "$RELEASE_TITLE" \
+            --notes-file "$notes_file" \
+            --latest
