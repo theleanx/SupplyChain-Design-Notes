@@ -65,9 +65,9 @@ QUALITY.md                                            Quality and originality st
 
 The repository currently includes:
 
-- 161 structured Markdown files across three completed modules;
+- 158 structured Markdown files across three completed modules;
 - twelve connected learning sections;
-- 55 original SVG diagrams plus repository-native Mermaid process flows;
+- 80 original SVG diagrams plus repository-native Mermaid process flows;
 - 24 original CSV datasets for worked analysis;
 - 265 independently authored knowledge checks;
 - three integrated end-to-end capstones; and

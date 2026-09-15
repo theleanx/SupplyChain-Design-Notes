@@ -16,11 +16,11 @@ Postponement delays irreversible product differentiation until demand is clearer
 
 Forecasts are usually more accurate at an aggregate level than for each finished variant. Holding common forms can reduce wrong-variant inventory while still serving diverse markets.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Postponement, Mass Customization, and Localization decision workflow](../../assets/diagrams/module-3/section-c/08-postponement-mass-customization-and-localization-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

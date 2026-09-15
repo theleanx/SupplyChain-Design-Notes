@@ -16,11 +16,11 @@ Design for supply chain evaluates how a product will be sourced, made, moved, st
 
 A small dimensional, weight, labeling, or packaging choice can change pallet density, handling equipment, damage, mode, warehouse capacity, and reverse-flow cost.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Design for Supply Chain and Logistics decision workflow](../../assets/diagrams/module-3/section-c/03-design-for-supply-chain-and-logistics-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

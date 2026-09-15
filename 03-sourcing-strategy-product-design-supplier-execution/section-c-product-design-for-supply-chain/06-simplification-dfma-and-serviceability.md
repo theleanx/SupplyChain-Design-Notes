@@ -16,11 +16,11 @@ Simplification removes unnecessary parts, steps, adjustments, and choices. Desig
 
 Complexity increases touches, training, defects, setup, tools, spare parts, and repair time. A part removed cannot be purchased incorrectly, installed backward, fail, or require service.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Simplification, DFMA, and Serviceability decision workflow](../../assets/diagrams/module-3/section-c/06-simplification-dfma-and-serviceability-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

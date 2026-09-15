@@ -16,11 +16,11 @@ Product design determines materials, parts, tolerances, tooling, process choices
 
 Late sourcing pressure cannot fully overcome an expensive or fragile design. The earlier the team changes complexity, material choice, or architecture, the lower the disruption and rework cost.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Product Design as a Supply-Chain Lever decision workflow](../../assets/diagrams/module-3/section-c/01-design-as-economic-lever-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

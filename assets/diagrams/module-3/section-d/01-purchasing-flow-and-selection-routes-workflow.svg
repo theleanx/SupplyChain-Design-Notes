@@ -1,1 +1,105 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc"><title id="title">Purchasing Flow and Supplier-Selection Routes decision workflow</title><desc id="desc">Five-stage decision workflow with explicitly wrapped labels for reliable display.</desc><defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f4f8fc"/><stop offset="1" stop-color="#eef4f8"/></linearGradient><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#3e6078"/></marker></defs><style>text{font-family:Arial,Helvetica,sans-serif}.heading{font-size:30px;font-weight:700;fill:#102a43}.sub{font-size:16px;fill:#486581}.label{font-size:20px;font-weight:700;fill:#102a43}.num{font-size:19px;font-weight:700;fill:#fff}g rect{fill:#fff;stroke:#587d96;stroke-width:2}g circle{fill:#176b87}path{fill:none;stroke:#3e6078;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}</style><rect width="1200" height="620" rx="24" fill="url(#bg)"/><text class="heading" x="60" y="60">Purchasing Flow and Supplier-Selection Routes</text><text class="sub" x="60" y="92">Decision workflow • follow the numbered sequence and retain the evidence from each stage</text><path d="M360 205 H425"/><path d="M740 205 H805"/><path d="M970 280 V330 Q970 350 950 350 H800 Q780 350 780 370"/><path d="M630 465 H565"/><g><rect x="60" y="130" width="300" height="150" rx="18"/><circle cx="94" cy="164" r="20"/><text class="num" x="94" y="171" text-anchor="middle">1</text><text class="label" text-anchor="middle"><tspan x="210" y="188">Approve the requirement and</tspan><tspan x="210" y="218">route</tspan></text></g><g><rect x="440" y="130" width="300" height="150" rx="18"/><circle cx="474" cy="164" r="20"/><text class="num" x="474" y="171" text-anchor="middle">2</text><text class="label" text-anchor="middle"><tspan x="590" y="188">Identify and prequalify</tspan><tspan x="590" y="218">candidates</tspan></text></g><g><rect x="820" y="130" width="300" height="150" rx="18"/><circle cx="854" cy="164" r="20"/><text class="num" x="854" y="171" text-anchor="middle">3</text><text class="label" text-anchor="middle"><tspan x="970" y="203">Issue a consistent request</tspan></text></g><g><rect x="630" y="390" width="300" height="150" rx="18"/><circle cx="664" cy="424" r="20"/><text class="num" x="664" y="431" text-anchor="middle">4</text><text class="label" text-anchor="middle"><tspan x="780" y="463">Evaluate evidence and risk</tspan></text></g><g><rect x="250" y="390" width="300" height="150" rx="18"/><circle cx="284" cy="424" r="20"/><text class="num" x="284" y="431" text-anchor="middle">5</text><text class="label" text-anchor="middle"><tspan x="400" y="448">Negotiate, award, onboard,</tspan><tspan x="400" y="478">and measure</tspan></text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Purchasing Flow and Selection Routes</title>
+  <desc id="desc">Use the requirement and market condition to choose the correct commercial route.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7fafc" />
+      <stop offset="1" stop-color="#eaf3f7" />
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#486581" />
+    </marker>
+  </defs>
+  <style>text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102a43}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.4px;fill:#176b87}.subtitle{font-size:16px;fill:#486581}.label{font-size:19px;font-weight:700;fill:#102a43}.barlabel{font-size:15px;font-weight:700;fill:#fff}.body{font-size:16px;fill:#243b53}.small{font-size:14px;fill:#486581}.metric{font-size:24px;font-weight:700;fill:#176b87}.white{fill:#fff}.line{fill:none;stroke:#587d96;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.arrow{fill:none;stroke:#486581;stroke-width:3;stroke-linecap:round;marker-end:url(#arrow)}</style>
+  <rect width="1200" height="720" rx="24" fill="url(#bg)" />
+  <text x="60" y="43" class="eyebrow" text-anchor="start">
+    <tspan x="60" y="43">SOURCE-TO-ORDER ROUTE</tspan>
+  </text>
+  <text x="60" y="80" class="title" text-anchor="start">
+    <tspan x="60" y="80">Purchasing Flow and Selection Routes</tspan>
+  </text>
+  <text x="60" y="109" class="subtitle" text-anchor="start">
+    <tspan x="60" y="109">Use the requirement and market condition to choose the correct commercial route.</tspan>
+  </text>
+  <rect x="60" y="275" width="184" height="165" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
+  <circle cx="84" cy="299" r="20" fill="#176b87" />
+  <text x="84" y="305" class="label white" text-anchor="middle">
+    <tspan x="84" y="305">1</tspan>
+  </text>
+  <text x="114" y="306" class="label" text-anchor="start">
+    <tspan x="114" y="306">Need and</tspan>
+    <tspan x="114" y="329">specification</tspan>
+  </text>
+  <text x="80" y="373" class="body" text-anchor="start">
+    <tspan x="80" y="373">Retain input,</tspan>
+    <tspan x="80" y="396">assumption, and</tspan>
+    <tspan x="80" y="419">owner.</tspan>
+  </text>
+  <path d="M250 357 H272" class="arrow" />
+  <rect x="278" y="275" width="184" height="165" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
+  <circle cx="302" cy="299" r="20" fill="#2a9d8f" />
+  <text x="302" y="305" class="label white" text-anchor="middle">
+    <tspan x="302" y="305">2</tspan>
+  </text>
+  <text x="332" y="306" class="label" text-anchor="start">
+    <tspan x="332" y="306">Route</tspan>
+    <tspan x="332" y="329">decision</tspan>
+  </text>
+  <text x="298" y="373" class="body" text-anchor="start">
+    <tspan x="298" y="373">Retain input,</tspan>
+    <tspan x="298" y="396">assumption, and</tspan>
+    <tspan x="298" y="419">owner.</tspan>
+  </text>
+  <path d="M468 357 H490" class="arrow" />
+  <rect x="496" y="275" width="184" height="165" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
+  <circle cx="520" cy="299" r="20" fill="#e9b949" />
+  <text x="520" y="305" class="label white" text-anchor="middle">
+    <tspan x="520" y="305">3</tspan>
+  </text>
+  <text x="550" y="306" class="label" text-anchor="start">
+    <tspan x="550" y="306">Supplier</tspan>
+    <tspan x="550" y="329">evaluation</tspan>
+  </text>
+  <text x="516" y="373" class="body" text-anchor="start">
+    <tspan x="516" y="373">Retain input,</tspan>
+    <tspan x="516" y="396">assumption, and</tspan>
+    <tspan x="516" y="419">owner.</tspan>
+  </text>
+  <path d="M686 357 H708" class="arrow" />
+  <rect x="714" y="275" width="184" height="165" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
+  <circle cx="738" cy="299" r="20" fill="#e76f51" />
+  <text x="738" y="305" class="label white" text-anchor="middle">
+    <tspan x="738" y="305">4</tspan>
+  </text>
+  <text x="768" y="306" class="label" text-anchor="start">
+    <tspan x="768" y="306">Award and</tspan>
+    <tspan x="768" y="329">approval</tspan>
+  </text>
+  <text x="734" y="373" class="body" text-anchor="start">
+    <tspan x="734" y="373">Retain input,</tspan>
+    <tspan x="734" y="396">assumption, and</tspan>
+    <tspan x="734" y="419">owner.</tspan>
+  </text>
+  <path d="M904 357 H926" class="arrow" />
+  <rect x="932" y="275" width="184" height="165" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
+  <circle cx="956" cy="299" r="20" fill="#176b87" />
+  <text x="956" y="305" class="label white" text-anchor="middle">
+    <tspan x="956" y="305">5</tspan>
+  </text>
+  <text x="986" y="306" class="label" text-anchor="start">
+    <tspan x="986" y="306">Order and</tspan>
+    <tspan x="986" y="329">control</tspan>
+  </text>
+  <text x="952" y="373" class="body" text-anchor="start">
+    <tspan x="952" y="373">Retain input,</tspan>
+    <tspan x="952" y="396">assumption, and</tspan>
+    <tspan x="952" y="419">owner.</tspan>
+  </text>
+  <text x="60" y="515" class="label" text-anchor="start">
+    <tspan x="60" y="515">Decision rule</tspan>
+  </text>
+  <rect x="60" y="535" width="1060" height="90" rx="14" fill="#e6f3f5" stroke="#2a9d8f" stroke-width="2" />
+  <text x="85" y="570" class="body" text-anchor="start">
+    <tspan x="85" y="570">Move forward only when the evidence, accountable owner, and next control are explicit.</tspan>
+  </text>
+</svg>

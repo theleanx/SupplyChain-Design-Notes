@@ -34,6 +34,6 @@ After completing this module, you should be able to:
 
 ## How each lesson is structured
 
-Every topic moves from a plain-language concept to a five-stage decision workflow, the evidence retained at each stage, a fictional operating example, topic-specific trade-offs, failure patterns, and an answer-with-rationale knowledge check. The 35 workflow visuals use fixed SVG geometry and explicit multiline text so their labels remain visible when GitHub scales the page.
+Every topic moves from a plain-language concept to a topic-appropriate decision model and implementation workflow, the evidence needed to apply it, a fictional operating example, topic-specific trade-offs, failure patterns, and an answer-with-rationale knowledge check. The 35 SVG visuals use matrices, stage gates, cost structures, comparison views, control loops, scorecards, and execution flows with explicit multiline text so their labels remain visible when GitHub scales the page.
 
 Every example, dataset, diagram, and knowledge check is fictional and independently created for this repository. Contracting and trade-finance discussions are educational and are not legal or financial advice.

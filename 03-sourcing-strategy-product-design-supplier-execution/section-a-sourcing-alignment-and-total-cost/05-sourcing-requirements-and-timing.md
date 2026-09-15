@@ -16,11 +16,11 @@ A sourcing requirement states what the supply solution must achieve and by when.
 
 Vague requirements create incomparable proposals and late disputes. Timing must include qualification, tooling, integration, ramp-up, logistics, and approval—not just the supplier's quoted production lead time.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Sourcing Requirements and Timing decision workflow](../../assets/diagrams/module-3/section-a/05-sourcing-requirements-and-timing-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

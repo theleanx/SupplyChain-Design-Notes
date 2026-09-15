@@ -16,11 +16,11 @@ Spend analysis explains what was bought, from whom, by whom, at what total value
 
 Unclean supplier names, duplicate records, inconsistent units, and missing categories can create false leverage or hide dependence. Historical spend alone cannot describe future demand or market change.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Spend Analysis and Supply-Market Intelligence decision workflow](../../assets/diagrams/module-3/section-b/06-spend-analysis-and-market-intelligence-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

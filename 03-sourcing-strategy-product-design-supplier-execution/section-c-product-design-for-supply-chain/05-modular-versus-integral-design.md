@@ -16,11 +16,11 @@ Modular design creates defined interfaces so components can be reused, configure
 
 Modularity can delay differentiation and broaden sourcing options; integral design can achieve superior compactness, performance, appearance, or user experience.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Modular versus Integral Design decision workflow](../../assets/diagrams/module-3/section-c/05-modular-versus-integral-design-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

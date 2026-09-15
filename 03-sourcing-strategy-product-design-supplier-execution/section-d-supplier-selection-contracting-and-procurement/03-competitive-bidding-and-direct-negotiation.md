@@ -16,11 +16,11 @@ Competitive bidding works when the requirement is clear, suppliers are genuinely
 
 Forcing a strategic or poorly specified requirement into a price event can select the wrong solution and damage future collaboration.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Competitive Bidding and Direct Negotiation decision workflow](../../assets/diagrams/module-3/section-d/03-competitive-bidding-and-direct-negotiation-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

@@ -7,6 +7,7 @@ Every learning section should be accurate, practical, navigable, and independent
 - Clear concept explanation in plain language
 - Business relevance and decision logic
 - Original visual, structured table, or process flow where useful
+- A visual model suited to the topic; one generic layout must not be repeated across unrelated concepts
 - Realistic fictional example
 - Worked calculation when the topic is quantitative
 - Trade-offs and common points of confusion

@@ -16,11 +16,11 @@ Three-way match compares the authorized order, evidence of receipt or service ac
 
 The control prevents unauthorized, duplicate, incorrect, or premature payment while creating reliable inventory and financial records.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Receiving and Three-Way Match decision workflow](../../assets/diagrams/module-3/section-d/10-receiving-and-three-way-match-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

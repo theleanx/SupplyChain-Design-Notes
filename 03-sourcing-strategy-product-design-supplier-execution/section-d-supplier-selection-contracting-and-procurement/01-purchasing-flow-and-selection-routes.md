@@ -16,11 +16,11 @@ The purchasing flow converts an approved external requirement into supplier eval
 
 A clear flow prevents unauthorized commitments, incomparable bids, conflicts of interest, and awards that cannot be operationalized.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Purchasing Flow and Supplier-Selection Routes decision workflow](../../assets/diagrams/module-3/section-d/01-purchasing-flow-and-selection-routes-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

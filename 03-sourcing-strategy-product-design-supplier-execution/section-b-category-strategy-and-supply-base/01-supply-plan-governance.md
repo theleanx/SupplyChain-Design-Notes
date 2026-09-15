@@ -16,11 +16,11 @@ A sourcing supply plan defines how external capacity, categories, relationships,
 
 An optimized plan can still fail if it conflicts with service commitments, culture, regulatory duties, or local operating realities.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Supply-Plan Governance decision workflow](../../assets/diagrams/module-3/section-b/01-supply-plan-governance-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

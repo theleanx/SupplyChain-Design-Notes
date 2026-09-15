@@ -16,11 +16,11 @@ Collaborative design brings engineering, commercial, quality, operations, sourci
 
 Sequential handoffs discover unavailable materials, impractical tolerances, packaging waste, and service problems after change becomes expensive.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Collaborative Design and Early Involvement decision workflow](../../assets/diagrams/module-3/section-c/02-collaborative-design-and-early-involvement-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

@@ -16,11 +16,11 @@ Principled negotiation separates people from the problem, focuses on interests r
 
 Without a credible alternative, negotiators may accept an unattractive agreement or bluff beyond their ability to walk away.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Principled Negotiation and BATNA decision workflow](../../assets/diagrams/module-3/section-d/04-principled-negotiation-and-batna-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

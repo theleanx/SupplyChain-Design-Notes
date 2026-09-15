@@ -5,6 +5,8 @@
 from __future__ import annotations
 
 import csv
+import copy
+import hashlib
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -17,8 +19,8 @@ MARKDOWN_LINK = re.compile(r"(?<!!)\[[^\]]*\]\(([^)]+)\)")
 MARKDOWN_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 FENCE = "`" * 3
 MODULE_3_REQUIRED_HEADINGS = (
-    "## Decision workflow",
-    "### Evidence retained at each stage",
+    "## Decision model and workflow",
+    "### Evidence retained through the workflow",
     "## Realistic example",
     "**Decision insight.**",
     "## Trade-offs",
@@ -94,6 +96,7 @@ def validate_markdown(paths: list[Path]) -> tuple[int, list[str]]:
 
 def validate_svg(paths: list[Path]) -> list[str]:
     errors: list[str] = []
+    module_3_fingerprints: dict[str, list[Path]] = {}
 
     for path in paths:
         relative = path.relative_to(ROOT)
@@ -129,6 +132,30 @@ def validate_svg(paths: list[Path]) -> list[str]:
                     errors.append(
                         f"{relative}: workflow labels require explicit multiline coordinates"
                     )
+
+            # Ignore wording and compare the actual geometry/style. Topic visuals
+            # may share a design language, but one repeated diagram template must
+            # not stand in for every decision model.
+            geometry = copy.deepcopy(root)
+            for parent in geometry.iter():
+                for child in list(parent):
+                    if child.tag.rsplit("}", 1)[-1] in {"title", "desc", "text"}:
+                        parent.remove(child)
+            serialized = ET.tostring(geometry, encoding="unicode")
+            fingerprint = hashlib.sha256(serialized.encode("utf-8")).hexdigest()
+            module_3_fingerprints.setdefault(fingerprint, []).append(path)
+
+    module_3_count = sum(len(group) for group in module_3_fingerprints.values())
+    if module_3_count >= 10:
+        if len(module_3_fingerprints) < 10:
+            errors.append(
+                "assets/diagrams/module-3: fewer than 10 topic-specific visual structures"
+            )
+        largest = max(module_3_fingerprints.values(), key=len)
+        if len(largest) > 5:
+            errors.append(
+                "assets/diagrams/module-3: one visual template is reused for more than five topics"
+            )
 
     return errors
 

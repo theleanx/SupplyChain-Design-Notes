@@ -1,1 +1,87 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc"><title id="title">Principled Negotiation and BATNA decision workflow</title><desc id="desc">Five-stage decision workflow with explicitly wrapped labels for reliable display.</desc><defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f4f8fc"/><stop offset="1" stop-color="#eef4f8"/></linearGradient><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#3e6078"/></marker></defs><style>text{font-family:Arial,Helvetica,sans-serif}.heading{font-size:30px;font-weight:700;fill:#102a43}.sub{font-size:16px;fill:#486581}.label{font-size:20px;font-weight:700;fill:#102a43}.num{font-size:19px;font-weight:700;fill:#fff}g rect{fill:#fff;stroke:#587d96;stroke-width:2}g circle{fill:#176b87}path{fill:none;stroke:#3e6078;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}</style><rect width="1200" height="620" rx="24" fill="url(#bg)"/><text class="heading" x="60" y="60">Principled Negotiation and BATNA</text><text class="sub" x="60" y="92">Decision workflow • follow the numbered sequence and retain the evidence from each stage</text><path d="M360 205 H425"/><path d="M740 205 H805"/><path d="M970 280 V330 Q970 350 950 350 H800 Q780 350 780 370"/><path d="M630 465 H565"/><g><rect x="60" y="130" width="300" height="150" rx="18"/><circle cx="94" cy="164" r="20"/><text class="num" x="94" y="171" text-anchor="middle">1</text><text class="label" text-anchor="middle"><tspan x="210" y="173">Define interests,</tspan><tspan x="210" y="203">priorities, authority, and</tspan><tspan x="210" y="233">BATNA</tspan></text></g><g><rect x="440" y="130" width="300" height="150" rx="18"/><circle cx="474" cy="164" r="20"/><text class="num" x="474" y="171" text-anchor="middle">2</text><text class="label" text-anchor="middle"><tspan x="590" y="188">Estimate the counterpart's</tspan><tspan x="590" y="218">interests</tspan></text></g><g><rect x="820" y="130" width="300" height="150" rx="18"/><circle cx="854" cy="164" r="20"/><text class="num" x="854" y="171" text-anchor="middle">3</text><text class="label" text-anchor="middle"><tspan x="970" y="188">Build objective standards</tspan><tspan x="970" y="218">and options</tspan></text></g><g><rect x="630" y="390" width="300" height="150" rx="18"/><circle cx="664" cy="424" r="20"/><text class="num" x="664" y="431" text-anchor="middle">4</text><text class="label" text-anchor="middle"><tspan x="780" y="448">Trade conditionally across</tspan><tspan x="780" y="478">differences</tspan></text></g><g><rect x="250" y="390" width="300" height="150" rx="18"/><circle cx="284" cy="424" r="20"/><text class="num" x="284" y="431" text-anchor="middle">5</text><text class="label" text-anchor="middle"><tspan x="400" y="448">Document the complete</tspan><tspan x="400" y="478">agreement</tspan></text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Principled Negotiation and BATNA</title>
+  <desc id="desc">Define the bargaining zone before trading variables across interests.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7fafc" />
+      <stop offset="1" stop-color="#eaf3f7" />
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#486581" />
+    </marker>
+  </defs>
+  <style>text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102a43}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.4px;fill:#176b87}.subtitle{font-size:16px;fill:#486581}.label{font-size:19px;font-weight:700;fill:#102a43}.barlabel{font-size:15px;font-weight:700;fill:#fff}.body{font-size:16px;fill:#243b53}.small{font-size:14px;fill:#486581}.metric{font-size:24px;font-weight:700;fill:#176b87}.white{fill:#fff}.line{fill:none;stroke:#587d96;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.arrow{fill:none;stroke:#486581;stroke-width:3;stroke-linecap:round;marker-end:url(#arrow)}</style>
+  <rect width="1200" height="720" rx="24" fill="url(#bg)" />
+  <text x="60" y="43" class="eyebrow" text-anchor="start">
+    <tspan x="60" y="43">NEGOTIATION RANGE</tspan>
+  </text>
+  <text x="60" y="80" class="title" text-anchor="start">
+    <tspan x="60" y="80">Principled Negotiation and BATNA</tspan>
+  </text>
+  <text x="60" y="109" class="subtitle" text-anchor="start">
+    <tspan x="60" y="109">Define the bargaining zone before trading variables across interests.</tspan>
+  </text>
+  <line x1="110" y1="340" x2="1090" y2="340" stroke="#587d96" stroke-width="14" stroke-linecap="round" />
+  <circle cx="140.0" cy="340" r="24" fill="#176b87" stroke="#ffffff" stroke-width="5" />
+  <g>
+    <rect x="30" y="175" width="220" height="120" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
+    <text x="50" y="209" class="label" text-anchor="start">
+      <tspan x="50" y="209">Buyer BATNA</tspan>
+    </text>
+    <text x="50" y="243" class="body" text-anchor="start">
+      <tspan x="50" y="243">Best outside option</tspan>
+    </text>
+  </g>
+  <line x1="140.0" y1="315" x2="140.0" y2="295" stroke="#587d96" stroke-width="2" />
+  <circle cx="370.0" cy="340" r="24" fill="#2a9d8f" stroke="#ffffff" stroke-width="5" />
+  <g>
+    <rect x="260" y="430" width="220" height="120" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
+    <text x="280" y="464" class="label" text-anchor="start">
+      <tspan x="280" y="464">Buyer limit</tspan>
+    </text>
+    <text x="280" y="498" class="body" text-anchor="start">
+      <tspan x="280" y="498">Walk-away boundary</tspan>
+    </text>
+  </g>
+  <line x1="370.0" y1="365" x2="370.0" y2="430" stroke="#587d96" stroke-width="2" />
+  <circle cx="600.0" cy="340" r="24" fill="#e9b949" stroke="#ffffff" stroke-width="5" />
+  <g>
+    <rect x="490" y="175" width="220" height="120" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
+    <text x="510" y="209" class="label" text-anchor="start">
+      <tspan x="510" y="209">Agreement zone</tspan>
+    </text>
+    <text x="510" y="243" class="body" text-anchor="start">
+      <tspan x="510" y="243">Tradable value</tspan>
+    </text>
+  </g>
+  <line x1="600.0" y1="315" x2="600.0" y2="295" stroke="#587d96" stroke-width="2" />
+  <circle cx="830.0" cy="340" r="24" fill="#e76f51" stroke="#ffffff" stroke-width="5" />
+  <g>
+    <rect x="720" y="430" width="220" height="120" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
+    <text x="740" y="464" class="label" text-anchor="start">
+      <tspan x="740" y="464">Supplier limit</tspan>
+    </text>
+    <text x="740" y="498" class="body" text-anchor="start">
+      <tspan x="740" y="498">Counterparty boundary</tspan>
+    </text>
+  </g>
+  <line x1="830.0" y1="365" x2="830.0" y2="430" stroke="#587d96" stroke-width="2" />
+  <circle cx="1060.0" cy="340" r="24" fill="#176b87" stroke="#ffffff" stroke-width="5" />
+  <g>
+    <rect x="950" y="175" width="220" height="120" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
+    <text x="970" y="209" class="label" text-anchor="start">
+      <tspan x="970" y="209">Supplier BATNA</tspan>
+    </text>
+    <text x="970" y="243" class="body" text-anchor="start">
+      <tspan x="970" y="243">Their outside option</tspan>
+    </text>
+  </g>
+  <line x1="1060.0" y1="315" x2="1060.0" y2="295" stroke="#587d96" stroke-width="2" />
+  <text x="100" y="610" class="label" text-anchor="start">
+    <tspan x="100" y="610">Buyer alternative</tspan>
+  </text>
+  <text x="1100" y="610" class="label" text-anchor="end">
+    <tspan x="1100" y="610">Supplier alternative</tspan>
+  </text>
+  <path d="M320 603 H880" class="arrow" />
+</svg>

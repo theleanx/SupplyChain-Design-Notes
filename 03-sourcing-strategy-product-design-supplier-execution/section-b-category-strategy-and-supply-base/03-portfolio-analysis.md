@@ -16,11 +16,11 @@ Portfolio analysis positions a category using two dimensions: consequence to the
 
 Treating every category alike wastes scarce management capacity. Routine spend should be efficient; constrained and strategically important supply needs deliberate protection.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Category Portfolio Analysis decision workflow](../../assets/diagrams/module-3/section-b/03-portfolio-analysis-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

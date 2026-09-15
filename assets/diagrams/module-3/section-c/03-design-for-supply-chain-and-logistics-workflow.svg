@@ -1,1 +1,101 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc"><title id="title">Design for Supply Chain and Logistics decision workflow</title><desc id="desc">Five-stage decision workflow with explicitly wrapped labels for reliable display.</desc><defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f4f8fc"/><stop offset="1" stop-color="#eef4f8"/></linearGradient><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#3e6078"/></marker></defs><style>text{font-family:Arial,Helvetica,sans-serif}.heading{font-size:30px;font-weight:700;fill:#102a43}.sub{font-size:16px;fill:#486581}.label{font-size:20px;font-weight:700;fill:#102a43}.num{font-size:19px;font-weight:700;fill:#fff}g rect{fill:#fff;stroke:#587d96;stroke-width:2}g circle{fill:#176b87}path{fill:none;stroke:#3e6078;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}</style><rect width="1200" height="620" rx="24" fill="url(#bg)"/><text class="heading" x="60" y="60">Design for Supply Chain and Logistics</text><text class="sub" x="60" y="92">Decision workflow • follow the numbered sequence and retain the evidence from each stage</text><path d="M360 205 H425"/><path d="M740 205 H805"/><path d="M970 280 V330 Q970 350 950 350 H800 Q780 350 780 370"/><path d="M630 465 H565"/><g><rect x="60" y="130" width="300" height="150" rx="18"/><circle cx="94" cy="164" r="20"/><text class="num" x="94" y="171" text-anchor="middle">1</text><text class="label" text-anchor="middle"><tspan x="210" y="203">Map the lifecycle flow</tspan></text></g><g><rect x="440" y="130" width="300" height="150" rx="18"/><circle cx="474" cy="164" r="20"/><text class="num" x="474" y="171" text-anchor="middle">2</text><text class="label" text-anchor="middle"><tspan x="590" y="188">Identify handling and space</tspan><tspan x="590" y="218">constraints</tspan></text></g><g><rect x="820" y="130" width="300" height="150" rx="18"/><circle cx="854" cy="164" r="20"/><text class="num" x="854" y="171" text-anchor="middle">3</text><text class="label" text-anchor="middle"><tspan x="970" y="188">Generate product and</tspan><tspan x="970" y="218">packaging alternatives</tspan></text></g><g><rect x="630" y="390" width="300" height="150" rx="18"/><circle cx="664" cy="424" r="20"/><text class="num" x="664" y="431" text-anchor="middle">4</text><text class="label" text-anchor="middle"><tspan x="780" y="448">Calculate unit-load</tspan><tspan x="780" y="478">economics</tspan></text></g><g><rect x="250" y="390" width="300" height="150" rx="18"/><circle cx="284" cy="424" r="20"/><text class="num" x="284" y="431" text-anchor="middle">5</text><text class="label" text-anchor="middle"><tspan x="400" y="448">Test damage, ergonomics,</tspan><tspan x="400" y="478">and recovery</tspan></text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Design for Supply Chain and Logistics</title>
+  <desc id="desc">Use cross-functional measures to expose downstream design consequences.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7fafc" />
+      <stop offset="1" stop-color="#eaf3f7" />
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#486581" />
+    </marker>
+  </defs>
+  <style>text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102a43}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.4px;fill:#176b87}.subtitle{font-size:16px;fill:#486581}.label{font-size:19px;font-weight:700;fill:#102a43}.barlabel{font-size:15px;font-weight:700;fill:#fff}.body{font-size:16px;fill:#243b53}.small{font-size:14px;fill:#486581}.metric{font-size:24px;font-weight:700;fill:#176b87}.white{fill:#fff}.line{fill:none;stroke:#587d96;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.arrow{fill:none;stroke:#486581;stroke-width:3;stroke-linecap:round;marker-end:url(#arrow)}</style>
+  <rect width="1200" height="720" rx="24" fill="url(#bg)" />
+  <text x="60" y="43" class="eyebrow" text-anchor="start">
+    <tspan x="60" y="43">DESIGN SCORECARD</tspan>
+  </text>
+  <text x="60" y="80" class="title" text-anchor="start">
+    <tspan x="60" y="80">Design for Supply Chain and Logistics</tspan>
+  </text>
+  <text x="60" y="109" class="subtitle" text-anchor="start">
+    <tspan x="60" y="109">Use cross-functional measures to expose downstream design consequences.</tspan>
+  </text>
+  <rect x="65" y="165" width="245" height="145" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
+  <text x="85" y="207" class="metric" text-anchor="start">
+    <tspan x="85" y="207">−18%</tspan>
+  </text>
+  <text x="85" y="239" class="label" text-anchor="start">
+    <tspan x="85" y="239">Pack cube</tspan>
+  </text>
+  <text x="85" y="280" class="small" text-anchor="start">
+    <tspan x="85" y="280">Space per sellable unit</tspan>
+  </text>
+  <rect x="340" y="165" width="245" height="145" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
+  <text x="360" y="207" class="metric" text-anchor="start">
+    <tspan x="360" y="207">−12 days</tspan>
+  </text>
+  <text x="360" y="239" class="label" text-anchor="start">
+    <tspan x="360" y="239">Lead time</tspan>
+  </text>
+  <text x="360" y="280" class="small" text-anchor="start">
+    <tspan x="360" y="280">Supply response</tspan>
+  </text>
+  <rect x="615" y="165" width="245" height="145" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
+  <text x="635" y="207" class="metric" text-anchor="start">
+    <tspan x="635" y="207">+1</tspan>
+  </text>
+  <text x="635" y="239" class="label" text-anchor="start">
+    <tspan x="635" y="239">Source options</tspan>
+  </text>
+  <text x="635" y="280" class="small" text-anchor="start">
+    <tspan x="635" y="280">Qualified alternatives</tspan>
+  </text>
+  <rect x="890" y="165" width="245" height="145" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
+  <text x="910" y="207" class="metric" text-anchor="start">
+    <tspan x="910" y="207">−22%</tspan>
+  </text>
+  <text x="910" y="239" class="label" text-anchor="start">
+    <tspan x="910" y="239">Damage</tspan>
+  </text>
+  <text x="910" y="280" class="small" text-anchor="start">
+    <tspan x="910" y="280">Handling exposure</tspan>
+  </text>
+  <rect x="65" y="350" width="1070" height="245" rx="18" fill="#eef4f8" stroke="#587d96" stroke-width="2" />
+  <text x="90" y="392" class="label" text-anchor="start">
+    <tspan x="90" y="392">Management controls</tspan>
+  </text>
+  <rect x="100" y="440" width="470" height="52" rx="12" fill="#ffffff" stroke="#587d96" />
+  <circle cx="126" cy="466" r="20" fill="#176b87" />
+  <text x="126" y="472" class="label white" text-anchor="middle">
+    <tspan x="126" y="472">1</tspan>
+  </text>
+  <text x="160" y="471" class="body" text-anchor="start">
+    <tspan x="160" y="471">Approve packaging against transport lanes</tspan>
+  </text>
+  <rect x="620" y="440" width="470" height="52" rx="12" fill="#ffffff" stroke="#587d96" />
+  <circle cx="646" cy="466" r="20" fill="#2a9d8f" />
+  <text x="646" y="472" class="label white" text-anchor="middle">
+    <tspan x="646" y="472">2</tspan>
+  </text>
+  <text x="680" y="471" class="body" text-anchor="start">
+    <tspan x="680" y="471">Validate material availability and source</tspan>
+    <tspan x="680" y="494">depth</tspan>
+  </text>
+  <rect x="100" y="512" width="470" height="52" rx="12" fill="#ffffff" stroke="#587d96" />
+  <circle cx="126" cy="538" r="20" fill="#e9b949" />
+  <text x="126" y="544" class="label white" text-anchor="middle">
+    <tspan x="126" y="544">3</tspan>
+  </text>
+  <text x="160" y="543" class="body" text-anchor="start">
+    <tspan x="160" y="543">Test postponement and inventory placement</tspan>
+  </text>
+  <rect x="620" y="512" width="470" height="52" rx="12" fill="#ffffff" stroke="#587d96" />
+  <circle cx="646" cy="538" r="20" fill="#e76f51" />
+  <text x="646" y="544" class="label white" text-anchor="middle">
+    <tspan x="646" y="544">4</tspan>
+  </text>
+  <text x="680" y="543" class="body" text-anchor="start">
+    <tspan x="680" y="543">Record owners for unresolved trade-offs</tspan>
+  </text>
+</svg>

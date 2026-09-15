@@ -16,11 +16,11 @@ Sustainable design considers materials, energy, safety, durability, repair, pack
 
 Recovery is rarely economical when disassembly, identification, testing, ownership, and return incentives are added after launch.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Circular and Sustainable Design decision workflow](../../assets/diagrams/module-3/section-c/09-circular-and-sustainable-design-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

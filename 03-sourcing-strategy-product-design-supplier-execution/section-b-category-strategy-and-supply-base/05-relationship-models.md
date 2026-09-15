@@ -16,11 +16,11 @@ Supplier relationships range from efficient transactions to preferred arrangemen
 
 Over-collaborating with routine suppliers wastes effort; under-collaborating with strategic suppliers leaves design, capacity, risk, and innovation unmanaged.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Supplier Relationship Models decision workflow](../../assets/diagrams/module-3/section-b/05-relationship-models-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

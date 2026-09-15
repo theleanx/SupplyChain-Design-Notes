@@ -16,11 +16,11 @@ Order tracking maintains shared status from acknowledgement through receipt and 
 
 Uncontrolled expediting raises freight and production cost, disrupts other customers, hides planning problems, and rewards the loudest request.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Order Tracking, Exceptions, and Expediting decision workflow](../../assets/diagrams/module-3/section-d/11-order-tracking-exceptions-and-expediting-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|
