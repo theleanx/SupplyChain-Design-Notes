@@ -2,12 +2,14 @@
 
 Significant public improvements to this repository are recorded here.
 
-## Unreleased — Module 3
+## Version 3.0.0 — Module 3
+
+Released: 2026-09-15
 
 ### Learning content
 
 - Added four connected sections covering sourcing alignment and total cost, category and supply-base strategy, product-design influence, and supplier selection through procure-to-pay execution.
-- Added 50 Module 3 Markdown files, ten original SVG diagrams, repository-native process flows, eight fictional CSV datasets, and 82 standardized knowledge checks.
+- Added 50 Module 3 Markdown files, 35 render-tested SVG decision workflows, eight fictional CSV datasets, and 82 standardized knowledge checks.
 - Added the Rivermark integrated sourcing-and-design capstone and solution guide.
 - Added a sourcing and procurement formula sheet covering total cost, landed cost, expected risk, weighted scoring, concentration, payment discounts, price variance, delivery, and quality.
 
@@ -16,6 +18,7 @@ Significant public improvements to this repository are recorded here.
 - Extended root navigation, glossary, learning paths, asset guidance, and roadmap across three modules.
 - Kept private source-working files and source-identifying metadata outside the repository.
 - Added explicit assumptions, legal and financial disclaimers, mandatory-gate logic, and scenario-based treatment of uncertainty.
+- Replaced browser-dependent diagrams with explicitly wrapped SVGs, reviewed them at normal and narrow widths, removed repeated stock guidance, and added automated Module 3 content-quality safeguards.
 
 ## Version 2.0.0 — Module 2
 
