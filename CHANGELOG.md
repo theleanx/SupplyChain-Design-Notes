@@ -2,6 +2,18 @@
 
 Significant public improvements to this repository are recorded here.
 
+## Version 3.0.1 — Module 3 visual-quality correction
+
+Released: 2026-09-15
+
+### Visual and editorial quality
+
+- Replaced the single repeated Module 3 workflow template with 35 topic-specific decision visuals using matrices, stage gates, cost structures, comparison views, control loops, scorecards, and execution flows.
+- Raster-reviewed every Module 3 SVG at 1160×696 and 448×269 with no clipped or overlapping labels.
+- Corrected a malformed duplicated sentence in the landed-cost lesson and aligned Module 3 overview language with the redesigned visuals.
+- Added a reproducible Module 3 visual generator and an automated diversity safeguard that rejects a return to one generic visual template.
+- Corrected repository inventory totals to 158 module Markdown files and 80 SVG diagrams.
+
 ## Version 3.0.0 — Module 3
 
 Released: 2026-09-15
@@ -9,7 +21,7 @@ Released: 2026-09-15
 ### Learning content
 
 - Added four connected sections covering sourcing alignment and total cost, category and supply-base strategy, product-design influence, and supplier selection through procure-to-pay execution.
-- Added 50 Module 3 Markdown files, 35 render-tested SVG decision workflows, eight fictional CSV datasets, and 82 standardized knowledge checks.
+- Added 47 Module 3 Markdown files, 35 render-tested SVG decision visuals, eight fictional CSV datasets, and 82 standardized knowledge checks.
 - Added the Rivermark integrated sourcing-and-design capstone and solution guide.
 - Added a sourcing and procurement formula sheet covering total cost, landed cost, expected risk, weighted scoring, concentration, payment discounts, price variance, delivery, and quality.
 

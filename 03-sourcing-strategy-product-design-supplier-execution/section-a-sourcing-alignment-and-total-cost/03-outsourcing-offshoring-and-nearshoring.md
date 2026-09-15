@@ -16,11 +16,11 @@ Outsourcing changes who performs work; offshoring changes the country in which w
 
 Confusing ownership with geography hides the real decision. A company can own an offshore facility, outsource domestically, or combine external ownership with a distant location—each with different control and risk.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Outsourcing, Offshoring, and Nearshoring decision workflow](../../assets/diagrams/module-3/section-a/03-outsourcing-offshoring-and-nearshoring-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

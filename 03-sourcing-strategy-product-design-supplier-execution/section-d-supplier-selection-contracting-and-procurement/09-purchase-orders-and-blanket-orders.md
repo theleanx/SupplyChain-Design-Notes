@@ -16,11 +16,11 @@ A purchase order authorizes a defined purchase and communicates item, quantity, 
 
 Blanket structures reduce repeated transaction effort but create risks when forecasts, minimums, pricing, expiry, and release authority are unclear.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Purchase Orders and Blanket Arrangements decision workflow](../../assets/diagrams/module-3/section-d/09-purchase-orders-and-blanket-orders-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

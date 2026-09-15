@@ -16,11 +16,11 @@ Contract deployment loads the agreement into processes, systems, roles, catalogs
 
 Savings and protections remain theoretical when buyers order outside the agreement, price tables are wrong, rebates are missed, or service measures are not collected.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Contract Deployment and Compliance decision workflow](../../assets/diagrams/module-3/section-d/05-contract-deployment-and-compliance-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

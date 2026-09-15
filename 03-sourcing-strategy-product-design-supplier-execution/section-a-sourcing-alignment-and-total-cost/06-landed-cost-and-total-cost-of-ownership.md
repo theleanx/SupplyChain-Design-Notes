@@ -16,11 +16,11 @@ Purchase price is the quoted item amount. Landed cost adds the cost to place the
 
 A distant source may win on price and lose after freight, duty, longer pipeline inventory, defects, engineering support, and disruption exposure are included.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Landed Cost and Total Cost of Ownership decision workflow](../../assets/diagrams/module-3/section-a/06-landed-cost-and-total-cost-of-ownership-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|
@@ -35,8 +35,6 @@ A distant source may win on price and lose after freight, duty, longer pipeline 
 A Rivermark control board costs $74 locally and $61 from a distant supplier. After freight, duty, 42 extra inventory days, expected defect cost, travel, and continuity controls, the annualized total is $79.20 locally versus $82.60 distantly.
 
 **Decision insight.** The $21 quote advantage disappears after the options are compared at the same destination, service level, quality expectation, and continuity design.
-
-All names1 quote advantage disappears after the options are compared at the same destination, service level, quality expectation, and continuity design.
 
 All names and values in this example are fictional and independently selected for learning purposes.
 

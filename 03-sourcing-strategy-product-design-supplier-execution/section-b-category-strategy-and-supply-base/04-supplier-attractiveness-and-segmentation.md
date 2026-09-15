@@ -16,11 +16,11 @@ Supplier segmentation asks both how much the buyer needs the supplier and how at
 
 A buyer may label a supplier strategic while remaining a minor, difficult, or unprofitable account. The desired relationship must match mutual incentives.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Supplier Attractiveness and Segmentation decision workflow](../../assets/diagrams/module-3/section-b/04-supplier-attractiveness-and-segmentation-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

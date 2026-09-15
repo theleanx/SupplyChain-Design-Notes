@@ -16,11 +16,11 @@ Contract form allocates cost and performance uncertainty. Fixed-price structures
 
 Pushing risk to a party unable to control it usually returns as price, disputes, poor quality, or supplier failure.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Contract Types and Risk Allocation decision workflow](../../assets/diagrams/module-3/section-d/06-contract-types-and-risk-allocation-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

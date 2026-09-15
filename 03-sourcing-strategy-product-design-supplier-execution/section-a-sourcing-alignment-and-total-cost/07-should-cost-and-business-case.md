@@ -16,11 +16,11 @@ A should-cost model estimates what an efficient supplier would reasonably incur 
 
 Supplier quotations may hide the economics of material yield, labor content, cycle time, overhead, logistics, and margin. A driver-based model shows where collaboration can create real value.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Should-Cost and the Sourcing Business Case decision workflow](../../assets/diagrams/module-3/section-a/07-should-cost-and-business-case-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

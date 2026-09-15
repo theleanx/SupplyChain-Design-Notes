@@ -16,11 +16,11 @@ Terms define price, scope, delivery, quality, ownership, data, confidentiality, 
 
 Ambiguous terms create different operating assumptions. Poor incentives optimize one measure while damaging another.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Terms, Service Levels, and Incentives decision workflow](../../assets/diagrams/module-3/section-d/07-terms-slas-and-incentives-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

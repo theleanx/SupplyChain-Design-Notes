@@ -16,11 +16,11 @@ Payment terms allocate timing and counterparty risk. Documentary instruments can
 
 A favorable item price can be offset by financing cost, documentation failure, delayed cash, bank fees, or currency movement.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Payment, Trade Finance, and Currency Exposure decision workflow](../../assets/diagrams/module-3/section-d/08-payment-trade-finance-and-currency-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

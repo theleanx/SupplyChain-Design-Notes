@@ -16,11 +16,11 @@ A category groups related external spend that can be managed through a common ma
 
 Poor categories split leverage, combine unrelated markets, and hide ownership. Useful categories allow common demand forecasting, market research, supplier strategy, and performance review.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Category Architecture and Strategy decision workflow](../../assets/diagrams/module-3/section-b/02-category-architecture-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

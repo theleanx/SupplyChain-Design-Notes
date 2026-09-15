@@ -16,11 +16,11 @@ Supplier evaluation combines mandatory gates with weighted criteria such as tota
 
 A numerical score is useful only when criteria are defined, evidence is comparable, and weighting reflects the category strategy.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Supplier Criteria and Weighted Evaluation decision workflow](../../assets/diagrams/module-3/section-d/02-supplier-criteria-and-scorecards-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

@@ -16,11 +16,11 @@ The riskiest period in a sourcing change is often the transfer itself. Drawings,
 
 A financially attractive steady state can fail because the transition plan omits qualification time, duplicate capacity, inventory buffers, regulatory approvals, or knowledge transfer.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Transition Risk and Knowledge Retention decision workflow](../../assets/diagrams/module-3/section-a/04-transition-risk-and-knowledge-retention-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

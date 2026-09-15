@@ -16,11 +16,11 @@ Design quality chooses the characteristics customers need; conformance quality d
 
 A defect-free product can still disappoint if the design solves the wrong problem. Conversely, a valuable design fails when production cannot reproduce it.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Quality, Customer Translation, and Robust Design decision workflow](../../assets/diagrams/module-3/section-c/07-quality-qfd-and-robust-design-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

@@ -1,1 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc"><title id="title">Should-Cost and the Sourcing Business Case decision workflow</title><desc id="desc">Five-stage decision workflow with explicitly wrapped labels for reliable display.</desc><defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f4f8fc"/><stop offset="1" stop-color="#eef4f8"/></linearGradient><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#3e6078"/></marker></defs><style>text{font-family:Arial,Helvetica,sans-serif}.heading{font-size:30px;font-weight:700;fill:#102a43}.sub{font-size:16px;fill:#486581}.label{font-size:20px;font-weight:700;fill:#102a43}.num{font-size:19px;font-weight:700;fill:#fff}g rect{fill:#fff;stroke:#587d96;stroke-width:2}g circle{fill:#176b87}path{fill:none;stroke:#3e6078;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}</style><rect width="1200" height="620" rx="24" fill="url(#bg)"/><text class="heading" x="60" y="60">Should-Cost and the Sourcing Business Case</text><text class="sub" x="60" y="92">Decision workflow • follow the numbered sequence and retain the evidence from each stage</text><path d="M360 205 H425"/><path d="M740 205 H805"/><path d="M970 280 V330 Q970 350 950 350 H800 Q780 350 780 370"/><path d="M630 465 H565"/><g><rect x="60" y="130" width="300" height="150" rx="18"/><circle cx="94" cy="164" r="20"/><text class="num" x="94" y="171" text-anchor="middle">1</text><text class="label" text-anchor="middle"><tspan x="210" y="173">Define process and</tspan><tspan x="210" y="203">bill-of-material</tspan><tspan x="210" y="233">assumptions</tspan></text></g><g><rect x="440" y="130" width="300" height="150" rx="18"/><circle cx="474" cy="164" r="20"/><text class="num" x="474" y="171" text-anchor="middle">2</text><text class="label" text-anchor="middle"><tspan x="590" y="173">Estimate material,</tspan><tspan x="590" y="203">conversion, overhead,</tspan><tspan x="590" y="233">logistics, and margin</tspan></text></g><g><rect x="820" y="130" width="300" height="150" rx="18"/><circle cx="854" cy="164" r="20"/><text class="num" x="854" y="171" text-anchor="middle">3</text><text class="label" text-anchor="middle"><tspan x="970" y="188">Validate with market</tspan><tspan x="970" y="218">evidence</tspan></text></g><g><rect x="630" y="390" width="300" height="150" rx="18"/><circle cx="664" cy="424" r="20"/><text class="num" x="664" y="431" text-anchor="middle">4</text><text class="label" text-anchor="middle"><tspan x="780" y="463">Test sensitivities</tspan></text></g><g><rect x="250" y="390" width="300" height="150" rx="18"/><circle cx="284" cy="424" r="20"/><text class="num" x="284" y="431" text-anchor="middle">5</text><text class="label" text-anchor="middle"><tspan x="400" y="448">Convert findings into</tspan><tspan x="400" y="478">options and commitments</tspan></text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Should-Cost and Business-Case Bridge</title>
+  <desc id="desc">Reconcile technical cost drivers with risk-adjusted commercial value.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7fafc" />
+      <stop offset="1" stop-color="#eaf3f7" />
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#486581" />
+    </marker>
+  </defs>
+  <style>text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102a43}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.4px;fill:#176b87}.subtitle{font-size:16px;fill:#486581}.label{font-size:19px;font-weight:700;fill:#102a43}.barlabel{font-size:15px;font-weight:700;fill:#fff}.body{font-size:16px;fill:#243b53}.small{font-size:14px;fill:#486581}.metric{font-size:24px;font-weight:700;fill:#176b87}.white{fill:#fff}.line{fill:none;stroke:#587d96;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.arrow{fill:none;stroke:#486581;stroke-width:3;stroke-linecap:round;marker-end:url(#arrow)}</style>
+  <rect width="1200" height="720" rx="24" fill="url(#bg)" />
+  <text x="60" y="43" class="eyebrow" text-anchor="start">
+    <tspan x="60" y="43">TRANSPARENT COST BRIDGE</tspan>
+  </text>
+  <text x="60" y="80" class="title" text-anchor="start">
+    <tspan x="60" y="80">Should-Cost and Business-Case Bridge</tspan>
+  </text>
+  <text x="60" y="109" class="subtitle" text-anchor="start">
+    <tspan x="60" y="109">Reconcile technical cost drivers with risk-adjusted commercial value.</tspan>
+  </text>
+  <rect x="110" y="428.0" width="125" height="152.0" rx="6" fill="#2a9d8f" />
+  <text x="172.5" y="416.0" class="label" text-anchor="middle">
+    <tspan x="172.5" y="416.0">+38</tspan>
+  </text>
+  <text x="172.5" y="615" class="small" text-anchor="middle">
+    <tspan x="172.5" y="615">Material</tspan>
+  </text>
+  <line x1="235" y1="428.0" x2="263" y2="428.0" stroke="#587d96" stroke-width="2" stroke-dasharray="5 5" />
+  <rect x="263" y="348.0" width="125" height="80.0" rx="6" fill="#2a9d8f" />
+  <text x="325.5" y="336.0" class="label" text-anchor="middle">
+    <tspan x="325.5" y="336.0">+20</tspan>
+  </text>
+  <text x="325.5" y="615" class="small" text-anchor="middle">
+    <tspan x="325.5" y="615">Conversion</tspan>
+  </text>
+  <line x1="388" y1="348.0" x2="416" y2="348.0" stroke="#587d96" stroke-width="2" stroke-dasharray="5 5" />
+  <rect x="416" y="300.0" width="125" height="48.0" rx="6" fill="#2a9d8f" />
+  <text x="478.5" y="288.0" class="label" text-anchor="middle">
+    <tspan x="478.5" y="288.0">+12</tspan>
+  </text>
+  <text x="478.5" y="615" class="small" text-anchor="middle">
+    <tspan x="478.5" y="615">Overhead</tspan>
+  </text>
+  <line x1="541" y1="300.0" x2="569" y2="300.0" stroke="#587d96" stroke-width="2" stroke-dasharray="5 5" />
+  <rect x="569" y="268.0" width="125" height="32.0" rx="6" fill="#2a9d8f" />
+  <text x="631.5" y="256.0" class="label" text-anchor="middle">
+    <tspan x="631.5" y="256.0">+8</tspan>
+  </text>
+  <text x="631.5" y="615" class="small" text-anchor="middle">
+    <tspan x="631.5" y="615">Logistics</tspan>
+  </text>
+  <line x1="694" y1="268.0" x2="722" y2="268.0" stroke="#587d96" stroke-width="2" stroke-dasharray="5 5" />
+  <rect x="722" y="244.0" width="125" height="24.0" rx="6" fill="#2a9d8f" />
+  <text x="784.5" y="232.0" class="label" text-anchor="middle">
+    <tspan x="784.5" y="232.0">+6</tspan>
+  </text>
+  <text x="784.5" y="615" class="small" text-anchor="middle">
+    <tspan x="784.5" y="615">Risk</tspan>
+  </text>
+  <line x1="847" y1="244.0" x2="875" y2="244.0" stroke="#587d96" stroke-width="2" stroke-dasharray="5 5" />
+  <rect x="875" y="244.0" width="125" height="20.0" rx="6" fill="#e76f51" />
+  <text x="937.5" y="232.0" class="label" text-anchor="middle">
+    <tspan x="937.5" y="232.0">-5</tspan>
+  </text>
+  <text x="937.5" y="615" class="small" text-anchor="middle">
+    <tspan x="937.5" y="615">Productivity</tspan>
+  </text>
+  <rect x="1028" y="264.0" width="125" height="316.0" rx="6" fill="#176b87" />
+  <text x="1090.5" y="252.0" class="metric" text-anchor="middle">
+    <tspan x="1090.5" y="252.0">79</tspan>
+  </text>
+  <text x="1090.5" y="615" class="small" text-anchor="middle">
+    <tspan x="1090.5" y="615">Should cost</tspan>
+  </text>
+  <text x="80" y="160" class="label" text-anchor="start">
+    <tspan x="80" y="160">Should-cost bridge</tspan>
+  </text>
+  <text x="80" y="190" class="body" text-anchor="start">
+    <tspan x="80" y="190">Build from transparent cost drivers; negotiate the</tspan>
+    <tspan x="80" y="213">assumptions, not only the final price.</tspan>
+  </text>
+</svg>

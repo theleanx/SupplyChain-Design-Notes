@@ -16,11 +16,11 @@ Strategic sourcing converts expected demand, customer promises, product requirem
 
 A low purchase price cannot compensate for a source that misses the required volume, timing, quality, or resilience. Starting with demand prevents the sourcing team from optimizing a specification that no longer supports the market.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Strategic Sourcing from Demand decision workflow](../../assets/diagrams/module-3/section-a/01-strategic-sourcing-from-demand-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

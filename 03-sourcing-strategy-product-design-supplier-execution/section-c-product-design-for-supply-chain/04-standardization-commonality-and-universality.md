@@ -16,11 +16,11 @@ Standardization establishes common specifications. Component commonality uses on
 
 Fewer unique items increase volume leverage, forecast pooling, interchangeability, learning, and service availability while reducing setup, inventory, and error.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Standardization, Commonality, and Universality decision workflow](../../assets/diagrams/module-3/section-c/04-standardization-commonality-and-universality-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

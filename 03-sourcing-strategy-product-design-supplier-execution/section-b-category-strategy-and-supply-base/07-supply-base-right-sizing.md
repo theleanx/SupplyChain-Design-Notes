@@ -16,11 +16,11 @@ Right-sizing seeks the supplier base that best supports cost, capacity, innovati
 
 Fewer suppliers can reduce transaction cost and increase leverage, but excessive consolidation creates capacity, bargaining, geographic, and recovery risk.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Supply-Base Right-Sizing decision workflow](../../assets/diagrams/module-3/section-b/07-supply-base-right-sizing-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

@@ -16,11 +16,11 @@ A make-or-buy decision chooses where a capability should reside. The decision co
 
 Outsourcing a strategically differentiating capability can erase learning and increase dependence. Keeping a non-differentiating activity inside can consume capital and management attention better used elsewhere.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Make-or-Buy and Core Capability decision workflow](../../assets/diagrams/module-3/section-a/02-make-buy-and-core-capability-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|

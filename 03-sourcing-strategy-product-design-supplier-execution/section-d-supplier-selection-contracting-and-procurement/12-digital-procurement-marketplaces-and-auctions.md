@@ -16,11 +16,11 @@ Digital procurement can automate catalogs, approvals, sourcing events, orders, a
 
 Technology reduces search and transaction cost, but it can also amplify poor specifications, fragmented data, security exposure, and price-only behavior.
 
-## Decision workflow
+## Decision model and workflow
 
 ![Digital Procurement, Marketplaces, and Auctions decision workflow](../../assets/diagrams/module-3/section-d/12-digital-procurement-marketplaces-and-auctions-workflow.svg)
 
-### Evidence retained at each stage
+### Evidence retained through the workflow
 
 | Stage | Required evidence or output |
 |---|---|
