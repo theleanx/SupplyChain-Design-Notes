@@ -30,6 +30,19 @@ Poor categories split leverage, combine unrelated markets, and hide ownership. U
 | **4. Assign an accountable owner** | Named category owner with cross-functional contributors and decision authority |
 | **5. Write the category strategy** | Category strategy stating baseline, objectives, levers, risks, actions, and measures |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Collect spend and demand records"] --> B["Normalize suppliers, units, and currency"]
+    B --> C["Build category hierarchy"]
+    C --> D["Assign business and technical owners"]
+    D --> E["Test whether each category is actionable"]
+    E --> F{"Stable decision boundary?"}
+    F -->|No| C
+    F -->|Yes| G["Launch category strategy"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark separates electronic controls from electrical commodities. Control boards, firmware-related services, and test fixtures share a constrained technical market; wire and standard connectors follow a broader competitive market.
@@ -37,6 +50,12 @@ Rivermark separates electronic controls from electrical commodities. Control boa
 **Decision insight.** Separating control electronics from electrical commodities prevents a high-leverage cable strategy from obscuring constrained firmware and test dependencies.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — category boundary test
+
+A category is useful when its demand shares meaningful cost drivers, supplier markets, specifications, and decision owners. Test each proposed node against those four dimensions. If two items have different qualification rules or supply markets, do not combine them merely because accounting assigned the same commodity code.
+
+Document a category charter with inclusions, exclusions, parent-child hierarchy, spend owner, technical owner, geography, and refresh rule. Reconcile supplier legal entities to parent groups before measuring concentration. The [category-spend dataset](../../assets/data/module-3/section-b/category-spend.csv) illustrates why: 41 supplier records for electronic controls become 29 legal suppliers and 24 parent groups, three materially different measures of source breadth.
 
 ## Decision logic
 
@@ -97,8 +116,9 @@ If one strategy cannot sensibly apply to the grouped spend, the category boundar
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section B overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Category-spend dataset](../../assets/data/module-3/section-b/category-spend.csv)
+- [Spend Analysis and Supply-Market Intelligence](./06-spend-analysis-and-market-intelligence.md)
 
 ---
 

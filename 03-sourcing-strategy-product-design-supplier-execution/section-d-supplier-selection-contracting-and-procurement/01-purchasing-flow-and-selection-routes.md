@@ -30,6 +30,20 @@ A clear flow prevents unauthorized commitments, incomparable bids, conflicts of 
 | **4. Evaluate evidence and risk** | Cross-functional evaluation record covering gates, weighted value, risk, references, and site evidence |
 | **5. Negotiate, award, onboard, and measure** | Negotiated award, approvals, onboarding plan, master data, controls, and performance baseline |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Approve need and measurable specification"] --> B{"Which route fits market and scope?"}
+    B -->|RFQ| C["Comparable price competition"]
+    B -->|RFP| D["Evaluate solution and commercial response"]
+    B -->|Direct| E["Document exception and negotiation plan"]
+    C --> F["Qualify and evaluate suppliers"]
+    D --> F
+    E --> F
+    F --> G["Approve award, contract, and PO"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark uses a proposal process for compressor assemblies because design support and capacity planning matter. It uses a quotation process for standard fasteners after suppliers pass quality and cybersecurity requirements.
@@ -37,6 +51,12 @@ Rivermark uses a proposal process for compressor assemblies because design suppo
 **Decision insight.** The route differs because compressors require solution capability and collaboration evidence, while qualified standard fasteners can be compared consistently by quotation.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — sourcing-route record
+
+Before release, document why the route fits the requirement. Use an RFQ when scope and comparison units are stable; use an RFP when solution design and non-price value matter; use direct negotiation when a justified constraint prevents meaningful competition. Record any exception approval.
+
+The route record should include qualified market depth, specification maturity, evaluation method, confidentiality, communication rules, conflict checks, approval authority, and timetable. Keep qualification gates ahead of weighted ranking. After award, preserve the bid baseline, approvals, negotiated changes, contract, and supplier-notification evidence so the purchase order executes the approved decision.
 
 ## Decision logic
 
@@ -97,8 +117,9 @@ Write the evaluation model before the request goes out. That is the best defense
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section D overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Sourcing Requirements and Timing](../section-a-sourcing-alignment-and-total-cost/05-sourcing-requirements-and-timing.md)
+- [Competitive Bidding and Direct Negotiation](./03-competitive-bidding-and-direct-negotiation.md)
 
 ---
 

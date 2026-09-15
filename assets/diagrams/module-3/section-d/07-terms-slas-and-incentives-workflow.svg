@@ -23,44 +23,44 @@
   </text>
   <rect x="65" y="165" width="245" height="145" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
   <text x="85" y="207" class="metric" text-anchor="start">
-    <tspan x="85" y="207">98.5%</tspan>
+    <tspan x="85" y="207">≥98%</tspan>
   </text>
   <text x="85" y="239" class="label" text-anchor="start">
-    <tspan x="85" y="239">On-time service</tspan>
+    <tspan x="85" y="239">Delivery reliability</tspan>
   </text>
   <text x="85" y="280" class="small" text-anchor="start">
-    <tspan x="85" y="280">Window and exclusions</tspan>
-    <tspan x="85" y="303">defined</tspan>
+    <tspan x="85" y="280">Receipt vs confirmed date</tspan>
   </text>
   <rect x="340" y="165" width="245" height="145" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
   <text x="360" y="207" class="metric" text-anchor="start">
-    <tspan x="360" y="207">≤1.0%</tspan>
+    <tspan x="360" y="207">≤500</tspan>
   </text>
   <text x="360" y="239" class="label" text-anchor="start">
-    <tspan x="360" y="239">Defect rate</tspan>
+    <tspan x="360" y="239">Incoming PPM</tspan>
   </text>
   <text x="360" y="280" class="small" text-anchor="start">
-    <tspan x="360" y="280">Lot and sampling defined</tspan>
+    <tspan x="360" y="280">Accepted quantity and</tspan>
+    <tspan x="360" y="303">defects</tspan>
   </text>
   <rect x="615" y="165" width="245" height="145" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
   <text x="635" y="207" class="metric" text-anchor="start">
-    <tspan x="635" y="207">24 h</tspan>
+    <tspan x="635" y="207">Day 5</tspan>
   </text>
   <text x="635" y="239" class="label" text-anchor="start">
-    <tspan x="635" y="239">Recovery response</tspan>
+    <tspan x="635" y="239">Forecast exchange</tspan>
   </text>
   <text x="635" y="280" class="small" text-anchor="start">
-    <tspan x="635" y="280">Clock and severity defined</tspan>
+    <tspan x="635" y="280">Portal transmission log</tspan>
   </text>
   <rect x="890" y="165" width="245" height="145" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
   <text x="910" y="207" class="metric" text-anchor="start">
     <tspan x="910" y="207">Quarterly</tspan>
   </text>
   <text x="910" y="239" class="label" text-anchor="start">
-    <tspan x="910" y="239">Gainshare</tspan>
+    <tspan x="910" y="239">Rebate review</tspan>
   </text>
   <text x="910" y="280" class="small" text-anchor="start">
-    <tspan x="910" y="280">Baseline and cap defined</tspan>
+    <tspan x="910" y="280">Eligible spend reconciled</tspan>
   </text>
   <rect x="65" y="350" width="1070" height="245" rx="18" fill="#eef4f8" stroke="#587d96" stroke-width="2" />
   <text x="90" y="392" class="label" text-anchor="start">

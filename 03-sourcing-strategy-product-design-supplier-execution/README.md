@@ -34,6 +34,8 @@ After completing this module, you should be able to:
 
 ## How each lesson is structured
 
-Every topic moves from a plain-language concept to a topic-appropriate decision model and implementation workflow, the evidence needed to apply it, a fictional operating example, topic-specific trade-offs, failure patterns, and an answer-with-rationale knowledge check. The 35 SVG visuals use matrices, stage gates, cost structures, comparison views, control loops, scorecards, and execution flows with explicit multiline text so their labels remain visible when GitHub scales the page.
+Every topic moves from a plain-language concept to a topic-appropriate decision model, evidence requirements, a separate end-to-end process flow, a fictional operating example, and a practitioner-ready artifact or worked calculation. Each lesson then tests decision logic through topic-specific trade-offs, failure patterns, related concepts, and an answer-with-rationale knowledge check.
+
+The 35 SVG decision visuals use matrices, stage gates, cost structures, comparison views, control loops, scorecards, and execution flows with explicit multiline text so their labels remain visible when GitHub scales the page. The 35 repository-native Mermaid flows show the operational sequence and decision branches separately from those conceptual visuals. Ten linked datasets make quantitative examples and the integrated capstone reproducible.
 
 Every example, dataset, diagram, and knowledge check is fictional and independently created for this repository. Contracting and trade-finance discussions are educational and are not legal or financial advice.

@@ -30,6 +30,19 @@ Blanket structures reduce repeated transaction effort but create risks when fore
 | **4. Control changes and commitments** | Authorized change record covering commercial, schedule, design, and quantity effects |
 | **5. Close after receipt, acceptance, and settlement** | Closure after receipt, acceptance, invoice resolution, commitment release, and record retention |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Confirm demand pattern and commitment authority"] --> B{"Recurring demand under stable terms?"}
+    B -->|No| C["Issue standard purchase order"]
+    B -->|Yes| D["Create blanket arrangement with ceiling and period"]
+    D --> E["Release quantities and dates"]
+    C --> F["Supplier acknowledgment"]
+    E --> F
+    F --> G["Receive, match, close, and monitor expiry"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark uses a twelve-month blanket arrangement for common filters with monthly releases. It sets forecast ranges, no automatic volume guarantee beyond firm releases, price breaks, lead time, and an exit path for repeated failure.
@@ -37,6 +50,12 @@ Rivermark uses a twelve-month blanket arrangement for common filters with monthl
 **Decision insight.** The blanket arrangement reduces transaction effort without silently converting forecasts into guaranteed volume or allowing uncontrolled releases.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — order-control checklist
+
+Use a standard PO for a discrete authorized quantity and date. Use a blanket arrangement only when recurring demand, stable commercial terms, a defined period, and controlled release behavior justify it. State whether forecasts are informational or binding.
+
+For both instruments, control supplier, item or service, specification revision, quantity, price and currency, delivery location, Incoterm, tax, payment, contract reference, approval, and acknowledgment. A blanket order also needs a monetary or quantity ceiling, release authority, consumption report, remaining balance, and expiry rule. Review open commitments before renewal so unissued forecasts are not mistaken for contractual volume.
 
 ## Decision logic
 
@@ -97,8 +116,9 @@ Make firm, planned, and forecast horizons visually distinct in every supplier sc
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section D overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Purchasing Flow and Selection Routes](./01-purchasing-flow-and-selection-routes.md)
+- [Receiving and Three-Way Match](./10-receiving-and-three-way-match.md)
 
 ---
 

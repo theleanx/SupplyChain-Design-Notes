@@ -30,6 +30,19 @@ Uncontrolled expediting raises freight and production cost, disrupts other custo
 | **4. Select the least-disruptive recovery** | Recovery options ranked by service protection, feasibility, collateral impact, cost, and authority |
 | **5. Record cost, cause, and prevention** | Closed-loop record of decision, premium cost, cause, accountability, and preventive action |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Receive supplier commit, shipment, and forecast signals"] --> B["Compare with need date and inventory cover"]
+    B --> C["Quantify customer, production, and financial impact"]
+    C --> D{"Intervention justified?"}
+    D -->|No| E["Monitor at normal cadence"]
+    D -->|Yes| F["Recover, reallocate, expedite, or escalate"]
+    F --> G["Confirm outcome and cost"]
+    G --> H["Remove root cause"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 A late compressor threatens two customer units. Rivermark compares reallocating uncommitted inventory, partial shipment, supplier overtime, and air freight. The approved option protects the contractual priority customer and records the recovery cost against the cause.
@@ -37,6 +50,12 @@ A late compressor threatens two customer units. Rivermark compares reallocating 
 **Decision insight.** The recovery decision protects the highest contractual consequence while exposing premium cost and root cause instead of normalizing emergency work.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — exception priority board
+
+Use the [open-order exception dataset](../../assets/data/module-3/section-d/open-order-exceptions.csv) to prioritize impact, not lateness alone. The refrigerant sensor is forecast 12 days late with only two days of cover and a final-test stoppage; it requires immediate recovery. The compressor is nine days late with three days of cover and two priority units affected. The filter kit is on time with 26 days of cover and requires no action.
+
+For each intervention, record customer or production consequence, recovery option, incremental cost, authority, owner, supplier commitment, and next check. After stabilization, classify the root cause and prevention owner. Repeated premium freight without corrective action is not exception management.
 
 ## Decision logic
 
@@ -97,8 +116,9 @@ Every expedite should produce two outputs: a recovery decision now and a prevent
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section D overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Open-order exception dataset](../../assets/data/module-3/section-d/open-order-exceptions.csv)
+- [Terms, Service Levels, and Incentives](./07-terms-slas-and-incentives.md)
 
 ---
 

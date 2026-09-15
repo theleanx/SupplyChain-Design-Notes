@@ -30,6 +30,19 @@ Sequential handoffs discover unavailable materials, impractical tolerances, pack
 | **4. Evaluate alternatives concurrently** | Concurrent alternatives compared for performance, cost, risk, timing, and lifecycle effects |
 | **5. Record decisions and unresolved risks** | Decision log recording evidence, dissent, assumptions, actions, and unresolved risks |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Frame customer need and design freedom"] --> B["Select capable suppliers for input"]
+    B --> C["Compare concepts and process constraints"]
+    C --> D["Agree interfaces and evidence ownership"]
+    D --> E["Validate tooling, quality, and capacity"]
+    E --> F{"Gate evidence complete?"}
+    F -->|No| C
+    F -->|Yes| G["Industrialize and control changes"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 A Rivermark valve supplier identifies that a specified alloy creates a 22-week lead time. Engineering, quality, sourcing, and the supplier qualify an equivalent grade before prototype freeze, reducing lead time without weakening corrosion performance.
@@ -37,6 +50,12 @@ A Rivermark valve supplier identifies that a specified alloy creates a 22-week l
 **Decision insight.** Early involvement converts a 22-week constraint into a controlled material decision before tooling, validation, and launch timing make change expensive.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — early-involvement charter
+
+Invite supplier input while design alternatives still exist, but establish boundaries before sharing sensitive information. The charter should define the problem to solve, decision dates, expected technical evidence, intellectual-property ownership, confidentiality, compensation if appropriate, and how proposals will be evaluated.
+
+Ask suppliers for process capability, material availability, tolerance evidence, tooling lead time, capacity assumptions, failure modes, and alternative architectures—not merely a quotation. At each gate, record which recommendation was accepted or rejected and why. This creates traceability and prevents late supplier involvement from becoming a request to manufacture a frozen, uneconomic design.
 
 ## Decision logic
 
@@ -97,8 +116,9 @@ Invite expertise before commitment, but keep interfaces, requirements, and owner
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section C overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Supplier Relationship Models](../section-b-category-strategy-and-supply-base/05-relationship-models.md)
+- [Quality, Customer Translation, and Robust Design](./07-quality-qfd-and-robust-design.md)
 
 ---
 

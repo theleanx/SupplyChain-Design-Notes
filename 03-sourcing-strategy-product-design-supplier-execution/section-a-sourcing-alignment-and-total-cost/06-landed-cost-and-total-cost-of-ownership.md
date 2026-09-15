@@ -30,13 +30,36 @@ A distant source may win on price and lose after freight, duty, longer pipeline 
 | **4. Quantify uncertainty with scenarios** | Base, favorable, and adverse scenarios with named drivers and confidence ranges |
 | **5. Compare cost with service and risk** | Decision view separating expected cost, cash flow, service consequence, and residual risk |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Fix volume, horizon, destination, and service"] --> B["Normalize quotes and currency"]
+    B --> C["Add freight, duty, and pipeline inventory"]
+    C --> D["Add quality, control, and continuity costs"]
+    D --> E["Test favorable and adverse scenarios"]
+    E --> F["Compare cost, service, cash, and residual risk"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
-A Rivermark control board costs $74 locally and $61 from a distant supplier. After freight, duty, 42 extra inventory days, expected defect cost, travel, and continuity controls, the annualized total is $79.20 locally versus $82.60 distantly.
+A Rivermark control board costs $74 locally and $61 from a distant supplier. After freight, duty, pipeline inventory, expected defect cost, relationship management, and continuity controls, the modeled per-unit total is $79.20 locally versus $82.60 distantly.
 
-**Decision insight.** The $21 quote advantage disappears after the options are compared at the same destination, service level, quality expectation, and continuity design.
+**Decision insight.** The distant source's $13 quote advantage becomes a $3.40 total-cost disadvantage after the options are compared at the same destination, service level, quality expectation, and continuity design.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Worked decision — quote-to-total-cost bridge
+
+The [total-cost dataset](../../assets/data/module-3/section-a/total-cost-options.csv) is denominated in USD per unit. The local-source total is:
+
+`$74.00 + $1.20 + $0.00 + $0.55 + $1.35 + $1.10 + $1.00 = $79.20 per unit`
+
+The distant-source total is:
+
+`$61.00 + $4.80 + $3.10 + $3.40 + $4.20 + $3.00 + $3.10 = $82.60 per unit`
+
+The distant quote is **$13.00 lower**, yet its modeled total cost is **$3.40 higher per unit**. At 24,000 units, that total-cost disadvantage is `$3.40 × 24,000 = $81,600 per year`. Keep uncertain quality and continuity estimates visible as scenarios; do not disguise them as audited cash costs.
 
 ## Decision logic
 
@@ -97,7 +120,9 @@ Show the cost bridge from quote to landed to total. Executives can challenge ass
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section A overview](./README.md)
+- [Section overview](./README.md)
+- [Total-cost dataset](../../assets/data/module-3/section-a/total-cost-options.csv)
+- [Should-Cost and the Sourcing Business Case](./07-should-cost-and-business-case.md)
 - [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
 
 ---

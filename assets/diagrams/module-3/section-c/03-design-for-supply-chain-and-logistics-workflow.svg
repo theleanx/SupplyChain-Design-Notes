@@ -23,43 +23,43 @@
   </text>
   <rect x="65" y="165" width="245" height="145" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
   <text x="85" y="207" class="metric" text-anchor="start">
-    <tspan x="85" y="207">−18%</tspan>
+    <tspan x="85" y="207">+33.3%</tspan>
   </text>
   <text x="85" y="239" class="label" text-anchor="start">
-    <tspan x="85" y="239">Pack cube</tspan>
+    <tspan x="85" y="239">Pallet density</tspan>
   </text>
   <text x="85" y="280" class="small" text-anchor="start">
-    <tspan x="85" y="280">Space per sellable unit</tspan>
+    <tspan x="85" y="280">6 to 8 units per pallet</tspan>
   </text>
   <rect x="340" y="165" width="245" height="145" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
   <text x="360" y="207" class="metric" text-anchor="start">
-    <tspan x="360" y="207">−12 days</tspan>
+    <tspan x="360" y="207">−26.1%</tspan>
   </text>
   <text x="360" y="239" class="label" text-anchor="start">
-    <tspan x="360" y="239">Lead time</tspan>
+    <tspan x="360" y="239">Assembly time</tspan>
   </text>
   <text x="360" y="280" class="small" text-anchor="start">
-    <tspan x="360" y="280">Supply response</tspan>
+    <tspan x="360" y="280">46 to 34 minutes</tspan>
   </text>
   <rect x="615" y="165" width="245" height="145" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
   <text x="635" y="207" class="metric" text-anchor="start">
-    <tspan x="635" y="207">+1</tspan>
+    <tspan x="635" y="207">−61.1%</tspan>
   </text>
   <text x="635" y="239" class="label" text-anchor="start">
-    <tspan x="635" y="239">Source options</tspan>
+    <tspan x="635" y="239">Service time</tspan>
   </text>
   <text x="635" y="280" class="small" text-anchor="start">
-    <tspan x="635" y="280">Qualified alternatives</tspan>
+    <tspan x="635" y="280">18 to 7 minutes</tspan>
   </text>
   <rect x="890" y="165" width="245" height="145" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
   <text x="910" y="207" class="metric" text-anchor="start">
-    <tspan x="910" y="207">−22%</tspan>
+    <tspan x="910" y="207">−27.7%</tspan>
   </text>
   <text x="910" y="239" class="label" text-anchor="start">
-    <tspan x="910" y="239">Damage</tspan>
+    <tspan x="910" y="239">Packaging cost</tspan>
   </text>
   <text x="910" y="280" class="small" text-anchor="start">
-    <tspan x="910" y="280">Handling exposure</tspan>
+    <tspan x="910" y="280">$310k to $224k</tspan>
   </text>
   <rect x="65" y="350" width="1070" height="245" rx="18" fill="#eef4f8" stroke="#587d96" stroke-width="2" />
   <text x="90" y="392" class="label" text-anchor="start">

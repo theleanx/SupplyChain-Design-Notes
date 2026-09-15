@@ -30,6 +30,18 @@ Treating every category alike wastes scarce management capacity. Routine spend s
 | **4. Place the category** | Portfolio placement with boundary cases and uncertainty made visible |
 | **5. Select and review the strategy** | Category action plan matched to the quadrant and reviewed after material changes |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Define business-impact scale"] --> B["Define supply-risk scale"]
+    B --> C["Score categories with evidence"]
+    C --> D["Place category in portfolio"]
+    D --> E["Select quadrant-specific action"]
+    E --> F["Set triggers and review cadence"]
+    F --> C
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark classifies fasteners as routine, sheet metal as leverage, refrigerant sensors as bottleneck, and compressor assemblies as strategic. The actions differ: automate fasteners, compete sheet metal, secure sensors, and co-plan compressors.
@@ -37,6 +49,12 @@ Rivermark classifies fasteners as routine, sheet metal as leverage, refrigerant 
 **Decision insight.** The result prevents low spend from hiding the sensor constraint and prevents high spend alone from turning competitive sheet metal into a strategic partnership.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Worked decision — portfolio classification
+
+Apply one documented scale to the [category-portfolio dataset](../../assets/data/module-3/section-b/category-portfolio.csv). Compressor assemblies score 5 for business impact and 5 for supply risk, so they are strategic; fasteners score 1 and 1, so they are routine. The label is a starting hypothesis, not the analysis itself.
+
+For each placement, attach evidence and a response: strategic categories need joint capacity and continuity; bottlenecks need qualification or redesign; leverage categories need competitive and specification actions; routine categories need standardization and automation. Set an event trigger—such as capacity loss, regulation, sole-source status, or spend change—because a portfolio position can move before the annual refresh.
 
 ## Decision logic
 
@@ -71,7 +89,7 @@ B. Leverage
 
 C. Bottleneck
 
-D. Ignore because spend is low
+D. Routine, because low spend should override supply risk
 
 <details>
 <summary>Answer and rationale</summary>
@@ -86,7 +104,7 @@ Its financial spend is low, but supply difficulty and operational consequence de
 
 ### Why the other answers are wrong
 
-A and B understate scarcity; D confuses spend with business impact.
+A and B understate scarcity; D incorrectly lets low spend override supply difficulty and operational consequence.
 
 </details>
 
@@ -97,8 +115,9 @@ The debate behind the placement is often more valuable than the quadrant label. 
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section B overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Category-portfolio dataset](../../assets/data/module-3/section-b/category-portfolio.csv)
+- [Supply-Base Right-Sizing](./07-supply-base-right-sizing.md)
 
 ---
 

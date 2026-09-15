@@ -30,6 +30,19 @@ Modularity can delay differentiation and broaden sourcing options; integral desi
 | **4. Test configuration and failure interactions** | Configuration, tolerance-stack, failure-interaction, performance, and safety test evidence |
 | **5. Govern interface changes** | Interface governance controlling versions, compatibility, deviations, and release timing |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Map functions and performance coupling"] --> B{"Independent change or replacement valuable?"}
+    B -->|Yes| C["Define modular interfaces"]
+    B -->|No| D["Evaluate integral optimization"]
+    C --> E["Validate interface, tolerance, and architecture risk"]
+    D --> E
+    E --> F["Compare lifecycle economics and conversion effort"]
+    F --> G["Release architecture and control interfaces"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark creates common compressor, control, and enclosure interfaces across three capacities. The acoustic treatment remains integral because its geometry depends on each enclosure and performance tier.
@@ -37,6 +50,12 @@ Rivermark creates common compressor, control, and enclosure interfaces across th
 **Decision insight.** Rivermark modularizes interfaces that support scale and configuration but keeps acoustics integral where geometry and performance are inseparable.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — architecture trade-off record
+
+Record the functions, physical components, interfaces, and performance couplings before choosing an architecture. For modularity, quantify variant flexibility, service replacement, supplier substitution, inventory pooling, and interface cost. For an integral design, quantify performance, size, weight, efficiency, and the consequences of coupled change.
+
+In the [design-alternatives dataset](../../assets/data/module-3/section-c/design-alternatives.csv), the modular platform has the best recurring operating measures but also the highest one-time conversion cost ($650,000) and validation risk (4 of 5). The gate decision should therefore include payback, technical evidence, change-control ownership, and a fallback—not a generic preference for modularity.
 
 ## Decision logic
 
@@ -97,8 +116,9 @@ The interface is the strategic asset. Weak interface governance turns modularity
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section C overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Design-alternatives dataset](../../assets/data/module-3/section-c/design-alternatives.csv)
+- [Simplification, DFMA, and Serviceability](./06-simplification-dfma-and-serviceability.md)
 
 ---
 

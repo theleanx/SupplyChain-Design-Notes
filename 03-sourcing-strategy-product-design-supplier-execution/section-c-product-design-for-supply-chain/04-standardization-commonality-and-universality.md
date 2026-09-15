@@ -30,6 +30,20 @@ Fewer unique items increase volume leverage, forecast pooling, interchangeabilit
 | **4. Quantify lifecycle savings and compromise** | Lifecycle business case covering scale, inventory, tooling, service, qualification, and compromise |
 | **5. Govern new-part creation** | Part-creation governance with reuse search, approval authority, ownership, and retirement rules |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Map variants, parts, and customer requirements"] --> B["Identify common functional needs"]
+    B --> C["Propose standard platform or interface"]
+    C --> D["Test cost, performance, regulatory, and market exceptions"]
+    D --> E{"Exception creates net value?"}
+    E -->|No| F["Adopt common solution"]
+    E -->|Yes| G["Approve controlled variant"]
+    F --> H["Track complexity and compliance"]
+    G --> H
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark replaces five low-voltage connectors with two keyed families and selects a universal power-input module. The change removes 14 stocked service combinations while preserving regional cable differences.
@@ -37,6 +51,14 @@ Rivermark replaces five low-voltage connectors with two keyed families and selec
 **Decision insight.** The design removes 14 service combinations without pretending regional cable and regulatory differences can be eliminated.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Worked decision — commonality baseline
+
+The [design-alternatives dataset](../../assets/data/module-3/section-c/design-alternatives.csv) reduces unique parts from 184 to 139 in the modular option:
+
+`part-count reduction = (184 − 139) ÷ 184 = 24.5%`
+
+Do not approve commonality on part count alone. Build an exception register that records customer value, regulatory need, performance impact, incremental tooling, inventory, quality controls, and an expiry or review date. Standardize interfaces and specifications where the economic benefit is repeatable; permit a variant only when its incremental lifecycle value exceeds the complexity it creates. Monitor actual unique parts, low-volume stock, changeovers, and service coverage after launch.
 
 ## Decision logic
 
@@ -97,8 +119,9 @@ Make the cost of variety visible at every new-part approval: engineering, qualif
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section C overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Design-alternatives dataset](../../assets/data/module-3/section-c/design-alternatives.csv)
+- [Postponement, Mass Customization, and Localization](./08-postponement-mass-customization-and-localization.md)
 
 ---
 

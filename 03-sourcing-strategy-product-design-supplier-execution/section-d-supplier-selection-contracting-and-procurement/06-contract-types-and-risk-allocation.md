@@ -30,6 +30,18 @@ Pushing risk to a party unable to control it usually returns as price, disputes,
 | **4. Set evidence and audit rights** | Allowable-cost, index, open-book, audit, record-retention, and approval rules |
 | **5. Test extreme outcomes** | Stress test showing incentives and exposure under favorable, expected, and extreme outcomes |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Define scope uncertainty and desired outcome"] --> B["Identify controllable cost and performance risks"]
+    B --> C["Select contract and pricing mechanism"]
+    C --> D["Allocate each risk to party able to control it"]
+    D --> E["Set ceilings, adjustments, incentives, and evidence"]
+    E --> F["Approve governance and change control"]
+    F --> G["Monitor behavior and exposure"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark uses firm pricing for standard enclosures, indexed material adjustment for copper-intensive assemblies, and a target-cost sharing model for a jointly engineered compressor redesign.
@@ -37,6 +49,12 @@ Rivermark uses firm pricing for standard enclosures, indexed material adjustment
 **Decision insight.** Each structure follows the underlying uncertainty: stable fabrication is fixed, observable copper exposure is indexed, and uncertain joint development shares target-cost outcomes.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — risk-allocation table
+
+List each material uncertainty—scope, volume, commodity, labor, productivity, design change, schedule, quality, and outcome—and identify which party can influence it and what evidence exists. Then select a mechanism: fixed price, unit rate, time and materials, cost reimbursable, indexed, incentive, or outcome based.
+
+For every allocation, state the trigger, formula, ceiling or floor, audit evidence, notice, approval, and dispute route. Transferring uncontrollable risk usually increases price or creates claims; retaining controllable supplier risk weakens accountability. Test incentives for gaming and ensure change control distinguishes legitimate scope change from performance failure.
 
 ## Decision logic
 
@@ -97,8 +115,9 @@ Draw a risk-allocation table beside the pricing model. If control and exposure s
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section D overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Principled Negotiation and BATNA](./04-principled-negotiation-and-batna.md)
+- [Terms, Service Levels, and Incentives](./07-terms-slas-and-incentives.md)
 
 ---
 

@@ -2,6 +2,30 @@
 
 Significant public improvements to this repository are recorded here.
 
+## Version 3.1.0 — Module 3 applied learning and process flows
+
+Released: 2026-09-15
+
+### Learning-design completion
+
+- Added a separate, topic-specific Mermaid process flow to all 35 Module 3 lessons while retaining the conceptual SVG decision models.
+- Added 35 practitioner-ready applied sections: decision artifacts, control records, checklists, or reproducible worked calculations matched to the topic.
+- Linked quantitative lessons directly to their source data and replaced generic related-concept blocks with topic-specific learning routes.
+- Expanded the Rivermark capstone into an end-to-end sourcing-to-procure-to-pay flow, explicit submission gates, and a fully worked solution with calculations, decisions, controls, and a 90-day implementation plan.
+- Reworked weak assessment distractors into plausible misconceptions that test decision judgment rather than answer-taking shortcuts.
+
+### Data, arithmetic, and visual consistency
+
+- Corrected the distant-board quote difference from $21 to $13 and clarified that $79.20 and $82.60 are per-unit total-cost values.
+- Added an explicit three-year make-or-buy horizon and 0% base-case discount rate, raw 1–5 supplier scores with weights, design conversion cost and validation risk, parent-level supplier shares, and three-way-match transactions.
+- Added two Module 3 datasets for concentration and invoice-control practice, increasing the repository total to 26 CSV files.
+- Aligned the landed-cost, should-cost, design-logistics, supplier-scorecard, and SLA visuals with their lesson and dataset values, then raster-reviewed all 35 Module 3 SVGs at full and narrow widths.
+
+### Quality controls
+
+- Extended automated validation to require Module 3 process flows, applied sections, direct quantitative-data links, topic-specific related concepts, calculation consistency, capstone depth, and non-trivial assessment options.
+- Added reproducible lesson-enrichment and visual-contact-sheet scripts and verified idempotent output, internal links, CSV structure, SVG accessibility, and Markdown fences.
+
 ## Version 3.0.1 — Module 3 visual-quality correction
 
 Released: 2026-09-15

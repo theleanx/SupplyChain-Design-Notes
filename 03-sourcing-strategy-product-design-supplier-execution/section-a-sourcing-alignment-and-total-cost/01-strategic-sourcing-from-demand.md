@@ -30,6 +30,19 @@ A low purchase price cannot compensate for a source that misses the required vol
 | **4. Select relationship and commercial route** | Documented sourcing route and relationship rationale |
 | **5. Contract, measure, and improve** | Contract baseline, scorecard, review cadence, and improvement backlog |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Validate demand signal"] --> B["Define requirement and service need"]
+    B --> C["Assess supply market and risk"]
+    C --> D{"Requirement contestable?"}
+    D -->|Yes| E["Select sourcing route"]
+    D -->|No| F["Redesign or justify direct source"]
+    E --> G["Contract, execute, and review"]
+    F --> G
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark expects service-part demand to grow 28% while new-equipment volume grows 9%. Treating both streams alike would understate the response-time requirement for service compressors. The sourcing brief therefore separates planned production replenishment from urgent installed-base support.
@@ -37,6 +50,12 @@ Rivermark expects service-part demand to grow 28% while new-equipment volume gro
 **Decision insight.** The resulting sourcing brief sets different inventory, capacity, and response-time rules for production and service demand instead of forcing both through one average forecast.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — demand-to-source brief
+
+Before contacting suppliers, create a one-page brief with six controlled fields: demand quantity and timing, customer/service consequence, specification maturity, incumbent constraints, supply-market capacity, and decision owner. Record the source and date for each input.
+
+Use a release gate: the event may begin only when the requirement is measurable, the forecast range is visible, and the chosen route is justified. If demand is volatile, issue scenarios rather than one false-precision volume. The artifact becomes the baseline for later bid comparison and prevents a sourcing event from optimizing a requirement that planning or engineering has already changed.
 
 ## Decision logic
 
@@ -97,8 +116,9 @@ A one-page sourcing brief with assumptions, ranges, decision rights, and success
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section A overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Sourcing Requirements and Timing](./05-sourcing-requirements-and-timing.md)
+- [Purchasing Flow and Selection Routes](../section-d-supplier-selection-contracting-and-procurement/01-purchasing-flow-and-selection-routes.md)
 
 ---
 

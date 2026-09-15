@@ -13,7 +13,7 @@
   <style>text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102a43}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.4px;fill:#176b87}.subtitle{font-size:16px;fill:#486581}.label{font-size:19px;font-weight:700;fill:#102a43}.barlabel{font-size:15px;font-weight:700;fill:#fff}.body{font-size:16px;fill:#243b53}.small{font-size:14px;fill:#486581}.metric{font-size:24px;font-weight:700;fill:#176b87}.white{fill:#fff}.line{fill:none;stroke:#587d96;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.arrow{fill:none;stroke:#486581;stroke-width:3;stroke-linecap:round;marker-end:url(#arrow)}</style>
   <rect width="1200" height="720" rx="24" fill="url(#bg)" />
   <text x="60" y="43" class="eyebrow" text-anchor="start">
-    <tspan x="60" y="43">COST EXPOSURE STACK</tspan>
+    <tspan x="60" y="43">DISTANT-SOURCE COST STACK · $82.60 PER UNIT</tspan>
   </text>
   <text x="60" y="80" class="title" text-anchor="start">
     <tspan x="60" y="80">Landed Cost and Total Cost of Ownership</tspan>
@@ -23,55 +23,53 @@
   </text>
   <rect x="330" y="170" width="480" height="68" rx="10" fill="#176b87" />
   <text x="348" y="197" class="barlabel" text-anchor="start">
-    <tspan x="348" y="197">Unit price</tspan>
+    <tspan x="348" y="197">Distant-source price</tspan>
   </text>
   <text x="835" y="209" class="metric" text-anchor="start">
-    <tspan x="835" y="209">42%</tspan>
+    <tspan x="835" y="209">$61.00</tspan>
   </text>
   <text x="915" y="209" class="small" text-anchor="start">
     <tspan x="915" y="209">Quoted purchase value</tspan>
   </text>
-  <rect x="330" y="252" width="320" height="68" rx="10" fill="#2a9d8f" />
+  <rect x="330" y="252" width="236" height="68" rx="10" fill="#2a9d8f" />
   <text x="348" y="279" class="barlabel" text-anchor="start">
-    <tspan x="348" y="279">Logistics and duties</tspan>
+    <tspan x="348" y="279">Freight and duty</tspan>
   </text>
   <text x="835" y="291" class="metric" text-anchor="start">
-    <tspan x="835" y="291">18%</tspan>
+    <tspan x="835" y="291">$7.90</tspan>
   </text>
   <text x="915" y="291" class="small" text-anchor="start">
-    <tspan x="915" y="291">Freight, handling, tariff</tspan>
+    <tspan x="915" y="291">Inbound and brokerage</tspan>
   </text>
-  <rect x="330" y="334" width="300" height="68" rx="10" fill="#e9b949" />
+  <rect x="330" y="334" width="215" height="68" rx="10" fill="#e9b949" />
   <text x="348" y="361" class="barlabel" text-anchor="start">
-    <tspan x="348" y="361">Inventory and working</tspan>
-    <tspan x="348" y="384">capital</tspan>
+    <tspan x="348" y="361">Pipeline inventory</tspan>
   </text>
   <text x="835" y="373" class="metric" text-anchor="start">
-    <tspan x="835" y="373">15%</tspan>
+    <tspan x="835" y="373">$3.40</tspan>
   </text>
   <text x="915" y="373" class="small" text-anchor="start">
-    <tspan x="915" y="373">Pipeline and buffers</tspan>
+    <tspan x="915" y="373">Longer cash exposure</tspan>
   </text>
-  <rect x="330" y="416" width="293" height="68" rx="10" fill="#e76f51" />
+  <rect x="330" y="416" width="219" height="68" rx="10" fill="#e76f51" />
   <text x="348" y="443" class="barlabel" text-anchor="start">
-    <tspan x="348" y="443">Quality and disruption</tspan>
+    <tspan x="348" y="443">Expected quality</tspan>
   </text>
   <text x="835" y="455" class="metric" text-anchor="start">
-    <tspan x="835" y="455">14%</tspan>
+    <tspan x="835" y="455">$4.20</tspan>
   </text>
   <text x="915" y="455" class="small" text-anchor="start">
-    <tspan x="915" y="455">Failure and recovery</tspan>
+    <tspan x="915" y="455">Defect consequence</tspan>
   </text>
-  <rect x="330" y="498" width="273" height="68" rx="10" fill="#486581" />
+  <rect x="330" y="498" width="228" height="68" rx="10" fill="#486581" />
   <text x="348" y="525" class="barlabel" text-anchor="start">
-    <tspan x="348" y="525">Lifecycle and exit</tspan>
+    <tspan x="348" y="525">Control and continuity</tspan>
   </text>
   <text x="835" y="537" class="metric" text-anchor="start">
-    <tspan x="835" y="537">11%</tspan>
+    <tspan x="835" y="537">$6.10</tspan>
   </text>
   <text x="915" y="537" class="small" text-anchor="start">
-    <tspan x="915" y="537">Change, disposal,</tspan>
-    <tspan x="915" y="560">switching</tspan>
+    <tspan x="915" y="537">Relationship and recovery</tspan>
   </text>
   <text x="100" y="210" class="label" text-anchor="start">
     <tspan x="100" y="210">Visible price</tspan>

@@ -6,13 +6,13 @@ Use these independently authored questions to test decision logic, not term reca
 
 **Question.** A category contains unrelated markets under one accounting code. What is the problem?
 
-A. Too much competition
+A. The accounting owner can approve one strategy for every included market
 
 B. One strategy cannot sensibly govern the grouped spend
 
-C. The category is too small
+C. Supplier records cannot be reconciled to a single legal entity
 
-D. The currency is fixed
+D. Market intelligence must be applied uniformly despite different cost drivers
 
 <details>
 <summary>Answer and rationale</summary>
@@ -27,7 +27,7 @@ Useful categories share drivers, markets, and actions.
 
 ### Why the other answers are wrong
 
-A, C, and D do not address category coherence.
+A assumes governance solves an incoherent boundary; C is a data-quality issue; D describes a consequence of forcing one strategy across unlike markets.
 
 </details>
 
@@ -66,11 +66,11 @@ A, C, and D understate consequence.
 
 A. The supplier's view of the buyer relationship
 
-B. Only historical spend
+B. The buyer's spend rank relative to the supplier's other accounts
 
-C. A product specification
+C. The supplier's technical capability score
 
-D. An invoice tolerance
+D. The supplier's share of the buyer's category
 
 <details>
 <summary>Answer and rationale</summary>
@@ -85,7 +85,7 @@ Mutual dependence shapes realistic access and collaboration.
 
 ### Why the other answers are wrong
 
-B, C, and D do not capture the supplier perspective.
+B is one input rather than the full supplier view; C and D measure capability or buyer dependency, not buyer attractiveness.
 
 </details>
 
@@ -124,11 +124,11 @@ A, C, and D need deeper governance.
 
 A. To reveal common ownership and concentration
 
-B. To inflate supplier counts
+B. To preserve site-level supplier counts for competitive leverage
 
-C. To avoid categorization
+C. To allocate each invoice to the nearest supplier facility
 
-D. To remove site data
+D. To exclude small suppliers from concentration analysis
 
 <details>
 <summary>Answer and rationale</summary>
@@ -143,7 +143,7 @@ Separate records may share one economic parent and risk.
 
 ### Why the other answers are wrong
 
-B, C, and D weaken the analysis.
+B, C, and D misuse entity reconciliation and can conceal common ownership exposure.
 
 </details>
 
@@ -153,11 +153,11 @@ B, C, and D weaken the analysis.
 
 A. Future demand and supply-market evidence
 
-B. Only prior invoices
+B. Prior invoices extrapolated at the same product mix
 
-C. The buyer's opinion
+C. The approved budget without a capacity or market check
 
-D. A random discount
+D. A supplier forecast without the buyer's demand scenarios
 
 <details>
 <summary>Answer and rationale</summary>
@@ -172,7 +172,7 @@ Strategy is forward-looking and market-dependent.
 
 ### Why the other answers are wrong
 
-B, C, and D are incomplete.
+B, C, and D remain backward-looking or one-sided and do not connect future demand with supply-market evidence.
 
 </details>
 
@@ -213,9 +213,9 @@ A. The smallest possible count
 
 B. The best balance of value, capacity, resilience, and governance
 
-C. Only unit price
+C. Lowest quoted unit price without a capacity test
 
-D. Only local content
+D. Maximum local-content percentage regardless of resilience or value
 
 <details>
 <summary>Answer and rationale</summary>
@@ -230,7 +230,7 @@ The correct base may shrink, grow, or change composition.
 
 ### Why the other answers are wrong
 
-A, C, and D are single-objective.
+A, C, and D optimize count, price, or location while omitting the other required outcomes.
 
 </details>
 
@@ -240,11 +240,11 @@ A, C, and D are single-objective.
 
 A. A material design or market change
 
-B. A new spreadsheet color
+B. The scheduled annual date when no material evidence has changed
 
-C. The calendar font
+C. A supplier's request to extend the contract on existing terms
 
-D. A buyer vacation
+D. Assignment of a new category manager without a market or demand change
 
 <details>
 <summary>Answer and rationale</summary>
@@ -259,7 +259,7 @@ Risk and impact classifications must follow changed evidence.
 
 ### Why the other answers are wrong
 
-B, C, and D are irrelevant.
+B, C, and D may prompt administrative work, but none by itself changes the portfolio evidence.
 
 </details>
 
@@ -269,11 +269,11 @@ B, C, and D are irrelevant.
 
 A. The label should correspond to intensive, value-creating governance
 
-B. Strategic suppliers require no measurement
+B. Strategic status replaces the need for competitive alternatives
 
-C. All routine suppliers are illegal
+C. Every high-spend supplier requires executive governance
 
-D. It guarantees lower price
+D. The designation should be reserved for the suppliers with the highest current score
 
 <details>
 <summary>Answer and rationale</summary>
@@ -288,7 +288,7 @@ Management attention and mutual commitments are scarce.
 
 ### Why the other answers are wrong
 
-B, C, and D are false.
+B removes an important option, while C and D confuse spend or score with the interdependence that justifies intensive governance.
 
 </details>
 

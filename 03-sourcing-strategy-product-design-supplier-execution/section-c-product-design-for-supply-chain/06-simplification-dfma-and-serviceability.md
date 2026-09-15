@@ -30,6 +30,19 @@ Complexity increases touches, training, defects, setup, tools, spare parts, and 
 | **4. Error-proof assembly and testing** | Assembly and test design using clear orientation, error proofing, access, and verification |
 | **5. Validate service access and replacement** | Service trial measuring diagnosis, isolation, access, replacement, reassembly, and confirmation |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Observe assembly, test, and service work"] --> B["Challenge each part, motion, tool, and tolerance"]
+    B --> C["Eliminate, combine, or standardize"]
+    C --> D["Prototype assembly and repair"]
+    D --> E["Measure time, defects, access, and recovery"]
+    E --> F{"Requirements still met?"}
+    F -->|No| B
+    F -->|Yes| G["Release and update work instructions"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark combines two brackets, makes fasteners accessible from one side, adds keyed connectors, and positions the filter behind a tool-less panel. Assembly time drops from 46 to 34 minutes and scheduled filter service from 18 to 7 minutes.
@@ -37,6 +50,16 @@ Rivermark combines two brackets, makes fasteners accessible from one side, adds 
 **Decision insight.** The redesign improves both assembly and field service because it removes parts and ambiguous connections instead of merely asking operators to work faster.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Worked decision — DFMA and service effect
+
+Compare the current and modular alternatives in the [design-alternatives dataset](../../assets/data/module-3/section-c/design-alternatives.csv):
+
+- assembly time falls from 46 to 34 minutes: `(46 − 34) ÷ 46 = 26.1%`;
+- estimated field failures fall from 14 to 8 per 1,000: `(14 − 8) ÷ 14 = 42.9%`;
+- service time falls from 18 to 7 minutes: `(18 − 7) ÷ 18 = 61.1%`.
+
+Validate those modeled gains with timed builds and service trials across representative operators. Record any added tooling, training, diagnostic, or interface risk. The released design must update the bill of material, work instructions, quality plan, service documentation, and benefit owner; otherwise the simplification remains a prototype result.
 
 ## Decision logic
 
@@ -97,8 +120,9 @@ Observe the work. Drawings rarely reveal awkward reach, tool changes, unclear or
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section C overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Design-alternatives dataset](../../assets/data/module-3/section-c/design-alternatives.csv)
+- [Quality, Customer Translation, and Robust Design](./07-quality-qfd-and-robust-design.md)
 
 ---
 

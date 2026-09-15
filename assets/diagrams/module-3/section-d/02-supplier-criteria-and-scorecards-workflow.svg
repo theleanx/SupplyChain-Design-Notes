@@ -23,44 +23,43 @@
   </text>
   <rect x="65" y="165" width="245" height="145" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
   <text x="85" y="207" class="metric" text-anchor="start">
-    <tspan x="85" y="207">30%</tspan>
+    <tspan x="85" y="207">83</tspan>
   </text>
   <text x="85" y="239" class="label" text-anchor="start">
-    <tspan x="85" y="239">Quality</tspan>
+    <tspan x="85" y="239">NorthPeak</tspan>
   </text>
   <text x="85" y="280" class="small" text-anchor="start">
-    <tspan x="85" y="280">Capability and defect</tspan>
-    <tspan x="85" y="303">control</tspan>
+    <tspan x="85" y="280">Eligible weighted total</tspan>
   </text>
   <rect x="340" y="165" width="245" height="145" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
   <text x="360" y="207" class="metric" text-anchor="start">
-    <tspan x="360" y="207">25%</tspan>
+    <tspan x="360" y="207">78</tspan>
   </text>
   <text x="360" y="239" class="label" text-anchor="start">
-    <tspan x="360" y="239">Delivery</tspan>
+    <tspan x="360" y="239">BlueHarbor</tspan>
   </text>
   <text x="360" y="280" class="small" text-anchor="start">
-    <tspan x="360" y="280">Capacity and reliability</tspan>
+    <tspan x="360" y="280">Eligible weighted total</tspan>
   </text>
   <rect x="615" y="165" width="245" height="145" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
   <text x="635" y="207" class="metric" text-anchor="start">
-    <tspan x="635" y="207">25%</tspan>
+    <tspan x="635" y="207">78</tspan>
   </text>
   <text x="635" y="239" class="label" text-anchor="start">
-    <tspan x="635" y="239">Commercial</tspan>
+    <tspan x="635" y="239">VectorTherm</tspan>
   </text>
   <text x="635" y="280" class="small" text-anchor="start">
-    <tspan x="635" y="280">TCO and transparency</tspan>
+    <tspan x="635" y="280">Mandatory gate failed</tspan>
   </text>
   <rect x="890" y="165" width="245" height="145" rx="16" fill="#ffffff" stroke="#587d96" stroke-width="2" />
   <text x="910" y="207" class="metric" text-anchor="start">
-    <tspan x="910" y="207">20%</tspan>
+    <tspan x="910" y="207">1–5</tspan>
   </text>
   <text x="910" y="239" class="label" text-anchor="start">
-    <tspan x="910" y="239">Risk and ESG</tspan>
+    <tspan x="910" y="239">Raw score scale</tspan>
   </text>
   <text x="910" y="280" class="small" text-anchor="start">
-    <tspan x="910" y="280">Continuity and compliance</tspan>
+    <tspan x="910" y="280">Weights applied separately</tspan>
   </text>
   <rect x="65" y="350" width="1070" height="245" rx="18" fill="#eef4f8" stroke="#587d96" stroke-width="2" />
   <text x="90" y="392" class="label" text-anchor="start">

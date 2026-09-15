@@ -30,6 +30,17 @@ Ambiguous terms create different operating assumptions. Poor incentives optimize
 | **4. Balance incentives with guardrails** | Balanced incentive design protected by quality, safety, documentation, and behavior guardrails |
 | **5. Control changes and interpretation** | Change, interpretation, dispute, waiver, version, communication, and approval process |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Define business outcome and service boundary"] --> B["Specify metric, formula, source, and exclusions"]
+    B --> C["Set target, threshold, and review window"]
+    C --> D["Link response, credit, or incentive"]
+    D --> E["Validate data and dispute process"]
+    E --> F["Monitor, correct, and review behavior"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark defines delivery as receipt within a two-day window, measured against the last mutually accepted schedule. A capacity incentive applies only when delivery, defect, and documentation thresholds are all met.
@@ -37,6 +48,16 @@ Rivermark defines delivery as receipt within a two-day window, measured against 
 **Decision insight.** Linking the capacity reward to delivery, quality, and documentation prevents the supplier from earning the incentive by optimizing only output volume.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Worked decision — service-level boundary
+
+The [contract-obligations dataset](../../assets/data/module-3/section-d/contract-obligations.csv) sets delivery reliability at **at least 98%**. If 196 of 200 eligible order lines arrive within the defined window:
+
+`on-time delivery = 196 ÷ 200 × 100 = 98.0%`
+
+That result meets the threshold exactly. At 195 lines, `195 ÷ 200 × 100 = 97.5%`, which triggers the agreed corrective action. The SLA must also define the eligible population, requested versus confirmed date, partial lines, buyer-caused delay, data source, correction period, and dispute path.
+
+Pair consequences with the behavior desired. A service credit may protect the buyer but does not itself restore supply; improvement milestones and positive incentives can be more effective when the supplier controls the outcome.
 
 ## Decision logic
 
@@ -97,7 +118,9 @@ Run each clause through a tabletop scenario: normal operation, failure, change, 
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section D overview](./README.md)
+- [Section overview](./README.md)
+- [Contract-obligations dataset](../../assets/data/module-3/section-d/contract-obligations.csv)
+- [Order Tracking, Exceptions, and Expediting](./11-order-tracking-exceptions-and-expediting.md)
 - [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
 
 ---

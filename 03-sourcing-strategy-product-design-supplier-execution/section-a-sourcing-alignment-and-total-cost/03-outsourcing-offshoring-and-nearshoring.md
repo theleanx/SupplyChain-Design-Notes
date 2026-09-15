@@ -30,6 +30,19 @@ Confusing ownership with geography hides the real decision. A company can own an
 | **4. Model transition and steady-state cost** | Transition and steady-state economics normalized to one horizon and currency |
 | **5. Design contingencies and exit paths** | Business-continuity design with alternate routes, recovery time, and exit rights |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Define process and service boundary"] --> B["Decide ownership model"]
+    B --> C["Compare location options"]
+    C --> D["Model landed cost, lead time, and risk"]
+    D --> E{"Controls and recovery viable?"}
+    E -->|Yes| F["Approve footprint option"]
+    E -->|No| G["Redesign boundary or location"]
+    G --> D
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark compares an owned U.S. assembly cell, a domestic contract manufacturer, and a nearshore partner. The nearshore option has lower conversion cost but adds border variability; the domestic partner has higher rates but can replenish service stock twice weekly.
@@ -37,6 +50,12 @@ Rivermark compares an owned U.S. assembly cell, a domestic contract manufacturer
 **Decision insight.** The comparison therefore treats contract manufacturing and geography as separate choices and shows when the domestic response-time premium is justified for service parts.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — ownership-location matrix
+
+Evaluate ownership and geography as separate axes. Build a matrix whose rows are internal, captive, contract manufacturer, and specialist supplier, and whose columns are local, nearshore, and offshore. Score only combinations that are legally and operationally feasible.
+
+For each feasible cell, retain comparable evidence for lead-time distribution, duty and freight, intellectual-property exposure, labor and capacity, currency, recovery time, and required management bandwidth. A low-cost cell should not advance unless the recovery design identifies alternative tooling access, data ownership, emergency logistics, and a named transition owner. This prevents “outsourcing” and “offshoring” from being treated as one indivisible choice.
 
 ## Decision logic
 
@@ -97,8 +116,9 @@ Use a two-by-two ownership/location matrix in executive discussions; it removes 
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section A overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Make-or-Buy and Core Capability](./02-make-buy-and-core-capability.md)
+- [Payment, Trade Finance, and Currency Exposure](../section-d-supplier-selection-contracting-and-procurement/08-payment-trade-finance-and-currency.md)
 
 ---
 

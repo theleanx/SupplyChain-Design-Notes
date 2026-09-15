@@ -30,6 +30,21 @@ Recovery is rarely economical when disassembly, identification, testing, ownersh
 | **4. Create return economics and channels** | Return channel and economic model covering incentive, transport, inspection, yield, demand, and ownership |
 | **5. Measure recovery yield and residual waste** | Recovery dashboard for return rate, reuse yield, recovered value, energy, emissions, and residual waste |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Set lifecycle and circularity objective"] --> B["Map material, energy, durability, and recovery"]
+    B --> C["Design for repair, disassembly, and identification"]
+    C --> D["Build reverse-flow and inspection route"]
+    D --> E{"Recovered value viable?"}
+    E -->|Reuse or remanufacture| F["Return component to use"]
+    E -->|Recycle| G["Return material to supply"]
+    E -->|No| H["Redesign or document responsible disposal"]
+    F --> B
+    G --> B
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark designs compressor cores with serial traceability, replaceable wear parts, standardized test ports, and a refundable core charge. Returned units are screened for reuse, remanufacture, parts harvesting, or recycling.
@@ -37,6 +52,12 @@ Rivermark designs compressor cores with serial traceability, replaceable wear pa
 **Decision insight.** Traceability and standardized tests allow each return to follow the highest-value safe recovery path instead of defaulting all units to recycling.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — circularity operating case
+
+A circular design needs an operating route, not only a material claim. Define expected return volume, collection channel, ownership, transport, data and product identification, inspection criteria, disassembly method, recovered yield, secondary demand, and responsible residual handling.
+
+Compare alternatives over a stated lifecycle using material and energy impact, repair time, recovery cost, avoided virgin material, and realized reuse or remanufacture value. Verify supplier claims with traceable evidence and separate design potential from actual collection performance. Set a pilot gate with minimum recovery yield and economics before scaling. If the reverse network is absent, record who must create it and when.
 
 ## Decision logic
 
@@ -97,8 +118,9 @@ A circular claim needs a physical flow, commercial incentive, acceptance criteri
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section C overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Product Design as a Supply-Chain Lever](./01-design-as-economic-lever.md)
+- [Contract Deployment and Compliance](../section-d-supplier-selection-contracting-and-procurement/05-contract-deployment-and-compliance.md)
 
 ---
 

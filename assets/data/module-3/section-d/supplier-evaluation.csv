@@ -1,4 +1,4 @@
-supplier,technical_25,total_cost_20,quality_15,capacity_delivery_15,resilience_15,sustainability_10,mandatory_gates_pass,weighted_total_100
-NorthPeak,22,15,14,13,11,8,Yes,83
-BlueHarbor,20,18,12,12,9,7,Yes,78
-VectorTherm,24,17,13,10,6,8,No,78
+supplier,technical_score_1_to_5_weight_25,total_cost_score_1_to_5_weight_20,quality_score_1_to_5_weight_15,capacity_delivery_score_1_to_5_weight_15,resilience_score_1_to_5_weight_15,sustainability_score_1_to_5_weight_10,mandatory_gates_pass,weighted_total_100
+NorthPeak,4.40,3.75,4.67,4.33,3.67,4.00,Yes,83
+BlueHarbor,4.00,4.50,4.00,4.00,3.00,3.50,Yes,78
+VectorTherm,4.80,4.25,4.33,3.33,2.00,4.00,No,78

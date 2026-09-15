@@ -30,6 +30,19 @@ A financially attractive steady state can fail because the transition plan omits
 | **4. Release by evidence** | Evidence package for quality, yield, capacity, delivery, and recovery capability |
 | **5. Retire old capacity only after stability** | Controlled legacy shutdown plan with retained records, assets, and restart options |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Baseline process and failure modes"] --> B["Capture knowledge and control plan"]
+    B --> C["Supplier shadow and training"]
+    C --> D["Parallel production and validation"]
+    D --> E{"Exit criteria met?"}
+    E -->|No| C
+    E -->|Yes| F["Controlled cutover"]
+    F --> G["Stabilize and retain fallback"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Before transferring controller assembly, Rivermark records test parameters, golden-unit results, firmware controls, tooling ownership, and approved component alternatives. Three consecutive conforming lots and a recovery drill are required before the original line is released.
@@ -37,6 +50,12 @@ Before transferring controller assembly, Rivermark records test parameters, gold
 **Decision insight.** The three-lot gate proves repeatability, while the recovery drill tests whether the new site can respond when equipment, material, or data fails.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — transition gate register
+
+Use a gate register rather than a date-only project plan. Each gate needs an entry criterion, objective evidence, approver, fallback, and latest safe decision date. Typical gates cover documentation completeness, trained operators, tooling acceptance, first-article quality, sustained-rate capacity, system readiness, and inventory buffer.
+
+Define cutover quantitatively—for example, three conforming lots at the required takt with no critical escape—before schedule pressure appears. Keep the old path available until the new path has demonstrated both output and recovery behavior. Record which knowledge must remain internal, who owns it, and how often it will be exercised after transfer.
 
 ## Decision logic
 
@@ -97,8 +116,9 @@ The exit gate deserves the same executive attention as supplier selection. Irrev
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section A overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Make-or-Buy and Core Capability](./02-make-buy-and-core-capability.md)
+- [Order Tracking, Exceptions, and Expediting](../section-d-supplier-selection-contracting-and-procurement/11-order-tracking-exceptions-and-expediting.md)
 
 ---
 

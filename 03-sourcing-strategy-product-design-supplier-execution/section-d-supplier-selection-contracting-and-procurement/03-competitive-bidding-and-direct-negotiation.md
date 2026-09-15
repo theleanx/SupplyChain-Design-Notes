@@ -30,6 +30,19 @@ Forcing a strategic or poorly specified requirement into a price event can selec
 | **4. Clarify consistently** | Shared clarification log ensuring active bidders receive materially equivalent information |
 | **5. Evaluate complete value and finalize** | Normalized total-value evaluation and complete negotiated agreement with approvals |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Assess specification clarity and qualified market depth"] --> B{"Comparable competition viable?"}
+    B -->|Yes| C["Design controlled bid event"]
+    B -->|No| D["Approve direct-negotiation rationale"]
+    C --> E["Evaluate compliant offers"]
+    D --> F["Use fact base, BATNA, and objective criteria"]
+    E --> G["Negotiate clarifications and award"]
+    F --> G
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark competitively bids standard sheet metal using a normalized cost template. It directly negotiates a compressor collaboration because interface development, tooling, forecast sharing, and service support require joint design.
@@ -37,6 +50,12 @@ Rivermark competitively bids standard sheet metal using a normalized cost templa
 **Decision insight.** Rivermark uses competition where specifications and offers are comparable, but chooses structured negotiation where joint design determines value.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — event integrity checklist
+
+For a competitive event, establish one specification baseline, response template, question channel, deadline, evaluation team, conflict declaration, and change log. Release material clarifications to all participants. Do not introduce an auction unless offers are truly comparable and qualified suppliers understand the rules.
+
+For direct negotiation, record the constraint, alternatives considered, approval, fact base, objectives, BATNA, authority, and independent reasonableness check. Competition can reveal market price but may suppress collaboration when the solution is not defined; negotiation can create joint value but weakens price discovery. The decision record should make that trade-off auditable.
 
 ## Decision logic
 
@@ -97,8 +116,9 @@ Competition is a means of discovering value, not a ritual. Use it only when the 
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section D overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Principled Negotiation and BATNA](./04-principled-negotiation-and-batna.md)
+- [Digital Procurement, Marketplaces, and Auctions](./12-digital-procurement-marketplaces-and-auctions.md)
 
 ---
 

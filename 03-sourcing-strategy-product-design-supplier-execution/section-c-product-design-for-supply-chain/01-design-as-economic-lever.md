@@ -30,6 +30,18 @@ Late sourcing pressure cannot fully overcome an expensive or fragile design. The
 | **4. Prototype and test** | Prototype evidence showing performance, manufacturability, handling, and failure behavior |
 | **5. Release with controlled assumptions** | Released design baseline with assumptions, residual risks, owners, and change controls |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Frame design choice and alternatives"] --> B["Quantify cost and cash effects"]
+    B --> C["Test service and supply-risk effects"]
+    C --> D["Assess sustainability and recovery"]
+    D --> E["Resolve trade-offs at design gate"]
+    E --> F["Release assumptions and owners"]
+    F --> G["Measure lifecycle outcome"]
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark's first heat-pump enclosure used a custom depth that reduced container utilization and required unique packaging. A 30 mm design change preserves performance while improving pallet density and eliminating one packaging size.
@@ -37,6 +49,12 @@ Rivermark's first heat-pump enclosure used a custom depth that reduced container
 **Decision insight.** A small dimensional change creates recurring logistics and packaging savings because it is made before tooling and qualification lock the geometry.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — lifecycle design scorecard
+
+At each architecture gate, compare alternatives using the same demand, service, and lifecycle horizon. The scorecard should show unit material and conversion cost, inventory and working-capital effect, source options, lead time, service labor, field failure, packaging and transport, energy, and end-of-life route.
+
+Keep cash, risk, and environmental measures separate rather than forcing them into one opaque score. Record the design owner for every assumption and the evidence needed before release. A choice that saves recurring cost but creates a large conversion expense or validation risk should display payback and milestone risk explicitly. The [design-alternatives dataset](../../assets/data/module-3/section-c/design-alternatives.csv) provides that trade-off rather than a uniformly dominant option.
 
 ## Decision logic
 
@@ -97,8 +115,9 @@ Add one question to every gate: what operating burden does this design create fo
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section C overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Design-alternatives dataset](../../assets/data/module-3/section-c/design-alternatives.csv)
+- [Landed Cost and Total Cost of Ownership](../section-a-sourcing-alignment-and-total-cost/06-landed-cost-and-total-cost-of-ownership.md)
 
 ---
 

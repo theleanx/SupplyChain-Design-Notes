@@ -21,59 +21,51 @@
   <text x="60" y="109" class="subtitle" text-anchor="start">
     <tspan x="60" y="109">Reconcile technical cost drivers with risk-adjusted commercial value.</tspan>
   </text>
-  <rect x="110" y="428.0" width="125" height="152.0" rx="6" fill="#2a9d8f" />
-  <text x="172.5" y="416.0" class="label" text-anchor="middle">
-    <tspan x="172.5" y="416.0">+38</tspan>
+  <rect x="110" y="361.6" width="125" height="218.4" rx="6" fill="#2a9d8f" />
+  <text x="172.5" y="349.6" class="label" text-anchor="middle">
+    <tspan x="172.5" y="349.6">$+54.60</tspan>
   </text>
   <text x="172.5" y="615" class="small" text-anchor="middle">
     <tspan x="172.5" y="615">Material</tspan>
   </text>
-  <line x1="235" y1="428.0" x2="263" y2="428.0" stroke="#587d96" stroke-width="2" stroke-dasharray="5 5" />
-  <rect x="263" y="348.0" width="125" height="80.0" rx="6" fill="#2a9d8f" />
-  <text x="325.5" y="336.0" class="label" text-anchor="middle">
-    <tspan x="325.5" y="336.0">+20</tspan>
+  <line x1="235" y1="361.6" x2="263" y2="361.6" stroke="#587d96" stroke-width="2" stroke-dasharray="5 5" />
+  <rect x="263" y="310.4" width="125" height="51.2" rx="6" fill="#2a9d8f" />
+  <text x="325.5" y="298.4" class="label" text-anchor="middle">
+    <tspan x="325.5" y="298.4">$+12.80</tspan>
   </text>
   <text x="325.5" y="615" class="small" text-anchor="middle">
     <tspan x="325.5" y="615">Conversion</tspan>
   </text>
-  <line x1="388" y1="348.0" x2="416" y2="348.0" stroke="#587d96" stroke-width="2" stroke-dasharray="5 5" />
-  <rect x="416" y="300.0" width="125" height="48.0" rx="6" fill="#2a9d8f" />
-  <text x="478.5" y="288.0" class="label" text-anchor="middle">
-    <tspan x="478.5" y="288.0">+12</tspan>
+  <line x1="388" y1="310.4" x2="416" y2="310.4" stroke="#587d96" stroke-width="2" stroke-dasharray="5 5" />
+  <rect x="416" y="282.4" width="125" height="28.0" rx="6" fill="#2a9d8f" />
+  <text x="478.5" y="270.4" class="label" text-anchor="middle">
+    <tspan x="478.5" y="270.4">$+7.00</tspan>
   </text>
   <text x="478.5" y="615" class="small" text-anchor="middle">
     <tspan x="478.5" y="615">Overhead</tspan>
   </text>
-  <line x1="541" y1="300.0" x2="569" y2="300.0" stroke="#587d96" stroke-width="2" stroke-dasharray="5 5" />
-  <rect x="569" y="268.0" width="125" height="32.0" rx="6" fill="#2a9d8f" />
-  <text x="631.5" y="256.0" class="label" text-anchor="middle">
-    <tspan x="631.5" y="256.0">+8</tspan>
+  <line x1="541" y1="282.4" x2="569" y2="282.4" stroke="#587d96" stroke-width="2" stroke-dasharray="5 5" />
+  <rect x="569" y="266.4" width="125" height="16.0" rx="6" fill="#2a9d8f" />
+  <text x="631.5" y="254.39999999999998" class="label" text-anchor="middle">
+    <tspan x="631.5" y="254.39999999999998">$+4.00</tspan>
   </text>
   <text x="631.5" y="615" class="small" text-anchor="middle">
     <tspan x="631.5" y="615">Logistics</tspan>
   </text>
-  <line x1="694" y1="268.0" x2="722" y2="268.0" stroke="#587d96" stroke-width="2" stroke-dasharray="5 5" />
-  <rect x="722" y="244.0" width="125" height="24.0" rx="6" fill="#2a9d8f" />
-  <text x="784.5" y="232.0" class="label" text-anchor="middle">
-    <tspan x="784.5" y="232.0">+6</tspan>
+  <line x1="694" y1="266.4" x2="722" y2="266.4" stroke="#587d96" stroke-width="2" stroke-dasharray="5 5" />
+  <rect x="722" y="226.39999999999998" width="125" height="40.0" rx="6" fill="#2a9d8f" />
+  <text x="784.5" y="214.39999999999998" class="label" text-anchor="middle">
+    <tspan x="784.5" y="214.39999999999998">$+10.00</tspan>
   </text>
   <text x="784.5" y="615" class="small" text-anchor="middle">
-    <tspan x="784.5" y="615">Risk</tspan>
+    <tspan x="784.5" y="615">Margin</tspan>
   </text>
-  <line x1="847" y1="244.0" x2="875" y2="244.0" stroke="#587d96" stroke-width="2" stroke-dasharray="5 5" />
-  <rect x="875" y="244.0" width="125" height="20.0" rx="6" fill="#e76f51" />
-  <text x="937.5" y="232.0" class="label" text-anchor="middle">
-    <tspan x="937.5" y="232.0">-5</tspan>
+  <rect x="875" y="226.39999999999998" width="125" height="353.6" rx="6" fill="#176b87" />
+  <text x="937.5" y="214.39999999999998" class="metric" text-anchor="middle">
+    <tspan x="937.5" y="214.39999999999998">$88.40</tspan>
   </text>
   <text x="937.5" y="615" class="small" text-anchor="middle">
-    <tspan x="937.5" y="615">Productivity</tspan>
-  </text>
-  <rect x="1028" y="264.0" width="125" height="316.0" rx="6" fill="#176b87" />
-  <text x="1090.5" y="252.0" class="metric" text-anchor="middle">
-    <tspan x="1090.5" y="252.0">79</tspan>
-  </text>
-  <text x="1090.5" y="615" class="small" text-anchor="middle">
-    <tspan x="1090.5" y="615">Should cost</tspan>
+    <tspan x="937.5" y="615">Should cost</tspan>
   </text>
   <text x="80" y="160" class="label" text-anchor="start">
     <tspan x="80" y="160">Should-cost bridge</tspan>

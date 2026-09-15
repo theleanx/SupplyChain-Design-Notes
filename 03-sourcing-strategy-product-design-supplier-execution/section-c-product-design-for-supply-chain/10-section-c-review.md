@@ -6,13 +6,13 @@ Use these independently authored questions to test decision logic, not term reca
 
 **Question.** A defect-free product does not meet customer needs. What failed?
 
-A. Conformance only
+A. Manufacturing quality, because the product conforms to the released design
 
 B. Design quality
 
-C. Invoice matching
+C. Supplier quality, even when supplied parts meet specification
 
-D. Bid opening
+D. Inspection quality, because inspection found no defects
 
 <details>
 <summary>Answer and rationale</summary>
@@ -27,7 +27,7 @@ The product consistently delivers the wrong value proposition.
 
 ### Why the other answers are wrong
 
-A is strong in the scenario; C and D are unrelated.
+A is performing as designed; C is not supported when inputs conform; D confuses defect detection with whether the design creates customer value.
 
 </details>
 
@@ -37,11 +37,11 @@ A is strong in the scenario; C and D are unrelated.
 
 A. Problems are found while change is less costly
 
-B. It guarantees no trade-offs
+B. It transfers final design authority to the participating suppliers
 
-C. It removes design ownership
+C. It replaces late-stage validation with expert review at concept stage
 
-D. It eliminates testing
+D. It allows each function to optimize its own requirement before integration
 
 <details>
 <summary>Answer and rationale</summary>
@@ -56,7 +56,7 @@ Early evidence preserves design options.
 
 ### Why the other answers are wrong
 
-B, C, and D overstate or weaken governance.
+B misassigns authority, C removes required evidence, and D delays rather than resolves cross-functional trade-offs.
 
 </details>
 
@@ -66,11 +66,11 @@ B, C, and D overstate or weaken governance.
 
 A. Unit load, handling, transport, storage, damage, and reverse flow
 
-B. Product color only
+B. Pallet cube and freight rate without handling, damage, or service effects
 
-C. Supplier count only
+C. Supplier country and source count without physical-flow validation
 
-D. Invoice terms only
+D. Inbound transport cost and payment terms without storage or reverse flow
 
 <details>
 <summary>Answer and rationale</summary>
@@ -85,7 +85,7 @@ The flow consequences operate as an integrated system.
 
 ### Why the other answers are wrong
 
-B, C, and D are incomplete.
+B, C, and D capture fragments but do not test the integrated physical flow.
 
 </details>
 
@@ -97,9 +97,9 @@ A. Using one qualified part across multiple applications
 
 B. Creating a unique part for every model
 
-C. Moving final assembly
+C. Using one supplier while retaining different component geometries for each model
 
-D. Changing supplier ownership
+D. Reusing one drawing number while allowing uncontrolled local variants
 
 <details>
 <summary>Answer and rationale</summary>
@@ -114,7 +114,7 @@ Commonality deliberately reuses a component.
 
 ### Why the other answers are wrong
 
-B is the opposite; C and D are different decisions.
+B creates proliferation; C standardizes the source rather than the part; D creates apparent rather than controlled commonality.
 
 </details>
 
@@ -124,11 +124,11 @@ B is the opposite; C and D are different decisions.
 
 A. Stable governed interfaces
 
-B. More undocumented variants
+B. Loosely documented interfaces that allow each program flexibility
 
-C. No compatibility testing
+C. Interfaces optimized independently by each module supplier
 
-D. Constant interface changes
+D. Frequent interface changes controlled through informal engineering communication
 
 <details>
 <summary>Answer and rationale</summary>
@@ -143,7 +143,7 @@ Modules create value through controlled interchange and reuse.
 
 ### Why the other answers are wrong
 
-B, C, and D create configuration risk.
+B, C, and D undermine stable interchangeability and controlled change.
 
 </details>
 
@@ -153,11 +153,11 @@ B, C, and D create configuration risk.
 
 A. A part or step safely eliminated without losing required value
 
-B. More inspection
+B. Additional inspection added to compensate for a difficult assembly step
 
-C. More optional fasteners
+C. A standard fastener replaced by a custom integrated feature that complicates service
 
-D. Another approval
+D. Fewer parts achieved while service time and failure exposure increase
 
 <details>
 <summary>Answer and rationale</summary>
@@ -172,7 +172,7 @@ Removed complexity cannot create future handling or failure.
 
 ### Why the other answers are wrong
 
-B, C, and D add burden.
+B adds detection effort, while C and D trade visible part count for lifecycle complexity or risk.
 
 </details>
 
@@ -182,11 +182,11 @@ B, C, and D add burden.
 
 A. Translate it into measurable technical and process characteristics
 
-B. Repeat it in larger font
+B. Convert it directly into a weighted supplier criterion without a technical measure
 
-C. Replace it with price
+C. Reuse a target from the prior product without checking the current need
 
-D. Ask only engineering
+D. Ask engineering to infer the target without retaining customer traceability
 
 <details>
 <summary>Answer and rationale</summary>
@@ -201,7 +201,7 @@ Translation connects value with verifiable design.
 
 ### Why the other answers are wrong
 
-B, C, and D do not preserve traceability.
+B skips technical translation; C assumes equivalence; D omits the customer-to-requirement trace.
 
 </details>
 
@@ -240,11 +240,11 @@ B, C, and D fragment or freeze it.
 
 A. A feasible collection, separation, and recovery pathway
 
-B. Only a green label
+B. A material supplier's recyclability certificate without a collection route
 
-C. More packaging
+C. A resin identification code without compatible separation capability
 
-D. A price auction
+D. A recovery target without inspection criteria or secondary demand
 
 <details>
 <summary>Answer and rationale</summary>
@@ -259,7 +259,7 @@ Material potential alone does not create actual recovery.
 
 ### Why the other answers are wrong
 
-B, C, and D do not establish a system.
+B, C, and D provide partial claims or targets without an operating recovery pathway.
 
 </details>
 
@@ -269,11 +269,11 @@ B, C, and D do not establish a system.
 
 A. Verified time, tools, access, and first-time repair success
 
-B. Design drawing count
+B. Bill-of-material line count without an observed repair trial
 
-C. Supplier revenue
+C. Warranty duration without access, diagnosis, or repair evidence
 
-D. Pallet color
+D. Modeled repair time produced only by the design team
 
 <details>
 <summary>Answer and rationale</summary>
@@ -288,7 +288,7 @@ Serviceability is measured through safe, repeatable maintenance outcomes.
 
 ### Why the other answers are wrong
 
-B, C, and D are not service outcomes.
+B and C are proxies that omit the repair process; D lacks independent, physical verification.
 
 </details>
 

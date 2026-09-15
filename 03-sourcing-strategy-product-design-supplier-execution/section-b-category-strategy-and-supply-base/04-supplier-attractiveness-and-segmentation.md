@@ -30,6 +30,18 @@ A buyer may label a supplier strategic while remaining a minor, difficult, or un
 | **4. Close behavior or value gaps** | Improvement actions that increase mutual value or reduce unhealthy dependence |
 | **5. Set engagement and escalation** | Engagement model with governance level, information rights, escalation, and review |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Measure supplier value to buyer"] --> B["Estimate buyer attractiveness to supplier"]
+    B --> C["Validate view with supplier evidence"]
+    C --> D["Select segment and access strategy"]
+    D --> E["Set governance and investment"]
+    E --> F["Monitor movement and dependence"]
+    F --> A
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark is a small share of a compressor supplier's revenue but offers entry to an energy-efficient product platform. It earns development attention by sharing a credible three-year roadmap, paying predictably, and reducing engineering-change churn.
@@ -37,6 +49,12 @@ Rivermark is a small share of a compressor supplier's revenue but offers entry t
 **Decision insight.** Rivermark improves its position by making the account easier to serve and strategically relevant, rather than assuming purchase volume alone earns priority.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Applied decision artifact — two-way segmentation evidence
+
+Build two scores separately. Supplier importance may reflect switching time, technical uniqueness, spend at risk, and customer consequence. Buyer attractiveness may reflect profitable growth, strategic fit, payment behavior, innovation access, and ease of doing business. Do not infer the second score from your own spend alone.
+
+Validate the supplier’s perspective through account plans, executive conversations, capacity-allocation behavior, and comparative growth opportunities. Then prescribe a segment-specific action. A critical supplier that sees the buyer as unattractive needs an access plan; calling the relationship “strategic” does not create attention or capacity. Reassess after acquisitions, volume shifts, payment deterioration, or technology change.
 
 ## Decision logic
 
@@ -97,8 +115,9 @@ Measure the buyer experience. Forecast churn, late approvals, disputes, and dela
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section B overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Supplier Relationship Models](./05-relationship-models.md)
+- [Principled Negotiation and BATNA](../section-d-supplier-selection-contracting-and-procurement/04-principled-negotiation-and-batna.md)
 
 ---
 

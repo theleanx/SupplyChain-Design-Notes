@@ -4,15 +4,15 @@ Use these independently authored questions to test decision logic, not term reca
 
 ## Question 1
 
-**Question.** What should be written before supplier proposals arrive?
+**Question.** Which control best reduces evaluator bias before supplier proposals arrive?
 
 A. Evaluation gates, criteria, scales, and governance
 
-B. The winner's name
+B. An initial supplier ranking based on market reputation
 
-C. The final invoice
+C. A flexible scoring scale that can be adjusted to each proposal
 
-D. The press release
+D. Final criterion weights agreed after the price responses are opened
 
 <details>
 <summary>Answer and rationale</summary>
@@ -27,7 +27,7 @@ Predefined criteria reduce bias and preserve fairness.
 
 ### Why the other answers are wrong
 
-B, C, and D occur later or predetermine the outcome.
+B predetermines a ranking, while C and D allow the evaluation method to move after proposal evidence is visible.
 
 </details>
 
@@ -39,9 +39,9 @@ A. Yes
 
 B. No
 
-C. Only with a discount
+C. Yes, if a discount raises the weighted total above the passing suppliers
 
-D. Only for incumbents
+D. Yes, if the incumbent has acceptable historical performance
 
 <details>
 <summary>Answer and rationale</summary>
@@ -56,7 +56,7 @@ An infeasible supplier cannot become feasible through weighted points.
 
 ### Why the other answers are wrong
 
-A, C, and D permit improper compensation.
+A, C, and D allow price, score, or history to compensate for infeasibility.
 
 </details>
 
@@ -66,11 +66,11 @@ A, C, and D permit improper compensation.
 
 A. Unique capability or complex collaborative scope
 
-B. Every routine catalog item
+B. A standard item with several qualified, interchangeable offers
 
-C. Only after payment
+C. An evolving scope where the buyer has not approved a direct-source rationale
 
-D. Never
+D. A clear specification and deep market that support like-for-like competition
 
 <details>
 <summary>Answer and rationale</summary>
@@ -85,7 +85,7 @@ Complex or scarce requirements may not support fair bid comparison.
 
 ### Why the other answers are wrong
 
-B is transactional; C and D are false.
+B and D favor competition; C lacks the governance needed to justify a direct route.
 
 </details>
 
@@ -95,11 +95,11 @@ B is transactional; C and D are false.
 
 A. Comparing the negotiated package with the best feasible alternative
 
-B. Setting invoice quantity
+B. Selecting an aggressive opening offer without testing alternatives
 
-C. Counting suppliers
+C. Ranking the supplier's technical capability
 
-D. Measuring defects
+D. Calculating total cost before a feasible alternative is identified
 
 <details>
 <summary>Answer and rationale</summary>
@@ -114,7 +114,7 @@ It provides the rational walk-away comparison.
 
 ### Why the other answers are wrong
 
-B, C, and D are unrelated.
+B confuses a tactic with the walk-away comparison; C is an evaluation activity; D is useful analysis but does not establish a feasible outside option by itself.
 
 </details>
 
@@ -124,11 +124,11 @@ B, C, and D are unrelated.
 
 A. Owners, systems, data, training, measures, and escalation
 
-B. A signature alone
+B. Signature plus email circulation without system configuration
 
-C. A longer filename
+C. A quarterly scorecard with no obligation owners or response path
 
-D. A supplier brochure
+D. Commercial terms stored only in the legal archive
 
 <details>
 <summary>Answer and rationale</summary>
@@ -143,7 +143,7 @@ Deployment embeds obligations in work.
 
 ### Why the other answers are wrong
 
-B, C, and D do not create adoption.
+B, C, and D leave obligations outside day-to-day process controls.
 
 </details>
 
@@ -153,11 +153,11 @@ B, C, and D do not create adoption.
 
 A. The party best able to control it, with exposure reflected in the commercial model
 
-B. Always the supplier
+B. The party with the strongest bargaining position, regardless of control
 
-C. Always the buyer
+C. Split every risk equally, even when only one party can influence it
 
-D. Nobody
+D. The buyer whenever it initiates the purchase
 
 <details>
 <summary>Answer and rationale</summary>
@@ -172,7 +172,7 @@ Efficient allocation aligns control, incentives, and price.
 
 ### Why the other answers are wrong
 
-B and C are absolute; D is impossible.
+B uses leverage instead of controllability; C can misalign incentives; D assigns by transaction role rather than control.
 
 </details>
 
@@ -182,11 +182,11 @@ B and C are absolute; D is impossible.
 
 A. Reference date, window, location, exclusions, and data source
 
-B. Only the word on-time
+B. Requested date without an agreed window or exclusions
 
-C. The supplier's preference
+C. Confirmed date without defining the delivery location or eligible population
 
-D. Invoice date only
+D. Carrier ship date even though the service promise is receipt at destination
 
 <details>
 <summary>Answer and rationale</summary>
@@ -201,7 +201,7 @@ A reproducible measure prevents ambiguity.
 
 ### Why the other answers are wrong
 
-B, C, and D are incomplete.
+B, C, and D each choose a partial reference without the complete, reproducible definition.
 
 </details>
 
@@ -213,9 +213,9 @@ A. Yes
 
 B. No; it primarily addresses documentary payment conditions
 
-C. Only for domestic orders
+C. Yes, when the bank verifies that required documents were presented
 
-D. Only after warranty
+D. No, unless the credit also requires an inspection certificate
 
 <details>
 <summary>Answer and rationale</summary>
@@ -230,7 +230,7 @@ Technical acceptance needs separate controls.
 
 ### Why the other answers are wrong
 
-A, C, and D confuse payment with performance.
+A and C confuse documentary compliance with physical performance; D still makes payment evidence a substitute for the buyer's technical acceptance controls.
 
 </details>
 
@@ -240,11 +240,11 @@ A, C, and D confuse payment with performance.
 
 A. A release creates authorized commitment under defined terms
 
-B. Nothing
+B. A release communicates expected demand but does not authorize supply
 
-C. A forecast always guarantees volume
+C. The date printed on the planning file
 
-D. A release is only an estimate
+D. Forecast and release are equivalent whenever their quantities match
 
 <details>
 <summary>Answer and rationale</summary>
@@ -259,7 +259,7 @@ Commitment status must be explicit.
 
 ### Why the other answers are wrong
 
-B, C, and D reverse the meanings.
+B reverses the release's role, while C and D ignore the explicit contractual commitment status.
 
 </details>
 

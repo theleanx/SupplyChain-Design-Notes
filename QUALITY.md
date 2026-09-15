@@ -31,6 +31,11 @@ Before publication, confirm that:
 - the section follows the repository structure and naming conventions;
 - no source-working files, drafting notes, or source-identifying metadata entered the public tree;
 - quantitative examples have been recalculated independently; and
+- quantitative lessons link their source dataset directly and use explicit units and horizons;
+- process-flow blocks contain the actual decision sequence and are not substituted by a conceptual image;
+- mandatory gates are applied before weighted ranking;
+- assessment distractors are plausible misconceptions rather than joke or absolute answers;
+- capstone solutions show reproducible calculations, decision artifacts, controls, and implementation gates; and
 - the complete repository passes a final content-policy and terminology scan.
 
 Run the repository checks locally with:

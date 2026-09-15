@@ -30,6 +30,19 @@ The control prevents unauthorized, duplicate, incorrect, or premature payment wh
 | **4. Resolve tolerances and discrepancies** | Owned discrepancy workflow with tolerances, evidence, debit or credit, and escalation |
 | **5. Approve payment and close records** | Payment approval and auditable closure of receipt, quality, invoice, and commitment records |
 
+## Practical process flow
+
+```mermaid
+flowchart TD
+    A["Approve purchase order"] --> B["Record physical or service receipt"]
+    B --> C["Capture supplier invoice"]
+    C --> D{"PO, receipt, invoice agree within tolerance?"}
+    D -->|Yes| E["Release approved amount for payment"]
+    D -->|No| F["Hold exception and assign cause"]
+    F --> G["Correct receipt, price, quantity, or invoice"]
+    G --> D
+```
+
 ## Realistic example — Rivermark Climate Systems
 
 Rivermark receives 996 boards against an order for 1,000. Four were damaged in transit. The receipt records 996 accepted, the discrepancy is assigned, and the invoice is blocked until quantity and freight responsibility are resolved.
@@ -37,6 +50,16 @@ Rivermark receives 996 boards against an order for 1,000. Four were damaged in t
 **Decision insight.** Recording only the 996 accepted boards keeps inventory, supplier performance, liability, and payment aligned while the four damaged units are resolved.
 
 All names and values in this example are fictional and independently selected for learning purposes.
+
+## Worked decision — three-way-match exception
+
+In the [three-way-match dataset](../../assets/data/module-3/section-d/three-way-match.csv), PO 4500810 authorizes 100 units at $50, only 98 are received, and 100 are invoiced. The authorized received value is:
+
+`98 × $50 = $4,900`
+
+The remaining `$5,000 − $4,900 = $100` is a quantity exception and should be held unless approved tolerance or contract terms support another treatment. PO 4500812 has a price exception: `$129 − $125 = $4` per unit, or `$160` across 40 units.
+
+Route each mismatch to the party that can correct the evidence. Do not alter receipt or PO data merely to make the invoice pass; preserve the audit trail and root cause.
 
 ## Decision logic
 
@@ -97,8 +120,9 @@ Design exception queues, not only happy paths. The value of matching is in disci
 ## Related concepts
 
 - [Module 3 overview](../README.md)
-- [Section D overview](./README.md)
-- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+- [Section overview](./README.md)
+- [Three-way-match dataset](../../assets/data/module-3/section-d/three-way-match.csv)
+- [Purchase Orders and Blanket Arrangements](./09-purchase-orders-and-blanket-orders.md)
 
 ---
 
