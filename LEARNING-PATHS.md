@@ -1,6 +1,6 @@
 # Learning Paths
 
-Both modules can be read from beginning to end, but different roles may need a faster route to the decisions most relevant to their work. The paths below preserve the conceptual sequence while making focused study easier.
+All three modules can be read from beginning to end, but different roles may need a faster route to the decisions most relevant to their work. The paths below preserve the conceptual sequence while making focused study easier.
 
 ## Module 1 complete foundation path
 

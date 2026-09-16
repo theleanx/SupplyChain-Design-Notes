@@ -48,6 +48,38 @@ Color should supplement meaning, not replace labels. A red measure without magni
 
 The operational dashboard refreshes shipment exceptions every fifteen minutes. The monthly network scorecard shows perfect orders, cycle time, expedites, inventory days, cost, data quality, and resilience readiness. Executives do not review every individual shipment; they review persistent causes and decisions requiring authority.
 
+## Why it matters
+
+A visually polished dashboard still fails when it does not distinguish status, diagnosis, decision, ownership, and timing.
+
+## Decision logic
+
+Match dashboard or scorecard content to the audience and cadence, highlight exceptions and trends, and connect every material signal to action. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain audience, decision and cadence, metric definitions, targets, trends, exception thresholds, drill path, owner, and action log. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **dashboards, scorecards, and review cadence decision record** with these fields:
+
+- **Decision and boundary:** Match dashboard or scorecard content to the audience and cadence, highlight exceptions and trends, and connect every material signal to action.
+- **Required evidence:** audience, decision and cadence, metric definitions, targets, trends, exception thresholds, drill path, owner, and action log.
+- **Expected result:** A visually polished dashboard still fails when it does not distinguish status, diagnosis, decision, ownership, and timing.
+- **Balancing condition:** Frequent real-time views accelerate response but can create noise; slower scorecards support reflection but may miss urgent deterioration.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Frequent real-time views accelerate response but can create noise; slower scorecards support reflection but may miss urgent deterioration.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Match dashboard or scorecard content to the audience and cadence, highlight exceptions and trends, and connect every material signal to action. Validate the result with audience, decision and cadence, metric definitions, targets, trends, exception thresholds, drill path, owner, and action log; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Refreshing strategic measures every minute because the tool can.
@@ -60,11 +92,40 @@ The operational dashboard refreshes shipment exceptions every fifteen minutes. T
 
 Should a quarterly facility-capacity decision use the same interface and refresh rate as live shipment recovery?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 Not necessarily. The decision horizons, information granularity, and urgency differ even if some underlying data overlap.
+
+### Why it is correct
+
+A visually polished dashboard still fails when it does not distinguish status, diagnosis, decision, ownership, and timing. Match dashboard or scorecard content to the audience and cadence, highlight exceptions and trends, and connect every material signal to action.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Refreshing strategic measures every minute because the tool can.
+- Showing current value without target or trend.
+- Using averages that hide high-priority segments.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: Frequent real-time views accelerate response but can create noise; slower scorecards support reflection but may miss urgent deterioration.
+
 </details>
+
+## Practitioner perspective
+
+Use audience, decision and cadence, metric definitions, targets, trends, exception thresholds, drill path, owner, and action log as the minimum review record. The artifact should let another practitioner reproduce the conclusion, identify the remaining exposure, and know which trigger reopens the decision.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/02-supplier-criteria-and-scorecards.md)
 Continue to [metric hierarchies and process ownership](04-metric-hierarchies-and-process-ownership.md).
+
+---
+
+[Previous: Strategy-to-Metric Selection](02-strategy-to-metric-selection.md) · [Next: Metric Hierarchies and Process Ownership](04-metric-hierarchies-and-process-ownership.md)

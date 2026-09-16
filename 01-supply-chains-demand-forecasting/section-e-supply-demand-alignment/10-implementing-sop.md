@@ -87,12 +87,85 @@ Trust grows when the process learns from misses rather than hiding them.
 
 Where appropriate, organizations may share selected outcomes or assumptions with suppliers, distributors, or other partners. External partners do not need every internal financial detail, but better visibility can help them prepare capacity and reduce surprises.
 
+## Why it matters
+
+A technically correct process will fail if leaders do not use it to make decisions or if teams cannot trust the data and commitments.
+
+## Decision logic
+
+Implement S&OP through a scoped pilot, stable definitions, visible decision rights, behavior measures, issue resolution, and staged expansion. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain baseline maturity, pilot scope, role charter, data definitions, meeting evidence, decision adherence, benefits, and scale gate. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **implementing S&OP and gaining buy-in decision record** with these fields:
+
+- **Decision and boundary:** Implement S&OP through a scoped pilot, stable definitions, visible decision rights, behavior measures, issue resolution, and staged expansion.
+- **Required evidence:** baseline maturity, pilot scope, role charter, data definitions, meeting evidence, decision adherence, benefits, and scale gate.
+- **Expected result:** A technically correct process will fail if leaders do not use it to make decisions or if teams cannot trust the data and commitments.
+- **Balancing condition:** A narrow pilot accelerates learning but may miss enterprise interdependencies; a broad launch increases coverage but multiplies change risk.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+A narrow pilot accelerates learning but may miss enterprise interdependencies; a broad launch increases coverage but multiplies change risk.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Implement S&OP through a scoped pilot, stable definitions, visible decision rights, behavior measures, issue resolution, and staged expansion. Validate the result with baseline maturity, pilot scope, role charter, data definitions, meeting evidence, decision adherence, benefits, and scale gate; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - S&OP is not owned by operations alone.
 - A demand manager facilitates; senior commercial leadership remains accountable for the demand plan.
 - More meetings do not automatically mean better S&OP.
 
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply implementing S&OP and gaining buy-in. Which proposal is most defensible?
+
+A. Use implementing S&OP and gaining buy-in as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Implement S&OP through a scoped pilot, stable definitions, visible decision rights, behavior measures, issue resolution, and staged expansion.
+C. Choose the apparent upside without evaluating this balancing condition: A narrow pilot accelerates learning but may miss enterprise interdependencies; a broad launch increases coverage but multiplies change risk.
+D. Approve the choice without retaining baseline maturity, pilot scope, role charter, data definitions, meeting evidence, decision adherence, benefits, and scale gate; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Implement S&OP through a scoped pilot, stable definitions, visible decision rights, behavior measures, issue resolution, and staged expansion.**
+
+### Why it is correct
+
+A technically correct process will fail if leaders do not use it to make decisions or if teams cannot trust the data and commitments. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: implement S&OP through a scoped pilot, stable definitions, visible decision rights, behavior measures, issue resolution, and staged expansion.
+- **C** optimizes one visible result and omits the balancing effects: A narrow pilot accelerates learning but may miss enterprise interdependencies; a broad launch increases coverage but multiplies change risk.
+- **D** leaves the approval unauditable. A reviewer would be missing baseline maturity, pilot scope, role charter, data definitions, meeting evidence, decision adherence, benefits, and scale gate, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: A narrow pilot accelerates learning but may miss enterprise interdependencies; a broad launch increases coverage but multiplies change risk.
+
+</details>
+
+## Practitioner perspective
+
+A review should be able to reconstruct the choice from baseline maturity, pilot scope, role charter, data definitions, meeting evidence, decision adherence, benefits, and scale gate. If those records cannot explain what changed, who decided, and when the decision will be revisited, the process is not yet controlled.
+
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-a-network-design-and-technology-investment/03-network-configuration-and-flow-design.md)
 Module 1 → Section E → Implementing S&OP / Coordinating Function / Contributions and Buy-In. Wording and implementation framework are original.
+
+---
+
+[Previous: Financial Reconciliation and Executive S&OP](09-reconciliation-and-executive-sop.md) · [Next: Demand Prioritization and Customer Service](11-demand-prioritization-and-customer-service.md)

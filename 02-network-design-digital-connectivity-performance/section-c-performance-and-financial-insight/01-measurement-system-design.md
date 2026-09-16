@@ -66,6 +66,38 @@ Before adopting a measure, ask:
 4. Which balancing measure would expose the harm?
 5. Is the owner able to influence the outcome?
 
+## Why it matters
+
+Measures change behavior, so an incomplete metric can improve its numerator while damaging service, cash, risk, or the end-to-end process.
+
+## Decision logic
+
+Start from the decision, define the outcome and diagnostic measures, balance dimensions, assign ownership, and set thresholds that trigger action. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain metric definition, purpose, formula and units, source, frequency, target, tolerance, owner, action, and balancing measure. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **measurement system design decision record** with these fields:
+
+- **Decision and boundary:** Start from the decision, define the outcome and diagnostic measures, balance dimensions, assign ownership, and set thresholds that trigger action.
+- **Required evidence:** metric definition, purpose, formula and units, source, frequency, target, tolerance, owner, action, and balancing measure.
+- **Expected result:** Measures change behavior, so an incomplete metric can improve its numerator while damaging service, cash, risk, or the end-to-end process.
+- **Balancing condition:** More measures improve diagnostic coverage but dilute attention, increase data cost, and create conflicting incentives.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+More measures improve diagnostic coverage but dilute attention, increase data cost, and create conflicting incentives.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Start from the decision, define the outcome and diagnostic measures, balance dimensions, assign ownership, and set thresholds that trigger action. Validate the result with metric definition, purpose, formula and units, source, frequency, target, tolerance, owner, action, and balancing measure; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Publishing a metric without a decision or owner.
@@ -78,11 +110,40 @@ Before adopting a measure, ask:
 
 A procurement team is rewarded only for purchase-price variance. What balancing measures could prevent harmful behavior?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 Total delivered cost, supplier quality, lead-time reliability, inventory, expedite cost, and continuity exposure are reasonable balancing measures.
+
+### Why it is correct
+
+Measures change behavior, so an incomplete metric can improve its numerator while damaging service, cash, risk, or the end-to-end process. Start from the decision, define the outcome and diagnostic measures, balance dimensions, assign ownership, and set thresholds that trigger action.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Publishing a metric without a decision or owner.
+- Comparing periods with different scope or definitions.
+- Changing formulas without version history.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: More measures improve diagnostic coverage but dilute attention, increase data cost, and create conflicting incentives.
+
 </details>
+
+## Practitioner perspective
+
+Use metric definition, purpose, formula and units, source, frequency, target, tolerance, owner, action, and balancing measure as the minimum review record. The artifact should let another practitioner reproduce the conclusion, identify the remaining exposure, and know which trigger reopens the decision.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/02-supplier-criteria-and-scorecards.md)
 Continue to [strategy-to-metric selection](02-strategy-to-metric-selection.md).
+
+---
+
+[Section overview](README.md) · [Next: Strategy-to-Metric Selection](02-strategy-to-metric-selection.md)

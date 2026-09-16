@@ -1,5 +1,13 @@
 # 8. Short- and Medium-Term Demand Patterns
 
+## Learning objectives
+
+You should be able to:
+
+- explain the operating logic behind short- and medium-term demand patterns;
+- apply the lesson to a realistic planning or supply-chain decision; and
+- identify the evidence, trade-off, and trigger needed for responsible use.
+
 ## The pattern-decomposition idea
 
 Historical demand is rarely one clean signal. A useful mental model is:
@@ -64,9 +72,70 @@ A useful test is:
 | Cycle | No | Multi-year / irregular | Harder to time precisely |
 | Random variation | No | Any | Unpredictable by definition |
 
-## Common mistake
+## Why it matters
 
+Trend, seasonality, cycles, promotions, and random variation require different forecasts and different operational responses.
+
+## Decision logic
+
+Decompose the observed pattern, label known events, select a model for the planning horizon, and retain residual uncertainty for capacity and inventory decisions. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain time series, event calendar, decomposition choice, horizon, parameters, residual error, owner, and recalibration trigger. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **short- and medium-term demand patterns decision record** with these fields:
+
+- **Decision and boundary:** Decompose the observed pattern, label known events, select a model for the planning horizon, and retain residual uncertainty for capacity and inventory decisions.
+- **Required evidence:** time series, event calendar, decomposition choice, horizon, parameters, residual error, owner, and recalibration trigger.
+- **Expected result:** Trend, seasonality, cycles, promotions, and random variation require different forecasts and different operational responses.
+- **Balancing condition:** A responsive method detects change sooner but may overreact to noise; a stable method reduces noise but can lag a genuine shift.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+A responsive method detects change sooner but may overreact to noise; a stable method reduces noise but can lag a genuine shift.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Decompose the observed pattern, label known events, select a model for the planning horizon, and retain residual uncertainty for capacity and inventory decisions. Validate the result with time series, event calendar, decomposition choice, horizon, parameters, residual error, owner, and recalibration trigger; the evidence, not the method's label, determines whether the choice worked.
+
+## Common mistakes
 Do not confuse **seasonality** with a **cycle**. A December holiday spike that repeats each year is seasonal. A multi-year construction boom and slowdown is cyclical.
+
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply short- and medium-term demand patterns. Which proposal is most defensible?
+
+A. Use short- and medium-term demand patterns as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Decompose the observed pattern, label known events, select a model for the planning horizon, and retain residual uncertainty for capacity and inventory decisions.
+C. Choose the apparent upside without evaluating this balancing condition: A responsive method detects change sooner but may overreact to noise; a stable method reduces noise but can lag a genuine shift.
+D. Approve the choice without retaining time series, event calendar, decomposition choice, horizon, parameters, residual error, owner, and recalibration trigger; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Decompose the observed pattern, label known events, select a model for the planning horizon, and retain residual uncertainty for capacity and inventory decisions.**
+
+### Why it is correct
+
+Trend, seasonality, cycles, promotions, and random variation require different forecasts and different operational responses. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: decompose the observed pattern, label known events, select a model for the planning horizon, and retain residual uncertainty for capacity and inventory decisions.
+- **C** optimizes one visible result and omits the balancing effects: A responsive method detects change sooner but may overreact to noise; a stable method reduces noise but can lag a genuine shift.
+- **D** leaves the approval unauditable. A reviewer would be missing time series, event calendar, decomposition choice, horizon, parameters, residual error, owner, and recalibration trigger, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: A responsive method detects change sooner but may overreact to noise; a stable method reduces noise but can lag a genuine shift.
+
+</details>
 
 ## Practitioner perspective
 
@@ -74,4 +143,11 @@ Forecasting systems can decompose history mathematically, but human review still
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-a-network-design-and-technology-investment/02-market-segmentation-and-service-choices.md)
 Module 1 → Section B → Short- to Medium-Term Demand Patterns, Trends, Cycles, Seasonality, Promotions, Random Variation. Graphic, table, examples, and wording are original.
+
+---
+
+[Previous: Microeconomics, Price Elasticity, and Marginal Analysis](07-microeconomics-price-elasticity-marginal-analysis.md) · [Section review](09-section-b-review.md)

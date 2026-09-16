@@ -105,19 +105,82 @@ A stronger approach is:
 5. monitor actual sell-through once the campaign starts;
 6. update supply plans quickly.
 
-## Common confusion
+## Why it matters
 
+The same demand signal can produce conflicting actions when functions receive different versions, units, timing, or confidence.
+
+## Decision logic
+
+Define the audience, decision, aggregation, timing, uncertainty, and feedback route before selecting the dashboard or message. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain audience-decision matrix, approved version, units, horizon, assumptions, exception thresholds, acknowledgement, and feedback. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **communicating demand decision record** with these fields:
+
+- **Decision and boundary:** Define the audience, decision, aggregation, timing, uncertainty, and feedback route before selecting the dashboard or message.
+- **Required evidence:** audience-decision matrix, approved version, units, horizon, assumptions, exception thresholds, acknowledgement, and feedback.
+- **Expected result:** The same demand signal can produce conflicting actions when functions receive different versions, units, timing, or confidence.
+- **Balancing condition:** More detail supports diagnosis but can obscure the decision; greater aggregation improves alignment but can hide mix and local risk.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+More detail supports diagnosis but can obscure the decision; greater aggregation improves alignment but can hide mix and local risk.
+
+## Commonly confused with
 **Data transfer vs. communication:** sending a number through a system is not the same as reaching shared understanding. Demand communication includes assumptions, uncertainty, priorities, and feedback.
 
-## Common mistake
-
+## Common mistakes
 When the main problem is "other parties did not know about a change soon enough," the best answer will often involve earlier, structured communication rather than simply more inventory.
 
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply communicating demand. Which proposal is most defensible?
+
+A. Use communicating demand as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Define the audience, decision, aggregation, timing, uncertainty, and feedback route before selecting the dashboard or message.
+C. Choose the apparent upside without evaluating this balancing condition: More detail supports diagnosis but can obscure the decision; greater aggregation improves alignment but can hide mix and local risk.
+D. Approve the choice without retaining audience-decision matrix, approved version, units, horizon, assumptions, exception thresholds, acknowledgement, and feedback; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Define the audience, decision, aggregation, timing, uncertainty, and feedback route before selecting the dashboard or message.**
+
+### Why it is correct
+
+The same demand signal can produce conflicting actions when functions receive different versions, units, timing, or confidence. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: define the audience, decision, aggregation, timing, uncertainty, and feedback route before selecting the dashboard or message.
+- **C** optimizes one visible result and omits the balancing effects: more detail supports diagnosis but can obscure the decision; greater aggregation improves alignment but can hide mix and local risk.
+- **D** leaves the approval unauditable. A reviewer would be missing audience-decision matrix, approved version, units, horizon, assumptions, exception thresholds, acknowledgement, and feedback, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: more detail supports diagnosis but can obscure the decision; greater aggregation improves alignment but can hide mix and local risk.
+
+</details>
+
+## Practitioner perspective
+
+A review should be able to reconstruct the choice from audience-decision matrix, approved version, units, horizon, assumptions, exception thresholds, acknowledgement, and feedback. If those records cannot explain what changed, who decided, and when the decision will be revisited, the process is not yet controlled.
+
 ## Related concepts
 
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-b-connected-supply-networks-and-master-data/03-advanced-planning-and-constraint-management.md)
 - [Demand manager and dashboard](04-demand-manager-and-dashboard.md)
 - [Demand shaping and the Four Ps](06-demand-shaping-and-four-ps.md)
-
-## Related concepts
-
 Module 1 → Section C → Communicating Demand; Communicate Soon; Structure Communications; Focus Communications.
+
+---
+
+[Previous: Planning Demand and the Demand Plan](02-planning-demand-and-demand-plan.md) · [Next: Demand Manager and Demand-Review Dashboards](04-demand-manager-and-dashboard.md)

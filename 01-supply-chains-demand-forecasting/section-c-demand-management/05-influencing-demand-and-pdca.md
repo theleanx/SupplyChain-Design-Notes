@@ -131,19 +131,82 @@ Instead of launching a nationwide campaign immediately, it uses PDCA:
 - **Check:** 70% of lost opportunities are due to IT-integration concerns, not clinical value.
 - **Act:** add an integration package and technical support before national expansion.
 
-## Common confusion
+## Why it matters
 
+Demand actions consume price, channel, inventory, and customer trust, so they must be treated as controlled experiments rather than assumptions.
+
+## Decision logic
+
+Define the problem and target, test one demand lever with guardrails, compare the outcome with baseline, and adopt, adapt, or stop through PDCA. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain baseline, hypothesis, target segment, action, cost, capacity check, guardrail, measured response, and learning decision. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **influencing demand with PDCA decision record** with these fields:
+
+- **Decision and boundary:** Define the problem and target, test one demand lever with guardrails, compare the outcome with baseline, and adopt, adapt, or stop through PDCA.
+- **Required evidence:** baseline, hypothesis, target segment, action, cost, capacity check, guardrail, measured response, and learning decision.
+- **Expected result:** Demand actions consume price, channel, inventory, and customer trust, so they must be treated as controlled experiments rather than assumptions.
+- **Balancing condition:** A strong intervention can close a gap quickly but may erode margin, pull demand forward, or create a later service problem.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+A strong intervention can close a gap quickly but may erode margin, pull demand forward, or create a later service problem.
+
+## Commonly confused with
 **Influencing demand vs. managing/prioritizing demand:** influencing tries to change customer behavior before or around the constraint. Prioritizing decides how scarce supply is allocated when demand cannot all be served.
 
-## Common mistake
-
+## Common mistakes
 A price incentive, substitution offer, product positioning change, or timed promotion is a classic **demand-shaping** action.
 
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply influencing demand with PDCA. Which proposal is most defensible?
+
+A. Use influencing demand with PDCA as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Define the problem and target, test one demand lever with guardrails, compare the outcome with baseline, and adopt, adapt, or stop through PDCA.
+C. Choose the apparent upside without evaluating this balancing condition: A strong intervention can close a gap quickly but may erode margin, pull demand forward, or create a later service problem.
+D. Approve the choice without retaining baseline, hypothesis, target segment, action, cost, capacity check, guardrail, measured response, and learning decision; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Define the problem and target, test one demand lever with guardrails, compare the outcome with baseline, and adopt, adapt, or stop through PDCA.**
+
+### Why it is correct
+
+Demand actions consume price, channel, inventory, and customer trust, so they must be treated as controlled experiments rather than assumptions. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: define the problem and target, test one demand lever with guardrails, compare the outcome with baseline, and adopt, adapt, or stop through PDCA.
+- **C** optimizes one visible result and omits the balancing effects: A strong intervention can close a gap quickly but may erode margin, pull demand forward, or create a later service problem.
+- **D** leaves the approval unauditable. A reviewer would be missing baseline, hypothesis, target segment, action, cost, capacity check, guardrail, measured response, and learning decision, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: A strong intervention can close a gap quickly but may erode margin, pull demand forward, or create a later service problem.
+
+</details>
+
+## Practitioner perspective
+
+A review should be able to reconstruct the choice from baseline, hypothesis, target segment, action, cost, capacity check, guardrail, measured response, and learning decision. If those records cannot explain what changed, who decided, and when the decision will be revisited, the process is not yet controlled.
+
 ## Related concepts
 
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-b-connected-supply-networks-and-master-data/03-advanced-planning-and-constraint-management.md)
 - [Demand shaping and the Four Ps](06-demand-shaping-and-four-ps.md)
 - [Product life cycle](07-product-life-cycle.md)
-
-## Related concepts
-
 Module 1 → Section C → Influencing Demand; Plan-Do-Check-Action Model; Demand Influencing: Demand Generation.
+
+---
+
+[Previous: Demand Manager and Demand-Review Dashboards](04-demand-manager-and-dashboard.md) · [Next: Demand Shaping and the Four Ps](06-demand-shaping-and-four-ps.md)

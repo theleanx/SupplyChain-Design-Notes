@@ -84,12 +84,85 @@ NorthStar sells pumps into municipal water, food processing, and chemicals. Sale
 
 For S&OP, the company creates three common planning families based on similar capacity consumption and commercial relevance. Sales can still use its own market segmentation for selling, but the S&OP numbers reconcile to the common family structure.
 
+## Why it matters
+
+S&OP breaks down when functions provide incompatible inputs or leave the meeting with different interpretations of the approved plan.
+
+## Decision logic
+
+Define an input-output contract for commercial, planning, operations, procurement, finance, product, and executive roles. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain RACI, input definition and due date, source system, unit and horizon, output decision, recipient, acknowledgement, and escalation. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **S&OP inputs, outputs, and functional interfaces decision record** with these fields:
+
+- **Decision and boundary:** Define an input-output contract for commercial, planning, operations, procurement, finance, product, and executive roles.
+- **Required evidence:** RACI, input definition and due date, source system, unit and horizon, output decision, recipient, acknowledgement, and escalation.
+- **Expected result:** S&OP breaks down when functions provide incompatible inputs or leave the meeting with different interpretations of the approved plan.
+- **Balancing condition:** Broader participation improves decision quality, but unclear decision rights create review cycles without ownership.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Broader participation improves decision quality, but unclear decision rights create review cycles without ownership.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Define an input-output contract for commercial, planning, operations, procurement, finance, product, and executive roles. Validate the result with RACI, input definition and due date, source system, unit and horizon, output decision, recipient, acknowledgement, and escalation; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Finance is not only a scorekeeper after S&OP; financial feasibility is part of reconciliation.
 - Sales should not make commitments beyond the agreed plan without an exception process.
 - Different departments may use different internal groupings, but the integrated S&OP process needs a common planning structure.
 
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply S&OP inputs, outputs, and functional interfaces. Which proposal is most defensible?
+
+A. Use S&OP inputs, outputs, and functional interfaces as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Define an input-output contract for commercial, planning, operations, procurement, finance, product, and executive roles.
+C. Choose the apparent upside without evaluating this balancing condition: Broader participation improves decision quality, but unclear decision rights create review cycles without ownership.
+D. Approve the choice without retaining RACI, input definition and due date, source system, unit and horizon, output decision, recipient, acknowledgement, and escalation; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Define an input-output contract for commercial, planning, operations, procurement, finance, product, and executive roles.**
+
+### Why it is correct
+
+S&OP breaks down when functions provide incompatible inputs or leave the meeting with different interpretations of the approved plan. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: define an input-output contract for commercial, planning, operations, procurement, finance, product, and executive roles.
+- **C** optimizes one visible result and omits the balancing effects: broader participation improves decision quality, but unclear decision rights create review cycles without ownership.
+- **D** leaves the approval unauditable. A reviewer would be missing RACI, input definition and due date, source system, unit and horizon, output decision, recipient, acknowledgement, and escalation, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: broader participation improves decision quality, but unclear decision rights create review cycles without ownership.
+
+</details>
+
+## Practitioner perspective
+
+A review should be able to reconstruct the choice from RACI, input definition and due date, source system, unit and horizon, output decision, recipient, acknowledgement, and escalation. If those records cannot explain what changed, who decided, and when the decision will be revisited, the process is not yet controlled.
+
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-a-network-design-and-technology-investment/03-network-configuration-and-flow-design.md)
 Module 1 → Section E → S&OP Inputs and Outputs / Functional Responsibilities. Table and scenario are original.
+
+---
+
+[Previous: Supply Review and the Production Plan](05-supply-review-and-production-plan.md) · [Next: Level, Chase, and Hybrid Operations Strategies](07-level-chase-hybrid-strategies.md)

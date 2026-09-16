@@ -54,6 +54,38 @@ Identity-centered verification, least privilege, and continuous evaluation are c
 
 A logistics provider account can download shipment data for all regions even though it serves one country. AsterWorks changes access to region-scoped service identities, separates human and system credentials, limits export volume, and alerts on unusual queries.
 
+## Why it matters
+
+A connected partner or application can become an operational interruption, data-loss, fraud, safety, or recovery pathway.
+
+## Decision logic
+
+Classify critical services and data, assess controls, limit access, monitor activity, test recovery, manage vulnerabilities, and preserve an exit route. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain asset and dependency inventory, access model, security evidence, monitoring, incident duties, recovery test, residual risk, and exception approval. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **cybersecurity and third-party risk decision record** with these fields:
+
+- **Decision and boundary:** Classify critical services and data, assess controls, limit access, monitor activity, test recovery, manage vulnerabilities, and preserve an exit route.
+- **Required evidence:** asset and dependency inventory, access model, security evidence, monitoring, incident duties, recovery test, residual risk, and exception approval.
+- **Expected result:** A connected partner or application can become an operational interruption, data-loss, fraud, safety, or recovery pathway.
+- **Balancing condition:** Stronger controls reduce exposure but can slow onboarding, increase operating effort, and constrain information sharing.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Stronger controls reduce exposure but can slow onboarding, increase operating effort, and constrain information sharing.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Classify critical services and data, assess controls, limit access, monitor activity, test recovery, manage vulnerabilities, and preserve an exit route. Validate the result with asset and dependency inventory, access model, security evidence, monitoring, incident duties, recovery test, residual risk, and exception approval; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Treating a questionnaire as continuous third-party risk management.
@@ -66,11 +98,40 @@ A logistics provider account can download shipment data for all regions even tho
 
 Why is restoring an interface endpoint insufficient after a cyber incident?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 Messages may be missing, duplicated, altered, or processed out of sequence. Business state and downstream effects must be reconciled before recovery is complete.
+
+### Why it is correct
+
+A connected partner or application can become an operational interruption, data-loss, fraud, safety, or recovery pathway. Classify critical services and data, assess controls, limit access, monitor activity, test recovery, manage vulnerabilities, and preserve an exit route.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Treating a questionnaire as continuous third-party risk management.
+- Sharing administrator credentials.
+- Protecting applications while ignoring integration credentials and devices.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: Stronger controls reduce exposure but can slow onboarding, increase operating effort, and constrain information sharing.
+
 </details>
+
+## Practitioner perspective
+
+Use asset and dependency inventory, access model, security evidence, monitoring, incident duties, recovery test, residual risk, and exception approval as the minimum review record. The artifact should let another practitioner reproduce the conclusion, identify the remaining exposure, and know which trigger reopens the decision.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/01-purchasing-flow-and-selection-routes.md)
 Continue to [master-data domains and lifecycle](15-master-data-domains-and-lifecycle.md).
+
+---
+
+[Previous: Legal, Privacy, and Contract Controls](13-legal-privacy-and-contract-controls.md) · [Next: Master-Data Domains and Lifecycle](15-master-data-domains-and-lifecycle.md)

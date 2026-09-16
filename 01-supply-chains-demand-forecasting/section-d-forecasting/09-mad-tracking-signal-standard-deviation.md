@@ -12,6 +12,8 @@ You should be able to:
 
 ## Mean absolute deviation (MAD)
 
+The worked error series is available in [`forecast-error-example.csv`](../../assets/data/module-1/section-d/forecast-error-example.csv); the same signed-error convention is used throughout this lesson.
+
 MAD measures the average magnitude of forecast error without regard to direction.
 
 Formula:
@@ -127,6 +129,38 @@ More safety stock
 Lower stockout risk but higher inventory cost
 ```
 
+## Why it matters
+
+Confusing bias measures with variability measures leads either to unnecessary buffers or continued systematic under- or overforecasting.
+
+## Decision logic
+
+Calculate MAD and cumulative signed error consistently, interpret the tracking signal, align variability to lead time, and set safety stock with an explicit service factor. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain error series and convention, MAD, cumulative error, tracking limit, lead-time variability, service factor, units, and approval. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **MAD, tracking signal, standard deviation, and safety stock decision record** with these fields:
+
+- **Decision and boundary:** Calculate MAD and cumulative signed error consistently, interpret the tracking signal, align variability to lead time, and set safety stock with an explicit service factor.
+- **Required evidence:** error series and convention, MAD, cumulative error, tracking limit, lead-time variability, service factor, units, and approval.
+- **Expected result:** Confusing bias measures with variability measures leads either to unnecessary buffers or continued systematic under- or overforecasting.
+- **Balancing condition:** Higher safety stock protects service but increases cash, space, obsolescence, and the risk of masking a biased plan.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Higher safety stock protects service but increases cash, space, obsolescence, and the risk of masking a biased plan.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Calculate MAD and cumulative signed error consistently, interpret the tracking signal, align variability to lead time, and set safety stock with an explicit service factor. Validate the result with error series and convention, MAD, cumulative error, tracking limit, lead-time variability, service factor, units, and approval; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Tracking signal uses **signed cumulative error**, not absolute error.
@@ -134,6 +168,49 @@ Lower stockout risk but higher inventory cost
 - Standard deviation and MAD are not identical.
 - Higher customer service normally requires more inventory protection, all else equal.
 
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply MAD, tracking signal, standard deviation, and safety stock. Which proposal is most defensible?
+
+A. Use MAD, tracking signal, standard deviation, and safety stock as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Calculate MAD and cumulative signed error consistently, interpret the tracking signal, align variability to lead time, and set safety stock with an explicit service factor.
+C. Choose the apparent upside without evaluating this balancing condition: Higher safety stock protects service but increases cash, space, obsolescence, and the risk of masking a biased plan.
+D. Approve the choice without retaining error series and convention, MAD, cumulative error, tracking limit, lead-time variability, service factor, units, and approval; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Calculate MAD and cumulative signed error consistently, interpret the tracking signal, align variability to lead time, and set safety stock with an explicit service factor.**
+
+### Why it is correct
+
+Confusing bias measures with variability measures leads either to unnecessary buffers or continued systematic under- or overforecasting. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: calculate MAD and cumulative signed error consistently, interpret the tracking signal, align variability to lead time, and set safety stock with an explicit service factor.
+- **C** optimizes one visible result and omits the balancing effects: higher safety stock protects service but increases cash, space, obsolescence, and the risk of masking a biased plan.
+- **D** leaves the approval unauditable. A reviewer would be missing error series and convention, MAD, cumulative error, tracking limit, lead-time variability, service factor, units, and approval, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: higher safety stock protects service but increases cash, space, obsolescence, and the risk of masking a biased plan.
+
+</details>
+
+## Practitioner perspective
+
+A review should be able to reconstruct the choice from error series and convention, MAD, cumulative error, tracking limit, lead-time variability, service factor, units, and approval. If those records cannot explain what changed, who decided, and when the decision will be revisited, the process is not yet controlled.
+
 ## Related concepts
 
+
+
+- [Forecasting formula sheet](../../calculations/forecasting/formula-sheet.md)
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-c-performance-and-financial-insight/01-measurement-system-design.md)
 Module 1 → Section D → MAD / Tracking Signal / Standard Deviation / Safety Factor. Numerical values and visuals are original.
+
+---
+
+[Previous: Forecast Error, Accuracy, Bias, and Random Variation](08-forecast-error-bias-random-variation.md) · [Next: MSE, MAPE, and Choosing an Error Measure](10-mse-mape-and-error-measures.md)

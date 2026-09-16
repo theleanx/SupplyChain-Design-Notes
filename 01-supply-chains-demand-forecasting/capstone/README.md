@@ -145,6 +145,130 @@ Prepare a decision note of no more than 250 words containing:
 5. one leading indicator and one lagging indicator; and
 6. a clearly stated decision required from leadership.
 
+## Decision checks
+
+### 1. Statistical forecast versus approved demand plan
+
+Must NorthStar's approved demand plan equal the statistical forecast?
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**No.** The forecast is the evidence-based starting point; the demand plan may include a
+controlled adjustment supported by new commercial evidence.
+
+### Why it is correct
+
+Forecast and plan answer different questions. Any override needs a quantified effect,
+source, owner, review date, and later accuracy assessment.
+
+### Why the other answers are wrong
+
+Automatically accepting the model ignores information outside history; silently changing
+the number removes accountability and makes forecast-performance learning unreliable.
+
+</details>
+
+### 2. MAPE versus bias
+
+Can the recent 4.10% MAPE alone prove that the forecast is healthy?
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**No.** Every recent error is positive and the tracking signal is +4.0 under the stated
+error convention, indicating sustained underforecasting.
+
+### Why it is correct
+
+MAPE measures relative magnitude; cumulative signed error and tracking signal reveal
+direction. Both perspectives are required.
+
+### Why the other answers are wrong
+
+Low percentage error can coexist with persistent bias, while tracking signal alone does
+not describe the absolute size or customer consequence of misses.
+
+</details>
+
+### 3. Inventory-floor feasibility
+
+May a response be recommended if one month falls below the approved 150-unit inventory
+floor but its quarterly cost is lowest?
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**Not without an approved exception.** The floor is a feasibility condition before cost
+ranking.
+
+### Why it is correct
+
+The policy represents service and uncertainty protection. A lower-cost plan that violates
+it is not comparable until leadership changes the boundary with explicit risk.
+
+### Why the other answers are wrong
+
+A quarterly total can hide a monthly exposure; assigning the floor a low weight would
+convert a mandatory condition into a preference without approval.
+
+</details>
+
+### 4. Flexible-demand movement
+
+Does moving 80 March units to April eliminate the demand-supply problem?
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**Only if customers agree and April capacity is protected.** Otherwise the action merely
+moves backlog into the next period.
+
+### Why it is correct
+
+The response must preserve the customer promise and reconcile the receiving period, not
+only improve March arithmetic.
+
+### Why the other answers are wrong
+
+Treating all demand as flexible ignores customer consequence; moving volume without an
+April capacity reservation hides rather than resolves the constraint.
+
+</details>
+
+### 5. Supplier confirmation
+
+Should the control-kit supplier's nominal monthly capacity be treated as guaranteed
+available supply?
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**No.** NorthStar needs dated confirmation, quality status, allocation assumptions, lead
+time, and an escalation or recovery route.
+
+### Why it is correct
+
+Nominal capacity does not establish the quantity committed to NorthStar or the probability
+of conforming, on-time supply.
+
+### Why the other answers are wrong
+
+Assuming full availability ignores competing demand and execution loss; adding inventory
+without validating supply may create a plan that cannot be built.
+
+</details>
+
 ## Deliverable checklist
 
 - [ ] Network risks are linked to business consequences

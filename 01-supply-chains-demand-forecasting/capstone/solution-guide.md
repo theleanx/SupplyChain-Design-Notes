@@ -2,6 +2,12 @@
 
 This guide demonstrates one defensible approach to the NorthStar planning decision. A different recommendation can be equally strong when its assumptions, calculations, trade-offs, and triggers are explicit.
 
+## Executive recommendation
+
+Approve the 4,100-unit Q1 demand plan conditionally and use the capacity-plus-controlled-demand-movement response. The plan combines 1,150 units of normal monthly output, 100 monthly overtime units, no more than 200 units of external finishing, and an agreed movement of 80 flexible March units to April. It maintains the 150-unit finished-goods floor at an incremental cost of **$29,600**, which is $4,000 below the feasible no-movement response.
+
+Approval depends on verified framework-agreement timing, weekly electronic-control-kit confirmation, customer consent for moved demand, protected April capacity, and qualified external-finishing performance. Commercial owns agreement conversion and customer consent; procurement owns kit confirmation and recovery; operations owns output, inventory, and external quality. Any failed condition reopens the plan rather than becoming an informal expedite.
+
 ## 1. Supply-network diagnosis
 
 The primary vulnerability is the single-source electronic control kit. The monthly allocation supports the proposed plan, but February demand consumes the full available quantity and March retains only 20 units of theoretical headroom. A late shipment, quality hold, or yield loss would therefore affect customer service quickly.
@@ -98,4 +104,32 @@ The second response saves **$4,000** versus Response A and creates more March su
 
 The statistical forecast, commercial plan, and supply plan answer different questions. Strong planning does not force them to match silently; it makes the differences visible, assigns assumptions, evaluates feasible responses, and records the executive decision.
 
-Return to the [capstone](README.md), the [Module 1 overview](../README.md), or the [forecasting formula sheet](../../calculations/forecasting/formula-sheet.md).
+## Sensitivity and failure cases
+
+The preferred response changes under several plausible conditions:
+
+- **Customer movement is rejected.** Restore the 80 March units and use Response A. Incremental cost rises from $29,600 to **$33,600**, so the economic advantage disappears even though the plan remains arithmetically feasible.
+- **The electronic-kit source loses effective capacity.** February already uses the full stated 1,360-unit allocation and March has only 20 units of nominal headroom. A delay, hold, or yield loss therefore triggers allocation, approved inventory use, or plan reduction; it cannot be hidden inside the forecast.
+- **Commercial evidence weakens.** If agreement start dates or probability-weighted volumes no longer support 4,100 units, return to the statistical baseline and rebuild the monthly mix rather than preserving an unsupported override.
+- **April cannot absorb the shifted units.** The movement is not a solution unless April capacity, component supply, and customer dates are protected. Otherwise use the no-movement response or reopen the quarterly demand decision.
+
+The planning record should state these triggers before approval so that a later change is governed replanning, not a silent exception.
+
+## Implementation roadmap
+
+| Timing | Required action and evidence | Accountable owner | Gate or trigger |
+|---|---|---|---|
+| Before Q1 release | validate agreement start dates, customer flexibility, component allocations, external-finisher capacity, and the 150-unit inventory rule | commercial, procurement, operations, finance | release only when assumptions have dated evidence and owners |
+| Weekly during Q1 | reconcile firm demand, cancellations, supplier-confirmed kits, output, external quality, and projected ending inventory | demand manager and supply-planning lead | reopen when a material assumption breaches its approved tolerance |
+| Month end | compare baseline forecast, approved plan, actual demand, incremental cost, fill rate, and moved-order performance | S&OP owner and finance | continue, correct, or escalate with a documented cause and action |
+| Q1 close | measure bias, service, inventory, supplier reliability, and realized response cost; update the next-cycle assumptions | executive S&OP team | retain the policy only when outcomes support it |
+
+## Evaluation rubric
+
+| Level | Evidence of completion |
+|---|---|
+| Incomplete | reports a forecast or preferred plan without reproducing the error measures, monthly inventory balance, cost, assumptions, or owners |
+| Competent | reproduces the calculations, selects a feasible response, states the main trade-offs, and assigns the critical assumptions and risks |
+| Excellent | also tests a decision-changing case, preserves forecast-versus-plan lineage, completes an executable decision record, and defines the evidence that authorizes continuation, correction, or escalation |
+
+Return to the [capstone](README.md), the [Module 1 overview](../README.md), or the [forecasting formula sheet](../../calculations/forecasting/formula-sheet.md). Continue into [Module 2: Network Design, Digital Connectivity, and Performance](../../02-network-design-digital-connectivity-performance/README.md) to convert the approved demand and supply requirements into network, technology, data, and performance decisions.

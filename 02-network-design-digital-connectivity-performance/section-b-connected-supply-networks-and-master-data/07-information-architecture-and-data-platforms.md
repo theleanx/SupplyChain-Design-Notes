@@ -52,6 +52,38 @@ AsterWorks has three definitions of “requested delivery date.” One reflects 
 
 The architecture preserves each date with its meaning and change history. Reports can then explain whether performance missed the original request, the accepted promise, or the latest plan.
 
+## Why it matters
+
+Data copied without ownership, semantics, lineage, and timing can make every application technically connected but operationally inconsistent.
+
+## Decision logic
+
+Assign authoritative records, define integration and analytical copies, preserve lineage and meaning, and match data freshness to the consuming decision. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain business object and definition, authoritative source, lineage, refresh, transformation, access, retention, quality rule, and owner. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **information architecture and data platforms decision record** with these fields:
+
+- **Decision and boundary:** Assign authoritative records, define integration and analytical copies, preserve lineage and meaning, and match data freshness to the consuming decision.
+- **Required evidence:** business object and definition, authoritative source, lineage, refresh, transformation, access, retention, quality rule, and owner.
+- **Expected result:** Data copied without ownership, semantics, lineage, and timing can make every application technically connected but operationally inconsistent.
+- **Balancing condition:** Centralized data improves consistency and governance, while distributed ownership can improve domain accountability and speed.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Centralized data improves consistency and governance, while distributed ownership can improve domain accountability and speed.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Assign authoritative records, define integration and analytical copies, preserve lineage and meaning, and match data freshness to the consuming decision. Validate the result with business object and definition, authoritative source, lineage, refresh, transformation, access, retention, quality rule, and owner; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Treating a data lake or warehouse as a substitute for ownership.
@@ -64,11 +96,40 @@ The architecture preserves each date with its meaning and change history. Report
 
 Can an analytical platform hold the most useful consolidated view while another application remains authoritative for individual fields?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 **Yes.** Consolidated consumption and authoritative maintenance are different responsibilities, provided lineage and synchronization are controlled.
+
+### Why it is correct
+
+Data copied without ownership, semantics, lineage, and timing can make every application technically connected but operationally inconsistent. Assign authoritative records, define integration and analytical copies, preserve lineage and meaning, and match data freshness to the consuming decision.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Treating a data lake or warehouse as a substitute for ownership.
+- Using one field for multiple business meanings.
+- Moving data without lineage or effective dates.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: Centralized data improves consistency and governance, while distributed ownership can improve domain accountability and speed.
+
 </details>
+
+## Practitioner perspective
+
+Use business object and definition, authoritative source, lineage, refresh, transformation, access, retention, quality rule, and owner as the minimum review record. The artifact should let another practitioner reproduce the conclusion, identify the remaining exposure, and know which trigger reopens the decision.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/01-purchasing-flow-and-selection-routes.md)
 Continue to [cloud, SaaS, and deployment choices](08-cloud-saas-and-deployment-choices.md).
+
+---
+
+[Previous: Transportation Management Systems](06-transportation-management-systems.md) · [Next: Cloud, SaaS, and Deployment Choices](08-cloud-saas-and-deployment-choices.md)

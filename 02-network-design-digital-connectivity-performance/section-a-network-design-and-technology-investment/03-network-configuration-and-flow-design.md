@@ -81,6 +81,38 @@ Include costs that change among alternatives:
 
 Avoid treating sunk costs as future differences. Document constraints separately from preferences so the model does not reject feasible options merely because the current process is familiar.
 
+## Why it matters
+
+Facility choices alter transportation, inventory, lead time, duty, fixed cost, resilience, and information requirements at the same time.
+
+## Decision logic
+
+Define feasible alternatives, calculate comparable economics and service, apply mandatory constraints, then test weighted results under changed assumptions. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain alternative definition, flow map, volumes, costs, inventory days, service and resilience scores, constraints, weights, and sensitivity. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **network configuration and flow design decision record** with these fields:
+
+- **Decision and boundary:** Define feasible alternatives, calculate comparable economics and service, apply mandatory constraints, then test weighted results under changed assumptions.
+- **Required evidence:** alternative definition, flow map, volumes, costs, inventory days, service and resilience scores, constraints, weights, and sensitivity.
+- **Expected result:** Facility choices alter transportation, inventory, lead time, duty, fixed cost, resilience, and information requirements at the same time.
+- **Balancing condition:** Additional regional nodes shorten response and improve recovery options but duplicate inventory, cost, processes, and governance.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Additional regional nodes shorten response and improve recovery options but duplicate inventory, cost, processes, and governance.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Define feasible alternatives, calculate comparable economics and service, apply mandatory constraints, then test weighted results under changed assumptions. Validate the result with alternative definition, flow map, volumes, costs, inventory days, service and resilience scores, constraints, weights, and sensitivity; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Modeling only forward product flow.
@@ -89,19 +121,46 @@ Avoid treating sunk costs as future differences. Document constraints separately
 - Treating a weighted score as objective truth.
 - Ignoring transition cost and time.
 
-## Practitioner perspective
-
-Run at least three scenarios: expected demand, upside demand, and a plausible disruption. An alternative that wins only under one precise forecast is fragile even when its base-case cost is attractive.
-
 ## Original knowledge check
 
 A regional warehouse reduces customer transit time but requires duplicating slow-moving finished goods. Which additional design should be tested?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 Test **postponement**: hold common modules regionally and delay final configuration until demand is known. This may preserve response while reducing finished-goods variety exposure.
+
+### Why it is correct
+
+Facility choices alter transportation, inventory, lead time, duty, fixed cost, resilience, and information requirements at the same time. Define feasible alternatives, calculate comparable economics and service, apply mandatory constraints, then test weighted results under changed assumptions.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Modeling only forward product flow.
+- Using average demand without peak, growth, or disruption scenarios.
+- Counting facility savings but not inventory and transportation effects.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: Additional regional nodes shorten response and improve recovery options but duplicate inventory, cost, processes, and governance.
+
 </details>
+
+## Practitioner perspective
+
+Run at least three scenarios: expected demand, upside demand, and a plausible disruption. An alternative that wins only under one precise forecast is fragile even when its base-case cost is attractive.
 
 ## Related concepts
 
+
+
+- [Network and performance formula sheet](../../calculations/network-performance/formula-sheet.md)
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-a-sourcing-alignment-and-total-cost/01-strategic-sourcing-from-demand.md)
 Continue to [efficiency, responsiveness, and resilience](04-efficiency-responsiveness-resilience.md).
+
+---
+
+[Previous: Market Segmentation and Service Choices](02-market-segmentation-and-service-choices.md) · [Next: Efficiency, Responsiveness, and Resilience](04-efficiency-responsiveness-resilience.md)

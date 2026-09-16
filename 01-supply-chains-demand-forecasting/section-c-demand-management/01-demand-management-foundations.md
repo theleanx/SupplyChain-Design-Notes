@@ -57,7 +57,6 @@ flowchart TD
 
 The purpose is not to create volume at any cost. The goal is profitable demand that the supply chain can serve.
 
-
 ## How the components link together
 
 The components are iterative rather than one-time handoffs.
@@ -116,6 +115,10 @@ NorthStar sells industrial pumps.
 - NorthStar's strongest differentiator is a 48-hour swap-out program for critical pumps. That is an **order winner** for some segments.
 - During a supplier shortage, NorthStar promotes models using available motors rather than pushing every customer toward the constrained model. That is **influencing demand**.
 
+## Why it matters
+
+Uncoordinated forecasting, commercial activity, and supply response create promises that capacity, inventory, or profitability cannot support.
+
 ## Decision logic
 
 When you see a scenario, ask:
@@ -125,16 +128,76 @@ When you see a scenario, ask:
 3. Is it trying to **change customer behavior**? → influencing.
 4. Is it deciding **who gets limited supply**? → managing/prioritizing.
 
-## Common mistake
+## Evidence retained through the workflow
 
+Retain baseline forecast, commercial assumptions, constraints, approved demand actions, owners, customer effect, and outcome measures. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **demand management foundations decision record** with these fields:
+
+- **Decision and boundary:** Run demand management as a closed loop that senses demand, develops a consensus plan, influences feasible demand, and measures outcomes.
+- **Required evidence:** baseline forecast, commercial assumptions, constraints, approved demand actions, owners, customer effect, and outcome measures.
+- **Expected result:** Uncoordinated forecasting, commercial activity, and supply response create promises that capacity, inventory, or profitability cannot support.
+- **Balancing condition:** Influencing demand can protect service and margin but may shift customers, channels, or revenue in unintended ways.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Influencing demand can protect service and margin but may shift customers, channels, or revenue in unintended ways.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Run demand management as a closed loop that senses demand, develops a consensus plan, influences feasible demand, and measures outcomes. Validate the result with baseline forecast, commercial assumptions, constraints, approved demand actions, owners, customer effect, and outcome measures; the evidence, not the method's label, determines whether the choice worked.
+
+## Common mistakes
 Do not treat demand management as another name for forecasting. Forecasting is an input. Demand management is the broader balancing process.
+
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply demand management foundations. Which proposal is most defensible?
+
+A. Use demand management foundations as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Run demand management as a closed loop that senses demand, develops a consensus plan, influences feasible demand, and measures outcomes.
+C. Choose the apparent upside without evaluating this balancing condition: Influencing demand can protect service and margin but may shift customers, channels, or revenue in unintended ways.
+D. Approve the choice without retaining baseline forecast, commercial assumptions, constraints, approved demand actions, owners, customer effect, and outcome measures; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Run demand management as a closed loop that senses demand, develops a consensus plan, influences feasible demand, and measures outcomes.**
+
+### Why it is correct
+
+Uncoordinated forecasting, commercial activity, and supply response create promises that capacity, inventory, or profitability cannot support. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: run demand management as a closed loop that senses demand, develops a consensus plan, influences feasible demand, and measures outcomes.
+- **C** optimizes one visible result and omits the balancing effects: influencing demand can protect service and margin but may shift customers, channels, or revenue in unintended ways.
+- **D** leaves the approval unauditable. A reviewer would be missing baseline forecast, commercial assumptions, constraints, approved demand actions, owners, customer effect, and outcome measures, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: influencing demand can protect service and margin but may shift customers, channels, or revenue in unintended ways.
+
+</details>
+
+## Practitioner perspective
+
+A review should be able to reconstruct the choice from baseline forecast, commercial assumptions, constraints, approved demand actions, owners, customer effect, and outcome measures. If those records cannot explain what changed, who decided, and when the decision will be revisited, the process is not yet controlled.
 
 ## Related concepts
 
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-b-connected-supply-networks-and-master-data/03-advanced-planning-and-constraint-management.md)
 - [Planning demand and the demand plan](02-planning-demand-and-demand-plan.md)
 - [Influencing demand with PDCA](05-influencing-demand-and-pdca.md)
 - [Demand shaping and the Four Ps](06-demand-shaping-and-four-ps.md)
-
-## Related concepts
-
 Module 1 → Section C → Demand Management / Demand Management Road Map. Wording, examples, and visuals are original.
+
+---
+
+[Section overview](README.md) · [Next: Planning Demand and the Demand Plan](02-planning-demand-and-demand-plan.md)

@@ -1,5 +1,13 @@
 # 6. Macroeconomic Demand Patterns
 
+## Learning objectives
+
+You should be able to:
+
+- explain the operating logic behind macroeconomic demand patterns;
+- apply the lesson to a realistic planning or supply-chain decision; and
+- identify the evidence, trade-off, and trigger needed for responsible use.
+
 ## Concept in plain English
 
 Macroeconomics looks at the **economy as a whole**. Supply-chain managers use it to form a strategic view of what may happen to industry demand, input availability, prices, investment, and capacity — not to predict one SKU directly.
@@ -68,14 +76,81 @@ A company selling warehouse automation equipment sees low current orders, but bu
 
 A risk-seeking company might use the weak labor market to hire scarce engineering talent before demand fully recovers. A conservative company may wait for stronger confirmation. The strategic choice depends on risk posture, but the important idea is that **leading indicators can turn before current output does**.
 
-## Common confusion
+## Why it matters
 
+Inflation, interest rates, output, employment, and business cycles can alter volume, mix, timing, and customer affordability before internal orders reveal the change.
+
+## Decision logic
+
+Select indicators with a plausible causal path and lead time, test their historical relationship, and use scenarios instead of mechanical extrapolation. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain indicator definition and vintage, causal hypothesis, lag, historical fit, scenario range, affected families, and review trigger. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **macroeconomic demand patterns decision record** with these fields:
+
+- **Decision and boundary:** Select indicators with a plausible causal path and lead time, test their historical relationship, and use scenarios instead of mechanical extrapolation.
+- **Required evidence:** indicator definition and vintage, causal hypothesis, lag, historical fit, scenario range, affected families, and review trigger.
+- **Expected result:** Inflation, interest rates, output, employment, and business cycles can alter volume, mix, timing, and customer affordability before internal orders reveal the change.
+- **Balancing condition:** Leading indicators offer earlier warning but can revise, decouple, or signal conditions that do not affect the target market.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Leading indicators offer earlier warning but can revise, decouple, or signal conditions that do not affect the target market.
+
+## Commonly confused with
 **Macroeconomics is not a direct SKU forecast.** An expanding economy may help overall demand while a specific product still declines because it is obsolete, overpriced, or losing to a substitute.
 
-## Common mistake
-
+## Common mistakes
 If the question describes economy-wide behavior — GDP, inflation, aggregate employment, national interest rates — think **macroeconomics**, not microeconomics.
+
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply macroeconomic demand patterns. Which proposal is most defensible?
+
+A. Use macroeconomic demand patterns as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Select indicators with a plausible causal path and lead time, test their historical relationship, and use scenarios instead of mechanical extrapolation.
+C. Choose the apparent upside without evaluating this balancing condition: Leading indicators offer earlier warning but can revise, decouple, or signal conditions that do not affect the target market.
+D. Approve the choice without retaining indicator definition and vintage, causal hypothesis, lag, historical fit, scenario range, affected families, and review trigger; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Select indicators with a plausible causal path and lead time, test their historical relationship, and use scenarios instead of mechanical extrapolation.**
+
+### Why it is correct
+
+Inflation, interest rates, output, employment, and business cycles can alter volume, mix, timing, and customer affordability before internal orders reveal the change. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: select indicators with a plausible causal path and lead time, test their historical relationship, and use scenarios instead of mechanical extrapolation.
+- **C** optimizes one visible result and omits the balancing effects: leading indicators offer earlier warning but can revise, decouple, or signal conditions that do not affect the target market.
+- **D** leaves the approval unauditable. A reviewer would be missing indicator definition and vintage, causal hypothesis, lag, historical fit, scenario range, affected families, and review trigger, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: leading indicators offer earlier warning but can revise, decouple, or signal conditions that do not affect the target market.
+
+</details>
+
+## Practitioner perspective
+
+A review should be able to reconstruct the choice from indicator definition and vintage, causal hypothesis, lag, historical fit, scenario range, affected families, and review trigger. If those records cannot explain what changed, who decided, and when the decision will be revisited, the process is not yet controlled.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-a-network-design-and-technology-investment/02-market-segmentation-and-service-choices.md)
 Module 1 → Section B → Macroeconomic Demand Patterns, Economic Cycles, Inflation/Deflation, Economic Metrics. Graphic and examples are original.
+
+---
+
+[Previous: Product Life Cycle, Services, and New-Product Implications](05-product-life-cycle-and-services.md) · [Next: Microeconomics, Price Elasticity, and Marginal Analysis](07-microeconomics-price-elasticity-marginal-analysis.md)

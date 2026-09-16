@@ -118,14 +118,81 @@ Example:
 
 If judgment repeatedly makes the forecast worse, the adjustment process needs to change.
 
-## Common confusion
+## Why it matters
 
+New products, disruptions, and structural change often lack stable history, while expert judgment alone is vulnerable to bias and influence.
+
+## Decision logic
+
+Use a documented qualitative method, independent inputs where possible, explicit scenarios, and a controlled rule for combining judgment with data. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain expert selection, evidence supplied, independent estimates, scenario assumptions, combination weights, dissent, and later accuracy. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **qualitative and combination forecasting methods decision record** with these fields:
+
+- **Decision and boundary:** Use a documented qualitative method, independent inputs where possible, explicit scenarios, and a controlled rule for combining judgment with data.
+- **Required evidence:** expert selection, evidence supplied, independent estimates, scenario assumptions, combination weights, dissent, and later accuracy.
+- **Expected result:** New products, disruptions, and structural change often lack stable history, while expert judgment alone is vulnerable to bias and influence.
+- **Balancing condition:** Judgment captures information outside the data but can introduce optimism, anchoring, hierarchy, and double counting.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Judgment captures information outside the data but can introduce optimism, anchoring, hierarchy, and double counting.
+
+## Commonly confused with
 **Qualitative** does not mean “guessing.” A good qualitative forecast uses structured expert information and explicit assumptions.
 
-## Common mistake
-
+## Common mistakes
 When a new product has little or no historical demand, a purely time-series method is usually weak. Start with expert judgment, analogs, market research, or another appropriate qualitative approach.
+
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply qualitative and combination forecasting methods. Which proposal is most defensible?
+
+A. Use qualitative and combination forecasting methods as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Use a documented qualitative method, independent inputs where possible, explicit scenarios, and a controlled rule for combining judgment with data.
+C. Choose the apparent upside without evaluating this balancing condition: Judgment captures information outside the data but can introduce optimism, anchoring, hierarchy, and double counting.
+D. Approve the choice without retaining expert selection, evidence supplied, independent estimates, scenario assumptions, combination weights, dissent, and later accuracy; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Use a documented qualitative method, independent inputs where possible, explicit scenarios, and a controlled rule for combining judgment with data.**
+
+### Why it is correct
+
+New products, disruptions, and structural change often lack stable history, while expert judgment alone is vulnerable to bias and influence. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: use a documented qualitative method, independent inputs where possible, explicit scenarios, and a controlled rule for combining judgment with data.
+- **C** optimizes one visible result and omits the balancing effects: judgment captures information outside the data but can introduce optimism, anchoring, hierarchy, and double counting.
+- **D** leaves the approval unauditable. A reviewer would be missing expert selection, evidence supplied, independent estimates, scenario assumptions, combination weights, dissent, and later accuracy, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: judgment captures information outside the data but can introduce optimism, anchoring, hierarchy, and double counting.
+
+</details>
+
+## Practitioner perspective
+
+A review should be able to reconstruct the choice from expert selection, evidence supplied, independent estimates, scenario assumptions, combination weights, dissent, and later accuracy. If those records cannot explain what changed, who decided, and when the decision will be revisited, the process is not yet controlled.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-c-performance-and-financial-insight/01-measurement-system-design.md)
 Module 1 → Section D → Qualitative and Combination Methods. Wording, examples, and diagrams are original.
+
+---
+
+[Previous: Forecasting Principles and Process](01-forecasting-principles-and-process.md) · [Next: Time-Series Forecasting and Method Selection](03-time-series-forecasting-and-method-selection.md)

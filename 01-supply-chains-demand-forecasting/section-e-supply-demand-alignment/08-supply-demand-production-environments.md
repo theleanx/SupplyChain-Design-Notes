@@ -52,6 +52,38 @@ A refinery requests a pump skid with unique process calculations, piping design,
 
 A common spare-parts kit is manufactured in advance but packed after the customer order to support different languages, quantities, regulatory labels, or branded cartons.
 
+## Why it matters
+
+The customer-order decoupling point determines what may be forecast, stocked, configured, engineered, and promised before actual demand arrives.
+
+## Decision logic
+
+Choose MTS, ATO, MTO, ETO, or PTO by demand predictability, product variety, lead-time promise, modularity, capacity, and engineering content. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain decoupling point, forecast level, inventory position, configuration or engineering lead time, capacity reservation, and promise rule. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **supply-demand production environments: MTS, MTO, ETO, ATO, and PTO decision record** with these fields:
+
+- **Decision and boundary:** Choose MTS, ATO, MTO, ETO, or PTO by demand predictability, product variety, lead-time promise, modularity, capacity, and engineering content.
+- **Required evidence:** decoupling point, forecast level, inventory position, configuration or engineering lead time, capacity reservation, and promise rule.
+- **Expected result:** The customer-order decoupling point determines what may be forecast, stocked, configured, engineered, and promised before actual demand arrives.
+- **Balancing condition:** Earlier commitment shortens response but increases forecast and inventory exposure; later commitment reduces exposure but lengthens customer lead time.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Earlier commitment shortens response but increases forecast and inventory exposure; later commitment reduces exposure but lengthens customer lead time.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Choose MTS, ATO, MTO, ETO, or PTO by demand predictability, product variety, lead-time promise, modularity, capacity, and engineering content. Validate the result with decoupling point, forecast level, inventory position, configuration or engineering lead time, capacity reservation, and promise rule; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - ATO master scheduling normally focuses on common modules/components rather than every possible finished combination.
@@ -59,10 +91,47 @@ A common spare-parts kit is manufactured in advance but packed after the custome
 - PTO delays packaging, not necessarily manufacturing of the common physical item.
 - MTS provides fast customer response but shifts risk toward finished-goods inventory.
 
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply supply-demand production environments: MTS, MTO, ETO, ATO, and PTO. Which proposal is most defensible?
+
+A. Use supply-demand production environments: MTS, MTO, ETO, ATO, and PTO as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Choose MTS, ATO, MTO, ETO, or PTO by demand predictability, product variety, lead-time promise, modularity, capacity, and engineering content.
+C. Choose the apparent upside without evaluating this balancing condition: Earlier commitment shortens response but increases forecast and inventory exposure; later commitment reduces exposure but lengthens customer lead time.
+D. Approve the choice without retaining decoupling point, forecast level, inventory position, configuration or engineering lead time, capacity reservation, and promise rule; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Choose MTS, ATO, MTO, ETO, or PTO by demand predictability, product variety, lead-time promise, modularity, capacity, and engineering content.**
+
+### Why it is correct
+
+The customer-order decoupling point determines what may be forecast, stocked, configured, engineered, and promised before actual demand arrives. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: choose MTS, ATO, MTO, ETO, or PTO by demand predictability, product variety, lead-time promise, modularity, capacity, and engineering content.
+- **C** optimizes one visible result and omits the balancing effects: earlier commitment shortens response but increases forecast and inventory exposure; later commitment reduces exposure but lengthens customer lead time.
+- **D** leaves the approval unauditable. A reviewer would be missing decoupling point, forecast level, inventory position, configuration or engineering lead time, capacity reservation, and promise rule, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: earlier commitment shortens response but increases forecast and inventory exposure; later commitment reduces exposure but lengthens customer lead time.
+
+</details>
+
 ## Practitioner perspective
 
 The correct production environment is not just a manufacturing choice. It influences forecast granularity, inventory location, product design, order promising, BOM structure, capacity planning, and customer lead time.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-a-network-design-and-technology-investment/03-network-configuration-and-flow-design.md)
 Module 1 → Section E → Supply-Demand Strategies. Definitions are independently summarized; examples and matrix are original.
+
+---
+
+[Previous: Level, Chase, and Hybrid Operations Strategies](07-level-chase-hybrid-strategies.md) · [Next: Financial Reconciliation and Executive S&OP](09-reconciliation-and-executive-sop.md)

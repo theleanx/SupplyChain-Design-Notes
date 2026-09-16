@@ -108,6 +108,10 @@ If the gap is visible 14 months ahead, NorthStar can evaluate:
 
 Long-horizon visibility creates options.
 
+## Why it matters
+
+A number without assumptions, horizon, ownership, and intended use cannot coordinate capacity, inventory, finance, or suppliers.
+
 ## Decision logic
 
 A demand-plan number should survive four questions:
@@ -117,20 +121,75 @@ A demand-plan number should survive four questions:
 3. **Commitment:** What will sales/marketing/product teams do to realize it?
 4. **Feasibility:** Can the rest of the business prepare for it?
 
-## Common confusion
+## Evidence retained through the workflow
 
+Retain versioned demand plan, family hierarchy, units and currency, assumptions, events, confidence range, approvers, and consumers. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **planning demand and the demand plan decision record** with these fields:
+
+- **Decision and boundary:** Publish one controlled demand plan by family, period, and scenario, with documented assumptions and explicit uses at each planning horizon.
+- **Required evidence:** versioned demand plan, family hierarchy, units and currency, assumptions, events, confidence range, approvers, and consumers.
+- **Expected result:** A number without assumptions, horizon, ownership, and intended use cannot coordinate capacity, inventory, finance, or suppliers.
+- **Balancing condition:** One consensus plan improves alignment, while retaining scenario ranges prevents false precision when uncertainty is material.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+One consensus plan improves alignment, while retaining scenario ranges prevents false precision when uncertainty is material.
+
+## Commonly confused with
 **Business-plan target vs. demand plan:** the business plan may say what the company wants financially. The demand plan should remain an evidence-based consensus view. Management should not simply overwrite the demand plan to make it match an aspirational financial target.
 
-## Common mistake
-
+## Common mistakes
 A demand plan is not a wish list. Treat it as a request for supply that creates accountability for the demand side.
+
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply planning demand and the demand plan. Which proposal is most defensible?
+
+A. Use planning demand and the demand plan as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Publish one controlled demand plan by family, period, and scenario, with documented assumptions and explicit uses at each planning horizon.
+C. Choose the apparent upside without evaluating this balancing condition: One consensus plan improves alignment, while retaining scenario ranges prevents false precision when uncertainty is material.
+D. Approve the choice without retaining versioned demand plan, family hierarchy, units and currency, assumptions, events, confidence range, approvers, and consumers; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Publish one controlled demand plan by family, period, and scenario, with documented assumptions and explicit uses at each planning horizon.**
+
+### Why it is correct
+
+A number without assumptions, horizon, ownership, and intended use cannot coordinate capacity, inventory, finance, or suppliers. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: publish one controlled demand plan by family, period, and scenario, with documented assumptions and explicit uses at each planning horizon.
+- **C** optimizes one visible result and omits the balancing effects: one consensus plan improves alignment, while retaining scenario ranges prevents false precision when uncertainty is material.
+- **D** leaves the approval unauditable. A reviewer would be missing versioned demand plan, family hierarchy, units and currency, assumptions, events, confidence range, approvers, and consumers, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: one consensus plan improves alignment, while retaining scenario ranges prevents false precision when uncertainty is material.
+
+</details>
+
+## Practitioner perspective
+
+A review should be able to reconstruct the choice from versioned demand plan, family hierarchy, units and currency, assumptions, events, confidence range, approvers, and consumers. If those records cannot explain what changed, who decided, and when the decision will be revisited, the process is not yet controlled.
 
 ## Related concepts
 
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-b-connected-supply-networks-and-master-data/03-advanced-planning-and-constraint-management.md)
 - [Demand manager and dashboard](04-demand-manager-and-dashboard.md)
 - Forecasting — planned in Section D
 - Supply and demand alignment / S&OP — planned in Section E
-
-## Related concepts
-
 Module 1 → Section C → Planning Demand and Demand Plan; Demand Plan Inputs; Uses of Demand Plan; Planning Horizon and Revision Period.
+
+---
+
+[Previous: Demand Management Foundations](01-demand-management-foundations.md) · [Next: Communicating Demand](03-communicating-demand.md)

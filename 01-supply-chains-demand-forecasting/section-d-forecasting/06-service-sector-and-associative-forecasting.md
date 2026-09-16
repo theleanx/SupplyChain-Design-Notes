@@ -82,10 +82,84 @@ A predictor should make business sense. A variable can correlate statistically b
 
 The forecasting team should be able to explain **why** the relationship is useful, not merely show a high correlation number.
 
-## Common mistake
+## Why it matters
 
+Services cannot inventory unused capacity, and their demand may depend more on appointments, weather, installed base, or events than past volume alone.
+
+## Decision logic
+
+Forecast at the time and location granularity where capacity is committed and test external predictors with a credible causal and timing relationship. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain service interval and location, capacity unit, demand history, candidate drivers, lag, model error, staffing rule, and override reason. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **service-sector and associative forecasting decision record** with these fields:
+
+- **Decision and boundary:** Forecast at the time and location granularity where capacity is committed and test external predictors with a credible causal and timing relationship.
+- **Required evidence:** service interval and location, capacity unit, demand history, candidate drivers, lag, model error, staffing rule, and override reason.
+- **Expected result:** Services cannot inventory unused capacity, and their demand may depend more on appointments, weather, installed base, or events than past volume alone.
+- **Balancing condition:** Fine-grained forecasts improve staffing decisions but contain more noise and require timely local data.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Fine-grained forecasts improve staffing decisions but contain more noise and require timely local data.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Forecast at the time and location granularity where capacity is committed and test external predictors with a credible causal and timing relationship. Validate the result with service interval and location, capacity unit, demand history, candidate drivers, lag, model error, staffing rule, and override reason; the evidence, not the method's label, determines whether the choice worked.
+
+## Common mistakes
 Forecasting kitchen-appliance demand from new-housing activity is an **associative** approach because an external predictor is being used to forecast demand.
+
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply service-sector and associative forecasting. Which proposal is most defensible?
+
+A. Use service-sector and associative forecasting as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Forecast at the time and location granularity where capacity is committed and test external predictors with a credible causal and timing relationship.
+C. Choose the apparent upside without evaluating this balancing condition: Fine-grained forecasts improve staffing decisions but contain more noise and require timely local data.
+D. Approve the choice without retaining service interval and location, capacity unit, demand history, candidate drivers, lag, model error, staffing rule, and override reason; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Forecast at the time and location granularity where capacity is committed and test external predictors with a credible causal and timing relationship.**
+
+### Why it is correct
+
+Services cannot inventory unused capacity, and their demand may depend more on appointments, weather, installed base, or events than past volume alone. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: forecast at the time and location granularity where capacity is committed and test external predictors with a credible causal and timing relationship.
+- **C** optimizes one visible result and omits the balancing effects: fine-grained forecasts improve staffing decisions but contain more noise and require timely local data.
+- **D** leaves the approval unauditable. A reviewer would be missing service interval and location, capacity unit, demand history, candidate drivers, lag, model error, staffing rule, and override reason, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: fine-grained forecasts improve staffing decisions but contain more noise and require timely local data.
+
+</details>
+
+## Practitioner perspective
+
+A review should be able to reconstruct the choice from service interval and location, capacity unit, demand history, candidate drivers, lag, model error, staffing rule, and override reason. If those records cannot explain what changed, who decided, and when the decision will be revisited, the process is not yet controlled.
 
 ## Related concepts
 
+
+
+- [Forecasting formula sheet](../../calculations/forecasting/formula-sheet.md)
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-c-performance-and-financial-insight/01-measurement-system-design.md)
 Module 1 → Section D → Service-Sector Forecasting / Quantitative Methods: Associative Forecasting. Wording, examples, and visual are original.
+
+---
+
+[Previous: Moving Averages and Exponential Smoothing](05-moving-averages-and-exponential-smoothing.md) · [Next: Leading Indicators, Regression, Correlation, and Causation](07-leading-indicators-regression-correlation.md)

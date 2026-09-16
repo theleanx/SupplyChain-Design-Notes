@@ -60,10 +60,6 @@ A service promise should specify:
 
 “Fast delivery” is not measurable. “Deliver 98% of priority spare-part lines complete within 24 hours of order acceptance” is.
 
-## Trade-offs
-
-Differentiated service can improve economics, but excessive segmentation creates operational complexity. Each segment may require different planning parameters, inventory targets, escalation rules, and reports. Use the smallest number of segments that creates a meaningful decision difference.
-
 ## Decision test
 
 A segment is useful only if all three questions have clear answers:
@@ -74,6 +70,38 @@ A segment is useful only if all three questions have clear answers:
 
 If the policy does not change, the segment may be descriptive rather than actionable.
 
+## Why it matters
+
+One service policy forces low-value demand to consume expensive responsiveness or leaves critical demand underserved.
+
+## Decision logic
+
+Segment customers and products using behavior and economics, assign a measurable service promise, and test whether operations can execute it profitably. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain segment definition, demand and margin evidence, promise, operating policy, exceptions, owner, and profitability guardrail. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **market segmentation and service choices decision record** with these fields:
+
+- **Decision and boundary:** Segment customers and products using behavior and economics, assign a measurable service promise, and test whether operations can execute it profitably.
+- **Required evidence:** segment definition, demand and margin evidence, promise, operating policy, exceptions, owner, and profitability guardrail.
+- **Expected result:** One service policy forces low-value demand to consume expensive responsiveness or leaves critical demand underserved.
+- **Balancing condition:** More service segments improve fit but add inventory, rules, master data, training, and exception complexity.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Differentiated service can improve economics, but excessive segmentation creates operational complexity. Each segment may require different planning parameters, inventory targets, escalation rules, and reports. Use the smallest number of segments that creates a meaningful decision difference.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Segment customers and products using behavior and economics, assign a measurable service promise, and test whether operations can execute it profitably. Validate the result with segment definition, demand and margin evidence, promise, operating policy, exceptions, owner, and profitability guardrail; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Segmenting only by revenue.
@@ -82,19 +110,44 @@ If the policy does not change, the segment may be descriptive rather than action
 - Creating dozens of segments that planners cannot maintain.
 - Measuring aggregate service while hiding a weak priority segment.
 
-## Practitioner perspective
-
-Store segment assignments as governed master data, not as private spreadsheet logic. Otherwise planning, order management, warehousing, transportation, and reporting may apply different versions of the policy.
-
 ## Original knowledge check
 
 Two products have equal annual volume. Product X sells steadily with a two-week customer lead time; Product Y is highly intermittent but must be available within four hours when a failure occurs. Should they share the same inventory policy?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 **No.** Annual volume alone hides variability and service criticality. Product Y may require selective strategic stock despite its intermittent demand.
+
+### Why it is correct
+
+One service policy forces low-value demand to consume expensive responsiveness or leaves critical demand underserved. Segment customers and products using behavior and economics, assign a measurable service promise, and test whether operations can execute it profitably.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Segmenting only by revenue.
+- Designing around the average customer.
+- Promising premium service without reserving inventory or capacity.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: More service segments improve fit but add inventory, rules, master data, training, and exception complexity.
+
 </details>
+
+## Practitioner perspective
+
+Store segment assignments as governed master data, not as private spreadsheet logic. Otherwise planning, order management, warehousing, transportation, and reporting may apply different versions of the policy.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-a-sourcing-alignment-and-total-cost/01-strategic-sourcing-from-demand.md)
 Continue to [network configuration and flow design](03-network-configuration-and-flow-design.md).
+
+---
+
+[Previous: Strategy to Network Design](01-strategy-to-network-design.md) · [Next: Network Configuration and Flow Design](03-network-configuration-and-flow-design.md)

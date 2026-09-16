@@ -61,6 +61,38 @@ flowchart TD
 
 Procurement appears to have an unfavorable price variance because it used a premium regional source during a disruption. The decision avoided a production shutdown. Variance correctly identifies higher price, but business evaluation must include avoided loss and approved resilience policy.
 
+## Why it matters
+
+A variance names a difference but does not identify the operational cause, controllability, or best response.
+
+## Decision logic
+
+Calculate price, quantity, rate, and efficiency effects using the approved standard, then trace material differences to process evidence and ownership. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain standard version and basis, actual price and quantity, allowed quantity, volume and mix, variance calculation, cause, owner, and corrective action. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **standard costing and variance analysis decision record** with these fields:
+
+- **Decision and boundary:** Calculate price, quantity, rate, and efficiency effects using the approved standard, then trace material differences to process evidence and ownership.
+- **Required evidence:** standard version and basis, actual price and quantity, allowed quantity, volume and mix, variance calculation, cause, owner, and corrective action.
+- **Expected result:** A variance names a difference but does not identify the operational cause, controllability, or best response.
+- **Balancing condition:** Stable standards support accountability, while outdated standards create large but uninformative variances and poor decisions.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Stable standards support accountability, while outdated standards create large but uninformative variances and poor decisions.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Calculate price, quantity, rate, and efficiency effects using the approved standard, then trace material differences to process evidence and ownership. Validate the result with standard version and basis, actual price and quantity, allowed quantity, volume and mix, variance calculation, cause, owner, and corrective action; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Mixing sign conventions without labels.
@@ -73,11 +105,42 @@ Procurement appears to have an unfavorable price variance because it used a prem
 
 Actual price is $5.20, standard price $5.00, and actual quantity 1,000 units. Using the stated sign convention, what is price variance?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 `($5.20-$5.00) × 1,000 = $200 unfavorable`.
+
+### Why it is correct
+
+A variance names a difference but does not identify the operational cause, controllability, or best response. Calculate price, quantity, rate, and efficiency effects using the approved standard, then trace material differences to process evidence and ownership.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Mixing sign conventions without labels.
+- Using outdated standards that guarantee recurring variance.
+- Treating every unfavorable variance as poor performance.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: Stable standards support accountability, while outdated standards create large but uninformative variances and poor decisions.
+
 </details>
+
+## Practitioner perspective
+
+Use standard version and basis, actual price and quantity, allowed quantity, volume and mix, variance calculation, cause, owner, and corrective action as the minimum review record. The artifact should let another practitioner reproduce the conclusion, identify the remaining exposure, and know which trigger reopens the decision.
 
 ## Related concepts
 
+
+
+- [Network and performance formula sheet](../../calculations/network-performance/formula-sheet.md)
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/02-supplier-criteria-and-scorecards.md)
 Continue to [supplier financial health and customer credit risk](14-supplier-financial-health-and-credit-risk.md).
+
+---
+
+[Previous: Financial Statements for Supply-Chain Decisions](12-financial-statements-for-supply-chain.md) · [Next: Supplier Financial Health and Customer Credit Risk](14-supplier-financial-health-and-credit-risk.md)

@@ -75,6 +75,38 @@ This does not automatically justify moving all volume. AsterWorks might use a ca
 5. How quickly can volume move, and has the transfer been exercised?
 6. Which sub-tier dependencies remain hidden?
 
+## Why it matters
+
+A low purchase price can be offset by freight, inventory, quality, coordination, sub-tier dependence, and disruption exposure.
+
+## Decision logic
+
+Compare make, buy, partner, and location options on total delivered cost, capability, lead time, dependency, controls, and executable recovery. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain requirement, qualified sources and sub-tiers, total-cost bridge, capacity, lead-time distribution, recovery plan, controls, and exit rights. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **sourcing footprint and partner decisions decision record** with these fields:
+
+- **Decision and boundary:** Compare make, buy, partner, and location options on total delivered cost, capability, lead time, dependency, controls, and executable recovery.
+- **Required evidence:** requirement, qualified sources and sub-tiers, total-cost bridge, capacity, lead-time distribution, recovery plan, controls, and exit rights.
+- **Expected result:** A low purchase price can be offset by freight, inventory, quality, coordination, sub-tier dependence, and disruption exposure.
+- **Balancing condition:** Consolidation creates leverage and simplicity but increases dependency; diversification improves options but adds qualification and management cost.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Consolidation creates leverage and simplicity but increases dependency; diversification improves options but adds qualification and management cost.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Compare make, buy, partner, and location options on total delivered cost, capability, lead time, dependency, controls, and executable recovery. Validate the result with requirement, qualified sources and sub-tiers, total-cost bridge, capacity, lead-time distribution, recovery plan, controls, and exit rights; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Comparing suppliers only on unit price.
@@ -83,19 +115,44 @@ This does not automatically justify moving all volume. AsterWorks might use a ca
 - Assuming a contract creates usable backup capacity.
 - Ignoring exit cost and knowledge transfer.
 
-## Practitioner perspective
-
-Maintain a small set of executable alternatives for the components and services that determine revenue continuity. A long list of unqualified vendors is not resilience.
-
 ## Original knowledge check
 
 Two suppliers have different names and factories but rely on the same sole-source semiconductor. Does dual sourcing remove the primary interruption risk?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 **No.** The apparent diversification disappears at the shared sub-tier dependency. Exposure should be mapped beyond the immediate supplier when the item is critical.
+
+### Why it is correct
+
+A low purchase price can be offset by freight, inventory, quality, coordination, sub-tier dependence, and disruption exposure. Compare make, buy, partner, and location options on total delivered cost, capability, lead time, dependency, controls, and executable recovery.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Comparing suppliers only on unit price.
+- Calling two suppliers diversified when they share the same sub-tier source.
+- Outsourcing an activity without assigning process and data ownership.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: Consolidation creates leverage and simplicity but increases dependency; diversification improves options but adds qualification and management cost.
+
 </details>
+
+## Practitioner perspective
+
+Maintain a small set of executable alternatives for the components and services that determine revenue continuity. A long list of unqualified vendors is not resilience.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-a-sourcing-alignment-and-total-cost/01-strategic-sourcing-from-demand.md)
 Continue to [digital requirements and information latency](06-digital-requirements-and-information-latency.md).
+
+---
+
+[Previous: Efficiency, Responsiveness, and Resilience](04-efficiency-responsiveness-resilience.md) · [Next: Digital Requirements and Information Latency](06-digital-requirements-and-information-latency.md)

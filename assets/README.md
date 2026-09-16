@@ -25,6 +25,12 @@ Sections without standalone files use repository-native Mermaid diagrams or Mark
 6. Render the asset at full-page and narrow-page widths; inspect every label for clipping and overlap.
 7. Confirm that the design is original and satisfies [`../ATTRIBUTION.md`](../ATTRIBUTION.md).
 
+Render every standalone visual at the repository's full and narrow review widths with:
+
+```bash
+node scripts/render_all_visual_contact_sheets.mjs
+```
+
 ## Mermaid process-flow placeholder
 
 Copy and replace the labels; do not retain a node that adds no instructional value.

@@ -52,6 +52,38 @@ AsterWorks scans a pallet identifier at departure, but individual serialized con
 
 Use-case design should test label placement, print quality, read zone, metal or liquid interference, duplicate reads, missed reads, damaged labels, offline operation, and manual exception correction.
 
+## Why it matters
+
+Traceability fails when identifiers, events, locations, quantities, and transformations cannot be connected across organizations and systems.
+
+## Decision logic
+
+Choose identification and capture technology for the required granularity, record trusted events, link parent-child transformations, and test recall questions. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain identifier standard, label and reader rule, commissioning, event and location, aggregation, transformation, exception, and trace test. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **automatic identification and traceability decision record** with these fields:
+
+- **Decision and boundary:** Choose identification and capture technology for the required granularity, record trusted events, link parent-child transformations, and test recall questions.
+- **Required evidence:** identifier standard, label and reader rule, commissioning, event and location, aggregation, transformation, exception, and trace test.
+- **Expected result:** Traceability fails when identifiers, events, locations, quantities, and transformations cannot be connected across organizations and systems.
+- **Balancing condition:** Finer serialization improves traceability but raises label, scanning, data-volume, exception, and partner-adoption cost.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Finer serialization improves traceability but raises label, scanning, data-volume, exception, and partner-adoption cost.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Choose identification and capture technology for the required granularity, record trusted events, link parent-child transformations, and test recall questions. Validate the result with identifier standard, label and reader rule, commissioning, event and location, aggregation, transformation, exception, and trace test; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Encoding descriptive data without a governed unique identifier.
@@ -64,11 +96,40 @@ Use-case design should test label placement, print quality, read zone, metal or 
 
 A reader detects the same passive tag eight times as a pallet passes a doorway. How many business departure events should normally be created?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 One validated departure event. Device reads must be filtered and interpreted in process context.
+
+### Why it is correct
+
+Traceability fails when identifiers, events, locations, quantities, and transformations cannot be connected across organizations and systems. Choose identification and capture technology for the required granularity, record trusted events, link parent-child transformations, and test recall questions.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Encoding descriptive data without a governed unique identifier.
+- Assuming every RFID read means a confirmed business movement.
+- Capturing time without time zone.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: Finer serialization improves traceability but raises label, scanning, data-volume, exception, and partner-adoption cost.
+
 </details>
+
+## Practitioner perspective
+
+Use identifier standard, label and reader rule, commissioning, event and location, aggregation, transformation, exception, and trace test as the minimum review record. The artifact should let another practitioner reproduce the conclusion, identify the remaining exposure, and know which trigger reopens the decision.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/01-purchasing-flow-and-selection-routes.md)
 Continue to [data quality, cleansing, and stewardship](17-data-quality-cleansing-and-stewardship.md).
+
+---
+
+[Previous: Master-Data Domains and Lifecycle](15-master-data-domains-and-lifecycle.md) · [Next: Data Quality, Cleansing, and Stewardship](17-data-quality-cleansing-and-stewardship.md)

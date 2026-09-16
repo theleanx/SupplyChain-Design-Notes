@@ -61,12 +61,85 @@ A demand plan should be understandable both operationally and financially.
 
 The same approved assumptions should drive all views.
 
+## Why it matters
+
+A demand review that debates one forecast number without drivers, ranges, and prior commitments cannot produce an accountable plan.
+
+## Decision logic
+
+Review actuals versus prior plan, identify assumption changes, quantify upside and downside, and escalate only decisions that need cross-functional authority. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain prior and proposed plan, forecast error and bias, assumption changes, event effects, opportunity and risk, owner, and decision request. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **demand review and the demand-plan dashboard decision record** with these fields:
+
+- **Decision and boundary:** Review actuals versus prior plan, identify assumption changes, quantify upside and downside, and escalate only decisions that need cross-functional authority.
+- **Required evidence:** prior and proposed plan, forecast error and bias, assumption changes, event effects, opportunity and risk, owner, and decision request.
+- **Expected result:** A demand review that debates one forecast number without drivers, ranges, and prior commitments cannot produce an accountable plan.
+- **Balancing condition:** A stable baseline supports accountability, while legitimate new evidence must still be incorporated without turning every meeting into replanning from zero.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+A stable baseline supports accountability, while legitimate new evidence must still be incorporated without turning every meeting into replanning from zero.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Review actuals versus prior plan, identify assumption changes, quantify upside and downside, and escalate only decisions that need cross-functional authority. Validate the result with prior and proposed plan, forecast error and bias, assumption changes, event effects, opportunity and risk, owner, and decision request; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Demand review should not allow each function to keep its own official number.
 - Review by product family is the normal aggregate level; detailed subfamilies should be exception-driven.
 - A dashboard is a decision aid, not a substitute for documented assumptions.
 
+## Original knowledge check
+
+**Question.** NorthStar is deciding how to apply demand review and the demand-plan dashboard. Which proposal is most defensible?
+
+A. Use demand review and the demand-plan dashboard as a label for the preferred option before defining the decision outcome, constraints, or owner.
+B. Review actuals versus prior plan, identify assumption changes, quantify upside and downside, and escalate only decisions that need cross-functional authority.
+C. Choose the apparent upside without evaluating this balancing condition: A stable baseline supports accountability, while legitimate new evidence must still be incorporated without turning every meeting into replanning from zero.
+D. Approve the choice without retaining prior and proposed plan, forecast error and bias, assumption changes, event effects, opportunity and risk, owner, and decision request; omit the reassessment trigger as well.
+
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
+
+**B. Review actuals versus prior plan, identify assumption changes, quantify upside and downside, and escalate only decisions that need cross-functional authority.**
+
+### Why it is correct
+
+A demand review that debates one forecast number without drivers, ranges, and prior commitments cannot produce an accountable plan. The recommended action connects the operating choice to evidence, ownership, and a measurable outcome.
+
+### Why the other answers are wrong
+
+- **A** reverses the decision sequence. The team should first do the required work: review actuals versus prior plan, identify assumption changes, quantify upside and downside, and escalate only decisions that need cross-functional authority.
+- **C** optimizes one visible result and omits the balancing effects: A stable baseline supports accountability, while legitimate new evidence must still be incorporated without turning every meeting into replanning from zero.
+- **D** leaves the approval unauditable. A reviewer would be missing prior and proposed plan, forecast error and bias, assumption changes, event effects, opportunity and risk, owner, and decision request, as well as the trigger needed to revisit the decision when conditions change.
+
+Those approaches ignore the governing trade-off: A stable baseline supports accountability, while legitimate new evidence must still be incorporated without turning every meeting into replanning from zero.
+
+</details>
+
+## Practitioner perspective
+
+A review should be able to reconstruct the choice from prior and proposed plan, forecast error and bias, assumption changes, event effects, opportunity and risk, owner, and decision request. If those records cannot explain what changed, who decided, and when the decision will be revisited, the process is not yet controlled.
+
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 2 continuation](../../02-network-design-digital-connectivity-performance/section-a-network-design-and-technology-investment/03-network-configuration-and-flow-design.md)
 Module 1 → Section E → Evaluating Demand Levels / Demand Plan Dashboard. Dashboard layout, data, and example are original.
+
+---
+
+[Previous: S&OP Foundations and the Monthly Process](03-sop-foundations-and-monthly-process.md) · [Next: Supply Review and the Production Plan](05-supply-review-and-production-plan.md)

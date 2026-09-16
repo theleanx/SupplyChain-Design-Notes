@@ -65,15 +65,15 @@ QUALITY.md                                            Quality and originality st
 
 The repository currently includes:
 
-- 158 structured Markdown files across three completed modules;
+- 159 structured Markdown files across three completed modules;
 - twelve connected learning sections;
 - 80 original SVG diagrams plus repository-native Mermaid process flows;
 - 26 original CSV datasets for worked analysis;
-- 265 independently authored knowledge checks;
+- 319 independently authored knowledge checks;
 - three integrated end-to-end capstones; and
 - automated validation of internal navigation, Markdown structure, process-flow presence, quantitative dataset linkage, worked results, SVG accessibility, and CSV consistency.
 
-The repository runs a read-only content-quality workflow on every push and pull request to detect broken links, malformed datasets, invalid or inaccessible SVGs, missing process flows, inconsistent Module 3 calculations, weak assessment shortcuts, and unbalanced Markdown blocks.
+The repository runs a read-only content-quality workflow on every push and pull request to detect broken links, malformed datasets, invalid or inaccessible SVGs, missing process flows, inconsistent Module 1–3 calculations, weak assessment language, structural drift, and unbalanced Markdown blocks.
 
 ## Independence, attribution, and permitted use
 

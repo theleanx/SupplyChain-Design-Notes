@@ -62,6 +62,38 @@ Assess each option on:
 - vendor viability and exit; and
 - measurable business value.
 
+## Why it matters
+
+Application boundaries determine process continuity, upgradeability, data consistency, vendor dependence, and the cost of future change.
+
+## Decision logic
+
+Keep stable enterprise records and controls in the core, place differentiating capability where it creates measurable value, and define integration and exit boundaries. Do not approve the decision until mandatory conditions are feasible and the residual exposure has a named owner.
+
+## Evidence retained through the workflow
+
+Retain capability requirements, fit-gap evidence, record ownership, interfaces, lifecycle cost, vendor viability, upgrade path, and exit plan. Record the decision date and the event or threshold that requires reassessment.
+
+## Applied decision artifact
+
+Use a one-page **core platforms versus specialized applications decision record** with these fields:
+
+- **Decision and boundary:** Keep stable enterprise records and controls in the core, place differentiating capability where it creates measurable value, and define integration and exit boundaries.
+- **Required evidence:** capability requirements, fit-gap evidence, record ownership, interfaces, lifecycle cost, vendor viability, upgrade path, and exit plan.
+- **Expected result:** Application boundaries determine process continuity, upgradeability, data consistency, vendor dependence, and the cost of future change.
+- **Balancing condition:** Core standardization reduces complexity; specialized applications improve fit but add contracts, data replication, interfaces, and support obligations.
+- **Accountability:** name the decision owner, approval date, residual exposure owner, and measurable trigger for reassessment.
+
+The record is complete only when another practitioner can reproduce the reasoning and identify the next action without relying on meeting memory.
+
+## Trade-offs
+
+Core standardization reduces complexity; specialized applications improve fit but add contracts, data replication, interfaces, and support obligations.
+
+## Commonly confused with
+
+Do not confuse a preferred decision method with a guaranteed outcome. Keep stable enterprise records and controls in the core, place differentiating capability where it creates measurable value, and define integration and exit boundaries. Validate the result with capability requirements, fit-gap evidence, record ownership, interfaces, lifecycle cost, vendor viability, upgrade path, and exit plan; the evidence, not the method's label, determines whether the choice worked.
+
 ## Common mistakes
 
 - Selecting a specialist tool for features that the core already supports adequately.
@@ -74,11 +106,40 @@ Assess each option on:
 
 A specialized warehouse tool provides clear execution value. What architecture decision must still be explicit?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer and rationale</summary>
+
+### Correct answer
 
 Which system owns inventory and shipment records, how transactions synchronize, and who resolves interface or reconciliation exceptions.
+
+### Why it is correct
+
+Application boundaries determine process continuity, upgradeability, data consistency, vendor dependence, and the cost of future change. Keep stable enterprise records and controls in the core, place differentiating capability where it creates measurable value, and define integration and exit boundaries.
+
+### Why the other answers are wrong
+
+Alternative responses reproduce failure modes already discussed:
+
+- Selecting a specialist tool for features that the core already supports adequately.
+- Forcing every requirement into the suite to avoid all integration.
+- Comparing license price instead of lifecycle cost.
+
+They do not preserve the lesson's decision boundary or evidence. The governing trade-off remains explicit: Core standardization reduces complexity; specialized applications improve fit but add contracts, data replication, interfaces, and support obligations.
+
 </details>
+
+## Practitioner perspective
+
+Use capability requirements, fit-gap evidence, record ownership, interfaces, lifecycle cost, vendor viability, upgrade path, and exit plan as the minimum review record. The artifact should let another practitioner reproduce the conclusion, identify the remaining exposure, and know which trigger reopens the decision.
 
 ## Related concepts
 
+
+- [Section overview](./README.md)
+- [Module 3 continuation](../../03-sourcing-strategy-product-design-supplier-execution/section-d-supplier-selection-contracting-and-procurement/01-purchasing-flow-and-selection-routes.md)
 Continue to [advanced planning and constraint management](03-advanced-planning-and-constraint-management.md).
+
+---
+
+[Previous: Application Landscape and Digital Thread](01-application-landscape-and-digital-thread.md) · [Next: Advanced Planning and Constraint Management](03-advanced-planning-and-constraint-management.md)
