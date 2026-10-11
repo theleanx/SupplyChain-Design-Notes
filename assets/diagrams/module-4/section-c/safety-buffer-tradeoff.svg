@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Safety Stock and Safety Lead Time</title><desc id="desc">Original decision visual for safety stock and safety lead time, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Safety Stock and Safety Lead Time</tspan></text>
+<text x="55" y="111" class="subtitle" text-anchor="start"><tspan x="55" y="111">Original decision visual for safety stock and safety lead time, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Two different buffers: quantity protection and time protection</tspan></text>
+<rect x="80" y="215" width="450" height="150" rx="14" fill="#E8F5EF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="80" y="215" width="8" height="150" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="102" y="246" class="h" text-anchor="start"><tspan x="102" y="246">Safety stock</tspan></text>
+<text x="102" y="275" class="small" text-anchor="start"><tspan x="102" y="275">Extra quantity held against demand/supply</tspan><tspan x="102" y="293">uncertainty. Raises service protection and</tspan><tspan x="102" y="311">carrying cost.</tspan></text>
+<rect x="670" y="215" width="450" height="150" rx="14" fill="#EAF4F8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="670" y="215" width="8" height="150" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="692" y="246" class="h" text-anchor="start"><tspan x="692" y="246">Safety lead time</tspan></text>
+<text x="692" y="275" class="small" text-anchor="start"><tspan x="692" y="275">Plans receipt earlier than the true need date.</tspan><tspan x="692" y="293">Protects timing but can create earlier</tspan><tspan x="692" y="311">inventory.</tspan></text>
+<line x1="230" y1="580" x2="930" y2="580" stroke="#5B7184" stroke-width="2"/>
+<line x1="230" y1="440" x2="230" y2="580" stroke="#5B7184" stroke-width="2"/>
+<line x1="230" y1="580.0" x2="930" y2="580.0" stroke="#D4E0E8" stroke-width="1"/>
+<text x="220" y="584.0" class="tiny" text-anchor="end"><tspan x="220" y="584.0">0</tspan></text>
+<line x1="230" y1="545.0" x2="930" y2="545.0" stroke="#D4E0E8" stroke-width="1"/>
+<text x="220" y="549.0" class="tiny" text-anchor="end"><tspan x="220" y="549.0">25</tspan></text>
+<line x1="230" y1="510.0" x2="930" y2="510.0" stroke="#D4E0E8" stroke-width="1"/>
+<text x="220" y="514.0" class="tiny" text-anchor="end"><tspan x="220" y="514.0">50</tspan></text>
+<line x1="230" y1="475.0" x2="930" y2="475.0" stroke="#D4E0E8" stroke-width="1"/>
+<text x="220" y="479.0" class="tiny" text-anchor="end"><tspan x="220" y="479.0">75</tspan></text>
+<line x1="230" y1="440.0" x2="930" y2="440.0" stroke="#D4E0E8" stroke-width="1"/>
+<text x="220" y="444.0" class="tiny" text-anchor="end"><tspan x="220" y="444.0">100</tspan></text>
+<text x="188" y="510.0" class="tiny" text-anchor="middle"><tspan x="188" y="510.0">Service</tspan></text>
+<polyline points="230.0,580.0 265.0,560.4991166995081 300.0,543.7145508954405 335.0,529.2679412270483 370.0,516.8336290531637 405.0,506.13131738374204 440.0,496.91975236368387 475.0,488.99128487556175 510.0,482.16718966770827 545.0,476.2936364904248 580.0,471.2382224207802 615.0,466.8869872069056 650.0,463.1418443510221 685.0,459.9183700221119 720.0,457.14389995541745 755.0,454.755891438661 790.0,452.70051346051775 825.0,450.9314332401615 860.0,449.40877178356493 895.0,448.0982049224774 930.0,446.970189571501" fill="none" stroke="#0B7189" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="580" y="620" class="small" text-anchor="middle"><tspan x="580" y="620">Buffer investment →</tspan></text>
+<text x="600" y="670" class="small" text-anchor="middle"><tspan x="600" y="670">There is no single universal safety-stock formula; method must match the uncertainty and policy.</tspan></text>
+</svg>

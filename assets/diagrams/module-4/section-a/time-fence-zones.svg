@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Planning Horizons, Time Fences, and Change Authority</title><desc id="desc">Original decision visual for planning horizons, time fences, and change authority, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Planning Horizons, Time Fences, and Change Authority</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for planning horizons, time fences, and change authority, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<rect x="70.0" y="260" width="244.61538461538458" height="150" rx="0" fill="#FCE9EB" stroke="#FFFFFF" stroke-width="3" opacity="1"/>
+<text x="192.3076923076923" y="308" class="h" text-anchor="middle"><tspan x="192.3076923076923" y="308">Frozen</tspan></text>
+<text x="192.3076923076923" y="344" class="small" text-anchor="middle"><tspan x="192.3076923076923" y="344">Senior escalation</tspan></text>
+<rect x="314.6153846153846" y="260" width="244.61538461538458" height="150" rx="0" fill="#FFF4D8" stroke="#FFFFFF" stroke-width="3" opacity="1"/>
+<text x="436.9230769230769" y="308" class="h" text-anchor="middle"><tspan x="436.9230769230769" y="308">Slushy</tspan></text>
+<text x="436.9230769230769" y="344" class="small" text-anchor="middle"><tspan x="436.9230769230769" y="344">Controlled changes</tspan></text>
+<rect x="559.2307692307692" y="260" width="570.7692307692307" height="150" rx="0" fill="#E8F5EF" stroke="#FFFFFF" stroke-width="3" opacity="1"/>
+<text x="844.6153846153845" y="308" class="h" text-anchor="middle"><tspan x="844.6153846153845" y="308">Liquid</tspan></text>
+<text x="844.6153846153845" y="344" class="small" text-anchor="middle"><tspan x="844.6153846153845" y="344">Normal replanning</tspan></text>
+<text x="110.76923076923077" y="244" class="small" text-anchor="middle"><tspan x="110.76923076923077" y="244">W1</tspan></text>
+<text x="192.3076923076923" y="244" class="small" text-anchor="middle"><tspan x="192.3076923076923" y="244">W2</tspan></text>
+<text x="273.8461538461538" y="244" class="small" text-anchor="middle"><tspan x="273.8461538461538" y="244">W3</tspan></text>
+<text x="355.38461538461536" y="244" class="small" text-anchor="middle"><tspan x="355.38461538461536" y="244">W4</tspan></text>
+<text x="436.9230769230769" y="244" class="small" text-anchor="middle"><tspan x="436.9230769230769" y="244">W5</tspan></text>
+<text x="518.4615384615385" y="244" class="small" text-anchor="middle"><tspan x="518.4615384615385" y="244">W6</tspan></text>
+<text x="600.0" y="244" class="small" text-anchor="middle"><tspan x="600.0" y="244">W7</tspan></text>
+<text x="681.5384615384615" y="244" class="small" text-anchor="middle"><tspan x="681.5384615384615" y="244">W8</tspan></text>
+<text x="763.076923076923" y="244" class="small" text-anchor="middle"><tspan x="763.076923076923" y="244">W9</tspan></text>
+<text x="844.6153846153845" y="244" class="small" text-anchor="middle"><tspan x="844.6153846153845" y="244">W10</tspan></text>
+<text x="926.1538461538461" y="244" class="small" text-anchor="middle"><tspan x="926.1538461538461" y="244">W11</tspan></text>
+<text x="1007.6923076923076" y="244" class="small" text-anchor="middle"><tspan x="1007.6923076923076" y="244">W12</tspan></text>
+<text x="1089.230769230769" y="244" class="small" text-anchor="middle"><tspan x="1089.230769230769" y="244">W13</tspan></text>
+<line x1="314.6153846153846" y1="230" x2="314.6153846153846" y2="440" stroke="#B84A52" stroke-width="3" stroke-dasharray="6 5"/>
+<text x="314.6153846153846" y="465" class="small" text-anchor="middle"><tspan x="314.6153846153846" y="465">Demand time fence</tspan></text>
+<line x1="559.2307692307692" y1="230" x2="559.2307692307692" y2="440" stroke="#C98516" stroke-width="3" stroke-dasharray="6 5"/>
+<text x="559.2307692307692" y="465" class="small" text-anchor="middle"><tspan x="559.2307692307692" y="465">Planning time fence</tspan></text>
+<rect x="100" y="520" width="295" height="95" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="100" y="520" width="8" height="95" rx="14" fill="#6C5B9A" opacity="1"/>
+<text x="122" y="551" class="h" text-anchor="start"><tspan x="122" y="551">Change question</tspan></text>
+<text x="122" y="580" class="small" text-anchor="start"><tspan x="122" y="580">Is the request inside a</tspan><tspan x="122" y="598">protected zone?</tspan></text>
+<line x1="395" y1="568" x2="470" y2="568" stroke="#5B7184" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="470" y="520" width="295" height="95" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="470" y="520" width="8" height="95" rx="14" fill="#0B7189" opacity="1"/>
+<text x="492" y="551" class="h" text-anchor="start"><tspan x="492" y="551">Authority</tspan></text>
+<text x="492" y="580" class="small" text-anchor="start"><tspan x="492" y="580">Use the zone-specific</tspan><tspan x="492" y="598">escalation rule.</tspan></text>
+<line x1="765" y1="568" x2="840" y2="568" stroke="#5B7184" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="840" y="520" width="295" height="95" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="840" y="520" width="8" height="95" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="862" y="551" class="h" text-anchor="start"><tspan x="862" y="551">Record</tspan></text>
+<text x="862" y="580" class="small" text-anchor="start"><tspan x="862" y="580">Preserve reason, impact, and</tspan><tspan x="862" y="598">approval.</tspan></text>
+</svg>

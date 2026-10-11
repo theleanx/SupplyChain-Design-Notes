@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">TQM and Continuous Improvement Foundations</title><desc id="desc">Original decision visual for tqm and continuous improvement foundations, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">TQM and Continuous Improvement Foundations</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for tqm and continuous improvement foundations, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">TQM connects customer focus, process discipline, and quality economics</tspan></text>
+<circle cx="600" cy="360" r="95" fill="#EAF4F8" stroke="#0B7189" stroke-width="3"/>
+<text x="600" y="350" class="h" text-anchor="middle"><tspan x="600" y="350">CUSTOMER</tspan></text>
+<text x="600" y="382" class="small" text-anchor="middle"><tspan x="600" y="382">fitness for use</tspan></text>
+<rect x="485" y="130" width="230" height="90" rx="14" fill="#E8F5EF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="485" y="130" width="8" height="90" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="507" y="161" class="h" text-anchor="start"><tspan x="507" y="161">Prevention</tspan></text>
+<text x="507" y="190" class="small" text-anchor="start"><tspan x="507" y="190">design quality into</tspan><tspan x="507" y="208">process</tspan></text>
+<line x1="600" y1="360" x2="600" y2="175" stroke="#D4E0E8" stroke-width="2"/>
+<rect x="770" y="255" width="230" height="90" rx="14" fill="#EAF4F8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="770" y="255" width="8" height="90" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="792" y="286" class="h" text-anchor="start"><tspan x="792" y="286">Appraisal</tspan></text>
+<text x="792" y="315" class="small" text-anchor="start"><tspan x="792" y="315">verify performance</tspan></text>
+<line x1="600" y1="360" x2="885" y2="300" stroke="#D4E0E8" stroke-width="2"/>
+<rect x="650" y="500" width="230" height="90" rx="14" fill="#FFF4D8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="650" y="500" width="8" height="90" rx="14" fill="#C98516" opacity="1"/>
+<text x="672" y="531" class="h" text-anchor="start"><tspan x="672" y="531">Internal failure</tspan></text>
+<text x="672" y="560" class="small" text-anchor="start"><tspan x="672" y="560">scrap / rework</tspan></text>
+<line x1="600" y1="360" x2="765" y2="545" stroke="#D4E0E8" stroke-width="2"/>
+<rect x="235" y="500" width="230" height="90" rx="14" fill="#FCE9EB" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="235" y="500" width="8" height="90" rx="14" fill="#B84A52" opacity="1"/>
+<text x="257" y="531" class="h" text-anchor="start"><tspan x="257" y="531">External failure</tspan></text>
+<text x="257" y="560" class="small" text-anchor="start"><tspan x="257" y="560">returns / lost trust</tspan></text>
+<line x1="600" y1="360" x2="350" y2="545" stroke="#D4E0E8" stroke-width="2"/>
+<rect x="85" y="255" width="230" height="90" rx="14" fill="#F1EEFA" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="85" y="255" width="8" height="90" rx="14" fill="#6C5B9A" opacity="1"/>
+<text x="107" y="286" class="h" text-anchor="start"><tspan x="107" y="286">Leadership + people</tspan></text>
+<text x="107" y="315" class="small" text-anchor="start"><tspan x="107" y="315">continuous improvement</tspan></text>
+<line x1="600" y1="360" x2="200" y2="300" stroke="#D4E0E8" stroke-width="2"/>
+</svg>

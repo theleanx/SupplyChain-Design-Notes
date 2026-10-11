@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Aggregate and Item Inventory Management</title><desc id="desc">Original decision visual for aggregate and item inventory management, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Aggregate and Item Inventory Management</tspan></text>
+<text x="55" y="111" class="subtitle" text-anchor="start"><tspan x="55" y="111">Original decision visual for aggregate and item inventory management, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Different questions are answered at aggregate and item level</tspan></text>
+<rect x="150.0" y="210" width="900" height="100" rx="10" fill="#EAF4F8" stroke="#FFFFFF" stroke-width="3" opacity="1"/>
+<text x="175.0" y="248" class="h" text-anchor="start"><tspan x="175.0" y="248">Enterprise / family</tspan></text>
+<text x="175.0" y="280" class="body" text-anchor="start"><tspan x="175.0" y="280">How much inventory investment?</tspan></text>
+<text x="1025.0" y="268" class="small" text-anchor="end"><tspan x="1025.0" y="268">service, turns, cash</tspan></text>
+<rect x="255.0" y="345" width="690" height="100" rx="10" fill="#E8F5EF" stroke="#FFFFFF" stroke-width="3" opacity="1"/>
+<text x="280.0" y="383" class="h" text-anchor="start"><tspan x="280.0" y="383">Class / segment</tspan></text>
+<text x="280.0" y="415" class="body" text-anchor="start"><tspan x="280.0" y="415">Which control intensity?</tspan></text>
+<text x="920.0" y="403" class="small" text-anchor="end"><tspan x="920.0" y="403">ABC + criticality</tspan></text>
+<rect x="360.0" y="480" width="480" height="100" rx="10" fill="#FFF4D8" stroke="#FFFFFF" stroke-width="3" opacity="1"/>
+<text x="385.0" y="518" class="h" text-anchor="start"><tspan x="385.0" y="518">SKU / location</tspan></text>
+<text x="385.0" y="550" class="body" text-anchor="start"><tspan x="385.0" y="550">When and how much to order?</tspan></text>
+<text x="815.0" y="538" class="small" text-anchor="end"><tspan x="815.0" y="538">parameters + transactions</tspan></text>
+<text x="600" y="635" class="small" text-anchor="middle"><tspan x="600" y="635">Aggregate goals must eventually translate into measurable SKU/location rules.</tspan></text>
+</svg>

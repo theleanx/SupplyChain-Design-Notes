@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Benchmarking for Improvement</title><desc id="desc">Original decision visual for benchmarking for improvement, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Benchmarking for Improvement</tspan></text>
+<text x="55" y="111" class="subtitle" text-anchor="start"><tspan x="55" y="111">Original decision visual for benchmarking for improvement, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Choose the benchmark type that matches the learning question</tspan></text>
+<rect x="250" y="215" width="280" height="95" rx="0" fill="#EAF4F8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="390.0" y="269" class="h" text-anchor="middle"><tspan x="390.0" y="269">Competitive</tspan></text>
+<rect x="530" y="215" width="280" height="95" rx="0" fill="#EAF4F8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="670.0" y="269" class="h" text-anchor="middle"><tspan x="670.0" y="269">Best-in-class</tspan></text>
+<rect x="810" y="215" width="280" height="95" rx="0" fill="#EAF4F8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="950.0" y="269" class="h" text-anchor="middle"><tspan x="950.0" y="269">Process</tspan></text>
+<text x="70" y="360" class="h" text-anchor="start"><tspan x="70" y="360">Reference</tspan></text>
+<rect x="250" y="310" width="280" height="95" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="270" y="348" class="small" text-anchor="start"><tspan x="270" y="348">direct competitor</tspan></text>
+<rect x="530" y="310" width="280" height="95" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="550" y="348" class="small" text-anchor="start"><tspan x="550" y="348">leading performer</tspan></text>
+<rect x="810" y="310" width="280" height="95" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="830" y="348" class="small" text-anchor="start"><tspan x="830" y="348">analogous process</tspan></text>
+<text x="70" y="455" class="h" text-anchor="start"><tspan x="70" y="455">Best use</tspan></text>
+<rect x="250" y="405" width="280" height="95" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="270" y="443" class="small" text-anchor="start"><tspan x="270" y="443">market gap</tspan></text>
+<rect x="530" y="405" width="280" height="95" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="550" y="443" class="small" text-anchor="start"><tspan x="550" y="443">stretch capability</tspan></text>
+<rect x="810" y="405" width="280" height="95" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="830" y="443" class="small" text-anchor="start"><tspan x="830" y="443">method transfer</tspan></text>
+<text x="70" y="550" class="h" text-anchor="start"><tspan x="70" y="550">Risk</tspan></text>
+<rect x="250" y="500" width="280" height="95" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="270" y="538" class="small" text-anchor="start"><tspan x="270" y="538">copying strategy</tspan></text>
+<rect x="530" y="500" width="280" height="95" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="550" y="538" class="small" text-anchor="start"><tspan x="550" y="538">context mismatch</tspan></text>
+<rect x="810" y="500" width="280" height="95" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="830" y="538" class="small" text-anchor="start"><tspan x="830" y="538">weak process equivalence</tspan></text>
+<text x="600" y="645" class="small" text-anchor="middle"><tspan x="600" y="645">Benchmarking supplies evidence for a goal; it does not automatically prescribe the solution.</tspan></text>
+</svg>

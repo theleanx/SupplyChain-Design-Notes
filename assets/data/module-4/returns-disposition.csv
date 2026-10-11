@@ -1,0 +1,7 @@
+return_id,item,return_reason,condition,recoverable_value_usd,processing_cost_usd,service_obligation,regulatory_or_safety_hold,disposition_option,end_of_life_date,net_recovery_usd,decision_gate,illustrative_data
+R-1001,PH-SD500,shipping damage,repairable enclosure,420,115,warranty,no,repair and return,2032-12-31,305,economics and service obligation,yes
+R-1002,PH-SD500,intermittent power fault,electrical failure under investigation,250,180,warranty,yes,quarantine pending failure analysis,2032-12-31,70,hold overrides economics,yes
+R-1003,PH-PWR220,supplier return,unused sealed lot,150,22,none,no,return to supplier,2031-06-30,128,economics and service obligation,yes
+R-1004,PH-CTRL210,customer upgrade,functional previous revision,120,48,service exchange,no,refurbish for service pool,2029-12-31,72,economics and service obligation,yes
+R-1005,PH-MCU88,excess obsolete revision,unused,6,9,none,no,approved recycler,2027-09-30,-3,economics and service obligation,yes
+R-1006,PH-FAN120,cosmetic package damage,component tested good,7.5,1.2,none,no,return to available stock,2030-12-31,6.3,economics and service obligation,yes

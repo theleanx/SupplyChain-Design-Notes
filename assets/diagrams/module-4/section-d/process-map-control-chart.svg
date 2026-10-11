@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Basic Quality Tools I: Process Maps and Control Charts</title><desc id="desc">Original decision visual for basic quality tools i: process maps and control charts, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Basic Quality Tools I: Process Maps and Control Charts</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for basic quality tools i: process maps and control charts, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Process map shows the sequence; control chart shows whether variation is stable</tspan></text>
+<rect x="70" y="230" width="125" height="70" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="70" y="230" width="8" height="70" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="92" y="261" class="h" text-anchor="start"><tspan x="92" y="261">Receive</tspan></text>
+<line x1="195" y1="265" x2="230" y2="265" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="230" y="230" width="125" height="70" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="230" y="230" width="8" height="70" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="252" y="261" class="h" text-anchor="start"><tspan x="252" y="261">Machine</tspan></text>
+<line x1="355" y1="265" x2="390" y2="265" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="390" y="230" width="125" height="70" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="390" y="230" width="8" height="70" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="412" y="261" class="h" text-anchor="start"><tspan x="412" y="261">Measure</tspan></text>
+<line x1="515" y1="265" x2="550" y2="265" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="550" y="230" width="125" height="70" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="550" y="230" width="8" height="70" rx="14" fill="#C98516" opacity="1"/>
+<text x="572" y="261" class="h" text-anchor="start"><tspan x="572" y="261">Accept?</tspan></text>
+<line x1="675" y1="265" x2="710" y2="265" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="710" y="230" width="125" height="70" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="710" y="230" width="8" height="70" rx="14" fill="#C98516" opacity="1"/>
+<text x="732" y="261" class="h" text-anchor="start"><tspan x="732" y="261">Rework /</tspan><tspan x="732" y="281">release</tspan></text>
+<line x1="110" y1="580" x2="1040" y2="580" stroke="#5B7184" stroke-width="2"/>
+<line x1="110" y1="430" x2="110" y2="580" stroke="#5B7184" stroke-width="2"/>
+<line x1="110" y1="580.0" x2="1040" y2="580.0" stroke="#D4E0E8" stroke-width="1"/>
+<text x="100" y="584.0" class="tiny" text-anchor="end"><tspan x="100" y="584.0">5</tspan></text>
+<line x1="110" y1="542.5" x2="1040" y2="542.5" stroke="#D4E0E8" stroke-width="1"/>
+<text x="100" y="546.5" class="tiny" text-anchor="end"><tspan x="100" y="546.5">5</tspan></text>
+<line x1="110" y1="505.0" x2="1040" y2="505.0" stroke="#D4E0E8" stroke-width="1"/>
+<text x="100" y="509.0" class="tiny" text-anchor="end"><tspan x="100" y="509.0">5</tspan></text>
+<line x1="110" y1="467.5" x2="1040" y2="467.5" stroke="#D4E0E8" stroke-width="1"/>
+<text x="100" y="471.5" class="tiny" text-anchor="end"><tspan x="100" y="471.5">5</tspan></text>
+<line x1="110" y1="430.0" x2="1040" y2="430.0" stroke="#D4E0E8" stroke-width="1"/>
+<text x="100" y="434.0" class="tiny" text-anchor="end"><tspan x="100" y="434.0">5</tspan></text>
+<text x="148.75" y="600" class="tiny" text-anchor="middle"><tspan x="148.75" y="600">1</tspan></text>
+<text x="226.25" y="600" class="tiny" text-anchor="middle"><tspan x="226.25" y="600">2</tspan></text>
+<text x="303.75" y="600" class="tiny" text-anchor="middle"><tspan x="303.75" y="600">3</tspan></text>
+<text x="381.25" y="600" class="tiny" text-anchor="middle"><tspan x="381.25" y="600">4</tspan></text>
+<text x="458.75" y="600" class="tiny" text-anchor="middle"><tspan x="458.75" y="600">5</tspan></text>
+<text x="536.25" y="600" class="tiny" text-anchor="middle"><tspan x="536.25" y="600">6</tspan></text>
+<text x="613.75" y="600" class="tiny" text-anchor="middle"><tspan x="613.75" y="600">7</tspan></text>
+<text x="691.25" y="600" class="tiny" text-anchor="middle"><tspan x="691.25" y="600">8</tspan></text>
+<text x="768.75" y="600" class="tiny" text-anchor="middle"><tspan x="768.75" y="600">9</tspan></text>
+<text x="846.25" y="600" class="tiny" text-anchor="middle"><tspan x="846.25" y="600">10</tspan></text>
+<text x="923.75" y="600" class="tiny" text-anchor="middle"><tspan x="923.75" y="600">11</tspan></text>
+<text x="1001.25" y="600" class="tiny" text-anchor="middle"><tspan x="1001.25" y="600">12</tspan></text>
+<text x="68" y="505.0" class="tiny" text-anchor="middle"><tspan x="68" y="505.0">mm</tspan></text>
+<polyline points="148.75,514.3750000000002 226.25,495.6250000000002 303.75,533.1249999999998 381.25,519.0625000000001 458.75,481.5625000000001 536.25,537.8125000000001 613.75,505.0 691.25,523.75 768.75,467.5 846.25,542.5 923.75,509.6874999999999 1001.25,519.0625000000001" fill="none" stroke="#0B7189" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="148.75" cy="514.3750000000002" r="4" fill="#0B7189"/>
+<circle cx="226.25" cy="495.6250000000002" r="4" fill="#0B7189"/>
+<circle cx="303.75" cy="533.1249999999998" r="4" fill="#0B7189"/>
+<circle cx="381.25" cy="519.0625000000001" r="4" fill="#0B7189"/>
+<circle cx="458.75" cy="481.5625000000001" r="4" fill="#0B7189"/>
+<circle cx="536.25" cy="537.8125000000001" r="4" fill="#0B7189"/>
+<circle cx="613.75" cy="505.0" r="4" fill="#0B7189"/>
+<circle cx="691.25" cy="523.75" r="4" fill="#0B7189"/>
+<circle cx="768.75" cy="467.5" r="4" fill="#0B7189"/>
+<circle cx="846.25" cy="542.5" r="4" fill="#0B7189"/>
+<circle cx="923.75" cy="509.6874999999999" r="4" fill="#0B7189"/>
+<circle cx="1001.25" cy="519.0625000000001" r="4" fill="#0B7189"/>
+<line x1="110" y1="465.5468750000001" x2="1040" y2="465.5468750000001" stroke="#B84A52" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="1052" y="469.5468750000001" class="tiny" text-anchor="start"><tspan x="1052" y="469.5468750000001">UCL</tspan></text>
+<line x1="110" y1="512.4218749999999" x2="1040" y2="512.4218749999999" stroke="#2F7D65" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="1052" y="516.4218749999999" class="tiny" text-anchor="start"><tspan x="1052" y="516.4218749999999">CL</tspan></text>
+<line x1="110" y1="559.2968749999997" x2="1040" y2="559.2968749999997" stroke="#B84A52" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="1052" y="563.2968749999997" class="tiny" text-anchor="start"><tspan x="1052" y="563.2968749999997">LCL</tspan></text>
+</svg>

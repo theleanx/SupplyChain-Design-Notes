@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Push, Pull, and Distribution Requirements Planning</title><desc id="desc">Original decision visual for push, pull, and distribution requirements planning, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Push, Pull, and Distribution Requirements Planning</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for push, pull, and distribution requirements planning, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Time-phased pull signals translated into coordinated upstream supply</tspan></text>
+<rect x="80" y="225" width="250" height="90" rx="14" fill="#E8F5EF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="80" y="225" width="8" height="90" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="102" y="256" class="h" text-anchor="start"><tspan x="102" y="256">DC-East</tspan></text>
+<text x="102" y="285" class="small" text-anchor="start"><tspan x="102" y="285">Local demand + safety</tspan><tspan x="102" y="303">stock</tspan></text>
+<rect x="80" y="385" width="250" height="90" rx="14" fill="#E8F5EF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="80" y="385" width="8" height="90" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="102" y="416" class="h" text-anchor="start"><tspan x="102" y="416">DC-West</tspan></text>
+<text x="102" y="445" class="small" text-anchor="start"><tspan x="102" y="445">Local demand + safety</tspan><tspan x="102" y="463">stock</tspan></text>
+<rect x="475" y="305" width="250" height="110" rx="14" fill="#EAF4F8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="475" y="305" width="8" height="110" rx="14" fill="#0B7189" opacity="1"/>
+<text x="497" y="336" class="h" text-anchor="start"><tspan x="497" y="336">Central Supply</tspan></text>
+<text x="497" y="365" class="small" text-anchor="start"><tspan x="497" y="365">Net both DC requirements</tspan><tspan x="497" y="383">Respect lot size + lead time</tspan></text>
+<rect x="870" y="305" width="250" height="110" rx="14" fill="#FFF4D8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="870" y="305" width="8" height="110" rx="14" fill="#C98516" opacity="1"/>
+<text x="892" y="336" class="h" text-anchor="start"><tspan x="892" y="336">Factory / MPS</tspan></text>
+<text x="892" y="365" class="small" text-anchor="start"><tspan x="892" y="365">Production signal from</tspan><tspan x="892" y="383">central releases</tspan></text>
+<line x1="330" y1="270" x2="475" y2="335" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<line x1="330" y1="430" x2="475" y2="385" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<line x1="725" y1="360" x2="870" y2="360" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<text x="85" y="520" class="h" text-anchor="start"><tspan x="85" y="520">Example release signals</tspan></text>
+<text x="85" y="555" class="small" text-anchor="start"><tspan x="85" y="555">East: W2 300, W5 300, W7 300</tspan></text>
+<text x="85" y="582" class="small" text-anchor="start"><tspan x="85" y="582">West: W1 400, W4 400</tspan></text>
+</svg>

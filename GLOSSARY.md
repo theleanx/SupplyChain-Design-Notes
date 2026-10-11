@@ -4,6 +4,11 @@ This glossary provides concise working definitions for terms used across the rep
 
 ## A
 
+**ABC classification** — A method of grouping inventory items by annual monetary value or another approved criterion so control effort can be concentrated where it matters most.
+
+**Available-to-promise (ATP)** — The uncommitted portion of inventory and planned production that can support new customer promises under the stated master-scheduling rules.
+
+
 **Aggregate plan** — A medium-term plan expressed at a product-family or resource level rather than at individual item level.
 
 **Application programming interface (API)** — A defined interface through which software applications request data or actions from one another.
@@ -31,6 +36,11 @@ This glossary provides concise working definitions for terms used across the rep
 ## C
 
 **Capacity** — The output a resource, work center, facility, or supply network can produce during a defined period.
+
+**Capacity requirements planning (CRP)** — A detailed, time-phased check of work-center load created by planned and released orders against available capacity.
+
+**Cycle counting** — A recurring inventory-accuracy method that counts selected items on a schedule rather than relying only on a full annual physical inventory.
+
 
 **Cash-to-cash time** — Inventory days plus receivable days minus payable days, estimating how long operating cash remains tied up.
 
@@ -68,6 +78,9 @@ This glossary provides concise working definitions for terms used across the rep
 
 ## E
 
+**Economic order quantity (EOQ)** — A fixed-order-quantity model that balances ordering or setup cost against inventory carrying cost under stated simplifying assumptions.
+
+
 **Engineer-to-order (ETO)** — A production approach in which significant engineering work begins after a specific customer requirement is received.
 
 **Environmental scan** — Structured review of external political, economic, social, technological, legal, and environmental forces.
@@ -102,6 +115,14 @@ This glossary provides concise working definitions for terms used across the rep
 
 **Inventory turnover** — Annualized cost of goods sold divided by average inventory, indicating how frequently inventory cycles through the business.
 
+## J
+
+**Just-in-time (JIT)** — An operating philosophy that seeks to supply only what is needed, when it is needed, while reducing waste, variability, queues, lead time, and defects.
+
+## K
+
+**Kanban** — A visual or electronic pull signal authorizing replenishment or movement only when downstream use creates a need.
+
 ## L
 
 **Lagging indicator** — A measure that confirms a change after the underlying business condition has already shifted.
@@ -115,6 +136,11 @@ This glossary provides concise working definitions for terms used across the rep
 **Landed cost** — The purchase or production cost plus the logistics, duty, brokerage, handling, and other costs required to place supply at the specified destination.
 
 ## M
+
+**Master production schedule (MPS)** — The item-level, time-phased statement of what end items or master-scheduled items are planned for completion.
+
+**Material requirements planning (MRP)** — Time-phased planning logic that uses the MPS, bills of material, inventory status, lead times, and lot-sizing rules to calculate dependent-demand requirements and planned orders.
+
 
 **Make-to-order (MTO)** — A production approach in which product completion is initiated by a specific customer order.
 
@@ -160,6 +186,9 @@ This glossary provides concise working definitions for terms used across the rep
 
 **Planning horizon** — The future interval over which plans, demand, supply, and constraints are evaluated.
 
+**Projected available balance (PAB)** — The projected inventory remaining after applying planned supply and the demand basis used for each master-schedule period.
+
+
 **Postponement** — Delaying final product differentiation or commitment until more reliable demand information is available.
 
 **Product life cycle** — The progression of a product through introduction, growth, maturity, and decline, with different demand and supply implications at each stage.
@@ -184,6 +213,9 @@ This glossary provides concise working definitions for terms used across the rep
 
 **Resource plan** — A long- or medium-range check that determines whether critical resources can support the business or operations plan.
 
+**Rough-cut capacity planning (RCCP)** — A medium-range capacity check that tests whether critical resources can support a preliminary master production schedule.
+
+
 ## S
 
 **Safety stock** — Inventory maintained to reduce the risk created by demand or supply uncertainty.
@@ -206,6 +238,9 @@ This glossary provides concise working definitions for terms used across the rep
 
 **Supply review** — A cross-functional evaluation of capacity, materials, inventory, constraints, risks, and response options against the demand plan.
 
+**Six Sigma** — A structured improvement approach that uses data and statistical thinking to reduce process variation and defects; DMAIC is a common improvement cycle.
+
+
 **SWOT** — A structured view of internal strengths and weaknesses alongside external opportunities and threats.
 
 **Should-cost estimate** — A driver-based estimate of the resources and economics reasonably expected to deliver a defined requirement under stated assumptions.
@@ -215,6 +250,13 @@ This glossary provides concise working definitions for terms used across the rep
 ## T
 
 **Tracking signal** — A ratio comparing cumulative forecast error with MAD to identify sustained bias.
+
+**Takt time** — Available production time divided by customer demand, representing the pace required to match demand; it is not the same as actual cycle time.
+
+**Theory of constraints (TOC)** — A system-improvement approach that identifies the limiting constraint, exploits it, subordinates other work to it, elevates it when necessary, and repeats after the constraint moves.
+
+**Total productive maintenance (TPM)** — A maintenance approach that combines preventive maintenance with broad employee involvement to improve equipment effectiveness, stability, and flow.
+
 
 **Total cost of ownership (TCO)** — The full lifecycle cost of acquiring, implementing, operating, supporting, changing, and retiring a capability.
 
@@ -240,4 +282,7 @@ This glossary provides concise working definitions for terms used across the rep
 
 **Working capital** — Short-term operating resources and obligations; supply-chain analysis often focuses on inventory, receivables, and payables.
 
-For deeper treatment, open the [Module 1 overview](./01-supply-chains-demand-forecasting/README.md), the [Module 2 overview](./02-network-design-digital-connectivity-performance/README.md), or choose a [role-based learning path](./LEARNING-PATHS.md).
+**Work center** — A defined production resource or group of similar resources used for scheduling, routing, load, and capacity control.
+
+
+For deeper treatment, open the [Module 1 overview](./01-supply-chains-demand-forecasting/README.md), [Module 2 overview](./02-network-design-digital-connectivity-performance/README.md), [Module 3 overview](./03-sourcing-strategy-product-design-supplier-execution/README.md), [Module 4 overview](./04-internal-operations-inventory/README.md), or choose a [role-based learning path](./LEARNING-PATHS.md).

@@ -1,0 +1,6 @@
+sku,model,annual_demand_units,unit_cost_usd,ordering_cost_usd,annual_carrying_rate,demand_units_per_day,lead_time_days,review_interval_days,safety_stock_units,on_hand_units,safety_stock_method,min_level_units,max_level_units,annual_carrying_cost_per_unit_usd,eoq_units,order_point_units,periodic_review_max_level_units,periodic_review_order_quantity_units,illustrative_data
+PH-PWR220,EOQ,12000,168,145,0.22,48,15,0,380,900,fixed amount from service policy,,,36.96,306.85,1100,,,yes
+PH-CNK500,Periodic review,18000,11,65,0.25,72,8,10,210,620,coverage policy,,,2.75,922.45,786,1506,886,yes
+PH-FUSE7,Min-max,45000,0.55,48,0.3,180,20,5,850,650,critical-item fixed buffer,700,2200,0.165,5116.82,4450,5350,4700,yes
+PH-SRVKIT,TPOP,4800,92,80,0.24,19.2,10,0,95,220,coverage by dated requirements,,,22.08,186.5,287.0,,,yes
+PH-MCU88,DDMRP context,22000,42,120,0.26,88,35,0,950,1200,decoupling-buffer policy example,,,10.92,695.35,4030,,,yes

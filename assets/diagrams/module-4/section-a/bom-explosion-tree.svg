@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Bills of Material and Explosion</title><desc id="desc">Original decision visual for bills of material and explosion, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Bills of Material and Explosion</tspan></text>
+<text x="55" y="111" class="subtitle" text-anchor="start"><tspan x="55" y="111">Original decision visual for bills of material and explosion, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">PH-SD500 multi-level bill of material</tspan></text>
+<rect x="475" y="170" width="250" height="76" rx="14" fill="#EAF4F8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="475" y="170" width="8" height="76" rx="14" fill="#0B7189" opacity="1"/>
+<text x="497" y="201" class="h" text-anchor="start"><tspan x="497" y="201">PH-SD500</tspan></text>
+<text x="497" y="230" class="small" text-anchor="start"><tspan x="497" y="230">Finished servo drive</tspan></text>
+<rect x="80" y="320" width="170" height="75" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="80" y="320" width="8" height="75" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="102" y="351" class="h" text-anchor="start"><tspan x="102" y="351">PH-CTRL210 × 1</tspan></text>
+<text x="102" y="380" class="small" text-anchor="start"><tspan x="102" y="380">Level 1</tspan></text>
+<line x1="600" y1="246" x2="165" y2="320" stroke="#5B7184" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="300" y="320" width="170" height="75" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="300" y="320" width="8" height="75" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="322" y="351" class="h" text-anchor="start"><tspan x="322" y="351">PH-PWR220 × 1</tspan></text>
+<text x="322" y="380" class="small" text-anchor="start"><tspan x="322" y="380">Level 1</tspan></text>
+<line x1="600" y1="246" x2="385" y2="320" stroke="#5B7184" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="520" y="320" width="170" height="75" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="520" y="320" width="8" height="75" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="542" y="351" class="h" text-anchor="start"><tspan x="542" y="351">PH-ENC500 × 1</tspan></text>
+<text x="542" y="380" class="small" text-anchor="start"><tspan x="542" y="380">Level 1</tspan></text>
+<line x1="600" y1="246" x2="605" y2="320" stroke="#5B7184" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="740" y="320" width="170" height="75" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="740" y="320" width="8" height="75" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="762" y="351" class="h" text-anchor="start"><tspan x="762" y="351">PH-FAN120 × 2</tspan></text>
+<text x="762" y="380" class="small" text-anchor="start"><tspan x="762" y="380">Level 1</tspan></text>
+<line x1="600" y1="246" x2="825" y2="320" stroke="#5B7184" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="960" y="320" width="170" height="75" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="960" y="320" width="8" height="75" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="982" y="351" class="h" text-anchor="start"><tspan x="982" y="351">PH-CNK500 × 1</tspan></text>
+<text x="982" y="380" class="small" text-anchor="start"><tspan x="982" y="380">Level 1</tspan></text>
+<line x1="600" y1="246" x2="1045" y2="320" stroke="#5B7184" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="260" y="500" width="150" height="70" rx="14" fill="#E8F5EF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="260" y="500" width="8" height="70" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="282" y="531" class="h" text-anchor="start"><tspan x="282" y="531">PH-PCB210 × 1</tspan></text>
+<text x="282" y="560" class="small" text-anchor="start"><tspan x="282" y="560">Level 2</tspan></text>
+<line x1="165" y1="395" x2="335" y2="500" stroke="#5B7184" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="430" y="500" width="150" height="70" rx="14" fill="#E8F5EF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="430" y="500" width="8" height="70" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="452" y="531" class="h" text-anchor="start"><tspan x="452" y="531">PH-MCU88 × 1</tspan></text>
+<text x="452" y="560" class="small" text-anchor="start"><tspan x="452" y="560">Level 2</tspan></text>
+<line x1="165" y1="395" x2="505" y2="500" stroke="#5B7184" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="600" y="500" width="150" height="70" rx="14" fill="#E8F5EF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="600" y="500" width="8" height="70" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="622" y="531" class="h" text-anchor="start"><tspan x="622" y="531">PH-HARN210 × 2</tspan></text>
+<text x="622" y="560" class="small" text-anchor="start"><tspan x="622" y="560">Level 2</tspan></text>
+<line x1="165" y1="395" x2="675" y2="500" stroke="#5B7184" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="820" y="500" width="150" height="70" rx="14" fill="#E8F5EF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="820" y="500" width="8" height="70" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="842" y="531" class="h" text-anchor="start"><tspan x="842" y="531">PH-SHEET14 × 1.8</tspan></text>
+<text x="842" y="560" class="small" text-anchor="start"><tspan x="842" y="560">Level 2</tspan></text>
+<line x1="605" y1="395" x2="895" y2="500" stroke="#5B7184" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="55" y="640" class="small" text-anchor="start"><tspan x="55" y="640">Explosion multiplies parent demand through each level; source and lead time remain item-specific.</tspan></text>
+</svg>

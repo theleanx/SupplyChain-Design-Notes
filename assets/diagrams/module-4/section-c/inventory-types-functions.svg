@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Inventory Fundamentals: Types and Functions</title><desc id="desc">Original decision visual for inventory fundamentals: types and functions, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Inventory Fundamentals: Types and Functions</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for inventory fundamentals: types and functions, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Inventory exists for different operational reasons</tspan></text>
+<circle cx="600" cy="390" r="95" fill="#EAF4F8" stroke="#0B7189" stroke-width="3"/>
+<text x="600" y="382" class="h" text-anchor="middle"><tspan x="600" y="382">INVENTORY</tspan></text>
+<text x="600" y="412" class="small" text-anchor="middle"><tspan x="600" y="412">physical + planned buffers</tspan></text>
+<rect x="490.0" y="175.0" width="220" height="90" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="490.0" y="175.0" width="8" height="90" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="512.0" y="206.0" class="h" text-anchor="start"><tspan x="512.0" y="206.0">Cycle / lot size</tspan></text>
+<text x="512.0" y="235.0" class="small" text-anchor="start"><tspan x="512.0" y="235.0">replenishment batch</tspan></text>
+<line x1="600.0" y1="295.0" x2="600.0" y2="265.0" stroke="#D4E0E8" stroke-width="2"/>
+<rect x="793.1088913245535" y="260.0" width="220" height="90" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="793.1088913245535" y="260.0" width="8" height="90" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="815.1088913245535" y="291.0" class="h" text-anchor="start"><tspan x="815.1088913245535" y="291.0">Safety</tspan></text>
+<text x="815.1088913245535" y="320.0" class="small" text-anchor="start"><tspan x="815.1088913245535" y="320.0">uncertainty</tspan></text>
+<line x1="682.2724133595217" y1="342.5" x2="807.8460969082653" y2="327.5" stroke="#D4E0E8" stroke-width="2"/>
+<rect x="793.1088913245535" y="430.0" width="220" height="90" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="793.1088913245535" y="430.0" width="8" height="90" rx="14" fill="#C98516" opacity="1"/>
+<text x="815.1088913245535" y="461.0" class="h" text-anchor="start"><tspan x="815.1088913245535" y="461.0">Anticipation</tspan></text>
+<text x="815.1088913245535" y="490.0" class="small" text-anchor="start"><tspan x="815.1088913245535" y="490.0">known future peak</tspan></text>
+<line x1="682.2724133595217" y1="437.5" x2="807.8460969082653" y2="452.5" stroke="#D4E0E8" stroke-width="2"/>
+<rect x="490.0" y="515.0" width="220" height="90" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="490.0" y="515.0" width="8" height="90" rx="14" fill="#6C5B9A" opacity="1"/>
+<text x="512.0" y="546.0" class="h" text-anchor="start"><tspan x="512.0" y="546.0">Hedge</tspan></text>
+<text x="512.0" y="575.0" class="small" text-anchor="start"><tspan x="512.0" y="575.0">price / supply risk</tspan></text>
+<line x1="600.0" y1="485.0" x2="600.0" y2="515.0" stroke="#D4E0E8" stroke-width="2"/>
+<rect x="186.89110867544645" y="430.0" width="220" height="90" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="186.89110867544645" y="430.0" width="8" height="90" rx="14" fill="#0B7189" opacity="1"/>
+<text x="208.89110867544645" y="461.0" class="h" text-anchor="start"><tspan x="208.89110867544645" y="461.0">Decoupling</tspan></text>
+<text x="208.89110867544645" y="490.0" class="small" text-anchor="start"><tspan x="208.89110867544645" y="490.0">separate process steps</tspan></text>
+<line x1="517.7275866404783" y1="437.5" x2="392.1539030917347" y2="452.5" stroke="#D4E0E8" stroke-width="2"/>
+<rect x="186.8911086754465" y="260.0" width="220" height="90" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="186.8911086754465" y="260.0" width="8" height="90" rx="14" fill="#B84A52" opacity="1"/>
+<text x="208.8911086754465" y="291.0" class="h" text-anchor="start"><tspan x="208.8911086754465" y="291.0">Pipeline</tspan></text>
+<text x="208.8911086754465" y="320.0" class="small" text-anchor="start"><tspan x="208.8911086754465" y="320.0">in transit</tspan></text>
+<line x1="517.7275866404783" y1="342.5" x2="392.1539030917347" y2="327.5" stroke="#D4E0E8" stroke-width="2"/>
+<text x="600" y="655" class="small" text-anchor="middle"><tspan x="600" y="655">Raw material · WIP · finished goods · MRO · in-transit can each contain different functions.</tspan></text>
+</svg>

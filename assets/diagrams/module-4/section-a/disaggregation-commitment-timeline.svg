@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Disaggregation and Commitment Decision Points</title><desc id="desc">Original decision visual for disaggregation and commitment decision points, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Disaggregation and Commitment Decision Points</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for disaggregation and commitment decision points, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">From family volume to executable SKU commitments</tspan></text>
+<rect x="80" y="230" width="220" height="125" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="80" y="230" width="8" height="125" rx="14" fill="#6C5B9A" opacity="1"/>
+<text x="102" y="261" class="h" text-anchor="start"><tspan x="102" y="261">Family plan</tspan></text>
+<text x="102" y="290" class="small" text-anchor="start"><tspan x="102" y="290">1,200 drives / month</tspan></text>
+<line x1="300" y1="292" x2="345" y2="292" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="345" y="230" width="220" height="125" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="345" y="230" width="8" height="125" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="367" y="261" class="h" text-anchor="start"><tspan x="367" y="261">Weekly mix</tspan></text>
+<text x="367" y="290" class="small" text-anchor="start"><tspan x="367" y="290">SD-500 + options</tspan></text>
+<line x1="565" y1="292" x2="610" y2="292" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="610" y="230" width="220" height="125" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="610" y="230" width="8" height="125" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="632" y="261" class="h" text-anchor="start"><tspan x="632" y="261">MPS receipt</tspan></text>
+<text x="632" y="290" class="small" text-anchor="start"><tspan x="632" y="290">Specific quantity /</tspan><tspan x="632" y="308">week</tspan></text>
+<line x1="830" y1="292" x2="875" y2="292" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="875" y="230" width="220" height="125" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="875" y="230" width="8" height="125" rx="14" fill="#C98516" opacity="1"/>
+<text x="897" y="261" class="h" text-anchor="start"><tspan x="897" y="261">Customer promise</tspan></text>
+<text x="897" y="290" class="small" text-anchor="start"><tspan x="897" y="290">ATP-backed commitment</tspan></text>
+<rect x="80" y="430" width="795" height="70" rx="8" fill="#FCE9EB" opacity="1"/>
+<rect x="875" y="430" width="235" height="70" rx="8" fill="#E8F5EF" opacity="1"/>
+<text x="477" y="471" class="body" text-anchor="middle"><tspan x="477" y="471">Commitment rises as time moves closer to execution</tspan></text>
+<text x="992" y="471" class="body" text-anchor="middle"><tspan x="992" y="471">More flexible</tspan></text>
+<text x="80" y="535" class="small" text-anchor="start"><tspan x="80" y="535">Decision point: do not disaggregate earlier than needed; do not promise later than the customer requires.</tspan></text>
+</svg>

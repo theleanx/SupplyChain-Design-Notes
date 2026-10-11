@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Operations, Inventory, Tracking, and Financial Performance</title><desc id="desc">Original decision visual for operations, inventory, tracking, and financial performance, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Operations, Inventory, Tracking, and Financial Performance</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for operations, inventory, tracking, and financial performance, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Pinehaven internal-operations scorecard</tspan></text>
+<text x="70" y="225" class="small" text-anchor="start"><tspan x="70" y="225">Schedule attainment</tspan></text>
+<rect x="350" y="205" width="600" height="22" rx="11" fill="#EDF2F6" opacity="1"/>
+<rect x="350" y="205" width="482.14285714285717" height="22" rx="11" fill="#B84A52" opacity="1"/>
+<line x1="850.0" y1="201" x2="850.0" y2="231" stroke="#17324D" stroke-width="3"/>
+<text x="970" y="223" class="small" text-anchor="start"><tspan x="970" y="223">actual 94.5 · target 98</tspan></text>
+<text x="70" y="305" class="small" text-anchor="start"><tspan x="70" y="305">Inventory accuracy</tspan></text>
+<rect x="350" y="285" width="600" height="22" rx="11" fill="#EDF2F6" opacity="1"/>
+<rect x="350" y="285" width="488.88888888888886" height="22" rx="11" fill="#B84A52" opacity="1"/>
+<line x1="850.0" y1="281" x2="850.0" y2="311" stroke="#17324D" stroke-width="3"/>
+<text x="970" y="303" class="small" text-anchor="start"><tspan x="970" y="303">actual 96.8 · target 99</tspan></text>
+<text x="70" y="385" class="small" text-anchor="start"><tspan x="70" y="385">Order lead time</tspan></text>
+<rect x="350" y="365" width="600" height="22" rx="11" fill="#EDF2F6" opacity="1"/>
+<rect x="350" y="365" width="500.0" height="22" rx="11" fill="#B84A52" opacity="1"/>
+<line x1="740.625" y1="361" x2="740.625" y2="391" stroke="#17324D" stroke-width="3"/>
+<text x="970" y="383" class="small" text-anchor="start"><tspan x="970" y="383">actual 6.4 · target 5</tspan></text>
+<text x="70" y="465" class="small" text-anchor="start"><tspan x="70" y="465">Inventory turns</tspan></text>
+<rect x="350" y="445" width="600" height="22" rx="11" fill="#EDF2F6" opacity="1"/>
+<rect x="350" y="445" width="436.0" height="22" rx="11" fill="#B84A52" opacity="1"/>
+<line x1="850.0" y1="441" x2="850.0" y2="471" stroke="#17324D" stroke-width="3"/>
+<text x="970" y="463" class="small" text-anchor="start"><tspan x="970" y="463">actual 4.36 · target 5</tspan></text>
+<text x="70" y="545" class="small" text-anchor="start"><tspan x="70" y="545">Cost of poor quality</tspan></text>
+<rect x="350" y="525" width="600" height="22" rx="11" fill="#EDF2F6" opacity="1"/>
+<rect x="350" y="525" width="499.99999999999994" height="22" rx="11" fill="#B84A52" opacity="1"/>
+<line x1="644.1176470588235" y1="521" x2="644.1176470588235" y2="551" stroke="#17324D" stroke-width="3"/>
+<text x="970" y="543" class="small" text-anchor="start"><tspan x="970" y="543">actual 3.4 · target 2</tspan></text>
+<text x="600" y="640" class="small" text-anchor="middle"><tspan x="600" y="640">Targets indicate expected performance; triggers define when management action is required.</tspan></text>
+</svg>

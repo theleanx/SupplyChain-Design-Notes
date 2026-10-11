@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Lean Waste, Objectives, and Five Principles</title><desc id="desc">Original decision visual for lean waste, objectives, and five principles, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Lean Waste, Objectives, and Five Principles</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for lean waste, objectives, and five principles, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Lean removes non-value-added work while protecting customer flow</tspan></text>
+<rect x="510.0" y="181.0" width="180" height="68" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="510.0" y="181.0" width="8" height="68" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="532.0" y="212.0" class="h" text-anchor="start"><tspan x="532.0" y="212.0">Transport</tspan></text>
+<rect x="768.0939751330899" y="232.2563132923542" width="180" height="68" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="768.0939751330899" y="232.2563132923542" width="8" height="68" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="790.0939751330899" y="263.2563132923542" class="h" text-anchor="start"><tspan x="790.0939751330899" y="263.2563132923542">Inventory</tspan></text>
+<rect x="875.0" y="356.0" width="180" height="68" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="875.0" y="356.0" width="8" height="68" rx="14" fill="#C98516" opacity="1"/>
+<text x="897.0" y="387.0" class="h" text-anchor="start"><tspan x="897.0" y="387.0">Motion</tspan></text>
+<rect x="768.0939751330899" y="479.7436867076458" width="180" height="68" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="768.0939751330899" y="479.7436867076458" width="8" height="68" rx="14" fill="#6C5B9A" opacity="1"/>
+<text x="790.0939751330899" y="510.7436867076458" class="h" text-anchor="start"><tspan x="790.0939751330899" y="510.7436867076458">Waiting</tspan></text>
+<rect x="510.0" y="531.0" width="180" height="68" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="510.0" y="531.0" width="8" height="68" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="532.0" y="562.0" class="h" text-anchor="start"><tspan x="532.0" y="562.0">Overproduction</tspan></text>
+<rect x="251.90602486691017" y="479.7436867076458" width="180" height="68" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="251.90602486691017" y="479.7436867076458" width="8" height="68" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="273.9060248669102" y="510.7436867076458" class="h" text-anchor="start"><tspan x="273.9060248669102" y="510.7436867076458">Overprocessing</tspan></text>
+<rect x="145.0" y="356.0" width="180" height="68" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="145.0" y="356.0" width="8" height="68" rx="14" fill="#C98516" opacity="1"/>
+<text x="167.0" y="387.0" class="h" text-anchor="start"><tspan x="167.0" y="387.0">Defects</tspan></text>
+<rect x="251.90602486691012" y="232.2563132923542" width="180" height="68" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="251.90602486691012" y="232.2563132923542" width="8" height="68" rx="14" fill="#6C5B9A" opacity="1"/>
+<text x="273.9060248669101" y="263.2563132923542" class="h" text-anchor="start"><tspan x="273.9060248669101" y="263.2563132923542">Unused skills</tspan></text>
+<circle cx="600" cy="390" r="112" fill="#EAF4F8" stroke="#0B7189" stroke-width="3"/>
+<text x="600" y="360" class="h" text-anchor="middle"><tspan x="600" y="360">5 PRINCIPLES</tspan></text>
+<text x="600" y="390" class="small" text-anchor="middle"><tspan x="600" y="390">value</tspan></text>
+<text x="600" y="410" class="small" text-anchor="middle"><tspan x="600" y="410">value stream</tspan></text>
+<text x="600" y="430" class="small" text-anchor="middle"><tspan x="600" y="430">flow</tspan></text>
+<text x="600" y="450" class="small" text-anchor="middle"><tspan x="600" y="450">pull</tspan></text>
+<text x="600" y="470" class="small" text-anchor="middle"><tspan x="600" y="470">perfection</tspan></text>
+</svg>

@@ -1,0 +1,10 @@
+parent,component,quantity_per_parent,level,lead_time_weeks,make_buy_flag,source_or_work_center,illustrative_data
+PH-SD500,PH-CTRL210,1,1,2,make,WC-ELEC,yes
+PH-SD500,PH-PWR220,1,1,2,buy,Supplier NovaPower,yes
+PH-SD500,PH-ENC500,1,1,1,make,WC-FAB,yes
+PH-SD500,PH-FAN120,2,1,1,buy,Supplier Ventrix,yes
+PH-SD500,PH-CNK500,1,1,1,buy,Supplier Connectra,yes
+PH-CTRL210,PH-PCB210,1,2,1,buy,Supplier BoardWorks,yes
+PH-CTRL210,PH-MCU88,1,2,3,buy,Supplier MicroCore,yes
+PH-CTRL210,PH-HARN210,2,2,1,make,WC-HARNESS,yes
+PH-ENC500,PH-SHEET14,1.8,2,1,buy,Supplier SteelForm,yes

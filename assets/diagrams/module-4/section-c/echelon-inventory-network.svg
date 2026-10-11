@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Inventory Planning, Locations, and Echelons</title><desc id="desc">Original decision visual for inventory planning, locations, and echelons, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Inventory Planning, Locations, and Echelons</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for inventory planning, locations, and echelons, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Inventory position changes when the planning decision moves across echelons</tspan></text>
+<rect x="80" y="260" width="150" height="80" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="80" y="260" width="8" height="80" rx="14" fill="#6C5B9A" opacity="1"/>
+<text x="102" y="291" class="h" text-anchor="start"><tspan x="102" y="291">Supplier</tspan></text>
+<rect x="320" y="260" width="150" height="80" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="320" y="260" width="8" height="80" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="342" y="291" class="h" text-anchor="start"><tspan x="342" y="291">Plant</tspan></text>
+<rect x="570" y="260" width="150" height="80" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="570" y="260" width="8" height="80" rx="14" fill="#0B7189" opacity="1"/>
+<text x="592" y="291" class="h" text-anchor="start"><tspan x="592" y="291">Central DC</tspan></text>
+<rect x="820" y="220" width="150" height="80" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="820" y="220" width="8" height="80" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="842" y="251" class="h" text-anchor="start"><tspan x="842" y="251">Regional DCs</tspan></text>
+<rect x="1040" y="260" width="150" height="80" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="1040" y="260" width="8" height="80" rx="14" fill="#C98516" opacity="1"/>
+<text x="1062" y="291" class="h" text-anchor="start"><tspan x="1062" y="291">Customers</tspan></text>
+<line x1="230" y1="300" x2="320" y2="300" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<line x1="470" y1="300" x2="570" y2="300" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<line x1="720" y1="300" x2="820" y2="260" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<line x1="970" y1="260" x2="1040" y2="300" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="350" y="430" width="260" height="95" rx="14" fill="#EAF4F8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="350" y="430" width="8" height="95" rx="14" fill="#0B7189" opacity="1"/>
+<text x="372" y="461" class="h" text-anchor="start"><tspan x="372" y="461">Centralized planning</tspan></text>
+<text x="372" y="490" class="small" text-anchor="start"><tspan x="372" y="490">System-wide inventory</tspan><tspan x="372" y="508">balance; pooling benefit</tspan></text>
+<rect x="680" y="430" width="260" height="95" rx="14" fill="#E8F5EF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="680" y="430" width="8" height="95" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="702" y="461" class="h" text-anchor="start"><tspan x="702" y="461">Decentralized planning</tspan></text>
+<text x="702" y="490" class="small" text-anchor="start"><tspan x="702" y="490">Local response; duplicated</tspan><tspan x="702" y="508">buffers may grow</tspan></text>
+<text x="600" y="615" class="small" text-anchor="middle"><tspan x="600" y="615">Echelon choices change service, transport, risk pooling, and working capital together.</tspan></text>
+</svg>

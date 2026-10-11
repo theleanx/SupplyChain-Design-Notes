@@ -1,0 +1,13 @@
+sku,inventory_type,inventory_function,annual_usage_units,unit_value_usd,annual_monetary_volume_usd,abc_class_by_value,cumulative_value_pct_after_item,policy_class,criticality_override,echelon,lead_time,service_importance,illustrative_data
+PH-SD500,Finished goods,cycle,18000,510.00,9180000.00,A,61.46,A,no,Regional DC,n/a,high,yes
+PH-PWR220,Purchased component,cycle,18000,168.00,3024000.00,A,81.71,A,no,Central,8 weeks,high,yes
+PH-MCU88,Purchased component,cycle,22000,42.00,924000.00,B,87.90,B,no,Central,12 weeks,high,yes
+PH-PCB210,Purchased component,cycle,21000,28.00,588000.00,B,91.83,B,no,Central,6 weeks,high,yes
+PH-ENC500,Manufactured component,cycle,18000,24.00,432000.00,B,94.73,B,no,Plant,1 week,medium,yes
+PH-FAN120,Purchased component,cycle,36000,8.50,306000.00,B,96.77,B,no,Central,4 weeks,medium,yes
+PH-CNK500,Purchased component,cycle,18000,11.00,198000.00,C,98.10,C,no,Central,3 weeks,medium,yes
+PH-HARN210,Manufactured component,cycle,42000,3.20,134400.00,C,99.00,C,no,Plant,1 week,medium,yes
+PH-SHEET14,Raw material,cycle,32400,2.40,77760.00,C,99.52,C,no,Plant,2 weeks,low,yes
+PH-FUSE7,Purchased component,safety,45000,0.55,24750.00,C,99.88,A,yes,Line-side,10 weeks,high,yes
+PH-PKG500,Packaging,cycle,18000,1.60,28800.00,C,99.71,C,no,Plant,2 weeks,low,yes
+PH-LUBE02,MRO,anticipation,2400,7.50,18000.00,C,100.00,C,no,Plant,2 weeks,medium,yes

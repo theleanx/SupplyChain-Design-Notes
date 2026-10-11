@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Master Scheduling and the Master Scheduling Grid</title><desc id="desc">Original decision visual for master scheduling and the master scheduling grid, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Master Scheduling and the Master Scheduling Grid</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for master scheduling and the master scheduling grid, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Eight-week master-schedule view</tspan></text>
+<rect x="70" y="195" width="150" height="52" rx="0" fill="#EAF4F8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="82" y="226" class="small" text-anchor="start"><tspan x="82" y="226">Week</tspan></text>
+<rect x="70" y="247" width="150" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="82" y="278" class="small" text-anchor="start"><tspan x="82" y="278">Forecast</tspan></text>
+<rect x="70" y="299" width="150" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="82" y="330" class="small" text-anchor="start"><tspan x="82" y="330">Orders</tspan></text>
+<rect x="70" y="351" width="150" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="82" y="382" class="small" text-anchor="start"><tspan x="82" y="382">MPS</tspan></text>
+<rect x="70" y="403" width="150" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="82" y="434" class="small" text-anchor="start"><tspan x="82" y="434">PAB</tspan></text>
+<rect x="70" y="455" width="150" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="82" y="486" class="small" text-anchor="start"><tspan x="82" y="486">ATP</tspan></text>
+<rect x="220" y="195" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="272.5" y="226" class="small" text-anchor="middle"><tspan x="272.5" y="226">1</tspan></text>
+<rect x="220" y="247" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="272.5" y="278" class="small" text-anchor="middle"><tspan x="272.5" y="278">150</tspan></text>
+<rect x="220" y="299" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="272.5" y="330" class="small" text-anchor="middle"><tspan x="272.5" y="330">160</tspan></text>
+<rect x="220" y="351" width="105" height="52" rx="0" fill="#E8F5EF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="272.5" y="382" class="small" text-anchor="middle"><tspan x="272.5" y="382">400</tspan></text>
+<rect x="220" y="403" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="272.5" y="434" class="small" text-anchor="middle"><tspan x="272.5" y="434">590</tspan></text>
+<rect x="220" y="455" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="272.5" y="486" class="small" text-anchor="middle"><tspan x="272.5" y="486">225</tspan></text>
+<rect x="325" y="195" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="377.5" y="226" class="small" text-anchor="middle"><tspan x="377.5" y="226">2</tspan></text>
+<rect x="325" y="247" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="377.5" y="278" class="small" text-anchor="middle"><tspan x="377.5" y="278">165</tspan></text>
+<rect x="325" y="299" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="377.5" y="330" class="small" text-anchor="middle"><tspan x="377.5" y="330">175</tspan></text>
+<rect x="325" y="351" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="377.5" y="382" class="small" text-anchor="middle"><tspan x="377.5" y="382">0</tspan></text>
+<rect x="325" y="403" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="377.5" y="434" class="small" text-anchor="middle"><tspan x="377.5" y="434">415</tspan></text>
+<rect x="325" y="455" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="377.5" y="486" class="small" text-anchor="middle"><tspan x="377.5" y="486"></tspan></text>
+<rect x="430" y="195" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="482.5" y="226" class="small" text-anchor="middle"><tspan x="482.5" y="226">3</tspan></text>
+<rect x="430" y="247" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="482.5" y="278" class="small" text-anchor="middle"><tspan x="482.5" y="278">180</tspan></text>
+<rect x="430" y="299" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="482.5" y="330" class="small" text-anchor="middle"><tspan x="482.5" y="330">190</tspan></text>
+<rect x="430" y="351" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="482.5" y="382" class="small" text-anchor="middle"><tspan x="482.5" y="382">0</tspan></text>
+<rect x="430" y="403" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="482.5" y="434" class="small" text-anchor="middle"><tspan x="482.5" y="434">225</tspan></text>
+<rect x="430" y="455" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="482.5" y="486" class="small" text-anchor="middle"><tspan x="482.5" y="486"></tspan></text>
+<rect x="535" y="195" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="587.5" y="226" class="small" text-anchor="middle"><tspan x="587.5" y="226">4</tspan></text>
+<rect x="535" y="247" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="587.5" y="278" class="small" text-anchor="middle"><tspan x="587.5" y="278">200</tspan></text>
+<rect x="535" y="299" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="587.5" y="330" class="small" text-anchor="middle"><tspan x="587.5" y="330">180</tspan></text>
+<rect x="535" y="351" width="105" height="52" rx="0" fill="#E8F5EF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="587.5" y="382" class="small" text-anchor="middle"><tspan x="587.5" y="382">400</tspan></text>
+<rect x="535" y="403" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="587.5" y="434" class="small" text-anchor="middle"><tspan x="587.5" y="434">425</tspan></text>
+<rect x="535" y="455" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="587.5" y="486" class="small" text-anchor="middle"><tspan x="587.5" y="486">50</tspan></text>
+<rect x="640" y="195" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="692.5" y="226" class="small" text-anchor="middle"><tspan x="692.5" y="226">5</tspan></text>
+<rect x="640" y="247" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="692.5" y="278" class="small" text-anchor="middle"><tspan x="692.5" y="278">210</tspan></text>
+<rect x="640" y="299" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="692.5" y="330" class="small" text-anchor="middle"><tspan x="692.5" y="330">170</tspan></text>
+<rect x="640" y="351" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="692.5" y="382" class="small" text-anchor="middle"><tspan x="692.5" y="382">0</tspan></text>
+<rect x="640" y="403" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="692.5" y="434" class="small" text-anchor="middle"><tspan x="692.5" y="434">215</tspan></text>
+<rect x="640" y="455" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="692.5" y="486" class="small" text-anchor="middle"><tspan x="692.5" y="486"></tspan></text>
+<rect x="745" y="195" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="797.5" y="226" class="small" text-anchor="middle"><tspan x="797.5" y="226">6</tspan></text>
+<rect x="745" y="247" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="797.5" y="278" class="small" text-anchor="middle"><tspan x="797.5" y="278">220</tspan></text>
+<rect x="745" y="299" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="797.5" y="330" class="small" text-anchor="middle"><tspan x="797.5" y="330">150</tspan></text>
+<rect x="745" y="351" width="105" height="52" rx="0" fill="#E8F5EF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="797.5" y="382" class="small" text-anchor="middle"><tspan x="797.5" y="382">400</tspan></text>
+<rect x="745" y="403" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="797.5" y="434" class="small" text-anchor="middle"><tspan x="797.5" y="434">395</tspan></text>
+<rect x="745" y="455" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="797.5" y="486" class="small" text-anchor="middle"><tspan x="797.5" y="486">120</tspan></text>
+<rect x="850" y="195" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="902.5" y="226" class="small" text-anchor="middle"><tspan x="902.5" y="226">7</tspan></text>
+<rect x="850" y="247" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="902.5" y="278" class="small" text-anchor="middle"><tspan x="902.5" y="278">225</tspan></text>
+<rect x="850" y="299" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="902.5" y="330" class="small" text-anchor="middle"><tspan x="902.5" y="330">130</tspan></text>
+<rect x="850" y="351" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="902.5" y="382" class="small" text-anchor="middle"><tspan x="902.5" y="382">0</tspan></text>
+<rect x="850" y="403" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="902.5" y="434" class="small" text-anchor="middle"><tspan x="902.5" y="434">170</tspan></text>
+<rect x="850" y="455" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="902.5" y="486" class="small" text-anchor="middle"><tspan x="902.5" y="486"></tspan></text>
+<rect x="955" y="195" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="1007.5" y="226" class="small" text-anchor="middle"><tspan x="1007.5" y="226">8</tspan></text>
+<rect x="955" y="247" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="1007.5" y="278" class="small" text-anchor="middle"><tspan x="1007.5" y="278">230</tspan></text>
+<rect x="955" y="299" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="1007.5" y="330" class="small" text-anchor="middle"><tspan x="1007.5" y="330">125</tspan></text>
+<rect x="955" y="351" width="105" height="52" rx="0" fill="#E8F5EF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="1007.5" y="382" class="small" text-anchor="middle"><tspan x="1007.5" y="382">450</tspan></text>
+<rect x="955" y="403" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="1007.5" y="434" class="small" text-anchor="middle"><tspan x="1007.5" y="434">390</tspan></text>
+<rect x="955" y="455" width="105" height="52" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="1007.5" y="486" class="small" text-anchor="middle"><tspan x="1007.5" y="486">215</tspan></text>
+<rect x="70" y="545" width="310" height="92" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="70" y="545" width="8" height="92" rx="14" fill="#0B7189" opacity="1"/>
+<text x="92" y="576" class="h" text-anchor="start"><tspan x="92" y="576">Decision use</tspan></text>
+<text x="92" y="605" class="small" text-anchor="start"><tspan x="92" y="605">Check feasibility before</tspan><tspan x="92" y="623">committing dates.</tspan></text>
+<rect x="445" y="545" width="310" height="92" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="445" y="545" width="8" height="92" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="467" y="576" class="h" text-anchor="start"><tspan x="467" y="576">PAB</tspan></text>
+<text x="467" y="605" class="small" text-anchor="start"><tspan x="467" y="605">Forward inventory signal after</tspan><tspan x="467" y="623">demand and MPS.</tspan></text>
+<rect x="820" y="545" width="310" height="92" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="820" y="545" width="8" height="92" rx="14" fill="#C98516" opacity="1"/>
+<text x="842" y="576" class="h" text-anchor="start"><tspan x="842" y="576">ATP</tspan></text>
+<text x="842" y="605" class="small" text-anchor="start"><tspan x="842" y="605">Uncommitted supply available for</tspan><tspan x="842" y="623">new promises.</tspan></text>
+</svg>

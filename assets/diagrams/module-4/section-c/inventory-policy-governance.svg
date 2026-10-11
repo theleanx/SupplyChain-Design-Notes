@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Inventory Management Roles and Policy</title><desc id="desc">Original decision visual for inventory management roles and policy, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Inventory Management Roles and Policy</tspan></text>
+<text x="55" y="111" class="subtitle" text-anchor="start"><tspan x="55" y="111">Original decision visual for inventory management roles and policy, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Inventory policy is cross-functional governance, not a warehouse-only decision</tspan></text>
+<rect x="120" y="220" width="260" height="90" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="120" y="220" width="8" height="90" rx="14" fill="#C98516" opacity="1"/>
+<text x="142" y="251" class="h" text-anchor="start"><tspan x="142" y="251">Sales / service</tspan></text>
+<text x="142" y="280" class="small" text-anchor="start"><tspan x="142" y="280">service promise</tspan></text>
+<rect x="445" y="180" width="260" height="90" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="445" y="180" width="8" height="90" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="467" y="211" class="h" text-anchor="start"><tspan x="467" y="211">Operations</tspan></text>
+<text x="467" y="240" class="small" text-anchor="start"><tspan x="467" y="240">flow + capacity</tspan></text>
+<rect x="775" y="220" width="260" height="90" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="775" y="220" width="8" height="90" rx="14" fill="#6C5B9A" opacity="1"/>
+<text x="797" y="251" class="h" text-anchor="start"><tspan x="797" y="251">Purchasing</tspan></text>
+<text x="797" y="280" class="small" text-anchor="start"><tspan x="797" y="280">supplier lead time</tspan></text>
+<rect x="270" y="470" width="260" height="90" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="270" y="470" width="8" height="90" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="292" y="501" class="h" text-anchor="start"><tspan x="292" y="501">Finance</tspan></text>
+<text x="292" y="530" class="small" text-anchor="start"><tspan x="292" y="530">working capital</tspan></text>
+<rect x="640" y="470" width="260" height="90" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="640" y="470" width="8" height="90" rx="14" fill="#0B7189" opacity="1"/>
+<text x="662" y="501" class="h" text-anchor="start"><tspan x="662" y="501">Inventory control</tspan></text>
+<text x="662" y="530" class="small" text-anchor="start"><tspan x="662" y="530">records + policy</tspan></text>
+<rect x="470" y="330" width="260" height="90" rx="14" fill="#EAF4F8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="470" y="330" width="8" height="90" rx="14" fill="#0B7189" opacity="1"/>
+<text x="492" y="361" class="h" text-anchor="start"><tspan x="492" y="361">Policy decision</tspan></text>
+<text x="492" y="390" class="small" text-anchor="start"><tspan x="492" y="390">Class · target ·</tspan><tspan x="492" y="408">replenishment · review</tspan></text>
+<line x1="250" y1="265" x2="600" y2="375" stroke="#D4E0E8" stroke-width="2"/>
+<line x1="575" y1="225" x2="600" y2="375" stroke="#D4E0E8" stroke-width="2"/>
+<line x1="905" y1="265" x2="600" y2="375" stroke="#D4E0E8" stroke-width="2"/>
+<line x1="400" y1="515" x2="600" y2="375" stroke="#D4E0E8" stroke-width="2"/>
+<line x1="770" y1="515" x2="600" y2="375" stroke="#D4E0E8" stroke-width="2"/>
+</svg>

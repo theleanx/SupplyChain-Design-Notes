@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">New Quality Tools I: Affinity, Tree, and Matrix Diagrams</title><desc id="desc">Original decision visual for new quality tools i: affinity, tree, and matrix diagrams, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">New Quality Tools I: Affinity, Tree, and Matrix Diagrams</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for new quality tools i: affinity, tree, and matrix diagrams, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Affinity → tree → matrix: from messy observations to structured ownership</tspan></text>
+<rect x="70" y="220" width="100" height="45" rx="5" fill="#FFF4D8" opacity="1"/>
+<text x="120" y="248" class="tiny" text-anchor="middle"><tspan x="120" y="248">delays</tspan></text>
+<rect x="185" y="220" width="100" height="45" rx="5" fill="#EAF4F8" opacity="1"/>
+<text x="235" y="248" class="tiny" text-anchor="middle"><tspan x="235" y="248">handoff errors</tspan></text>
+<rect x="300" y="220" width="100" height="45" rx="5" fill="#E8F5EF" opacity="1"/>
+<text x="350" y="248" class="tiny" text-anchor="middle"><tspan x="350" y="248">label issues</tspan></text>
+<rect x="70" y="290" width="100" height="45" rx="5" fill="#FFF4D8" opacity="1"/>
+<text x="120" y="318" class="tiny" text-anchor="middle"><tspan x="120" y="318">queue</tspan></text>
+<rect x="185" y="290" width="100" height="45" rx="5" fill="#EAF4F8" opacity="1"/>
+<text x="235" y="318" class="tiny" text-anchor="middle"><tspan x="235" y="318">supplier defects</tspan></text>
+<rect x="300" y="290" width="100" height="45" rx="5" fill="#E8F5EF" opacity="1"/>
+<text x="350" y="318" class="tiny" text-anchor="middle"><tspan x="350" y="318">rework</tspan></text>
+<line x1="430" y1="300" x2="520" y2="300" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="520" y="230" width="170" height="70" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="520" y="230" width="8" height="70" rx="14" fill="#0B7189" opacity="1"/>
+<text x="542" y="261" class="h" text-anchor="start"><tspan x="542" y="261">Reduce delays</tspan></text>
+<rect x="745" y="200" width="145" height="55" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="745" y="200" width="8" height="55" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="767" y="231" class="h" text-anchor="start"><tspan x="767" y="231">Flow</tspan></text>
+<line x1="690" y1="265" x2="745" y2="227" stroke="#D4E0E8" stroke-width="2"/>
+<rect x="745" y="285" width="145" height="55" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="745" y="285" width="8" height="55" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="767" y="316" class="h" text-anchor="start"><tspan x="767" y="316">Quality</tspan></text>
+<line x1="690" y1="265" x2="745" y2="312" stroke="#D4E0E8" stroke-width="2"/>
+<rect x="745" y="370" width="145" height="55" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="745" y="370" width="8" height="55" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="767" y="401" class="h" text-anchor="start"><tspan x="767" y="401">Supply</tspan></text>
+<line x1="690" y1="265" x2="745" y2="397" stroke="#D4E0E8" stroke-width="2"/>
+<line x1="900" y1="300" x2="965" y2="300" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="965" y="210" width="180" height="260" rx="8" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="1055" y="240" class="h" text-anchor="middle"><tspan x="1055" y="240">Owner matrix</tspan></text>
+<text x="980" y="285" class="small" text-anchor="start"><tspan x="980" y="285">Ops</tspan></text>
+<text x="980" y="335" class="small" text-anchor="start"><tspan x="980" y="335">Quality</tspan></text>
+<text x="980" y="385" class="small" text-anchor="start"><tspan x="980" y="385">Supply</tspan></text>
+<text x="1040" y="265" class="tiny" text-anchor="middle"><tspan x="1040" y="265">A</tspan></text>
+<text x="1070" y="265" class="tiny" text-anchor="middle"><tspan x="1070" y="265">B</tspan></text>
+<text x="1100" y="265" class="tiny" text-anchor="middle"><tspan x="1100" y="265">C</tspan></text>
+<circle cx="1040" cy="280" r="6" fill="#0B7189"/>
+<circle cx="1070" cy="280" r="6" fill="#EDF2F6"/>
+<circle cx="1100" cy="280" r="6" fill="#EDF2F6"/>
+<circle cx="1040" cy="330" r="6" fill="#EDF2F6"/>
+<circle cx="1070" cy="330" r="6" fill="#0B7189"/>
+<circle cx="1100" cy="330" r="6" fill="#EDF2F6"/>
+<circle cx="1040" cy="380" r="6" fill="#EDF2F6"/>
+<circle cx="1070" cy="380" r="6" fill="#EDF2F6"/>
+<circle cx="1100" cy="380" r="6" fill="#0B7189"/>
+<text x="600" y="610" class="small" text-anchor="middle"><tspan x="600" y="610">New quality tools help teams organize relationships that simple numeric charts cannot show alone.</tspan></text>
+</svg>

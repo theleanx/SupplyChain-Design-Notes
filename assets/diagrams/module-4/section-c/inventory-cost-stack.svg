@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Inventory Cost Structure</title><desc id="desc">Original decision visual for inventory cost structure, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Inventory Cost Structure</tspan></text>
+<text x="55" y="111" class="subtitle" text-anchor="start"><tspan x="55" y="111">Original decision visual for inventory cost structure, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Inventory policy trades service against multiple cost families</tspan></text>
+<rect x="125" y="235" width="228.0" height="120" rx="0" fill="#3A7CA5" opacity="1"/>
+<text x="239.0" y="272" class="body" text-anchor="middle"><tspan x="239.0" y="272">Acquisition</tspan></text>
+<text x="239.0" y="323" class="tiny" text-anchor="middle"><tspan x="239.0" y="323">unit + landed cost</tspan></text>
+<rect x="353.0" y="235" width="152.0" height="120" rx="0" fill="#6C5B9A" opacity="1"/>
+<text x="429.0" y="272" class="body" text-anchor="middle"><tspan x="429.0" y="272">Ordering /</tspan><tspan x="429.0" y="290">setup</tspan></text>
+<text x="429.0" y="323" class="tiny" text-anchor="middle"><tspan x="429.0" y="323">transaction +</tspan><tspan x="429.0" y="338">changeover</tspan></text>
+<rect x="505.0" y="235" width="266.0" height="120" rx="0" fill="#2F7D65" opacity="1"/>
+<text x="638.0" y="272" class="body" text-anchor="middle"><tspan x="638.0" y="272">Carrying</tspan></text>
+<text x="638.0" y="323" class="tiny" text-anchor="middle"><tspan x="638.0" y="323">capital + storage + risk</tspan></text>
+<rect x="771.0" y="235" width="180.5" height="120" rx="0" fill="#B84A52" opacity="1"/>
+<text x="861.25" y="272" class="body" text-anchor="middle"><tspan x="861.25" y="272">Shortage</tspan></text>
+<text x="861.25" y="323" class="tiny" text-anchor="middle"><tspan x="861.25" y="323">expedite + lost</tspan><tspan x="861.25" y="338">service</tspan></text>
+<rect x="951.5" y="235" width="123.5" height="120" rx="0" fill="#C98516" opacity="1"/>
+<text x="1013.25" y="272" class="body" text-anchor="middle"><tspan x="1013.25" y="272">Obsolescence</tspan><tspan x="1013.25" y="290">/ shrink</tspan></text>
+<text x="1013.25" y="323" class="tiny" text-anchor="middle"><tspan x="1013.25" y="323">loss of</tspan><tspan x="1013.25" y="338">value</tspan></text>
+<rect x="190" y="455" width="360" height="110" rx="14" fill="#FCE9EB" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="190" y="455" width="8" height="110" rx="14" fill="#B84A52" opacity="1"/>
+<text x="212" y="486" class="h" text-anchor="start"><tspan x="212" y="486">Too little inventory</tspan></text>
+<text x="212" y="515" class="small" text-anchor="start"><tspan x="212" y="515">Higher shortage and disruption</tspan><tspan x="212" y="533">exposure</tspan></text>
+<rect x="650" y="455" width="360" height="110" rx="14" fill="#FFF4D8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="650" y="455" width="8" height="110" rx="14" fill="#C98516" opacity="1"/>
+<text x="672" y="486" class="h" text-anchor="start"><tspan x="672" y="486">Too much inventory</tspan></text>
+<text x="672" y="515" class="small" text-anchor="start"><tspan x="672" y="515">Higher capital, storage, and</tspan><tspan x="672" y="533">obsolescence cost</tspan></text>
+<text x="600" y="630" class="small" text-anchor="middle"><tspan x="600" y="630">The lowest purchase price is not the same as the lowest inventory-related total cost.</tspan></text>
+</svg>
