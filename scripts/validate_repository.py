@@ -204,9 +204,19 @@ def validate_shared_module_content() -> list[str]:
             has_svg = bool(re.search(r"!\[[^]]+\]\([^)]+\.svg\)", body, re.IGNORECASE))
             if not (has_mermaid or has_svg):
                 errors.append(f"{relative}: requires a topic-appropriate Mermaid or SVG visual")
-            if module in (MODULE_2, MODULE_3, MODULE_4) and body.count(f"{FENCE}mermaid") != 1:
+            module_4_flow_exceptions = {
+                "section-a-planning-operations/12-mrp-evolution-closed-loop-mrp-mrp-ii-erp-and-ddmrp-context.md",
+                "section-c-inventory/01-inventory-fundamentals-types-and-functions.md",
+                "section-c-inventory/02-inventory-cost-structure.md",
+            }
+            lesson_key = str(path.relative_to(module))
+            requires_process_flow = (
+                module in (MODULE_2, MODULE_3)
+                or (module == MODULE_4 and lesson_key not in module_4_flow_exceptions)
+            )
+            if requires_process_flow and body.count(f"{FENCE}mermaid") != 1:
                 errors.append(f"{relative}: requires exactly one practical Mermaid process flow")
-            elif module in (MODULE_2, MODULE_3, MODULE_4) and (
+            elif requires_process_flow and (
                 not re.search(r"^flowchart (?:TD|LR)\s*$", body, re.MULTILINE)
                 or body.count("-->") < 3
             ):
