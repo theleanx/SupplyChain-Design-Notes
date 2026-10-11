@@ -2,6 +2,24 @@
 
 Significant public improvements to this repository are recorded here.
 
+## Version 4.0.0 — Module 4
+
+Released: 2026-10-11
+
+### Learning content
+
+- Added four connected sections covering planning operations, capacity and production activity control, inventory, and performance/continuous improvement.
+- Added 63 Module 4 Markdown learning/reference pages, 51 original SVG decision visuals, 15 fictional CSV datasets, and 126 independently authored knowledge checks.
+- Added the Pinehaven Q3 Operations Stabilization capstone and worked solution guide.
+- Added an internal operations and inventory formula sheet covering master scheduling, MRP, capacity, inventory, replenishment, and takt-time calculations.
+
+### Quality controls
+
+- Built Module 4 from a locked source blueprint, calculation/data layer, and raster-reviewed visual layer before lesson generation to reduce downstream rework.
+- Independently validated 147 calculation/control checks and 492 Module 4 local links with no failures before publication.
+- Preserved private source maps and proprietary learning materials outside the public repository while publishing only independently authored explanations, examples, visuals, datasets, and questions.
+- Extended repository navigation and validation to the fourth completed module.
+
 ## Version 3.2.0 — Modules 1–3 harmonization
 
 Released: 2026-09-15
