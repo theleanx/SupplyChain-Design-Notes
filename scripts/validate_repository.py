@@ -950,7 +950,7 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
         MODULE_1: ("59 structured Markdown learning pages", "44 topic checks", "five capstone checks"),
         MODULE_2: ("53 structured Markdown learning pages", "43 topic lessons", "109 knowledge checks"),
         MODULE_3: ("47 structured Markdown learning pages", "35 topic lessons", "82 knowledge checks"),
-        MODULE_4: ("63 structured Markdown learning/reference pages", "51 topic lessons", "126 knowledge checks"),
+        MODULE_4: ("**63** structured Markdown learning/reference pages", "**51** topic lessons", "**126** knowledge checks"),
     }
     for module, statements in module_snapshot_claims.items():
         module_readme = (module / "README.md").read_text(encoding="utf-8")
