@@ -246,7 +246,7 @@ The financial scenario provides an additional reason to stabilize flow rather th
 
 Both balance-sheet scenarios satisfy `Assets = Liabilities + Owners' Equity`. The improvement case illustrates higher inventory velocity and cash release, but it should only be pursued with customer-service and reliability controls. Cutting inventory while capacity, quality, or record accuracy remain unstable could simply convert working capital into stockouts and expedites.
 
-## 30/60/90-day stabilization plan
+## Implementation roadmap
 
 | Timing | Decision/evidence gate | Accountable roles | Trigger or measure |
 |---|---|---|---|
@@ -256,7 +256,7 @@ Both balance-sheet scenarios satisfy `Assets = Liabilities + Owners' Equity`. Th
 
 The day-90 gate is not “project complete.” It is a decision point: **release the stabilized operating model, continue controlled improvement, activate contingency capacity, or revise the supply/demand plan**.
 
-## Replan triggers
+## Sensitivity and failure cases
 
 Reopen the affected decision when any of the following occurs:
 
