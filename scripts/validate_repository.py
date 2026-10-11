@@ -19,10 +19,12 @@ ROOT = Path(__file__).resolve().parents[1]
 MODULE_1 = ROOT / "01-supply-chains-demand-forecasting"
 MODULE_2 = ROOT / "02-network-design-digital-connectivity-performance"
 MODULE_3 = ROOT / "03-sourcing-strategy-product-design-supplier-execution"
+MODULE_4 = ROOT / "04-internal-operations-inventory"
 MODULES = {
     "Module 1": (MODULE_1, 44),
     "Module 2": (MODULE_2, 43),
     "Module 3": (MODULE_3, 35),
+    "Module 4": (MODULE_4, 51),
 }
 MARKDOWN_LINK = re.compile(r"(?<!!)\[[^\]]*\]\(([^)]+)\)")
 MARKDOWN_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
@@ -104,6 +106,31 @@ MODULE_2_DATASET_LINKS = {
     "section-c-performance-and-financial-insight/14-supplier-financial-health-and-credit-risk.md": "supplier-health.csv",
     "section-c-performance-and-financial-insight/16-operational-quality-capacity-and-maintenance.md": "operations-scorecard.csv",
 }
+MODULE_4_DATASET_LINKS = {
+    "section-a-planning-operations/02-master-scheduling-and-the-master-scheduling-grid.md": "master-schedule.csv",
+    "section-a-planning-operations/04-projected-available-balance-and-mps-logic.md": "master-schedule.csv",
+    "section-a-planning-operations/05-allocation-order-promising-and-available-to-promise.md": "master-schedule.csv",
+    "section-a-planning-operations/07-mrp-logic-inputs-and-demand-types.md": "mrp-planning.csv",
+    "section-a-planning-operations/08-bills-of-material-and-explosion.md": "bom-structure.csv",
+    "section-a-planning-operations/10-lead-time-offsetting-planned-receipts-and-releases.md": "mrp-planning.csv",
+    "section-a-planning-operations/13-push-pull-and-distribution-requirements-planning.md": "drp-network.csv",
+    "section-b-capacity-and-production-activity-control/04-rough-cut-capacity-planning-and-bottleneck-validation.md": "capacity-plan.csv",
+    "section-b-capacity-and-production-activity-control/05-capacity-requirements-planning-load-and-manufacturing-lead-time.md": "capacity-work-centers.csv",
+    "section-b-capacity-and-production-activity-control/07-measuring-capacity-utilization-efficiency-rated-and-demonstrated-capacity.md": "capacity-work-centers.csv",
+    "section-b-capacity-and-production-activity-control/08-balancing-load-and-capacity.md": "capacity-work-centers.csv",
+    "section-c-inventory/06-abc-classification-and-pareto-based-control.md": "inventory-item-master.csv",
+    "section-c-inventory/07-inventory-and-the-financial-statements.md": "inventory-financials.csv",
+    "section-c-inventory/08-order-quantities-lot-for-lot-foq-and-eoq.md": "replenishment-models.csv",
+    "section-c-inventory/09-ordering-systems-order-point-periodic-review-and-min-max.md": "replenishment-models.csv",
+    "section-c-inventory/12-product-traceability-configuration-and-chain-of-custody.md": "traceability-cycle-count.csv",
+    "section-c-inventory/14-end-of-life-obsolescence-returns-and-disposition.md": "returns-disposition.csv",
+    "section-d-performance-and-continuous-improvement/01-metrics-kpis-and-performance-architecture.md": "operations-kpis.csv",
+    "section-d-performance-and-continuous-improvement/06-basic-quality-tools-i-process-maps-and-control-charts.md": "quality-tools-data.csv",
+    "section-d-performance-and-continuous-improvement/07-basic-quality-tools-ii-pareto-and-cause-and-effect.md": "quality-tools-data.csv",
+    "section-d-performance-and-continuous-improvement/13-just-in-time-production-and-pull-execution.md": "lean-flow.csv",
+    "section-d-performance-and-continuous-improvement/14-six-sigma-and-dmaic.md": "improvement-projects.csv",
+    "section-d-performance-and-continuous-improvement/15-theory-of-constraints-and-drum-buffer-rope.md": "improvement-projects.csv",
+}
 ASSESSMENT_DEFECTS = (
     "without testing whether can ",
     "without testing whether may ",
@@ -148,6 +175,7 @@ def validate_shared_module_content() -> list[str]:
         MODULE_1: MODULE_1_DATASET_LINKS,
         MODULE_2: MODULE_2_DATASET_LINKS,
         MODULE_3: MODULE_3_DATASET_LINKS,
+        MODULE_4: MODULE_4_DATASET_LINKS,
     }
 
     for label, (module, expected_count) in MODULES.items():
@@ -176,9 +204,9 @@ def validate_shared_module_content() -> list[str]:
             has_svg = bool(re.search(r"!\[[^]]+\]\([^)]+\.svg\)", body, re.IGNORECASE))
             if not (has_mermaid or has_svg):
                 errors.append(f"{relative}: requires a topic-appropriate Mermaid or SVG visual")
-            if module in (MODULE_2, MODULE_3) and body.count(f"{FENCE}mermaid") != 1:
+            if module in (MODULE_2, MODULE_3, MODULE_4) and body.count(f"{FENCE}mermaid") != 1:
                 errors.append(f"{relative}: requires exactly one practical Mermaid process flow")
-            elif module in (MODULE_2, MODULE_3) and (
+            elif module in (MODULE_2, MODULE_3, MODULE_4) and (
                 not re.search(r"^flowchart (?:TD|LR)\s*$", body, re.MULTILINE)
                 or body.count("-->") < 3
             ):
@@ -194,7 +222,7 @@ def validate_shared_module_content() -> list[str]:
             elif "### Evidence retained through the workflow" not in body:
                 errors.append(f"{relative}: missing workflow evidence")
 
-            if not re.search(r"\b(example|northstar|asterworks|rivermark)\b", body, re.IGNORECASE):
+            if not re.search(r"\b(example|northstar|asterworks|rivermark|pinehaven)\b", body, re.IGNORECASE):
                 errors.append(f"{relative}: missing fictional applied example")
 
             related = re.search(
@@ -665,6 +693,180 @@ def validate_module_1_2_calculations() -> list[str]:
     return errors
 
 
+
+def validate_module_4_calculations() -> list[str]:
+    """Independently reproduce Module 4 calculations used for operating decisions."""
+    errors: list[str] = []
+
+    master = sorted(
+        csv_dicts("assets/data/module-4/master-schedule.csv"),
+        key=lambda row: int(row["week"]),
+    )
+    prior_pab = float(master[0]["beginning_inventory_units"])
+    for row in master:
+        week = int(row["week"])
+        dtf = int(row["demand_time_fence_end_week"])
+        forecast = float(row["forecast_units"])
+        orders = float(row["customer_orders_units"])
+        mps = float(row["mps_receipt_units"])
+        demand = orders if week <= dtf else max(forecast, orders)
+        pab = prior_pab + mps - demand
+        if not math.isclose(pab, float(row["projected_available_balance_units"]), abs_tol=0.005):
+            errors.append(f"Module 4 master schedule: week {week} PAB is inconsistent")
+        if not math.isclose(demand, float(row["demand_used_for_pab_units"]), abs_tol=0.005):
+            errors.append(f"Module 4 master schedule: week {week} demand basis is inconsistent")
+        prior_pab = pab
+
+    receipt_indexes = [i for i, row in enumerate(master) if float(row["mps_receipt_units"]) > 0]
+    for position, i in enumerate(receipt_indexes):
+        row = master[i]
+        end = receipt_indexes[position + 1] if position + 1 < len(receipt_indexes) else len(master)
+        orders_to_next_receipt = sum(float(item["customer_orders_units"]) for item in master[i:end])
+        supply = float(row["mps_receipt_units"])
+        if i == 0:
+            supply += float(row["beginning_inventory_units"])
+        atp = supply - orders_to_next_receipt
+        recorded = row["available_to_promise_units"]
+        if not recorded or not math.isclose(atp, float(recorded), abs_tol=0.005):
+            errors.append(f"Module 4 master schedule: week {row['week']} ATP is inconsistent")
+
+    capacity = csv_dicts("assets/data/module-4/capacity-work-centers.csv")
+    for row in capacity:
+        available = (
+            float(row["hours_operation_per_day"])
+            * float(row["days_per_period"])
+            * float(row["number_of_resources"])
+        )
+        actual = float(row["actual_hours_worked"])
+        standard = float(row["standard_hours_of_output"])
+        utilization = actual / available * 100
+        efficiency = standard / actual * 100
+        rated = available * (utilization / 100) * (efficiency / 100)
+        demonstrated = statistics.mean(
+            float(row[column])
+            for column in (
+                "demonstrated_output_period_1_standard_hours",
+                "demonstrated_output_period_2_standard_hours",
+                "demonstrated_output_period_3_standard_hours",
+            )
+        )
+        checks = (
+            (available, float(row["available_hours"]), "available hours"),
+            (utilization, float(row["utilization_pct"]), "utilization"),
+            (efficiency, float(row["efficiency_pct"]), "efficiency"),
+            (rated, float(row["rated_capacity_standard_hours"]), "rated capacity"),
+            (demonstrated, float(row["demonstrated_capacity_standard_hours"]), "demonstrated capacity"),
+        )
+        for calculated, recorded, label in checks:
+            if not math.isclose(calculated, recorded, abs_tol=0.02):
+                errors.append(
+                    f"Module 4 capacity dataset: {row['work_center']} {label} is inconsistent"
+                )
+
+    item_master = csv_dicts("assets/data/module-4/inventory-item-master.csv")
+    for row in item_master:
+        annual_value = float(row["annual_usage_units"]) * float(row["unit_value_usd"])
+        if not math.isclose(annual_value, float(row["annual_monetary_volume_usd"]), abs_tol=0.01):
+            errors.append(
+                f"Module 4 inventory item master: {row['sku']} annual monetary volume is inconsistent"
+            )
+
+    financials = csv_dicts("assets/data/module-4/inventory-financials.csv")
+    for row in financials:
+        average_inventory = (
+            float(row["beginning_inventory_usd"]) + float(row["ending_inventory_usd"])
+        ) / 2
+        turns = float(row["annual_cogs_usd"]) / average_inventory
+        equation = (
+            float(row["total_assets_usd"])
+            - float(row["total_liabilities_usd"])
+            - float(row["owners_equity_usd"])
+        )
+        if not math.isclose(average_inventory, float(row["average_inventory_usd"]), abs_tol=0.01):
+            errors.append(f"Module 4 inventory financials: {row['scenario']} average inventory is inconsistent")
+        if not math.isclose(turns, float(row["inventory_turns"]), abs_tol=0.001):
+            errors.append(f"Module 4 inventory financials: {row['scenario']} inventory turns are inconsistent")
+        if not math.isclose(equation, float(row["accounting_equation_check_usd"]), abs_tol=0.01):
+            errors.append(f"Module 4 inventory financials: {row['scenario']} accounting equation is inconsistent")
+
+    replenishment = {
+        row["sku"]: row for row in csv_dicts("assets/data/module-4/replenishment-models.csv")
+    }
+    for sku, row in replenishment.items():
+        demand = float(row["annual_demand_units"])
+        order_cost = float(row["ordering_cost_usd"])
+        carrying_rate = float(row["annual_carrying_rate"])
+        unit_cost = float(row["unit_cost_usd"])
+        eoq = math.sqrt((2 * demand * order_cost) / (carrying_rate * unit_cost))
+        if not math.isclose(eoq, float(row["eoq_units"]), abs_tol=0.02):
+            errors.append(f"Module 4 replenishment dataset: {sku} EOQ is inconsistent")
+        order_point = (
+            float(row["demand_units_per_day"]) * float(row["lead_time_days"])
+            + float(row["safety_stock_units"])
+        )
+        if not math.isclose(order_point, float(row["order_point_units"]), abs_tol=0.02):
+            errors.append(f"Module 4 replenishment dataset: {sku} order point is inconsistent")
+
+    periodic = replenishment["PH-CNK500"]
+    maximum = (
+        float(periodic["demand_units_per_day"])
+        * (float(periodic["review_interval_days"]) + float(periodic["lead_time_days"]))
+        + float(periodic["safety_stock_units"])
+    )
+    order_quantity = maximum - float(periodic["on_hand_units"])
+    if not math.isclose(maximum, float(periodic["periodic_review_max_level_units"]), abs_tol=0.01):
+        errors.append("Module 4 replenishment dataset: periodic-review maximum is inconsistent")
+    if not math.isclose(order_quantity, float(periodic["periodic_review_order_quantity_units"]), abs_tol=0.01):
+        errors.append("Module 4 replenishment dataset: periodic-review order quantity is inconsistent")
+
+    fuse = replenishment["PH-FUSE7"]
+    if float(fuse["max_level_units"]) - float(fuse["on_hand_units"]) != 1550:
+        errors.append("Module 4 replenishment dataset: PH-FUSE7 min-max order should be 1,550 units")
+
+    lean = csv_dicts("assets/data/module-4/lean-flow.csv")
+    for row in lean:
+        takt = (
+            float(row["available_production_time_min_per_shift"])
+            / float(row["customer_demand_units_per_shift"])
+        )
+        if not math.isclose(takt, float(row["takt_time_min_per_unit"]), abs_tol=0.001):
+            errors.append(f"Module 4 lean dataset: {row['process_step']} takt time is inconsistent")
+
+    quality = csv_dicts("assets/data/module-4/quality-tools-data.csv")
+    pareto = [row for row in quality if row["record_type"] == "pareto"]
+    total_defects = sum(int(row["defect_count"]) for row in pareto)
+    top_three = sum(sorted((int(row["defect_count"]) for row in pareto), reverse=True)[:3])
+    if total_defects != 66 or not math.isclose(top_three / total_defects * 100, 80.3030, abs_tol=0.01):
+        errors.append("Module 4 quality dataset: Pareto total or cumulative share is inconsistent")
+    control_values = [
+        float(row["measurement"]) for row in quality if row["record_type"] == "control_chart"
+    ]
+    if not math.isclose(statistics.mean(control_values), 5.0241667, abs_tol=0.0001):
+        errors.append("Module 4 quality dataset: control-chart mean is inconsistent")
+    if not math.isclose(statistics.stdev(control_values), 0.04776, abs_tol=0.0001):
+        errors.append("Module 4 quality dataset: control-chart sample standard deviation is inconsistent")
+
+    improvements = csv_dicts("assets/data/module-4/improvement-projects.csv")
+    toc = next(row for row in improvements if row["project_or_constraint"] == "Burn-in test cell")
+    if (float(toc["capacity_or_throughput_before"]), float(toc["capacity_or_throughput_after"])) != (144.0, 154.0):
+        errors.append("Module 4 improvement dataset: TOC burn-in capacity case is inconsistent")
+
+    solution = (MODULE_4 / "capstone/solution-guide.md").read_text(encoding="utf-8")
+    for required in (
+        "154 standard hours/week",
+        "11 standard hours remaining overload",
+        "306.85 units",
+        "1,100 units",
+        "886 units",
+        "80.30%",
+        "5.0242 mm",
+    ):
+        if required not in solution:
+            errors.append(f"Module 4 capstone solution: missing verified result ({required})")
+
+    return errors
+
+
 def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], datasets: list[Path]) -> list[str]:
     errors: list[str] = []
     capstone_requirements = {
@@ -686,6 +888,12 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
             ),
         ),
         "Module 3": (MODULE_3, 1400, 10, ("$8,232,000", "$6,546,000", "3,888")),
+        "Module 4": (
+            MODULE_4,
+            1800,
+            15,
+            ("154 standard hours/week", "11 standard hours remaining overload", "306.85 units"),
+        ),
     }
     for label, (module, solution_floor, data_count, results) in capstone_requirements.items():
         assignment = (module / "capstone/README.md").read_text(encoding="utf-8")
@@ -714,17 +922,17 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
 
     module_markdown = [path for path in markdown if any(path.is_relative_to(module) for module, _ in MODULES.values())]
     details = sum(path.read_text(encoding="utf-8").count("<details>") for path in module_markdown)
-    if len(module_markdown) != 159:
-        errors.append(f"Repository inventory: expected 159 module Markdown files, found {len(module_markdown)}")
-    if len(svg) != 80:
-        errors.append(f"Repository inventory: expected 80 SVG files, found {len(svg)}")
-    if len(datasets) != 26:
-        errors.append(f"Repository inventory: expected 26 CSV files, found {len(datasets)}")
-    if details != 319:
-        errors.append(f"Repository inventory: expected 319 knowledge checks, found {details}")
+    if len(module_markdown) != 222:
+        errors.append(f"Repository inventory: expected 222 module Markdown files, found {len(module_markdown)}")
+    if len(svg) != 131:
+        errors.append(f"Repository inventory: expected 131 SVG files, found {len(svg)}")
+    if len(datasets) != 41:
+        errors.append(f"Repository inventory: expected 41 CSV files, found {len(datasets)}")
+    if details != 445:
+        errors.append(f"Repository inventory: expected 445 knowledge checks, found {details}")
 
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    for statement in ("159 structured Markdown files", "80 original SVG diagrams", "26 original CSV datasets", "319 independently authored knowledge checks"):
+    for statement in ("222 structured Markdown files", "131 original SVG diagrams", "41 original CSV datasets", "445 independently authored knowledge checks"):
         if statement not in readme:
             errors.append(f"README inventory is missing the current statement ({statement})")
 
@@ -732,6 +940,7 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
         MODULE_1: ("59 structured Markdown learning pages", "44 topic checks", "five capstone checks"),
         MODULE_2: ("53 structured Markdown learning pages", "43 topic lessons", "109 knowledge checks"),
         MODULE_3: ("47 structured Markdown learning pages", "35 topic lessons", "82 knowledge checks"),
+        MODULE_4: ("63 structured Markdown learning/reference pages", "51 topic lessons", "126 knowledge checks"),
     }
     for module, statements in module_snapshot_claims.items():
         module_readme = (module / "README.md").read_text(encoding="utf-8")
@@ -857,6 +1066,7 @@ def main() -> int:
         + validate_csv(datasets)
         + validate_module_1_2_calculations()
         + validate_module_3_content()
+        + validate_module_4_calculations()
         + validate_capstones_and_inventory(markdown, svg, datasets)
     )
 
