@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Capacity Requirements Planning, Load, and Manufacturing Lead Time</title><desc id="desc">Original decision visual for capacity requirements planning, load, and manufacturing lead time, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="titleSm" text-anchor="start"><tspan x="55" y="82">Capacity Requirements Planning, Load, and Manufacturing Lead Time</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for capacity requirements planning, load, and manufacturing lead time, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">CRP turns open + planned orders into work-center load</tspan></text>
+<rect x="120" y="351.55885471898193" width="70" height="208.44114528101807" rx="4" fill="#EDF2F6" stroke="#5B7184" stroke-width="1" opacity="1"/>
+<rect x="120" y="416.627783669141" width="70" height="143.37221633085898" rx="4" fill="#3A7CA5" opacity="1"/>
+<rect x="120" y="333.9130434782609" width="70" height="82.71474019088018" rx="4" fill="#C98516" opacity="1"/>
+<line x1="110" y1="351.55885471898193" x2="200" y2="351.55885471898193" stroke="#2F7D65" stroke-width="3"/>
+<text x="155" y="590" class="small" text-anchor="middle"><tspan x="155" y="590">WC-ASM-01</tspan></text>
+<text x="155" y="341.55885471898193" class="tiny" text-anchor="middle"><tspan x="155" y="341.55885471898193">rated 378</tspan></text>
+<rect x="375" y="480.37327677624603" width="70" height="79.62672322375398" rx="4" fill="#EDF2F6" stroke="#5B7184" stroke-width="1" opacity="1"/>
+<rect x="375" y="507.6139978791092" width="70" height="52.38600212089078" rx="4" fill="#3A7CA5" opacity="1"/>
+<rect x="375" y="477.2852598091198" width="70" height="30.3287380699894" rx="4" fill="#C98516" opacity="1"/>
+<line x1="365" y1="480.37327677624603" x2="455" y2="480.37327677624603" stroke="#2F7D65" stroke-width="3"/>
+<text x="410" y="590" class="small" text-anchor="middle"><tspan x="410" y="590">WC-TEST-01</tspan></text>
+<text x="410" y="470.37327677624603" class="tiny" text-anchor="middle"><tspan x="410" y="470.37327677624603">rated 144</tspan></text>
+<rect x="630" y="463.08589607635207" width="70" height="96.91410392364794" rx="4" fill="#EDF2F6" stroke="#5B7184" stroke-width="1" opacity="1"/>
+<rect x="630" y="493.82820784729586" width="70" height="66.17179215270414" rx="4" fill="#3A7CA5" opacity="1"/>
+<rect x="630" y="455.2279957582184" width="70" height="38.60021208907742" rx="4" fill="#C98516" opacity="1"/>
+<line x1="620" y1="463.08589607635207" x2="710" y2="463.08589607635207" stroke="#2F7D65" stroke-width="3"/>
+<text x="665" y="590" class="small" text-anchor="middle"><tspan x="665" y="590">WC-CNC-01</tspan></text>
+<text x="665" y="453.08589607635207" class="tiny" text-anchor="middle"><tspan x="665" y="453.08589607635207">rated 176</tspan></text>
+<rect x="885" y="438.4093319194061" width="70" height="121.59066808059387" rx="4" fill="#EDF2F6" stroke="#5B7184" stroke-width="1" opacity="1"/>
+<rect x="885" y="510.3711558854719" width="70" height="49.62884411452811" rx="4" fill="#3A7CA5" opacity="1"/>
+<rect x="885" y="477.28525980911985" width="70" height="33.08589607635207" rx="4" fill="#C98516" opacity="1"/>
+<line x1="875" y1="438.4093319194061" x2="965" y2="438.4093319194061" stroke="#2F7D65" stroke-width="3"/>
+<text x="920" y="590" class="small" text-anchor="middle"><tspan x="920" y="590">WC-PACK-01</tspan></text>
+<text x="920" y="428.4093319194061" class="tiny" text-anchor="middle"><tspan x="920" y="428.4093319194061">rated 220</tspan></text>
+<text x="120" y="625" class="small" text-anchor="start"><tspan x="120" y="625">Blue = open-order load · amber = planned-order load · green line = rated capacity</tspan></text>
+</svg>

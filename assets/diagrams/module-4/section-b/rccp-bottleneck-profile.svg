@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Rough-Cut Capacity Planning and Bottleneck Validation</title><desc id="desc">Original decision visual for rough-cut capacity planning and bottleneck validation, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Rough-Cut Capacity Planning and Bottleneck Validation</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for rough-cut capacity planning and bottleneck validation, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">RCCP checks only the critical resources needed to prove the MPS is feasible</tspan></text>
+<text x="75" y="233" class="h" text-anchor="start"><tspan x="75" y="233">Final Assembly</tspan></text>
+<rect x="320" y="215" width="34" height="80" rx="3" fill="#EDF2F6" opacity="1"/>
+<rect x="320" y="231.7032967032967" width="14" height="63.29670329670329" rx="2" fill="#3A7CA5" opacity="1"/>
+<rect x="338" y="238.73626373626374" width="14" height="56.26373626373627" rx="2" fill="#B84A52" opacity="1"/>
+<text x="337" y="316" class="tiny" text-anchor="middle"><tspan x="337" y="316">Q1</tspan></text>
+<rect x="440" y="215" width="34" height="80" rx="3" fill="#EDF2F6" opacity="1"/>
+<rect x="440" y="231.7032967032967" width="14" height="63.29670329670329" rx="2" fill="#3A7CA5" opacity="1"/>
+<rect x="458" y="235.2197802197802" width="14" height="59.78021978021978" rx="2" fill="#B84A52" opacity="1"/>
+<text x="457" y="316" class="tiny" text-anchor="middle"><tspan x="457" y="316">Q2</tspan></text>
+<rect x="560" y="215" width="34" height="80" rx="3" fill="#EDF2F6" opacity="1"/>
+<rect x="560" y="231.7032967032967" width="14" height="63.29670329670329" rx="2" fill="#3A7CA5" opacity="1"/>
+<rect x="578" y="229.94505494505495" width="14" height="65.05494505494505" rx="2" fill="#B84A52" opacity="1"/>
+<text x="577" y="316" class="tiny" text-anchor="middle"><tspan x="577" y="316">Q3</tspan></text>
+<rect x="680" y="215" width="34" height="80" rx="3" fill="#EDF2F6" opacity="1"/>
+<rect x="680" y="231.7032967032967" width="14" height="63.29670329670329" rx="2" fill="#3A7CA5" opacity="1"/>
+<rect x="698" y="224.67032967032966" width="14" height="70.32967032967034" rx="2" fill="#B84A52" opacity="1"/>
+<text x="697" y="316" class="tiny" text-anchor="middle"><tspan x="697" y="316">Q4</tspan></text>
+<rect x="800" y="215" width="34" height="80" rx="3" fill="#EDF2F6" opacity="1"/>
+<rect x="800" y="231.7032967032967" width="14" height="63.29670329670329" rx="2" fill="#3A7CA5" opacity="1"/>
+<rect x="818" y="219.39560439560438" width="14" height="75.6043956043956" rx="2" fill="#B84A52" opacity="1"/>
+<text x="817" y="316" class="tiny" text-anchor="middle"><tspan x="817" y="316">Q5</tspan></text>
+<rect x="920" y="215" width="34" height="80" rx="3" fill="#EDF2F6" opacity="1"/>
+<rect x="920" y="231.7032967032967" width="14" height="63.29670329670329" rx="2" fill="#3A7CA5" opacity="1"/>
+<rect x="938" y="215.0" width="14" height="80.0" rx="2" fill="#B84A52" opacity="1"/>
+<text x="937" y="316" class="tiny" text-anchor="middle"><tspan x="937" y="316">Q6</tspan></text>
+<text x="75" y="368" class="h" text-anchor="start"><tspan x="75" y="368">Burn-in Test</tspan></text>
+<rect x="320" y="350" width="34" height="80" rx="3" fill="#EDF2F6" opacity="1"/>
+<rect x="320" y="375.80645161290323" width="14" height="54.19354838709677" rx="2" fill="#3A7CA5" opacity="1"/>
+<rect x="338" y="383.5483870967742" width="14" height="46.45161290322581" rx="2" fill="#B84A52" opacity="1"/>
+<text x="337" y="451" class="tiny" text-anchor="middle"><tspan x="337" y="451">Q1</tspan></text>
+<rect x="440" y="350" width="34" height="80" rx="3" fill="#EDF2F6" opacity="1"/>
+<rect x="440" y="375.80645161290323" width="14" height="54.19354838709677" rx="2" fill="#3A7CA5" opacity="1"/>
+<rect x="458" y="379.6774193548387" width="14" height="50.32258064516129" rx="2" fill="#B84A52" opacity="1"/>
+<text x="457" y="451" class="tiny" text-anchor="middle"><tspan x="457" y="451">Q2</tspan></text>
+<rect x="560" y="350" width="34" height="80" rx="3" fill="#EDF2F6" opacity="1"/>
+<rect x="560" y="375.80645161290323" width="14" height="54.19354838709677" rx="2" fill="#3A7CA5" opacity="1"/>
+<rect x="578" y="373.2258064516129" width="14" height="56.7741935483871" rx="2" fill="#B84A52" opacity="1"/>
+<text x="577" y="451" class="tiny" text-anchor="middle"><tspan x="577" y="451">Q3</tspan></text>
+<rect x="680" y="350" width="34" height="80" rx="3" fill="#EDF2F6" opacity="1"/>
+<rect x="680" y="375.80645161290323" width="14" height="54.19354838709677" rx="2" fill="#3A7CA5" opacity="1"/>
+<rect x="698" y="365.48387096774195" width="14" height="64.51612903225806" rx="2" fill="#B84A52" opacity="1"/>
+<text x="697" y="451" class="tiny" text-anchor="middle"><tspan x="697" y="451">Q4</tspan></text>
+<rect x="800" y="350" width="34" height="80" rx="3" fill="#EDF2F6" opacity="1"/>
+<rect x="800" y="375.80645161290323" width="14" height="54.19354838709677" rx="2" fill="#3A7CA5" opacity="1"/>
+<rect x="818" y="359.0322580645161" width="14" height="70.96774193548387" rx="2" fill="#B84A52" opacity="1"/>
+<text x="817" y="451" class="tiny" text-anchor="middle"><tspan x="817" y="451">Q5</tspan></text>
+<rect x="920" y="350" width="34" height="80" rx="3" fill="#EDF2F6" opacity="1"/>
+<rect x="920" y="375.80645161290323" width="14" height="54.19354838709677" rx="2" fill="#3A7CA5" opacity="1"/>
+<rect x="938" y="352.5806451612903" width="14" height="77.41935483870968" rx="2" fill="#B84A52" opacity="1"/>
+<text x="937" y="451" class="tiny" text-anchor="middle"><tspan x="937" y="451">Q6</tspan></text>
+<text x="75" y="503" class="h" text-anchor="start"><tspan x="75" y="503">CNC Enclosure</tspan></text>
+<rect x="320" y="485" width="34" height="80" rx="3" fill="#EDF2F6" opacity="1"/>
+<rect x="320" y="502.02127659574467" width="14" height="62.97872340425532" rx="2" fill="#3A7CA5" opacity="1"/>
+<rect x="338" y="510.531914893617" width="14" height="54.46808510638298" rx="2" fill="#B84A52" opacity="1"/>
+<text x="337" y="586" class="tiny" text-anchor="middle"><tspan x="337" y="586">Q1</tspan></text>
+<rect x="440" y="485" width="34" height="80" rx="3" fill="#EDF2F6" opacity="1"/>
+<rect x="440" y="502.02127659574467" width="14" height="62.97872340425532" rx="2" fill="#3A7CA5" opacity="1"/>
+<rect x="458" y="508.82978723404256" width="14" height="56.170212765957444" rx="2" fill="#B84A52" opacity="1"/>
+<text x="457" y="586" class="tiny" text-anchor="middle"><tspan x="457" y="586">Q2</tspan></text>
+<rect x="560" y="485" width="34" height="80" rx="3" fill="#EDF2F6" opacity="1"/>
+<rect x="560" y="502.02127659574467" width="14" height="62.97872340425532" rx="2" fill="#3A7CA5" opacity="1"/>
+<rect x="578" y="505.4255319148936" width="14" height="59.57446808510638" rx="2" fill="#B84A52" opacity="1"/>
+<text x="577" y="586" class="tiny" text-anchor="middle"><tspan x="577" y="586">Q3</tspan></text>
+<rect x="680" y="485" width="34" height="80" rx="3" fill="#EDF2F6" opacity="1"/>
+<rect x="680" y="502.02127659574467" width="14" height="62.97872340425532" rx="2" fill="#3A7CA5" opacity="1"/>
+<rect x="698" y="502.02127659574467" width="14" height="62.97872340425532" rx="2" fill="#B84A52" opacity="1"/>
+<text x="697" y="586" class="tiny" text-anchor="middle"><tspan x="697" y="586">Q4</tspan></text>
+<rect x="800" y="485" width="34" height="80" rx="3" fill="#EDF2F6" opacity="1"/>
+<rect x="800" y="502.02127659574467" width="14" height="62.97872340425532" rx="2" fill="#3A7CA5" opacity="1"/>
+<rect x="818" y="498.6170212765958" width="14" height="66.38297872340425" rx="2" fill="#B84A52" opacity="1"/>
+<text x="817" y="586" class="tiny" text-anchor="middle"><tspan x="817" y="586">Q5</tspan></text>
+<rect x="920" y="485" width="34" height="80" rx="3" fill="#EDF2F6" opacity="1"/>
+<rect x="920" y="502.02127659574467" width="14" height="62.97872340425532" rx="2" fill="#3A7CA5" opacity="1"/>
+<rect x="938" y="495.2127659574468" width="14" height="69.7872340425532" rx="2" fill="#B84A52" opacity="1"/>
+<text x="937" y="586" class="tiny" text-anchor="middle"><tspan x="937" y="586">Q6</tspan></text>
+<rect x="885" y="530" width="250" height="95" rx="14" fill="#FFF4D8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="885" y="530" width="8" height="95" rx="14" fill="#C98516" opacity="1"/>
+<text x="907" y="561" class="h" text-anchor="start"><tspan x="907" y="561">Gate</tspan></text>
+<text x="907" y="590" class="small" text-anchor="start"><tspan x="907" y="590">If a critical resource</tspan><tspan x="907" y="608">fails, revise capacity or</tspan><tspan x="907" y="626">the MPS before release.</tspan></text>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Capacity Growth Staging Strategies</title><desc id="desc">Original decision visual for capacity growth staging strategies, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Capacity Growth Staging Strategies</tspan></text>
+<text x="55" y="111" class="subtitle" text-anchor="start"><tspan x="55" y="111">Original decision visual for capacity growth staging strategies, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<rect x="70" y="185" width="500" height="205" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="90" y="217" class="h" text-anchor="start"><tspan x="90" y="217">Lead</tspan></text>
+<polyline points="140.0,337.6470588235294 210.0,325.29411764705884 280.0,306.7647058823529 350.0,288.2352941176471 420.0,269.7058823529412 490.0,254.26470588235293" fill="none" stroke="#B84A52" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="140.0" cy="337.6470588235294" r="4" fill="#B84A52"/>
+<circle cx="210.0" cy="325.29411764705884" r="4" fill="#B84A52"/>
+<circle cx="280.0" cy="306.7647058823529" r="4" fill="#B84A52"/>
+<circle cx="350.0" cy="288.2352941176471" r="4" fill="#B84A52"/>
+<circle cx="420.0" cy="269.7058823529412" r="4" fill="#B84A52"/>
+<circle cx="490.0" cy="254.26470588235293" r="4" fill="#B84A52"/>
+<polyline points="140.0,312.94117647058823 210.0,312.94117647058823 280.0,257.3529411764706 350.0,257.3529411764706 420.0,257.3529411764706 490.0,257.3529411764706" fill="none" stroke="#0B7189" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="140.0" cy="312.94117647058823" r="4" fill="#0B7189"/>
+<circle cx="210.0" cy="312.94117647058823" r="4" fill="#0B7189"/>
+<circle cx="280.0" cy="257.3529411764706" r="4" fill="#0B7189"/>
+<circle cx="350.0" cy="257.3529411764706" r="4" fill="#0B7189"/>
+<circle cx="420.0" cy="257.3529411764706" r="4" fill="#0B7189"/>
+<circle cx="490.0" cy="257.3529411764706" r="4" fill="#0B7189"/>
+<text x="105" y="370" class="tiny" text-anchor="start"><tspan x="105" y="370">Demand/required vs capacity over Q1–Q6</tspan></text>
+<rect x="615" y="185" width="500" height="205" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="635" y="217" class="h" text-anchor="start"><tspan x="635" y="217">Lag</tspan></text>
+<polyline points="685.0,337.6470588235294 755.0,325.29411764705884 825.0,306.7647058823529 895.0,288.2352941176471 965.0,269.7058823529412 1035.0,254.26470588235293" fill="none" stroke="#B84A52" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="685.0" cy="337.6470588235294" r="4" fill="#B84A52"/>
+<circle cx="755.0" cy="325.29411764705884" r="4" fill="#B84A52"/>
+<circle cx="825.0" cy="306.7647058823529" r="4" fill="#B84A52"/>
+<circle cx="895.0" cy="288.2352941176471" r="4" fill="#B84A52"/>
+<circle cx="965.0" cy="269.7058823529412" r="4" fill="#B84A52"/>
+<circle cx="1035.0" cy="254.26470588235293" r="4" fill="#B84A52"/>
+<polyline points="685.0,312.94117647058823 755.0,312.94117647058823 825.0,312.94117647058823 895.0,312.94117647058823 965.0,257.3529411764706 1035.0,257.3529411764706" fill="none" stroke="#0B7189" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="685.0" cy="312.94117647058823" r="4" fill="#0B7189"/>
+<circle cx="755.0" cy="312.94117647058823" r="4" fill="#0B7189"/>
+<circle cx="825.0" cy="312.94117647058823" r="4" fill="#0B7189"/>
+<circle cx="895.0" cy="312.94117647058823" r="4" fill="#0B7189"/>
+<circle cx="965.0" cy="257.3529411764706" r="4" fill="#0B7189"/>
+<circle cx="1035.0" cy="257.3529411764706" r="4" fill="#0B7189"/>
+<text x="650" y="370" class="tiny" text-anchor="start"><tspan x="650" y="370">Demand/required vs capacity over Q1–Q6</tspan></text>
+<rect x="70" y="425" width="500" height="205" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="90" y="457" class="h" text-anchor="start"><tspan x="90" y="457">Staged</tspan></text>
+<polyline points="140.0,577.6470588235294 210.0,565.2941176470588 280.0,546.7647058823529 350.0,528.2352941176471 420.0,509.7058823529412 490.0,494.2647058823529" fill="none" stroke="#B84A52" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="140.0" cy="577.6470588235294" r="4" fill="#B84A52"/>
+<circle cx="210.0" cy="565.2941176470588" r="4" fill="#B84A52"/>
+<circle cx="280.0" cy="546.7647058823529" r="4" fill="#B84A52"/>
+<circle cx="350.0" cy="528.2352941176471" r="4" fill="#B84A52"/>
+<circle cx="420.0" cy="509.7058823529412" r="4" fill="#B84A52"/>
+<circle cx="490.0" cy="494.2647058823529" r="4" fill="#B84A52"/>
+<polyline points="140.0,552.9411764705883 210.0,552.9411764705883 280.0,525.1470588235294 350.0,525.1470588235294 420.0,497.3529411764706 490.0,497.3529411764706" fill="none" stroke="#0B7189" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="140.0" cy="552.9411764705883" r="4" fill="#0B7189"/>
+<circle cx="210.0" cy="552.9411764705883" r="4" fill="#0B7189"/>
+<circle cx="280.0" cy="525.1470588235294" r="4" fill="#0B7189"/>
+<circle cx="350.0" cy="525.1470588235294" r="4" fill="#0B7189"/>
+<circle cx="420.0" cy="497.3529411764706" r="4" fill="#0B7189"/>
+<circle cx="490.0" cy="497.3529411764706" r="4" fill="#0B7189"/>
+<text x="105" y="610" class="tiny" text-anchor="start"><tspan x="105" y="610">Demand/required vs capacity over Q1–Q6</tspan></text>
+<rect x="615" y="425" width="500" height="205" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="635" y="457" class="h" text-anchor="start"><tspan x="635" y="457">Current / no action</tspan></text>
+<polyline points="685.0,577.6470588235294 755.0,565.2941176470588 825.0,546.7647058823529 895.0,528.2352941176471 965.0,509.7058823529412 1035.0,494.2647058823529" fill="none" stroke="#B84A52" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="685.0" cy="577.6470588235294" r="4" fill="#B84A52"/>
+<circle cx="755.0" cy="565.2941176470588" r="4" fill="#B84A52"/>
+<circle cx="825.0" cy="546.7647058823529" r="4" fill="#B84A52"/>
+<circle cx="895.0" cy="528.2352941176471" r="4" fill="#B84A52"/>
+<circle cx="965.0" cy="509.7058823529412" r="4" fill="#B84A52"/>
+<circle cx="1035.0" cy="494.2647058823529" r="4" fill="#B84A52"/>
+<polyline points="685.0,552.9411764705883 755.0,552.9411764705883 825.0,552.9411764705883 895.0,552.9411764705883 965.0,552.9411764705883 1035.0,552.9411764705883" fill="none" stroke="#0B7189" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="685.0" cy="552.9411764705883" r="4" fill="#0B7189"/>
+<circle cx="755.0" cy="552.9411764705883" r="4" fill="#0B7189"/>
+<circle cx="825.0" cy="552.9411764705883" r="4" fill="#0B7189"/>
+<circle cx="895.0" cy="552.9411764705883" r="4" fill="#0B7189"/>
+<circle cx="965.0" cy="552.9411764705883" r="4" fill="#0B7189"/>
+<circle cx="1035.0" cy="552.9411764705883" r="4" fill="#0B7189"/>
+<text x="650" y="610" class="tiny" text-anchor="start"><tspan x="650" y="610">Demand/required vs capacity over Q1–Q6</tspan></text>
+</svg>
