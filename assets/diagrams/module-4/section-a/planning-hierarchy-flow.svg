@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Manufacturing Planning and Control Architecture</title><desc id="desc">Original decision visual for manufacturing planning and control architecture, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Manufacturing Planning and Control Architecture</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for manufacturing planning and control architecture, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Priority planning</tspan></text>
+<text x="930" y="150" class="h" text-anchor="middle"><tspan x="930" y="150">Capacity checks</tspan></text>
+<rect x="325" y="148" width="360" height="64" rx="14" fill="#F1EEFA" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="325" y="148" width="8" height="64" rx="14" fill="#0B7189" opacity="1"/>
+<text x="347" y="179" class="h" text-anchor="start"><tspan x="347" y="179">Business / strategy</tspan></text>
+<line x1="505" y1="212" x2="505" y2="238" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="325" y="238" width="360" height="64" rx="14" fill="#EAF4F8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="325" y="238" width="8" height="64" rx="14" fill="#0B7189" opacity="1"/>
+<text x="347" y="269" class="h" text-anchor="start"><tspan x="347" y="269">S&amp;OP / production plan</tspan></text>
+<line x1="505" y1="302" x2="505" y2="328" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="325" y="328" width="360" height="64" rx="14" fill="#E8F5EF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="325" y="328" width="8" height="64" rx="14" fill="#0B7189" opacity="1"/>
+<text x="347" y="359" class="h" text-anchor="start"><tspan x="347" y="359">Master schedule</tspan></text>
+<line x1="505" y1="392" x2="505" y2="418" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="325" y="418" width="360" height="64" rx="14" fill="#FFF4D8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="325" y="418" width="8" height="64" rx="14" fill="#0B7189" opacity="1"/>
+<text x="347" y="449" class="h" text-anchor="start"><tspan x="347" y="449">MRP</tspan></text>
+<line x1="505" y1="482" x2="505" y2="508" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="325" y="508" width="360" height="64" rx="14" fill="#FCE9EB" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="325" y="508" width="8" height="64" rx="14" fill="#0B7189" opacity="1"/>
+<text x="347" y="539" class="h" text-anchor="start"><tspan x="347" y="539">Production activity control</tspan></text>
+<rect x="790" y="242" width="270" height="56" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="790" y="242" width="8" height="56" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="812" y="273" class="h" text-anchor="start"><tspan x="812" y="273">Resource planning</tspan></text>
+<line x1="685" y1="270" x2="790" y2="270" stroke="#5B7184" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="790" y="332" width="270" height="56" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="790" y="332" width="8" height="56" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="812" y="363" class="h" text-anchor="start"><tspan x="812" y="363">RCCP</tspan></text>
+<line x1="685" y1="360" x2="790" y2="360" stroke="#5B7184" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="790" y="422" width="270" height="56" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="790" y="422" width="8" height="56" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="812" y="453" class="h" text-anchor="start"><tspan x="812" y="453">CRP</tspan></text>
+<line x1="685" y1="450" x2="790" y2="450" stroke="#5B7184" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="790" y="512" width="270" height="56" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="790" y="512" width="8" height="56" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="812" y="543" class="h" text-anchor="start"><tspan x="812" y="543">Capacity control</tspan></text>
+<line x1="685" y1="540" x2="790" y2="540" stroke="#5B7184" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="55" y="252" width="210" height="118" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="55" y="252" width="8" height="118" rx="14" fill="#6C5B9A" opacity="1"/>
+<text x="77" y="283" class="h" text-anchor="start"><tspan x="77" y="283">Demand evidence</tspan></text>
+<text x="77" y="312" class="small" text-anchor="start"><tspan x="77" y="312">Forecasts · orders ·</tspan><tspan x="77" y="330">priorities</tspan></text>
+<line x1="265" y1="310" x2="325" y2="310" stroke="#5B7184" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="55" y="435" width="210" height="118" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="55" y="435" width="8" height="118" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="77" y="466" class="h" text-anchor="start"><tspan x="77" y="466">Execution feedback</tspan></text>
+<text x="77" y="495" class="small" text-anchor="start"><tspan x="77" y="495">Actual output ·</tspan><tspan x="77" y="513">exceptions · inventory</tspan></text>
+<line x1="265" y1="494" x2="325" y2="494" stroke="#5B7184" stroke-width="3" marker-end="url(#arrow)"/>
+</svg>

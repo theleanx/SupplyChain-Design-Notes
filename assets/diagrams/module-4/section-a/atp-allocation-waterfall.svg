@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Allocation, Order Promising, and Available-to-Promise</title><desc id="desc">Original decision visual for allocation, order promising, and available-to-promise, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Allocation, Order Promising, and Available-to-Promise</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for allocation, order promising, and available-to-promise, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Available-to-promise by MPS receipt</tspan></text>
+<rect x="90" y="346.25" width="150" height="183.75" rx="10" fill="#E8F5EF" stroke="#2F7D65" stroke-width="2" opacity="1"/>
+<text x="165" y="371.25" class="metric" text-anchor="middle"><tspan x="165" y="371.25">225</tspan></text>
+<text x="165" y="560" class="small" text-anchor="middle"><tspan x="165" y="560">W1</tspan></text>
+<rect x="320" y="442.5" width="150" height="87.5" rx="10" fill="#E8F5EF" stroke="#2F7D65" stroke-width="2" opacity="1"/>
+<text x="395" y="467.5" class="metric" text-anchor="middle"><tspan x="395" y="467.5">50</tspan></text>
+<text x="395" y="560" class="small" text-anchor="middle"><tspan x="395" y="560">W4</tspan></text>
+<rect x="550" y="404.0" width="150" height="126.0" rx="10" fill="#E8F5EF" stroke="#2F7D65" stroke-width="2" opacity="1"/>
+<text x="625" y="429.0" class="metric" text-anchor="middle"><tspan x="625" y="429.0">120</tspan></text>
+<text x="625" y="560" class="small" text-anchor="middle"><tspan x="625" y="560">W6</tspan></text>
+<rect x="780" y="351.75" width="150" height="178.25" rx="10" fill="#E8F5EF" stroke="#2F7D65" stroke-width="2" opacity="1"/>
+<text x="855" y="376.75" class="metric" text-anchor="middle"><tspan x="855" y="376.75">215</tspan></text>
+<text x="855" y="560" class="small" text-anchor="middle"><tspan x="855" y="560">W8</tspan></text>
+<rect x="1010" y="318.75" width="150" height="211.25" rx="10" fill="#E8F5EF" stroke="#2F7D65" stroke-width="2" opacity="1"/>
+<text x="1085" y="343.75" class="metric" text-anchor="middle"><tspan x="1085" y="343.75">275</tspan></text>
+<text x="1085" y="560" class="small" text-anchor="middle"><tspan x="1085" y="560">W10</tspan></text>
+<rect x="1240" y="288.5" width="150" height="241.50000000000003" rx="10" fill="#E8F5EF" stroke="#2F7D65" stroke-width="2" opacity="1"/>
+<text x="1315" y="313.5" class="metric" text-anchor="middle"><tspan x="1315" y="313.5">330</tspan></text>
+<text x="1315" y="560" class="small" text-anchor="middle"><tspan x="1315" y="560">W12</tspan></text>
+<line x1="90" y1="615" x2="1060" y2="615" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<text x="575" y="650" class="small" text-anchor="middle"><tspan x="575" y="650">New customer demand is allocated only against uncommitted supply</tspan></text>
+<rect x="810" y="200" width="300" height="105" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="810" y="200" width="8" height="105" rx="14" fill="#0B7189" opacity="1"/>
+<text x="832" y="231" class="h" text-anchor="start"><tspan x="832" y="231">Promise gate</tspan></text>
+<text x="832" y="260" class="small" text-anchor="start"><tspan x="832" y="260">Confirm quantity, date, and</tspan><tspan x="832" y="278">policy before committing ATP.</tspan></text>
+</svg>

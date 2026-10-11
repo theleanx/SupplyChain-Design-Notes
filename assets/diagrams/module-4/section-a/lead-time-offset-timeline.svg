@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Lead Time, Offsetting, Planned Receipts, and Releases</title><desc id="desc">Original decision visual for lead time, offsetting, planned receipts, and releases, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Lead Time, Offsetting, Planned Receipts, and Releases</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for lead time, offsetting, planned receipts, and releases, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">PH-PWR220 · two-week lead-time offset</tspan></text>
+<rect x="90.0" y="230" width="78.46153846153847" height="55" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="129.23076923076923" y="263" class="small" text-anchor="middle"><tspan x="129.23076923076923" y="263">W1</tspan></text>
+<rect x="168.46153846153845" y="230" width="78.46153846153847" height="55" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="207.69230769230768" y="263" class="small" text-anchor="middle"><tspan x="207.69230769230768" y="263">W2</tspan></text>
+<rect x="246.92307692307693" y="230" width="78.46153846153847" height="55" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="286.1538461538462" y="263" class="small" text-anchor="middle"><tspan x="286.1538461538462" y="263">W3</tspan></text>
+<rect x="325.3846153846154" y="230" width="78.46153846153847" height="55" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="364.61538461538464" y="263" class="small" text-anchor="middle"><tspan x="364.61538461538464" y="263">W4</tspan></text>
+<rect x="403.84615384615387" y="230" width="78.46153846153847" height="55" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="443.0769230769231" y="263" class="small" text-anchor="middle"><tspan x="443.0769230769231" y="263">W5</tspan></text>
+<rect x="482.3076923076923" y="230" width="78.46153846153847" height="55" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="521.5384615384615" y="263" class="small" text-anchor="middle"><tspan x="521.5384615384615" y="263">W6</tspan></text>
+<rect x="560.7692307692308" y="230" width="78.46153846153847" height="55" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="600.0000000000001" y="263" class="small" text-anchor="middle"><tspan x="600.0000000000001" y="263">W7</tspan></text>
+<rect x="639.2307692307693" y="230" width="78.46153846153847" height="55" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="678.4615384615386" y="263" class="small" text-anchor="middle"><tspan x="678.4615384615386" y="263">W8</tspan></text>
+<rect x="717.6923076923077" y="230" width="78.46153846153847" height="55" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="756.923076923077" y="263" class="small" text-anchor="middle"><tspan x="756.923076923077" y="263">W9</tspan></text>
+<rect x="796.1538461538462" y="230" width="78.46153846153847" height="55" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="835.3846153846155" y="263" class="small" text-anchor="middle"><tspan x="835.3846153846155" y="263">W10</tspan></text>
+<rect x="874.6153846153846" y="230" width="78.46153846153847" height="55" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="913.8461538461539" y="263" class="small" text-anchor="middle"><tspan x="913.8461538461539" y="263">W11</tspan></text>
+<rect x="953.0769230769231" y="230" width="78.46153846153847" height="55" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="992.3076923076924" y="263" class="small" text-anchor="middle"><tspan x="992.3076923076924" y="263">W12</tspan></text>
+<rect x="1031.5384615384617" y="230" width="78.46153846153847" height="55" rx="0" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="1070.769230769231" y="263" class="small" text-anchor="middle"><tspan x="1070.769230769231" y="263">W13</tspan></text>
+<text x="65" y="325" class="small" text-anchor="end"><tspan x="65" y="325">Receipt</tspan></text>
+<text x="65" y="395" class="small" text-anchor="end"><tspan x="65" y="395">Release</tspan></text>
+<circle cx="286.1538461538462" cy="390" r="22" fill="#FFF4D8" stroke="#C98516" stroke-width="2"/>
+<text x="286.1538461538462" y="395" class="small" text-anchor="middle"><tspan x="286.1538461538462" y="395">250</tspan></text>
+<circle cx="443.0769230769231" cy="320" r="22" fill="#E8F5EF" stroke="#2F7D65" stroke-width="2"/>
+<text x="443.0769230769231" y="325" class="small" text-anchor="middle"><tspan x="443.0769230769231" y="325">250</tspan></text>
+<circle cx="443.0769230769231" cy="390" r="22" fill="#FFF4D8" stroke="#C98516" stroke-width="2"/>
+<text x="443.0769230769231" y="395" class="small" text-anchor="middle"><tspan x="443.0769230769231" y="395">450</tspan></text>
+<circle cx="600.0" cy="320" r="22" fill="#E8F5EF" stroke="#2F7D65" stroke-width="2"/>
+<text x="600.0" y="325" class="small" text-anchor="middle"><tspan x="600.0" y="325">450</tspan></text>
+<circle cx="600.0" cy="390" r="22" fill="#FFF4D8" stroke="#C98516" stroke-width="2"/>
+<text x="600.0" y="395" class="small" text-anchor="middle"><tspan x="600.0" y="395">450</tspan></text>
+<circle cx="756.923076923077" cy="320" r="22" fill="#E8F5EF" stroke="#2F7D65" stroke-width="2"/>
+<text x="756.923076923077" y="325" class="small" text-anchor="middle"><tspan x="756.923076923077" y="325">450</tspan></text>
+<circle cx="756.923076923077" cy="390" r="22" fill="#FFF4D8" stroke="#C98516" stroke-width="2"/>
+<text x="756.923076923077" y="395" class="small" text-anchor="middle"><tspan x="756.923076923077" y="395">450</tspan></text>
+<circle cx="913.8461538461539" cy="320" r="22" fill="#E8F5EF" stroke="#2F7D65" stroke-width="2"/>
+<text x="913.8461538461539" y="325" class="small" text-anchor="middle"><tspan x="913.8461538461539" y="325">450</tspan></text>
+<line x1="286.1538461538462" y1="390" x2="443.0769230769231" y2="320" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<text x="600" y="470" class="h" text-anchor="middle"><tspan x="600" y="470">Planned receipt date − lead time = planned release date</tspan></text>
+<rect x="280" y="520" width="640" height="90" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="280" y="520" width="8" height="90" rx="14" fill="#0B7189" opacity="1"/>
+<text x="302" y="551" class="h" text-anchor="start"><tspan x="302" y="551">Control point</tspan></text>
+<text x="302" y="580" class="small" text-anchor="start"><tspan x="302" y="580">Offsetting changes timing, not requirement quantity. Calendar and</tspan><tspan x="302" y="598">lead-time assumptions must be explicit.</tspan></text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Managing MRP: Nervousness, Pegging, Firming, and Exceptions</title><desc id="desc">Original decision visual for managing mrp: nervousness, pegging, firming, and exceptions, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Managing MRP: Nervousness, Pegging, Firming, and Exceptions</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for managing mrp: nervousness, pegging, firming, and exceptions, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<rect x="495" y="148" width="210" height="84" rx="14" fill="#FCE9EB" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="495" y="148" width="8" height="84" rx="14" fill="#B84A52" opacity="1"/>
+<text x="517" y="179" class="h" text-anchor="start"><tspan x="517" y="179">Exception detected</tspan></text>
+<rect x="765" y="258" width="210" height="84" rx="14" fill="#EAF4F8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="765" y="258" width="8" height="84" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="787" y="289" class="h" text-anchor="start"><tspan x="787" y="289">Peg requirement</tspan></text>
+<rect x="655" y="463" width="210" height="84" rx="14" fill="#FFF4D8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="655" y="463" width="8" height="84" rx="14" fill="#C98516" opacity="1"/>
+<text x="677" y="494" class="h" text-anchor="start"><tspan x="677" y="494">Check firm zone</tspan></text>
+<rect x="335" y="463" width="210" height="84" rx="14" fill="#E8F5EF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="335" y="463" width="8" height="84" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="357" y="494" class="h" text-anchor="start"><tspan x="357" y="494">Planner decision</tspan></text>
+<rect x="195" y="258" width="210" height="84" rx="14" fill="#F1EEFA" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="195" y="258" width="8" height="84" rx="14" fill="#6C5B9A" opacity="1"/>
+<text x="217" y="289" class="h" text-anchor="start"><tspan x="217" y="289">Update / defer</tspan></text>
+<line x1="600" y1="232" x2="790" y2="300" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<line x1="870" y1="342" x2="795" y2="463" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<line x1="655" y1="505" x2="545" y2="505" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<line x1="440" y1="463" x2="335" y2="342" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<line x1="405" y1="300" x2="495" y2="190" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<text x="600" y="615" class="h" text-anchor="middle"><tspan x="600" y="615">Stability comes from controlled change, not from suppressing valid signals.</tspan></text>
+</svg>
