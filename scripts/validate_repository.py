@@ -242,7 +242,7 @@ def validate_shared_module_content() -> list[str]:
             )
             if not related or related.group("section").count("](") < 2:
                 errors.append(f"{relative}: related concepts require at least two working links")
-            if not re.search(r"\n---\n\n\[(?:Section overview|Previous:)", body):
+            if not re.search(r"\n---\n\n\[(?:Section overview|Previous(?::[^]]*)?)\]", body):
                 errors.append(f"{relative}: missing sequential navigation footer")
 
             h2 = [line.lower() for line in body.splitlines() if line.startswith("## ")]
