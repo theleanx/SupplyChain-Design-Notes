@@ -1,6 +1,6 @@
 # Learning Paths
 
-All three modules can be read from beginning to end, but different roles may need a faster route to the decisions most relevant to their work. The paths below preserve the conceptual sequence while making focused study easier.
+All four modules can be read from beginning to end, but different roles may need a faster route to the decisions most relevant to their work. The paths below preserve the conceptual sequence while making focused study easier.
 
 ## Module 1 complete foundation path
 
@@ -157,6 +157,62 @@ Read the sections in sequence:
 
 **Finish with:** the [Rivermark integrated sourcing-and-design capstone](./03-sourcing-strategy-product-design-supplier-execution/capstone/README.md).
 
+
+## Module 4 complete operations path
+
+**Best for:** learners who want to turn demand and supply plans into executable production, capacity, inventory, and improvement decisions.
+
+1. [Planning operations](./04-internal-operations-inventory/section-a-planning-operations/README.md)
+2. [Capacity and production activity control](./04-internal-operations-inventory/section-b-capacity-and-production-activity-control/README.md)
+3. [Inventory](./04-internal-operations-inventory/section-c-inventory/README.md)
+4. [Performance and continuous improvement](./04-internal-operations-inventory/section-d-performance-and-continuous-improvement/README.md)
+5. [Pinehaven Q3 Operations Stabilization capstone](./04-internal-operations-inventory/capstone/README.md)
+
+## Module 4 production-planning and capacity path
+
+**Goal:** move from the master schedule through MRP and capacity validation into controlled execution.
+
+1. [Master scheduling and the master scheduling grid](./04-internal-operations-inventory/section-a-planning-operations/02-master-scheduling-and-the-master-scheduling-grid.md)
+2. [Projected available balance and MPS logic](./04-internal-operations-inventory/section-a-planning-operations/04-projected-available-balance-and-mps-logic.md)
+3. [Available-to-promise](./04-internal-operations-inventory/section-a-planning-operations/05-allocation-order-promising-and-available-to-promise.md)
+4. [MRP logic and demand types](./04-internal-operations-inventory/section-a-planning-operations/07-mrp-logic-inputs-and-demand-types.md)
+5. [Bills of material and explosion](./04-internal-operations-inventory/section-a-planning-operations/08-bills-of-material-and-explosion.md)
+6. [Rough-cut capacity planning](./04-internal-operations-inventory/section-b-capacity-and-production-activity-control/04-rough-cut-capacity-planning-and-bottleneck-validation.md)
+7. [CRP, load, and manufacturing lead time](./04-internal-operations-inventory/section-b-capacity-and-production-activity-control/05-capacity-requirements-planning-load-and-manufacturing-lead-time.md)
+8. [Measuring capacity](./04-internal-operations-inventory/section-b-capacity-and-production-activity-control/07-measuring-capacity-utilization-efficiency-rated-and-demonstrated-capacity.md)
+9. [Balancing load and capacity](./04-internal-operations-inventory/section-b-capacity-and-production-activity-control/08-balancing-load-and-capacity.md)
+
+## Module 4 inventory-control path
+
+**Goal:** set inventory policy, replenishment, accuracy, and lifecycle controls using service, financial, and risk evidence.
+
+1. [Inventory planning, locations, and echelons](./04-internal-operations-inventory/section-c-inventory/03-inventory-planning-locations-and-echelons.md)
+2. [Inventory roles and policy](./04-internal-operations-inventory/section-c-inventory/04-inventory-management-roles-and-policy.md)
+3. [ABC classification and Pareto control](./04-internal-operations-inventory/section-c-inventory/06-abc-classification-and-pareto-based-control.md)
+4. [Inventory and financial statements](./04-internal-operations-inventory/section-c-inventory/07-inventory-and-the-financial-statements.md)
+5. [L4L, FOQ, and EOQ](./04-internal-operations-inventory/section-c-inventory/08-order-quantities-lot-for-lot-foq-and-eoq.md)
+6. [Order point, periodic review, and min-max](./04-internal-operations-inventory/section-c-inventory/09-ordering-systems-order-point-periodic-review-and-min-max.md)
+7. [Safety stock and safety lead time](./04-internal-operations-inventory/section-c-inventory/11-safety-stock-and-safety-lead-time.md)
+8. [Inventory accuracy and cycle counting](./04-internal-operations-inventory/section-c-inventory/13-inventory-accuracy-physical-inventory-and-cycle-counting.md)
+9. [End-of-life, obsolescence, returns, and disposition](./04-internal-operations-inventory/section-c-inventory/14-end-of-life-obsolescence-returns-and-disposition.md)
+
+## Module 4 continuous-improvement path
+
+**Goal:** connect measurement, quality tools, lean flow, statistical improvement, and constraints into one operating-improvement system.
+
+1. [Metrics, KPIs, and performance architecture](./04-internal-operations-inventory/section-d-performance-and-continuous-improvement/01-metrics-kpis-and-performance-architecture.md)
+2. [TQM and continuous-improvement foundations](./04-internal-operations-inventory/section-d-performance-and-continuous-improvement/03-tqm-and-continuous-improvement-foundations.md)
+3. [Benchmarking for improvement](./04-internal-operations-inventory/section-d-performance-and-continuous-improvement/05-benchmarking-for-improvement.md)
+4. [Process maps and control charts](./04-internal-operations-inventory/section-d-performance-and-continuous-improvement/06-basic-quality-tools-i-process-maps-and-control-charts.md)
+5. [Pareto and cause-and-effect](./04-internal-operations-inventory/section-d-performance-and-continuous-improvement/07-basic-quality-tools-ii-pareto-and-cause-and-effect.md)
+6. [Lean waste, objectives, and principles](./04-internal-operations-inventory/section-d-performance-and-continuous-improvement/11-lean-waste-objectives-and-five-principles.md)
+7. [Lean operating system](./04-internal-operations-inventory/section-d-performance-and-continuous-improvement/12-lean-operating-system-house-of-toyota-vsm-kaizen-5s-setup-reduction-tpm-muda-mura-muri.md)
+8. [Just-in-time and pull execution](./04-internal-operations-inventory/section-d-performance-and-continuous-improvement/13-just-in-time-production-and-pull-execution.md)
+9. [Six Sigma and DMAIC](./04-internal-operations-inventory/section-d-performance-and-continuous-improvement/14-six-sigma-and-dmaic.md)
+10. [Theory of constraints and drum-buffer-rope](./04-internal-operations-inventory/section-d-performance-and-continuous-improvement/15-theory-of-constraints-and-drum-buffer-rope.md)
+
+**Finish with:** the [Pinehaven integrated operations capstone](./04-internal-operations-inventory/capstone/README.md).
+
 ## Time-boxed routes
 
 | Available time | Recommended route |
@@ -166,4 +222,4 @@ Read the sections in sequence:
 | Half day | Complete one section, its review, and the related capstone tasks |
 | Full study cycle | Complete all published modules, section reviews, and capstones |
 
-Use the [glossary](./GLOSSARY.md) whenever a term is unfamiliar. For quantitative reference, open the [forecasting formula sheet](./calculations/forecasting/formula-sheet.md) or the [network and performance formula sheet](./calculations/network-performance/formula-sheet.md), or [sourcing and procurement formula sheet](./calculations/sourcing-procurement/formula-sheet.md).
+Use the [glossary](./GLOSSARY.md) whenever a term is unfamiliar. For quantitative reference, open the [forecasting formula sheet](./calculations/forecasting/formula-sheet.md) or the [network and performance formula sheet](./calculations/network-performance/formula-sheet.md), or [sourcing and procurement formula sheet](./calculations/sourcing-procurement/formula-sheet.md), or the [internal operations and inventory formula sheet](./calculations/internal-operations/formula-sheet.md).
