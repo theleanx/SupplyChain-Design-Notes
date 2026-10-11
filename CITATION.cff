@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "If you reference this learning resource, please cite it using the metadata below."
 title: "Supply Chain Design Notes"
-abstract: "A practitioner-oriented learning resource covering demand and forecasting, network design and digital connectivity, performance measurement, sourcing strategy, product design for supply chain, supplier management, contracting, and procurement execution through original explanations, diagrams, datasets, knowledge checks, and integrated case studies."
+abstract: "A practitioner-oriented learning resource covering demand and forecasting, network design and digital connectivity, sourcing and supplier execution, internal operations, master scheduling, MRP, capacity, inventory, quality, and continuous improvement through original explanations, diagrams, datasets, knowledge checks, and integrated case studies."
 type: dataset
 authors:
   - family-names: Sharma
     given-names: Ankit
-version: 3.0.0
-date-released: 2026-09-15
+version: 4.0.0
+date-released: 2026-10-11
 url: "https://github.com/theleanx/SupplyChain-Design-Notes"
 repository-code: "https://github.com/theleanx/SupplyChain-Design-Notes"
 keywords:
@@ -23,4 +23,9 @@ keywords:
   - product design for supply chain
   - supplier management
   - procurement
+  - internal operations
+  - material requirements planning
+  - capacity planning
+  - inventory management
+  - continuous improvement
   - practitioner learning
