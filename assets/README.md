@@ -53,3 +53,8 @@ An original SVG should include a descriptive `<title>`, a useful `<desc>`, reada
 - Include a header row and consistent columns.
 - State units, time periods, assumptions, and whether values are illustrative.
 - Link the dataset from the page that explains its learning purpose.
+
+
+## Module 4 assets
+
+Module 4 uses `assets/diagrams/module-4/section-a/` through `section-d/` for 51 original decision visuals and `assets/data/module-4/` for 15 shared fictional datasets used by lessons and the Pinehaven capstone.
