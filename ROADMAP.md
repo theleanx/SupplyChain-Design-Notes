@@ -31,8 +31,15 @@
 - [x] Add the Rivermark integrated sourcing-and-design capstone
 - [x] Complete source separation, terminology, navigation, calculation, and originality controls
 
+## Module 4 — Internal Operations and Inventory
+
+- [x] Complete Sections A–D
+- [x] Connect master scheduling, MRP, capacity, inventory, quality, and continuous-improvement decisions
+- [x] Add 51 original SVGs, 15 fictional datasets, reproducible calculations, and standardized knowledge checks
+- [x] Add the Pinehaven integrated operations-stabilization capstone
+- [x] Complete source separation, calculation, visual, navigation, completeness, and originality review
+
 ## Future modules
-- [ ] Internal operations and inventory
 - [ ] Forward and reverse logistics
 - [ ] Supply-chain relationships
 - [ ] Supply-chain risk
@@ -45,7 +52,8 @@ Future module folders will be published only when substantive content is ready.
 - [x] Cross-module glossary
 - [x] Forecasting calculations reference
 - [x] Network and performance calculations reference
-- [x] Three end-to-end case studies
+- [x] Internal operations and inventory calculations reference
+- [x] Four end-to-end case studies
 - [ ] Commonly confused concepts index
 - [ ] Framework library
 - [ ] Cumulative knowledge review
@@ -57,4 +65,4 @@ Future module folders will be published only when substantive content is ready.
 
 ## Current status
 
-Modules 1, 2, and 3 are complete. The next module will follow the same full-release gate before it appears on the default branch.
+Modules 1–4 are complete. Future modules will follow the same full-release gate before they appear on the default branch.
