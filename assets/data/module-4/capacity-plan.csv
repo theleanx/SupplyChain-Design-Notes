@@ -1,0 +1,19 @@
+resource,period,required_capacity,current_available_capacity,lead_strategy_capacity,lag_strategy_capacity,staged_strategy_capacity,capacity_unit,investment_lead_time_periods,critical_flag,illustrative_data
+Final Assembly,Q1,3200,3600,3600,3600,3600,standard_hours_per_quarter,2,yes,yes
+Final Assembly,Q2,3400,3600,3600,3600,3600,standard_hours_per_quarter,2,yes,yes
+Final Assembly,Q3,3700,3600,4500,3600,4050,standard_hours_per_quarter,2,yes,yes
+Final Assembly,Q4,4000,3600,4500,3600,4050,standard_hours_per_quarter,2,yes,yes
+Final Assembly,Q5,4300,3600,4500,4500,4500,standard_hours_per_quarter,2,yes,yes
+Final Assembly,Q6,4550,3600,4500,4500,4500,standard_hours_per_quarter,2,yes,yes
+Burn-in Test,Q1,1800,2100,2100,2100,2100,standard_hours_per_quarter,3,yes,yes
+Burn-in Test,Q2,1950,2100,2100,2100,2100,standard_hours_per_quarter,3,yes,yes
+Burn-in Test,Q3,2200,2100,3100,2100,2600,standard_hours_per_quarter,3,yes,yes
+Burn-in Test,Q4,2500,2100,3100,2100,2600,standard_hours_per_quarter,3,yes,yes
+Burn-in Test,Q5,2750,2100,3100,3100,3100,standard_hours_per_quarter,3,yes,yes
+Burn-in Test,Q6,3000,2100,3100,3100,3100,standard_hours_per_quarter,3,yes,yes
+CNC Enclosure,Q1,1600,1850,1850,1850,1850,standard_hours_per_quarter,2,no,yes
+CNC Enclosure,Q2,1650,1850,1850,1850,1850,standard_hours_per_quarter,2,no,yes
+CNC Enclosure,Q3,1750,1850,1850,1850,1850,standard_hours_per_quarter,2,no,yes
+CNC Enclosure,Q4,1850,1850,1850,1850,2100,standard_hours_per_quarter,2,no,yes
+CNC Enclosure,Q5,1950,1850,2350,1850,2100,standard_hours_per_quarter,2,no,yes
+CNC Enclosure,Q6,2050,1850,2350,2350,2350,standard_hours_per_quarter,2,no,yes

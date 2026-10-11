@@ -1,0 +1,9 @@
+record_type,serial_or_lot,component_lot,event_timestamp,location,count_class,book_qty_units,actual_qty_units,adjustment_reason,illustrative_data
+trace_event,SD500-SN-27031,PWR220-L2704,2027-07-08T08:15:00,Receiving,,,,receipt verified,yes
+trace_event,SD500-SN-27031,PWR220-L2704,2027-07-09T10:40:00,Final Assembly,,,,component issued to serial,yes
+trace_event,SD500-SN-27031,PWR220-L2704,2027-07-10T14:05:00,Burn-in Test,,,,test passed,yes
+trace_event,SD500-SN-27031,PWR220-L2704,2027-07-11T09:20:00,Finished Goods,,,,released to stock,yes
+cycle_count,PH-PWR220,,2027-07-12T07:00:00,A-01-03,A,482,480,2-unit issue posting lag,yes
+cycle_count,PH-MCU88,,2027-07-12T07:15:00,A-02-01,A,316,316,no adjustment,yes
+cycle_count,PH-CNK500,,2027-07-12T07:30:00,B-04-02,B,740,735,5 units found in unposted quality hold,yes
+cycle_count,PH-PKG500,,2027-07-12T07:45:00,C-06-04,C,1900,1910,case-pack conversion error,yes

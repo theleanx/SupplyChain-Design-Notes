@@ -1,0 +1,14 @@
+scenario,sku,week,forecast_units,customer_orders_units,beginning_inventory_units,mps_receipt_units,demand_time_fence_end_week,planning_time_fence_end_week,time_fence_zone,demand_used_for_pab_units,projected_available_balance_units,available_to_promise_units,illustrative_data
+Pinehaven SD-500 Q3 master schedule,PH-SD500,1,150,160,350,400,3,6,frozen,160,590,225,yes
+Pinehaven SD-500 Q3 master schedule,PH-SD500,2,165,175,,0,3,6,frozen,175,415,,yes
+Pinehaven SD-500 Q3 master schedule,PH-SD500,3,180,190,,0,3,6,frozen,190,225,,yes
+Pinehaven SD-500 Q3 master schedule,PH-SD500,4,200,180,,400,3,6,slushy,200,425,50,yes
+Pinehaven SD-500 Q3 master schedule,PH-SD500,5,210,170,,0,3,6,slushy,210,215,,yes
+Pinehaven SD-500 Q3 master schedule,PH-SD500,6,220,150,,400,3,6,slushy,220,395,120,yes
+Pinehaven SD-500 Q3 master schedule,PH-SD500,7,225,130,,0,3,6,liquid,225,170,,yes
+Pinehaven SD-500 Q3 master schedule,PH-SD500,8,230,125,,450,3,6,liquid,230,390,215,yes
+Pinehaven SD-500 Q3 master schedule,PH-SD500,9,235,110,,0,3,6,liquid,235,155,,yes
+Pinehaven SD-500 Q3 master schedule,PH-SD500,10,240,95,,450,3,6,liquid,240,365,275,yes
+Pinehaven SD-500 Q3 master schedule,PH-SD500,11,245,80,,0,3,6,liquid,245,120,,yes
+Pinehaven SD-500 Q3 master schedule,PH-SD500,12,250,70,,450,3,6,liquid,250,320,330,yes
+Pinehaven SD-500 Q3 master schedule,PH-SD500,13,255,50,,0,3,6,liquid,255,65,,yes

@@ -1,0 +1,5 @@
+work_center,description,period,hours_operation_per_day,days_per_period,number_of_resources,available_hours,actual_hours_worked,standard_hours_of_output,utilization_pct,efficiency_pct,rated_capacity_standard_hours,demonstrated_output_period_1_standard_hours,demonstrated_output_period_2_standard_hours,demonstrated_output_period_3_standard_hours,demonstrated_capacity_standard_hours,required_load_standard_hours,open_order_load_standard_hours,planned_order_load_standard_hours,queue_or_buffer_units,kanban_signal,illustrative_data
+WC-ASM-01,Final assembly,Week 27,8,5,10,400,360,378,90.0,105.0,378.0,370,382,376,376.0,410,260,150,72,red,yes
+WC-TEST-01,Burn-in test,Week 27,8,5,4,160,152,144.4,95.0,95.0,144.4,142,146,144,144.0,150,95,55,120,red,yes
+WC-CNC-01,Enclosure machining,Week 27,8,5,5,200,185,175.75,92.5,95.0,175.75,174,180,176,176.67,190,120,70,48,amber,yes
+WC-PACK-01,Pack and label,Week 27,8,5,6,240,210,220.5,87.5,105.0,220.5,218,223,221,220.67,200,90,60,36,green,yes

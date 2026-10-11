@@ -1,0 +1,11 @@
+metric,definition,owner,target,actual,unit,frequency,cross_node_relevance,measurement_cost_level,benchmark_value,action_trigger,illustrative_data
+Schedule attainment,orders completed within agreed schedule tolerance,Production Control,98,94.5,percent,weekly,plant-customer,low,97,below 96% for two weeks,yes
+First-pass yield,units passing without rework,Quality,99.2,97.8,percent,daily,plant-supplier,medium,99,below 98.5%,yes
+Inventory accuracy,counted locations within tolerance,Inventory Control,99,96.8,percent,weekly,plant-DC,medium,98.5,below 98%,yes
+Burn-in queue,units waiting before constraint,Operations,80,124,units,daily,plant,low,90,above 100 units,yes
+Order lead time,release to finished-goods availability,Operations Planning,5.0,6.4,days,weekly,plant-customer,low,5.5,above 6 days,yes
+Supplier incoming defect rate,defective received units per inspected units,Supplier Quality,0.5,1.1,percent,monthly,supplier-plant,medium,0.7,above 0.8%,yes
+Inventory turns,annualized COGS divided by average inventory,Finance / Supply Chain,5.0,4.36,turns_per_year,monthly,enterprise,low,4.8,below 4.5,yes
+Setup time,last good unit A to first good unit B,Manufacturing Engineering,22,37,minutes,weekly,plant,low,25,above 30 min,yes
+Perfect order contribution,internal operations component supporting perfect order,Operations,99,96.2,percent,monthly,plant-customer,medium,98.5,below 97.5%,yes
+Cost of poor quality,scrap rework inspection and failure costs,Quality / Finance,2.0,3.4,percent_of_sales,monthly,enterprise,medium,2.5,above 3%,yes

@@ -1,0 +1,7 @@
+process_step,value_added_flag,process_time_min_per_unit,wait_time_min_per_batch,queue_units,setup_time_min,wip_units,available_production_time_min_per_shift,customer_demand_units_per_shift,takt_time_min_per_unit,kanban_status,defect_or_rework_pct,illustrative_data
+Receive kit,yes,1.8,6,12,3,18,420,120,3.5,green,0.2,yes
+Assemble power stage,yes,3.2,9,20,7,32,420,120,3.5,green,0.7,yes
+Wire controller,yes,2.9,7,16,5,28,420,120,3.5,green,0.5,yes
+Burn-in test,yes,4.1,24,40,4,64,420,120,3.5,red,1.6,yes
+Final inspection,yes,2.0,5,10,2,14,420,120,3.5,green,0.4,yes
+Pack and label,yes,1.7,4,8,3,12,420,120,3.5,green,0.3,yes

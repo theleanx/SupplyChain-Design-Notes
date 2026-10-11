@@ -1,0 +1,31 @@
+record_type,timestamp,category,defect_count,cause_variable,measurement,control_subgroup,x_variable,y_variable,task,predecessor,duration_hours,illustrative_data
+pareto,2027-07-01T08:00:00,Loose connector,24,assembly torque,,,,,,,,yes
+pareto,2027-07-02T08:00:00,Burn-in failure,18,power module variation,,,,,,,,yes
+pareto,2027-07-03T08:00:00,Label mismatch,11,manual selection,,,,,,,,yes
+pareto,2027-07-04T08:00:00,Housing scratch,8,handling,,,,,,,,yes
+pareto,2027-07-05T08:00:00,Other,5,mixed,,,,,,,,yes
+control_chart,2027-07-15T08:00:00,shaft diameter mm,,,5.02,1,,,,,,yes
+control_chart,2027-07-15T09:00:00,shaft diameter mm,,,5.06,2,,,,,,yes
+control_chart,2027-07-15T10:00:00,shaft diameter mm,,,4.98,3,,,,,,yes
+control_chart,2027-07-15T11:00:00,shaft diameter mm,,,5.01,4,,,,,,yes
+control_chart,2027-07-15T12:00:00,shaft diameter mm,,,5.09,5,,,,,,yes
+control_chart,2027-07-15T13:00:00,shaft diameter mm,,,4.97,6,,,,,,yes
+control_chart,2027-07-15T14:00:00,shaft diameter mm,,,5.04,7,,,,,,yes
+control_chart,2027-07-15T15:00:00,shaft diameter mm,,,5.0,8,,,,,,yes
+control_chart,2027-07-15T16:00:00,shaft diameter mm,,,5.12,9,,,,,,yes
+control_chart,2027-07-15T17:00:00,shaft diameter mm,,,4.96,10,,,,,,yes
+control_chart,2027-07-15T18:00:00,shaft diameter mm,,,5.03,11,,,,,,yes
+control_chart,2027-07-15T19:00:00,shaft diameter mm,,,5.01,12,,,,,,yes
+scatter,,humidity vs solder defects,,,,,18,1.4,,,,yes
+scatter,,humidity vs solder defects,,,,,22,1.7,,,,yes
+scatter,,humidity vs solder defects,,,,,25,2.1,,,,yes
+scatter,,humidity vs solder defects,,,,,30,2.6,,,,yes
+scatter,,humidity vs solder defects,,,,,34,3.0,,,,yes
+scatter,,humidity vs solder defects,,,,,38,3.6,,,,yes
+scatter,,humidity vs solder defects,,,,,42,4.1,,,,yes
+scatter,,humidity vs solder defects,,,,,46,4.5,,,,yes
+network,,improvement project,,,,,,,A:Prepare fixture,,2,yes
+network,,improvement project,,,,,,,B:Load validation units,A,1,yes
+network,,improvement project,,,,,,,C:Run thermal profile,B,4,yes
+network,,improvement project,,,,,,,D:Analyze results,C,2,yes
+network,,improvement project,,,,,,,E:Approve parameter change,D,1,yes
