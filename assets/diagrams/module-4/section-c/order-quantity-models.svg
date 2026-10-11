@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Order Quantities: Lot-for-Lot, FOQ, and EOQ</title><desc id="desc">Original decision visual for order quantities: lot-for-lot, foq, and eoq, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Order Quantities: Lot-for-Lot, FOQ, and EOQ</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for order quantities: lot-for-lot, foq, and eoq, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Three order-quantity logics solve different trade-offs</tspan></text>
+<rect x="65" y="210" width="300" height="155" rx="14" fill="#E8F5EF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="65" y="210" width="8" height="155" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="87" y="241" class="h" text-anchor="start"><tspan x="87" y="241">Lot-for-lot</tspan></text>
+<text x="87" y="270" class="small" text-anchor="start"><tspan x="87" y="270">Quantity equals each period net</tspan><tspan x="87" y="288">requirement. Low cycle stock ·</tspan><tspan x="87" y="306">frequent orders</tspan></text>
+<rect x="450" y="210" width="300" height="155" rx="14" fill="#EAF4F8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="450" y="210" width="8" height="155" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="472" y="241" class="h" text-anchor="start"><tspan x="472" y="241">Fixed order quantity</tspan></text>
+<text x="472" y="270" class="small" text-anchor="start"><tspan x="472" y="270">Use a predetermined batch or</tspan><tspan x="472" y="288">multiple. Simple · may carry</tspan><tspan x="472" y="306">leftovers</tspan></text>
+<rect x="835" y="210" width="300" height="155" rx="14" fill="#FFF4D8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="835" y="210" width="8" height="155" rx="14" fill="#C98516" opacity="1"/>
+<text x="857" y="241" class="h" text-anchor="start"><tspan x="857" y="241">EOQ</tspan></text>
+<text x="857" y="270" class="small" text-anchor="start"><tspan x="857" y="270">Balances ordering and carrying</tspan><tspan x="857" y="288">cost. PH-PWR220 ≈ 307 units</tspan></text>
+<polyline points="180.0,490.0 208.0,542.3534564074922 236.0,570.4887377815554 264.0,587.0915548539858 292.0,597.3047633268628 320.0,603.6090347741307 348.0,607.3480662983426 376.0,609.3130066608148 404.0,610.0 432.0,609.7359629962739 460.0,608.7450670876085 488.0,607.1861622333614 516.0,605.1749539594844 544.0,602.7977197968895 572.0,600.1201056930098 600.0,597.1929451763706 628.0,594.0562141286274 656.0,590.7417827227131 684.0,587.2753707473103 712.0,583.6779629672438 740.0,579.9668508287293 768.0,576.1564107449038 796.0,572.2586935326617 824.0,568.2838763836558 852.0,564.2406133724209 880.0,560.1363101168372 908.0,555.9773410728023 936.0,551.7692229712607 964.0,547.5167543888326 992.0,543.2241289239976 1020.0,538.8950276243094" fill="none" stroke="#0B7189" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="404.0" cy="610.0" r="7" fill="#B84A52"/>
+<text x="404.0" y="595.0" class="tiny" text-anchor="middle"><tspan x="404.0" y="595.0">cost minimum</tspan></text>
+</svg>

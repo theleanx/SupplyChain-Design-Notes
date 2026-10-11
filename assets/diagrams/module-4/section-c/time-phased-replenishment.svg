@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Time-Phased Replenishment and DDMRP</title><desc id="desc">Original decision visual for time-phased replenishment and ddmrp, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Time-Phased Replenishment and DDMRP</tspan></text>
+<text x="55" y="111" class="subtitle" text-anchor="start"><tspan x="55" y="111">Original decision visual for time-phased replenishment and ddmrp, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Time-phased replenishment preserves dated need; DDMRP adds strategic decoupling context</tspan></text>
+<rect x="80" y="230" width="76" height="90" rx="4" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="118" y="255" class="tiny" text-anchor="middle"><tspan x="118" y="255">P1</tspan></text>
+<text x="118" y="292" class="h" text-anchor="middle"><tspan x="118" y="292">80</tspan></text>
+<rect x="160" y="230" width="76" height="90" rx="4" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="198" y="255" class="tiny" text-anchor="middle"><tspan x="198" y="255">P2</tspan></text>
+<text x="198" y="292" class="h" text-anchor="middle"><tspan x="198" y="292">0</tspan></text>
+<rect x="240" y="230" width="76" height="90" rx="4" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="278" y="255" class="tiny" text-anchor="middle"><tspan x="278" y="255">P3</tspan></text>
+<text x="278" y="292" class="h" text-anchor="middle"><tspan x="278" y="292">120</tspan></text>
+<rect x="320" y="230" width="76" height="90" rx="4" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="358" y="255" class="tiny" text-anchor="middle"><tspan x="358" y="255">P4</tspan></text>
+<text x="358" y="292" class="h" text-anchor="middle"><tspan x="358" y="292">0</tspan></text>
+<rect x="400" y="230" width="76" height="90" rx="4" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="438" y="255" class="tiny" text-anchor="middle"><tspan x="438" y="255">P5</tspan></text>
+<text x="438" y="292" class="h" text-anchor="middle"><tspan x="438" y="292">90</tspan></text>
+<rect x="480" y="230" width="76" height="90" rx="4" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="518" y="255" class="tiny" text-anchor="middle"><tspan x="518" y="255">P6</tspan></text>
+<text x="518" y="292" class="h" text-anchor="middle"><tspan x="518" y="292">160</tspan></text>
+<rect x="560" y="230" width="76" height="90" rx="4" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="598" y="255" class="tiny" text-anchor="middle"><tspan x="598" y="255">P7</tspan></text>
+<text x="598" y="292" class="h" text-anchor="middle"><tspan x="598" y="292">0</tspan></text>
+<rect x="640" y="230" width="76" height="90" rx="4" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="678" y="255" class="tiny" text-anchor="middle"><tspan x="678" y="255">P8</tspan></text>
+<text x="678" y="292" class="h" text-anchor="middle"><tspan x="678" y="292">110</tspan></text>
+<rect x="720" y="230" width="76" height="90" rx="4" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="758" y="255" class="tiny" text-anchor="middle"><tspan x="758" y="255">P9</tspan></text>
+<text x="758" y="292" class="h" text-anchor="middle"><tspan x="758" y="292">0</tspan></text>
+<rect x="800" y="230" width="76" height="90" rx="4" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="838" y="255" class="tiny" text-anchor="middle"><tspan x="838" y="255">P10</tspan></text>
+<text x="838" y="292" class="h" text-anchor="middle"><tspan x="838" y="292">140</tspan></text>
+<rect x="880" y="230" width="76" height="90" rx="4" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="918" y="255" class="tiny" text-anchor="middle"><tspan x="918" y="255">P11</tspan></text>
+<text x="918" y="292" class="h" text-anchor="middle"><tspan x="918" y="292">0</tspan></text>
+<rect x="960" y="230" width="76" height="90" rx="4" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<text x="998" y="255" class="tiny" text-anchor="middle"><tspan x="998" y="255">P12</tspan></text>
+<text x="998" y="292" class="h" text-anchor="middle"><tspan x="998" y="292">100</tspan></text>
+<text x="80" y="205" class="small" text-anchor="start"><tspan x="80" y="205">Dated requirements</tspan></text>
+<line x1="120" y1="370" x2="1080" y2="370" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<circle cx="600" cy="370" r="26" fill="#FFF4D8" stroke="#C98516" stroke-width="3"/>
+<text x="600" y="375" class="h" text-anchor="middle"><tspan x="600" y="375">B</tspan></text>
+<text x="600" y="420" class="small" text-anchor="middle"><tspan x="600" y="420">Strategic decoupling / buffer point</tspan></text>
+<rect x="130" y="500" width="390" height="90" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="130" y="500" width="8" height="90" rx="14" fill="#0B7189" opacity="1"/>
+<text x="152" y="531" class="h" text-anchor="start"><tspan x="152" y="531">TPOP</tspan></text>
+<text x="152" y="560" class="small" text-anchor="start"><tspan x="152" y="560">MRP-like timing for independent demand;</tspan><tspan x="152" y="578">forecast supplies gross requirements.</tspan></text>
+<rect x="680" y="500" width="390" height="90" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="680" y="500" width="8" height="90" rx="14" fill="#6C5B9A" opacity="1"/>
+<text x="702" y="531" class="h" text-anchor="start"><tspan x="702" y="531">DDMRP context</tspan></text>
+<text x="702" y="560" class="small" text-anchor="start"><tspan x="702" y="560">Protect selected decoupling points with</tspan><tspan x="702" y="578">dynamically managed buffers.</tspan></text>
+</svg>

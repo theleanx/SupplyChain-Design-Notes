@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Product Traceability, Configuration, and Chain of Custody</title><desc id="desc">Original decision visual for product traceability, configuration, and chain of custody, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Product Traceability, Configuration, and Chain of Custody</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for product traceability, configuration, and chain of custody, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">One component lot linked through one serialized finished unit</tspan></text>
+<rect x="65" y="250" width="220" height="95" rx="14" fill="#F1EEFA" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="65" y="250" width="8" height="95" rx="14" fill="#6C5B9A" opacity="1"/>
+<text x="87" y="281" class="h" text-anchor="start"><tspan x="87" y="281">Component lot</tspan></text>
+<text x="87" y="310" class="small" text-anchor="start"><tspan x="87" y="310">PWR220-L2704</tspan></text>
+<rect x="350" y="250" width="220" height="95" rx="14" fill="#EAF4F8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="350" y="250" width="8" height="95" rx="14" fill="#0B7189" opacity="1"/>
+<text x="372" y="281" class="h" text-anchor="start"><tspan x="372" y="281">Finished serial</tspan></text>
+<text x="372" y="310" class="small" text-anchor="start"><tspan x="372" y="310">SD500-SN-27031</tspan></text>
+<line x1="285" y1="298" x2="350" y2="298" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<circle cx="635" cy="298" r="28" fill="#3A7CA5"/>
+<text x="635" y="303" class="white" text-anchor="middle"><tspan x="635" y="303">1</tspan></text>
+<text x="635" y="355" class="tiny" text-anchor="middle"><tspan x="635" y="355">Receiving</tspan></text>
+<line x1="663" y1="298" x2="742" y2="298" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<circle cx="770" cy="298" r="28" fill="#2F7D65"/>
+<text x="770" y="303" class="white" text-anchor="middle"><tspan x="770" y="303">2</tspan></text>
+<text x="770" y="355" class="tiny" text-anchor="middle"><tspan x="770" y="355">Final Assembly</tspan></text>
+<line x1="798" y1="298" x2="877" y2="298" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<circle cx="905" cy="298" r="28" fill="#C98516"/>
+<text x="905" y="303" class="white" text-anchor="middle"><tspan x="905" y="303">3</tspan></text>
+<text x="905" y="355" class="tiny" text-anchor="middle"><tspan x="905" y="355">Burn-in Test</tspan></text>
+<line x1="933" y1="298" x2="1012" y2="298" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<circle cx="1040" cy="298" r="28" fill="#0B7189"/>
+<text x="1040" y="303" class="white" text-anchor="middle"><tspan x="1040" y="303">4</tspan></text>
+<text x="1040" y="355" class="tiny" text-anchor="middle"><tspan x="1040" y="355">Finished Goods</tspan></text>
+<rect x="195" y="480" width="810" height="95" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="195" y="480" width="8" height="95" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="217" y="511" class="h" text-anchor="start"><tspan x="217" y="511">Chain-of-custody record</tspan></text>
+<text x="217" y="540" class="small" text-anchor="start"><tspan x="217" y="540">Who handled the item · where it moved · when the event occurred · what status was</tspan><tspan x="217" y="558">recorded</tspan></text>
+</svg>

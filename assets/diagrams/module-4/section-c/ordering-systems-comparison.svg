@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Ordering Systems: Order Point, Periodic Review, and Min-Max</title><desc id="desc">Original decision visual for ordering systems: order point, periodic review, and min-max, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Ordering Systems: Order Point, Periodic Review, and Min-Max</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for ordering systems: order point, periodic review, and min-max, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Ordering systems differ in what triggers review and what fixes the order amount</tspan></text>
+<rect x="60" y="205" width="340" height="118" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="60" y="205" width="8" height="118" rx="14" fill="#B84A52" opacity="1"/>
+<text x="82" y="236" class="h" text-anchor="start"><tspan x="82" y="236">Order point</tspan></text>
+<text x="82" y="265" class="small" text-anchor="start"><tspan x="82" y="265">Continuous review</tspan></text>
+<text x="80" y="345" class="small" text-anchor="start"><tspan x="80" y="345">Trigger at inventory position ≤ ROP</tspan></text>
+<polyline points="90,500 135,415 150,500 195,415 210,500 255,415 270,500 315,415" fill="none" stroke="#B84A52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="445" y="205" width="340" height="118" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="445" y="205" width="8" height="118" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="467" y="236" class="h" text-anchor="start"><tspan x="467" y="236">Periodic review</tspan></text>
+<text x="467" y="265" class="small" text-anchor="start"><tspan x="467" y="265">Review at fixed intervals</tspan></text>
+<text x="465" y="345" class="small" text-anchor="start"><tspan x="465" y="345">Order up to target level</tspan></text>
+<polyline points="475,500 520,415 535,500 580,415 595,500 640,415 655,500 700,415" fill="none" stroke="#3A7CA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="830" y="205" width="340" height="118" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="830" y="205" width="8" height="118" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="852" y="236" class="h" text-anchor="start"><tspan x="852" y="236">Min–max</tspan></text>
+<text x="852" y="265" class="small" text-anchor="start"><tspan x="852" y="265">Review, then compare to min</tspan></text>
+<text x="850" y="345" class="small" text-anchor="start"><tspan x="850" y="345">If below min, order toward max</tspan></text>
+<polyline points="860,500 905,415 920,500 965,415 980,500 1025,415 1040,500 1085,415" fill="none" stroke="#2F7D65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="600" y="625" class="small" text-anchor="middle"><tspan x="600" y="625">Periodic example: target 1506, on hand 620, order 886 units</tspan></text>
+</svg>
