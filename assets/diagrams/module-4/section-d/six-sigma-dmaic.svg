@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Six Sigma and DMAIC</title><desc id="desc">Original decision visual for six sigma and dmaic, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Six Sigma and DMAIC</tspan></text>
+<text x="55" y="111" class="subtitle" text-anchor="start"><tspan x="55" y="111">Original decision visual for six sigma and dmaic, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">DMAIC keeps improvement evidence-driven and controlled</tspan></text>
+<circle cx="140" cy="265" r="46" fill="#3A7CA5"/>
+<text x="140" y="274" class="white" text-anchor="middle"><tspan x="140" y="274">D</tspan></text>
+<text x="140" y="335" class="h" text-anchor="middle"><tspan x="140" y="335">Define</tspan></text>
+<text x="140" y="365" class="tiny" text-anchor="middle"><tspan x="140" y="365">problem + customer</tspan><tspan x="140" y="386">impact</tspan></text>
+<line x1="190" y1="265" x2="305" y2="265" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<circle cx="355" cy="265" r="46" fill="#0B7189"/>
+<text x="355" y="274" class="white" text-anchor="middle"><tspan x="355" y="274">M</tspan></text>
+<text x="355" y="335" class="h" text-anchor="middle"><tspan x="355" y="335">Measure</tspan></text>
+<text x="355" y="365" class="tiny" text-anchor="middle"><tspan x="355" y="365">baseline evidence</tspan></text>
+<line x1="405" y1="265" x2="520" y2="265" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<circle cx="570" cy="265" r="46" fill="#6C5B9A"/>
+<text x="570" y="274" class="white" text-anchor="middle"><tspan x="570" y="274">A</tspan></text>
+<text x="570" y="335" class="h" text-anchor="middle"><tspan x="570" y="335">Analyze</tspan></text>
+<text x="570" y="365" class="tiny" text-anchor="middle"><tspan x="570" y="365">root cause</tspan></text>
+<line x1="620" y1="265" x2="735" y2="265" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<circle cx="785" cy="265" r="46" fill="#2F7D65"/>
+<text x="785" y="274" class="white" text-anchor="middle"><tspan x="785" y="274">I</tspan></text>
+<text x="785" y="335" class="h" text-anchor="middle"><tspan x="785" y="335">Improve</tspan></text>
+<text x="785" y="365" class="tiny" text-anchor="middle"><tspan x="785" y="365">test countermeasure</tspan></text>
+<line x1="835" y1="265" x2="950" y2="265" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<circle cx="1000" cy="265" r="46" fill="#C98516"/>
+<text x="1000" y="274" class="white" text-anchor="middle"><tspan x="1000" y="274">C</tspan></text>
+<text x="1000" y="335" class="h" text-anchor="middle"><tspan x="1000" y="335">Control</tspan></text>
+<text x="1000" y="365" class="tiny" text-anchor="middle"><tspan x="1000" y="365">sustain + trigger</tspan></text>
+<rect x="170" y="475" width="360" height="100" rx="14" fill="#FCE9EB" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="170" y="475" width="8" height="100" rx="14" fill="#B84A52" opacity="1"/>
+<text x="192" y="506" class="h" text-anchor="start"><tspan x="192" y="506">Baseline</tspan></text>
+<text x="192" y="535" class="small" text-anchor="start"><tspan x="192" y="535">4.8% false-failure rate</tspan></text>
+<rect x="670" y="475" width="360" height="100" rx="14" fill="#E8F5EF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="670" y="475" width="8" height="100" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="692" y="506" class="h" text-anchor="start"><tspan x="692" y="506">Post-change</tspan></text>
+<text x="692" y="535" class="small" text-anchor="start"><tspan x="692" y="535">false-failure rate 1.6%</tspan></text>
+<text x="600" y="625" class="small" text-anchor="middle"><tspan x="600" y="625">Control is part of the method; improvement is not complete at implementation.</tspan></text>
+</svg>

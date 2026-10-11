@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Metrics, KPIs, and Performance Architecture</title><desc id="desc">Original decision visual for metrics, kpis, and performance architecture, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Metrics, KPIs, and Performance Architecture</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for metrics, kpis, and performance architecture, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<rect x="45" y="250" width="165" height="105" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="45" y="250" width="8" height="105" rx="14" fill="#6C5B9A" opacity="1"/>
+<text x="67" y="281" class="h" text-anchor="start"><tspan x="67" y="281">Strategy</tspan></text>
+<text x="67" y="310" class="small" text-anchor="start"><tspan x="67" y="310">what matters</tspan></text>
+<line x1="210" y1="302" x2="235" y2="302" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="235" y="250" width="165" height="105" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="235" y="250" width="8" height="105" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="257" y="281" class="h" text-anchor="start"><tspan x="257" y="281">Objective</tspan></text>
+<text x="257" y="310" class="small" text-anchor="start"><tspan x="257" y="310">desired outcome</tspan></text>
+<line x1="400" y1="302" x2="425" y2="302" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="425" y="250" width="165" height="105" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="425" y="250" width="8" height="105" rx="14" fill="#0B7189" opacity="1"/>
+<text x="447" y="281" class="h" text-anchor="start"><tspan x="447" y="281">Metric</tspan></text>
+<text x="447" y="310" class="small" text-anchor="start"><tspan x="447" y="310">how measured</tspan></text>
+<line x1="590" y1="302" x2="615" y2="302" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="615" y="250" width="165" height="105" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="615" y="250" width="8" height="105" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="637" y="281" class="h" text-anchor="start"><tspan x="637" y="281">Target</tspan></text>
+<text x="637" y="310" class="small" text-anchor="start"><tspan x="637" y="310">acceptable level</tspan></text>
+<line x1="780" y1="302" x2="805" y2="302" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="805" y="250" width="165" height="105" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="805" y="250" width="8" height="105" rx="14" fill="#C98516" opacity="1"/>
+<text x="827" y="281" class="h" text-anchor="start"><tspan x="827" y="281">Trigger</tspan></text>
+<text x="827" y="310" class="small" text-anchor="start"><tspan x="827" y="310">when to act</tspan></text>
+<line x1="970" y1="302" x2="995" y2="302" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<rect x="995" y="250" width="165" height="105" rx="14" fill="#FFFFFF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="995" y="250" width="8" height="105" rx="14" fill="#B84A52" opacity="1"/>
+<text x="1017" y="281" class="h" text-anchor="start"><tspan x="1017" y="281">Action</tspan></text>
+<text x="1017" y="310" class="small" text-anchor="start"><tspan x="1017" y="310">owner response</tspan></text>
+<rect x="270" y="465" width="660" height="95" rx="14" fill="#EAF4F8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="270" y="465" width="8" height="95" rx="14" fill="#0B7189" opacity="1"/>
+<text x="292" y="496" class="h" text-anchor="start"><tspan x="292" y="496">Design rule</tspan></text>
+<text x="292" y="525" class="small" text-anchor="start"><tspan x="292" y="525">A KPI without an owner, definition, target, and action trigger is only</tspan><tspan x="292" y="543">a number.</tspan></text>
+</svg>

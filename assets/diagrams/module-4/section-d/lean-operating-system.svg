@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Lean Operating System: House of Toyota, VSM, Kaizen, 5S, Setup Reduction, TPM, Muda/Mura/Muri</title><desc id="desc">Original decision visual for lean operating system: house of toyota, vsm, kaizen, 5s, setup reduction, tpm, muda/mura/muri, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="titleXs" text-anchor="start"><tspan x="55" y="82">Lean Operating System: House of Toyota, VSM, Kaizen, 5S, Setup Reduction, TPM, Muda/Mura/Muri</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for lean operating system: house of toyota, vsm, kaizen, 5s, setup reduction, tpm, muda/mura/muri, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Lean operating system: practices reinforce one another</tspan></text>
+<rect x="240.0" y="205" width="720" height="68" rx="8" fill="#E8F5EF" stroke="#FFFFFF" stroke-width="2" opacity="1"/>
+<text x="265.0" y="234" class="h" text-anchor="start"><tspan x="265.0" y="234">Customer value</tspan></text>
+<text x="935.0" y="234" class="small" text-anchor="end"><tspan x="935.0" y="234">quality · short lead time · stable delivery</tspan></text>
+<rect x="200.0" y="287" width="800" height="68" rx="8" fill="#EAF4F8" stroke="#FFFFFF" stroke-width="2" opacity="1"/>
+<text x="225.0" y="316" class="h" text-anchor="start"><tspan x="225.0" y="316">Flow + pull</tspan></text>
+<text x="975.0" y="316" class="small" text-anchor="end"><tspan x="975.0" y="316">JIT · visual signals · small batches</tspan></text>
+<rect x="160.0" y="369" width="880" height="68" rx="8" fill="#FFF4D8" stroke="#FFFFFF" stroke-width="2" opacity="1"/>
+<text x="185.0" y="398" class="h" text-anchor="start"><tspan x="185.0" y="398">Built-in quality</tspan></text>
+<text x="1015.0" y="398" class="small" text-anchor="end"><tspan x="1015.0" y="398">stop and solve · standard work</tspan></text>
+<rect x="120.0" y="451" width="960" height="68" rx="8" fill="#F1EEFA" stroke="#FFFFFF" stroke-width="2" opacity="1"/>
+<text x="145.0" y="480" class="h" text-anchor="start"><tspan x="145.0" y="480">Improvement practices</tspan></text>
+<text x="1055.0" y="480" class="small" text-anchor="end"><tspan x="1055.0" y="480">VSM · kaizen · setup reduction · 5S · TPM</tspan></text>
+<rect x="80.0" y="533" width="1040" height="68" rx="8" fill="#EDF2F6" stroke="#FFFFFF" stroke-width="2" opacity="1"/>
+<text x="105.0" y="562" class="h" text-anchor="start"><tspan x="105.0" y="562">Stability foundation</tspan></text>
+<text x="1095.0" y="562" class="small" text-anchor="end"><tspan x="1095.0" y="562">leveled work · reliable equipment · capable people</tspan></text>
+<text x="600" y="655" class="small" text-anchor="middle"><tspan x="600" y="655">Muda, mura, and muri are treated as system conditions—not isolated worker problems.</tspan></text>
+</svg>

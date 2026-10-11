@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Basic Quality Tools II: Pareto and Cause-and-Effect</title><desc id="desc">Original decision visual for basic quality tools ii: pareto and cause-and-effect, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Basic Quality Tools II: Pareto and Cause-and-Effect</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for basic quality tools ii: pareto and cause-and-effect, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<text x="55" y="150" class="h" text-anchor="start"><tspan x="55" y="150">Pareto prioritizes the “vital few”; cause-and-effect structures the investigation</tspan></text>
+<rect x="70" y="270.0" width="70" height="230.0" rx="4" fill="#3A7CA5" opacity="1"/>
+<text x="105" y="520" class="tiny" text-anchor="middle"><tspan x="105" y="520">Loose</tspan></text>
+<text x="105" y="260.0" class="tiny" text-anchor="middle"><tspan x="105" y="260.0">24</tspan></text>
+<rect x="175" y="327.5" width="70" height="172.5" rx="4" fill="#3A7CA5" opacity="1"/>
+<text x="210" y="520" class="tiny" text-anchor="middle"><tspan x="210" y="520">Burn-in</tspan></text>
+<text x="210" y="317.5" class="tiny" text-anchor="middle"><tspan x="210" y="317.5">18</tspan></text>
+<rect x="280" y="394.58333333333337" width="70" height="105.41666666666666" rx="4" fill="#3A7CA5" opacity="1"/>
+<text x="315" y="520" class="tiny" text-anchor="middle"><tspan x="315" y="520">Label</tspan></text>
+<text x="315" y="384.58333333333337" class="tiny" text-anchor="middle"><tspan x="315" y="384.58333333333337">11</tspan></text>
+<rect x="385" y="423.33333333333337" width="70" height="76.66666666666666" rx="4" fill="#3A7CA5" opacity="1"/>
+<text x="420" y="520" class="tiny" text-anchor="middle"><tspan x="420" y="520">Housing</tspan></text>
+<text x="420" y="413.33333333333337" class="tiny" text-anchor="middle"><tspan x="420" y="413.33333333333337">8</tspan></text>
+<rect x="490" y="452.0833333333333" width="70" height="47.91666666666667" rx="4" fill="#3A7CA5" opacity="1"/>
+<text x="525" y="520" class="tiny" text-anchor="middle"><tspan x="525" y="520">Other</tspan></text>
+<text x="525" y="442.0833333333333" class="tiny" text-anchor="middle"><tspan x="525" y="442.0833333333333">5</tspan></text>
+<line x1="650" y1="360" x2="1090" y2="360" stroke="#0B7189" stroke-width="4"/>
+<polygon points="1090,350 1120,360 1090,370" fill="#0B7189"/>
+<line x1="720" y1="360" x2="665" y2="285" stroke="#5B7184" stroke-width="2"/>
+<text x="660" y="277" class="small" text-anchor="end"><tspan x="660" y="277">Method</tspan></text>
+<line x1="820" y1="360" x2="765" y2="435" stroke="#5B7184" stroke-width="2"/>
+<text x="760" y="427" class="small" text-anchor="end"><tspan x="760" y="427">Machine</tspan></text>
+<line x1="900" y1="360" x2="845" y2="285" stroke="#5B7184" stroke-width="2"/>
+<text x="840" y="277" class="small" text-anchor="end"><tspan x="840" y="277">Material</tspan></text>
+<line x1="1000" y1="360" x2="945" y2="435" stroke="#5B7184" stroke-width="2"/>
+<text x="940" y="427" class="small" text-anchor="end"><tspan x="940" y="427">People</tspan></text>
+<text x="870" y="550" class="small" text-anchor="middle"><tspan x="870" y="550">Use data to choose the problem; use structured causes to test why it happens.</tspan></text>
+</svg>

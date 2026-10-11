@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Continuous Improvement Model, Initiatives, and People</title><desc id="desc">Original decision visual for continuous improvement model, initiatives, and people, using fictional Pinehaven Motion Systems data where applicable.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFD"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B7184"/></marker>
+<marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0B7189"/></marker>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}.title{font-size:30px;font-weight:700;fill:#102A43}.titleSm{font-size:23px;font-weight:700;fill:#102A43}.titleXs{font-size:19px;font-weight:700;fill:#102A43}.subtitleSm{font-size:12px;fill:#5B7184}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.1px;fill:#0B7189}.subtitle{font-size:16px;fill:#5B7184}.h{font-size:20px;font-weight:700;fill:#17324D}.body{font-size:16px;fill:#17324D}.small{font-size:13px;fill:#5B7184}.tiny{font-size:11px;fill:#5B7184}.metric{font-size:26px;font-weight:700;fill:#0B7189}.white{fill:#fff}.axis{stroke:#5B7184;stroke-width:2}.grid{stroke:#D4E0E8;stroke-width:1}.arrow{stroke:#5B7184;stroke-width:3;fill:none;marker-end:url(#arrow)}.arrowt{stroke:#0B7189;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+</style>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<text x="55" y="42" class="eyebrow" text-anchor="start"><tspan x="55" y="42">MODULE 4 · INTERNAL OPERATIONS &amp; INVENTORY</tspan></text>
+<text x="55" y="82" class="title" text-anchor="start"><tspan x="55" y="82">Continuous Improvement Model, Initiatives, and People</tspan></text>
+<text x="55" y="111" class="subtitleSm" text-anchor="start"><tspan x="55" y="111">Original decision visual for continuous improvement model, initiatives, and people, using fictional Pinehaven Motion Systems data where applicable.</tspan></text>
+<rect x="485" y="142" width="230" height="96" rx="14" fill="#EAF4F8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="485" y="142" width="8" height="96" rx="14" fill="#3A7CA5" opacity="1"/>
+<text x="507" y="173" class="h" text-anchor="start"><tspan x="507" y="173">1 · Analyze</tspan></text>
+<text x="507" y="202" class="small" text-anchor="start"><tspan x="507" y="202">make work visible</tspan></text>
+<rect x="765" y="312" width="230" height="96" rx="14" fill="#E8F5EF" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="765" y="312" width="8" height="96" rx="14" fill="#2F7D65" opacity="1"/>
+<text x="787" y="343" class="h" text-anchor="start"><tspan x="787" y="343">2 · Assess</tspan></text>
+<text x="787" y="372" class="small" text-anchor="start"><tspan x="787" y="372">measure against goals</tspan></text>
+<rect x="485" y="487" width="230" height="96" rx="14" fill="#FFF4D8" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="485" y="487" width="8" height="96" rx="14" fill="#C98516" opacity="1"/>
+<text x="507" y="518" class="h" text-anchor="start"><tspan x="507" y="518">3 · Plan</tspan></text>
+<text x="507" y="547" class="small" text-anchor="start"><tspan x="507" y="547">design change + ownership</tspan></text>
+<rect x="205" y="312" width="230" height="96" rx="14" fill="#F1EEFA" stroke="#D4E0E8" stroke-width="1" opacity="1"/>
+<rect x="205" y="312" width="8" height="96" rx="14" fill="#6C5B9A" opacity="1"/>
+<text x="227" y="343" class="h" text-anchor="start"><tspan x="227" y="343">4 · Implement</tspan></text>
+<text x="227" y="372" class="small" text-anchor="start"><tspan x="227" y="372">control + learn</tspan></text>
+<line x1="640" y1="190" x2="820" y2="360" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<line x1="840" y1="360" x2="660" y2="535" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<line x1="560" y1="535" x2="380" y2="360" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<line x1="360" y1="360" x2="540" y2="190" stroke="#0B7189" stroke-width="3" marker-end="url(#arrowTeal)"/>
+<circle cx="600" cy="360" r="78" fill="#FFFFFF" stroke="#0B7189" stroke-width="2"/>
+<text x="600" y="352" class="h" text-anchor="middle"><tspan x="600" y="352">PEOPLE</tspan></text>
+<text x="600" y="381" class="small" text-anchor="middle"><tspan x="600" y="381">own the change</tspan></text>
+</svg>
