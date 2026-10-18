@@ -101,9 +101,9 @@ A **strategic alliance** is a relationship characterized by shared objectives, i
 
 A. Two executives have a strong personal relationship
 
-B. Shared governance, cross-functional processes, decision rights, and measures continue even when individuals change
+B. The supplier gives the buyer a discount
 
-C. The supplier gives the buyer a discount
+C. Shared governance, cross-functional processes, decision rights, and measures continue even when individuals change
 
 D. The alliance uses the same ERP vendor
 
@@ -112,7 +112,7 @@ D. The alliance uses the same ERP vendor
 
 ### Correct answer
 
-**B. Shared governance, cross-functional processes, decision rights, and measures continue even when individuals change**
+**C. Shared governance, cross-functional processes, decision rights, and measures continue even when individuals change**
 
 ### Why it is correct
 
@@ -122,7 +122,7 @@ Institutionalization embeds the alliance in organizational routines and governan
 
 - **A.** Personal trust can help but creates key-person dependency if not embedded.
 
-- **C.** A discount is a commercial term, not evidence of alliance institutionalization.
+- **B.** A discount is a commercial term, not evidence of alliance institutionalization.
 
 - **D.** Common technology may help integration but does not create shared governance or commitment.
 

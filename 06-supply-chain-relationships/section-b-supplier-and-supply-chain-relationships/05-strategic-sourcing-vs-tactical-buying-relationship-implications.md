@@ -102,9 +102,9 @@ Use a **relationship consequence matrix** with four rows: information sharing, c
 
 A. More invoices per month
 
-B. Broader cross-functional contact, information sharing, and total-outcome governance where the supply need justifies it
+B. A requirement that the supplier always be sole source
 
-C. A requirement that the supplier always be sole source
+C. Broader cross-functional contact, information sharing, and total-outcome governance where the supply need justifies it
 
 D. Elimination of formal performance measures
 
@@ -113,7 +113,7 @@ D. Elimination of formal performance measures
 
 ### Correct answer
 
-**B. Broader cross-functional contact, information sharing, and total-outcome governance where the supply need justifies it**
+**C. Broader cross-functional contact, information sharing, and total-outcome governance where the supply need justifies it**
 
 ### Why it is correct
 
@@ -123,7 +123,7 @@ Strategic relationships usually require deeper coordination because the supply h
 
 - **A.** Transaction volume does not determine strategic relationship depth.
 
-- **C.** Strategic relationships can use single, sole, or multisourcing depending on the situation.
+- **B.** Strategic relationships can use single, sole, or multisourcing depending on the situation.
 
 - **D.** Performance governance usually becomes more important, not less.
 

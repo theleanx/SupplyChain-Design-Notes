@@ -111,18 +111,18 @@ The artifact should also document the **reason for the segment**, not only the s
 
 A. Annual spend alone
 
-B. The combined dependency, customization, risk, and relationship requirements
+B. Whether the buyer used a competitive bid
 
 C. The supplier’s preference for fewer meetings
 
-D. Whether the buyer used a competitive bid
+D. The combined dependency, customization, risk, and relationship requirements
 
 <details>
 <summary>Answer and rationale</summary>
 
 ### Correct answer
 
-**B. The combined dependency, customization, risk, and relationship requirements**
+**D. The combined dependency, customization, risk, and relationship requirements**
 
 ### Why it is correct
 
@@ -134,7 +134,7 @@ Ongoing relationship intensity should reflect how difficult the supplier is to r
 
 - **C.** Supplier preference matters for designing interaction, but it does not erase the governance need.
 
-- **D.** The sourcing method does not determine post-award relationship intensity by itself.
+- **B.** The sourcing method does not determine post-award relationship intensity by itself.
 
 </details>
 

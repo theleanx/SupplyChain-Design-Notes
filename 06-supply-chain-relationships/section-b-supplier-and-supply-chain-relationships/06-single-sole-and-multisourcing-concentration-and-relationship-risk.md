@@ -108,18 +108,18 @@ The register should connect each exposure to an owner, continuity action, suppli
 
 A. Sole source
 
-B. Single source
+B. Joint venture
 
 C. Multisource
 
-D. Joint venture
+D. Single source
 
 <details>
 <summary>Answer and rationale</summary>
 
 ### Correct answer
 
-**B. Single source**
+**D. Single source**
 
 ### Why it is correct
 
@@ -131,7 +131,7 @@ Single sourcing is a deliberate decision to place the business with one supplier
 
 - **C.** Multisourcing uses more than one independent supplier.
 
-- **D.** A joint venture is a separate collaboration/ownership structure, not a sourcing-concentration label.
+- **B.** A joint venture is a separate collaboration/ownership structure, not a sourcing-concentration label.
 
 </details>
 

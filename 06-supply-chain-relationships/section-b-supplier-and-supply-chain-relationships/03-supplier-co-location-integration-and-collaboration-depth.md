@@ -98,9 +98,9 @@ Use an **integration-depth decision record** with: problem to solve, proposed de
 
 **Question.** What is the strongest justification for co-locating a supplier technical expert with ClearSpan?
 
-A. The supplier wants office space
+A. The relationship has frequent high-value coordination delays that proximity can measurably reduce
 
-B. The relationship has frequent high-value coordination delays that proximity can measurably reduce
+B. The supplier wants office space
 
 C. All strategic suppliers should be treated identically
 
@@ -111,7 +111,7 @@ D. Co-location eliminates the need for confidentiality controls
 
 ### Correct answer
 
-**B. The relationship has frequent high-value coordination delays that proximity can measurably reduce**
+**A. The relationship has frequent high-value coordination delays that proximity can measurably reduce**
 
 ### Why it is correct
 
@@ -119,7 +119,7 @@ Co-location is justified when the value of faster, richer coordination exceeds t
 
 ### Why the other answers are wrong
 
-- **A.** Supplier convenience is not sufficient business justification.
+- **B.** Supplier convenience is not sufficient business justification.
 
 - **C.** Strategic suppliers can require different relationship designs depending on the problem being solved.
 

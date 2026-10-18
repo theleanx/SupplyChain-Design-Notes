@@ -111,18 +111,18 @@ The score that selected the alliance is not reused as a permanent performance me
 
 A. Ignore the relationship signals because financial targets are being met
 
-B. Use the pulse check to diagnose and correct the governance problem before business results deteriorate
+B. Add more weighted selection criteria to the original supplier score
 
 C. Terminate the alliance immediately without review
 
-D. Add more weighted selection criteria to the original supplier score
+D. Use the pulse check to diagnose and correct the governance problem before business results deteriorate
 
 <details>
 <summary>Answer and rationale</summary>
 
 ### Correct answer
 
-**B. Use the pulse check to diagnose and correct the governance problem before business results deteriorate**
+**D. Use the pulse check to diagnose and correct the governance problem before business results deteriorate**
 
 ### Why it is correct
 
@@ -134,7 +134,7 @@ Relationship health is an early indicator. Alliance governance should act before
 
 - **C.** Immediate termination may be disproportionate when the governance issue can be corrected.
 
-- **D.** The original selection score does not manage the live relationship.
+- **B.** The original selection score does not manage the live relationship.
 
 </details>
 

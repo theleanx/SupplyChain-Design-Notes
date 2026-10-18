@@ -102,9 +102,9 @@ A **contact model** describes who interacts with whom and for what purpose. A **
 
 **Question.** What is the main governance risk when a strategic alliance adds many direct functional contacts?
 
-A. The supplier will automatically become sole source
+A. Different contacts can make inconsistent commitments unless decision rights and escalation are defined
 
-B. Different contacts can make inconsistent commitments unless decision rights and escalation are defined
+B. The supplier will automatically become sole source
 
 C. Invoices can no longer be processed
 
@@ -115,7 +115,7 @@ D. Performance measures become unnecessary
 
 ### Correct answer
 
-**B. Different contacts can make inconsistent commitments unless decision rights and escalation are defined**
+**A. Different contacts can make inconsistent commitments unless decision rights and escalation are defined**
 
 ### Why it is correct
 
@@ -123,7 +123,7 @@ A multi-function alliance gains speed and knowledge from direct contact but requ
 
 ### Why the other answers are wrong
 
-- **A.** Contact breadth does not determine sourcing concentration.
+- **B.** Contact breadth does not determine sourcing concentration.
 
 - **C.** Routine transaction processes can continue within an alliance.
 

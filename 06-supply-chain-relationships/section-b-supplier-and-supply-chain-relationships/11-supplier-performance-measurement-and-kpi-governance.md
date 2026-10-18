@@ -109,9 +109,9 @@ A **supplier-selection scorecard** evaluates candidates before or during award. 
 
 **Question.** BlueMesa has excellent technology integration but weak delivery, quality, and corrective-action closure. What should ClearSpan do?
 
-A. Ignore the weak measures because technology is strategic
+A. Review the component gaps and drive remediation; do not let one strong factor hide relationship risk
 
-B. Review the component gaps and drive remediation; do not let one strong factor hide relationship risk
+B. Ignore the weak measures because technology is strategic
 
 C. Replace the supplier solely because its weighted score is below 80
 
@@ -122,7 +122,7 @@ D. Increase the technology weight until the total score becomes acceptable
 
 ### Correct answer
 
-**B. Review the component gaps and drive remediation; do not let one strong factor hide relationship risk**
+**A. Review the component gaps and drive remediation; do not let one strong factor hide relationship risk**
 
 ### Why it is correct
 
@@ -130,7 +130,7 @@ The purpose of the scorecard is diagnosis and relationship action. A strong comp
 
 ### Why the other answers are wrong
 
-- **A.** Technology capability does not remove delivery and quality risk.
+- **B.** Technology capability does not remove delivery and quality risk.
 
 - **C.** A score alone should not trigger replacement without considering dependency, corrective potential, and other controls.
 

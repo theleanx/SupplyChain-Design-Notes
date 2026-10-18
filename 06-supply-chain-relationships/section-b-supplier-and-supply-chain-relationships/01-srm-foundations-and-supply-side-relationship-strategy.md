@@ -100,9 +100,9 @@ The artifact is an **SRM charter**: supplier role, relationship objective, gover
 
 A. A packaging supplier with six alternatives and 14-day lead time
 
-B. A control-board supplier with no qualified alternate, high criticality, high customization, and 112-day lead time
+B. A routine supplier solely because it sends the most invoices
 
-C. A routine supplier solely because it sends the most invoices
+C. A control-board supplier with no qualified alternate, high criticality, high customization, and 112-day lead time
 
 D. Any supplier that agrees to use the buyer’s portal
 
@@ -111,7 +111,7 @@ D. Any supplier that agrees to use the buyer’s portal
 
 ### Correct answer
 
-**B. A control-board supplier with no qualified alternate, high criticality, high customization, and 112-day lead time**
+**C. A control-board supplier with no qualified alternate, high criticality, high customization, and 112-day lead time**
 
 ### Why it is correct
 
@@ -121,7 +121,7 @@ Dependency, criticality, customization, and long recovery/switching characterist
 
 - **A.** This profile supports a more transactional relationship unless other evidence changes.
 
-- **C.** Transaction volume alone does not define strategic relationship need.
+- **B.** Transaction volume alone does not define strategic relationship need.
 
 - **D.** Technology adoption is an enabler, not proof that a deeper relationship is justified.
 
