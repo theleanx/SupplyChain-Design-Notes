@@ -2,6 +2,24 @@
 
 Significant public improvements to this repository are recorded here.
 
+## Version 5.0.1 — Modules 1–5 alignment
+
+Release target: 2026-10-18
+
+### Cross-module alignment
+
+- Harmonizes all five module overviews around the same learning outcomes, module path, resources, cross-module handoffs, lesson-structure, and snapshot contract.
+- Harmonizes all twenty section overviews around the same learning outcomes, learning path, working data/visuals, and study-guidance contract while preserving section-specific freshness controls.
+- Adds missing Module 1 dataset indexing and calculation-folder indexes for Modules 4 and 5, and expands the Module 2 dataset index.
+- Corrects the Module 5 overview from staging language to published v5.0.0 status.
+
+### Durable quality controls
+
+- Extends repository validation so all 290 topic lessons must include the shared plain-English concept and common-confusion elements in addition to the existing lesson contract.
+- Unifies retained-evidence and applied-decision/worked-calculation checks across Modules 1–5 without forcing identical presentation.
+- Adds automated module/section overview checks, resource-index checks, and minimum section-review completion gates.
+- Keeps presentation flexible where the quality standard explicitly calls for topic-appropriate rather than identical visuals and flows.
+
 ## Version 5.0.0 — Module 5
 
 Release target: 2026-10-18

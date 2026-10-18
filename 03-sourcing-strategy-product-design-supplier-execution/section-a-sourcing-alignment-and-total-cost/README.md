@@ -1,6 +1,16 @@
 # Section A: Sourcing Alignment and Total Cost
 
-This section develops a sourcing decision brief comparing make, buy, location, transition risk, requirements, total cost, and should-cost evidence.
+Section A develops a sourcing decision brief for fictional **Rivermark Climate Systems**, comparing make, buy, location, transition risk, requirements, total cost, and should-cost evidence.
+
+## Learning outcomes
+
+After completing Section A, you should be able to:
+
+- translate demand and strategy into sourcing requirements and timing;
+- define the core-capability boundary before selecting make, buy, outsource, offshore, or nearshore options;
+- evaluate transition risk and knowledge-retention controls;
+- build landed-cost and total-cost comparisons with explicit horizons and assumptions; and
+- use should-cost evidence to challenge economics without substituting an estimate for a supplier decision.
 
 ## Learning path
 
@@ -13,6 +23,18 @@ This section develops a sourcing decision brief comparing make, buy, location, t
 7. [Should-Cost and the Sourcing Business Case](./07-should-cost-and-business-case.md)
 8. [Section A review](./08-section-a-review.md)
 
-## Section deliverable
+## Working data and visuals
 
-By the end of this section, you should be able to prepare a sourcing decision brief comparing make, buy, location, transition risk, requirements, total cost, and should-cost evidence.
+- [`make-buy-options.csv`](../../assets/data/module-3/section-a/make-buy-options.csv)
+- [`total-cost-options.csv`](../../assets/data/module-3/section-a/total-cost-options.csv)
+- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+
+Every topic includes a Rivermark decision model, an operational flow where appropriate, and an auditable decision artifact or calculation.
+
+## How to study the section
+
+Keep capability, transition, risk, and economics in the same decision record. Apply hard feasibility and strategic gates before comparing cost, and retain the horizon and assumptions used in every calculation.
+
+---
+
+[Start Section A](./01-strategic-sourcing-from-demand.md)

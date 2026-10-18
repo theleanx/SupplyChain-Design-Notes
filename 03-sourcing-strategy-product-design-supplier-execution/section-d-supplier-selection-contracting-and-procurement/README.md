@@ -1,6 +1,17 @@
 # Section D: Supplier Selection, Contracting, and Procurement
 
-This section develops an auditable supplier award and operating-control package spanning negotiation, contracting, ordering, receipt, settlement, exceptions, and digital procurement.
+Section D develops an auditable supplier-award and operating-control package for fictional **Rivermark Climate Systems**, spanning negotiation, contracting, ordering, receipt, settlement, exceptions, and digital procurement.
+
+## Learning outcomes
+
+After completing Section D, you should be able to:
+
+- choose an appropriate supplier-selection route and define weighted criteria with mandatory gates;
+- distinguish competitive bidding from direct negotiation and use principled negotiation/BATNA correctly;
+- translate negotiated commitments into contract obligations, terms, service levels, incentives, and evidence;
+- understand how contract type, payment structure, trade finance, and currency exposure allocate risk;
+- connect purchase orders, receipts, invoices, three-way match, and exception management; and
+- use digital procurement and marketplaces without weakening governance or auditability.
 
 ## Learning path
 
@@ -18,6 +29,20 @@ This section develops an auditable supplier award and operating-control package 
 12. [Digital Procurement, Marketplaces, and Auctions](./12-digital-procurement-marketplaces-and-auctions.md)
 13. [Section D review](./13-section-d-review.md)
 
-## Section deliverable
+## Working data and visuals
 
-By the end of this section, you should be able to prepare an auditable supplier award and operating-control package spanning negotiation, contracting, ordering, receipt, settlement, exceptions, and digital procurement.
+- [`supplier-evaluation.csv`](../../assets/data/module-3/section-d/supplier-evaluation.csv)
+- [`contract-obligations.csv`](../../assets/data/module-3/section-d/contract-obligations.csv)
+- [`three-way-match.csv`](../../assets/data/module-3/section-d/three-way-match.csv)
+- [`open-order-exceptions.csv`](../../assets/data/module-3/section-d/open-order-exceptions.csv)
+- [Sourcing and procurement formula sheet](../../calculations/sourcing-procurement/formula-sheet.md)
+
+The section uses scorecards, stage gates, contract-control records, transaction evidence, and exception flows to connect award logic with day-to-day execution.
+
+## How to study the section
+
+Follow one supplier from sourcing route through evaluation, negotiation, contract deployment, ordering, receipt, payment, and exception handling. At each handoff, identify the obligation, evidence owner, control, and escalation trigger.
+
+---
+
+[Start Section D](./01-purchasing-flow-and-selection-routes.md)

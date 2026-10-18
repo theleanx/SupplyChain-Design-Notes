@@ -1,6 +1,6 @@
 # Module 5: Forward and Reverse Logistics
 
-> **Status:** Integration-complete and release-audited for staging. Sections A–D, HarborPeak datasets, calculations, original visuals, section reviews, and the integrated capstone follow the repository's shared learning contract. Regulatory material is framed with explicit freshness controls.
+> **Status:** Complete, release-audited, and published in v5.0.0. Sections A–D, HarborPeak datasets, calculations, original visuals, section reviews, and the integrated capstone follow the repository's shared learning contract. Regulatory material is framed with explicit freshness controls.
 
 Module 5 follows fictional **HarborPeak Equipment Systems**, a manufacturer of connected commercial power tools, battery packs, controllers, accessories, and service parts. The module connects the forward movement of goods with the decisions that make that movement economically and operationally viable: logistics strategy, warehousing, materials handling, fulfillment, transportation, cross-border trade, returns, recovery, and waste management.
 

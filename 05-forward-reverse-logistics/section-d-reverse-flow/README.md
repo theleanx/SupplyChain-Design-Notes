@@ -21,11 +21,11 @@ All scenarios, values, questions, diagrams, and training classifications in this
 13. [Product Stewardship: WEEE, RoHS, and E-Waste Applicability](./13-product-stewardship-weee-rohs-and-e-waste.md)
 14. [Section D Review](./14-section-d-review.md)
 
-## What you should be able to do after Section D
+## Learning outcomes
 
 You should be able to design a reverse logistics operating model; gather reverse-flow requirements and convert them into a strategy and implementation plan; link return identity, status, cash, and disposition; calculate return rate and a transparent reverse-economics view; identify warranty coverage gaps; design an RMA policy; choose a reverse network and make/buy model; plan reverse logistics across the product life cycle; apply a gated disposition hierarchy; use reduce, reuse, recycle, recovery, and controlled disposal correctly; evaluate a waste-exchange business case; build hazardous-waste chain-of-custody controls; and maintain a product-stewardship applicability register for changing WEEE, RoHS, e-waste, and transboundary requirements.
 
-## Locked learning data
+## Working data and visuals
 
 Three original fictional datasets support the section:
 
@@ -33,9 +33,13 @@ Three original fictional datasets support the section:
 - [`reverse-cost-cases.csv`](../../assets/data/module-5/reverse-cost-cases.csv)
 - [`waste-disposition-cases.csv`](../../assets/data/module-5/waste-disposition-cases.csv)
 
-Training hazard/e-waste labels are **not legal classifications**. They exist only to teach decision and escalation logic.
+Training hazard/e-waste labels are **not legal classifications**. They exist only to teach decision and escalation logic. Each topic also includes an original reverse-flow decision visual, with process flow where appropriate.
 
-## Freshness rule for regulatory content
+## How to study the section
+
+Follow one returned product from authorization through receipt, triage, economics, disposition, custody, and final recovery or disposal. Apply safety, product-integrity, and regulatory gates before recovery-value ranking, and retain the evidence needed to explain every disposition.
+
+## Freshness checkpoint
 
 Waste and product-stewardship rules vary by jurisdiction and change over time. Before operational use, verify current hazardous-waste determination and movement rules, the current e-Manifest requirements where applicable, the current GHS revision adopted by the relevant jurisdiction, current WEEE/RoHS consolidated legislation and exemptions, national producer-responsibility implementation, and any Basel/national controls that apply to a transboundary waste movement.
 

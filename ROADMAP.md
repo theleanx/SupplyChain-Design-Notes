@@ -64,6 +64,7 @@ Future module folders will be published only when substantive content is ready.
 - [x] Internal operations and inventory calculations reference
 - [x] Logistics, trade, and reverse-flow calculations/control reference
 - [x] Five end-to-end case studies
+- [x] Shared module and section overview contract across Modules 1–5
 - [ ] Commonly confused concepts index
 - [ ] Framework library
 - [ ] Cumulative knowledge review

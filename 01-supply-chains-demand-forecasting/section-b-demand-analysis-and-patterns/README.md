@@ -7,6 +7,16 @@ The section is deliberately split between two horizons:
 - **Strategic demand analysis:** external environment, SWOT, market research, competition, global forces, portfolio fit, and economic conditions.
 - **Tactical/operational pattern analysis:** trend, seasonality, cycles, promotions, price sensitivity, and random variation.
 
+## Learning outcomes
+
+After completing Section B, you should be able to:
+
+- separate strategic demand drivers from short- and medium-term demand patterns;
+- use environmental scanning, SWOT, market research, competition, global context, and portfolio analysis to frame demand risk;
+- explain product-life-cycle and service implications for demand;
+- interpret macroeconomic, elasticity, and marginal-analysis signals without confusing correlation with a decision rule; and
+- distinguish trend, seasonality, cycles, promotions, and random variation when preparing demand-management and forecasting inputs.
+
 ## Learning path
 
 1. [Demand analysis and environmental scanning](01-demand-analysis-and-environmental-scan.md)
@@ -20,7 +30,7 @@ The section is deliberately split between two horizons:
 9. [Short- and medium-term demand patterns](08-short-medium-term-demand-patterns.md)
 10. [Section B review and original knowledge checks](09-section-b-review.md)
 
-## Section B visual set
+## Working data and visuals
 
 Section B uses 13 purpose-built instructional visual concepts implemented as original Mermaid diagrams, tables, matrices, and SVG illustrations. Third-party artwork is not included.
 
@@ -28,6 +38,14 @@ Section B uses 13 purpose-built instructional visual concepts implemented as ori
 
 Several examples use **NorthStar Industrial Systems**, a fictional manufacturer of industrial pumping equipment. Other examples deliberately use retail, food, healthcare, and consumer products so the concepts are not learned only through a manufacturing lens.
 
+## How to study the section
+
+Use the section in two passes: first identify the external and portfolio forces that can shift demand; then classify the pattern visible in the demand signal. Carry the resulting evidence into Section C rather than treating the forecast as a standalone number.
+
 ## Related concepts
 
 Section focus: **Module 1, Section B — Demand Analysis and Patterns**. The public wording, examples, knowledge checks, and visual compositions in this folder are independently created.
+
+---
+
+[Start Section B](./01-demand-analysis-and-environmental-scan.md)

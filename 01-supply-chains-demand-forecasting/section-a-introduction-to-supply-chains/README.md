@@ -2,7 +2,7 @@
 
 > **Status:** Complete. This section combines original explanations, examples, questions, and diagrams into a practitioner-oriented introduction to supply chains.
 
-## Learning objectives
+## Learning outcomes
 
 By the end of this section, you should be able to:
 
@@ -13,7 +13,7 @@ By the end of this section, you should be able to:
 - describe a five-stage supply-chain maturity model; and
 - recognize how manufacturing, service, and specialized supply chains can differ while still using the same core supply-chain logic.
 
-## Topics
+## Learning path
 
 1. [Supply chain fundamentals](01-supply-chain-fundamentals.md)
 2. [Entities and flows](02-entities-and-flows.md)
@@ -23,10 +23,12 @@ By the end of this section, you should be able to:
 6. [Manufacturing, service, and specialized supply chains](06-supply-chain-examples.md)
 7. [Section A review and original knowledge checks](07-section-a-review.md)
 
-## Visual approach
+## Working data and visuals
 
 The section uses twelve purpose-built visual concepts. GitHub-native Mermaid communicates flows and relationships, while tables and structured comparisons support decision-making.
 
-## Section scope
+## How to study the section
+
+Work through this section in sequence because its terminology and flow logic are prerequisites for later modules. For each lesson, identify the entities involved, trace the material/information/funds relationship, then connect the concept to the decision or maturity question being tested.
 
 This section establishes the terminology, system relationships, maturity concepts, and decision principles used throughout the remaining modules.

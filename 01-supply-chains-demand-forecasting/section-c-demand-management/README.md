@@ -6,6 +6,17 @@ The central idea is simple:
 
 > A forecast predicts. A demand plan commits. Demand management keeps demand and supply synchronized as conditions change.
 
+## Learning outcomes
+
+After completing Section C, you should be able to:
+
+- distinguish forecasting from demand planning and demand management;
+- assemble and govern a realistic demand plan from market, customer, product, and operational evidence;
+- design communication and review routines that surface assumptions and exceptions;
+- apply PDCA and the Four Ps to demand-influencing choices without losing planning discipline;
+- connect product life cycle, PLM, and new-product introduction to demand uncertainty; and
+- define the role of the demand manager and a decision-oriented demand-review dashboard.
+
 ## Learning path
 
 1. [Demand management foundations](01-demand-management-foundations.md)
@@ -19,7 +30,7 @@ The central idea is simple:
 9. [NPI frequency versus demand uncertainty](09-npi-frequency-and-demand-uncertainty.md)
 10. [Section C review and original knowledge checks](10-section-c-review.md)
 
-## Section C visual set
+## Working data and visuals
 
 Section C uses 13 purpose-built instructional visual concepts implemented through SVGs, Mermaid diagrams, tables, and decision frameworks.
 
@@ -43,6 +54,14 @@ The visual set includes:
 
 Several examples use **NorthStar Industrial Systems**, a fictional manufacturer of industrial pumping equipment. Other examples use healthcare, software, retail, airlines, and consumer goods so the learner sees how demand management changes by industry.
 
+## How to study the section
+
+Trace one demand assumption from market signal to plan, communication, review, intervention, and lifecycle update. Focus on what evidence changes the plan and who owns the decision instead of memorizing the frameworks independently.
+
 ## Related concepts
 
 Section focus: **Module 1, Section C — Demand Management**. Public wording, examples, numerical values, knowledge checks, and visual compositions in this folder are independently created.
+
+---
+
+[Start Section C](./01-demand-management-foundations.md)

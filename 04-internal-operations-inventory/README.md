@@ -1,6 +1,6 @@
 # Module 4: Internal Operations and Inventory
 
-> **Status:** Complete and release-audited. Sections A–D, the Pinehaven integrated capstone, calculations, datasets, and visuals meet the repository's shared content, process-flow, visual, calculation, assessment, navigation, and originality controls.
+> **Status:** Complete and release-audited. Sections A–D, the Pinehaven integrated capstone, calculations, datasets, and visuals meet the repository's shared lesson, assessment, navigation, calculation, visual, and originality controls.
 
 Module 4 turns supply-and-demand plans into executable internal operations. It follows fictional **Pinehaven Motion Systems**, a manufacturer of industrial servo-drive and controller assemblies, as planners translate aggregate intent into master schedules and material plans, verify capacity, set inventory policy and replenishment controls, protect traceability and accuracy, and improve operating performance through quality and continuous-improvement methods.
 

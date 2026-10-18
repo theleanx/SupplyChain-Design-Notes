@@ -1,6 +1,17 @@
 # Section B: Category Strategy and Supply-Base Design
 
-This section develops a governed category strategy with portfolio classification, supplier segmentation, market intelligence, and a justified target supply base.
+Section B develops a governed category strategy for fictional **Rivermark Climate Systems**, combining portfolio classification, supplier segmentation, market intelligence, relationship design, and a justified target supply base.
+
+## Learning outcomes
+
+After completing Section B, you should be able to:
+
+- govern a supply plan and translate spend into usable category architecture;
+- classify categories using business impact and supply-market risk;
+- evaluate supplier attractiveness and segment relationships accordingly;
+- combine spend analysis with supply-market intelligence;
+- select relationship models that match mutual dependence and value opportunity; and
+- right-size the supply base using resilience, concentration, capability, and governance evidence.
 
 ## Learning path
 
@@ -13,6 +24,18 @@ This section develops a governed category strategy with portfolio classification
 7. [Supply-Base Right-Sizing](./07-supply-base-right-sizing.md)
 8. [Section B review](./08-section-b-review.md)
 
-## Section deliverable
+## Working data and visuals
 
-By the end of this section, you should be able to prepare a governed category strategy with portfolio classification, supplier segmentation, market intelligence, and a justified target supply base.
+- [`category-spend.csv`](../../assets/data/module-3/section-b/category-spend.csv)
+- [`category-portfolio.csv`](../../assets/data/module-3/section-b/category-portfolio.csv)
+- [`supplier-shares.csv`](../../assets/data/module-3/section-b/supplier-shares.csv)
+
+The section uses portfolio matrices, segmentation views, concentration evidence, process flows, and decision artifacts to make category governance reproducible.
+
+## How to study the section
+
+Move from category definition to market risk, supplier position, relationship model, and target supply base in sequence. Avoid treating a spend value, portfolio quadrant, or supplier score as sufficient without the governance and market evidence behind it.
+
+---
+
+[Start Section B](./01-supply-plan-governance.md)

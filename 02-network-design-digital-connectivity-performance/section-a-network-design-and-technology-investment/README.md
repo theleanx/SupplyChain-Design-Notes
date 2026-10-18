@@ -1,6 +1,16 @@
 # Section A: Network Design and Technology Investment
 
-Section A turns strategy into network choices. It treats facilities, capacity, inventory, transportation, sourcing, information, and technology as an interdependent design system.
+Section A turns business strategy into network choices. It treats facilities, capacity, inventory, transportation, sourcing, information, and technology as an interdependent design system for fictional **AsterWorks Equipment**.
+
+## Learning outcomes
+
+After completing Section A, you should be able to:
+
+- translate customer and business strategy into explicit network-design requirements;
+- segment markets, products, and service needs before comparing configurations;
+- evaluate flow, footprint, sourcing, responsiveness, resilience, and information latency together;
+- build a technology business case using total cost, payback, ROI, risk, and capability evidence; and
+- define governance and a transformation roadmap rather than treating network design as a one-time optimization.
 
 ## Learning path
 
@@ -15,6 +25,18 @@ Section A turns strategy into network choices. It treats facilities, capacity, i
 9. [Governance, change, and network orchestration](09-governance-change-and-network-orchestration.md)
 10. [Section A review](10-section-a-review.md)
 
-## Section deliverable
+## Working data and visuals
 
-By the end of this section, you should be able to prepare a decision brief that states the required customer outcomes, compares network alternatives, identifies information requirements, and explains why a proposed investment creates value.
+- [`network-alternatives.csv`](../../assets/data/module-2/section-a/network-alternatives.csv) — network configuration, service, cost, and resilience comparison
+- [`technology-business-case.csv`](../../assets/data/module-2/section-a/technology-business-case.csv) — investment, benefit, payback, and risk evidence
+- [Network and performance formula sheet](../../calculations/network-performance/formula-sheet.md)
+
+The lessons combine AsterWorks examples, repository-native process flows, and topic-specific decision visuals.
+
+## How to study the section
+
+Build one design brief as you progress: define required customer outcomes, eliminate infeasible alternatives, compare network and technology economics, retain the evidence, and finish with governance and implementation conditions.
+
+---
+
+[Start Section A](./01-strategy-to-network-design.md)

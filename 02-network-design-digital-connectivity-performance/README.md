@@ -1,10 +1,10 @@
 # Module 2: Network Design, Digital Connectivity, and Performance
 
-> **Status:** Complete. Sections A–C meet the repository's shared content, process-flow, visual, calculation, example, assessment, navigation, and originality standards.
+> **Status:** Complete and release-audited. Sections A–C, the AsterWorks integrated capstone, calculations, datasets, visuals, assessments, navigation, and originality controls meet the repository's shared learning contract.
 
 Module 2 connects three decisions that are often managed separately: **how a supply network should be configured, how information should move through it, and how performance should be measured**.
 
-The module follows the fictional **AsterWorks Equipment** network. AsterWorks produces modular industrial water-treatment skids and replacement cartridges for customers in North America and Europe. Growth has exposed long lead times, fragmented applications, inconsistent master data, and metrics that reward local efficiency while customer performance deteriorates.
+The module follows fictional **AsterWorks Equipment**, which produces modular industrial water-treatment skids and replacement cartridges for customers in North America and Europe. Growth has exposed long lead times, fragmented applications, inconsistent master data, and metrics that reward local efficiency while customer performance deteriorates.
 
 ## Learning outcomes
 
@@ -24,34 +24,33 @@ After completing this module, you should be able to:
 1. [Section A — Network Design and Technology Investment](section-a-network-design-and-technology-investment/)
 2. [Section B — Connected Supply Networks and Master Data](section-b-connected-supply-networks-and-master-data/)
 3. [Section C — Performance Measurement and Financial Insight](section-c-performance-and-financial-insight/)
-4. [AsterWorks integrated capstone](capstone/)
+4. [AsterWorks integrated network-transformation capstone](capstone/)
 
-## How to use the module
+## Module resources
 
-Each topic uses the same decision-oriented pattern:
+- [Network and performance formula sheet](../calculations/network-performance/formula-sheet.md)
+- [Module 2 fictional datasets](../assets/data/module-2/README.md)
+- [Module 2 reference register](REFERENCES.md)
+- [Repository learning paths](../LEARNING-PATHS.md)
+- [Repository glossary](../GLOSSARY.md)
 
-1. plain-English concept;
-2. decision logic and trade-offs;
-3. original visual or process flow;
-4. an AsterWorks example;
-5. a calculation or structured decision tool when useful;
-6. common mistakes and practitioner guidance; and
-7. an original knowledge check.
+## Cross-module handoffs
 
-Use the [Module 2 reference register](REFERENCES.md) for authoritative public resources cited in selected topics. The examples, diagrams, datasets, and knowledge checks are independently created for this repository.
+Module 2 builds on the demand, service, forecasting, and planning context in [Module 1](../01-supply-chains-demand-forecasting/README.md). It hands network structure, digital-thread, data-governance, technology, performance, and financial requirements into [Module 3](../03-sourcing-strategy-product-design-supplier-execution/README.md), [Module 4](../04-internal-operations-inventory/README.md), and [Module 5](../05-forward-reverse-logistics/README.md).
 
-For quantitative review, use the [Module 2 formula sheet](../calculations/network-performance/formula-sheet.md).
+## How each lesson is structured
+
+Each topic moves from a plain-language concept to explicit business relevance, decision logic and evidence, a topic-appropriate visual and operational flow where needed, an AsterWorks example, and a reusable decision artifact or reproducible calculation. Lessons close with trade-offs, common confusion, failure modes, one original knowledge check with full rationale, practitioner perspective, related concepts, and sequential navigation.
 
 ## Module snapshot
 
-- 53 structured Markdown learning pages
-- Three completed sections and 43 topic lessons
-- 43 repository-native process flows and nine original SVG decision visuals
-- Nine original CSV datasets
-- 109 knowledge checks: 43 topic checks, 61 section-review checks, and five capstone checks
-- One integrated network-transformation capstone with a reproducible solution guide
-
-Module 2 builds on the demand and planning decisions in [Module 1](../01-supply-chains-demand-forecasting/README.md) and hands network, data, and partner requirements into [Module 3](../03-sourcing-strategy-product-design-supplier-execution/README.md).
+- **53** structured Markdown learning/reference pages
+- **3** completed sections and **43** topic lessons
+- **43** repository-native process flows and **9** original SVG decision visuals
+- **9** original CSV datasets
+- **109** independently authored knowledge checks: 43 topic checks, 61 section-review checks, and 5 capstone checks
+- **1** network/performance formula sheet
+- **1** integrated AsterWorks network-transformation capstone with a reproducible solution guide
 
 ## Module dataset map
 
@@ -66,3 +65,5 @@ Module 2 builds on the demand and planning decisions in [Module 1](../01-supply-
 | Working capital | [`working-capital.csv`](../assets/data/module-2/section-c/working-capital.csv) |
 | Supplier health | [`supplier-health.csv`](../assets/data/module-2/section-c/supplier-health.csv) |
 | Operations scorecard | [`operations-scorecard.csv`](../assets/data/module-2/section-c/operations-scorecard.csv) |
+
+The examples, diagrams, datasets, and knowledge checks are independently created for this repository.

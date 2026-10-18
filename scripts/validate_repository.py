@@ -82,11 +82,48 @@ SHARED_REQUIRED_HEADINGS = (
     "Why it matters",
     "Decision logic",
     "Trade-offs",
+    "Commonly confused with",
     "Common mistakes",
     "Original knowledge check",
     "Practitioner perspective",
     "Related concepts",
 )
+MODULE_OVERVIEW_REQUIRED_HEADINGS = (
+    "Learning outcomes",
+    "Module path",
+    "Module resources",
+    "Cross-module handoffs",
+    "How each lesson is structured",
+    "Module snapshot",
+)
+SECTION_OVERVIEW_REQUIRED_HEADINGS = (
+    "Learning outcomes",
+    "Learning path",
+    "Working data and visuals",
+    "How to study the section",
+)
+MODULE_RESOURCE_INDEXES = {
+    MODULE_1: (
+        ROOT / "assets/data/module-1/README.md",
+        ROOT / "calculations/forecasting/README.md",
+    ),
+    MODULE_2: (
+        ROOT / "assets/data/module-2/README.md",
+        ROOT / "calculations/network-performance/README.md",
+    ),
+    MODULE_3: (
+        ROOT / "assets/data/module-3/README.md",
+        ROOT / "calculations/sourcing-procurement/README.md",
+    ),
+    MODULE_4: (
+        ROOT / "assets/data/module-4/README.md",
+        ROOT / "calculations/internal-operations/README.md",
+    ),
+    MODULE_5: (
+        ROOT / "assets/data/module-5/README.md",
+        ROOT / "calculations/logistics-trade-reverse/README.md",
+    ),
+}
 MODULE_1_DATASET_LINKS = {
     "section-d-forecasting/04-seasonality-deseasonalizing-reseasonalizing.md": "northstar-seasonal-demand.csv",
     "section-d-forecasting/05-moving-averages-and-exponential-smoothing.md": "forecast-method-comparison.csv",
@@ -206,6 +243,101 @@ def has_heading(body: str, heading: str) -> bool:
     )
 
 
+
+def has_plain_language_concept(body: str) -> bool:
+    """Accept the shared concept heading or an equivalent substantive concept block."""
+    if has_heading(body, "Concept in plain English"):
+        return True
+
+    objectives = re.search(
+        r"^## Learning objectives\s*$",
+        body,
+        re.MULTILINE | re.IGNORECASE,
+    )
+    why = re.search(
+        r"^## Why it matters\s*$",
+        body,
+        re.MULTILINE | re.IGNORECASE,
+    )
+    if not objectives or not why or why.start() <= objectives.end():
+        return False
+
+    between = body[objectives.end():why.start()]
+    first_concept_heading = re.search(r"^## (?!Why it matters).+?$", between, re.MULTILINE)
+    if not first_concept_heading:
+        return False
+
+    concept_block = between[first_concept_heading.start():]
+    plain = re.sub(r"[^A-Za-z0-9 -]", " ", concept_block)
+    words = re.findall(r"\b\w+\b", plain)
+    return len(words) >= 40
+
+
+def validate_module_overviews_and_reviews() -> list[str]:
+    """Keep module/section navigation and assessment scaffolding aligned across releases."""
+    errors: list[str] = []
+
+    for label, (module, _) in MODULES.items():
+        module_readme = module / "README.md"
+        if not module_readme.exists():
+            errors.append(f"{label}: missing module overview")
+            continue
+
+        module_body = module_readme.read_text(encoding="utf-8")
+        for heading in MODULE_OVERVIEW_REQUIRED_HEADINGS:
+            if not has_heading(module_body, heading):
+                errors.append(f"{module.name}/README.md: missing aligned overview section (## {heading})")
+
+        if "status:" not in module_body.lower() or "complete" not in module_body.lower():
+            errors.append(f"{module.name}/README.md: module status must explicitly state completion")
+
+        section_dirs = sorted(path for path in module.glob("section-*") if path.is_dir())
+        if not section_dirs:
+            errors.append(f"{label}: no section directories found")
+
+        for section in section_dirs:
+            section_readme = section / "README.md"
+            if not section_readme.exists():
+                errors.append(f"{section.relative_to(ROOT)}: missing section overview")
+                continue
+
+            section_body = section_readme.read_text(encoding="utf-8")
+            for heading in SECTION_OVERVIEW_REQUIRED_HEADINGS:
+                if not has_heading(section_body, heading):
+                    errors.append(
+                        f"{section_readme.relative_to(ROOT)}: missing aligned section overview (## {heading})"
+                    )
+
+            review_files = sorted(section.glob("*-section-*-review.md"))
+            if len(review_files) != 1:
+                errors.append(
+                    f"{section.relative_to(ROOT)}: expected exactly one section review, found {len(review_files)}"
+                )
+                continue
+
+            review_body = review_files[0].read_text(encoding="utf-8")
+            if review_body.count("<details>") < 10:
+                errors.append(
+                    f"{review_files[0].relative_to(ROOT)}: section review requires at least 10 answer blocks"
+                )
+            if not re.search(
+                r"^## (?:.*completion.*|readiness check|final self-check|final checklist|final memory anchors|module completion step)\s*$",
+                review_body,
+                re.MULTILINE | re.IGNORECASE,
+            ):
+                errors.append(
+                    f"{review_files[0].relative_to(ROOT)}: missing completion/readiness checkpoint"
+                )
+
+        for resource_index in MODULE_RESOURCE_INDEXES[module]:
+            if not resource_index.exists():
+                errors.append(
+                    f"{label}: missing shared resource index ({resource_index.relative_to(ROOT)})"
+                )
+
+    return errors
+
+
 def validate_shared_module_content() -> list[str]:
     """Apply the same minimum lesson contract to every completed module."""
     errors: list[str] = []
@@ -231,6 +363,8 @@ def validate_shared_module_content() -> list[str]:
             for heading in SHARED_REQUIRED_HEADINGS:
                 if not has_heading(body, heading):
                     errors.append(f"{relative}: missing shared quality element (## {heading})")
+            if not has_plain_language_concept(body):
+                errors.append(f"{relative}: missing substantive plain-language concept section")
             for heading in ("### Correct answer", "### Why it is correct", "### Why the other answers are wrong"):
                 if heading.lower() not in body.lower():
                     errors.append(f"{relative}: incomplete answer rationale ({heading})")
@@ -273,13 +407,19 @@ def validate_shared_module_content() -> list[str]:
                     f"{relative}: process flow requires a directed flowchart with at least three transitions"
                 )
 
-            if module in (MODULE_1, MODULE_2):
-                if not has_heading(body, "Evidence retained through the workflow"):
-                    errors.append(f"{relative}: missing decision-evidence record")
-                if not has_heading(body, "Applied decision artifact"):
-                    errors.append(f"{relative}: missing reusable applied decision artifact")
-            elif "### Evidence retained through the workflow" not in body:
+            if not re.search(
+                r"^#{2,3} Evidence retained through the workflow\s*$",
+                body,
+                re.MULTILINE | re.IGNORECASE,
+            ):
                 errors.append(f"{relative}: missing workflow evidence")
+
+            if not re.search(
+                r"^## (?:Applied|Worked) .+",
+                body,
+                re.MULTILINE | re.IGNORECASE,
+            ):
+                errors.append(f"{relative}: missing reusable applied decision or worked-calculation section")
 
             if not re.search(r"\b(example|northstar|asterworks|rivermark|pinehaven|harborpeak)\b", body, re.IGNORECASE):
                 errors.append(f"{relative}: missing fictional applied example")
@@ -1247,9 +1387,9 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
             errors.append(f"README inventory is missing the current statement ({statement})")
 
     module_snapshot_claims = {
-        MODULE_1: ("59 structured Markdown learning pages", "44 topic checks", "five capstone checks"),
-        MODULE_2: ("53 structured Markdown learning pages", "43 topic lessons", "109 knowledge checks"),
-        MODULE_3: ("47 structured Markdown learning pages", "35 topic lessons", "82 knowledge checks"),
+        MODULE_1: ("**59** structured Markdown learning/reference pages", "**44** topic lessons", "**128** independently authored knowledge checks"),
+        MODULE_2: ("**53** structured Markdown learning/reference pages", "**43** topic lessons", "**109** independently authored knowledge checks"),
+        MODULE_3: ("**47** structured Markdown learning/reference pages", "**35** topic lessons", "**82** independently authored knowledge checks"),
         MODULE_4: ("**63** structured Markdown learning/reference pages", "**51** topic lessons", "**126** knowledge checks"),
         MODULE_5: ("**68** structured Markdown learning/reference pages", "**54** topic lessons", "**137** independently authored knowledge checks"),
     }
@@ -1372,6 +1512,7 @@ def main() -> int:
     link_count, markdown_errors = validate_markdown(markdown)
     errors = (
         markdown_errors
+        + validate_module_overviews_and_reviews()
         + validate_shared_module_content()
         + validate_svg(svg)
         + validate_csv(datasets)
