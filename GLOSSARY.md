@@ -49,6 +49,14 @@ This glossary provides concise working definitions for terms used across the rep
 
 **Cash-to-cash time** — Inventory days plus receivable days minus payable days, estimating how long operating cash remains tied up.
 
+**Churn** — The loss of customers or accounts from an active relationship population over a defined period; the denominator and population scope must be stated.
+
+**Communication management plan** — A controlled record of who needs what information, for what purpose, through which channel and cadence, with ownership, feedback, and escalation expectations.
+
+**Customer relationship management (CRM)** — A customer-first relationship operating model that combines customer information, processes, people, measures, and enabling technology to understand, serve, retain, and develop customers.
+
+**Customer segmentation** — Grouping customers with sufficiently similar value, needs, behavior, lifecycle, channel, or service requirements so differentiated treatment changes a business decision.
+
 **Chase strategy** — An operations strategy that adjusts capacity or output to follow changes in demand.
 
 **Coefficient of correlation** — A measure of the strength and direction of a linear relationship between two variables.
@@ -191,6 +199,8 @@ This glossary provides concise working definitions for terms used across the rep
 
 **Operations plan** — A time-phased statement of the output, inventory, workforce, capacity, and service response required to support the agreed plan.
 
+**On-time in-full (OTIF)** — The percentage of eligible orders delivered both by the defined on-time date and with the required quantity complete.
+
 **Order penetration point** — The point in the supply process where a specific customer order becomes linked to materials or capacity.
 
 **Offshoring** — Locating work in a different country, whether the work remains internally owned or is performed by an external organization.
@@ -256,6 +266,12 @@ This glossary provides concise working definitions for terms used across the rep
 
 **Standard cost** — A predetermined expected cost used as a baseline for planning, inventory valuation, or variance analysis.
 
+**Strategic alliance** — A deliberately governed long-term relationship in which organizations share selected information, resources, risks, investment, or processes to create mutual value beyond a routine transaction.
+
+**Supplier certification** — Formal evidence that a supplier has demonstrated specified process, quality, delivery, safety, documentation, or other agreed capabilities under a defined qualification or review method.
+
+**Supplier relationship management (SRM)** — A structured approach to managing supplier interactions, performance, information exchange, improvement, and collaboration according to the supplier's role and dependency in the supply network.
+
 **Stewardship** — Assigned operational responsibility for maintaining the definition, quality, and authorized use of a data domain.
 
 **Supply chain** — A network of organizations, resources, processes, and flows that creates and delivers value to a customer.
@@ -303,6 +319,8 @@ This glossary provides concise working definitions for terms used across the rep
 
 **Vertical integration** — Ownership or control of additional upstream or downstream stages in a value chain.
 
+**Voice of the customer (VOC)** — Direct customer descriptions, feedback, observations, or interactions used to understand requirements, expectations, satisfaction, and improvement needs.
+
 ## W
 
 **Waste exchange** — arrangement or market mechanism that connects a waste/by-product generator with a party that can beneficially use the material.
@@ -317,4 +335,4 @@ This glossary provides concise working definitions for terms used across the rep
 **Work center** — A defined production resource or group of similar resources used for scheduling, routing, load, and capacity control.
 
 
-For deeper treatment, open the [Module 1 overview](./01-supply-chains-demand-forecasting/README.md), [Module 2 overview](./02-network-design-digital-connectivity-performance/README.md), [Module 3 overview](./03-sourcing-strategy-product-design-supplier-execution/README.md), [Module 4 overview](./04-internal-operations-inventory/README.md), [Module 5 overview](./05-forward-reverse-logistics/README.md), or choose a [role-based learning path](./LEARNING-PATHS.md).
+For deeper treatment, open the [Module 1 overview](./01-supply-chains-demand-forecasting/README.md), [Module 2 overview](./02-network-design-digital-connectivity-performance/README.md), [Module 3 overview](./03-sourcing-strategy-product-design-supplier-execution/README.md), [Module 4 overview](./04-internal-operations-inventory/README.md), [Module 5 overview](./05-forward-reverse-logistics/README.md), [Module 6 overview](./06-supply-chain-relationships/README.md), or choose a [role-based learning path](./LEARNING-PATHS.md).

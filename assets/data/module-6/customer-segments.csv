@@ -1,0 +1,6 @@
+segment_id,segment_name,active_accounts,annual_revenue_usd,gross_margin_pct,annual_orders,relationship_tier,service_model,annual_gross_profit_usd,avg_order_value_usd,revenue_per_account_usd
+SEG-A,Strategic OEM,18,18900000,34.0,1260,Strategic,Named account team + engineering coordination,6426000.0,15000.0,1050000.0
+SEG-B,Growth Distributors,42,16800000,27.0,2400,Preferred,Portal + channel manager,4536000.0,7000.0,400000.0
+SEG-C,Service Networks,64,7680000,42.0,3840,Preferred,Fast-response service desk,3225600.0,2000.0,120000.0
+SEG-D,Digital SMB,310,9300000,31.0,9300,Scaled,Digital self-service + pooled support,2883000.0,1000.0,30000.0
+SEG-E,Projects / New Logos,55,5500000,29.0,275,Develop,Solution selling + onboarding,1595000.0,20000.0,100000.0

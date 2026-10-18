@@ -21,12 +21,14 @@ MODULE_2 = ROOT / "02-network-design-digital-connectivity-performance"
 MODULE_3 = ROOT / "03-sourcing-strategy-product-design-supplier-execution"
 MODULE_4 = ROOT / "04-internal-operations-inventory"
 MODULE_5 = ROOT / "05-forward-reverse-logistics"
+MODULE_6 = ROOT / "06-supply-chain-relationships"
 MODULES = {
     "Module 1": (MODULE_1, 44),
     "Module 2": (MODULE_2, 43),
     "Module 3": (MODULE_3, 35),
     "Module 4": (MODULE_4, 51),
     "Module 5": (MODULE_5, 54),
+    "Module 6": (MODULE_6, 32),
 }
 MARKDOWN_LINK = re.compile(r"(?<!!)\[[^\]]*\]\(([^)]+)\)")
 MARKDOWN_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
@@ -123,6 +125,10 @@ MODULE_RESOURCE_INDEXES = {
         ROOT / "assets/data/module-5/README.md",
         ROOT / "calculations/logistics-trade-reverse/README.md",
     ),
+    MODULE_6: (
+        ROOT / "assets/data/module-6/README.md",
+        ROOT / "calculations/relationship-performance/README.md",
+    ),
 }
 MODULE_1_DATASET_LINKS = {
     "section-d-forecasting/04-seasonality-deseasonalizing-reseasonalizing.md": "northstar-seasonal-demand.csv",
@@ -207,6 +213,25 @@ MODULE_5_DATASET_LINKS = {
     "section-d-reverse-flow/04-reverse-logistics-economics-and-total-cost-analysis.md": "reverse-cost-cases.csv",
     "section-d-reverse-flow/10-waste-hierarchy-and-the-four-rs.md": "waste-disposition-cases.csv",
 }
+
+MODULE_6_DATASET_LINKS = {
+    "section-a-customer-relationships/02-customer-segmentation-and-customer-focused-marketing.md": "customer-segments.csv",
+    "section-a-customer-relationships/03-customer-value-pareto-profitability-and-lifetime-potential.md": "customer-segments.csv",
+    "section-a-customer-relationships/05-contact-channel-strategy-and-cost-to-serve-trade-offs.md": "customer-channel-preferences.csv",
+    "section-a-customer-relationships/06-customer-information-voc-business-intelligence-and-data-warehouses.md": "customer-voc-interactions.csv",
+    "section-a-customer-relationships/08-relationship-lifecycle-prospects-vulnerable-loyal-win-back-churn-and-loyalty.md": "customer-lifecycle-accounts.csv",
+    "section-a-customer-relationships/09-lifetime-customer-relationships-and-retention-economics.md": "crm-technology-cases.csv",
+    "section-a-customer-relationships/11-crm-technology-architecture-and-customer-data-integration.md": "crm-technology-cases.csv",
+    "section-a-customer-relationships/14-customer-service-metrics-satisfaction-feedback-and-service-recovery.md": "customer-service-performance.csv",
+    "section-b-supplier-and-supply-chain-relationships/02-supplier-segmentation-and-relationship-fit.md": "supplier-segmentation.csv",
+    "section-b-supplier-and-supply-chain-relationships/06-single-sole-and-multisourcing-concentration-and-relationship-risk.md": "supplier-sourcing-relationships.csv",
+    "section-b-supplier-and-supply-chain-relationships/08-strategic-partner-selection-and-alliance-rationale.md": "strategic-alliance-cases.csv",
+    "section-b-supplier-and-supply-chain-relationships/11-supplier-performance-measurement-and-kpi-governance.md": "supplier-performance.csv",
+    "section-b-supplier-and-supply-chain-relationships/12-supplier-certification-rating-systems-and-qualification-evidence.md": "supplier-certification.csv",
+    "section-b-supplier-and-supply-chain-relationships/13-supplier-performance-reporting-error-control-claims-and-remediation.md": "supplier-performance.csv",
+    "section-b-supplier-and-supply-chain-relationships/17-communication-purpose-audience-channel-feedback-and-management-plans.md": "relationship-communications.csv",
+}
+
 ASSESSMENT_DEFECTS = (
     "without testing whether can ",
     "without testing whether may ",
@@ -348,6 +373,7 @@ def validate_shared_module_content() -> list[str]:
         MODULE_3: MODULE_3_DATASET_LINKS,
         MODULE_4: MODULE_4_DATASET_LINKS,
         MODULE_5: MODULE_5_DATASET_LINKS,
+        MODULE_6: MODULE_6_DATASET_LINKS,
     }
 
     for label, (module, expected_count) in MODULES.items():
@@ -393,7 +419,7 @@ def validate_shared_module_content() -> list[str]:
             }
             lesson_key = str(path.relative_to(module))
             requires_process_flow = (
-                module in (MODULE_2, MODULE_3)
+                module in (MODULE_2, MODULE_3, MODULE_6)
                 or (module == MODULE_4 and lesson_key not in module_4_flow_exceptions)
                 or (module == MODULE_5 and lesson_key not in module_5_flow_exceptions)
             )
@@ -421,7 +447,7 @@ def validate_shared_module_content() -> list[str]:
             ):
                 errors.append(f"{relative}: missing reusable applied decision or worked-calculation section")
 
-            if not re.search(r"\b(example|northstar|asterworks|rivermark|pinehaven|harborpeak)\b", body, re.IGNORECASE):
+            if not re.search(r"\b(example|northstar|asterworks|rivermark|pinehaven|harborpeak|clearspan)\b", body, re.IGNORECASE):
                 errors.append(f"{relative}: missing fictional applied example")
 
             related = re.search(
@@ -1311,6 +1337,333 @@ def validate_module_5_calculations() -> list[str]:
             errors.append(f"Module 5 capstone solution: missing verified result ({required})")
 
     return errors
+
+def validate_module_6_calculations() -> list[str]:
+    """Independently reproduce Module 6 relationship-management controls."""
+    errors: list[str] = []
+
+    def rows(name: str) -> list[dict[str, str]]:
+        return csv_dicts(f"assets/data/module-6/{name}")
+
+    def close(calculated: float, recorded: float, label: str, tol: float = 0.02) -> None:
+        if not math.isclose(float(calculated), float(recorded), abs_tol=tol, rel_tol=1e-9):
+            errors.append(
+                f"Module 6 {label}: calculated {calculated}, recorded {recorded}"
+            )
+
+    # Customer-segment economics.
+    segments = rows("customer-segments.csv")
+    for row in segments:
+        gross_profit = float(row["annual_revenue_usd"]) * float(row["gross_margin_pct"]) / 100
+        avg_order = float(row["annual_revenue_usd"]) / float(row["annual_orders"])
+        revenue_account = float(row["annual_revenue_usd"]) / float(row["active_accounts"])
+        close(gross_profit, float(row["annual_gross_profit_usd"]), f"gross profit {row['segment_id']}", 0.01)
+        close(avg_order, float(row["avg_order_value_usd"]), f"average order value {row['segment_id']}", 0.01)
+        close(revenue_account, float(row["revenue_per_account_usd"]), f"revenue/account {row['segment_id']}", 0.01)
+
+    # Channel preference percentages and dominant channel.
+    for row in rows("customer-channel-preferences.csv"):
+        respondents = float(row["respondents"])
+        counts = {
+            "Portal": float(row["portal_count"]),
+            "Email": float(row["email_count"]),
+            "Phone / chat": float(row["phone_chat_count"]),
+            "Field representative": float(row["field_rep_count"]),
+        }
+        if not math.isclose(sum(counts.values()), respondents, abs_tol=0.001):
+            errors.append(f"Module 6 channel preferences: counts do not total respondents for {row['segment_id']}")
+        for count_col, pct_col in (
+            ("portal_count", "portal_pct"),
+            ("email_count", "email_pct"),
+            ("phone_chat_count", "phone_chat_pct"),
+            ("field_rep_count", "field_rep_pct"),
+        ):
+            calculated = float(row[count_col]) / respondents * 100
+            close(calculated, float(row[pct_col]), f"channel percentage {row['segment_id']} {pct_col}")
+        dominant_name, dominant_count = max(counts.items(), key=lambda item: item[1])
+        if row["dominant_channel"] != dominant_name:
+            errors.append(f"Module 6 channel preferences: dominant channel is inconsistent for {row['segment_id']}")
+        close(dominant_count / respondents * 100, float(row["dominant_channel_pct"]), f"dominant channel percentage {row['segment_id']}")
+
+    # Selected lifecycle diagnostic sample.
+    lifecycle = rows("customer-lifecycle-accounts.csv")
+    active_start = sum(int(row["active_at_period_start"]) for row in lifecycle)
+    churned = sum(int(row["churn_flag"]) for row in lifecycle)
+    retained = sum(int(row["retained_flag"]) for row in lifecycle)
+    if (active_start, churned, retained) != (16, 5, 11):
+        errors.append("Module 6 lifecycle sample: start/churn/retention counts are inconsistent")
+    churn_rate = churned / active_start * 100
+    retention_rate = retained / active_start * 100
+    close(churn_rate, 31.25, "selected-sample churn rate", 0.0001)
+    close(retention_rate, 68.75, "selected-sample retention rate", 0.0001)
+    vulnerable_current = sum(
+        float(row["current_12m_revenue_usd"])
+        for row in lifecycle
+        if row["relationship_type"].lower() == "vulnerable"
+    )
+    churned_prior = sum(
+        float(row["prior_12m_revenue_usd"])
+        for row in lifecycle
+        if int(row["churn_flag"]) == 1
+    )
+    close(vulnerable_current, 2377000.0, "vulnerable-account current revenue", 0.01)
+    close(churned_prior, 2667000.0, "churned-account prior revenue", 0.01)
+
+    # VOC response and corrective-action closure.
+    voc = rows("customer-voc-interactions.csv")
+    response_required = [row for row in voc if int(row["requires_response"]) == 1]
+    response_attainment = (
+        sum(int(row["response_met_target"]) for row in response_required)
+        / len(response_required)
+        * 100
+    )
+    corrective_due = [row for row in voc if int(row["corrective_action_due"]) == 1]
+    corrective_closure = (
+        sum(int(row["corrective_action_closure_flag"]) for row in corrective_due)
+        / len(corrective_due)
+        * 100
+    )
+    close(response_attainment, 54.5454545, "VOC response attainment", 0.01)
+    close(corrective_closure, 46.1538462, "VOC corrective-action closure", 0.01)
+
+    # CRM economics, feasibility, and decision-changing adoption sensitivity.
+    crm = rows("crm-technology-cases.csv")
+    for row in crm:
+        tco = (
+            float(row["implementation_usd"])
+            + 3 * float(row["annual_subscription_usd"])
+            + float(row["integration_usd"])
+            + float(row["training_usd"])
+        )
+        annual_benefit = (
+            float(row["annual_labor_savings_usd"])
+            + float(row["annual_retention_margin_uplift_usd"])
+        )
+        benefit = 3 * annual_benefit * float(row["expected_adoption_pct"]) / 100
+        net = benefit - tco
+        close(tco, float(row["three_year_tco_usd"]), f"CRM TCO {row['case_id']}", 0.01)
+        close(benefit, float(row["three_year_realized_benefit_usd"]), f"CRM benefit {row['case_id']}", 0.01)
+        close(net, float(row["three_year_net_benefit_usd"]), f"CRM net benefit {row['case_id']}", 0.01)
+        expected_gate = "PASS" if all(
+            row[column] == "PASS"
+            for column in ("process_fit_gate", "data_access_gate", "security_gate")
+        ) else "FAIL"
+        if row["feasibility_gate"] != expected_gate:
+            errors.append(f"Module 6 CRM dataset: feasibility gate is inconsistent for {row['case_id']}")
+
+    crm02 = next(row for row in crm if row["case_id"] == "CRM-02")
+    close(float(crm02["three_year_tco_usd"]), 1135000.0, "CRM-02 TCO", 0.01)
+    close(float(crm02["three_year_realized_benefit_usd"]), 1377000.0, "CRM-02 benefit", 0.01)
+    close(float(crm02["three_year_net_benefit_usd"]), 242000.0, "CRM-02 net benefit", 0.01)
+    annual_benefit = float(crm02["annual_labor_savings_usd"]) + float(crm02["annual_retention_margin_uplift_usd"])
+    sensitivity_benefit = 3 * annual_benefit * 0.70
+    sensitivity_net = sensitivity_benefit - float(crm02["three_year_tco_usd"])
+    break_even = float(crm02["three_year_tco_usd"]) / (3 * annual_benefit) * 100
+    close(sensitivity_benefit, 1071000.0, "CRM-02 70 percent benefit", 0.01)
+    close(sensitivity_net, -64000.0, "CRM-02 70 percent net benefit", 0.01)
+    close(break_even, 74.1830065, "CRM-02 break-even adoption", 0.001)
+
+    # Customer-service measures.
+    service = rows("customer-service-performance.csv")
+    for row in service:
+        eligible_orders = float(row["eligible_orders"])
+        checks = (
+            (float(row["orders_shipped_complete"]) / eligible_orders * 100, row["orders_shipped_complete_pct"], "complete"),
+            (float(row["on_time_receipts"]) / float(row["eligible_receipts"]) * 100, row["on_time_delivery_pct"], "OTD"),
+            (float(row["units_shipped_on_schedule"]) / float(row["units_ordered"]) * 100, row["unit_fill_rate_pct"], "unit fill"),
+            (float(row["orders_complete_and_on_time"]) / eligible_orders * 100, row["otif_pct"], "OTIF"),
+            (float(row["stockout_events"]) / float(row["item_availability_checks"]) * 100, row["stockout_frequency_pct"], "stockout"),
+            (float(row["complaints"]) / eligible_orders * 100, row["complaint_rate_per_100_orders"], "complaint rate"),
+            (float(row["responses_within_target"]) / float(row["customer_inquiries_requiring_response"]) * 100, row["response_time_attainment_pct"], "response attainment"),
+        )
+        for calculated, recorded, label in checks:
+            close(calculated, float(recorded), f"{label} {row['segment_id']}")
+    service_networks = next(row for row in service if row["segment_name"] == "Service Networks")
+    close(float(service_networks["otif_pct"]), 86.23, "Service Networks OTIF", 0.001)
+
+    # Sourcing concentration logic.
+    sourcing = rows("supplier-sourcing-relationships.csv")
+    for row in sourcing:
+        share = float(row["supplier_spend_usd"]) / float(row["category_spend_usd"]) * 100
+        close(share, float(row["supplier_share_pct"]), f"supplier share {row['supplier_id']}")
+        if row["source_strategy"] == "sole" or share >= 90 or int(row["qualified_alternates"]) == 0:
+            expected = "Critical"
+        elif share >= 70 or int(row["qualified_alternates"]) <= 1:
+            expected = "High"
+        elif share >= 40:
+            expected = "Moderate"
+        else:
+            expected = "Low"
+        if row["concentration_risk"] != expected:
+            errors.append(f"Module 6 sourcing relationships: concentration risk is inconsistent for {row['supplier_id']}")
+
+    # Alliance gates and weighted ranking.
+    alliances = rows("strategic-alliance-cases.csv")
+    alliance_weights = {
+        "value_add_score": 20,
+        "market_access_score": 10,
+        "operations_strength_score": 15,
+        "technology_strength_score": 15,
+        "strategic_growth_score": 15,
+        "learning_score": 10,
+        "financial_strength_score": 15,
+    }
+    feasible_scores: list[tuple[str, float]] = []
+    for row in alliances:
+        score = sum(float(row[column]) / 5 * weight for column, weight in alliance_weights.items())
+        close(score, float(row["weighted_alliance_score_0_to_100"]), f"alliance score {row['case_id']}", 0.01)
+        expected_gate = "PASS" if all(
+            row[column] == "PASS"
+            for column in (
+                "strategy_fit_gate",
+                "ethics_compliance_gate",
+                "financial_viability_gate",
+                "ip_security_gate",
+                "capacity_continuity_gate",
+            )
+        ) else "FAIL"
+        if row["feasibility_gate"] != expected_gate:
+            errors.append(f"Module 6 alliance dataset: feasibility gate is inconsistent for {row['case_id']}")
+        if expected_gate == "PASS":
+            feasible_scores.append((row["case_id"], score))
+    feasible_scores.sort(key=lambda item: item[1], reverse=True)
+    ranks = {case_id: rank for rank, (case_id, _) in enumerate(feasible_scores, 1)}
+    for row in alliances:
+        recorded = row["feasible_rank"].strip()
+        if row["feasibility_gate"] == "PASS":
+            if recorded != str(ranks[row["case_id"]]):
+                errors.append(f"Module 6 alliance dataset: feasible rank is inconsistent for {row['case_id']}")
+        elif recorded:
+            errors.append(f"Module 6 alliance dataset: failed alliance {row['case_id']} must not have a feasible rank")
+    if feasible_scores[0][0] != "AL-01":
+        errors.append("Module 6 alliance dataset: NorthRiver Joint Innovation must remain the top feasible alliance")
+
+    # Supplier performance.
+    performance = rows("supplier-performance.csv")
+    for row in performance:
+        otd = float(row["on_time_receipts"]) / float(row["eligible_receipts"]) * 100
+        defect = float(row["defect_units"]) / float(row["inspected_units"]) * 100
+        closure = float(row["corrective_actions_closed"]) / float(row["corrective_actions_due"]) * 100
+        quality_score = max(0.0, 100 - defect * 10)
+        cost_score = min(100.0, float(row["cost_reduction_pct"]) / 3.0 * 100)
+        weighted = (
+            otd * 0.25
+            + quality_score * 0.20
+            + closure * 0.15
+            + float(row["internal_customer_score_1_to_5"]) * 20 * 0.10
+            + float(row["technology_integration_score_1_to_5"]) * 20 * 0.10
+            + cost_score * 0.10
+            + float(row["response_flexibility_score_1_to_5"]) * 20 * 0.10
+        )
+        close(otd, float(row["supplier_on_time_delivery_pct"]), f"supplier OTD {row['supplier_id']}")
+        close(defect, float(row["supplier_defect_rate_pct"]), f"supplier defect {row['supplier_id']}")
+        close(closure, float(row["corrective_action_closure_pct"]), f"supplier corrective closure {row['supplier_id']}")
+        close(weighted, float(row["weighted_supplier_performance_score_0_to_100"]), f"supplier weighted score {row['supplier_id']}")
+    bluemesa = next(row for row in performance if row["supplier_id"] == "S04")
+    close(float(bluemesa["weighted_supplier_performance_score_0_to_100"]), 72.19, "BlueMesa supplier score", 0.01)
+
+    # Supplier certification status logic.
+    for row in rows("supplier-certification.csv"):
+        audit = float(row["audit_score_pct"])
+        critical = int(row["critical_nonconformances"])
+        major = int(row["major_nonconformances"])
+        documents = row["required_documents_complete"] == "YES"
+        delivery = row["delivery_gate"] == "PASS"
+        quality = row["quality_system_gate"] == "PASS"
+        safety = row["safety_gate"] == "PASS"
+        actions = int(row["open_corrective_actions"])
+        if critical > 0 or not quality or not safety:
+            expected_status, months = "NOT CERTIFIED", 3
+        elif audit >= 90 and major <= 1 and documents and delivery and actions == 0:
+            expected_status, months = "CERTIFIED", 12
+        elif audit >= 80 and major <= 2 and documents and delivery and actions <= 2:
+            expected_status, months = "CONDITIONAL", 6
+        else:
+            expected_status, months = "REMEDIATION", 3
+        if row["certification_status"] != expected_status or int(row["requalification_months"]) != months:
+            errors.append(f"Module 6 supplier certification: status logic is inconsistent for {row['supplier_id']}")
+    blue_cert = next(row for row in rows("supplier-certification.csv") if row["supplier_id"] == "S04")
+    if blue_cert["certification_status"] != "NOT CERTIFIED":
+        errors.append("Module 6 supplier certification: BlueMesa must remain NOT CERTIFIED")
+
+    # Communication calculations and structural controls.
+    for row in rows("relationship-communications.csv"):
+        planned = float(row["planned_messages"])
+        sent = float(row["messages_sent"])
+        acknowledgements = float(row["acknowledgements_received"])
+        feedback_expected = float(row["feedback_expected"])
+        feedback_received = float(row["feedback_received"])
+        actions_due = float(row["actions_due"])
+        actions_closed = float(row["actions_closed"])
+        close(sent / planned * 100, float(row["message_delivery_pct"]), f"message delivery {row['communication_id']}")
+        close(acknowledgements / sent * 100, float(row["acknowledgement_pct"]), f"acknowledgement {row['communication_id']}")
+        close(feedback_received / feedback_expected * 100, float(row["feedback_rate_pct"]), f"feedback {row['communication_id']}")
+        close(actions_closed / actions_due * 100, float(row["action_closure_pct"]), f"action closure {row['communication_id']}")
+        structural_pass = all(
+            row[field].strip()
+            for field in ("responsible_owner", "accountable_owner", "medium", "cadence")
+        ) and sent <= planned and acknowledgements <= sent and feedback_received <= feedback_expected and actions_closed <= actions_due
+        expected_control = "PASS" if structural_pass else "FAIL"
+        if row["communication_control_pass"] != expected_control:
+            errors.append(f"Module 6 communication controls: structural control is inconsistent for {row['communication_id']}")
+
+    solution = (MODULE_6 / "capstone/solution-guide.md").read_text(encoding="utf-8")
+    for required in ("31.25%", "86.23%", "$242,000", "72.19", "74.18%", "88/100"):
+        if required not in solution:
+            errors.append(f"Module 6 capstone solution: missing verified result ({required})")
+
+    return errors
+
+
+def validate_module_6_assessment_distribution() -> list[str]:
+    """Prevent predictable answer-position bias in Module 6 assessments."""
+    errors: list[str] = []
+
+    def correct_letters(path: Path) -> list[str]:
+        body = path.read_text(encoding="utf-8")
+        return re.findall(
+            r"^### Correct answer\s*\n\s*\*\*([A-D])\.",
+            body,
+            re.MULTILINE,
+        )
+
+    topic_paths = sorted(
+        path
+        for path in MODULE_6.glob("section-*/*.md")
+        if re.match(r"\d{2}-", path.name)
+        and not re.match(r"\d{2}-section-[a-z]-review\.md$", path.name)
+    )
+    topic_letters = [letter for path in topic_paths for letter in correct_letters(path)]
+    if len(topic_letters) != 32:
+        errors.append(f"Module 6 assessments: expected 32 topic answers, found {len(topic_letters)}")
+    else:
+        counts = {letter: topic_letters.count(letter) for letter in "ABCD"}
+        if any(count < 6 or count > 10 for count in counts.values()):
+            errors.append(f"Module 6 assessments: topic answer positions are imbalanced ({counts})")
+
+    review_paths = [
+        MODULE_6 / "section-a-customer-relationships/15-section-a-review.md",
+        MODULE_6 / "section-b-supplier-and-supply-chain-relationships/19-section-b-review.md",
+    ]
+    review_letters = [letter for path in review_paths for letter in correct_letters(path)]
+    if len(review_letters) != 32:
+        errors.append(f"Module 6 assessments: expected 32 section-review answers, found {len(review_letters)}")
+    else:
+        counts = {letter: review_letters.count(letter) for letter in "ABCD"}
+        if any(count < 6 or count > 10 for count in counts.values()):
+            errors.append(f"Module 6 assessments: section-review answer positions are imbalanced ({counts})")
+
+    capstone_letters = correct_letters(MODULE_6 / "capstone/README.md")
+    if len(capstone_letters) != 5:
+        errors.append(f"Module 6 assessments: expected 5 capstone answers, found {len(capstone_letters)}")
+    else:
+        counts = {letter: capstone_letters.count(letter) for letter in "ABCD"}
+        if set(capstone_letters) != set("ABCD") or max(counts.values()) > 2:
+            errors.append(f"Module 6 assessments: capstone answer positions are imbalanced ({counts})")
+
+    return errors
+
+
 def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], datasets: list[Path]) -> list[str]:
     errors: list[str] = []
     capstone_requirements = {
@@ -1344,6 +1697,12 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
             16,
             ("8,239.26", "9,322.22", "1.629", "90,250", "−15 units/week"),
         ),
+        "Module 6": (
+            MODULE_6,
+            2200,
+            12,
+            ("31.25%", "86.23%", "$242,000", "72.19", "74.18%", "88/100"),
+        ),
     }
     for label, (module, solution_floor, data_count, results) in capstone_requirements.items():
         assignment = (module / "capstone/README.md").read_text(encoding="utf-8")
@@ -1372,17 +1731,17 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
 
     module_markdown = [path for path in markdown if any(path.is_relative_to(module) for module, _ in MODULES.values())]
     details = sum(path.read_text(encoding="utf-8").count("<details>") for path in module_markdown)
-    if len(module_markdown) != 290:
-        errors.append(f"Repository inventory: expected 290 module Markdown files, found {len(module_markdown)}")
-    if len(svg) != 185:
-        errors.append(f"Repository inventory: expected 185 SVG files, found {len(svg)}")
-    if len(datasets) != 57:
-        errors.append(f"Repository inventory: expected 57 CSV files, found {len(datasets)}")
-    if details != 582:
-        errors.append(f"Repository inventory: expected 582 knowledge checks, found {details}")
+    if len(module_markdown) != 330:
+        errors.append(f"Repository inventory: expected 330 module Markdown files, found {len(module_markdown)}")
+    if len(svg) != 217:
+        errors.append(f"Repository inventory: expected 217 SVG files, found {len(svg)}")
+    if len(datasets) != 69:
+        errors.append(f"Repository inventory: expected 69 CSV files, found {len(datasets)}")
+    if details != 651:
+        errors.append(f"Repository inventory: expected 651 knowledge checks, found {details}")
 
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    for statement in ("290 structured Markdown files", "185 original SVG diagrams", "57 original CSV datasets", "582 independently authored knowledge checks"):
+    for statement in ("330 structured Markdown files", "217 original SVG diagrams", "69 original CSV datasets", "651 independently authored knowledge checks"):
         if statement not in readme:
             errors.append(f"README inventory is missing the current statement ({statement})")
 
@@ -1392,6 +1751,7 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
         MODULE_3: ("**47** structured Markdown learning/reference pages", "**35** topic lessons", "**82** independently authored knowledge checks"),
         MODULE_4: ("**63** structured Markdown learning/reference pages", "**51** topic lessons", "**126** knowledge checks"),
         MODULE_5: ("**68** structured Markdown learning/reference pages", "**54** topic lessons", "**137** independently authored knowledge checks"),
+        MODULE_6: ("**40** structured Markdown learning/reference pages", "**32** topic lessons", "**69** independently authored knowledge checks"),
     }
     for module, statements in module_snapshot_claims.items():
         module_readme = (module / "README.md").read_text(encoding="utf-8")
@@ -1520,6 +1880,8 @@ def main() -> int:
         + validate_module_3_content()
         + validate_module_4_calculations()
         + validate_module_5_calculations()
+        + validate_module_6_calculations()
+        + validate_module_6_assessment_distribution()
         + validate_capstones_and_inventory(markdown, svg, datasets)
     )
 

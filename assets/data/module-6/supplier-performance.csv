@@ -1,0 +1,9 @@
+supplier_id,supplier_name,eligible_receipts,on_time_receipts,inspected_units,defect_units,corrective_actions_due,corrective_actions_closed,internal_customer_score_1_to_5,technology_integration_score_1_to_5,cost_reduction_pct,response_flexibility_score_1_to_5,supplier_on_time_delivery_pct,supplier_defect_rate_pct,corrective_action_closure_pct,weighted_supplier_performance_score_0_to_100
+S01,NorthRiver Sensors,520,481,26000,182,12,10,4.4,4.7,2.6,4.5,92.5,0.7,83.33,90.09
+S02,Apex Motion Components,610,579,31000,124,8,8,4.6,4.3,3.4,4.6,94.92,0.4,100.0,94.93
+S03,Cobalt Connectors,760,730,42000,168,5,5,4.2,3.8,2.1,4.1,96.05,0.4,100.0,89.41
+S04,BlueMesa Electronics,430,361,22000,396,15,8,3.2,4.8,1.2,3.4,83.95,1.8,53.33,72.19
+S05,Prairie Packaging,890,855,58000,232,3,3,4.0,3.1,3.0,4.0,96.07,0.4,100.0,90.42
+S06,Redwood Machining,570,531,28000,252,9,7,3.9,4.0,2.7,4.2,93.16,0.9,77.78,86.36
+S07,Harbor Cable Works,690,642,36000,216,6,5,4.1,3.5,2.8,4.0,93.04,0.6,83.33,87.09
+S08,Summit Industrial Software,180,169,1200,6,7,6,4.5,4.9,4.2,4.7,93.89,0.5,85.71,93.53

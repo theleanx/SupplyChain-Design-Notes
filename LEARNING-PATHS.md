@@ -1,6 +1,6 @@
 # Learning Paths
 
-All five modules can be read from beginning to end, but different roles may need a faster route to the decisions most relevant to their work. The paths below preserve the conceptual sequence while making focused study easier.
+All six modules can be read from beginning to end, but different roles may need a faster route to the decisions most relevant to their work. The paths below preserve the conceptual sequence while making focused study easier.
 
 ## Module 1 complete foundation path
 
@@ -264,6 +264,41 @@ Read the sections in sequence:
 
 **Finish with:** the [HarborPeak integrated capstone](./05-forward-reverse-logistics/capstone/README.md).
 
+## Module 6 complete relationship path
+
+**Best for:** learners who want to connect customer, supplier, alliance, and communication decisions into one relationship-management system.
+
+1. [Customer relationships](./06-supply-chain-relationships/section-a-customer-relationships/README.md)
+2. [Supplier and supply-chain relationships](./06-supply-chain-relationships/section-b-supplier-and-supply-chain-relationships/README.md)
+3. [ClearSpan customer-supplier relationship stabilization capstone](./06-supply-chain-relationships/capstone/README.md)
+
+## Module 6 customer relationship path
+
+**Goal:** turn customer value, lifecycle, service, feedback, and channel evidence into differentiated CRM treatment.
+
+1. [Customer-centric relationships and CRM purpose](./06-supply-chain-relationships/section-a-customer-relationships/01-customer-centric-relationships-and-crm-purpose.md)
+2. [Customer segmentation and customer-focused marketing](./06-supply-chain-relationships/section-a-customer-relationships/02-customer-segmentation-and-customer-focused-marketing.md)
+3. [Customer value, Pareto, profitability, and lifetime potential](./06-supply-chain-relationships/section-a-customer-relationships/03-customer-value-pareto-profitability-and-lifetime-potential.md)
+4. [Customer information, VOC, business intelligence, and data warehouses](./06-supply-chain-relationships/section-a-customer-relationships/06-customer-information-voc-business-intelligence-and-data-warehouses.md)
+5. [Relationship lifecycle, churn, and loyalty](./06-supply-chain-relationships/section-a-customer-relationships/08-relationship-lifecycle-prospects-vulnerable-loyal-win-back-churn-and-loyalty.md)
+6. [CRM technology architecture and customer-data integration](./06-supply-chain-relationships/section-a-customer-relationships/11-crm-technology-architecture-and-customer-data-integration.md)
+7. [Customer service metrics, satisfaction, feedback, and service recovery](./06-supply-chain-relationships/section-a-customer-relationships/14-customer-service-metrics-satisfaction-feedback-and-service-recovery.md)
+
+## Module 6 supplier, alliance, and communication path
+
+**Goal:** calibrate supplier relationship depth, control dependency, govern performance/certification, and build collaboration with explicit communication.
+
+1. [SRM foundations and supply-side relationship strategy](./06-supply-chain-relationships/section-b-supplier-and-supply-chain-relationships/01-srm-foundations-and-supply-side-relationship-strategy.md)
+2. [Supplier segmentation and relationship fit](./06-supply-chain-relationships/section-b-supplier-and-supply-chain-relationships/02-supplier-segmentation-and-relationship-fit.md)
+3. [Single, sole, and multisourcing concentration risk](./06-supply-chain-relationships/section-b-supplier-and-supply-chain-relationships/06-single-sole-and-multisourcing-concentration-and-relationship-risk.md)
+4. [Strategic partner selection and alliance rationale](./06-supply-chain-relationships/section-b-supplier-and-supply-chain-relationships/08-strategic-partner-selection-and-alliance-rationale.md)
+5. [Supplier performance measurement and KPI governance](./06-supply-chain-relationships/section-b-supplier-and-supply-chain-relationships/11-supplier-performance-measurement-and-kpi-governance.md)
+6. [Supplier certification and qualification evidence](./06-supply-chain-relationships/section-b-supplier-and-supply-chain-relationships/12-supplier-certification-rating-systems-and-qualification-evidence.md)
+7. [Communication purpose, audience, channel, feedback, and management plans](./06-supply-chain-relationships/section-b-supplier-and-supply-chain-relationships/17-communication-purpose-audience-channel-feedback-and-management-plans.md)
+8. [Cross-cultural relationship management and communication](./06-supply-chain-relationships/section-b-supplier-and-supply-chain-relationships/18-cross-cultural-relationship-management-and-communication.md)
+
+**Finish with:** the [ClearSpan integrated relationship capstone](./06-supply-chain-relationships/capstone/README.md).
+
 ## Time-boxed routes
 
 | Available time | Recommended route |
@@ -275,4 +310,4 @@ Read the sections in sequence:
 
 Use the [glossary](./GLOSSARY.md) whenever a term is unfamiliar. For quantitative reference, open the [forecasting formula sheet](./calculations/forecasting/formula-sheet.md) or the [network and performance formula sheet](./calculations/network-performance/formula-sheet.md), or [sourcing and procurement formula sheet](./calculations/sourcing-procurement/formula-sheet.md), or the [internal operations and inventory formula sheet](./calculations/internal-operations/formula-sheet.md).
 
-For Module 5 quantitative reference, open the [logistics, trade, and reverse-flow formula sheet](./calculations/logistics-trade-reverse/formula-sheet.md).
+For Module 5 quantitative reference, open the [logistics, trade, and reverse-flow formula sheet](./calculations/logistics-trade-reverse/formula-sheet.md). For Module 6, use the [relationship-performance formula & control sheet](./calculations/relationship-performance/formula-sheet.md).

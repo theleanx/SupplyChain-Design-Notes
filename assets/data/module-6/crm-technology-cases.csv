@@ -1,0 +1,5 @@
+case_id,solution_name,implementation_usd,annual_subscription_usd,integration_usd,training_usd,annual_labor_savings_usd,annual_retention_margin_uplift_usd,expected_adoption_pct,process_fit_gate,data_access_gate,security_gate,three_year_tco_usd,three_year_realized_benefit_usd,three_year_net_benefit_usd,feasibility_gate
+CRM-01,Unified Enterprise CRM,420000,180000,260000,90000,310000,240000,82,PASS,PASS,PASS,1310000.0,1353000.0,43000.0,PASS
+CRM-02,Cloud CRM Accelerate,210000,240000,140000,65000,290000,220000,90,PASS,PASS,PASS,1135000.0,1377000.0,242000.0,PASS
+CRM-03,Best-of-Breed Sales Stack,160000,310000,330000,80000,270000,260000,76,PASS,FAIL,PASS,1500000.0,1208400.0,-291600.0,FAIL
+CRM-04,Low-Cost Point CRM,90000,120000,90000,35000,135000,95000,68,FAIL,PASS,PASS,575000.0,469200.0,-105800.0,FAIL
