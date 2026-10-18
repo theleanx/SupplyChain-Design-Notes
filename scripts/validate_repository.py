@@ -79,7 +79,6 @@ MODULE_3_DATASET_LINKS = {
 }
 SHARED_REQUIRED_HEADINGS = (
     "Learning objectives",
-    "Concept in plain English",
     "Why it matters",
     "Decision logic",
     "Trade-offs",
@@ -245,6 +244,35 @@ def has_heading(body: str, heading: str) -> bool:
 
 
 
+def has_plain_language_concept(body: str) -> bool:
+    """Accept the shared concept heading or an equivalent substantive concept block."""
+    if has_heading(body, "Concept in plain English"):
+        return True
+
+    objectives = re.search(
+        r"^## Learning objectives\s*$",
+        body,
+        re.MULTILINE | re.IGNORECASE,
+    )
+    why = re.search(
+        r"^## Why it matters\s*$",
+        body,
+        re.MULTILINE | re.IGNORECASE,
+    )
+    if not objectives or not why or why.start() <= objectives.end():
+        return False
+
+    between = body[objectives.end():why.start()]
+    first_concept_heading = re.search(r"^## (?!Why it matters).+?$", between, re.MULTILINE)
+    if not first_concept_heading:
+        return False
+
+    concept_block = between[first_concept_heading.start():]
+    plain = re.sub(r"[^A-Za-z0-9 -]", " ", concept_block)
+    words = re.findall(r"\b\w+\b", plain)
+    return len(words) >= 40
+
+
 def validate_module_overviews_and_reviews() -> list[str]:
     """Keep module/section navigation and assessment scaffolding aligned across releases."""
     errors: list[str] = []
@@ -335,6 +363,8 @@ def validate_shared_module_content() -> list[str]:
             for heading in SHARED_REQUIRED_HEADINGS:
                 if not has_heading(body, heading):
                     errors.append(f"{relative}: missing shared quality element (## {heading})")
+            if not has_plain_language_concept(body):
+                errors.append(f"{relative}: missing substantive plain-language concept section")
             for heading in ("### Correct answer", "### Why it is correct", "### Why the other answers are wrong"):
                 if heading.lower() not in body.lower():
                     errors.append(f"{relative}: incomplete answer rationale ({heading})")
@@ -1357,9 +1387,9 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
             errors.append(f"README inventory is missing the current statement ({statement})")
 
     module_snapshot_claims = {
-        MODULE_1: ("59 structured Markdown learning pages", "44 topic checks", "five capstone checks"),
-        MODULE_2: ("53 structured Markdown learning pages", "43 topic lessons", "109 knowledge checks"),
-        MODULE_3: ("47 structured Markdown learning pages", "35 topic lessons", "82 knowledge checks"),
+        MODULE_1: ("**59** structured Markdown learning/reference pages", "**44** topic lessons", "**128** independently authored knowledge checks"),
+        MODULE_2: ("**53** structured Markdown learning/reference pages", "**43** topic lessons", "**109** independently authored knowledge checks"),
+        MODULE_3: ("**47** structured Markdown learning/reference pages", "**35** topic lessons", "**82** independently authored knowledge checks"),
         MODULE_4: ("**63** structured Markdown learning/reference pages", "**51** topic lessons", "**126** knowledge checks"),
         MODULE_5: ("**68** structured Markdown learning/reference pages", "**54** topic lessons", "**137** independently authored knowledge checks"),
     }
