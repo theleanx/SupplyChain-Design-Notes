@@ -220,7 +220,6 @@ MODULE_6_DATASET_LINKS = {
     "section-a-customer-relationships/05-contact-channel-strategy-and-cost-to-serve-trade-offs.md": "customer-channel-preferences.csv",
     "section-a-customer-relationships/06-customer-information-voc-business-intelligence-and-data-warehouses.md": "customer-voc-interactions.csv",
     "section-a-customer-relationships/08-relationship-lifecycle-prospects-vulnerable-loyal-win-back-churn-and-loyalty.md": "customer-lifecycle-accounts.csv",
-    "section-a-customer-relationships/09-lifetime-customer-relationships-and-retention-economics.md": "customer-lifecycle-accounts.csv",
     "section-a-customer-relationships/11-crm-technology-architecture-and-customer-data-integration.md": "crm-technology-cases.csv",
     "section-a-customer-relationships/14-customer-service-metrics-satisfaction-feedback-and-service-recovery.md": "customer-service-performance.csv",
     "section-b-supplier-and-supply-chain-relationships/02-supplier-segmentation-and-relationship-fit.md": "supplier-segmentation.csv",
@@ -1367,7 +1366,7 @@ def validate_module_6_calculations() -> list[str]:
         counts = {
             "Portal": float(row["portal_count"]),
             "Email": float(row["email_count"]),
-            "Phone/chat": float(row["phone_chat_count"]),
+            "Phone / chat": float(row["phone_chat_count"]),
             "Field representative": float(row["field_rep_count"]),
         }
         if not math.isclose(sum(counts.values()), respondents, abs_tol=0.001):
