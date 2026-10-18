@@ -87,7 +87,7 @@ The repository currently includes:
 - five integrated end-to-end capstones; and
 - automated validation of internal navigation, Markdown structure, process-flow presence, quantitative dataset linkage, worked results, SVG accessibility, CSV consistency, and module-specific calculation controls.
 
-The repository runs a read-only content-quality workflow on every push and pull request to detect broken links, malformed datasets, invalid or inaccessible SVGs, missing process flows, inconsistent calculations, weak assessment language, structural drift, and unbalanced Markdown blocks.
+The repository runs a read-only content-quality workflow on every push and pull request to detect broken links, malformed datasets, invalid or inaccessible SVGs, missing process flows, inconsistent calculations, weak assessment language, structural drift, unbalanced Markdown blocks, and drift from the shared module/section overview contract.
 
 ## Independence, attribution, and permitted use
 
