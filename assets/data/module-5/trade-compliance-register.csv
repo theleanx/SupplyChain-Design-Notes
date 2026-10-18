@@ -1,0 +1,9 @@
+shipment_id,product,origin,destination,mode,declared_value_usd,restricted_goods_screen,supplier_security_status,trusted_trader_context,document_pack_status,filing_model,compliance_risk,required_action
+TC-001,Servo controller,"Busan, KR","Long Beach, US",Ocean + truck,148000,PASS,PASS,None,Complete,Licensed broker,High,Product classification confirmation before booking
+TC-002,Hydraulic test stand,"Monterrey, MX","Dallas, US",Truck,91000,PASS,PASS,CTPAT-partner lane,Complete,Licensed broker,Medium,Validate origin support before claiming preference
+TC-003,Drive cabinet,"Columbus, US","Hamburg, DE",Ocean,123500,PASS,PASS,AEO customer,Pending export filing,Forwarder-assisted,Medium,Close missing export data before cargo handoff
+TC-004,Sensor module,"Penang, MY","Rotterdam, NL",Air,67500,PASS,REVIEW,None,Commercial invoice draft,Forwarder-assisted,High,Resolve supplier security gap before tender
+TC-005,Replacement gearbox,"Turin, IT","Houston, US",Air,38600,PASS,PASS,None,Complete,Self-file with broker review,Low,Retain classification and valuation evidence
+TC-006,Control panel,"Dallas, US","Toronto, CA",Truck,54200,PASS,PASS,None,Complete,Forwarder-assisted,Medium,Confirm agreement qualification and importer instructions
+TC-007,Machine guard kit,"Shenzhen, CN","Seattle, US",Ocean,112000,REVIEW,PASS,None,Incomplete markings,Licensed broker,Critical,Do not load until restricted-product and marking review closes
+TC-008,Calibration fixture,"Dallas, US","Tokyo, JP",Air,27400,PASS,PASS,None,Complete,Forwarder-assisted,Low,Archive proof of export and delivery

@@ -1,0 +1,7 @@
+network_option,site,ownership,service_coverage_pct,avg_distance_km,transport_cost_annual,inventory_cost_annual,overhead_annual,services_score_5,labor_flag,regulatory_flag,slotting_policy,customer_response_days,notes
+2-DC owned,Cedar Junction,Owned,72,560,3180000,1390000,1260000,4,PASS,PASS,ABC + velocity,2.3,Illustrative fictional data for learning only
+2-DC owned,Mesa Crossing,Owned,28,610,1250000,580000,690000,3,PASS,PASS,ABC + velocity,2.8,Illustrative fictional data for learning only
+3-DC hybrid,Cedar Junction,Owned,48,380,1900000,1060000,1260000,4,PASS,PASS,ABC + family,1.7,Illustrative fictional data for learning only
+3-DC hybrid,Mesa Crossing,Owned,27,420,1030000,620000,690000,3,PASS,PASS,ABC + family,1.9,Illustrative fictional data for learning only
+3-DC hybrid,Harbor East 3PL,3PL,25,230,840000,490000,780000,5,PASS,PASS,Dynamic slotting,1.2,Illustrative fictional data for learning only
+4-DC decentralized,North Metro leased,Leased,18,165,560000,470000,640000,4,WATCH,PASS,Random + WMS,0.9,Illustrative fictional data for learning only

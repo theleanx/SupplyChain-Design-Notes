@@ -1,0 +1,6 @@
+case_id,product,units_shipped,units_returned,return_reason,warranty_status,current_location,estimated_resale_value_usd,repair_cost_usd,parts_cost_usd,recycling_value_usd,disposal_cost_usd,service_priority,regulatory_flag_training,proposed_disposition
+RF-01,HX-400 industrial controller,18000,900,customer dissatisfaction / setup mismatch,mixed,regional returns hub,420,95,48,22,8,high,none,inspect_then_restock_or_refurbish
+RF-02,PX-9 sensor kit,12000,1440,early-life performance complaint,mostly warranty,central test center,155,38,16,6,4,high,electronics_review,test_repair_refurbish_or_recycle
+RF-03,RT-60 reusable transit tote,8500,340,empty packaging return,not applicable,plant packaging loop,42,4,0,0,6,medium,none,clean_inspect_reuse
+RF-04,LB-22 battery service module,4200,504,service replacement / end of useful life,mixed,authorized recovery partner,210,65,54,72,28,high,battery_and_e-waste_review,triage_for_reuse_or_specialized_recovery
+RF-05,MX-12 drive assembly,26000,1560,defect / excess channel inventory,mixed,multi-node network,610,132,86,34,18,high,none,repair_remanufacture_resell_or_recycle

@@ -1,0 +1,8 @@
+transaction,activity,units,touch_time_min,storage_time_hr,handling_cost_usd,error_damage_pct,service_type,consolidation_flag,cross_dock_flag,postponement_flag,notes
+RCV-2701,Receiving,240,38,0.5,52,0.4,Basic,No,No,No,Illustrative fictional data for learning only
+RCV-2701,Put-away,240,74,1.0,96,0.2,Basic,No,No,No,Illustrative fictional data for learning only
+ORD-6114,Order picking,86,52,0.0,74,0.7,Basic,No,No,No,Illustrative fictional data for learning only
+ORD-6114,Packing,86,31,0.0,49,0.2,Basic,No,No,No,Illustrative fictional data for learning only
+XDK-1190,Cross-dock,310,46,0.2,68,0.1,Value-added,Yes,Yes,No,Illustrative fictional data for learning only
+POS-3031,Final labeling,140,57,0.3,112,0.2,Postponement,No,No,Yes,Illustrative fictional data for learning only
+KIT-4420,Kitting,120,66,0.4,124,0.3,Value-added,Yes,No,Yes,Illustrative fictional data for learning only

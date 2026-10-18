@@ -2,6 +2,27 @@
 
 Significant public improvements to this repository are recorded here.
 
+## Version 5.0.0 — Module 5
+
+Release target: 2026-10-18
+
+### Learning content
+
+- Adds four connected sections covering logistics and distribution, distribution services and transportation choices, trade considerations, and reverse flow.
+- Adds 68 Module 5 Markdown learning/reference pages, 54 original SVG decision visuals, 16 fictional CSV datasets, and 137 independently authored knowledge checks.
+- Adds the HarborPeak Network, Trade, and Reverse-Flow Stabilization capstone and worked solution guide.
+- Adds a logistics, trade, and reverse-flow formula/control sheet covering warehouse-capacity arithmetic, shipment-density measures, synthetic border-cost mechanics, reverse-logistics economics, and mandatory decision gates.
+
+### Quality controls
+
+- Integrates Sections A–D under the shared lesson contract and independently reproduces 97 calculation/data controls.
+- Validates 54 SVGs at 1160 px and 448 px widths for 108 successful renders and confirms 54 distinct geometry fingerprints.
+- Resolves 548 Module 5 relative links and verifies the nine unique cross-module targets against the current repository.
+- Performs an exact normalized 10-word source/public overlap scan with zero hits across the Module 5 Learning System, presentation, flashcards, and private question-bank sources.
+- Revalidates time-sensitive trade and reverse-flow regulatory framing against current authoritative sources.
+- Records a formal integration rebaseline because final Sections C/D evolved beyond the initial Phase 1/2 lock; the drift is documented rather than hidden.
+- Keeps all proprietary source files, private audits, working spreadsheets, and render-check artifacts outside the public repository tree.
+
 ## Version 4.0.0 — Module 4
 
 Released: 2026-10-11

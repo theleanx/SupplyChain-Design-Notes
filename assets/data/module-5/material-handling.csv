@@ -1,0 +1,6 @@
+equipment_option,load_type,pallet_fit,weight_class,flexibility_score_5,throughput_units_hour,floor_disruption_score_5,safety_gate,labor_fte,capex_usd,annual_maintenance_usd,automation_level,capability_gate,notes
+Counterbalance forklift,Pallet,Yes,Heavy,5,34,2,PASS,7.0,310000,47000,Low,PASS,Illustrative fictional data for learning only
+Reach truck + selective rack,Pallet,Yes,Medium-heavy,4,42,3,PASS,5.5,520000,66000,Low-medium,PASS,Illustrative fictional data for learning only
+Conveyor + sortation,Carton,No,Light-medium,3,560,4,PASS,3.5,980000,112000,Medium-high,PASS,Illustrative fictional data for learning only
+AS/RS shuttle,Tote/carton,No,Light,2,820,5,PASS,2.0,1850000,178000,High,PASS,Illustrative fictional data for learning only
+Low-cost manual carts,Mixed,Limited,Light,5,58,1,FAIL,11.0,65000,8000,None,FAIL,Illustrative fictional data for learning only

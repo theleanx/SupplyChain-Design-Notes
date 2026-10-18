@@ -1,0 +1,7 @@
+lane,mode,base_forecast_units_week,promotion_adjustment_units_week,required_capacity_units_week,reserved_capacity_units_week,capacity_gap_units_week,procurement_lead_time_days,distance_km,density_score_5,stowability_score_5,handling_score_5,liability_score_5,backhaul_opportunity,readiness,notes
+Cedar-Metro West,Motor,780,120,900,940,40,21,1280,4,4,3,3,High,PASS,Illustrative fictional data for learning only
+Cedar-Harbor East,Rail+Motor,520,80,600,640,40,28,2140,4,4,2,2,Medium,PASS,Illustrative fictional data for learning only
+Mesa-Coastal,Motor,410,0,410,430,20,14,860,3,4,3,2,High,PASS,Illustrative fictional data for learning only
+Harbor East-Island,Water+Motor,260,45,305,330,25,35,3650,4,4,2,3,Low,PASS,Illustrative fictional data for learning only
+Cedar-Airport,Air,72,18,90,100,10,10,1420,5,5,4,5,Medium,PASS,Illustrative fictional data for learning only
+Supplier Bay-Cedar,Intermodal,610,95,705,690,-15,24,2750,4,3,3,3,High,SHORT,Illustrative fictional data for learning only

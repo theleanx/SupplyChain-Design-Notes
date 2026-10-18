@@ -39,8 +39,16 @@
 - [x] Add the Pinehaven integrated operations-stabilization capstone
 - [x] Complete source separation, calculation, visual, navigation, completeness, and originality review
 
+## Module 5 — Forward and Reverse Logistics
+
+- [x] Complete Sections A–D
+- [x] Connect logistics strategy, warehousing, distribution services, fulfillment, transportation, trade, reverse logistics, and waste decisions
+- [x] Add 54 original SVGs, 16 fictional datasets, reproducible calculations, and standardized knowledge checks
+- [x] Add the HarborPeak network, trade, and reverse-flow stabilization capstone
+- [x] Complete data/calculation, visual, navigation, originality, regulatory-freshness, and integration change-control review
+
 ## Future modules
-- [ ] Forward and reverse logistics
+
 - [ ] Supply-chain relationships
 - [ ] Supply-chain risk
 - [ ] Optimization and sustainability
@@ -52,8 +60,10 @@ Future module folders will be published only when substantive content is ready.
 - [x] Cross-module glossary
 - [x] Forecasting calculations reference
 - [x] Network and performance calculations reference
+- [x] Sourcing and procurement calculations reference
 - [x] Internal operations and inventory calculations reference
-- [x] Four end-to-end case studies
+- [x] Logistics, trade, and reverse-flow calculations/control reference
+- [x] Five end-to-end case studies
 - [ ] Commonly confused concepts index
 - [ ] Framework library
 - [ ] Cumulative knowledge review
@@ -65,4 +75,4 @@ Future module folders will be published only when substantive content is ready.
 
 ## Current status
 
-Modules 1–4 are complete. Future modules will follow the same full-release gate before they appear on the default branch.
+Modules 1–5 are complete. Future modules will follow the same full-release gate before they appear on the default branch.

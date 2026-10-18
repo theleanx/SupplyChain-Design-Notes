@@ -1,0 +1,5 @@
+case_id,product_line,units_returned,return_credits_usd,reverse_transport_usd,processing_handling_usd,repair_parts_usd,reverse_warehousing_usd,disposal_compliance_usd,resale_liquidation_revenue_usd,repair_fee_revenue_usd,recycling_revenue_usd,restocking_fee_revenue_usd,incentive_value_usd,estimated_warranty_sales_uplift_usd
+RC-01,controllers,900,120000,22000,18000,28000,9000,3000,78000,19000,6000,8000,2000,110000
+RC-02,sensor kits,1440,168000,31500,24600,42000,12800,5600,102000,27000,9200,6000,0,88000
+RC-03,battery modules,504,74000,18500,14600,27200,6200,15400,33000,8200,26500,0,4500,52000
+RC-04,drive assemblies,1560,245000,42000,38500,86500,19000,7600,211000,43000,18000,12500,3000,147000

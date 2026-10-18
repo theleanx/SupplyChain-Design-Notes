@@ -35,6 +35,11 @@ This glossary provides concise working definitions for terms used across the rep
 
 ## C
 
+**Carrier class** — structural category describing a carrier's service model and operating scope; use structural fit before provider-price ranking.
+
+**Cross-docking** — movement of qualifying inbound goods toward outbound flow with little or no storage between receipt and shipment.
+
+
 **Capacity** — The output a resource, work center, facility, or supply network can produce during a defined period.
 
 **Capacity requirements planning (CRP)** — A detailed, time-phased check of work-center load created by planned and released orders against available capacity.
@@ -91,6 +96,9 @@ This glossary provides concise working definitions for terms used across the rep
 
 ## F
 
+**Freight forwarder** — intermediary that arranges transportation and related shipment services; exact authority and licensing depend on jurisdiction and service.
+
+
 **Fill rate** — The percentage of requested demand fulfilled immediately from available supply, usually measured by units, lines, or orders.
 
 **First-pass yield** — The proportion of units that complete a process correctly without rework, repair, or repeat processing.
@@ -107,9 +115,17 @@ This glossary provides concise working definitions for terms used across the rep
 
 ## H
 
+**Harmonized System (HS)** — international goods-classification nomenclature used as the basis for customs tariff and trade-statistics systems; country tariff schedules may extend the common classification.
+
+
 **Hybrid strategy** — An operations strategy that combines level output, capacity adjustments, inventory, backlog, external supply, or demand shaping.
 
 ## I
+
+**Incoterms®** — ICC trade rules used in contracts to allocate specified delivery obligations, costs, and risks between seller and buyer; they do not by themselves settle every issue such as title or payment.
+
+**International freight forwarder** — intermediary coordinating international cargo movement from origin toward the foreign customer or destination network.
+
 
 **Integration** — The controlled exchange of data or actions among applications, organizations, or processes.
 
@@ -166,6 +182,9 @@ This glossary provides concise working definitions for terms used across the rep
 
 ## N
 
+**Non-vessel-operating common carrier (NVOCC)** — intermediary/carrier model that can contract for transportation capacity without operating the ocean vessel itself; legal definitions and authority are jurisdiction-specific.
+
+
 **New-product introduction (NPI)** — The coordinated process of preparing a new product for commercial launch and operational execution.
 
 ## O
@@ -200,6 +219,11 @@ This glossary provides concise working definitions for terms used across the rep
 **Purchase order** — An authorized commercial document stating the item or service, quantity, price, delivery, payment, and applicable execution terms.
 
 ## R
+
+**Reverse logistics** — controlled reverse movement and processing of products/materials for returns, repair, refurbishment, remanufacture, reuse, recycling, recovery, or disposition.
+
+**Reverse supply chain** — the network, processes, information, cash, and physical flows used to move and control products/materials after or back from consumption/use.
+
 
 **Random variation** — Demand movement that cannot be explained reliably by known patterns or drivers.
 
@@ -249,6 +273,9 @@ This glossary provides concise working definitions for terms used across the rep
 
 ## T
 
+**Trade bloc** — agreement or regional arrangement intended to reduce or restructure trade barriers among participating economies, subject to its current legal terms and product rules.
+
+
 **Tracking signal** — A ratio comparing cumulative forecast error with MAD to identify sustained bias.
 
 **Takt time** — Available production time divided by customer demand, representing the pace required to match demand; it is not the same as actual cycle time.
@@ -278,6 +305,11 @@ This glossary provides concise working definitions for terms used across the rep
 
 ## W
 
+**Waste exchange** — arrangement or market mechanism that connects a waste/by-product generator with a party that can beneficially use the material.
+
+**Waste hierarchy** — priority sequence that favors prevention/reduction first, then reuse, recycling, energy recovery where appropriate, and disposal last.
+
+
 **Warehouse management system (WMS)** — An application that directs and records receiving, storage, picking, packing, and shipping activity within a facility.
 
 **Working capital** — Short-term operating resources and obligations; supply-chain analysis often focuses on inventory, receivables, and payables.
@@ -285,4 +317,4 @@ This glossary provides concise working definitions for terms used across the rep
 **Work center** — A defined production resource or group of similar resources used for scheduling, routing, load, and capacity control.
 
 
-For deeper treatment, open the [Module 1 overview](./01-supply-chains-demand-forecasting/README.md), [Module 2 overview](./02-network-design-digital-connectivity-performance/README.md), [Module 3 overview](./03-sourcing-strategy-product-design-supplier-execution/README.md), [Module 4 overview](./04-internal-operations-inventory/README.md), or choose a [role-based learning path](./LEARNING-PATHS.md).
+For deeper treatment, open the [Module 1 overview](./01-supply-chains-demand-forecasting/README.md), [Module 2 overview](./02-network-design-digital-connectivity-performance/README.md), [Module 3 overview](./03-sourcing-strategy-product-design-supplier-execution/README.md), [Module 4 overview](./04-internal-operations-inventory/README.md), [Module 5 overview](./05-forward-reverse-logistics/README.md), or choose a [role-based learning path](./LEARNING-PATHS.md).
