@@ -1,6 +1,5 @@
-<PARSED TEXT FOR SHEET: 1 / 1 TABS
-TAB NAME: carrier-options.csv>index,carrier_option,carrier_class,service_obligation,geographic_scope,rate_usd_shipment,control_score_5,liability_score_5,equipment_fit_score_5,backhaul_score_5,niche_restriction,availability_score_5,structural_gate,notes
-0,Atlas Common Freight,Common,Public service,National,1840,3,4,4,4,,5,PASS,Illustrative fictional data for learning only
-1,HarborPeak Private Fleet,Private,HarborPeak only,Regional,2050,5,4,5,2,Fleet geography,4,PASS,Illustrative fictional data for learning only
-2,Summit Contract Carriage,Contract,Contracted customers,Multi-region,1710,4,4,5,4,Contract scope,4,PASS,Illustrative fictional data for learning only
-3,AgriLocal Exempt,Exempt,Niche/local,Local,1390,2,2,2,3,Commodity/geography limits,2,FAIL,Illustrative fictional data for learning only
+carrier_option,carrier_class,service_obligation,geographic_scope,rate_usd_shipment,control_score_5,liability_score_5,equipment_fit_score_5,backhaul_score_5,niche_restriction,availability_score_5,structural_gate,notes
+Atlas Common Freight,Common,Public service,National,1840,3,4,4,4,None,5,PASS,Illustrative fictional data for learning only
+HarborPeak Private Fleet,Private,HarborPeak only,Regional,2050,5,4,5,2,Fleet geography,4,PASS,Illustrative fictional data for learning only
+Summit Contract Carriage,Contract,Contracted customers,Multi-region,1710,4,4,5,4,Contract scope,4,PASS,Illustrative fictional data for learning only
+AgriLocal Exempt,Exempt,Niche/local,Local,1390,2,2,2,3,Commodity/geography limits,2,FAIL,Illustrative fictional data for learning only

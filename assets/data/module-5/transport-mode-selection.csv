@@ -1,10 +1,9 @@
-<PARSED TEXT FOR SHEET: 1 / 1 TABS
-TAB NAME: transport-mode-selection.csv>index,shipment,product,cargo_value_usd,packed_volume_m3,units,weight_kg,required_days,damage_sensitivity_5,security_need_5,mode,linehaul_estimate_usd,accessibility_score_5,reliability_score_5,intermodal_legs,value_density_usd_m3,packaging_density_units_m3,service_gate,notes
-0,SHP-501,Smart controller,96000,3.2,160,480,2,5,5,Air,5400,5,5,1,30000.0,50.0,PASS,Illustrative fictional data for learning only
-1,SHP-501,Smart controller,96000,3.2,160,480,2,5,5,Motor,2450,4,4,1,30000.0,50.0,WATCH,Illustrative fictional data for learning only
-2,SHP-502,Cordless drill kits,52000,12.5,250,980,5,4,4,Motor,3300,5,4,1,4160.0,20.0,PASS,Illustrative fictional data for learning only
-3,SHP-502,Cordless drill kits,52000,12.5,250,980,5,4,4,Rail+Motor,2150,4,4,2,4160.0,20.0,PASS,Illustrative fictional data for learning only
-4,SHP-503,Steel tool stands,7800,9.8,48,1550,8,2,2,Motor,1850,5,4,1,795.92,4.9,PASS,Illustrative fictional data for learning only
-5,SHP-503,Steel tool stands,7800,9.8,48,1550,8,2,2,Rail+Motor,1280,4,3,2,795.92,4.9,WATCH,Illustrative fictional data for learning only
-6,SHP-504,Replacement batteries,74000,4.4,220,710,3,5,5,Air,6200,5,5,1,16818.18,50.0,PASS,Illustrative fictional data for learning only
-7,SHP-504,Replacement batteries,74000,4.4,220,710,3,5,5,Motor,2760,4,4,1,16818.18,50.0,PASS,Illustrative fictional data for learning only
+shipment,product,cargo_value_usd,packed_volume_m3,units,weight_kg,required_days,damage_sensitivity_5,security_need_5,mode,linehaul_estimate_usd,accessibility_score_5,reliability_score_5,intermodal_legs,value_density_usd_m3,packaging_density_units_m3,service_gate,notes
+SHP-501,Smart controller,96000,3.2,160,480,2,5,5,Air,5400,5,5,1,30000.0,50.0,PASS,Illustrative fictional data for learning only
+SHP-501,Smart controller,96000,3.2,160,480,2,5,5,Motor,2450,4,4,1,30000.0,50.0,WATCH,Illustrative fictional data for learning only
+SHP-502,Cordless drill kits,52000,12.5,250,980,5,4,4,Motor,3300,5,4,1,4160.0,20.0,PASS,Illustrative fictional data for learning only
+SHP-502,Cordless drill kits,52000,12.5,250,980,5,4,4,Rail+Motor,2150,4,4,2,4160.0,20.0,PASS,Illustrative fictional data for learning only
+SHP-503,Steel tool stands,7800,9.8,48,1550,8,2,2,Motor,1850,5,4,1,795.92,4.9,PASS,Illustrative fictional data for learning only
+SHP-503,Steel tool stands,7800,9.8,48,1550,8,2,2,Rail+Motor,1280,4,3,2,795.92,4.9,WATCH,Illustrative fictional data for learning only
+SHP-504,Replacement batteries,74000,4.4,220,710,3,5,5,Air,6200,5,5,1,16818.18,50.0,PASS,Illustrative fictional data for learning only
+SHP-504,Replacement batteries,74000,4.4,220,710,3,5,5,Motor,2760,4,4,1,16818.18,50.0,PASS,Illustrative fictional data for learning only

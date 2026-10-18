@@ -1,6 +1,5 @@
-<PARSED TEXT FOR SHEET: 1 / 1 TABS
-TAB NAME: distribution-networks.csv>index,network_option,intermediaries,order_owner,inventory_owner,ship_from_node,customer_delivery_path,inventory_days,transport_cost_order_usd,response_time_days,scalability_score_5,service_gate,notes
-0,Manufacturer-DC-customer,Regional DC,HarborPeak,HarborPeak,Regional DC,DC -> customer,24,22.4,2.1,4,PASS,Illustrative fictional data for learning only
-1,Manufacturer-retailer-customer,Retailer,Retailer,Retailer/HarborPeak,Retail DC/store,Plant -> retailer -> customer,31,18.7,1.9,5,PASS,Illustrative fictional data for learning only
-2,Drop ship,Digital storefront only,HarborPeak,Supplier,Supplier,Supplier -> customer,9,29.8,5.4,4,WATCH,Illustrative fictional data for learning only
-3,Direct plant delivery,,HarborPeak,HarborPeak,Plant,Plant -> key account,17,41.5,2.7,2,PASS,Illustrative fictional data for learning only
+network_option,intermediaries,order_owner,inventory_owner,ship_from_node,customer_delivery_path,inventory_days,transport_cost_order_usd,response_time_days,scalability_score_5,service_gate,notes
+Manufacturer-DC-customer,Regional DC,HarborPeak,HarborPeak,Regional DC,DC -> customer,24,22.4,2.1,4,PASS,Illustrative fictional data for learning only
+Manufacturer-retailer-customer,Retailer,Retailer,Retailer/HarborPeak,Retail DC/store,Plant -> retailer -> customer,31,18.7,1.9,5,PASS,Illustrative fictional data for learning only
+Drop ship,Digital storefront only,HarborPeak,Supplier,Supplier,Supplier -> customer,9,29.8,5.4,4,WATCH,Illustrative fictional data for learning only
+Direct plant delivery,None,HarborPeak,HarborPeak,Plant,Plant -> key account,17,41.5,2.7,2,PASS,Illustrative fictional data for learning only

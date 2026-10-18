@@ -1,6 +1,5 @@
-<PARSED TEXT FOR SHEET: 1 / 1 TABS
-TAB NAME: logistics-strategy.csv>index,option,service_target_pct,transport_cost,warehouse_cost,inventory_cost,failure_exposure_cost,provider_model,control_score_5,technology_capability_5,capability_gate,contract_exit_flag,notes,total_logistics_cost
-0,HarborPeak internal network,98.5,4380000,2860000,1410000,320000,Internal,5,4,PASS,,Illustrative fictional data for learning only,8970000
-1,BlueHarbor 3PL regional,98.5,4050000,2410000,1520000,410000,3PL,3,4,PASS,PASS,Illustrative fictional data for learning only,8390000
-2,Northstar 4PL orchestrated,98.5,3920000,2320000,1470000,360000,4PL,4,5,PASS,PASS,Illustrative fictional data for learning only,8070000
-3,BudgetFreight 3PL basic,96.0,3510000,2200000,1580000,610000,3PL,2,2,FAIL,PASS,Illustrative fictional data for learning only,7900000
+option,service_target_pct,transport_cost,warehouse_cost,inventory_cost,failure_exposure_cost,provider_model,control_score_5,technology_capability_5,capability_gate,contract_exit_flag,notes,total_logistics_cost
+HarborPeak internal network,98.5,4380000,2860000,1410000,320000,Internal,5,4,PASS,N/A,Illustrative fictional data for learning only,8970000
+BlueHarbor 3PL regional,98.5,4050000,2410000,1520000,410000,3PL,3,4,PASS,PASS,Illustrative fictional data for learning only,8390000
+Northstar 4PL orchestrated,98.5,3920000,2320000,1470000,360000,4PL,4,5,PASS,PASS,Illustrative fictional data for learning only,8070000
+BudgetFreight 3PL basic,96.0,3510000,2200000,1580000,610000,3PL,2,2,FAIL,PASS,Illustrative fictional data for learning only,7900000

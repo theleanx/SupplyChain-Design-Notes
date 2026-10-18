@@ -1,7 +1,6 @@
-<PARSED TEXT FOR SHEET: 1 / 1 TABS
-TAB NAME: warehouse-capacity.csv>index,year,forecast_inventory_cube_m3,pallet_length_m,pallet_width_m,loaded_height_m,cube_per_pallet_m3,partial_pallet_factor,base_bays,adjusted_bays,pallet_floor_footprint_m2,movement_aisle_factor,vertical_storage_levels,target_utilization,bulk_storage_allowance_m2,raw_inventory_footprint_m2,handling_adjusted_footprint_m2,vertical_adjusted_area_m2,required_core_area_m2,required_total_area_m2,notes
-0,2027,7600,1.2,1.0,1.35,1.62,1.1,4691.36,5160.49,1.2,2.85,4,0.82,520,6192.59,17648.89,4412.22,5380.76,5900.76,Illustrative fictional data for learning only
-1,2028,8350,1.2,1.0,1.35,1.62,1.1,5154.32,5669.75,1.2,2.85,4,0.82,540,6803.7,19390.56,4847.64,5911.75,6451.75,Illustrative fictional data for learning only
-2,2029,9200,1.2,1.0,1.35,1.62,1.11,5679.01,6303.7,1.2,2.9,4,0.82,570,7564.44,21936.89,5484.22,6688.08,7258.08,Illustrative fictional data for learning only
-3,2030,10100,1.2,1.0,1.35,1.62,1.12,6234.57,6982.72,1.2,2.95,4,0.81,610,8379.26,24718.81,6179.7,7629.26,8239.26,Illustrative fictional data for learning only
-4,2031,11150,1.2,1.0,1.35,1.62,1.12,6882.72,7708.64,1.2,3.0,5,0.8,650,9250.37,27751.11,5550.22,6937.78,7587.78,Illustrative fictional data for learning only
+year,forecast_inventory_cube_m3,pallet_length_m,pallet_width_m,loaded_height_m,cube_per_pallet_m3,partial_pallet_factor,base_bays,adjusted_bays,pallet_floor_footprint_m2,movement_aisle_factor,vertical_storage_levels,target_utilization,bulk_storage_allowance_m2,raw_inventory_footprint_m2,handling_adjusted_footprint_m2,vertical_adjusted_area_m2,required_core_area_m2,required_total_area_m2,notes
+2027,7600,1.2,1.0,1.35,1.62,1.1,4691.36,5160.49,1.2,2.85,4,0.82,520,6192.59,17648.89,4412.22,5380.76,5900.76,Illustrative fictional data for learning only
+2028,8350,1.2,1.0,1.35,1.62,1.1,5154.32,5669.75,1.2,2.85,4,0.82,540,6803.7,19390.56,4847.64,5911.75,6451.75,Illustrative fictional data for learning only
+2029,9200,1.2,1.0,1.35,1.62,1.11,5679.01,6303.7,1.2,2.9,4,0.82,570,7564.44,21936.89,5484.22,6688.08,7258.08,Illustrative fictional data for learning only
+2030,10100,1.2,1.0,1.35,1.62,1.12,6234.57,6982.72,1.2,2.95,4,0.81,610,8379.26,24718.81,6179.7,7629.26,8239.26,Illustrative fictional data for learning only
+2031,11150,1.2,1.0,1.35,1.62,1.12,6882.72,7708.64,1.2,3.0,5,0.8,650,9250.37,27751.11,5550.22,6937.78,7587.78,Illustrative fictional data for learning only
