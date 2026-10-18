@@ -1,0 +1,7 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: border-cost-classification-cases.csv>index,case_id,product,synthetic_training_classification,training_customs_value_usd,training_duty_rate_decimal,training_import_tax_rate_decimal,international_freight_usd,broker_and_entry_fees_usd,expected_training_duty_usd,expected_training_import_tax_usd,expected_training_landed_cost_usd
+0,BC-01,Servo drive assembly,SIM-85-01-10,82000,0.035,0.0,4100,1280,2870.0,0.0,90250.0
+1,BC-02,Hydraulic manifold,SIM-84-02-20,46500,0.052,0.0,2800,760,2418.0,0.0,52478.0
+2,BC-03,Machine guarding kit,SIM-73-03-30,119000,0.028,0.0,6200,1900,3332.0,0.0,130432.0
+3,BC-04,Sensor module,SIM-90-04-40,28800,0.041,0.0,1850,420,1180.8,0.0,32250.8
+4,BC-05,Control enclosure,SIM-85-05-50,63500,0.047,0.0,3600,930,2984.5,0.0,71014.5

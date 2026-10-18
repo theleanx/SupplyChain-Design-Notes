@@ -1,0 +1,7 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: fulfillment-strategies.csv>index,strategy,order_channel,service_output,inventory_nodes,parcel_capability_5,retailer_flow,annual_capital_cost_usd,handling_intensity_5,avg_lead_time_days,service_score_5,flexibility_score_5,service_gate,notes
+0,Integrated national DC,B2B + e-commerce,Broad assortment,1,4,DC to customer/retailer,1350000,3,3.2,4,3,PASS,Illustrative fictional data for learning only
+1,Dedicated e-commerce DC,E-commerce,Fast parcel,1,5,Direct parcel,980000,5,1.4,5,4,PASS,Illustrative fictional data for learning only
+2,Regional pooled inventory,B2B + e-commerce,Regional speed,3,5,Regional DC to customer,1880000,4,1.7,5,5,PASS,Illustrative fictional data for learning only
+3,Ship from store/service depot,E-commerce,Local same/next day,8,3,Depot/store to customer,760000,5,1.1,4,5,PASS,Illustrative fictional data for learning only
+4,Supplier drop ship,Long-tail e-commerce,Assortment extension,0,3,Supplier direct to customer,260000,1,5.8,2,4,FAIL,Illustrative fictional data for learning only
