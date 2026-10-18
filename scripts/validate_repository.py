@@ -220,6 +220,7 @@ MODULE_6_DATASET_LINKS = {
     "section-a-customer-relationships/05-contact-channel-strategy-and-cost-to-serve-trade-offs.md": "customer-channel-preferences.csv",
     "section-a-customer-relationships/06-customer-information-voc-business-intelligence-and-data-warehouses.md": "customer-voc-interactions.csv",
     "section-a-customer-relationships/08-relationship-lifecycle-prospects-vulnerable-loyal-win-back-churn-and-loyalty.md": "customer-lifecycle-accounts.csv",
+    "section-a-customer-relationships/09-lifetime-customer-relationships-and-retention-economics.md": "crm-technology-cases.csv",
     "section-a-customer-relationships/11-crm-technology-architecture-and-customer-data-integration.md": "crm-technology-cases.csv",
     "section-a-customer-relationships/14-customer-service-metrics-satisfaction-feedback-and-service-recovery.md": "customer-service-performance.csv",
     "section-b-supplier-and-supply-chain-relationships/02-supplier-segmentation-and-relationship-fit.md": "supplier-segmentation.csv",
@@ -1614,6 +1615,51 @@ def validate_module_6_calculations() -> list[str]:
     return errors
 
 
+def validate_module_6_assessment_distribution() -> list[str]:
+    """Prevent predictable answer-position bias in Module 6 assessments."""
+    errors: list[str] = []
+
+    def correct_letters(path: Path) -> list[str]:
+        body = path.read_text(encoding="utf-8")
+        return re.findall(
+            r"^### Correct answer\s*\n\s*\*\*([A-D])\.",
+            body,
+            re.MULTILINE,
+        )
+
+    topic_paths = sorted(
+        path
+        for path in MODULE_6.glob("section-*/*.md")
+        if re.match(r"\d{2}-", path.name) and "review" not in path.name
+    )
+    topic_letters = [letter for path in topic_paths for letter in correct_letters(path)]
+    if len(topic_letters) != 32:
+        errors.append(f"Module 6 assessments: expected 32 topic answers, found {len(topic_letters)}")
+    else:
+        counts = {letter: topic_letters.count(letter) for letter in "ABCD"}
+        if any(count < 6 or count > 10 for count in counts.values()):
+            errors.append(f"Module 6 assessments: topic answer positions are imbalanced ({counts})")
+
+    review_paths = sorted(MODULE_6.glob("section-*/*review.md"))
+    review_letters = [letter for path in review_paths for letter in correct_letters(path)]
+    if len(review_letters) != 32:
+        errors.append(f"Module 6 assessments: expected 32 section-review answers, found {len(review_letters)}")
+    else:
+        counts = {letter: review_letters.count(letter) for letter in "ABCD"}
+        if any(count < 6 or count > 10 for count in counts.values()):
+            errors.append(f"Module 6 assessments: section-review answer positions are imbalanced ({counts})")
+
+    capstone_letters = correct_letters(MODULE_6 / "capstone/README.md")
+    if len(capstone_letters) != 5:
+        errors.append(f"Module 6 assessments: expected 5 capstone answers, found {len(capstone_letters)}")
+    else:
+        counts = {letter: capstone_letters.count(letter) for letter in "ABCD"}
+        if set(capstone_letters) != set("ABCD") or max(counts.values()) > 2:
+            errors.append(f"Module 6 assessments: capstone answer positions are imbalanced ({counts})")
+
+    return errors
+
+
 def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], datasets: list[Path]) -> list[str]:
     errors: list[str] = []
     capstone_requirements = {
@@ -1831,6 +1877,7 @@ def main() -> int:
         + validate_module_4_calculations()
         + validate_module_5_calculations()
         + validate_module_6_calculations()
+        + validate_module_6_assessment_distribution()
         + validate_capstones_and_inventory(markdown, svg, datasets)
     )
 

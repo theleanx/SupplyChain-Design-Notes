@@ -104,9 +104,9 @@ If remediation repeatedly fails, the relationship decision may need to escalate 
 
 A. The action is closed because the report was submitted
 
-B. Effectiveness was not demonstrated; the remediation should be reopened or escalated
+B. The supplier score should automatically be set to zero
 
-C. The supplier score should automatically be set to zero
+C. Effectiveness was not demonstrated; the remediation should be reopened or escalated
 
 D. The issue no longer belongs in SRM because quality owns it
 
@@ -115,7 +115,7 @@ D. The issue no longer belongs in SRM because quality owns it
 
 ### Correct answer
 
-**B. Effectiveness was not demonstrated; the remediation should be reopened or escalated**
+**C. Effectiveness was not demonstrated; the remediation should be reopened or escalated**
 
 ### Why it is correct
 
@@ -125,7 +125,7 @@ Closure requires evidence that the corrective action worked. Recurrence indicate
 
 - **A.** Submission is evidence of activity, not proof of effectiveness.
 
-- **C.** A zero score may be arbitrary and does not diagnose or resolve the relationship problem.
+- **B.** A zero score may be arbitrary and does not diagnose or resolve the relationship problem.
 
 - **D.** Quality may own technical analysis, but SRM still owns supplier accountability and relationship consequence.
 

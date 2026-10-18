@@ -109,9 +109,9 @@ This demonstrates why delivery and acknowledgment are not enough. A communicatio
 
 A. Acknowledgment
 
-B. Feedback/understanding verification
+B. The existence of the portal
 
-C. The existence of the portal
+C. Feedback/understanding verification
 
 D. The number of suppliers
 
@@ -120,7 +120,7 @@ D. The number of suppliers
 
 ### Correct answer
 
-**B. Feedback/understanding verification**
+**C. Feedback/understanding verification**
 
 ### Why it is correct
 
@@ -130,7 +130,7 @@ Receipt was acknowledged, but the communication loop did not verify that the sup
 
 - **A.** Acknowledgment succeeded; it only proved receipt.
 
-- **C.** The portal can be an appropriate medium if the feedback control is designed correctly.
+- **B.** The portal can be an appropriate medium if the feedback control is designed correctly.
 
 - **D.** Supplier count is unrelated to the misunderstanding.
 

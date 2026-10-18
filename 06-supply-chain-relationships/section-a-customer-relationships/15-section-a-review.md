@@ -6,9 +6,9 @@ Use these independently authored questions to test customer relationship managem
 
 **Question.** Why is CRM not equivalent to CRM software?
 
-A. Because CRM is only a marketing budget
+A. Because CRM is a relationship operating philosophy that technology may enable
 
-B. Because CRM is a relationship operating philosophy that technology may enable
+B. Because CRM is only a marketing budget
 
 C. Because CRM never uses customer data
 
@@ -19,7 +19,7 @@ D. Because CRM applies only after a customer churns
 
 ### Correct answer
 
-**B. Because CRM is a relationship operating philosophy that technology may enable**
+**A. Because CRM is a relationship operating philosophy that technology may enable**
 
 ### Why it is correct
 
@@ -27,7 +27,7 @@ The relationship model includes customer evidence, ownership, coordinated action
 
 ### Why the other answers are wrong
 
-- **A.** CRM spans more than budget management.
+- **B.** CRM spans more than budget management.
 
 - **C.** Customer data is a core input to CRM.
 
@@ -74,9 +74,9 @@ Module 6 segmentation is useful when it changes how the relationship is managed.
 
 A. Exactly 20% of customers must produce 80% of profit
 
-B. Value may be concentrated, so measure the actual portfolio before prioritizing relationship investment
+B. The bottom 80% should be discontinued
 
-C. The bottom 80% should be discontinued
+C. Value may be concentrated, so measure the actual portfolio before prioritizing relationship investment
 
 D. Pareto replaces profitability analysis
 
@@ -85,7 +85,7 @@ D. Pareto replaces profitability analysis
 
 ### Correct answer
 
-**B. Value may be concentrated, so measure the actual portfolio before prioritizing relationship investment**
+**C. Value may be concentrated, so measure the actual portfolio before prioritizing relationship investment**
 
 ### Why it is correct
 
@@ -95,7 +95,7 @@ Pareto is a concentration lens, not a fixed mathematical rule for every portfoli
 
 - **A.** The exact split is not guaranteed.
 
-- **C.** Lower-value customers still require a viable service proposition.
+- **B.** Lower-value customers still require a viable service proposition.
 
 - **D.** Profitability and other relationship evidence remain necessary.
 
@@ -107,18 +107,18 @@ Pareto is a concentration lens, not a fixed mathematical rule for every portfoli
 
 A. Give both the same contact model
 
-B. Translate the different value profiles into different relationship service propositions
+B. Ignore stated needs and use only internal cost
 
 C. Redesign the factory first
 
-D. Ignore stated needs and use only internal cost
+D. Translate the different value profiles into different relationship service propositions
 
 <details>
 <summary>Answer and rationale</summary>
 
 ### Correct answer
 
-**B. Translate the different value profiles into different relationship service propositions**
+**D. Translate the different value profiles into different relationship service propositions**
 
 ### Why it is correct
 
@@ -130,7 +130,7 @@ The value profile exists to convert customer needs into an appropriate relations
 
 - **C.** Factory design does not answer the relationship-service need.
 
-- **D.** Cost matters, but the treatment must also fit customer value.
+- **B.** Cost matters, but the treatment must also fit customer value.
 
 </details>
 
@@ -138,9 +138,9 @@ The value profile exists to convert customer needs into an appropriate relations
 
 **Question.** What is the distinction between a contact channel and a fulfillment strategy?
 
-A. There is no distinction
+A. A contact channel manages communication/service interaction; fulfillment defines how the physical order is executed
 
-B. A contact channel manages communication/service interaction; fulfillment defines how the physical order is executed
+B. There is no distinction
 
 C. Contact channel is always a warehouse
 
@@ -151,7 +151,7 @@ D. Fulfillment is always an email
 
 ### Correct answer
 
-**B. A contact channel manages communication/service interaction; fulfillment defines how the physical order is executed**
+**A. A contact channel manages communication/service interaction; fulfillment defines how the physical order is executed**
 
 ### Why it is correct
 
@@ -159,7 +159,7 @@ Module 6 owns the relationship/contact path; Module 5 owns physical order fulfil
 
 ### Why the other answers are wrong
 
-- **A.** The decisions can use the same technology but have different purposes.
+- **B.** The decisions can use the same technology but have different purposes.
 
 - **C.** A warehouse is a physical node, not a contact channel.
 
@@ -206,9 +206,9 @@ Direct customer feedback and internal service measures answer different question
 
 A. A segment label alone
 
-B. A defined relationship objective, service intensity, channel, ownership, triggers, and measures
+B. A product price only
 
-C. A product price only
+C. A defined relationship objective, service intensity, channel, ownership, triggers, and measures
 
 D. A larger marketing budget
 
@@ -217,7 +217,7 @@ D. A larger marketing budget
 
 ### Correct answer
 
-**B. A defined relationship objective, service intensity, channel, ownership, triggers, and measures**
+**C. A defined relationship objective, service intensity, channel, ownership, triggers, and measures**
 
 ### Why it is correct
 
@@ -227,7 +227,7 @@ The strategy is the differentiated treatment that follows from the segment.
 
 - **A.** A label without a changed decision creates little value.
 
-- **C.** Price is one possible commercial lever, not the whole relationship strategy.
+- **B.** Price is one possible commercial lever, not the whole relationship strategy.
 
 - **D.** Budget does not define the operating treatment.
 
@@ -239,18 +239,18 @@ The strategy is the differentiated treatment that follows from the segment.
 
 A. A new account acquired halfway through the period
 
-B. An account active at the start of the period
+B. Only accounts with complaints
 
 C. Every prospect in the CRM database
 
-D. Only accounts with complaints
+D. An account active at the start of the period
 
 <details>
 <summary>Answer and rationale</summary>
 
 ### Correct answer
 
-**B. An account active at the start of the period**
+**D. An account active at the start of the period**
 
 ### Why it is correct
 
@@ -262,7 +262,7 @@ The locked training rule uses the starting active-account population as the deno
 
 - **C.** Prospects are not starting active customers.
 
-- **D.** Complaint status is not the denominator rule.
+- **B.** Complaint status is not the denominator rule.
 
 </details>
 
@@ -270,9 +270,9 @@ The locked training rule uses the starting active-account population as the deno
 
 **Question.** What is the strongest lifetime-customer principle?
 
-A. Retain every customer at any cost
+A. Seek sustainable long-run mutual value and diagnose why good-fit customers weaken or leave
 
-B. Seek sustainable long-run mutual value and diagnose why good-fit customers weaken or leave
+B. Retain every customer at any cost
 
 C. Use tenure as proof of profitability
 
@@ -283,7 +283,7 @@ D. Use one universal CLV formula for all companies
 
 ### Correct answer
 
-**B. Seek sustainable long-run mutual value and diagnose why good-fit customers weaken or leave**
+**A. Seek sustainable long-run mutual value and diagnose why good-fit customers weaken or leave**
 
 ### Why it is correct
 
@@ -291,7 +291,7 @@ A lifetime view values retention and learning while still requiring sound econom
 
 ### Why the other answers are wrong
 
-- **A.** Unprofitable or poor-fit relationships may need redesign or exit.
+- **B.** Unprofitable or poor-fit relationships may need redesign or exit.
 
 - **C.** Tenure does not prove profitability.
 
@@ -338,9 +338,9 @@ Cross-functional execution requires one coherent customer outcome and accountabl
 
 A. Ignore the gap because order status lives elsewhere
 
-B. Treat data access as a feasibility problem
+B. Add more marketing automation
 
-C. Add more marketing automation
+C. Treat data access as a feasibility problem
 
 D. Choose the lowest subscription price
 
@@ -349,7 +349,7 @@ D. Choose the lowest subscription price
 
 ### Correct answer
 
-**B. Treat data access as a feasibility problem**
+**C. Treat data access as a feasibility problem**
 
 ### Why it is correct
 
@@ -359,7 +359,7 @@ A mandatory relationship process cannot work without required evidence; feasibil
 
 - **A.** CRM can consume data from another authoritative source.
 
-- **C.** More automation does not repair missing required information.
+- **B.** More automation does not repair missing required information.
 
 - **D.** Low price cannot compensate for a failed capability gate.
 
@@ -369,20 +369,20 @@ A mandatory relationship process cannot work without required evidence; feasibil
 
 **Question.** Which task is the best candidate for full automation?
 
-A. A routine low-risk onboarding reminder with stable rules
+A. Determining whether a disputed churned account should be won back
 
 B. Compensation after a critical service failure
 
 C. Renegotiating a strategic commitment
 
-D. Determining whether a disputed churned account should be won back
+D. A routine low-risk onboarding reminder with stable rules
 
 <details>
 <summary>Answer and rationale</summary>
 
 ### Correct answer
 
-**A. A routine low-risk onboarding reminder with stable rules**
+**D. A routine low-risk onboarding reminder with stable rules**
 
 ### Why it is correct
 
@@ -394,7 +394,7 @@ Stable, repeatable, low-risk tasks are the strongest automation candidates.
 
 - **C.** Negotiation requires human decision rights.
 
-- **D.** A disputed relationship state requires investigation and judgment.
+- **A.** A disputed relationship state requires investigation and judgment.
 
 </details>
 
@@ -402,9 +402,9 @@ Stable, repeatable, low-risk tasks are the strongest automation candidates.
 
 **Question.** A CRM system is live but users maintain the real account process in spreadsheets. What does this indicate?
 
-A. Successful implementation
+A. An adoption/process-design problem
 
-B. An adoption/process-design problem
+B. Successful implementation
 
 C. The need to eliminate customer feedback
 
@@ -415,7 +415,7 @@ D. A product life-cycle issue
 
 ### Correct answer
 
-**B. An adoption/process-design problem**
+**A. An adoption/process-design problem**
 
 ### Why it is correct
 
@@ -423,7 +423,7 @@ Technical go-live does not create value if users do not adopt the governed relat
 
 ### Why the other answers are wrong
 
-- **A.** Availability is only a milestone.
+- **B.** Availability is only a milestone.
 
 - **C.** Customer feedback remains necessary.
 

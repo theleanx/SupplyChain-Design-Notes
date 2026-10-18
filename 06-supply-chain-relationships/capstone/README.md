@@ -162,9 +162,9 @@ A complete submission must:
 
 **Question.** The selected lifecycle sample contains five churned accounts among sixteen accounts that were active at period start. What is the correct interpretation?
 
-A. ClearSpan's enterprise churn rate is 31.25%
+A. The selected diagnostic sample has a 31.25% churn rate; enterprise churn cannot be inferred from this file alone
 
-B. The selected diagnostic sample has a 31.25% churn rate; enterprise churn cannot be inferred from this file alone
+B. ClearSpan's enterprise churn rate is 31.25%
 
 C. Churn should include the four new accounts in the denominator
 
@@ -175,7 +175,7 @@ D. Churn is 68.75% because eleven accounts were retained
 
 ### Correct answer
 
-**B. The selected diagnostic sample has a 31.25% churn rate; enterprise churn cannot be inferred from this file alone.**
+**A. The selected diagnostic sample has a 31.25% churn rate; enterprise churn cannot be inferred from this file alone**
 
 ### Why it is correct
 
@@ -183,7 +183,7 @@ The formula uses accounts active at period start as the denominator, but the dat
 
 ### Why the other answers are wrong
 
-- **A.** It overgeneralizes a sample result to the enterprise.
+- **B.** It overgeneralizes a sample result to the enterprise.
 - **C.** New accounts were not active at period start and therefore do not belong in the churn denominator.
 - **D.** 68.75% is the selected-sample retention rate, not churn.
 
@@ -195,9 +195,9 @@ The formula uses accounts active at period start as the denominator, but the dat
 
 A. Select it because 89/100 is the highest score
 
-B. Average the failed gate into the weighted score
+B. Exclude it from feasible ranking until the IP/security gate is resolved
 
-C. Exclude it from feasible ranking until the IP/security gate is resolved
+C. Average the failed gate into the weighted score
 
 D. Select it only if annual shared value is more than the shared investment
 
@@ -206,7 +206,7 @@ D. Select it only if annual shared value is more than the shared investment
 
 ### Correct answer
 
-**C. Exclude it from feasible ranking until the IP/security gate is resolved.**
+**B. Exclude it from feasible ranking until the IP/security gate is resolved**
 
 ### Why it is correct
 
@@ -215,7 +215,7 @@ The capstone and formula sheet require hard gates to pass before weighted allian
 ### Why the other answers are wrong
 
 - **A.** A high weighted score cannot override a mandatory gate.
-- **B.** Averaging converts a hard requirement into a preference.
+- **C.** Averaging converts a hard requirement into a preference.
 - **D.** Economic attractiveness does not cure the security failure.
 
 </details>
@@ -237,7 +237,7 @@ D. Ignore certification because the supplier is technologically strong
 
 ### Correct answer
 
-**C. Contain the current dependency, remediate certification/performance gaps, and accelerate continuity/alternate qualification work.**
+**C. Contain the current dependency, remediate certification/performance gaps, and accelerate continuity/alternate qualification work**
 
 ### Why it is correct
 
@@ -257,18 +257,18 @@ The relationship must manage both the existing dependency and the failed perform
 
 A. Only annual revenue
 
-B. Direct VOC/complaint evidence and the segment's contact-channel preference
+B. Only the CRM software subscription price
 
 C. Only supplier performance scores
 
-D. Only the CRM software subscription price
+D. Direct VOC/complaint evidence and the segment's contact-channel preference
 
 <details>
 <summary>Answer and rationale</summary>
 
 ### Correct answer
 
-**B. Direct VOC/complaint evidence and the segment's contact-channel preference.**
+**D. Direct VOC/complaint evidence and the segment's contact-channel preference**
 
 ### Why it is correct
 
@@ -278,7 +278,7 @@ Operational service metrics show what happened; VOC and channel evidence help ex
 
 - **A.** Revenue alone does not explain service failure or recovery needs.
 - **C.** Supplier performance may contribute upstream but does not replace direct customer evidence.
-- **D.** Software cost does not define the relationship response.
+- **B.** Software cost does not define the relationship response.
 
 </details>
 
@@ -286,11 +286,11 @@ Operational service metrics show what happened; VOC and channel evidence help ex
 
 **Question.** Cloud CRM Accelerate is economically best at 90% adoption but becomes negative at 70% adoption. What is the strongest governance conclusion?
 
-A. Adoption is an implementation detail and should not change the business case
+A. Adoption is a decision-critical assumption that requires a measured rollout gate and re-evaluation trigger
 
 B. The technology must be selected because it had the best base-case net benefit
 
-C. Adoption is a decision-critical assumption that requires a measured rollout gate and re-evaluation trigger
+C. Adoption is an implementation detail and should not change the business case
 
 D. Replace the feasibility gates with adoption percentage
 
@@ -299,7 +299,7 @@ D. Replace the feasibility gates with adoption percentage
 
 ### Correct answer
 
-**C. Adoption is a decision-critical assumption that requires a measured rollout gate and re-evaluation trigger.**
+**A. Adoption is a decision-critical assumption that requires a measured rollout gate and re-evaluation trigger**
 
 ### Why it is correct
 
@@ -307,7 +307,7 @@ The realized-benefit formula explicitly depends on adoption. A sensitivity that 
 
 ### Why the other answers are wrong
 
-- **A.** It ignores a modeled driver of realized benefit.
+- **C.** It ignores a modeled driver of realized benefit.
 - **B.** Base-case economics are not permanent when a decision-changing assumption moves.
 - **D.** Adoption does not replace process, data, or security feasibility gates.
 

@@ -8,9 +8,9 @@ Use these independently authored questions to test supplier, alliance, collabora
 
 A. The supplier sends many invoices
 
-B. Dependency, criticality, customization, innovation, or risk justify richer relationship management
+B. Every supplier should be a strategic partner
 
-C. Every supplier should be a strategic partner
+C. Dependency, criticality, customization, innovation, or risk justify richer relationship management
 
 D. The supplier uses the same ERP vendor
 
@@ -19,7 +19,7 @@ D. The supplier uses the same ERP vendor
 
 ### Correct answer
 
-**B. Dependency, criticality, customization, innovation, or risk justify richer relationship management**
+**C. Dependency, criticality, customization, innovation, or risk justify richer relationship management**
 
 ### Why it is correct
 
@@ -29,7 +29,7 @@ SRM intensity should fit the role and value/risk of the supplier relationship.
 
 - **A.** Transaction volume is not sufficient.
 
-- **C.** Routine suppliers may be better served transactionally.
+- **B.** Routine suppliers may be better served transactionally.
 
 - **D.** Technology commonality alone does not define relationship depth.
 
@@ -41,18 +41,18 @@ SRM intensity should fit the role and value/risk of the supplier relationship.
 
 A. Packaging is always unimportant
 
-B. The fictional evidence shows very different criticality, risk, customization, lead time, and alternatives
+B. Transactional means poor supplier performance
 
 C. Strategic means highest spend only
 
-D. Transactional means poor supplier performance
+D. The fictional evidence shows very different criticality, risk, customization, lead time, and alternatives
 
 <details>
 <summary>Answer and rationale</summary>
 
 ### Correct answer
 
-**B. The fictional evidence shows very different criticality, risk, customization, lead time, and alternatives**
+**D. The fictional evidence shows very different criticality, risk, customization, lead time, and alternatives**
 
 ### Why it is correct
 
@@ -64,7 +64,7 @@ Supplier segmentation combines relationship-relevant evidence rather than presti
 
 - **C.** Spend is only one possible factor.
 
-- **D.** Transactional describes the appropriate relationship intensity, not supplier quality.
+- **B.** Transactional describes the appropriate relationship intensity, not supplier quality.
 
 </details>
 
@@ -72,9 +72,9 @@ Supplier segmentation combines relationship-relevant evidence rather than presti
 
 **Question.** What is the strongest justification for supplier co-location?
 
-A. The supplier requests office space
+A. A measurable high-value coordination problem can be reduced by proximity and the governance risks are controlled
 
-B. A measurable high-value coordination problem can be reduced by proximity and the governance risks are controlled
+B. The supplier requests office space
 
 C. All strategic suppliers must be co-located
 
@@ -85,7 +85,7 @@ D. Co-location removes IP risk
 
 ### Correct answer
 
-**B. A measurable high-value coordination problem can be reduced by proximity and the governance risks are controlled**
+**A. A measurable high-value coordination problem can be reduced by proximity and the governance risks are controlled**
 
 ### Why it is correct
 
@@ -93,7 +93,7 @@ Deeper integration should solve a real coordination need and account for access,
 
 ### Why the other answers are wrong
 
-- **A.** Convenience alone is not sufficient.
+- **B.** Convenience alone is not sufficient.
 
 - **C.** Strategic suppliers can need different integration depth.
 
@@ -138,11 +138,11 @@ Technology should enable the relationship process, not define it.
 
 **Question.** What best distinguishes the relationship implication of strategic sourcing from tactical buying?
 
-A. Strategic relationships usually require broader information sharing and cross-functional governance when the supply need justifies it
+A. Tactical buying has no controls
 
 B. Strategic sourcing always means sole sourcing
 
-C. Tactical buying has no controls
+C. Strategic relationships usually require broader information sharing and cross-functional governance when the supply need justifies it
 
 D. Strategic sourcing eliminates purchase orders
 
@@ -151,7 +151,7 @@ D. Strategic sourcing eliminates purchase orders
 
 ### Correct answer
 
-**A. Strategic relationships usually require broader information sharing and cross-functional governance when the supply need justifies it**
+**C. Strategic relationships usually require broader information sharing and cross-functional governance when the supply need justifies it**
 
 ### Why it is correct
 
@@ -161,7 +161,7 @@ The key Module 6 distinction is the depth and scope of the ongoing relationship.
 
 - **B.** Source concentration is a separate decision.
 
-- **C.** Tactical buying still requires reliable controls.
+- **A.** Tactical buying still requires reliable controls.
 
 - **D.** Routine transactions may remain part of strategic relationships.
 
@@ -173,18 +173,18 @@ The key Module 6 distinction is the depth and scope of the ongoing relationship.
 
 A. Sole source
 
-B. Single source
+B. Joint venture
 
 C. Multisource
 
-D. Joint venture
+D. Single source
 
 <details>
 <summary>Answer and rationale</summary>
 
 ### Correct answer
 
-**B. Single source**
+**D. Single source**
 
 ### Why it is correct
 
@@ -196,7 +196,7 @@ Single sourcing is a deliberate concentration choice when alternatives exist.
 
 - **C.** Multisourcing uses more than one independent supplier.
 
-- **D.** A joint venture is a collaboration structure.
+- **B.** A joint venture is a collaboration structure.
 
 </details>
 
@@ -204,9 +204,9 @@ Single sourcing is a deliberate concentration choice when alternatives exist.
 
 **Question.** What new risk appears as a relationship moves from narrow transactional contacts to a broad alliance contact network?
 
-A. No one can communicate
+A. Inconsistent commitments can emerge unless decision rights and escalation are defined
 
-B. Inconsistent commitments can emerge unless decision rights and escalation are defined
+B. No one can communicate
 
 C. Performance measurement is no longer needed
 
@@ -217,7 +217,7 @@ D. The supplier automatically becomes certified
 
 ### Correct answer
 
-**B. Inconsistent commitments can emerge unless decision rights and escalation are defined**
+**A. Inconsistent commitments can emerge unless decision rights and escalation are defined**
 
 ### Why it is correct
 
@@ -225,7 +225,7 @@ More direct functional interfaces increase communication richness and governance
 
 ### Why the other answers are wrong
 
-- **A.** The network is intended to increase communication.
+- **B.** The network is intended to increase communication.
 
 - **C.** Deeper relationships usually require stronger measurement.
 
@@ -272,9 +272,9 @@ The locked alliance control applies mandatory gates before ranking.
 
 A. A strong friendship between two executives
 
-B. Shared governance, cross-functional processes, measures, and decision rights that survive personnel changes
+B. A one-time discount
 
-C. A one-time discount
+C. Shared governance, cross-functional processes, measures, and decision rights that survive personnel changes
 
 D. Using the same meeting template
 
@@ -283,7 +283,7 @@ D. Using the same meeting template
 
 ### Correct answer
 
-**B. Shared governance, cross-functional processes, measures, and decision rights that survive personnel changes**
+**C. Shared governance, cross-functional processes, measures, and decision rights that survive personnel changes**
 
 ### Why it is correct
 
@@ -293,7 +293,7 @@ Institutionalization embeds the alliance in organizations rather than relying on
 
 - **A.** Personal trust helps but is fragile if not embedded.
 
-- **C.** A discount is a commercial term.
+- **B.** A discount is a commercial term.
 
 - **D.** A template is not a governance system.
 
@@ -305,18 +305,18 @@ Institutionalization embeds the alliance in organizations rather than relying on
 
 A. Re-run the original supplier selection score every month
 
-B. Assess relationship health as well as business results and adapt before problems become severe
+B. Avoid change
 
 C. Replace formal governance
 
-D. Avoid change
+D. Assess relationship health as well as business results and adapt before problems become severe
 
 <details>
 <summary>Answer and rationale</summary>
 
 ### Correct answer
 
-**B. Assess relationship health as well as business results and adapt before problems become severe**
+**D. Assess relationship health as well as business results and adapt before problems become severe**
 
 ### Why it is correct
 
@@ -328,7 +328,7 @@ Pulse checks create early warning on trust, decision quality, commitment, and co
 
 - **C.** Pulse checks support rather than replace governance.
 
-- **D.** They explicitly help plan for change.
+- **B.** They explicitly help plan for change.
 
 </details>
 
@@ -336,9 +336,9 @@ Pulse checks create early warning on trust, decision quality, commitment, and co
 
 **Question.** Why should a weighted supplier performance score never be the only evidence?
 
-A. Weights are illegal
+A. An aggregate can hide critical weaknesses in delivery, quality, or corrective action
 
-B. An aggregate can hide critical weaknesses in delivery, quality, or corrective action
+B. Weights are illegal
 
 C. Suppliers cannot be compared
 
@@ -349,7 +349,7 @@ D. Only price matters
 
 ### Correct answer
 
-**B. An aggregate can hide critical weaknesses in delivery, quality, or corrective action**
+**A. An aggregate can hide critical weaknesses in delivery, quality, or corrective action**
 
 ### Why it is correct
 
@@ -357,7 +357,7 @@ Component evidence is needed for diagnosis and relationship action.
 
 ### Why the other answers are wrong
 
-- **A.** Weights can be useful when transparently defined.
+- **B.** Weights can be useful when transparently defined.
 
 - **C.** Comparable measures can support review.
 
@@ -404,9 +404,9 @@ Critical gates are separate from the average audit score.
 
 A. When the supplier emails a response
 
-B. When implementation and effectiveness are verified according to the agreed evidence
+B. When the due date passes
 
-C. When the due date passes
+C. When implementation and effectiveness are verified according to the agreed evidence
 
 D. When a buyer stops asking about it
 
@@ -415,7 +415,7 @@ D. When a buyer stops asking about it
 
 ### Correct answer
 
-**B. When implementation and effectiveness are verified according to the agreed evidence**
+**C. When implementation and effectiveness are verified according to the agreed evidence**
 
 ### Why it is correct
 
@@ -425,7 +425,7 @@ Closure requires evidence that the correction worked, not only that activity occ
 
 - **A.** A response is not effectiveness evidence.
 
-- **C.** An overdue date indicates a control problem, not closure.
+- **B.** An overdue date indicates a control problem, not closure.
 
 - **D.** Silence does not resolve the issue.
 
@@ -437,18 +437,18 @@ Closure requires evidence that the correction worked, not only that activity occ
 
 A. Put customer and supplier data in one file
 
-B. Coordinate customer needs and supplier capabilities around feasible end-customer outcomes
+B. Eliminate planning
 
 C. Let suppliers contact every customer directly
 
-D. Eliminate planning
+D. Coordinate customer needs and supplier capabilities around feasible end-customer outcomes
 
 <details>
 <summary>Answer and rationale</summary>
 
 ### Correct answer
 
-**B. Coordinate customer needs and supplier capabilities around feasible end-customer outcomes**
+**D. Coordinate customer needs and supplier capabilities around feasible end-customer outcomes**
 
 ### Why it is correct
 
@@ -460,7 +460,7 @@ The integration is a business operating interface, not a requirement for one dat
 
 - **C.** Information sharing must remain controlled.
 
-- **D.** Planning is a key translation function.
+- **B.** Planning is a key translation function.
 
 </details>
 
@@ -468,9 +468,9 @@ The integration is a business operating interface, not a requirement for one dat
 
 **Question.** Which structure creates a separate entity with shared ownership?
 
-A. Virtual organization
+A. Joint venture
 
-B. Joint venture
+B. Virtual organization
 
 C. Strategic alliance only
 
@@ -481,7 +481,7 @@ D. Transactional buying
 
 ### Correct answer
 
-**B. Joint venture**
+**A. Joint venture**
 
 ### Why it is correct
 
@@ -489,7 +489,7 @@ A joint venture is a separate entity created through shared ownership for a spec
 
 ### Why the other answers are wrong
 
-- **A.** A virtual organization is a network of independent organizations.
+- **B.** A virtual organization is a network of independent organizations.
 
 - **C.** An alliance need not create a separate entity.
 
@@ -536,9 +536,9 @@ Collaboration can fail when local incentives reward behavior that harms the shar
 
 A. There is no difference
 
-B. Acknowledgment confirms receipt; feedback shows understanding or reaction
+B. Feedback is only a system read receipt
 
-C. Feedback is only a system read receipt
+C. Acknowledgment confirms receipt; feedback shows understanding or reaction
 
 D. Acknowledgment proves agreement
 
@@ -547,7 +547,7 @@ D. Acknowledgment proves agreement
 
 ### Correct answer
 
-**B. Acknowledgment confirms receipt; feedback shows understanding or reaction**
+**C. Acknowledgment confirms receipt; feedback shows understanding or reaction**
 
 ### Why it is correct
 
@@ -557,7 +557,7 @@ The communication loop needs feedback when understanding matters.
 
 - **A.** The distinction is central to the communication model.
 
-- **C.** A read receipt is acknowledgment, not meaningful feedback.
+- **B.** A read receipt is acknowledgment, not meaningful feedback.
 
 - **D.** Receipt does not prove agreement.
 
@@ -569,18 +569,18 @@ The communication loop needs feedback when understanding matters.
 
 A. As deterministic rules for individuals
 
-B. As hypotheses that prompt research, respectful questions, local expertise, and adaptation
+B. To avoid direct stakeholder feedback
 
 C. To rank national cultures
 
-D. To avoid direct stakeholder feedback
+D. As hypotheses that prompt research, respectful questions, local expertise, and adaptation
 
 <details>
 <summary>Answer and rationale</summary>
 
 ### Correct answer
 
-**B. As hypotheses that prompt research, respectful questions, local expertise, and adaptation**
+**D. As hypotheses that prompt research, respectful questions, local expertise, and adaptation**
 
 ### Why it is correct
 
@@ -592,7 +592,7 @@ Broad cultural frameworks can prepare teams for possible differences but cannot 
 
 - **C.** The purpose is understanding and adaptation, not ranking.
 
-- **D.** Direct evidence is the most important validation step.
+- **B.** Direct evidence is the most important validation step.
 
 </details>
 

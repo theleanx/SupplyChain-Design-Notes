@@ -105,18 +105,18 @@ A training case can connect the Service Networks OTIF of **86.23%** with repeate
 
 A. Keep the issues separate because CRM and SRM have different owners
 
-B. Create a coordinated end-to-end issue view so customer recovery and supplier remediation use the same verified evidence
+B. Focus only on the supplier score because it is quantitative
 
 C. Tell the customer the supplier is at fault before investigation
 
-D. Focus only on the supplier score because it is quantitative
+D. Create a coordinated end-to-end issue view so customer recovery and supplier remediation use the same verified evidence
 
 <details>
 <summary>Answer and rationale</summary>
 
 ### Correct answer
 
-**B. Create a coordinated end-to-end issue view so customer recovery and supplier remediation use the same verified evidence**
+**D. Create a coordinated end-to-end issue view so customer recovery and supplier remediation use the same verified evidence**
 
 ### Why it is correct
 
@@ -128,7 +128,7 @@ CRM-SRM integration connects downstream customer impact with upstream supplier e
 
 - **C.** External blame without verified cause can damage both relationships and may disclose inappropriate information.
 
-- **D.** Supplier metrics do not replace customer evidence or end-to-end diagnosis.
+- **B.** Supplier metrics do not replace customer evidence or end-to-end diagnosis.
 
 </details>
 

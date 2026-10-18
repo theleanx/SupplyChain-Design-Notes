@@ -16,7 +16,7 @@ Module 6 explanations, examples, datasets, diagrams, calculations, and knowledge
 ## Supplier, technology, and information-risk controls
 
 - NIST Cybersecurity Framework: <https://www.nist.gov/cyberframework>
-- NIST SP 800-161 Rev. 1 — Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations: <https://csrc.nist.gov/pubs/sp/800/161/r1/final>
+- NIST SP 800-161 Rev. 1 (updated 2024-11-01) — Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations: <https://csrc.nist.gov/pubs/sp/800/161/r1/upd1/final>
 
 ## Use rule
 

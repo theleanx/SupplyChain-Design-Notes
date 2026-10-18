@@ -113,18 +113,18 @@ A **cultural dimension** is a comparative framework describing patterns at a bro
 
 A. Predict each individual’s behavior from national averages
 
-B. Use the framework to identify possible differences, then validate preferences with actual stakeholders and local expertise
+B. Require every location to use one communication style regardless of context
 
 C. Avoid discussing culture entirely
 
-D. Require every location to use one communication style regardless of context
+D. Use the framework to identify possible differences, then validate preferences with actual stakeholders and local expertise
 
 <details>
 <summary>Answer and rationale</summary>
 
 ### Correct answer
 
-**B. Use the framework to identify possible differences, then validate preferences with actual stakeholders and local expertise**
+**D. Use the framework to identify possible differences, then validate preferences with actual stakeholders and local expertise**
 
 ### Why it is correct
 
@@ -136,7 +136,7 @@ Cultural frameworks are most useful as starting hypotheses that prompt inquiry a
 
 - **C.** Ignoring culture can leave important communication assumptions unexamined.
 
-- **D.** Uniformity can create misunderstandings when local relationship expectations differ materially.
+- **B.** Uniformity can create misunderstandings when local relationship expectations differ materially.
 
 </details>
 
