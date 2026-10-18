@@ -1,6 +1,17 @@
 # Section C: Performance Measurement and Financial Insight
 
-Section C builds a measurement system that connects strategy, customer outcomes, operational behavior, financial performance, resilience, and sustainability.
+Section C builds a measurement system for fictional **AsterWorks Equipment** that connects strategy, customer outcomes, operational behavior, financial performance, resilience, and sustainability.
+
+## Learning outcomes
+
+After completing Section C, you should be able to:
+
+- translate strategy and process ownership into a compact metric hierarchy;
+- distinguish dashboards, scorecards, benchmarks, and review cadence;
+- calculate and interpret customer-service, speed, reliability, agility, cost, productivity, working-capital, and asset measures;
+- connect operational results to financial statements, standard-cost variances, and return on assets;
+- evaluate supplier financial health and customer credit exposure; and
+- use measures to diagnose trade-offs rather than optimize one local metric in isolation.
 
 ## Learning path
 
@@ -22,6 +33,20 @@ Section C builds a measurement system that connects strategy, customer outcomes,
 16. [Operational quality, capacity, and maintenance](16-operational-quality-capacity-and-maintenance.md)
 17. [Section C review](17-section-c-review.md)
 
-## Section deliverable
+## Working data and visuals
 
-By the end of this section, you should be able to define a compact metric tree, calculate its major measures, diagnose trade-offs, and explain the financial consequence of an operational change.
+- [`customer-service-metrics.csv`](../../assets/data/module-2/section-c/customer-service-metrics.csv)
+- [`working-capital.csv`](../../assets/data/module-2/section-c/working-capital.csv)
+- [`supplier-health.csv`](../../assets/data/module-2/section-c/supplier-health.csv)
+- [`operations-scorecard.csv`](../../assets/data/module-2/section-c/operations-scorecard.csv)
+- [Network and performance formula sheet](../../calculations/network-performance/formula-sheet.md)
+
+The datasets and visuals support metric trees, financial bridges, diagnostic comparisons, and decision reviews.
+
+## How to study the section
+
+For each metric, identify the decision owner, numerator/denominator, time horizon, data source, target behavior, and potential gaming risk. Then connect an operational movement to its customer and financial consequence.
+
+---
+
+[Start Section C](./01-measurement-system-design.md)

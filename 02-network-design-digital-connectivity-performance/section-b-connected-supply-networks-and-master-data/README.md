@@ -1,6 +1,17 @@
 # Section B: Connected Supply Networks and Master Data
 
-Section B explains how transaction platforms, planning applications, execution systems, integration services, partner connectivity, cybersecurity, and governed master data work together to create usable end-to-end visibility.
+Section B explains how transaction platforms, planning applications, execution systems, integration services, partner connectivity, cybersecurity, and governed master data work together to create usable end-to-end visibility for fictional **AsterWorks Equipment**.
+
+## Learning outcomes
+
+After completing Section B, you should be able to:
+
+- distinguish core transaction platforms from specialized planning, execution, visibility, and analytics capabilities;
+- design integration and event patterns that move information with the required latency and control;
+- connect WMS, TMS, control-tower, partner, and digital-commerce processes into an end-to-end digital thread;
+- define legal, privacy, cybersecurity, and third-party controls for shared information;
+- govern master-data domains, lifecycle, identification, traceability, and data quality; and
+- convert exceptions and analytics into owned operational decisions.
 
 ## Learning path
 
@@ -24,6 +35,18 @@ Section B explains how transaction platforms, planning applications, execution s
 18. [Decision support, analytics, and AI](18-decision-support-analytics-and-ai.md)
 19. [Section B review](19-section-b-review.md)
 
-## Section deliverable
+## Working data and visuals
 
-By the end of this section, you should be able to sketch an application and data architecture, explain the role of each layer, define critical data controls, and design an exception-to-decision workflow.
+- [`network-exceptions.csv`](../../assets/data/module-2/section-b/network-exceptions.csv) — exception-management and control-tower decisions
+- [`transport-lanes.csv`](../../assets/data/module-2/section-b/transport-lanes.csv) — transportation execution and visibility evidence
+- [`master-data-quality.csv`](../../assets/data/module-2/section-b/master-data-quality.csv) — quality, stewardship, and cleansing controls
+
+The section uses process flows and decision visuals to separate architecture, information movement, control, and data-governance decisions.
+
+## How to study the section
+
+Trace one order or exception through the application landscape: system of record → integration/event → execution or partner action → governed master data → decision owner. At every step, identify the required evidence, latency, security boundary, and recovery path.
+
+---
+
+[Start Section B](./01-application-landscape-and-digital-thread.md)

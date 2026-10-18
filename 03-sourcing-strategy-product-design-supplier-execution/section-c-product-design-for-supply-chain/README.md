@@ -1,6 +1,17 @@
 # Section C: Product Design for Supply Chain
 
-This section develops a cross-functional design review that connects customer value with sourcing, manufacturing, logistics, service, quality, customization, and circularity.
+Section C develops a cross-functional design review for fictional **Rivermark Climate Systems** that connects customer value with sourcing, manufacturing, logistics, service, quality, customization, and circularity.
+
+## Learning outcomes
+
+After completing Section C, you should be able to:
+
+- treat product design as a supply-chain economic and risk lever;
+- involve suppliers and operations early enough to influence lifecycle outcomes;
+- evaluate standardization, commonality, modularity, simplification, DFMA, and serviceability choices;
+- translate customer and quality requirements into robust design decisions;
+- compare postponement, customization, and localization alternatives; and
+- incorporate circularity and end-of-life consequences before the design is locked.
 
 ## Learning path
 
@@ -15,6 +26,16 @@ This section develops a cross-functional design review that connects customer va
 9. [Circular and Sustainable Design](./09-circular-and-sustainable-design.md)
 10. [Section C review](./10-section-c-review.md)
 
-## Section deliverable
+## Working data and visuals
 
-By the end of this section, you should be able to prepare a cross-functional design review that connects customer value with sourcing, manufacturing, logistics, service, quality, customization, and circularity.
+- [`design-alternatives.csv`](../../assets/data/module-3/section-c/design-alternatives.csv)
+
+Topic visuals and process flows connect design alternatives to sourcing, production, logistics, service, validation, and lifecycle consequences.
+
+## How to study the section
+
+Evaluate each design decision across the full lifecycle rather than optimizing one function. Use the same evidence set to ask what changes in cost, complexity, risk, customer value, serviceability, and end-of-life options.
+
+---
+
+[Start Section C](./01-design-as-economic-lever.md)
