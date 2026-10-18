@@ -1630,7 +1630,8 @@ def validate_module_6_assessment_distribution() -> list[str]:
     topic_paths = sorted(
         path
         for path in MODULE_6.glob("section-*/*.md")
-        if re.match(r"\d{2}-", path.name) and "review" not in path.name
+        if re.match(r"\d{2}-", path.name)
+        and not re.match(r"\d{2}-section-[a-z]-review\.md$", path.name)
     )
     topic_letters = [letter for path in topic_paths for letter in correct_letters(path)]
     if len(topic_letters) != 32:
@@ -1640,7 +1641,10 @@ def validate_module_6_assessment_distribution() -> list[str]:
         if any(count < 6 or count > 10 for count in counts.values()):
             errors.append(f"Module 6 assessments: topic answer positions are imbalanced ({counts})")
 
-    review_paths = sorted(MODULE_6.glob("section-*/*review.md"))
+    review_paths = [
+        MODULE_6 / "section-a-customer-relationships/15-section-a-review.md",
+        MODULE_6 / "section-b-supplier-and-supply-chain-relationships/19-section-b-review.md",
+    ]
     review_letters = [letter for path in review_paths for letter in correct_letters(path)]
     if len(review_letters) != 32:
         errors.append(f"Module 6 assessments: expected 32 section-review answers, found {len(review_letters)}")
