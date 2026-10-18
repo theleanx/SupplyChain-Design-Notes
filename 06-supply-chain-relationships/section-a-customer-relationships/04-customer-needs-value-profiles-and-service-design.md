@@ -98,18 +98,18 @@ A **value profile** in this lesson describes what a customer segment values in t
 
 A. Give both segments the same high-touch service to ensure fairness
 
-B. Translate the different needs into distinct relationship service propositions
+B. Use revenue alone to decide which channel customers must accept
 
 C. Redesign warehouse locations before changing the contact model
 
-D. Use revenue alone to decide which channel customers must accept
+D. Translate the different needs into distinct relationship service propositions
 
 <details>
 <summary>Answer and rationale</summary>
 
 ### Correct answer
 
-**B. Translate the different needs into distinct relationship service propositions**
+**D. Translate the different needs into distinct relationship service propositions**
 
 ### Why it is correct
 
@@ -121,7 +121,7 @@ The value profile exists to convert customer needs into differentiated relations
 
 - **C.** Warehouse design is a logistics decision and does not answer the contact/service relationship need.
 
-- **D.** Revenue alone does not establish the right service proposition or preferred channel.
+- **B.** Revenue alone does not establish the right service proposition or preferred channel.
 
 </details>
 

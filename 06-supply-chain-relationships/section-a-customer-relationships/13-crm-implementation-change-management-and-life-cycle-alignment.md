@@ -99,9 +99,9 @@ Use an implementation control sheet with five gates: **process fit, data readine
 
 **Question.** A CRM system is technically live, but users keep customer notes outside the system because the new workflow adds unnecessary steps. What is the best interpretation?
 
-A. Implementation is complete because the system is available
+A. The program has an adoption/process-design problem that threatens realized relationship value
 
-B. The program has an adoption/process-design problem that threatens realized relationship value
+B. Implementation is complete because the system is available
 
 C. The customers must change their behavior to fit the system
 
@@ -112,7 +112,7 @@ D. The solution should add more mandatory fields before any review
 
 ### Correct answer
 
-**B. The program has an adoption/process-design problem that threatens realized relationship value**
+**A. The program has an adoption/process-design problem that threatens realized relationship value**
 
 ### Why it is correct
 
@@ -120,7 +120,7 @@ CRM value depends on the operating process being usable and adopted. Technical a
 
 ### Why the other answers are wrong
 
-- **A.** Go-live is an implementation milestone, not the business outcome.
+- **B.** Go-live is an implementation milestone, not the business outcome.
 
 - **C.** Customer centricity does not mean forcing customers to compensate for poor internal design.
 

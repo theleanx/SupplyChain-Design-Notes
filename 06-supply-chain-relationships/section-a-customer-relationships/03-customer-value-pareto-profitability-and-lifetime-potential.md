@@ -106,9 +106,9 @@ The **Pareto effect** is a pattern of concentration, not a customer-lifetime-val
 
 A. Rank only by revenue because it is objective
 
-B. Evaluate profitability, service criticality, and future relationship potential together
+B. Apply an exact 80/20 rule and remove support from the bottom 80 percent
 
-C. Apply an exact 80/20 rule and remove support from the bottom 80 percent
+C. Evaluate profitability, service criticality, and future relationship potential together
 
 D. Move all customers into the same service tier to avoid bias
 
@@ -117,7 +117,7 @@ D. Move all customers into the same service tier to avoid bias
 
 ### Correct answer
 
-**B. Evaluate profitability, service criticality, and future relationship potential together**
+**C. Evaluate profitability, service criticality, and future relationship potential together**
 
 ### Why it is correct
 
@@ -127,7 +127,7 @@ Customer value is multidimensional. Revenue alone can hide strong margin contrib
 
 - **A.** Revenue is useful but incomplete.
 
-- **C.** Pareto is a lens, not a mandatory 80/20 allocation rule.
+- **B.** Pareto is a lens, not a mandatory 80/20 allocation rule.
 
 - **D.** Uniform treatment can over-serve some customers and under-serve others.
 

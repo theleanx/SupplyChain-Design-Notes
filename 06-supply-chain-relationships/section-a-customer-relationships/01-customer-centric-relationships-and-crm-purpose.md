@@ -96,9 +96,9 @@ The dataset is not a recommendation that all companies use these exact tiers. It
 
 **Question.** A strategic OEM tells ClearSpan that it receives different promised dates from sales and customer service. Which response best reflects CRM as an operating philosophy?
 
-A. Add another field to the CRM screen and leave ownership unchanged
+A. Create one relationship promise process with an accountable owner and shared exception evidence
 
-B. Create one relationship promise process with an accountable owner and shared exception evidence
+B. Add another field to the CRM screen and leave ownership unchanged
 
 C. Ask operations to stop sharing dates with customer-facing teams
 
@@ -109,7 +109,7 @@ D. Give every customer a dedicated executive sponsor
 
 ### Correct answer
 
-**B. Create one relationship promise process with an accountable owner and shared exception evidence**
+**A. Create one relationship promise process with an accountable owner and shared exception evidence**
 
 ### Why it is correct
 
@@ -117,7 +117,7 @@ The problem is inconsistent cross-functional relationship management. A shared p
 
 ### Why the other answers are wrong
 
-- **A.** A technology field does not resolve conflicting decision rights or accountability.
+- **B.** A technology field does not resolve conflicting decision rights or accountability.
 
 - **C.** Removing operational evidence would make promises less reliable, not more customer-centric.
 

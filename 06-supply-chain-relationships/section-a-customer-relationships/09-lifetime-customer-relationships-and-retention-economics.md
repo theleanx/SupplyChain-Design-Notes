@@ -103,9 +103,9 @@ The formula/control sheet calculates realized benefit from annual labor savings 
 
 **Question.** ClearSpan has a long-standing account that requires frequent expensive exceptions and produces declining margin. What does a lifetime-customer perspective imply?
 
-A. Retain the account at any cost because tenure proves loyalty
+A. Evaluate mutual value and redesign the treatment if the relationship is no longer sustainable
 
-B. Evaluate mutual value and redesign the treatment if the relationship is no longer sustainable
+B. Retain the account at any cost because tenure proves loyalty
 
 C. Ignore service cost because acquisition has already been paid
 
@@ -116,7 +116,7 @@ D. Offer the largest discount available before diagnosing the problem
 
 ### Correct answer
 
-**B. Evaluate mutual value and redesign the treatment if the relationship is no longer sustainable**
+**A. Evaluate mutual value and redesign the treatment if the relationship is no longer sustainable**
 
 ### Why it is correct
 
@@ -124,7 +124,7 @@ Lifetime relationship management seeks sustainable long-run value, not unconditi
 
 ### Why the other answers are wrong
 
-- **A.** Tenure alone does not make a relationship profitable or strategically appropriate.
+- **B.** Tenure alone does not make a relationship profitable or strategically appropriate.
 
 - **C.** Ongoing service cost is part of relationship economics.
 

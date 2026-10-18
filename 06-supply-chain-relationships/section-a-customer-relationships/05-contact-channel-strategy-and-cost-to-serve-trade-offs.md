@@ -104,9 +104,9 @@ A **contact channel** is how the relationship communicates or provides service. 
 
 **Question.** ClearSpan wants to reduce service cost for Digital SMB customers, but some complex technical incidents cannot be resolved in the portal. Which design is strongest?
 
-A. Require portal use for every interaction with no exception
+A. Use the portal as the primary channel with an assisted escalation path for complex incidents
 
-B. Use the portal as the primary channel with an assisted escalation path for complex incidents
+B. Require portal use for every interaction with no exception
 
 C. Move all Digital SMB customers to field representatives
 
@@ -117,7 +117,7 @@ D. Redesign the distribution network instead of the service channel
 
 ### Correct answer
 
-**B. Use the portal as the primary channel with an assisted escalation path for complex incidents**
+**A. Use the portal as the primary channel with an assisted escalation path for complex incidents**
 
 ### Why it is correct
 
@@ -125,7 +125,7 @@ The design captures the scale benefit of self-service while preserving a richer 
 
 ### Why the other answers are wrong
 
-- **A.** A rigid channel can increase failure and repeat contacts when the task is unsuitable.
+- **B.** A rigid channel can increase failure and repeat contacts when the task is unsuitable.
 
 - **C.** High-touch service for every interaction would likely destroy the segment economics and contradict the preference evidence.
 

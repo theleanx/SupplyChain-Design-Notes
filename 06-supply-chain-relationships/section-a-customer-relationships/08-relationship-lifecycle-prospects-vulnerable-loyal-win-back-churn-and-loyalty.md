@@ -110,18 +110,18 @@ The useful artifact is a **relationship-state register** containing account, cur
 
 A. Only the new customer
 
-B. Only the account active at the start of the year
+B. Neither account because churn is only a revenue metric
 
 C. Both accounts because both are in the CRM system
 
-D. Neither account because churn is only a revenue metric
+D. Only the account active at the start of the year
 
 <details>
 <summary>Answer and rationale</summary>
 
 ### Correct answer
 
-**B. Only the account active at the start of the year**
+**D. Only the account active at the start of the year**
 
 ### Why it is correct
 
@@ -133,7 +133,7 @@ The training churn calculation uses accounts active at the start of the period a
 
 - **C.** Presence in the CRM system is not the denominator rule.
 
-- **D.** Churn is a relationship-status outcome in this training model, not simply a revenue variance.
+- **B.** Churn is a relationship-status outcome in this training model, not simply a revenue variance.
 
 </details>
 

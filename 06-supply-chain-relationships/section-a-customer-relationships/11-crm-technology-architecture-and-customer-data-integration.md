@@ -99,9 +99,9 @@ A **CRM architecture** is the relationship-capability view of customer data, wor
 
 A. Select it because the feature score is highest
 
-B. Treat the data-access failure as a feasibility problem before economic ranking
+B. Ask customer service to maintain a separate spreadsheet permanently
 
-C. Ask customer service to maintain a separate spreadsheet permanently
+C. Treat the data-access failure as a feasibility problem before economic ranking
 
 D. Ignore order status because it belongs to another system
 
@@ -110,7 +110,7 @@ D. Ignore order status because it belongs to another system
 
 ### Correct answer
 
-**B. Treat the data-access failure as a feasibility problem before economic ranking**
+**C. Treat the data-access failure as a feasibility problem before economic ranking**
 
 ### Why it is correct
 
@@ -120,7 +120,7 @@ If a required relationship process cannot access necessary evidence, the solutio
 
 - **A.** Features cannot compensate for a mandatory capability gap.
 
-- **C.** A permanent manual workaround recreates fragmentation and control risk.
+- **B.** A permanent manual workaround recreates fragmentation and control risk.
 
 - **D.** CRM may consume order status even when another system is the authoritative source.
 

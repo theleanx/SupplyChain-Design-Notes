@@ -110,9 +110,9 @@ A **segment** is the group; a **CRM segment strategy** is the differentiated rel
 
 A. Assign a label and keep the same service process for everyone
 
-B. Define the segment-specific relationship objective, channel, service intensity, ownership, triggers, and measures
+B. Replace all account managers with automation
 
-C. Replace all account managers with automation
+C. Define the segment-specific relationship objective, channel, service intensity, ownership, triggers, and measures
 
 D. Use the Four Ps without any customer relationship evidence
 
@@ -121,7 +121,7 @@ D. Use the Four Ps without any customer relationship evidence
 
 ### Correct answer
 
-**B. Define the segment-specific relationship objective, channel, service intensity, ownership, triggers, and measures**
+**C. Define the segment-specific relationship objective, channel, service intensity, ownership, triggers, and measures**
 
 ### Why it is correct
 
@@ -131,7 +131,7 @@ CRM segment strategy is the operating treatment that follows from the segment. I
 
 - **A.** A label with no treatment difference creates little operating value.
 
-- **C.** Automation is one possible enabler, not a universal relationship strategy.
+- **B.** Automation is one possible enabler, not a universal relationship strategy.
 
 - **D.** Commercial levers should follow customer evidence rather than substitute for it.
 

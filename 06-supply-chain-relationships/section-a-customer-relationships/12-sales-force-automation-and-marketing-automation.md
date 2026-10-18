@@ -107,20 +107,20 @@ The architecture case with the best modeled economics still requires these busin
 
 **Question.** Which ClearSpan activity is the strongest candidate for fully automated execution?
 
-A. A standardized onboarding reminder for a low-risk Digital SMB account
+A. A decision to classify a major account as a win-back target after a disputed churn event
 
 B. A compensation decision for a strategic account after a critical service failure
 
 C. A renegotiation of a long-term customer commitment
 
-D. A decision to classify a major account as a win-back target after a disputed churn event
+D. A standardized onboarding reminder for a low-risk Digital SMB account
 
 <details>
 <summary>Answer and rationale</summary>
 
 ### Correct answer
 
-**A. A standardized onboarding reminder for a low-risk Digital SMB account**
+**D. A standardized onboarding reminder for a low-risk Digital SMB account**
 
 ### Why it is correct
 
@@ -132,7 +132,7 @@ The task is repeatable, rule-based, and comparatively low risk. The other choice
 
 - **C.** Commitment renegotiation requires human decision rights and negotiation.
 
-- **D.** A disputed churn event should be diagnosed before automated win-back action.
+- **A.** A disputed churn event should be diagnosed before automated win-back action.
 
 </details>
 
