@@ -36,16 +36,18 @@ After completing this module, you should be able to:
 - [Module 6 public reference register](REFERENCES.md)
 - [Section A SVG decision visuals](../assets/diagrams/module-6/section-a/)
 - [Section B SVG decision visuals](../assets/diagrams/module-6/section-b/)
+- [Repository learning paths](../LEARNING-PATHS.md)
+- [Repository glossary](../GLOSSARY.md)
 
 ## Cross-module handoffs
 
 Module 6 consumes rather than reteaches the decision methods already established in Modules 1–5:
 
-- **Module 1** owns demand management, the Four Ps, product/service life-cycle planning, and supply-demand alignment. Module 6 uses those outputs to shape customer relationship treatment.
-- **Module 2** owns enterprise information architecture, integration patterns, analytics, measurement-system design, and broad technology business cases. Module 6 uses those capabilities to enable CRM/SRM and relationship evidence.
-- **Module 3** owns category strategy, supplier selection, sourcing events, contracting, and procurement execution. Module 6 begins after or alongside those choices and governs the continuing customer/supplier relationship.
-- **Module 4** owns formal quality and continuous-improvement methods. Module 6 uses corrective-action evidence and supplier/customer feedback without reteaching DMAIC or quality-tool mechanics.
-- **Module 5** owns physical logistics, fulfillment, transportation, trade, and reverse-flow execution. Module 6 uses service and relationship evidence to influence those operating choices without duplicating execution design.
+- [**Module 1**](../01-supply-chains-demand-forecasting/README.md) owns demand management, the Four Ps, product/service life-cycle planning, and supply-demand alignment. Module 6 uses those outputs to shape customer relationship treatment.
+- [**Module 2**](../02-network-design-digital-connectivity-performance/README.md) owns enterprise information architecture, integration patterns, analytics, measurement-system design, and broad technology business cases. Module 6 uses those capabilities to enable CRM/SRM and relationship evidence.
+- [**Module 3**](../03-sourcing-strategy-product-design-supplier-execution/README.md) owns category strategy, supplier selection, sourcing events, contracting, and procurement execution. Module 6 begins after or alongside those choices and governs the continuing customer/supplier relationship.
+- [**Module 4**](../04-internal-operations-inventory/README.md) owns formal quality and continuous-improvement methods. Module 6 uses corrective-action evidence and supplier/customer feedback without reteaching DMAIC or quality-tool mechanics.
+- [**Module 5**](../05-forward-reverse-logistics/README.md) owns physical logistics, fulfillment, transportation, trade, and reverse-flow execution. Module 6 uses service and relationship evidence to influence those operating choices without duplicating execution design.
 
 ## How each lesson is structured
 

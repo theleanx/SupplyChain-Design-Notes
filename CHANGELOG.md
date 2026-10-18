@@ -2,6 +2,21 @@
 
 Significant public improvements to this repository are recorded here.
 
+## Version 6.0.1 — Modules 1–6 synchronization
+
+Release target: 2026-10-18
+
+### Cross-module alignment
+
+- Synchronizes all six module overviews so each completed module links explicitly to the other five through its cross-module handoff section.
+- Adds the shared repository learning-path and glossary links to Modules 4–6 so every module exposes the same core navigation resources.
+- Updates the repository summary language so customer and supplier relationship management is represented alongside demand, sourcing, operations, logistics, and performance.
+
+### Durable quality controls
+
+- Extends the shared repository validator to require every completed module overview to retain the learning-path link, glossary link, and bidirectional links to every other completed module.
+- Preserves all lesson content, datasets, calculations, visuals, knowledge checks, capstones, and module inventory counts unchanged.
+
 ## Version 6.0.0 — Module 6
 
 Release target: 2026-10-18

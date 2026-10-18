@@ -35,7 +35,7 @@ After completing this module, you should be able to:
 
 ## Cross-module handoffs
 
-Module 1 defines the demand, service, planning, and supply–demand alignment context used by every later module. Module 2 converts that context into network, technology, data, and performance choices; Module 3 converts it into sourcing, product-design, supplier, and procurement decisions; Module 4 converts it into executable planning, capacity, inventory, and improvement controls; and Module 5 extends it into forward logistics, trade execution, returns, recovery, and end-of-life flow.
+Module 1 defines the demand, service, planning, and supply–demand alignment context used by every later module. [Module 2](../02-network-design-digital-connectivity-performance/README.md) converts that context into network, technology, data, and performance choices; [Module 3](../03-sourcing-strategy-product-design-supplier-execution/README.md) converts it into sourcing, product-design, supplier, and procurement decisions; [Module 4](../04-internal-operations-inventory/README.md) converts it into executable planning, capacity, inventory, and improvement controls; [Module 5](../05-forward-reverse-logistics/README.md) extends it into forward logistics, trade execution, returns, recovery, and end-of-life flow; and [Module 6](../06-supply-chain-relationships/README.md) uses its demand, service, life-cycle, and planning outputs to shape customer and supplier relationship decisions.
 
 ## How each lesson is structured
 

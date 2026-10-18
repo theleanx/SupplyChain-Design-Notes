@@ -316,6 +316,21 @@ def validate_module_overviews_and_reviews() -> list[str]:
         if "status:" not in module_body.lower() or "complete" not in module_body.lower():
             errors.append(f"{module.name}/README.md: module status must explicitly state completion")
 
+        for required_resource in ("../LEARNING-PATHS.md", "../GLOSSARY.md"):
+            if required_resource not in module_body:
+                errors.append(
+                    f"{module.name}/README.md: missing shared repository resource link ({required_resource})"
+                )
+
+        for other_module, _ in MODULES.values():
+            if other_module == module:
+                continue
+            target = f"../{other_module.name}/README.md"
+            if target not in module_body:
+                errors.append(
+                    f"{module.name}/README.md: missing cross-module handoff link ({target})"
+                )
+
         section_dirs = sorted(path for path in module.glob("section-*") if path.is_dir())
         if not section_dirs:
             errors.append(f"{label}: no section directories found")

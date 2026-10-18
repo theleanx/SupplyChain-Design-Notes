@@ -37,10 +37,12 @@ After completing this module, you should be able to:
 - [Module 5 public reference register](REFERENCES.md)
 - [Trade-specific freshness references](section-c-trade-considerations/REFERENCES.md)
 - [Reverse-flow regulatory references](section-d-reverse-flow/REFERENCES.md)
+- [Repository learning paths](../LEARNING-PATHS.md)
+- [Repository glossary](../GLOSSARY.md)
 
 ## Cross-module handoffs
 
-Module 5 builds on the demand and planning context in Module 1, the network/technology/performance decisions in Module 2, sourcing and supplier execution in Module 3, and inventory/capacity/continuous-improvement controls in Module 4. It extends those decisions into physical distribution, cross-border execution, customer returns, recovery, and end-of-life flow.
+Module 5 builds on the demand and planning context in [Module 1](../01-supply-chains-demand-forecasting/README.md), the network/technology/performance decisions in [Module 2](../02-network-design-digital-connectivity-performance/README.md), sourcing and supplier execution in [Module 3](../03-sourcing-strategy-product-design-supplier-execution/README.md), and inventory/capacity/continuous-improvement controls in [Module 4](../04-internal-operations-inventory/README.md). It extends those decisions into physical distribution, cross-border execution, customer returns, recovery, and end-of-life flow; [Module 6](../06-supply-chain-relationships/README.md) then uses service, communication, supplier, recovery, and partner evidence from that execution to govern ongoing customer and supplier relationships.
 
 ## How each lesson is structured
 
