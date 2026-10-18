@@ -38,6 +38,28 @@ The visual rule is deliberately **appropriate, not identical**: a conceptual top
 not need a decorative process flow, and a process topic cannot substitute a conceptual
 picture for its operating sequence.
 
+## Shared overview contract
+
+Module and section overview pages use the same navigation contract so learners do not have to relearn the repository structure when moving between modules.
+
+Every module overview contains:
+
+- learning outcomes;
+- the module path;
+- module resources;
+- cross-module handoffs;
+- an explanation of how lessons are structured; and
+- a factual module snapshot.
+
+Every section overview contains:
+
+- learning outcomes;
+- the ordered learning path;
+- working data and visuals; and
+- guidance on how to study the section.
+
+Regulatory or time-sensitive sections may add a freshness checkpoint. Section reviews may vary in length with section scope, but every completed section has one review with at least ten original answer-and-rationale blocks and an explicit completion/readiness checkpoint.
+
 ## Shared capstone contract
 
 Each module must end with one integrated fictional decision that connects all sections.

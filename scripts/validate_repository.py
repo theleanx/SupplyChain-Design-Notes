@@ -79,14 +79,52 @@ MODULE_3_DATASET_LINKS = {
 }
 SHARED_REQUIRED_HEADINGS = (
     "Learning objectives",
+    "Concept in plain English",
     "Why it matters",
     "Decision logic",
     "Trade-offs",
+    "Commonly confused with",
     "Common mistakes",
     "Original knowledge check",
     "Practitioner perspective",
     "Related concepts",
 )
+MODULE_OVERVIEW_REQUIRED_HEADINGS = (
+    "Learning outcomes",
+    "Module path",
+    "Module resources",
+    "Cross-module handoffs",
+    "How each lesson is structured",
+    "Module snapshot",
+)
+SECTION_OVERVIEW_REQUIRED_HEADINGS = (
+    "Learning outcomes",
+    "Learning path",
+    "Working data and visuals",
+    "How to study the section",
+)
+MODULE_RESOURCE_INDEXES = {
+    MODULE_1: (
+        ROOT / "assets/data/module-1/README.md",
+        ROOT / "calculations/forecasting/README.md",
+    ),
+    MODULE_2: (
+        ROOT / "assets/data/module-2/README.md",
+        ROOT / "calculations/network-performance/README.md",
+    ),
+    MODULE_3: (
+        ROOT / "assets/data/module-3/README.md",
+        ROOT / "calculations/sourcing-procurement/README.md",
+    ),
+    MODULE_4: (
+        ROOT / "assets/data/module-4/README.md",
+        ROOT / "calculations/internal-operations/README.md",
+    ),
+    MODULE_5: (
+        ROOT / "assets/data/module-5/README.md",
+        ROOT / "calculations/logistics-trade-reverse/README.md",
+    ),
+}
 MODULE_1_DATASET_LINKS = {
     "section-d-forecasting/04-seasonality-deseasonalizing-reseasonalizing.md": "northstar-seasonal-demand.csv",
     "section-d-forecasting/05-moving-averages-and-exponential-smoothing.md": "forecast-method-comparison.csv",
@@ -206,6 +244,72 @@ def has_heading(body: str, heading: str) -> bool:
     )
 
 
+
+def validate_module_overviews_and_reviews() -> list[str]:
+    """Keep module/section navigation and assessment scaffolding aligned across releases."""
+    errors: list[str] = []
+
+    for label, (module, _) in MODULES.items():
+        module_readme = module / "README.md"
+        if not module_readme.exists():
+            errors.append(f"{label}: missing module overview")
+            continue
+
+        module_body = module_readme.read_text(encoding="utf-8")
+        for heading in MODULE_OVERVIEW_REQUIRED_HEADINGS:
+            if not has_heading(module_body, heading):
+                errors.append(f"{module.name}/README.md: missing aligned overview section (## {heading})")
+
+        if "status:" not in module_body.lower() or "complete" not in module_body.lower():
+            errors.append(f"{module.name}/README.md: module status must explicitly state completion")
+
+        section_dirs = sorted(path for path in module.glob("section-*") if path.is_dir())
+        if not section_dirs:
+            errors.append(f"{label}: no section directories found")
+
+        for section in section_dirs:
+            section_readme = section / "README.md"
+            if not section_readme.exists():
+                errors.append(f"{section.relative_to(ROOT)}: missing section overview")
+                continue
+
+            section_body = section_readme.read_text(encoding="utf-8")
+            for heading in SECTION_OVERVIEW_REQUIRED_HEADINGS:
+                if not has_heading(section_body, heading):
+                    errors.append(
+                        f"{section_readme.relative_to(ROOT)}: missing aligned section overview (## {heading})"
+                    )
+
+            review_files = sorted(section.glob("*-section-*-review.md"))
+            if len(review_files) != 1:
+                errors.append(
+                    f"{section.relative_to(ROOT)}: expected exactly one section review, found {len(review_files)}"
+                )
+                continue
+
+            review_body = review_files[0].read_text(encoding="utf-8")
+            if review_body.count("<details>") < 10:
+                errors.append(
+                    f"{review_files[0].relative_to(ROOT)}: section review requires at least 10 answer blocks"
+                )
+            if not re.search(
+                r"^## (?:.*completion.*|readiness check|final self-check|final checklist|final memory anchors|module completion step)\s*$",
+                review_body,
+                re.MULTILINE | re.IGNORECASE,
+            ):
+                errors.append(
+                    f"{review_files[0].relative_to(ROOT)}: missing completion/readiness checkpoint"
+                )
+
+        for resource_index in MODULE_RESOURCE_INDEXES[module]:
+            if not resource_index.exists():
+                errors.append(
+                    f"{label}: missing shared resource index ({resource_index.relative_to(ROOT)})"
+                )
+
+    return errors
+
+
 def validate_shared_module_content() -> list[str]:
     """Apply the same minimum lesson contract to every completed module."""
     errors: list[str] = []
@@ -273,13 +377,19 @@ def validate_shared_module_content() -> list[str]:
                     f"{relative}: process flow requires a directed flowchart with at least three transitions"
                 )
 
-            if module in (MODULE_1, MODULE_2):
-                if not has_heading(body, "Evidence retained through the workflow"):
-                    errors.append(f"{relative}: missing decision-evidence record")
-                if not has_heading(body, "Applied decision artifact"):
-                    errors.append(f"{relative}: missing reusable applied decision artifact")
-            elif "### Evidence retained through the workflow" not in body:
+            if not re.search(
+                r"^#{2,3} Evidence retained through the workflow\s*$",
+                body,
+                re.MULTILINE | re.IGNORECASE,
+            ):
                 errors.append(f"{relative}: missing workflow evidence")
+
+            if not re.search(
+                r"^## (?:Applied|Worked) .+",
+                body,
+                re.MULTILINE | re.IGNORECASE,
+            ):
+                errors.append(f"{relative}: missing reusable applied decision or worked-calculation section")
 
             if not re.search(r"\b(example|northstar|asterworks|rivermark|pinehaven|harborpeak)\b", body, re.IGNORECASE):
                 errors.append(f"{relative}: missing fictional applied example")
@@ -1372,6 +1482,7 @@ def main() -> int:
     link_count, markdown_errors = validate_markdown(markdown)
     errors = (
         markdown_errors
+        + validate_module_overviews_and_reviews()
         + validate_shared_module_content()
         + validate_svg(svg)
         + validate_csv(datasets)
