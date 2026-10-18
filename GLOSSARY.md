@@ -313,11 +313,11 @@ This glossary provides concise working definitions for terms used across the rep
 
 **Total cost of ownership** — The relevant acquisition, transition, logistics, inventory, quality, administration, risk, use, service, and disposition consequences evaluated over a stated horizon.
 
+## V
+
 **Value flow** — The progression through which activities, capabilities, and exchanges increase usefulness for the customer and participating organizations.
 
 **Vertical integration** — Ownership or control of additional upstream or downstream stages in a value chain.
-
-## V
 
 **Voice of the customer (VOC)** — Direct customer descriptions, feedback, observations, or interactions used to understand requirements, expectations, satisfaction, and improvement needs.
 
