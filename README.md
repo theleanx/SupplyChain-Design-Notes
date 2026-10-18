@@ -1,6 +1,6 @@
 # Supply Chain Design Notes
 
-Independent, practitioner-oriented learning notes for designing supply networks, planning demand, connecting operations, moving goods, managing reverse flow, and measuring performance.
+Independent, practitioner-oriented learning notes for designing supply networks, planning demand, sourcing and operating supply, moving goods, managing customer and supplier relationships, and measuring performance.
 
 > **Current release:** Modules 1–6 are complete. The learning pages use original explanations, fictional examples, editable visuals, worked calculations, and independently authored knowledge checks.
 

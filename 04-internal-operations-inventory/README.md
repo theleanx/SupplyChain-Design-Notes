@@ -34,10 +34,12 @@ After completing this module, you should be able to:
 - [Internal Operations and Inventory formula sheet](../calculations/internal-operations/formula-sheet.md)
 - [Module 4 fictional datasets](../assets/data/module-4/README.md)
 - [Module 4 reference register](REFERENCES.md)
+- [Repository learning paths](../LEARNING-PATHS.md)
+- [Repository glossary](../GLOSSARY.md)
 
 ## Cross-module handoffs
 
-Module 4 receives demand, forecasting, and supply–demand alignment decisions from Module 1; network, visibility, and performance context from Module 2; and sourcing, supplier, contract, and product-design decisions from Module 3. It converts those upstream decisions into executable production, capacity, inventory, control, and improvement actions.
+Module 4 receives demand, forecasting, and supply–demand alignment decisions from [Module 1](../01-supply-chains-demand-forecasting/README.md); network, visibility, and performance context from [Module 2](../02-network-design-digital-connectivity-performance/README.md); and sourcing, supplier, contract, and product-design decisions from [Module 3](../03-sourcing-strategy-product-design-supplier-execution/README.md). It converts those upstream decisions into executable production, capacity, inventory, control, and improvement actions that become physical-flow inputs to [Module 5](../05-forward-reverse-logistics/README.md) and performance/corrective-action evidence for customer and supplier relationship governance in [Module 6](../06-supply-chain-relationships/README.md).
 
 ## How each lesson is structured
 
