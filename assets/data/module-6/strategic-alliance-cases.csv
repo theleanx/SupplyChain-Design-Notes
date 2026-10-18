@@ -1,0 +1,6 @@
+case_id,alliance_name,strategy_fit_gate,ethics_compliance_gate,financial_viability_gate,ip_security_gate,capacity_continuity_gate,annual_shared_value_usd,shared_investment_usd,value_add_score,market_access_score,operations_strength_score,technology_strength_score,strategic_growth_score,learning_score,financial_strength_score,weighted_alliance_score_0_to_100,feasibility_gate,feasible_rank
+AL-01,NorthRiver Joint Innovation,PASS,PASS,PASS,PASS,PASS,850000,400000,5,3,4,5,5,4,4,88.0,PASS,1
+AL-02,BlueMesa Co-Development,PASS,PASS,PASS,FAIL,PASS,1050000,550000,5,4,4,5,5,5,3,89.0,FAIL,
+AL-03,Apex Regional Capacity Alliance,PASS,PASS,PASS,PASS,PASS,720000,310000,4,3,5,4,4,4,4,81.0,PASS,3
+AL-04,Summit Connected Services Alliance,PASS,PASS,PASS,PASS,PASS,910000,460000,4,5,3,5,5,5,4,87.0,PASS,2
+AL-05,LowCost Consortium,FAIL,PASS,PASS,PASS,PASS,640000,180000,3,4,5,2,2,2,5,66.0,FAIL,

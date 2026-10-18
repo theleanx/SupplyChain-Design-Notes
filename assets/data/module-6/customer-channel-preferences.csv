@@ -1,0 +1,6 @@
+segment_id,segment_name,respondents,portal_count,email_count,phone_chat_count,field_rep_count,portal_pct,email_pct,phone_chat_pct,field_rep_pct,dominant_channel,dominant_channel_pct
+SEG-A,Strategic OEM,120,18,30,6,66,15.0,25.0,5.0,55.0,Field representative,55.0
+SEG-B,Growth Distributors,160,72,56,16,16,45.0,35.0,10.0,10.0,Portal,45.0
+SEG-C,Service Networks,180,54,45,72,9,30.0,25.0,40.0,5.0,Phone / chat,40.0
+SEG-D,Digital SMB,260,182,52,21,5,70.0,20.0,8.08,1.92,Portal,70.0
+SEG-E,Projects / New Logos,90,9,27,9,45,10.0,30.0,10.0,50.0,Field representative,50.0

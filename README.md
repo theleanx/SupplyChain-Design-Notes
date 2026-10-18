@@ -2,7 +2,7 @@
 
 Independent, practitioner-oriented learning notes for designing supply networks, planning demand, connecting operations, moving goods, managing reverse flow, and measuring performance.
 
-> **Current release:** Modules 1–5 are complete. The learning pages use original explanations, fictional examples, editable visuals, worked calculations, and independently authored knowledge checks.
+> **Current release:** Modules 1–6 are complete. The learning pages use original explanations, fictional examples, editable visuals, worked calculations, and independently authored knowledge checks.
 
 ## Start here
 
@@ -13,6 +13,7 @@ Independent, practitioner-oriented learning notes for designing supply networks,
 | 3 | Sourcing strategy, category management, product design, supplier selection, contracting, and procurement | [Sourcing Strategy, Product Design, and Supplier Execution](./03-sourcing-strategy-product-design-supplier-execution/) |
 | 4 | Internal operations, master scheduling, MRP, capacity, inventory, quality, and continuous improvement | [Internal Operations and Inventory](./04-internal-operations-inventory/) |
 | 5 | Logistics, warehousing, fulfillment, transportation, international trade, returns, reverse logistics, and waste | [Forward and Reverse Logistics](./05-forward-reverse-logistics/) |
+| 6 | Customer relationships, CRM, supplier relationships, SRM, alliances, performance, certification, collaboration, and communication | [Supply Chain Relationships](./06-supply-chain-relationships/) |
 
 Choose a route using the [role-based learning paths](./LEARNING-PATHS.md), look up a term in the [repository glossary](./GLOSSARY.md), or move directly to a quantitative reference:
 
@@ -21,6 +22,7 @@ Choose a route using the [role-based learning paths](./LEARNING-PATHS.md), look 
 - [Sourcing and procurement formula sheet](./calculations/sourcing-procurement/formula-sheet.md)
 - [Internal operations and inventory formula sheet](./calculations/internal-operations/formula-sheet.md)
 - [Logistics, trade, and reverse-flow formula sheet](./calculations/logistics-trade-reverse/formula-sheet.md)
+- [Relationship performance formula & control sheet](./calculations/relationship-performance/formula-sheet.md)
 
 Each module ends with an integrated fictional case:
 
@@ -29,6 +31,7 @@ Each module ends with an integrated fictional case:
 - [Rivermark sourcing-and-design capstone](./03-sourcing-strategy-product-design-supplier-execution/capstone/README.md)
 - [Pinehaven operations-stabilization capstone](./04-internal-operations-inventory/capstone/README.md)
 - [HarborPeak network, trade, and reverse-flow stabilization capstone](./05-forward-reverse-logistics/capstone/README.md)
+- [ClearSpan customer-supplier relationship stabilization capstone](./06-supply-chain-relationships/capstone/README.md)
 
 ## What makes this repository useful
 
@@ -53,21 +56,25 @@ The examples use fictional organizations and independently selected values. Diag
 03-sourcing-strategy-product-design-supplier-execution/ Module 3 learning content
 04-internal-operations-inventory/                    Module 4 learning content
 05-forward-reverse-logistics/                        Module 5 learning content
+06-supply-chain-relationships/                        Module 6 learning content
 assets/diagrams/module-1/                            Module 1 SVG diagrams
 assets/diagrams/module-2/                            Module 2 SVG diagrams
 assets/diagrams/module-3/                            Module 3 SVG diagrams
 assets/diagrams/module-4/                            Module 4 SVG diagrams
 assets/diagrams/module-5/                            Module 5 SVG diagrams
+assets/diagrams/module-6/                            Module 6 SVG diagrams
 assets/data/module-1/                                Module 1 example datasets
 assets/data/module-2/                                Module 2 example datasets
 assets/data/module-3/                                Module 3 example datasets
 assets/data/module-4/                                Module 4 example datasets
 assets/data/module-5/                                Module 5 example datasets
+assets/data/module-6/                                Module 6 example datasets
 calculations/forecasting/                            Forecasting references
 calculations/network-performance/                    Network and performance references
 calculations/sourcing-procurement/                   Sourcing and procurement references
 calculations/internal-operations/                    Internal operations and inventory references
 calculations/logistics-trade-reverse/                Logistics, trade, and reverse-flow references
+calculations/relationship-performance/                 Relationship-management performance and control references
 GLOSSARY.md                                           Cross-module terminology index
 LEARNING-PATHS.md                                     Role- and time-based reading routes
 _templates/                                           Reusable authoring templates
@@ -79,12 +86,12 @@ QUALITY.md                                            Quality and originality st
 
 The repository currently includes:
 
-- 290 structured Markdown files across five completed modules;
-- twenty connected learning sections;
-- 185 original SVG diagrams plus repository-native Mermaid process flows;
-- 57 original CSV datasets for worked analysis;
-- 582 independently authored knowledge checks;
-- five integrated end-to-end capstones; and
+- 330 structured Markdown files across six completed modules;
+- twenty-two connected learning sections;
+- 217 original SVG diagrams plus repository-native Mermaid process flows;
+- 69 original CSV datasets for worked analysis;
+- 651 independently authored knowledge checks;
+- six integrated end-to-end capstones; and
 - automated validation of internal navigation, Markdown structure, process-flow presence, quantitative dataset linkage, worked results, SVG accessibility, CSV consistency, and module-specific calculation controls.
 
 The repository runs a read-only content-quality workflow on every push and pull request to detect broken links, malformed datasets, invalid or inaccessible SVGs, missing process flows, inconsistent calculations, weak assessment language, structural drift, unbalanced Markdown blocks, and drift from the shared module/section overview contract.

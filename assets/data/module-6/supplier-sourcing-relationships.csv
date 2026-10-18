@@ -1,0 +1,9 @@
+supplier_id,supplier_name,category,source_strategy,category_spend_usd,supplier_spend_usd,supplier_share_pct,qualified_alternates,switch_lead_time_days,continuity_buffer_days,concentration_risk
+S01,NorthRiver Sensors,Precision sensors,single,5200000,4200000,80.77,1,120,45,High
+S02,Apex Motion Components,Servo components,multi,6200000,3100000,50.0,2,75,30,Moderate
+S03,Cobalt Connectors,Industrial connectors,multi,4500000,1800000,40.0,4,35,21,Moderate
+S04,BlueMesa Electronics,Control boards,sole,3800000,3800000,100.0,0,180,60,Critical
+S05,Prairie Packaging,Packaging,multi,2100000,620000,29.52,6,21,14,Low
+S06,Redwood Machining,Machined housings,single,3200000,2400000,75.0,2,90,35,High
+S07,Harbor Cable Works,Cable assemblies,multi,3600000,1350000,37.5,3,45,21,Low
+S08,Summit Industrial Software,Embedded software,single,1900000,1600000,84.21,1,150,60,High

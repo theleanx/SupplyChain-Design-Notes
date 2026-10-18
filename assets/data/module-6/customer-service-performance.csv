@@ -1,0 +1,6 @@
+segment_id,segment_name,eligible_orders,orders_shipped_complete,eligible_receipts,on_time_receipts,units_ordered,units_shipped_on_schedule,item_availability_checks,stockout_events,customer_inquiries_requiring_response,responses_within_target,complaints,orders_complete_and_on_time,orders_shipped_complete_pct,on_time_delivery_pct,unit_fill_rate_pct,otif_pct,stockout_frequency_pct,complaint_rate_per_100_orders,response_time_attainment_pct
+SEG-A,Strategic OEM,680,654,690,655,10200,9700,12400,410,760,681,32,638,96.18,94.93,95.1,93.82,3.31,4.71,89.61
+SEG-B,Growth Distributors,1200,1116,1220,1138,16800,15540,19600,1210,980,823,74,1075,93.0,93.28,92.5,89.58,6.17,6.17,83.98
+SEG-C,Service Networks,1540,1395,1580,1422,9240,8460,10900,940,1320,1016,118,1328,90.58,90.0,91.56,86.23,8.62,7.66,76.97
+SEG-D,Digital SMB,3620,3440,3710,3510,18100,17340,22500,1310,2480,2212,164,3340,95.03,94.61,95.8,92.27,5.82,4.53,89.19
+SEG-E,Projects / New Logos,240,216,245,221,3100,2820,3550,260,410,344,21,207,90.0,90.2,90.97,86.25,7.32,8.75,83.9

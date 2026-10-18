@@ -1,0 +1,21 @@
+account_id,segment_id,account_name,prior_12m_revenue_usd,current_12m_revenue_usd,prior_12m_orders,current_12m_orders,relationship_type,active_at_period_start,active_at_period_end,churn_flag,retained_flag,revenue_change_pct
+A001,SEG-A,Orion Motion,1250000,1360000,72,76,loyal,1,1,0,1,8.8
+A002,SEG-A,Vertex Controls,980000,910000,61,57,vulnerable,1,1,0,1,-7.14
+A003,SEG-A,Helix Robotics,1120000,0,69,0,churned,1,0,1,0,-100.0
+A004,SEG-A,Nova Pack Systems,840000,895000,48,52,loyal,1,1,0,1,6.55
+B011,SEG-B,Pioneer Industrial Supply,610000,665000,92,98,loyal,1,1,0,1,9.02
+B012,SEG-B,Continental Motion,530000,480000,81,73,vulnerable,1,1,0,1,-9.43
+B013,SEG-B,Summit Automation Dist.,455000,0,70,0,churned,1,0,1,0,-100.0
+B014,SEG-B,Delta Tech Distribution,0,310000,0,39,new,0,1,0,0,
+C021,SEG-C,Metro Field Service,180000,196000,106,119,loyal,1,1,0,1,8.89
+C022,SEG-C,RapidFix Network,155000,126000,94,82,vulnerable,1,1,0,1,-18.71
+C023,SEG-C,PrimeCare Service,142000,0,88,0,churned,1,0,1,0,-100.0
+C024,SEG-C,Allied Repair Group,0,88000,0,51,new,0,1,0,0,
+D031,SEG-D,SMB Cluster North,420000,438000,430,451,loyal,1,1,0,1,4.29
+D032,SEG-D,SMB Cluster South,390000,351000,401,367,vulnerable,1,1,0,1,-10.0
+D033,SEG-D,SMB Cluster West,360000,0,372,0,churned,1,0,1,0,-100.0
+D034,SEG-D,SMB Cluster East,0,275000,0,286,new,0,1,0,0,
+E041,SEG-E,Greenfield Project Group,720000,780000,31,34,loyal,1,1,0,1,8.33
+E042,SEG-E,Apex Integrators,640000,510000,28,21,vulnerable,1,1,0,1,-20.31
+E043,SEG-E,BluePeak Projects,590000,0,25,0,churned,1,0,1,0,-100.0
+E044,SEG-E,Mosaic Systems,0,430000,0,19,new,0,1,0,0,

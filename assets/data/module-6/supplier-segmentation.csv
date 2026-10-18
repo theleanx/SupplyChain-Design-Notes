@@ -1,0 +1,9 @@
+supplier_id,supplier_name,category,annual_spend_usd,business_criticality_1_to_5,supply_risk_1_to_5,customization_1_to_5,innovation_need_1_to_5,lead_time_days,qualified_alternates,relationship_intensity,governance_cadence
+S01,NorthRiver Sensors,Precision sensors,4200000,5,4,5,5,84,1,Strategic,Monthly
+S02,Apex Motion Components,Servo components,3100000,5,3,4,4,63,2,Collaborative,Monthly
+S03,Cobalt Connectors,Industrial connectors,1800000,4,2,2,2,35,4,Preferred,Quarterly
+S04,BlueMesa Electronics,Control boards,3800000,5,5,5,5,112,0,Strategic,Monthly
+S05,Prairie Packaging,Packaging,620000,2,1,1,1,14,6,Transactional,Semiannual
+S06,Redwood Machining,Machined housings,2400000,4,3,4,3,49,2,Collaborative,Monthly
+S07,Harbor Cable Works,Cable assemblies,1350000,3,2,3,2,28,3,Preferred,Quarterly
+S08,Summit Industrial Software,Embedded software,1600000,5,4,5,5,70,1,Strategic,Monthly

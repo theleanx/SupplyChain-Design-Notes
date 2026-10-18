@@ -47,9 +47,16 @@
 - [x] Add the HarborPeak network, trade, and reverse-flow stabilization capstone
 - [x] Complete data/calculation, visual, navigation, originality, regulatory-freshness, and integration change-control review
 
+## Module 6 — Supply Chain Relationships
+
+- [x] Complete Sections A–B
+- [x] Connect customer segmentation, CRM, service, VOC, SRM, supplier performance, certification, alliances, collaboration, and communication
+- [x] Add 32 original SVGs, 12 fictional datasets, reproducible relationship controls, and standardized knowledge checks
+- [x] Add the ClearSpan Customer-Supplier Relationship Stabilization capstone
+- [x] Complete source separation, data/calculation, visual, navigation, originality, and integration review
+
 ## Future modules
 
-- [ ] Supply-chain relationships
 - [ ] Supply-chain risk
 - [ ] Optimization and sustainability
 
@@ -63,8 +70,9 @@ Future module folders will be published only when substantive content is ready.
 - [x] Sourcing and procurement calculations reference
 - [x] Internal operations and inventory calculations reference
 - [x] Logistics, trade, and reverse-flow calculations/control reference
-- [x] Five end-to-end case studies
-- [x] Shared module and section overview contract across Modules 1–5
+- [x] Relationship-performance calculations/control reference
+- [x] Six end-to-end case studies
+- [x] Shared module and section overview contract across Modules 1–6
 - [ ] Commonly confused concepts index
 - [ ] Framework library
 - [ ] Cumulative knowledge review
@@ -76,4 +84,4 @@ Future module folders will be published only when substantive content is ready.
 
 ## Current status
 
-Modules 1–5 are complete. Future modules will follow the same full-release gate before they appear on the default branch.
+Modules 1–6 are complete. Future modules will follow the same full-release gate before they appear on the default branch.

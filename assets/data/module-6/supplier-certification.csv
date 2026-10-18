@@ -1,0 +1,9 @@
+supplier_id,supplier_name,audit_score_pct,critical_nonconformances,major_nonconformances,required_documents_complete,quality_system_gate,safety_gate,delivery_gate,open_corrective_actions,certification_status,requalification_months
+S01,NorthRiver Sensors,93,0,1,YES,PASS,PASS,PASS,0,CERTIFIED,12
+S02,Apex Motion Components,96,0,0,YES,PASS,PASS,PASS,0,CERTIFIED,12
+S03,Cobalt Connectors,88,0,1,YES,PASS,PASS,PASS,1,CONDITIONAL,6
+S04,BlueMesa Electronics,78,1,3,YES,PASS,PASS,FAIL,4,NOT CERTIFIED,3
+S05,Prairie Packaging,91,0,1,YES,PASS,PASS,PASS,0,CERTIFIED,12
+S06,Redwood Machining,84,0,2,YES,PASS,PASS,PASS,2,CONDITIONAL,6
+S07,Harbor Cable Works,89,0,1,NO,PASS,PASS,PASS,1,REMEDIATION,3
+S08,Summit Industrial Software,94,0,0,YES,PASS,PASS,PASS,0,CERTIFIED,12

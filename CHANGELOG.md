@@ -2,6 +2,27 @@
 
 Significant public improvements to this repository are recorded here.
 
+## Version 6.0.0 — Module 6
+
+Release target: 2026-10-18
+
+### Learning content
+
+- Adds two connected sections covering customer relationships and supplier/supply-chain relationships.
+- Adds 40 Module 6 Markdown learning/reference pages, 32 original SVG decision visuals, 12 fictional CSV datasets, and 69 independently authored knowledge checks.
+- Adds the ClearSpan Customer-Supplier Relationship Stabilization capstone and fully worked solution guide.
+- Adds a relationship-performance formula/control sheet covering customer service, churn/retention, CRM economics, supplier performance, certification, alliance gates, and communication controls.
+
+### Quality controls
+
+- Builds Module 6 from a locked 32-topic coverage map with explicit duplication boundaries against Modules 1–5.
+- Independently validates the fictional data and calculations through 1,666 control checks plus 376 fresh-process recalculation checks with zero failures.
+- Raster-reviews all 32 SVGs at normal and narrow widths for 64 successful renders and manually inspects eight contact sheets.
+- Resolves 338 Module 6 relative-link occurrences and verifies all 24 unique cross-module targets against the current repository baseline.
+- Performs exact normalized 10-word and 12-word source/public overlap scans with zero hits across the private Module 6 curriculum sources.
+- Extends the single shared repository validator, navigation, glossary, citation metadata, and release controls to the sixth completed module.
+- Keeps all proprietary source files, question-bank content, private audits, working spreadsheets, and render-check artifacts outside the public repository tree.
+
 ## Version 5.0.1 — Modules 1–5 alignment
 
 Release target: 2026-10-18

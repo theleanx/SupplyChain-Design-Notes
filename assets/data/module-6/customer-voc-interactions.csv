@@ -1,0 +1,25 @@
+interaction_id,account_id,segment_id,touchpoint,issue_type,severity,sentiment_score,requires_response,target_response_hours,actual_response_hours,complaint_flag,corrective_action_due,corrective_action_closed,followup_satisfaction_1_to_5,response_met_target,corrective_action_closure_flag
+V001,A002,SEG-A,Quarterly business review,delivery reliability,high,-1,1,8,14,1,1,1,3,0,1
+V002,A001,SEG-A,VOC interview,product roadmap,medium,2,1,24,9,0,0,0,5,1,
+V003,A003,SEG-A,Executive escalation,late shipment,critical,-2,1,4,11,1,1,1,2,0,1
+V004,A004,SEG-A,Support case,technical response,medium,0,1,8,6,1,1,1,4,1,1
+V005,B012,SEG-B,Distributor survey,portal usability,medium,-1,1,24,31,1,1,0,2,0,0
+V006,B011,SEG-B,Channel review,inventory visibility,medium,1,1,24,18,0,0,0,4,1,
+V007,B013,SEG-B,Complaint,pricing inconsistency,high,-2,1,12,26,1,1,0,1,0,0
+V008,B014,SEG-B,Onboarding interview,training,low,1,1,48,22,1,1,1,4,1,1
+V009,C022,SEG-C,Support case,response delay,high,-2,1,2,5,1,1,0,2,0,0
+V010,C021,SEG-C,VOC interview,parts availability,medium,1,1,8,7,0,0,0,4,1,
+V011,C023,SEG-C,Complaint,repeat service failure,critical,-2,1,2,13,1,1,0,1,0,0
+V012,C024,SEG-C,Onboarding survey,knowledge base,low,1,1,24,12,0,0,0,4,1,
+V013,D032,SEG-D,Chat survey,self-service failure,medium,-1,1,1,2.5,1,1,1,3,0,1
+V014,D031,SEG-D,Web survey,checkout,low,2,0,0,0,0,0,0,5,,
+V015,D033,SEG-D,Complaint,delivery status,high,-2,1,4,17,1,1,0,1,0,0
+V016,D034,SEG-D,Web survey,onboarding,low,1,0,0,0,0,0,0,4,,
+V017,E042,SEG-E,Project review,change response,high,-1,1,8,19,1,1,0,2,0,0
+V018,E041,SEG-E,VOC workshop,solution fit,medium,2,1,24,12,0,0,0,5,1,
+V019,E043,SEG-E,Executive escalation,missed commitment,critical,-2,1,4,16,1,1,0,1,0,0
+V020,E044,SEG-E,Onboarding interview,project governance,medium,1,1,24,20,1,1,1,4,1,1
+V021,A002,SEG-A,Follow-up call,recovery effectiveness,medium,1,1,8,7,0,0,0,4,1,
+V022,B012,SEG-B,Follow-up call,portal recovery,low,0,1,24,20,0,0,0,3,1,
+V023,C022,SEG-C,Follow-up call,service recovery,medium,1,1,4,3,0,0,0,4,1,
+V024,E042,SEG-E,Follow-up call,change recovery,medium,0,1,8,7,0,0,0,3,1,
