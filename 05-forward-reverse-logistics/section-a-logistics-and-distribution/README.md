@@ -33,7 +33,7 @@ After completing Section A, you should be able to:
 13. [Transportation Capacity Forecasting, Planning, and Carrier Readiness](./13-transportation-capacity-forecasting-planning-and-carrier-readiness.md)
 14. [Section A Review](./14-section-a-review.md)
 
-## Working data
+## Working data and visuals
 
 - [`logistics-strategy.csv`](../../assets/data/module-5/logistics-strategy.csv) — total-logistics-cost and 3PL/4PL decision scenarios
 - [`warehouse-network.csv`](../../assets/data/module-5/warehouse-network.csv) — warehouse ownership, node, cost, service, and location evidence
@@ -41,6 +41,8 @@ After completing Section A, you should be able to:
 - [`material-handling.csv`](../../assets/data/module-5/material-handling.csv) — safety, throughput, flexibility, labor, capex, and automation profiles
 - [`transportation-capacity.csv`](../../assets/data/module-5/transportation-capacity.csv) — six lane/mode capacity scenarios
 - [Logistics, Trade, and Reverse-Flow Formula & Control Sheet](../../calculations/logistics-trade-reverse/formula-sheet.md)
+
+Each topic also includes an original logistics decision visual and an operational flow where the decision contains sequence, gating, or escalation.
 
 ## How to study the section
 

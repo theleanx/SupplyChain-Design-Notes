@@ -31,13 +31,15 @@ After completing Section A, you should be able to:
 13. [Push, Pull, and Distribution Requirements Planning](./13-push-pull-and-distribution-requirements-planning.md)
 14. [Section A Review](./14-section-a-review.md)
 
-## Working data
+## Working data and visuals
 
 - [`master-schedule.csv`](../../assets/data/module-4/master-schedule.csv) — 13-week MPS, PAB, ATP, and time-fence scenario
 - [`bom-structure.csv`](../../assets/data/module-4/bom-structure.csv) — multilevel PH-SD500 product structure
 - [`mrp-planning.csv`](../../assets/data/module-4/mrp-planning.csv) — L4L/FOQ, projected on-hand, planned receipts/releases, and exceptions
 - [`drp-network.csv`](../../assets/data/module-4/drp-network.csv) — two DCs, central supply, and plant replenishment logic
 - [Internal Operations formula sheet](../../calculations/internal-operations/formula-sheet.md)
+
+Each topic also includes a topic-specific original decision visual; process-oriented lessons include an operational flow where appropriate.
 
 ## How to study the section
 

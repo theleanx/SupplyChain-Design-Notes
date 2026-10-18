@@ -22,11 +22,11 @@ All examples, numbers, questions, and diagrams in this section are independently
 14. [End-of-Life, Obsolescence, Returns, and Disposition](./14-end-of-life-obsolescence-returns-and-disposition.md)
 15. [Section C Review](./15-section-c-review.md)
 
-## What you should be able to do after Section C
+## Learning outcomes
 
 You should be able to explain the main physical types and business functions of inventory; select a control intensity based on value and criticality; connect inventory to working capital and financial statements; calculate EOQ, reorder point, periodic-review targets, average inventory, and turnover; choose among replenishment logics; distinguish safety quantity from safety time; design traceability and count controls; and make gated end-of-life/disposition decisions.
 
-## Locked learning data
+## Working data and visuals
 
 Five original fictional datasets support the section:
 
@@ -36,9 +36,9 @@ Five original fictional datasets support the section:
 - [`traceability-cycle-count.csv`](../../assets/data/module-4/traceability-cycle-count.csv)
 - [`returns-disposition.csv`](../../assets/data/module-4/returns-disposition.csv)
 
-Use the [internal operations formula sheet](../../calculations/internal-operations/formula-sheet.md) for the repository's controlled calculation definitions.
+Use the [internal operations formula sheet](../../calculations/internal-operations/formula-sheet.md) for the repository's controlled calculation definitions. Each topic also includes a topic-specific original decision visual, with process flow where appropriate.
 
-## Section design standard
+## How to study the section
 
 Each topic uses a topic-specific original visual. Process-oriented topics also include an operational flow with decision gates or feedback where required. Numerical examples use the locked datasets rather than introducing uncontrolled values later in the build.
 

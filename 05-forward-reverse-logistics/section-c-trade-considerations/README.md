@@ -21,11 +21,11 @@ All scenarios, values, questions, diagrams, and training codes in this section a
 13. [Trade Blocs, Preferential Agreements, Rules of Origin, and Agreement Status](./13-trade-blocs-rules-of-origin-and-agreement-status.md)
 14. [Section C Review](./14-section-c-review.md)
 
-## What you should be able to do after Section C
+## Learning outcomes
 
 You should be able to design a practical trade-compliance control model; explain how trusted-trader programs can reduce security friction without guaranteeing clearance; distinguish the responsibilities of importers, exporters, brokers, forwarders, carriers, NVOCCs, consolidators, and other intermediaries; choose an Incoterms® rule by transport mode and commercial responsibility; build a document pack with clear ownership and version control; explain the relationship among the international Harmonized System, national tariff schedules, customs value, duty, indirect tax, and landed cost; evaluate a foreign-trade-zone use case; and test whether a shipment actually qualifies for preferential treatment under a trade agreement.
 
-## Locked learning data
+## Working data and visuals
 
 Three original fictional datasets support the section:
 
@@ -33,9 +33,13 @@ Three original fictional datasets support the section:
 - [`incoterms-decision-cases.csv`](../../assets/data/module-5/incoterms-decision-cases.csv)
 - [`border-cost-classification-cases.csv`](../../assets/data/module-5/border-cost-classification-cases.csv)
 
-The datasets intentionally avoid live tariff classifications or filing-ready rates. Fields marked **training**, **synthetic**, or **illustrative** exist only to teach the decision logic.
+The datasets intentionally avoid live tariff classifications or filing-ready rates. Fields marked **training**, **synthetic**, or **illustrative** exist only to teach the decision logic. Each topic also includes an original decision visual, with process flow where appropriate.
 
-## Freshness rule for trade content
+## How to study the section
+
+Treat every cross-border case as a controlled release decision: define parties and product → identify governing requirements → verify classification/value/document evidence → allocate commercial responsibilities → apply release gates → retain the record. Keep curriculum concepts separate from current legal facts.
+
+## Freshness checkpoint
 
 Trade rules change faster than many other supply-chain topics. Before using a rule operationally, confirm at least the following: the current tariff-schedule revision; the current Incoterms® edition named in the contract; the current status and rules of origin of any claimed trade agreement; current restricted/prohibited-party and product requirements; and the current customs/other-government-agency filing rules in the importing and exporting jurisdictions.
 

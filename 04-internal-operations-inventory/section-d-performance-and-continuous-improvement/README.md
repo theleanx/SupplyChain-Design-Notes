@@ -4,6 +4,17 @@ Section D connects **measurement** to **improvement**. It starts with metrics, K
 
 The section uses the recurring fictional company **Pinehaven Motion Systems**. Public explanations, examples, datasets, questions, process flows, and SVGs are independently authored. Official source text, slides, flashcards, screenshots, diagrams, and Question Bank items are not reproduced.
 
+## Learning outcomes
+
+After completing Section D, you should be able to:
+
+- design KPI systems that connect process behavior to customer, inventory, and financial outcomes;
+- use TQM and continuous-improvement governance to select and sustain improvement work;
+- choose basic and new quality tools based on the question they answer;
+- apply benchmarking without copying context blindly;
+- distinguish lean, JIT, Six Sigma, and theory-of-constraints logic and combine them when appropriate; and
+- translate improvement evidence into owned actions, controls, and follow-up measures.
+
 ## Learning path
 
 | # | Topic | Primary fictional dataset |
@@ -25,7 +36,7 @@ The section uses the recurring fictional company **Pinehaven Motion Systems**. P
 | 15 | [Theory of Constraints and Drum-Buffer-Rope](./15-theory-of-constraints-and-drum-buffer-rope.md) | `improvement-projects.csv` |
 | 16 | [Section D Review](./16-section-d-review.md) | Integrated |
 
-## Shared data and calculations
+## Working data and visuals
 
 - [`operations-kpis.csv`](../../assets/data/module-4/operations-kpis.csv) — scorecards, TQM, benchmarking and CI examples
 - [`quality-tools-data.csv`](../../assets/data/module-4/quality-tools-data.csv) — control-chart, Pareto, scatter and activity-network examples
@@ -33,7 +44,7 @@ The section uses the recurring fictional company **Pinehaven Motion Systems**. P
 - [`improvement-projects.csv`](../../assets/data/module-4/improvement-projects.csv) — DMAIC and TOC/DBR cases
 - [Internal Operations and Inventory Formula Sheet](../../calculations/internal-operations/formula-sheet.md)
 
-## How to use this section
+## How to study the section
 
 Work in sequence at least once. The quality-tool lessons are intentionally separated so you learn **which tool answers which question** rather than memorizing a list. The continuous-improvement methods at the end are complementary: lean emphasizes customer value and waste removal, JIT emphasizes synchronized flow and pull, Six Sigma emphasizes variation/defect reduction, and TOC emphasizes the system constraint.
 

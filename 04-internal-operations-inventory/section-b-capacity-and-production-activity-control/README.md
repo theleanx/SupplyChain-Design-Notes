@@ -28,11 +28,13 @@ After completing Section B, you should be able to:
 9. [Improving Production Flow: Constraints, Kanban, Demand Pull, and Lean Partnerships](./09-improving-production-flow-constraints-kanban-demand-pull-and-lean-partnerships.md)
 10. [Section B Review](./10-section-b-review.md)
 
-## Working data
+## Working data and visuals
 
 - [`capacity-plan.csv`](../../assets/data/module-4/capacity-plan.csv) — quarterly resource requirements, current capacity, capacity staging alternatives, resource lead times, and critical-resource flags
 - [`capacity-work-centers.csv`](../../assets/data/module-4/capacity-work-centers.csv) — Week-27 work-center time, utilization, efficiency, rated/demonstrated capacity, load, queues, and signals
 - [Internal Operations formula sheet](../../calculations/internal-operations/formula-sheet.md)
+
+Each topic also includes a topic-specific original decision visual and an execution flow where the decision contains sequence, feedback, or escalation.
 
 ## How to study the section
 

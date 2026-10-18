@@ -36,7 +36,7 @@ After completing Section B, you should be able to:
 15. [Carrier Classifications and Carrier Selection](./15-carrier-classifications-and-carrier-selection.md)
 16. [Section B Review](./16-section-b-review.md)
 
-## Working data
+## Working data and visuals
 
 - [`warehouse-operations.csv`](../../assets/data/module-5/warehouse-operations.csv) — receiving, put-away, picking, packing, cross-dock, postponement, and kitting activity data
 - [`fulfillment-strategies.csv`](../../assets/data/module-5/fulfillment-strategies.csv) — integrated, dedicated, pooled, local, and drop-ship strategy comparison
@@ -44,6 +44,8 @@ After completing Section B, you should be able to:
 - [`transport-mode-selection.csv`](../../assets/data/module-5/transport-mode-selection.csv) — shipment, value/packaging density, mode, service, and line-haul comparison
 - [`carrier-options.csv`](../../assets/data/module-5/carrier-options.csv) — common, private, contract, and exempt training scenarios
 - [Logistics, Trade, and Reverse-Flow formula/control sheet](../../calculations/logistics-trade-reverse/formula-sheet.md)
+
+Each topic also includes an original decision visual; process-oriented lessons use operational flows to separate sequence from conceptual comparison.
 
 ## How to study the section
 
