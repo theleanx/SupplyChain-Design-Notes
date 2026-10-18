@@ -20,11 +20,13 @@ MODULE_1 = ROOT / "01-supply-chains-demand-forecasting"
 MODULE_2 = ROOT / "02-network-design-digital-connectivity-performance"
 MODULE_3 = ROOT / "03-sourcing-strategy-product-design-supplier-execution"
 MODULE_4 = ROOT / "04-internal-operations-inventory"
+MODULE_5 = ROOT / "05-forward-reverse-logistics"
 MODULES = {
     "Module 1": (MODULE_1, 44),
     "Module 2": (MODULE_2, 43),
     "Module 3": (MODULE_3, 35),
     "Module 4": (MODULE_4, 51),
+    "Module 5": (MODULE_5, 54),
 }
 MARKDOWN_LINK = re.compile(r"(?<!!)\[[^\]]*\]\(([^)]+)\)")
 MARKDOWN_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
@@ -131,6 +133,43 @@ MODULE_4_DATASET_LINKS = {
     "section-d-performance-and-continuous-improvement/14-six-sigma-and-dmaic.md": "improvement-projects.csv",
     "section-d-performance-and-continuous-improvement/15-theory-of-constraints-and-drum-buffer-rope.md": "improvement-projects.csv",
 }
+MODULE_5_DATASET_LINKS = {
+    "section-a-logistics-and-distribution/01-logistics-scope-functions-and-value-proposition.md": "logistics-strategy.csv",
+    "section-a-logistics-and-distribution/02-logistics-objectives-tactics-and-cross-functional-coordination.md": "logistics-strategy.csv",
+    "section-a-logistics-and-distribution/03-supply-chain-integration-information-substitution-partner-reduction-and-risk-pooling.md": "logistics-strategy.csv",
+    "section-a-logistics-and-distribution/04-3pl-and-4pl-strategy-outsourcing-and-contract-governance.md": "logistics-strategy.csv",
+    "section-a-logistics-and-distribution/05-warehousing-strategy-objectives-and-ownership-choices.md": "warehouse-network.csv",
+    "section-a-logistics-and-distribution/06-warehouse-network-count-and-location-decisions.md": "warehouse-network.csv",
+    "section-a-logistics-and-distribution/07-warehouse-layout-slotting-and-stock-location-strategy.md": "warehouse-network.csv",
+    "section-a-logistics-and-distribution/08-warehouse-capacity-forecasting-and-space-sizing.md": "warehouse-capacity.csv",
+    "section-a-logistics-and-distribution/09-materials-handling-strategy-and-mechanized-systems.md": "material-handling.csv",
+    "section-a-logistics-and-distribution/10-warehouse-automation-systems-and-automation-trade-offs.md": "material-handling.csv",
+    "section-a-logistics-and-distribution/11-transportation-strategy-product-movement-and-temporary-storage.md": "transportation-capacity.csv",
+    "section-a-logistics-and-distribution/12-transportation-capacity-constraints-and-transport-economics.md": "transportation-capacity.csv",
+    "section-a-logistics-and-distribution/13-transportation-capacity-forecasting-planning-and-carrier-readiness.md": "transportation-capacity.csv",
+    "section-b-distribution-services-and-transportation-choices/01-warehouse-execution-activities-receive-put-away-pick-pack-move-and-ship.md": "warehouse-operations.csv",
+    "section-b-distribution-services-and-transportation-choices/02-value-added-distribution-services-consolidation-break-bulk-cross-dock-and-postponement.md": "warehouse-operations.csv",
+    "section-b-distribution-services-and-transportation-choices/03-stockpiling-spot-stocking-assortment-and-mixing.md": "warehouse-operations.csv",
+    "section-b-distribution-services-and-transportation-choices/04-channel-design-supply-and-distribution-channels-and-service-outputs.md": "fulfillment-strategies.csv",
+    "section-b-distribution-services-and-transportation-choices/05-order-channels-and-fulfillment-strategy-design.md": "fulfillment-strategies.csv",
+    "section-b-distribution-services-and-transportation-choices/06-integrated-and-dedicated-fulfillment.md": "fulfillment-strategies.csv",
+    "section-b-distribution-services-and-transportation-choices/07-pool-direct-store-store-and-flow-through-fulfillment.md": "fulfillment-strategies.csv",
+    "section-b-distribution-services-and-transportation-choices/08-comparing-distribution-strategies.md": "fulfillment-strategies.csv",
+    "section-b-distribution-services-and-transportation-choices/09-distribution-network-architectures-manufacturer-distributor-and-aggregator-models.md": "distribution-networks.csv",
+    "section-b-distribution-services-and-transportation-choices/10-drop-ship-direct-delivery-and-order-fulfillment-channel-comparison.md": "distribution-networks.csv",
+    "section-b-distribution-services-and-transportation-choices/11-transportation-mode-selection-and-value-packaging-density.md": "transport-mode-selection.csv",
+    "section-b-distribution-services-and-transportation-choices/12-rail-and-motor-carrier-transport.md": "transport-mode-selection.csv",
+    "section-b-distribution-services-and-transportation-choices/13-water-pipeline-and-air-transport.md": "transport-mode-selection.csv",
+    "section-b-distribution-services-and-transportation-choices/14-intermodal-package-delivery-and-container-services.md": "transport-mode-selection.csv",
+    "section-b-distribution-services-and-transportation-choices/15-carrier-classifications-and-carrier-selection.md": "carrier-options.csv",
+    "section-c-trade-considerations/01-trade-compliance-operating-model.md": "trade-compliance-register.csv",
+    "section-c-trade-considerations/03-import-export-requirements-and-border-readiness.md": "trade-compliance-register.csv",
+    "section-c-trade-considerations/08-incoterms-2020-selection.md": "incoterms-decision-cases.csv",
+    "section-c-trade-considerations/11-classification-valuation-duties-and-drawback.md": "border-cost-classification-cases.csv",
+    "section-d-reverse-flow/01-reverse-logistics-operating-model.md": "reverse-flow-cases.csv",
+    "section-d-reverse-flow/04-reverse-logistics-economics-and-total-cost-analysis.md": "reverse-cost-cases.csv",
+    "section-d-reverse-flow/10-waste-hierarchy-and-the-four-rs.md": "waste-disposition-cases.csv",
+}
 ASSESSMENT_DEFECTS = (
     "without testing whether can ",
     "without testing whether may ",
@@ -176,6 +215,7 @@ def validate_shared_module_content() -> list[str]:
         MODULE_2: MODULE_2_DATASET_LINKS,
         MODULE_3: MODULE_3_DATASET_LINKS,
         MODULE_4: MODULE_4_DATASET_LINKS,
+        MODULE_5: MODULE_5_DATASET_LINKS,
     }
 
     for label, (module, expected_count) in MODULES.items():
@@ -209,10 +249,19 @@ def validate_shared_module_content() -> list[str]:
                 "section-c-inventory/01-inventory-fundamentals-types-and-functions.md",
                 "section-c-inventory/02-inventory-cost-structure.md",
             }
+            module_5_flow_exceptions = {
+                "section-a-logistics-and-distribution/01-logistics-scope-functions-and-value-proposition.md",
+                "section-b-distribution-services-and-transportation-choices/08-comparing-distribution-strategies.md",
+                "section-b-distribution-services-and-transportation-choices/12-rail-and-motor-carrier-transport.md",
+                "section-b-distribution-services-and-transportation-choices/13-water-pipeline-and-air-transport.md",
+                "section-c-trade-considerations/13-trade-blocs-rules-of-origin-and-agreement-status.md",
+                "section-d-reverse-flow/13-product-stewardship-weee-rohs-and-e-waste.md",
+            }
             lesson_key = str(path.relative_to(module))
             requires_process_flow = (
                 module in (MODULE_2, MODULE_3)
                 or (module == MODULE_4 and lesson_key not in module_4_flow_exceptions)
+                or (module == MODULE_5 and lesson_key not in module_5_flow_exceptions)
             )
             if requires_process_flow and body.count(f"{FENCE}mermaid") != 1:
                 errors.append(f"{relative}: requires exactly one practical Mermaid process flow")
@@ -232,7 +281,7 @@ def validate_shared_module_content() -> list[str]:
             elif "### Evidence retained through the workflow" not in body:
                 errors.append(f"{relative}: missing workflow evidence")
 
-            if not re.search(r"\b(example|northstar|asterworks|rivermark|pinehaven)\b", body, re.IGNORECASE):
+            if not re.search(r"\b(example|northstar|asterworks|rivermark|pinehaven|harborpeak)\b", body, re.IGNORECASE):
                 errors.append(f"{relative}: missing fictional applied example")
 
             related = re.search(
@@ -877,6 +926,251 @@ def validate_module_4_calculations() -> list[str]:
     return errors
 
 
+
+def validate_module_5_calculations() -> list[str]:
+    """Independently reproduce Module 5 logistics, trade, and reverse-flow controls."""
+    errors: list[str] = []
+
+    def rows(name: str) -> list[dict[str, str]]:
+        return csv_dicts(f"assets/data/module-5/{name}")
+
+    def close(calculated: float, recorded: float, label: str, tol: float = 0.02) -> None:
+        if not math.isclose(float(calculated), float(recorded), abs_tol=tol, rel_tol=1e-9):
+            errors.append(
+                f"Module 5 {label}: calculated {calculated}, recorded {recorded}"
+            )
+
+    for row in rows("logistics-strategy.csv"):
+        total = sum(
+            float(row[column])
+            for column in (
+                "transport_cost",
+                "warehouse_cost",
+                "inventory_cost",
+                "failure_exposure_cost",
+            )
+        )
+        close(total, float(row["total_logistics_cost"]), f"logistics total {row['option']}", 0.01)
+
+    capacity_rows = rows("warehouse-capacity.csv")
+    for row in capacity_rows:
+        year = row["year"]
+        pallet_cube = (
+            float(row["pallet_length_m"])
+            * float(row["pallet_width_m"])
+            * float(row["loaded_height_m"])
+        )
+        close(pallet_cube, float(row["cube_per_pallet_m3"]), f"{year} pallet cube")
+        base_bays = float(row["forecast_inventory_cube_m3"]) / pallet_cube
+        close(base_bays, float(row["base_bays"]), f"{year} base bays")
+        adjusted_bays = base_bays * float(row["partial_pallet_factor"])
+        close(adjusted_bays, float(row["adjusted_bays"]), f"{year} adjusted bays")
+        raw = adjusted_bays * float(row["pallet_floor_footprint_m2"])
+        close(raw, float(row["raw_inventory_footprint_m2"]), f"{year} raw footprint")
+        handling = raw * float(row["movement_aisle_factor"])
+        close(
+            handling,
+            float(row["handling_adjusted_footprint_m2"]),
+            f"{year} handling footprint",
+        )
+        vertical = handling / float(row["vertical_storage_levels"])
+        close(
+            vertical,
+            float(row["vertical_adjusted_area_m2"]),
+            f"{year} vertical area",
+        )
+        core = vertical / float(row["target_utilization"])
+        close(core, float(row["required_core_area_m2"]), f"{year} core area")
+        total = core + float(row["bulk_storage_allowance_m2"])
+        close(total, float(row["required_total_area_m2"]), f"{year} total area")
+
+    for row in rows("transportation-capacity.csv"):
+        required = (
+            float(row["base_forecast_units_week"])
+            + float(row["promotion_adjustment_units_week"])
+        )
+        close(
+            required,
+            float(row["required_capacity_units_week"]),
+            f"lane required {row['lane']}",
+            0.001,
+        )
+        gap = float(row["reserved_capacity_units_week"]) - required
+        close(
+            gap,
+            float(row["capacity_gap_units_week"]),
+            f"lane gap {row['lane']}",
+            0.001,
+        )
+
+    for row in rows("transport-mode-selection.csv"):
+        value_density = float(row["cargo_value_usd"]) / float(row["packed_volume_m3"])
+        packaging_density = float(row["units"]) / float(row["packed_volume_m3"])
+        close(
+            value_density,
+            float(row["value_density_usd_m3"]),
+            f"value density {row['shipment']} {row['mode']}",
+        )
+        close(
+            packaging_density,
+            float(row["packaging_density_units_m3"]),
+            f"packaging density {row['shipment']} {row['mode']}",
+        )
+
+    for row in rows("border-cost-classification-cases.csv"):
+        value = float(row["training_customs_value_usd"])
+        duty = value * float(row["training_duty_rate_decimal"])
+        tax = value * float(row["training_import_tax_rate_decimal"])
+        landed = (
+            value
+            + duty
+            + tax
+            + float(row["international_freight_usd"])
+            + float(row["broker_and_entry_fees_usd"])
+        )
+        close(duty, float(row["expected_training_duty_usd"]), f"duty {row['case_id']}")
+        close(tax, float(row["expected_training_import_tax_usd"]), f"tax {row['case_id']}")
+        close(
+            landed,
+            float(row["expected_training_landed_cost_usd"]),
+            f"landed cost {row['case_id']}",
+        )
+
+    expected_return_rates = {
+        "RF-01": 5.0,
+        "RF-02": 12.0,
+        "RF-03": 4.0,
+        "RF-04": 12.0,
+        "RF-05": 6.0,
+    }
+    for row in rows("reverse-flow-cases.csv"):
+        rate = float(row["units_returned"]) / float(row["units_shipped"]) * 100
+        close(rate, expected_return_rates[row["case_id"]], f"return rate {row['case_id']}", 0.0001)
+
+    expected_reverse_net = {
+        "RC-01": 23000.0,
+        "RC-02": -52300.0,
+        "RC-03": -31700.0,
+        "RC-04": -4100.0,
+    }
+    for row in rows("reverse-cost-cases.csv"):
+        cost = sum(
+            float(row[column])
+            for column in (
+                "return_credits_usd",
+                "reverse_transport_usd",
+                "processing_handling_usd",
+                "repair_parts_usd",
+                "reverse_warehousing_usd",
+                "disposal_compliance_usd",
+            )
+        )
+        benefit = sum(
+            float(row[column])
+            for column in (
+                "resale_liquidation_revenue_usd",
+                "repair_fee_revenue_usd",
+                "recycling_revenue_usd",
+                "restocking_fee_revenue_usd",
+                "incentive_value_usd",
+                "estimated_warranty_sales_uplift_usd",
+            )
+        )
+        close(
+            benefit - cost,
+            expected_reverse_net[row["case_id"]],
+            f"reverse result {row['case_id']}",
+            0.01,
+        )
+
+    networks: dict[str, dict[str, float | bool]] = {}
+    for row in rows("warehouse-network.csv"):
+        aggregate = networks.setdefault(
+            row["network_option"],
+            {
+                "cost": 0.0,
+                "coverage": 0.0,
+                "response_num": 0.0,
+                "service_num": 0.0,
+                "all_pass": True,
+            },
+        )
+        coverage = float(row["service_coverage_pct"])
+        aggregate["coverage"] = float(aggregate["coverage"]) + coverage
+        aggregate["cost"] = float(aggregate["cost"]) + sum(
+            float(row[column])
+            for column in (
+                "transport_cost_annual",
+                "inventory_cost_annual",
+                "overhead_annual",
+            )
+        )
+        aggregate["response_num"] = (
+            float(aggregate["response_num"])
+            + coverage * float(row["customer_response_days"])
+        )
+        aggregate["service_num"] = (
+            float(aggregate["service_num"])
+            + coverage * float(row["services_score_5"])
+        )
+        aggregate["all_pass"] = bool(aggregate["all_pass"]) and (
+            row["labor_flag"] == "PASS" and row["regulatory_flag"] == "PASS"
+        )
+
+    two_dc = networks["2-DC owned"]
+    three_dc = networks["3-DC hybrid"]
+    close(float(two_dc["cost"]), 8350000.0, "2-DC owned aggregate cost", 0.01)
+    close(
+        float(two_dc["response_num"]) / float(two_dc["coverage"]),
+        2.44,
+        "2-DC owned weighted response",
+        0.001,
+    )
+    close(float(three_dc["cost"]), 8670000.0, "3-DC hybrid aggregate cost", 0.01)
+    close(
+        float(three_dc["response_num"]) / float(three_dc["coverage"]),
+        1.629,
+        "3-DC hybrid weighted response",
+        0.001,
+    )
+
+    row_2030 = next(row for row in capacity_rows if row["year"] == "2030")
+    close(
+        float(row_2030["required_total_area_m2"]),
+        8239.26,
+        "2030 required total area",
+        0.01,
+    )
+    row_2031 = next(row for row in capacity_rows if row["year"] == "2031")
+    sensitivity = (
+        float(row_2031["handling_adjusted_footprint_m2"])
+        / 4
+        / float(row_2031["target_utilization"])
+        + float(row_2031["bulk_storage_allowance_m2"])
+    )
+    close(sensitivity, 9322.22, "2031 four-level sensitivity", 0.01)
+
+    supplier_lane = next(
+        row
+        for row in rows("transportation-capacity.csv")
+        if row["lane"] == "Supplier Bay-Cedar"
+    )
+    close(float(supplier_lane["capacity_gap_units_week"]), -15.0, "Supplier Bay-Cedar gap", 0.001)
+
+    tc_007 = next(
+        row
+        for row in rows("trade-compliance-register.csv")
+        if row["shipment_id"] == "TC-007"
+    )
+    if tc_007["compliance_risk"] != "Critical":
+        errors.append("Module 5 trade-compliance register: TC-007 risk must remain Critical")
+
+    solution = (MODULE_5 / "capstone/solution-guide.md").read_text(encoding="utf-8")
+    for required in ("8,239.26", "9,322.22", "1.629", "90,250", "−15 units/week"):
+        if required not in solution:
+            errors.append(f"Module 5 capstone solution: missing verified result ({required})")
+
+    return errors
 def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], datasets: list[Path]) -> list[str]:
     errors: list[str] = []
     capstone_requirements = {
@@ -903,6 +1197,12 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
             1800,
             15,
             ("154 standard hours/week", "11 standard hours remaining overload", "306.85 units"),
+        ),
+        "Module 5": (
+            MODULE_5,
+            1800,
+            16,
+            ("8,239.26", "9,322.22", "1.629", "90,250", "−15 units/week"),
         ),
     }
     for label, (module, solution_floor, data_count, results) in capstone_requirements.items():
@@ -932,17 +1232,17 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
 
     module_markdown = [path for path in markdown if any(path.is_relative_to(module) for module, _ in MODULES.values())]
     details = sum(path.read_text(encoding="utf-8").count("<details>") for path in module_markdown)
-    if len(module_markdown) != 222:
-        errors.append(f"Repository inventory: expected 222 module Markdown files, found {len(module_markdown)}")
-    if len(svg) != 131:
-        errors.append(f"Repository inventory: expected 131 SVG files, found {len(svg)}")
-    if len(datasets) != 41:
-        errors.append(f"Repository inventory: expected 41 CSV files, found {len(datasets)}")
-    if details != 445:
-        errors.append(f"Repository inventory: expected 445 knowledge checks, found {details}")
+    if len(module_markdown) != 290:
+        errors.append(f"Repository inventory: expected 290 module Markdown files, found {len(module_markdown)}")
+    if len(svg) != 185:
+        errors.append(f"Repository inventory: expected 185 SVG files, found {len(svg)}")
+    if len(datasets) != 57:
+        errors.append(f"Repository inventory: expected 57 CSV files, found {len(datasets)}")
+    if details != 582:
+        errors.append(f"Repository inventory: expected 582 knowledge checks, found {details}")
 
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    for statement in ("222 structured Markdown files", "131 original SVG diagrams", "41 original CSV datasets", "445 independently authored knowledge checks"):
+    for statement in ("290 structured Markdown files", "185 original SVG diagrams", "57 original CSV datasets", "582 independently authored knowledge checks"):
         if statement not in readme:
             errors.append(f"README inventory is missing the current statement ({statement})")
 
@@ -951,6 +1251,7 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
         MODULE_2: ("53 structured Markdown learning pages", "43 topic lessons", "109 knowledge checks"),
         MODULE_3: ("47 structured Markdown learning pages", "35 topic lessons", "82 knowledge checks"),
         MODULE_4: ("**63** structured Markdown learning/reference pages", "**51** topic lessons", "**126** knowledge checks"),
+        MODULE_5: ("**68** structured Markdown learning/reference pages", "**54** topic lessons", "**137** independently authored knowledge checks"),
     }
     for module, statements in module_snapshot_claims.items():
         module_readme = (module / "README.md").read_text(encoding="utf-8")
@@ -1077,6 +1378,7 @@ def main() -> int:
         + validate_module_1_2_calculations()
         + validate_module_3_content()
         + validate_module_4_calculations()
+        + validate_module_5_calculations()
         + validate_capstones_and_inventory(markdown, svg, datasets)
     )
 

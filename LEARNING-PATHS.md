@@ -1,6 +1,6 @@
 # Learning Paths
 
-All four modules can be read from beginning to end, but different roles may need a faster route to the decisions most relevant to their work. The paths below preserve the conceptual sequence while making focused study easier.
+All five modules can be read from beginning to end, but different roles may need a faster route to the decisions most relevant to their work. The paths below preserve the conceptual sequence while making focused study easier.
 
 ## Module 1 complete foundation path
 
@@ -213,6 +213,57 @@ Read the sections in sequence:
 
 **Finish with:** the [Pinehaven integrated operations capstone](./04-internal-operations-inventory/capstone/README.md).
 
+
+## Module 5 complete logistics path
+
+**Best for:** learners who want to connect forward logistics, trade execution, returns, and waste into one controlled operating system.
+
+1. [Logistics and distribution](./05-forward-reverse-logistics/section-a-logistics-and-distribution/README.md)
+2. [Distribution services and transportation choices](./05-forward-reverse-logistics/section-b-distribution-services-and-transportation-choices/README.md)
+3. [Trade considerations](./05-forward-reverse-logistics/section-c-trade-considerations/README.md)
+4. [Reverse flow](./05-forward-reverse-logistics/section-d-reverse-flow/README.md)
+5. [HarborPeak network, trade, and reverse-flow capstone](./05-forward-reverse-logistics/capstone/README.md)
+
+## Module 5 logistics and distribution path
+
+**Goal:** design physical distribution using total-cost, service, capacity, handling, and provider evidence.
+
+1. [Logistics scope and value proposition](./05-forward-reverse-logistics/section-a-logistics-and-distribution/01-logistics-scope-functions-and-value-proposition.md)
+2. [3PL and 4PL strategy](./05-forward-reverse-logistics/section-a-logistics-and-distribution/04-3pl-and-4pl-strategy-outsourcing-and-contract-governance.md)
+3. [Warehouse network count and location](./05-forward-reverse-logistics/section-a-logistics-and-distribution/06-warehouse-network-count-and-location-decisions.md)
+4. [Warehouse capacity forecasting](./05-forward-reverse-logistics/section-a-logistics-and-distribution/08-warehouse-capacity-forecasting-and-space-sizing.md)
+5. [Materials handling](./05-forward-reverse-logistics/section-a-logistics-and-distribution/09-materials-handling-strategy-and-mechanized-systems.md)
+6. [Transportation strategy](./05-forward-reverse-logistics/section-a-logistics-and-distribution/11-transportation-strategy-product-movement-and-temporary-storage.md)
+7. [Transportation capacity planning](./05-forward-reverse-logistics/section-a-logistics-and-distribution/13-transportation-capacity-forecasting-planning-and-carrier-readiness.md)
+
+## Module 5 fulfillment and transportation path
+
+**Goal:** connect warehouse execution, channel architecture, mode choice, and carrier structure.
+
+1. [Warehouse execution activities](./05-forward-reverse-logistics/section-b-distribution-services-and-transportation-choices/01-warehouse-execution-activities-receive-put-away-pick-pack-move-and-ship.md)
+2. [Value-added distribution services](./05-forward-reverse-logistics/section-b-distribution-services-and-transportation-choices/02-value-added-distribution-services-consolidation-break-bulk-cross-dock-and-postponement.md)
+3. [Order channels and fulfillment](./05-forward-reverse-logistics/section-b-distribution-services-and-transportation-choices/05-order-channels-and-fulfillment-strategy-design.md)
+4. [Comparing distribution strategies](./05-forward-reverse-logistics/section-b-distribution-services-and-transportation-choices/08-comparing-distribution-strategies.md)
+5. [Distribution-network architectures](./05-forward-reverse-logistics/section-b-distribution-services-and-transportation-choices/09-distribution-network-architectures-manufacturer-distributor-and-aggregator-models.md)
+6. [Transportation mode selection](./05-forward-reverse-logistics/section-b-distribution-services-and-transportation-choices/11-transportation-mode-selection-and-value-packaging-density.md)
+7. [Carrier classifications and selection](./05-forward-reverse-logistics/section-b-distribution-services-and-transportation-choices/15-carrier-classifications-and-carrier-selection.md)
+
+## Module 5 trade and reverse-flow path
+
+**Goal:** control cross-border release, returns, recovery, and end-of-life flow without letting economics override mandatory gates.
+
+1. [Trade compliance operating model](./05-forward-reverse-logistics/section-c-trade-considerations/01-trade-compliance-operating-model.md)
+2. [Customs strategy and brokers](./05-forward-reverse-logistics/section-c-trade-considerations/05-customs-strategy-roles-brokers-and-preclearance.md)
+3. [Incoterms® 2020 selection](./05-forward-reverse-logistics/section-c-trade-considerations/08-incoterms-2020-selection.md)
+4. [Classification, valuation, duties, and drawback](./05-forward-reverse-logistics/section-c-trade-considerations/11-classification-valuation-duties-and-drawback.md)
+5. [Reverse-logistics operating model](./05-forward-reverse-logistics/section-d-reverse-flow/01-reverse-logistics-operating-model.md)
+6. [Reverse-logistics economics](./05-forward-reverse-logistics/section-d-reverse-flow/04-reverse-logistics-economics-and-total-cost-analysis.md)
+7. [Reverse-network design](./05-forward-reverse-logistics/section-d-reverse-flow/07-reverse-network-design-and-make-or-buy.md)
+8. [Waste hierarchy](./05-forward-reverse-logistics/section-d-reverse-flow/10-waste-hierarchy-and-the-four-rs.md)
+9. [Hazardous-waste controls](./05-forward-reverse-logistics/section-d-reverse-flow/12-hazardous-waste-controls-and-chain-of-custody.md)
+
+**Finish with:** the [HarborPeak integrated capstone](./05-forward-reverse-logistics/capstone/README.md).
+
 ## Time-boxed routes
 
 | Available time | Recommended route |
@@ -223,3 +274,5 @@ Read the sections in sequence:
 | Full study cycle | Complete all published modules, section reviews, and capstones |
 
 Use the [glossary](./GLOSSARY.md) whenever a term is unfamiliar. For quantitative reference, open the [forecasting formula sheet](./calculations/forecasting/formula-sheet.md) or the [network and performance formula sheet](./calculations/network-performance/formula-sheet.md), or [sourcing and procurement formula sheet](./calculations/sourcing-procurement/formula-sheet.md), or the [internal operations and inventory formula sheet](./calculations/internal-operations/formula-sheet.md).
+
+For Module 5 quantitative reference, open the [logistics, trade, and reverse-flow formula sheet](./calculations/logistics-trade-reverse/formula-sheet.md).
