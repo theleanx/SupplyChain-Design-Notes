@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="840" viewBox="0 0 1360 840" role="img" aria-labelledby="title desc">
+<title id="title">Stonebridge integrated risk paths and release gates</title>
+<desc id="desc">Four supply-chain disruptions feed evidence and permission checks; only gated, verified controls can support a complete safe customer delivery chain.</desc>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L7,3 z" fill="#6d7d89"/></marker></defs>
+<rect width="1360" height="840" fill="#ffffff"/>
+<text x="54" y="64" font-size="32" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">Stonebridge | integrated disruption-to-release model</text>
+<text x="54" y="101" font-size="18" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#546e81" text-anchor="start">Different risk models; common release discipline. Fictional units and gates.</text>
+<rect x="54" y="154" width="298" height="124" rx="14" fill="#e8f4fa" stroke="#3c89a6" stroke-width="2"/>
+<text x="72" y="187" font-size="18" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">CT-7 PARTS</text>
+<text x="72" y="226" font-size="17" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">2 weeks approved cover</text>
+<text x="72" y="252" font-size="15" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#496070" text-anchor="start">Nova 80/week is conditional</text>
+<line x1="203" y1="281" x2="203" y2="332" stroke="#6d7d89" stroke-width="3" marker-end="url(#a)"/>
+<rect x="380" y="154" width="298" height="124" rx="14" fill="#fff1e7" stroke="#db8d59" stroke-width="2"/>
+<text x="398" y="187" font-size="18" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">NORTHPORT FLOOD</text>
+<text x="398" y="226" font-size="17" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">800/week primary at risk</text>
+<text x="398" y="252" font-size="15" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#496070" text-anchor="start">Eastgate 400/week conditional</text>
+<line x1="529" y1="281" x2="529" y2="332" stroke="#6d7d89" stroke-width="3" marker-end="url(#a)"/>
+<rect x="706" y="154" width="298" height="124" rx="14" fill="#f0ebfa" stroke="#866ab1" stroke-width="2"/>
+<text x="724" y="187" font-size="18" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">REMOTE ACCESS</text>
+<text x="724" y="226" font-size="17" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">Unverified privileged access</text>
+<text x="724" y="252" font-size="15" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#496070" text-anchor="start">Secure recovery must be signed</text>
+<line x1="855" y1="281" x2="855" y2="332" stroke="#6d7d89" stroke-width="3" marker-end="url(#a)"/>
+<rect x="1032" y="154" width="298" height="124" rx="14" fill="#fdf4d9" stroke="#b59b46" stroke-width="2"/>
+<text x="1050" y="187" font-size="18" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">OEM DEMAND</text>
+<text x="1050" y="226" font-size="17" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">650/week vs 550 feasible</text>
+<text x="1050" y="252" font-size="15" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#496070" text-anchor="start">100/week service gap</text>
+<line x1="1181" y1="281" x2="1181" y2="332" stroke="#6d7d89" stroke-width="3" marker-end="url(#a)"/>
+<rect x="54" y="338" width="298" height="99" rx="14" fill="#f8f9fc" stroke="#7892a8" stroke-width="2"/>
+<text x="72" y="376" font-size="18" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">QUALITY GATE</text>
+<text x="72" y="410" font-size="16" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">Approve alternate lots</text>
+<rect x="380" y="338" width="298" height="99" rx="14" fill="#f8f9fc" stroke="#7892a8" stroke-width="2"/>
+<text x="398" y="376" font-size="18" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">CARRIER GATE</text>
+<text x="398" y="410" font-size="16" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">Confirm route and capacity</text>
+<rect x="706" y="338" width="298" height="99" rx="14" fill="#f8f9fc" stroke="#7892a8" stroke-width="2"/>
+<text x="724" y="376" font-size="18" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">SECURITY GATE</text>
+<text x="724" y="410" font-size="16" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">Re-certify and authorize</text>
+<rect x="1032" y="338" width="298" height="99" rx="14" fill="#f8f9fc" stroke="#7892a8" stroke-width="2"/>
+<text x="1050" y="376" font-size="18" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">S&amp;OP GATE</text>
+<text x="1050" y="410" font-size="16" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">Approve customer priorities</text>
+<text x="54" y="490" font-size="24" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">Only verified controls proceed to end-to-end release</text>
+<text x="54" y="518" font-size="16" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#586d7d" text-anchor="start">A passed IT or facility estimate is not proof that a customer shipment was completed.</text>
+<rect x="54" y="552" width="237" height="111" rx="14" fill="#eaf5f1" stroke="#40987b" stroke-width="2"/>
+<text x="70" y="579" font-size="17" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#3a9c7a" text-anchor="start">01</text>
+<text x="70" y="616" font-size="17" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">People / site</text>
+<text x="70" y="643" font-size="16" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#435869" text-anchor="start">all-clear</text>
+<line x1="292" y1="607" x2="312" y2="607" stroke="#6d7d89" stroke-width="3" marker-end="url(#a)"/>
+<rect x="312" y="552" width="237" height="111" rx="14" fill="#eaf5f1" stroke="#40987b" stroke-width="2"/>
+<text x="328" y="579" font-size="17" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#3a9c7a" text-anchor="start">02</text>
+<text x="328" y="616" font-size="17" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">IT + inventory</text>
+<text x="328" y="643" font-size="16" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#435869" text-anchor="start">validated data</text>
+<line x1="550" y1="607" x2="570" y2="607" stroke="#6d7d89" stroke-width="3" marker-end="url(#a)"/>
+<rect x="570" y="552" width="237" height="111" rx="14" fill="#eaf5f1" stroke="#40987b" stroke-width="2"/>
+<text x="586" y="579" font-size="17" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#3a9c7a" text-anchor="start">03</text>
+<text x="586" y="616" font-size="17" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">Materials + test</text>
+<text x="586" y="643" font-size="16" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#435869" text-anchor="start">Quality release</text>
+<line x1="808" y1="607" x2="828" y2="607" stroke="#6d7d89" stroke-width="3" marker-end="url(#a)"/>
+<rect x="828" y="552" width="237" height="111" rx="14" fill="#eaf5f1" stroke="#40987b" stroke-width="2"/>
+<text x="844" y="579" font-size="17" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#3a9c7a" text-anchor="start">04</text>
+<text x="844" y="616" font-size="17" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">Customer allocation</text>
+<text x="844" y="643" font-size="16" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#435869" text-anchor="start">approved promise</text>
+<line x1="1066" y1="607" x2="1086" y2="607" stroke="#6d7d89" stroke-width="3" marker-end="url(#a)"/>
+<rect x="1086" y="552" width="237" height="111" rx="14" fill="#eaf5f1" stroke="#40987b" stroke-width="2"/>
+<text x="1102" y="579" font-size="17" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#3a9c7a" text-anchor="start">05</text>
+<text x="1102" y="616" font-size="17" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">Carrier + handoff</text>
+<text x="1102" y="643" font-size="16" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#435869" text-anchor="start">confirmed dispatch</text>
+<rect x="54" y="713" width="1252" height="76" rx="14" fill="#fff6e1" stroke="#d5a650" stroke-width="2"/>
+<text x="79" y="749" font-size="20" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#8a5b0e" text-anchor="start">NOT YET PROVEN</text>
+<text x="330" y="748" font-size="18" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#14324c" text-anchor="start">Two exercise gates missed: emergency roles +4 min; carrier confirmation +40 min.</text>
+<text x="330" y="774" font-size="16" font-weight="400" font-family="Arial,Helvetica,sans-serif" fill="#5f6b73" text-anchor="start">Retest 15 Nov 2026. Do not claim the 24-hour outbound RTO is demonstrated.</text>
+</svg>

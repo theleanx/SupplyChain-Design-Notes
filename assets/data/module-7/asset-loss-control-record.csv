@@ -1,0 +1,4 @@
+asset_id,loss_exposure,control_boundary,risk_of_loss_contract_term,physical_signal,financial_signal,owner
+SB-T01,instrumented shipment damage,carrier custody,contract-specific; legal review pending,seal anomaly,damage claim reserved,Transport Control
+SB-T02,finished-goods shrinkage,plant outbound gate,not applicable,cycle-count discrepancy,write-off request,Inventory Control
+SB-T03,supplier invoice diversion,payables master change,not applicable,unusual bank change,duplicate payment exception,Treasury Controls

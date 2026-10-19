@@ -1,0 +1,4 @@
+scenario_id,knowledge_state,observable_signal,prepared_capacity,decision_trigger,owner
+SB-U01,known,fixture maintenance notices,qualified alternate fixture,planned outage exceeds two shifts,Supplier Continuity Lead
+SB-U02,emerging,port congestion notifications,alternate cross-dock option,two consecutive missed gate-ins,Logistics Lead
+SB-U03,unknown scenario,no event-specific signal,undesignated cash and cross-trained response team,incident management activation,Risk Committee

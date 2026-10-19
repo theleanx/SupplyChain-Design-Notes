@@ -1,0 +1,4 @@
+exposure_id,objective,appetite,tolerance_expression,hard_threshold,measured_condition,decision_owner
+SB-P01,personnel safety,very low,zero unapproved life-safety exposure,any unapproved dangerous work,permit status not approved,Safety Director
+SB-P02,customer service,limited,up to 1 business day recoverable delay,2 business days projected delay,3 days projected,Customer Operations Director
+SB-P03,short-term cost,moderate,up to 25000 USD incremental approved spend,USD 25000,USD 18000,Operations Finance

@@ -1,0 +1,4 @@
+exercise_id,scenario,inject,owner,observed_minutes,target_minutes,passed,follow_up,next_test
+DRILL-01,plant_power_loss,activate_emergency_roles,Site_manager,19,15,no,update_call_tree_and_repeat,2026-11-15
+DRILL-01,plant_power_loss,secure_clean_inventory_snapshot,IT_security,40,60,yes,verify_integrity_of_snapshot,2026-11-15
+DRILL-01,plant_power_loss,confirm_alt_freight_capacity,Logistics,160,120,no,prebook_backup_carrier,2026-11-15

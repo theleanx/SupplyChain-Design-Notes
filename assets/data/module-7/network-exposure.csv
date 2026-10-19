@@ -1,0 +1,4 @@
+node,role,flows_units_week,dependency,alternate_capacity_units_week,restore_days,gate
+Northport_Hub,primary_freight_hub,800,shared_supplier_and_delivery_lane,400,14,alternate_carrier_contract
+Eastgate_Hub,backup_freight_hub,400,independent_regional_power,450,3,customs_route_verification
+Bayshore_Plant,only_certified_assembly_line,700,site_power_feed,0,10,validated_alt_site

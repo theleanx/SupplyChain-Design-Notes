@@ -1,0 +1,3 @@
+risk_id,version,valid_from,risk_statement,objective,owner,scope,horizon_days,early_indicator,qualitative_status,quantitative_status,response_status,next_review
+SB-R01,1,2026-10-19,Unqualified spare fixture may prolong connector interruption,planned production,Supplier Continuity Lead,connector family A,365,fixture outage notice,pending,not assessed,not selected,2026-11-02
+SB-R02,1,2026-10-19,Shared terminal outage may delay both outbound paths,customer delivery,Logistics Continuity Lead,two named lanes,90,terminal access alert,pending,not assessed,not selected,2026-10-26

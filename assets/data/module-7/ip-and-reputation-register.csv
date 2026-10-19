@@ -1,0 +1,4 @@
+asset_id,protected_interest,exposure_event,access_boundary,needed_evidence,owner,control_gate
+SB-IP01,industrial controller firmware,subcontractor copies binaries outside permitted scope,role-controlled code repository,audit trail and contract rights matrix,Technology Legal,permission review required
+SB-IP02,registered product mark,unauthorized third-party product bearing similar branding,approved distribution channels,authenticity test and marketplace evidence,Brand Protection,jurisdiction review required
+SB-IP03,customer assurance,misrepresented recovery commitments,shared incident communications,approved statements and correction history,Customer Operations,external message sign-off

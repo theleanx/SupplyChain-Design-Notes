@@ -336,3 +336,20 @@ This glossary provides concise working definitions for terms used across the rep
 
 
 For deeper treatment, open the [Module 1 overview](./01-supply-chains-demand-forecasting/README.md), [Module 2 overview](./02-network-design-digital-connectivity-performance/README.md), [Module 3 overview](./03-sourcing-strategy-product-design-supplier-execution/README.md), [Module 4 overview](./04-internal-operations-inventory/README.md), [Module 5 overview](./05-forward-reverse-logistics/README.md), [Module 6 overview](./06-supply-chain-relationships/README.md), or choose a [role-based learning path](./LEARNING-PATHS.md).
+
+
+## Module 7: Risk and Resilience Terminology
+
+**Risk appetite** — The type and amount of uncertainty an organization agrees it is willing to pursue or retain.
+
+**Risk tolerance** — The permitted degree of variation or adverse outcome for a specified objective.
+
+**Risk threshold** — A defined value or condition triggering required action, escalation or a decision gate.
+
+**Risk register** — A controlled record of identified risks, causes, consequences, owners, evidence, treatments, and review triggers.
+
+**Expected monetary value (EMV)** — The probability-weighted sum of mutually exclusive scenario monetary outcomes over one defined horizon; signed financial benefit and positive loss magnitude use different conventions.
+
+**Residual risk** — Exposure remaining after an implemented and verified response, not merely after a response has been planned.
+
+**Business continuity management (BCM)** — Establishing and testing the people, process, information and partner capabilities needed to continue or restore prioritized operations after disruption.

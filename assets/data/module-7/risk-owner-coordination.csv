@@ -1,0 +1,4 @@
+risk_id,executive_sponsor,risk_accountable,control_operator,partner_contact,escalation_deadline_hours,missing_evidence
+SB-R01,VP Supply Chain,Supplier Continuity Lead,Quality Engineer,Connector Tier-1 Lead,8,Tier-2 fixture location
+SB-R02,VP Operations,Logistics Continuity Lead,Transport Planner,Carrier Control Center,4,Terminal bypass test
+SB-R04,CISO,IT Continuity Manager,Identity Operations Lead,Managed Platform Lead,1,Service account recovery test

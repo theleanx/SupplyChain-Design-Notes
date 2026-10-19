@@ -2,6 +2,26 @@
 
 Significant public improvements to this repository are recorded here.
 
+## Version 7.0.0 — Module 7
+
+Release target: 2026-10-19
+
+### Learning content
+
+- Adds two connected sections covering risk governance and identification, qualitative and quantitative analysis, response economics, disruption recovery, and business continuity.
+- Adds 39 Module 7 Markdown learning/reference pages, 31 topic lessons, 33 original SVG decision visuals, 32 fictional CSV datasets, and 72 independently authored knowledge checks.
+- Adds the Stonebridge Risk and Resilience capstone, a fully worked solution guide, and a reproducible calculation replay.
+- Adds the risk-response calculation and decision-control reference and integrates Module 7 into repository navigation, learning paths, glossary, roadmap, citation metadata, and bidirectional module handoffs.
+
+### Quality controls
+
+- Extends the shared validator to all seven modules and invokes the Module 7-specific structural, link, assessment, asset, and source-separation gates.
+- Replays the Stonebridge arithmetic and decision gates from the published fictional datasets.
+- Raster-reviews all 33 Module 7 SVGs at 640 px and 1280 px widths and rejects visibly truncated SVG labels.
+- Verifies the 111-file release-candidate overlay, 32 CSV schemas, all local Markdown targets, external authoritative links, and Module 1–6 lesson-content preservation.
+- Performs exact normalized 10-word and 12-word source/public overlap scans with zero hits against the private Module 7 learning component, presentation, flashcards, and question bank.
+- Keeps proprietary source PDFs, presentations, flashcards, question-bank material, private audits, and render-check artifacts outside the public repository.
+
 ## Version 6.0.1 — Modules 1–6 synchronization
 
 Release target: 2026-10-18

@@ -1,0 +1,4 @@
+case,exposure,currency_or_unit,base_value,stress_value,computed_change,decision_gate,owner
+FX_payable,800000,EUR_payable_at_USD_per_EUR,1.10,1.17,56000,treasury_policy,Treasury
+Commodity_contract,50000,kg_steel_price_USD_per_kg,4.00,4.50,25000,approved_procurement_contract,Procurement
+Litigation_claim,250000,USD_claim_exposure,0.20,0.25,12500,legal_hold_and_counsel_review,Legal

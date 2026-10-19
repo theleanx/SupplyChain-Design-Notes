@@ -1,0 +1,4 @@
+supplier,part,weekly_demand_units,available_usable_stock_units,alternative_units_week,approval_status,qualification_days,first_response
+Apex_Micro,CT-7,120,240,0,not_qualified,42,allocate_safety_stock_and_start_qualification
+Nova_Circuits,CT-7,120,0,80,conditional_lab_approval,14,expedite_lab_validation
+Ironridge_Metals,HS-2,120,600,160,approved,0,execute_standard_replenishment

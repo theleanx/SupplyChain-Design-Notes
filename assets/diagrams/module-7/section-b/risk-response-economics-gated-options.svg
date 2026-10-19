@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Gated risk response economics</title><desc id="chart-desc">Four risk response alternatives with certain costs and expected remaining event losses. Only monitored hardening and isolated failover pass mandatory gates; monitored hardening has the lowest expected annual cost among feasible alternatives.</desc>
+<defs><marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1 L11 6 L0 11 Z" fill="#087D93"/></marker></defs>
+<rect width="1280" height="760" fill="#F8FAFC"/>
+<text x="50" y="66" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#152D46">Response economics: gate first, then compare costs</text>
+<text x="50" y="105" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#53687A">One-year view • certain program cost + probability × residual conditional loss (USD thousands)</text>
+<rect x="52" y="145" width="1176" height="475" rx="18" fill="#FFFFFF" stroke="#D4DEE7" stroke-width="2"/>
+<text x="79" y="190" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" fill="#152D46">No intervention</text>
+<rect x="380.00" y="165" width="585.00" height="40" rx="3" fill="#B46722"/>
+<text x="995" y="192" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" fill="#152D46">$46.8k</text>
+<text x="1105" y="182" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#A33B3B">FAIL</text>
+<text x="1105" y="204" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#53687A">GATE</text>
+<text x="382" y="228" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="#A33B3B">SECURITY GATE FAIL</text>
+<text x="79" y="294" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" fill="#152D46">Monitored hardening</text>
+<rect x="380" y="269" width="137.50" height="40" rx="3" fill="#087D93"/>
+<rect x="517.50" y="269" width="220.00" height="40" rx="3" fill="#B46722"/>
+<text x="995" y="296" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" fill="#152D46">$28.6k</text>
+<text x="1105" y="286" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#26704A">PASS</text>
+<text x="1105" y="308" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#53687A">GATE</text>
+<text x="382" y="332" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="#26704A">LOWEST ELIGIBLE</text>
+<text x="79" y="398" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" fill="#152D46">Isolated failover</text>
+<rect x="380" y="373" width="362.50" height="40" rx="3" fill="#087D93"/>
+<rect x="742.50" y="373" width="108.75" height="40" rx="3" fill="#B46722"/>
+<text x="995" y="400" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" fill="#152D46">$37.7k</text>
+<text x="1105" y="390" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#26704A">PASS</text>
+<text x="1105" y="412" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#53687A">GATE</text>
+<text x="382" y="436" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="#26704A">ELIGIBLE</text>
+<text x="79" y="502" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" fill="#152D46">Insurance-only illustration</text>
+<rect x="380" y="477" width="225.00" height="40" rx="3" fill="#087D93"/>
+<rect x="605.00" y="477" width="67.50" height="40" rx="3" fill="#B46722"/>
+<text x="995" y="504" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" fill="#152D46">$23.4k</text>
+<text x="1105" y="494" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#A33B3B">FAIL</text>
+<text x="1105" y="516" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#53687A">GATE</text>
+<text x="382" y="540" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="#A33B3B">COVERAGE / SECURITY FAIL</text>
+<rect x="72" y="633" width="270" height="49" rx="8" fill="#E7F5F8" stroke="#087D93" stroke-width="1"/>
+<rect x="367" y="633" width="334" height="49" rx="8" fill="#FFF1E4" stroke="#B46722" stroke-width="1"/>
+<text x="86" y="665" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#087D93">Certain cost — paid each year</text>
+<text x="383" y="665" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#B46722">Expected remaining event loss</text>
+<text x="72" y="715" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#53687A">Gate thresholds and cost figures are fictional exercise assumptions, not an APICS/ISO control requirement.</text>
+</svg>

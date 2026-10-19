@@ -1,0 +1,4 @@
+case,confirmed_demand_units,available_weekly_capacity_units,reliable_substitute_units,customer_commitment_units,shortfall_units,trigger
+Base,500,500,0,500,0,none
+Upside,650,500,50,650,100,oem_firm_orders_exceed_550
+Downside,420,500,0,420,0,order_cancellations_over_60

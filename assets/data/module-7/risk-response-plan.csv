@@ -1,0 +1,4 @@
+risk_id,action_id,trigger,preventive_owner,contingency_owner,hard_gate,planned_activation_hours,status,review_date
+R7-11,RP-11,open_orders_over_14_days,Procurement,Operations,quality_approval,24,ready_for_test,2026-11-15
+R7-12,RP-12,critical_line_alarm,Engineering,Plant_manager,safety_release,1,in_design_review,2026-10-25
+R7-13,RP-13,river_flood_alert,Logistics,Customer_service,carrier_capacity_confirmation,8,alternate_unconfirmed,2026-11-04

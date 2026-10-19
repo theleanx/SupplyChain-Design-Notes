@@ -1,0 +1,5 @@
+risk_id,method,eligibility_gate,condition,uncovered_exposure,owner,next_review
+R7-11,mitigate,alternate_qualified,approved_vendor_and_quality_evidence,common_mode_freight_loss,Procurement,2026-11-15
+R7-12,avoid,design_change_validated,safety_test_and_production_approval,implementation_downtime,Engineering,2026-11-08
+R7-13,transfer,insurance_wording_verified,contractual_cover_and_insurer_confirmation,physical_delay_and_service_penalty,Risk_and_Finance,2026-11-04
+R7-14,accept,approved_tolerance,customer_priority_agreed,lost_order_opportunity,Sales_and_Operations,2026-10-31

@@ -37,6 +37,8 @@ After completing this module, you should be able to:
 
 Module 1 defines the demand, service, planning, and supply–demand alignment context used by every later module. [Module 2](../02-network-design-digital-connectivity-performance/README.md) converts that context into network, technology, data, and performance choices; [Module 3](../03-sourcing-strategy-product-design-supplier-execution/README.md) converts it into sourcing, product-design, supplier, and procurement decisions; [Module 4](../04-internal-operations-inventory/README.md) converts it into executable planning, capacity, inventory, and improvement controls; [Module 5](../05-forward-reverse-logistics/README.md) extends it into forward logistics, trade execution, returns, recovery, and end-of-life flow; and [Module 6](../06-supply-chain-relationships/README.md) uses its demand, service, life-cycle, and planning outputs to shape customer and supplier relationship decisions.
 
+- [**Module 7 — Supply Chain Risk**](../07-supply-chain-risk/README.md) adds the assessment, hard response gates, disruption/continuity choices and tested recovery evidence that use this module’s existing operating methods.
+
 ## How each lesson is structured
 
 Each topic combines a plain-language concept with explicit business relevance, decision logic, evidence requirements, a topic-appropriate visual or process flow, a fictional example, and a practitioner-ready artifact or worked calculation when useful. Lessons close with trade-offs, common confusion, failure modes, one original knowledge check with full rationale, practitioner perspective, related concepts, and sequential navigation.

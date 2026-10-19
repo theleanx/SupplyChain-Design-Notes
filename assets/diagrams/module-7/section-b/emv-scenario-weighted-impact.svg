@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">EMV scenario weighted impact</title><desc id="chart-desc">Probability-weighted expected value of zero, moderate and severe disruption outcomes, total probability 100 percent and signed annual expected loss negative forty-five thousand dollars.</desc>
+<defs><marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1 L11 6 L0 11 Z" fill="#087D93"/></marker></defs>
+<rect width="1280" height="760" fill="#F8FAFC"/>
+<text x="50" y="66" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="700" fill="#152D46">Expected monetary value: three annual lane outcomes</text>
+<text x="50" y="102" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#53687A">Mutually exclusive and exhaustive scenarios • fictitious Stonebridge data • signed loss convention</text>
+<rect x="51" y="146" width="1177" height="58" rx="10" fill="#152D46" stroke="#152D46" stroke-width="1"/>
+<text x="79" y="185" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Outcome</text>
+<text x="470" y="185" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Probability</text>
+<text x="691" y="185" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Conditional impact</text>
+<text x="1008" y="185" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Weighted contribution</text>
+<rect x="51" y="210" width="1177" height="85" rx="8" fill="#E7F5F8" stroke="#E1E8F0" stroke-width="1"/>
+<text x="79" y="263" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" fill="#152D46">No disruption</text>
+<text x="470" y="263" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#152D46">65%</text>
+<text x="691" y="263" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#152D46">$0</text>
+<text x="1008" y="263" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#A33B3B">$0</text>
+<rect x="51" y="305" width="1177" height="85" rx="8" fill="#FFFFFF" stroke="#E1E8F0" stroke-width="1"/>
+<text x="79" y="358" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" fill="#152D46">Moderate disruption</text>
+<text x="470" y="358" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#152D46">25%</text>
+<text x="691" y="358" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#152D46">−$80,000</text>
+<text x="1008" y="358" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#A33B3B">−$20,000</text>
+<rect x="51" y="400" width="1177" height="85" rx="8" fill="#E7F5F8" stroke="#E1E8F0" stroke-width="1"/>
+<text x="79" y="453" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" fill="#152D46">Severe disruption</text>
+<text x="470" y="453" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#152D46">10%</text>
+<text x="691" y="453" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#152D46">−$250,000</text>
+<text x="1008" y="453" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#A33B3B">−$25,000</text>
+<rect x="51" y="516" width="1177" height="98" rx="12" fill="#E5F2F4" stroke="#087D93" stroke-width="2"/>
+<text x="81" y="553" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#087D93">TOTAL PROBABILITY</text>
+<text x="81" y="590" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" fill="#152D46">65% + 25% + 10% = 100%</text>
+<text x="691" y="553" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#087D93">ANNUAL SIGNED EMV</text>
+<text x="691" y="591" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#152D46">−$20,000 − $25,000 = −$45,000</text>
+<rect x="51" y="641" width="1177" height="90" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+<text x="83" y="677" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#087D93">Interpretation</text>
+<text x="83" y="709" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" fill="#152D46">Expected annual loss = $45,000; severe event loss if it occurs = $250,000.</text>
+</svg>

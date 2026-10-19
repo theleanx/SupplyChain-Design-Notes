@@ -41,6 +41,8 @@ After completing this module, you should be able to:
 
 Module 4 receives demand, forecasting, and supply–demand alignment decisions from [Module 1](../01-supply-chains-demand-forecasting/README.md); network, visibility, and performance context from [Module 2](../02-network-design-digital-connectivity-performance/README.md); and sourcing, supplier, contract, and product-design decisions from [Module 3](../03-sourcing-strategy-product-design-supplier-execution/README.md). It converts those upstream decisions into executable production, capacity, inventory, control, and improvement actions that become physical-flow inputs to [Module 5](../05-forward-reverse-logistics/README.md) and performance/corrective-action evidence for customer and supplier relationship governance in [Module 6](../06-supply-chain-relationships/README.md).
 
+- [**Module 7 — Supply Chain Risk**](../07-supply-chain-risk/README.md) adds the assessment, hard response gates, disruption/continuity choices and tested recovery evidence that use this module’s existing operating methods.
+
 ## How each lesson is structured
 
 Each topic starts with learning objectives and a plain-English explanation, then moves into business relevance, a topic-specific original visual, an operational process flow where appropriate, a Pinehaven scenario, a decision artifact or reproducible calculation, decision logic, trade-offs, failure modes, common confusions, an original knowledge check with distractor rationales, practitioner perspective, related concepts, and sequential navigation.

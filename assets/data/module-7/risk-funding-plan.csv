@@ -1,0 +1,4 @@
+budget_item,type,amount_usd,release_authority,source_of_funds,control_evidence
+Supplier fixture validation,planned preventive,18000,VP Operations,annual control budget,signed capability test
+Recovery routing dry run,planned preventive,7500,Logistics Director,annual control budget,pass/fail bypass record
+Unspecified severe disruption,unknown event reserve,40000,Executive Risk Committee,contingency reserve,incident charter and invoices
