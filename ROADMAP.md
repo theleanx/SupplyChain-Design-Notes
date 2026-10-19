@@ -60,7 +60,8 @@
 - [x] Complete Sections A–B, with original lessons, assessments and decision visuals
 - [x] Add Stonebridge integrated capstone, controlled data and reproducible calculations
 - [x] Apply the shared overview, lesson, capstone, asset and cross-module validation gates
-- [ ] Confirm GitHub Actions validation, independent editorial review and final release approval
+- [x] Confirm GitHub Actions validation and final editorial/visual review
+- [ ] Obtain final release approval
 
 ## Future modules
 

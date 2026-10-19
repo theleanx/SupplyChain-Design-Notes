@@ -62,6 +62,13 @@ def main() -> int:
     for h in MODULE_HEADINGS:
         if not has_heading((MOD/'README.md').read_text(),h):
             failures.append(f'Module overview missing {h}')
+    module_overview = (MOD/'README.md').read_text()
+    if '**Status: validated release candidate; awaiting final human approval.**' not in module_overview:
+        failures.append('Module overview release status is stale or missing')
+    for stale in ('awaiting full-repository CI', 'final full-repository release gate pending',
+                  'do not publish as a finished module'):
+        if stale in module_overview:
+            failures.append(f'Module overview retains stale release-gate text: {stale}')
     for p in sections:
         if not p.is_dir(): continue
         overview=p/'README.md'

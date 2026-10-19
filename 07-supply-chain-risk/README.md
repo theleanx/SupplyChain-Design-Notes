@@ -1,6 +1,6 @@
 # Module 7: Supply Chain Risk
 
-> **Status: complete development candidate; awaiting full-repository CI, GitHub rendering and release approval.** Sections A and B and the integrated capstone are fully authored. Stonebridge Industrial Components, datasets, assessment scenarios and thresholds are fictional.
+> **Status: validated release candidate; awaiting final human approval.** Sections A and B and the integrated capstone are fully authored. Stonebridge Industrial Components, datasets, assessment scenarios and thresholds are fictional.
 
 This module adds governance, uncertainty assessment, risk-response decisions and tested continuity to the execution capabilities taught in Modules 1–6. It does not restate those modules' complete planning, procurement, inventory, logistics, customer or supplier methodologies.
 
@@ -25,7 +25,7 @@ This module adds governance, uncertainty assessment, risk-response decisions and
 - [Repository learning paths](../LEARNING-PATHS.md) and [repository glossary](../GLOSSARY.md)
 - [Reference register](./REFERENCES.md)
 - [Risk-response formula and control reference](../calculations/risk-response/formula-sheet.md).
-- [Integrated capstone assignment](./capstone/README.md), [fully worked solution](./capstone/solution-guide.md), and [independent replay](../calculations/risk-response/capstone_replay.py) — locally authored; final full-repository release gate pending.
+- [Integrated capstone assignment](./capstone/README.md), [fully worked solution](./capstone/solution-guide.md), and [independent replay](../calculations/risk-response/capstone_replay.py) — locally authored and validated in the full repository.
 
 ## Cross-module handoffs
 
@@ -52,5 +52,5 @@ Each topic contains objectives, plain-language explanation, business relevance, 
 
 - Primary educational basis: ASCM/APICS 2026 CSCP Learning System version 5.4, Module 7.
 - Current authoring scope: 12 Section A lessons plus review; 19 Section B lessons plus review; 31 lesson SVGs plus two original capstone SVGs; fictional CSV case records.
-- Both sections and their integrated capstone are authored; **do not publish as a finished module** until validator integration, independent final editorial/visual review and CI pass.
+- Both sections and their integrated capstone are authored and validated; the candidate remains unmerged pending final human approval.
 - Source materials and copyrighted flashcards remain outside the public repository.
