@@ -9,7 +9,7 @@
 - New companion directories: `assets/data/module-7/` (32 CSV datasets), `assets/diagrams/module-7/` (33 SVGs), `calculations/risk-response/` (replay and reference).
 - Independent learning assessments: 72 answer rationale blocks; source question-bank overlap was screened on 60 extracted new question stems, without a high-similarity match.
 - Release-candidate file count: 111, including two validator/integration scripts.
-- Reviewed archive SHA-256: `672dfc5fdb69a13a8e09b064fcae7934a5830561a60e3e5b8501ea7e88b9603c` (verify bytes after transfer).
+- Reviewed archive SHA-256: `9c4eae948449d4a13e66c7965ec15b80f45479203b78da2123d7b4bd8804133c` (verify bytes after transfer).
 
 ## Import steps (must be completed before code review)
 
