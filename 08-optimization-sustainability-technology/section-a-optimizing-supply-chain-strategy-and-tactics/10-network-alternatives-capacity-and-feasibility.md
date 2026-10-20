@@ -128,10 +128,10 @@ A design study must reconcile facility throughput with real shifts, qualified la
 
 ## Related concepts
 
-- [Previous topic](./strategy-fit-gap-detection-and-redesign-governance.md)
+- [Previous topic](./09-strategy-fit-gap-detection-and-redesign-governance.md)
 - [Module 2 — Network Performance](../../02-network-design-digital-connectivity-performance/README.md)
 - [Module 7 — Risk Analysis](../../07-supply-chain-risk/README.md)
 
 ---
 
-[Previous topic](./strategy-fit-gap-detection-and-redesign-governance.md) · [Section overview](./README.md)
+[Previous topic](./09-strategy-fit-gap-detection-and-redesign-governance.md) · [Section overview](./README.md)

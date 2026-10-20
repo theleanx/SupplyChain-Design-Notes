@@ -1757,10 +1757,16 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
     details = sum(path.read_text(encoding="utf-8").count("<details>") for path in module_markdown)
     if len(module_markdown) != 369:
         errors.append(f"Repository inventory: expected 369 module Markdown files, found {len(module_markdown)}")
-    if len(svg) != 250:
-        errors.append(f"Repository inventory: expected 250 SVG files, found {len(svg)}")
-    if len(datasets) != 101:
-        errors.append(f"Repository inventory: expected 101 CSV files, found {len(datasets)}")
+    # Baseline inventory counts describe the seven *released* modules.
+    # Draft Module 8 assets still pass the universal SVG/CSV/link/orphan gates
+    # and the separate Section A development validator, but must not alter
+    # the immutable released baseline snapshot before the full Module 8 release.
+    released_svg = [p for p in svg if not p.is_relative_to(ROOT / "assets/diagrams/module-8")]
+    released_data = [p for p in datasets if not p.is_relative_to(ROOT / "assets/data/module-8")]
+    if len(released_svg) != 250:
+        errors.append(f"Repository inventory: expected 250 released SVG files, found {len(released_svg)}")
+    if len(released_data) != 101:
+        errors.append(f"Repository inventory: expected 101 released CSV files, found {len(released_data)}")
     if details != 723:
         errors.append(f"Repository inventory: expected 723 knowledge checks, found {details}")
 

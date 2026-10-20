@@ -129,10 +129,10 @@ Integration specialists should maintain an event dictionary: material identity, 
 
 ## Related concepts
 
-- [Previous topic](./cost-revenue-location-and-tax-decision-boundaries.md)
+- [Previous topic](./05-cost-revenue-location-and-tax-decision-boundaries.md)
 - [Module 2 — Connected network decisions](../../02-network-design-digital-connectivity-performance/README.md)
 - [Module 7 — Risk and mandatory gates](../../07-supply-chain-risk/README.md)
 
 ---
 
-[Previous topic](./cost-revenue-location-and-tax-decision-boundaries.md) · [Section overview](./README.md)
+[Previous topic](./05-cost-revenue-location-and-tax-decision-boundaries.md) · [Section overview](./README.md)

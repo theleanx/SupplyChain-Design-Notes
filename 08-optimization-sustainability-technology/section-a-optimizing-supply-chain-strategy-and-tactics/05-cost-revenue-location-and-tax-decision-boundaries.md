@@ -129,10 +129,10 @@ Business cases should reconcile modeled lanes, inventory valuation, facility sta
 
 ## Related concepts
 
-- [Previous topic](./business-plan-value-proposition-and-core-competencies.md)
+- [Previous topic](./04-business-plan-value-proposition-and-core-competencies.md)
 - [Module 2 — Connected network decisions](../../02-network-design-digital-connectivity-performance/README.md)
 - [Module 7 — Risk and mandatory gates](../../07-supply-chain-risk/README.md)
 
 ---
 
-[Previous topic](./business-plan-value-proposition-and-core-competencies.md) · [Section overview](./README.md)
+[Previous topic](./04-business-plan-value-proposition-and-core-competencies.md) · [Section overview](./README.md)

@@ -130,10 +130,10 @@ Maintain a small auditable calculation beside any production optimization servic
 
 ## Related concepts
 
-- [Previous topic](./network-alternatives-capacity-and-feasibility.md)
+- [Previous topic](./10-network-alternatives-capacity-and-feasibility.md)
 - [Module 2 — Network Performance](../../02-network-design-digital-connectivity-performance/README.md)
 - [Module 7 — Risk Analysis](../../07-supply-chain-risk/README.md)
 
 ---
 
-[Previous topic](./network-alternatives-capacity-and-feasibility.md) · [Section overview](./README.md)
+[Previous topic](./10-network-alternatives-capacity-and-feasibility.md) · [Section overview](./README.md)

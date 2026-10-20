@@ -128,10 +128,10 @@ Architecture assessments can trace service targets through product hierarchy, qu
 
 ## Related concepts
 
-- [Previous topic](./customer-service-resource-and-partner-competencies.md)
+- [Previous topic](./08-customer-service-resource-and-partner-competencies.md)
 - [Module 2 — Network Performance](../../02-network-design-digital-connectivity-performance/README.md)
 - [Module 7 — Risk Analysis](../../07-supply-chain-risk/README.md)
 
 ---
 
-[Previous topic](./customer-service-resource-and-partner-competencies.md) · [Section overview](./README.md)
+[Previous topic](./08-customer-service-resource-and-partner-competencies.md) · [Section overview](./README.md)

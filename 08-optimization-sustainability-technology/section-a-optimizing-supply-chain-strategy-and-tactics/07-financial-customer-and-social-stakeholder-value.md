@@ -129,10 +129,10 @@ Cross-system reporting should retain the source and perspective of each metric. 
 
 ## Related concepts
 
-- [Previous topic](./three-vs-visibility-velocity-and-variability.md)
+- [Previous topic](./06-three-vs-visibility-velocity-and-variability.md)
 - [Module 2 — Connected network decisions](../../02-network-design-digital-connectivity-performance/README.md)
 - [Module 7 — Risk and mandatory gates](../../07-supply-chain-risk/README.md)
 
 ---
 
-[Previous topic](./three-vs-visibility-velocity-and-variability.md) · [Section overview](./README.md)
+[Previous topic](./06-three-vs-visibility-velocity-and-variability.md) · [Section overview](./README.md)
