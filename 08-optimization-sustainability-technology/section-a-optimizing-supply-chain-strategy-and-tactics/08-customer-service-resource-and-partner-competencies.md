@@ -18,11 +18,11 @@ AlderGate's engineering division promises qualified repairs in a short window. I
 
 ## Why it matters
 
-This capability matters when a proposed local change creates consequences outside its sponsoring function. The chosen customer promise, common planning horizon, implementation owner and evidence quality must remain visible to management. An analytically attractive idea may still be premature when the affected network cannot execute it safely or economically.
+Service excellence is not fully described by internal efficiency or on-time shipment alone. AlderGate needs availability, credible promises and qualified partner performance to work together. The strategic test asks whether better service is valuable enough to justify the resources consumed and whether a partner model can deliver it reliably.
 
 ## Decision model and workflow
 
-AlderGate should retain a service definition, the orders included in the metric, provider qualification status and the cost of the improved option. Quality must confirm all accelerated handling respects traceability and test controls.
+Compare service outcomes before and after a verified operating change, then reconcile the extra cost with customer retention and qualified service capacity. Test partner approval, qualification and continuity before a service model is called feasible.
 
 ### Evidence retained through the workflow
 
@@ -37,11 +37,11 @@ AlderGate should retain a service definition, the orders included in the metric,
 
 ```mermaid
 flowchart TD
-    A[Identify the customer outcome and scope]
-    B[Retain quantified capabilities and assumptions]
-    C[Screen mandatory gates and feasibility]
-    D[Evaluate eligible alternatives and sensitivity]
-    E[Approve owners and monitor results]
+    A[Define service class]
+    B[Confirm resources]
+    C[Qualify partner]
+    D[Measure complete orders]
+    E[Compare cost and value]
     A --> B
     B --> C
     C --> D
@@ -50,7 +50,7 @@ flowchart TD
 
 ## Realistic example — AlderGate Motion Products
 
-AlderGate is an independent fictional industrial manufacturer with standard couplings and an engineered repair line. The operations team must reconcile production and service requirements, while Quality confirms process qualification and Finance checks resource economics. The case below uses deliberately selected training figures; no values imply a universal industry benchmark.
+AlderGate's repair line uses a technically strong in-house testing operation, but the plant is weak at urgent final-mile delivery. A specialist carrier pilot improves complete and on-time orders. Supplier management verifies the carrier's contingency and escalation arrangements while Finance checks whether the premium service fees cover the extra delivery charges.
 
 ## Applied decision artifact or worked calculation
 
@@ -58,10 +58,10 @@ In a fictional month, 880 of 1,000 orders arrive complete and on time, giving **
 
 ## Decision logic
 
-- Frame one clear decision, with measurable output and the same time units for all options.
-- Verify required regulatory, safety, quality, security, continuity and capacity conditions before ranking.
-- Compare the remaining feasible alternatives against an explicit enterprise objective.
-- Preserve uncertainty and implement an owner-led review trigger for changing assumptions.
+- Measure availability, reliable execution and direct customer experience separately.
+- Keep physical and qualification constraints explicit.
+- Use qualified partner strengths without outsourcing customer accountability.
+- Compare incremental cost to realized segment value.
 
 ## Trade-offs
 
@@ -73,14 +73,14 @@ In a fictional month, 880 of 1,000 orders arrive complete and on time, giving **
 
 ## Commonly confused with
 
-A business objective does not automatically become a valid mathematical objective function. A method's numerical output must be interpreted against the operating model it represents. Feasibility, efficiency and strategic effectiveness answer distinct questions.
+Service **availability**, **operational performance** and **customer satisfaction** are complementary but distinct. **Effectiveness** asks whether the right customer outcome was achieved; **efficiency** asks how economically resources generated the result. A partner can strengthen both without owning the original customer promise.
 
 ## Common mistakes
 
-- Optimizing a metric that does not reflect the target customer or economic objective.
-- Mixing monthly and weekly capacities or inconsistent financial scopes.
-- Assigning a weighted penalty to an alternative that actually fails a mandatory condition.
-- Claiming that a model result eliminates the need for implementation and sensitivity testing.
+- Assuming on-time delivery proves customer satisfaction.
+- Treating high machine utilization as the whole service objective.
+- Choosing an external partner only from its lowest quoted freight rate.
+- Rolling premium service out to segments with no demonstrated willingness to pay.
 
 ## Original knowledge check
 
@@ -115,7 +115,7 @@ The measure shows a real change under the assumed population. Its commercial con
 
 ## Practitioner perspective
 
-At the operating review, the commercial owner records whether emergency customers actually experience better outcomes, operations tests provider exception handling, and Finance verifies cost-to-serve. This avoids allowing a strong delivery dashboard to conceal a negative contract margin.
+ERP, WMS and carrier events should link to a common order and service definition. Service owners need access to verified partner exceptions, while procurement preserves qualification records and Finance captures the true premium service cost.
 
 ## Related concepts
 

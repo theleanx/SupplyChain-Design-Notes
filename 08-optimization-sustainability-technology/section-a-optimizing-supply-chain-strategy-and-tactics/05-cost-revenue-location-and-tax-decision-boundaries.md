@@ -18,11 +18,11 @@ AlderGate considers moving part of its distributor fulfillment to a regional war
 
 ## Why it matters
 
-These strategic decisions cut across cost, customers and operating functions. A local improvement should not be described as enterprise value without a consistent baseline, a defined horizon and a credible accountable decision owner. The evidence must show both the result the business expects and the constraints that might prevent it.
+A proposed fulfillment footprint can lower one reported cost while increasing cash needs, customer delays or fixed commitments elsewhere. Finance needs a consistent cost and revenue boundary before AlderGate authorizes an additional facility. A hypothetical tax benefit must remain outside the base case until transaction-specific evidence supports it.
 
 ## Decision model and workflow
 
-Use the following retained records to turn the strategy into a reproducible decision. Each record should document a responsible owner and a dated assumption rather than merely asserting that the option looks attractive.
+Compare the central and regional network options on the same annual service and cost horizon. List all recurring components, isolate the one-time launch expense, record capacity and legal feasibility, and keep simple payback separate from discounted investment results.
 
 ### Evidence retained through the workflow
 
@@ -37,11 +37,11 @@ Use the following retained records to turn the strategy into a reproducible deci
 
 ```mermaid
 flowchart TD
-    A[Define stakeholder and customer objective]
-    B[Validate evidence, cost scope and design choices]
-    C[Exclude illegal, unsafe or infeasible options]
-    D[Compare outcomes on common time horizon]
-    E[Approve owners, controls and review triggers]
+    A[Demand by lane]
+    B[Total annual cost]
+    C[Location permits]
+    D[Capacity test]
+    E[Payback and review]
     A --> B
     B --> C
     C --> D
@@ -50,7 +50,7 @@ flowchart TD
 
 ## Realistic example — AlderGate Motion Products
 
-The fictional AlderGate leadership team uses these records to decide whether its standard and engineered product lines need different investments. Quality and operations first establish what is feasible; commercial teams then identify which customer outcomes matter; Finance checks whether the assumptions are consistent. These roles prevent a single-function recommendation from becoming a misleading corporate strategy.
+AlderGate's finance team receives a regional-warehouse proposal showing only a lower outbound freight quote. The warehouse group adds site staffing, duplicate stock, technology interfaces and returns handling. Customer operations estimates the consequence of delayed emergency orders, while legal and tax advisers evaluate the relevant entities and location restrictions. Only the reconciled feasible options advance to approval.
 
 ## Applied decision artifact or worked calculation
 
@@ -58,10 +58,10 @@ Central fulfillment's fictional annual cost is $280,000 facility expense + $220,
 
 ## Decision logic
 
-- Define the relevant business promise, volume, horizon and decision rights before comparison.
-- Document material assumptions and distinguish a modeled benefit from one that has been realized.
-- Keep legal, safety, qualification and capacity limits as gates before economic ranking.
-- Compare remaining options using consistently scoped outcomes and review triggers.
+- Use the same volume and horizon for all cost alternatives.
+- Include costs transferred from one department to another.
+- Exclude any design that fails capacity, permit or compliance gates.
+- Keep recurring saving, one-time cash need and discounted return distinct.
 
 ## Trade-offs
 
@@ -78,10 +78,10 @@ Variable contribution, recurring operating saving, simple payback and NPV are di
 
 ## Common mistakes
 
-- Using one favorable metric to declare an entire business model optimal.
-- Hiding untested operating assumptions inside a weighted ranking.
-- Treating a hypothetical benefit as a booked or guaranteed financial result.
-- Omitting the implementation owner and threshold for re-evaluation.
+- Presenting a freight quote as total network cost.
+- Subtracting speculative tax incentives as guaranteed savings.
+- Dividing an annual benefit into a multi-year investment without labeling payback.
+- Forgetting dual-running or closure costs at transition.
 
 ## Original knowledge check
 
@@ -116,7 +116,7 @@ The arithmetic supports a simple payback, not a full discounted investment decis
 
 ## Practitioner perspective
 
-In an ERP-enabled supply chain the decision becomes visible through planning parameters, service promises, partner commitments, exception records and financial controls. Systems can support a chosen operating policy, but merely configuring them does not establish the commercial case. Preserve the decision's assumptions and owners so the policy can be revisited when demand or business priorities change.
+Business cases should reconcile modeled lanes, inventory valuation, facility staffing and customer promise classes before they change SAP or warehouse master data. Tax details require jurisdiction-specific expert review; planning or configuration teams should not infer statutory treatment from the illustration.
 
 ## Related concepts
 

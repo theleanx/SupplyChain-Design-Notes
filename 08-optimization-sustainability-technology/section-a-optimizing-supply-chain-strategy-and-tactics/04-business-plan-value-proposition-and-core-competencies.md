@@ -16,11 +16,11 @@ AlderGate Motion Products plans to offer emergency engineered assemblies. Its co
 
 ## Why it matters
 
-These strategic decisions cut across cost, customers and operating functions. A local improvement should not be described as enterprise value without a consistent baseline, a defined horizon and a credible accountable decision owner. The evidence must show both the result the business expects and the constraints that might prevent it.
+AlderGate cannot price or promise an engineered repair until Finance, production and Quality agree on the real capability and funding requirements. The central risk is a profitable-looking sales initiative that cannot be executed by qualified people at the promised time. A controlled business plan closes that translation gap before customer commitments are made.
 
 ## Decision model and workflow
 
-Use the following retained records to turn the strategy into a reproducible decision. Each record should document a responsible owner and a dated assumption rather than merely asserting that the option looks attractive.
+Treat the value proposition, the capabilities that make it credible and the investment plan as one approval package. The evidence must distinguish capabilities AlderGate should build from those it can contract, and identify the moment a delayed qualification makes launch infeasible.
 
 ### Evidence retained through the workflow
 
@@ -35,11 +35,11 @@ Use the following retained records to turn the strategy into a reproducible deci
 
 ```mermaid
 flowchart TD
-    A[Define stakeholder and customer objective]
-    B[Validate evidence, cost scope and design choices]
-    C[Exclude illegal, unsafe or infeasible options]
-    D[Compare outcomes on common time horizon]
-    E[Approve owners, controls and review triggers]
+    A[Customer value]
+    B[Capability proof]
+    C[Build or partner]
+    D[Funding gate]
+    E[Owned launch]
     A --> B
     B --> C
     C --> D
@@ -48,7 +48,7 @@ flowchart TD
 
 ## Realistic example — AlderGate Motion Products
 
-The fictional AlderGate leadership team uses these records to decide whether its standard and engineered product lines need different investments. Quality and operations first establish what is feasible; commercial teams then identify which customer outcomes matter; Finance checks whether the assumptions are consistent. These roles prevent a single-function recommendation from becoming a misleading corporate strategy.
+AlderGate's market team proposes five-day engineered replacements for critical OEM machines. Engineering confirms the metalwork can be produced but reveals that qualified test technicians are already fully committed. Operations investigates a controlled second-shift qualification process while Procurement evaluates specialist capacity. The business plan distinguishes launch readiness from the forecast sales opportunity, and Finance refuses to treat expected revenue as approved cash availability.
 
 ## Applied decision artifact or worked calculation
 
@@ -56,10 +56,10 @@ In a fictional annual business case, incremental service revenue is $420,000 and
 
 ## Decision logic
 
-- Define the relevant business promise, volume, horizon and decision rights before comparison.
-- Document material assumptions and distinguish a modeled benefit from one that has been realized.
-- Keep legal, safety, qualification and capacity limits as gates before economic ranking.
-- Compare remaining options using consistently scoped outcomes and review triggers.
+- Confirm that customers recognize the value and will pay for it.
+- Map the distinguishing technical competencies and qualified external alternatives.
+- Fund both fixed resources and ramp-up time using consistent horizons.
+- Treat failed test qualification as a launch stop, not a cost penalty.
 
 ## Trade-offs
 
@@ -76,10 +76,10 @@ Strategy states the long-run direction; a business plan translates it into an ex
 
 ## Common mistakes
 
-- Using one favorable metric to declare an entire business model optimal.
-- Hiding untested operating assumptions inside a weighted ranking.
-- Treating a hypothetical benefit as a booked or guaranteed financial result.
-- Omitting the implementation owner and threshold for re-evaluation.
+- Labeling every in-house department a core competency.
+- Confusing a growth target with an executable staffed plan.
+- Using contribution alone as a full cash flow or NPV estimate.
+- Counting partner capacity that has not been qualified.
 
 ## Original knowledge check
 
@@ -114,7 +114,7 @@ Only the second option connects the promise to owned resources, feasibility and 
 
 ## Practitioner perspective
 
-In an ERP-enabled supply chain the decision becomes visible through planning parameters, service promises, partner commitments, exception records and financial controls. Systems can support a chosen operating policy, but merely configuring them does not establish the commercial case. Preserve the decision's assumptions and owners so the policy can be revisited when demand or business priorities change.
+An enterprise architect can trace the approved value proposition to qualified engineering operations, master data, partner service definitions and the budgeted capacity plan. Each handoff requires ownership, a meaningful completion test and a revised promise if launch readiness changes.
 
 ## Related concepts
 

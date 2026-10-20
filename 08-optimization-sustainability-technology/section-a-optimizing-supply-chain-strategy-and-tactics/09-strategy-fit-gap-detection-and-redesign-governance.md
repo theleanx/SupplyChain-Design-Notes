@@ -18,11 +18,11 @@ Complexity must be priced. Adding product variants, specialized fulfillment clas
 
 ## Why it matters
 
-This capability matters when a proposed local change creates consequences outside its sponsoring function. The chosen customer promise, common planning horizon, implementation owner and evidence quality must remain visible to management. An analytically attractive idea may still be premature when the affected network cannot execute it safely or economically.
+A supply chain that fit yesterday's market may not fit a newly acquired business, a new technology, a changed product life cycle or a revised customer promise. AlderGate should diagnose the difference between required and observed capability instead of treating every failure as an argument for more stock or a new warehouse.
 
 ## Decision model and workflow
 
-The gap register should show what changed in the customer's promise, which operating assumptions are now invalid, whether the deviation is sustained and which functions can fix it. The review team should also retain one rejected alternative and the reason it was rejected.
+Write the gap as a measured baseline, a target and a relevant period. Classify whether the mismatch comes from business direction, demand, assets, partner behavior, technology or governance, and choose the least disruptive viable corrective alternative.
 
 ### Evidence retained through the workflow
 
@@ -37,11 +37,11 @@ The gap register should show what changed in the customer's promise, which opera
 
 ```mermaid
 flowchart TD
-    A[Identify the customer outcome and scope]
-    B[Retain quantified capabilities and assumptions]
-    C[Screen mandatory gates and feasibility]
-    D[Evaluate eligible alternatives and sensitivity]
-    E[Approve owners and monitor results]
+    A[Detect changed promise]
+    B[Measure current gap]
+    C[Diagnose cause]
+    D[Test fixes]
+    E[Retest and govern]
     A --> B
     B --> C
     C --> D
@@ -50,7 +50,7 @@ flowchart TD
 
 ## Realistic example — AlderGate Motion Products
 
-AlderGate is an independent fictional industrial manufacturer with standard couplings and an engineered repair line. The operations team must reconcile production and service requirements, while Quality confirms process qualification and Finance checks resource economics. The case below uses deliberately selected training figures; no values imply a universal industry benchmark.
+Following an acquisition, AlderGate's newly combined sales teams promise six-day service for repair parts once produced from independent facilities. Customer service records falling attainment, but the true bottleneck is incompatible product qualification records rather than a shortage of warehouse space. The team harmonizes certification evidence before investing in physical network expansion.
 
 ## Applied decision artifact or worked calculation
 
@@ -58,10 +58,10 @@ An illustrative customer-service target is **95%** complete-on-time delivery ove
 
 ## Decision logic
 
-- Frame one clear decision, with measurable output and the same time units for all options.
-- Verify required regulatory, safety, quality, security, continuity and capacity conditions before ranking.
-- Compare the remaining feasible alternatives against an explicit enterprise objective.
-- Preserve uncertainty and implement an owner-led review trigger for changing assumptions.
+- Name the changed strategic assumption that caused the gap.
+- Separate a single anomaly from a persistent performance mismatch.
+- Examine process, data, people, partner and physical capacity causes.
+- Record alternatives rejected and remeasure the gap after intervention.
 
 ## Trade-offs
 
@@ -73,14 +73,14 @@ An illustrative customer-service target is **95%** complete-on-time delivery ove
 
 ## Commonly confused with
 
-A business objective does not automatically become a valid mathematical objective function. A method's numerical output must be interpreted against the operating model it represents. Feasibility, efficiency and strategic effectiveness answer distinct questions.
+A **strategic gap** compares required and available capability; a routine **operational exception** is a particular occurrence. A **design improvement** may be a policy change or product simplification, not necessarily an added facility. The change decision requires cause, cost and owner.
 
 ## Common mistakes
 
-- Optimizing a metric that does not reflect the target customer or economic objective.
-- Mixing monthly and weekly capacities or inconsistent financial scopes.
-- Assigning a weighted penalty to an alternative that actually fails a mandatory condition.
-- Claiming that a model result eliminates the need for implementation and sensitivity testing.
+- Buying new software before identifying the source of misalignment.
+- Adding product variants without quantifying complexity and demand.
+- Calling a percentage-point gap a relative-percent gap.
+- Changing the strategy after every isolated performance miss.
 
 ## Original knowledge check
 
@@ -115,7 +115,7 @@ A defined measured gap and credible diagnosis prevent expensive remedies for the
 
 ## Practitioner perspective
 
-The cross-functional team should document whether the gap is a policy mismatch, a technology/data issue, a partner problem or a true physical capacity shortage. That classification determines the change owner and avoids treating every symptom as justification for a capital project.
+Architecture assessments can trace service targets through product hierarchy, qualification, planned production and partner systems. The smallest viable correction should be considered before redesigning the network, and measured against a stable post-change baseline.
 
 ## Related concepts
 

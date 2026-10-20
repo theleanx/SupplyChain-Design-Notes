@@ -18,11 +18,11 @@ AlderGate examines adding a second shift for urgent repair demand. Finance model
 
 ## Why it matters
 
-These strategic decisions cut across cost, customers and operating functions. A local improvement should not be described as enterprise value without a consistent baseline, a defined horizon and a credible accountable decision owner. The evidence must show both the result the business expects and the constraints that might prevent it.
+Different stakeholders capture different value from the same supply-chain intervention. AlderGate may bear service costs while customers receive avoided downtime, and workers may experience new shifts or workload exposure. Recording these effects separately prevents double counting, misleading claims and hidden mandatory obligations.
 
 ## Decision model and workflow
 
-Use the following retained records to turn the strategy into a reproducible decision. Each record should document a responsible owner and a dated assumption rather than merely asserting that the option looks attractive.
+Build an affected-party ledger before valuing alternatives. Label each financial quantity by the entity that bears or receives it, and separate contractual transfer mechanisms from estimated societal or customer benefits. Confirm labor and safety duties before discretionary comparison.
 
 ### Evidence retained through the workflow
 
@@ -37,11 +37,11 @@ Use the following retained records to turn the strategy into a reproducible deci
 
 ```mermaid
 flowchart TD
-    A[Define stakeholder and customer objective]
-    B[Validate evidence, cost scope and design choices]
-    C[Exclude illegal, unsafe or infeasible options]
-    D[Compare outcomes on common time horizon]
-    E[Approve owners, controls and review triggers]
+    A[Identify groups]
+    B[Define each benefit]
+    C[Check rights and safety]
+    D[Compare feasible effects]
+    E[Verify value capture]
     A --> B
     B --> C
     C --> D
@@ -50,7 +50,7 @@ flowchart TD
 
 ## Realistic example — AlderGate Motion Products
 
-The fictional AlderGate leadership team uses these records to decide whether its standard and engineered product lines need different investments. Quality and operations first establish what is feasible; commercial teams then identify which customer outcomes matter; Finance checks whether the assumptions are consistent. These roles prevent a single-function recommendation from becoming a misleading corporate strategy.
+AlderGate proposes weekend emergency operations after customers describe expensive equipment outages. The proposal could reduce customer downtime but requires certified weekend test staff and reliable transport. Finance calculates AlderGate's own cost, commercial teams test service-contract pricing, and the worker safety lead approves staffing conditions. The executive decision keeps community, worker, customer and owner impacts in distinct columns.
 
 ## Applied decision artifact or worked calculation
 
@@ -58,10 +58,10 @@ In a fictional annual scenario, emergency-service customers may avoid **$180,000
 
 ## Decision logic
 
-- Define the relevant business promise, volume, horizon and decision rights before comparison.
-- Document material assumptions and distinguish a modeled benefit from one that has been realized.
-- Keep legal, safety, qualification and capacity limits as gates before economic ranking.
-- Compare remaining options using consistently scoped outcomes and review triggers.
+- State whose benefit or cost is being measured.
+- Document direct customer evidence rather than assuming willingness to pay.
+- Apply labor, safety and contractual gates first.
+- Count supplier revenue only when a credible commercial value-capture path exists.
 
 ## Trade-offs
 
@@ -78,10 +78,10 @@ Customer value is not supplier recognized revenue. Social value is the effect on
 
 ## Common mistakes
 
-- Using one favorable metric to declare an entire business model optimal.
-- Hiding untested operating assumptions inside a weighted ranking.
-- Treating a hypothetical benefit as a booked or guaranteed financial result.
-- Omitting the implementation owner and threshold for re-evaluation.
+- Subtracting a supplier cost from customer savings and calling the difference profit.
+- Reducing social value to public-relations donations.
+- Treating mandatory worker protections as a soft score.
+- Claiming all customers value premium service equally.
 
 ## Original knowledge check
 
@@ -116,7 +116,7 @@ The two monetary figures belong to different stakeholders; the business needs re
 
 ## Practitioner perspective
 
-In an ERP-enabled supply chain the decision becomes visible through planning parameters, service promises, partner commitments, exception records and financial controls. Systems can support a chosen operating policy, but merely configuring them does not establish the commercial case. Preserve the decision's assumptions and owners so the policy can be revisited when demand or business priorities change.
+Cross-system reporting should retain the source and perspective of each metric. Customer avoided loss, company revenue, supplier expense, employee protection and community exposure cannot be summed indiscriminately into one financial KPI.
 
 ## Related concepts
 

@@ -18,11 +18,11 @@ At AlderGate, suppliers report delayed delivery events after a two-day lag. The 
 
 ## Why it matters
 
-These strategic decisions cut across cost, customers and operating functions. A local improvement should not be described as enterprise value without a consistent baseline, a defined horizon and a credible accountable decision owner. The evidence must show both the result the business expects and the constraints that might prevent it.
+Visibility, velocity and variability affect decisions through different mechanisms. AlderGate can improve event coverage but still fail to respond if ownership is unclear; it can speed freight yet receive the wrong component. The quality gate is therefore a measurable connection from event evidence to a customer or operating result, not installation of another dashboard.
 
 ## Decision model and workflow
 
-Use the following retained records to turn the strategy into a reproducible decision. Each record should document a responsible owner and a dated assumption rather than merely asserting that the option looks attractive.
+Measure each V independently using a defined population and timestamps. Visibility requires trusted events, velocity requires matched process boundaries, and variability needs a consistent sample and statistic. Relate improvements to downstream customer outcomes only after validating them.
 
 ### Evidence retained through the workflow
 
@@ -37,11 +37,11 @@ Use the following retained records to turn the strategy into a reproducible deci
 
 ```mermaid
 flowchart TD
-    A[Define stakeholder and customer objective]
-    B[Validate evidence, cost scope and design choices]
-    C[Exclude illegal, unsafe or infeasible options]
-    D[Compare outcomes on common time horizon]
-    E[Approve owners, controls and review triggers]
+    A[Identify exception]
+    B[Verify event]
+    C[Assign response]
+    D[Measure elapsed time]
+    E[Review variation]
     A --> B
     B --> C
     C --> D
@@ -50,7 +50,7 @@ flowchart TD
 
 ## Realistic example — AlderGate Motion Products
 
-The fictional AlderGate leadership team uses these records to decide whether its standard and engineered product lines need different investments. Quality and operations first establish what is feasible; commercial teams then identify which customer outcomes matter; Finance checks whether the assumptions are consistent. These roles prevent a single-function recommendation from becoming a misleading corporate strategy.
+At AlderGate, a supplier uploads shipment events in a portal, but the system often maps them to a retired material identifier. Planners see status updates but cannot tell which repair orders are threatened. The pilot fixes part identity and exception ownership first, then measures whether planners contact customers sooner. Its cost hypothesis remains unproven until those actions change service or expediting expense.
 
 ## Applied decision artifact or worked calculation
 
@@ -58,10 +58,10 @@ In a fictional sample of 200 monitored orders, 140 have trustworthy status event
 
 ## Decision logic
 
-- Define the relevant business promise, volume, horizon and decision rights before comparison.
-- Document material assumptions and distinguish a modeled benefit from one that has been realized.
-- Keep legal, safety, qualification and capacity limits as gates before economic ranking.
-- Compare remaining options using consistently scoped outcomes and review triggers.
+- Define completeness and timestamp standards for visibility events.
+- Measure elapsed time from a consistent start to end event.
+- Separate customer, supplier and schedule-induced variability.
+- Connect each process improvement to outcome measures and economic costs.
 
 ## Trade-offs
 
@@ -78,10 +78,10 @@ Visibility is actionable information, not the number of screens. Velocity is a d
 
 ## Common mistakes
 
-- Using one favorable metric to declare an entire business model optimal.
-- Hiding untested operating assumptions inside a weighted ranking.
-- Treating a hypothetical benefit as a booked or guaranteed financial result.
-- Omitting the implementation owner and threshold for re-evaluation.
+- Counting alert volume as visibility.
+- Comparing different timestamp boundaries as a velocity improvement.
+- Removing difficult demand observations to improve the variability score.
+- Claiming control-tower ROI from coverage alone.
 
 ## Original knowledge check
 
@@ -116,7 +116,7 @@ The measure proves improved completeness within the stated sample, not a custome
 
 ## Practitioner perspective
 
-In an ERP-enabled supply chain the decision becomes visible through planning parameters, service promises, partner commitments, exception records and financial controls. Systems can support a chosen operating policy, but merely configuring them does not establish the commercial case. Preserve the decision's assumptions and owners so the policy can be revisited when demand or business priorities change.
+Integration specialists should maintain an event dictionary: material identity, status semantics, time source and accountable workflow. A technically correct feed is not enough if a planner cannot make a permitted response decision from it.
 
 ## Related concepts
 

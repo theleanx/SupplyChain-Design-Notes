@@ -18,11 +18,11 @@ AlderGate tests three fictional distribution arrangements for one regional marke
 
 ## Why it matters
 
-This capability matters when a proposed local change creates consequences outside its sponsoring function. The chosen customer promise, common planning horizon, implementation owner and evidence quality must remain visible to management. An analytically attractive idea may still be premature when the affected network cannot execute it safely or economically.
+Network redesign can commit an enterprise to years of facilities, freight patterns and inventory investment. The cost output is credible only when each candidate meets the same service, volume and period assumptions and survives explicit capacity and compliance checks. AlderGate must therefore separate feasibility from economic ranking.
 
 ## Decision model and workflow
 
-The model record must preserve each annual cost component, weekly capacity, service promise, relevant licenses/qualifications and the source of route assumptions. The team also records the best rejected candidate and a scenario that would change the preferred design.
+Test the central, regional and low-cost concepts against a 1,000-unit weekly requirement, physical capacity and operating gates. Sum comparable annual cost components only for eligible options and preserve the rejected cheapest alternative as evidence of the hard-capacity boundary.
 
 ### Evidence retained through the workflow
 
@@ -37,11 +37,11 @@ The model record must preserve each annual cost component, weekly capacity, serv
 
 ```mermaid
 flowchart TD
-    A[Identify the customer outcome and scope]
-    B[Retain quantified capabilities and assumptions]
-    C[Screen mandatory gates and feasibility]
-    D[Evaluate eligible alternatives and sensitivity]
-    E[Approve owners and monitor results]
+    A[Define flows]
+    B[Set facility capacity]
+    C[Check mandatory gates]
+    D[Calculate total cost]
+    E[Test demand stress]
     A --> B
     B --> C
     C --> D
@@ -50,7 +50,7 @@ flowchart TD
 
 ## Realistic example — AlderGate Motion Products
 
-AlderGate is an independent fictional industrial manufacturer with standard couplings and an engineered repair line. The operations team must reconcile production and service requirements, while Quality confirms process qualification and Finance checks resource economics. The case below uses deliberately selected training figures; no values imply a universal industry benchmark.
+AlderGate receives three regional distribution proposals. The lowest quote relies on a warehouse staffed for only 850 units a week while the mandatory customer commitment is 1,000 units. The procurement group wants to average the shortfall into a total score, but the operations owner rejects it as infeasible and asks the team to rank only the remaining options.
 
 ## Applied decision artifact or worked calculation
 
@@ -58,10 +58,10 @@ The **central** design has annual modeled facility $280,000, transport $220,000,
 
 ## Decision logic
 
-- Frame one clear decision, with measurable output and the same time units for all options.
-- Verify required regulatory, safety, quality, security, continuity and capacity conditions before ranking.
-- Compare the remaining feasible alternatives against an explicit enterprise objective.
-- Preserve uncertainty and implement an owner-led review trigger for changing assumptions.
+- Preserve the required demand, capacity units and period.
+- Evaluate every network option on the same cost and service scope.
+- Reject hard capacity and compliance failures before economic comparison.
+- Stress-test the preferred feasible design under higher demand and cost.
 
 ## Trade-offs
 
@@ -73,14 +73,14 @@ The **central** design has annual modeled facility $280,000, transport $220,000,
 
 ## Commonly confused with
 
-A business objective does not automatically become a valid mathematical objective function. A method's numerical output must be interpreted against the operating model it represents. Feasibility, efficiency and strategic effectiveness answer distinct questions.
+**Network feasibility** means the candidate can meet mandatory constraints; **network optimality** means it is best for the modeled objective among feasible candidates. The lowest theoretical cost may be invalid if the model omits capacity, legal requirements or customer-service thresholds.
 
 ## Common mistakes
 
-- Optimizing a metric that does not reflect the target customer or economic objective.
-- Mixing monthly and weekly capacities or inconsistent financial scopes.
-- Assigning a weighted penalty to an alternative that actually fails a mandatory condition.
-- Claiming that a model result eliminates the need for implementation and sensitivity testing.
+- Converting an infeasible network into a winner through a weighted score.
+- Mixing weekly volume with monthly capacity.
+- Omitting inventory or failure costs to favor one proposal.
+- Trusting an unvalidated model more than physical throughput evidence.
 
 ## Original knowledge check
 
@@ -115,7 +115,7 @@ A hard capacity constraint cannot be overridden by a weighted economic score.
 
 ## Practitioner perspective
 
-Before implementing a facility design, the supply-chain architect should reconcile modeled flow quantities against real transport calendars, inventory requirements, operating hours and supplier qualifications. Procurement or warehouse configuration updates must follow a verified physical capacity plan, not precede it.
+A design study must reconcile facility throughput with real shifts, qualified labor, inventory space and carrier coverage before integration or master-data updates. Operating calendars and actual lanes need to confirm the model's assumptions.
 
 ## Related concepts
 

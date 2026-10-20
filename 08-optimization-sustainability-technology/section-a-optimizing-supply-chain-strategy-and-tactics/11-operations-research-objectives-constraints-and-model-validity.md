@@ -20,11 +20,11 @@ AlderGate uses a constrained production-mix example to show why total contributi
 
 ## Why it matters
 
-This capability matters when a proposed local change creates consequences outside its sponsoring function. The chosen customer promise, common planning horizon, implementation owner and evidence quality must remain visible to management. An analytically attractive idea may still be premature when the affected network cannot execute it safely or economically.
+An optimizer can produce a precise-looking answer even when its objective, resource assumptions or constraints represent the wrong business question. AlderGate needs formulation and independent verification before any solver result can be used as an execution decision. The value of operations research lies in a defendable choice, not mathematical complexity alone.
 
 ## Decision model and workflow
 
-The decision record includes variable definitions, objective units, hourly coefficients, demand caps, constraint source, feasibility proof and solver or manual calculation. It also records a sensitivity: losing 20 capacity hours changes the available mix and requires recalculation.
+Declare controllable variables, objective, hours per product and order caps first. Verify that the computed mix is feasible, then assess whether the simplified linear model covers the service, safety and other conditions needed for production approval.
 
 ### Evidence retained through the workflow
 
@@ -39,11 +39,11 @@ The decision record includes variable definitions, objective units, hourly coeff
 
 ```mermaid
 flowchart TD
-    A[Identify the customer outcome and scope]
-    B[Retain quantified capabilities and assumptions]
-    C[Screen mandatory gates and feasibility]
-    D[Evaluate eligible alternatives and sensitivity]
-    E[Approve owners and monitor results]
+    A[Define x and y]
+    B[Build objective]
+    C[Add hour and demand limits]
+    D[Solve feasible mix]
+    E[Validate implementation]
     A --> B
     B --> C
     C --> D
@@ -52,7 +52,7 @@ flowchart TD
 
 ## Realistic example — AlderGate Motion Products
 
-AlderGate is an independent fictional industrial manufacturer with standard couplings and an engineered repair line. The operations team must reconcile production and service requirements, while Quality confirms process qualification and Finance checks resource economics. The case below uses deliberately selected training figures; no values imply a universal industry benchmark.
+AlderGate has one constrained finishing cell serving two product lines. A planner proposes maximizing units, but the finance owner wants contribution under a fixed weekly labor-hour limit. The team formulates a two-product model, solves it manually and records excluded effects such as minimum campaign size and setup time. An implementation test is required before scheduling systems are changed.
 
 ## Applied decision artifact or worked calculation
 
@@ -60,10 +60,10 @@ For one fictional **weekly** work center, let x = units of Product A and y = Pro
 
 ## Decision logic
 
-- Frame one clear decision, with measurable output and the same time units for all options.
-- Verify required regulatory, safety, quality, security, continuity and capacity conditions before ranking.
-- Compare the remaining feasible alternatives against an explicit enterprise objective.
-- Preserve uncertainty and implement an owner-led review trigger for changing assumptions.
+- Write objective units, decision variables and feasible constraint set explicitly.
+- Use one consistent weekly horizon for available and consumed hours.
+- Verify the mathematical solution independently of solver output.
+- Validate the underlying operating assumptions before deployment.
 
 ## Trade-offs
 
@@ -75,14 +75,14 @@ For one fictional **weekly** work center, let x = units of Product A and y = Pro
 
 ## Commonly confused with
 
-A business objective does not automatically become a valid mathematical objective function. A method's numerical output must be interpreted against the operating model it represents. Feasibility, efficiency and strategic effectiveness answer distinct questions.
+**Optimization** chooses the best feasible value of a specified objective. **Simulation** explores possible behaviors under assumptions and uncertainty. **Verification** checks the implemented equations; **validation** checks whether the model represents the real decision adequately.
 
 ## Common mistakes
 
-- Optimizing a metric that does not reflect the target customer or economic objective.
-- Mixing monthly and weekly capacities or inconsistent financial scopes.
-- Assigning a weighted penalty to an alternative that actually fails a mandatory condition.
-- Claiming that a model result eliminates the need for implementation and sensitivity testing.
+- Maximizing total units when the actual goal is contribution.
+- Omitting a shared-hour constraint used by both products.
+- Assuming a solver's numerical optimum automatically meets quality rules.
+- Failing to record exclusions such as setups and order sequencing.
 
 ## Original knowledge check
 
@@ -117,7 +117,7 @@ The solution is meaningful within its tested objective, available hours, demand 
 
 ## Practitioner perspective
 
-Supply-chain analytics teams should make optimization inputs auditable and expose model limitations to planners. A technical solver result should not directly update ERP capacity or sourcing rules until feasible implementation and business ownership are confirmed.
+Maintain a small auditable calculation beside any production optimization service. Before releasing a plan to ERP or MES, validate resource calendars, product qualification, order commitments and the exceptions not included in the simplified equations.
 
 ## Related concepts
 
