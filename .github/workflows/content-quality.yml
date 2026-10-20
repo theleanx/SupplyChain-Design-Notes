@@ -17,3 +17,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Validate learning content and assets
         run: python3 scripts/validate_repository.py
+      - name: Validate Module 8 Section A (development branch only)
+        if: github.event_name == 'pull_request' && github.head_ref == 'feature/module-8-optimization-sustainability-technology'
+        run: python3 scripts/validate_module8_section_a.py
