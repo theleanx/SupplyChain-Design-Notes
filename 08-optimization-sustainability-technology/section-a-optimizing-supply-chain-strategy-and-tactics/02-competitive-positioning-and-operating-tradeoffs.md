@@ -37,7 +37,7 @@ Retain the segment's purchase criteria, comparable cost model, service target, o
 
 ## Practical process flow
 
-~~~mermaid
+```mermaid
 flowchart LR
     A[Select target market] --> B[Identify most important buying criteria]
     B --> C[Translate positioning into service and cost capabilities]
@@ -47,7 +47,7 @@ flowchart LR
     E --> F[Choose segment model and accountable owner]
     F --> G[Review portfolio and market evidence]
     G --> B
-~~~
+```
 
 ## Realistic example — AlderGate Motion Products
 
