@@ -1,30 +1,35 @@
 # Section A: Optimizing Supply Chain Strategy and Tactics
 
-> **Under development.** This section will not be declared complete until remaining strategy, stakeholder-value, network-modeling and operations-research lessons and the original review are written and validated.
+> **Section A authored on the Module 8 review branch:** twelve topic lessons, twelve original decision visuals, eleven fictional datasets, and a twelve-question section assessment. The overall Module 8 remains unreleased until Sections B–C, the integrated capstone and full shared-validator extension pass.
 
-The core question is: **which supply-chain design is fit for the way the enterprise intends to compete?** We start with the strategy hierarchy and the economics of competitive positioning. Subsequent lessons will develop product/market fit, business plan and core competence, the three Vs, network options, stakeholder value, strategic gaps and operational optimization.
+Section A connects business strategy to supply-chain operating design, analyzes stakeholder value, then evaluates financial, facility and quantitative optimization choices. The common teaching context is the fictional manufacturer **AlderGate Motion Products**; all numeric inputs are independently invented and not ASCM benchmarks.
 
 ## Learning outcomes
 
-- Translate a customer promise into operating capabilities and measurable business outcomes.
-- Distinguish cost, differentiation, best-cost and focus without turning strategy into unsupported universal rules.
-- Make feasibility, quality and security mandatory gates before economic ranking.
-- Build auditable decision records linking a business requirement to cross-functional design consequences.
+After Section A, you should be able to trace a competitive promise to feasible capabilities; distinguish low-cost, differentiation, best-cost and focused strategic choices; recognize when different product segments need different operating rules; turn a value proposition into a funded business plan; assess cost, revenue and location decisions without unsupported tax claims; measure three Vs; separate value by stakeholder; leverage appropriate partner competencies; diagnose strategic gaps; rank capacity-feasible networks; build and validate an OR optimization model; and interpret simple payback, discounted payback, NPV and economic value.
 
 ## Learning path
 
-1. [Strategy Hierarchy and Supply-Chain Alignment](./01-strategy-hierarchy-alignment-and-decision-rights.md)
-2. [Competitive Positioning and Operating Trade-offs](./02-competitive-positioning-and-operating-tradeoffs.md)
-3. [Product-Segment Fit and Multiple Supply-Chain Models](./03-product-segment-fit-and-multiple-supply-chains.md)
-
-This is an incremental feature-branch learning path, **not the complete final Section A outline**.
+1. [Strategy hierarchy and operational alignment](./01-strategy-hierarchy-alignment-and-decision-rights.md)
+2. [Competitive strategies and operating trade-offs](./02-competitive-positioning-and-operating-tradeoffs.md)
+3. [Demand/product segmentation and operating models](./03-product-segment-fit-and-multiple-supply-chains.md)
+4. [Business plans, value propositions and core competencies](./04-business-plan-value-proposition-and-core-competencies.md)
+5. [Cost structure, revenue and location/tax boundaries](./05-cost-revenue-location-and-tax-decision-boundaries.md)
+6. [Visibility, velocity and variability](./06-three-vs-visibility-velocity-and-variability.md)
+7. [Financial, customer and social stakeholder value](./07-financial-customer-and-social-stakeholder-value.md)
+8. [Customer service, resource and partner competencies](./08-customer-service-resource-and-partner-competencies.md)
+9. [Strategy gaps, diagnostics and redesign](./09-strategy-fit-gap-detection-and-redesign-governance.md)
+10. [Network alternatives and capacity feasibility](./10-network-alternatives-capacity-and-feasibility.md)
+11. [Operations research and model validity](./11-operations-research-objectives-constraints-and-model-validity.md)
+12. [Financial modeling: NPV, payback and economic value](./12-capital-investment-npv-payback-and-economic-value.md)
+13. [Section A Review — Twelve Original Questions](./13-section-a-review.md)
 
 ## Working data and visuals
 
-The first three lessons provide original, in-page Mermaid decision models, numerical fictional cases and evidence tables. Topic-specific SVGs and linked datasets will be introduced with the broader quantitative section build and must pass narrow/full-width review before release.
+Every topic links its original, accessible SVG in [Module 8 Section A diagrams](../../assets/diagrams/module-8/section-a/) and the relevant dataset in [Module 8 Section A fictional datasets](../../assets/data/module-8/section-a/README.md). There are **twelve topic diagrams** and **eleven CSV datasets** because lessons 5 and 10 intentionally share one controlled network comparison. All calculation assumptions, horizons and units are confined to these examples and should be recalculated.
 
 ## How to study the section
 
-Read both lessons and distinguish **the intended competitive result**, **the capabilities needed to achieve it**, and **the evidence that makes the change worthwhile**. Keep risk, legal and quality gates separate from the economics. Refer to prior modules for detailed planning, sourcing and risk execution methods.
+Read the lessons in order and identify the customer outcome, retained evidence, mandatory gates, financially and physically feasible choice, strongest rejected alternative, and accountable review trigger. Do not equate improved process metrics with guaranteed business benefit or substitute a weighted score for mandatory requirements. Complete the [twelve-question Section A review](./13-section-a-review.md) and its readiness checkpoint before proceeding to sustainability.
 
-[Module 8 overview](../README.md) · [First lesson](./01-strategy-hierarchy-alignment-and-decision-rights.md)
+[Module 8 overview](../README.md) · [Start Section A](./01-strategy-hierarchy-alignment-and-decision-rights.md)

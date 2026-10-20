@@ -15,7 +15,7 @@ The final CSCP module brings together enterprise strategic alignment, sustainabl
 
 ## Module path
 
-1. [Section A — Optimizing Supply Chain Strategy and Tactics](./section-a-optimizing-supply-chain-strategy-and-tactics/README.md) — in development.
+1. [Section A — Optimizing Supply Chain Strategy and Tactics](./section-a-optimizing-supply-chain-strategy-and-tactics/README.md) — 12 lessons and the full section review authored; pending integrated Module 8 release.
 2. **Section B — Sustainability:** planned, not yet authored.
 3. **Section C — Technology Trends:** planned, not yet authored.
 4. **Integrated capstone:** planned after completion of the three sections.
@@ -25,6 +25,7 @@ The final CSCP module brings together enterprise strategic alignment, sustainabl
 - [Shared learning paths](../LEARNING-PATHS.md)
 - [Shared glossary](../GLOSSARY.md)
 - [Repository content quality rules](../QUALITY.md)
+- [Module 8 reference and source-scope register](./REFERENCES.md)
 - Validated section data, originals visuals, formula references and capstone resources will be introduced with the lessons to which they belong.
 
 ## Cross-module handoffs
@@ -43,6 +44,6 @@ Each published lesson must contain plain-language concepts, business decisions, 
 
 ## Module snapshot
 
-This is an **in-progress branch snapshot**, initially consisting of original Section A learning material and navigation. A final count of lessons, diagrams, datasets and assessments will be published only after content completion and successful Modules 1–8 verification.
+This is an **in-progress branch snapshot** containing twelve Section A lessons, twelve original Section A SVGs, eleven fictional Section A datasets and a twelve-question section review. A final count of lessons, diagrams, datasets and assessments will be published only after content completion and successful Modules 1–8 verification.
 
 **Source policy:** Scope is checked against the 2026 APICS CSCP Module 8 curriculum, accompanying slides and term cards privately. The learning text and examples here are independent, not reproduced source content.
