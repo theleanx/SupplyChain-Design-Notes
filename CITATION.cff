@@ -6,8 +6,8 @@ type: dataset
 authors:
   - family-names: Sharma
     given-names: Ankit
-version: 7.0.0
-date-released: 2026-10-19
+version: 7.0.1
+date-released: 2026-10-20
 url: "https://github.com/theleanx/SupplyChain-Design-Notes"
 repository-code: "https://github.com/theleanx/SupplyChain-Design-Notes"
 keywords:

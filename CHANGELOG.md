@@ -2,6 +2,17 @@
 
 Significant public improvements to this repository are recorded here.
 
+## Version 7.0.1 — Module 7 release-state synchronization
+
+Release target: 2026-10-20
+
+### Release metadata and durable controls
+
+- Records the completed owner approval, merge, and v7.0.0 publication in the Module 7 overview and roadmap.
+- Updates the Module 7 integration script and validator so future runs preserve the released state instead of restoring release-candidate wording.
+- Makes shared release-metadata validation follow the latest semantic-versioned release manifest and its changelog date.
+- Preserves all Modules 1–7 learning content, diagrams, datasets, assessments, and calculation results unchanged.
+
 ## Version 7.0.0 — Module 7
 
 Release target: 2026-10-19

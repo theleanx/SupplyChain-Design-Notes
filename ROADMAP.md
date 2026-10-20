@@ -61,7 +61,7 @@
 - [x] Add Stonebridge integrated capstone, controlled data and reproducible calculations
 - [x] Apply the shared overview, lesson, capstone, asset and cross-module validation gates
 - [x] Confirm GitHub Actions validation and final editorial/visual review
-- [ ] Obtain final release approval
+- [x] Obtain final release approval and publish v7.0.0
 
 ## Future modules
 

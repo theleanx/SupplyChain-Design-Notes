@@ -1795,15 +1795,32 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
     if "- [ ] Supply-chain risk" in roadmap:
         errors.append("ROADMAP.md: completed Module 7 is still listed as future work")
 
-    citation = (ROOT / "CITATION.cff").read_text(encoding="utf-8")
-    for statement in ("version: 7.0.0", "date-released: 2026-10-19", "supply chain risk management", "business continuity"):
-        if statement not in citation:
-            errors.append(f"CITATION.cff: missing Module 7 release metadata ({statement})")
     changelog = (ROOT / "CHANGELOG.md").read_text(encoding="utf-8")
     if "## Version 7.0.0 — Module 7" not in changelog:
         errors.append("CHANGELOG.md: missing Module 7 release entry")
-    if not (ROOT / ".github/releases/v7.0.0.md").is_file():
-        errors.append("Release metadata: missing .github/releases/v7.0.0.md")
+    release_dir = ROOT / ".github/releases"
+    release_manifests = sorted(
+        (path for path in release_dir.glob("v*.md") if re.fullmatch(r"v\d+\.\d+\.\d+", path.stem)),
+        key=lambda path: tuple(int(part) for part in path.stem[1:].split(".")),
+    )
+    if not release_manifests:
+        errors.append("Release metadata: no semantic-versioned release manifest found")
+    else:
+        latest_version = release_manifests[-1].stem[1:]
+        changelog_release = re.search(
+            rf"^## Version {re.escape(latest_version)}\b.*?^Release target: (\d{{4}}-\d{{2}}-\d{{2}})$",
+            changelog,
+            re.MULTILINE | re.DOTALL,
+        )
+        if not changelog_release:
+            errors.append(f"CHANGELOG.md: missing release target for latest version {latest_version}")
+        citation = (ROOT / "CITATION.cff").read_text(encoding="utf-8")
+        release_metadata = [f"version: {latest_version}", "supply chain risk management", "business continuity"]
+        if changelog_release:
+            release_metadata.append(f"date-released: {changelog_release.group(1)}")
+        for statement in release_metadata:
+            if statement not in citation:
+                errors.append(f"CITATION.cff: missing latest release metadata ({statement})")
 
     module_snapshot_claims = {
         MODULE_1: ("**59** structured Markdown learning/reference pages", "**44** topic lessons", "**128** independently authored knowledge checks"),

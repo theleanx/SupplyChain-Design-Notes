@@ -3,7 +3,7 @@
 """Module 7 release gates that complement scripts/validate_repository.py.
 
 Standalone validation is safe on the original repository checkout plus the
-Module 7 candidate overlay; no proprietary CSCP source files are required.
+Module 7 release overlay; no proprietary CSCP source files are required.
 Run: python3 scripts/validate_module7.py
 """
 from __future__ import annotations
@@ -63,12 +63,16 @@ def main() -> int:
         if not has_heading((MOD/'README.md').read_text(),h):
             failures.append(f'Module overview missing {h}')
     module_overview = (MOD/'README.md').read_text()
-    if '**Status: validated release candidate; awaiting final human approval.**' not in module_overview:
+    if '**Status: released in v7.0.0.**' not in module_overview:
         failures.append('Module overview release status is stale or missing')
     for stale in ('awaiting full-repository CI', 'final full-repository release gate pending',
-                  'do not publish as a finished module'):
+                  'do not publish as a finished module', 'validated release candidate',
+                  'awaiting final human approval', 'unmerged pending final human approval'):
         if stale in module_overview:
             failures.append(f'Module overview retains stale release-gate text: {stale}')
+    roadmap = (ROOT/'ROADMAP.md').read_text(encoding='utf-8')
+    if '- [x] Obtain final release approval and publish v7.0.0' not in roadmap:
+        failures.append('ROADMAP.md: Module 7 final approval/release gate is incomplete')
     for p in sections:
         if not p.is_dir(): continue
         overview=p/'README.md'
