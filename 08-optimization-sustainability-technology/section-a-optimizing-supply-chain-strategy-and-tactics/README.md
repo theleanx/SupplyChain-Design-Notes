@@ -15,12 +15,13 @@ The core question is: **which supply-chain design is fit for the way the enterpr
 
 1. [Strategy Hierarchy and Supply-Chain Alignment](./01-strategy-hierarchy-alignment-and-decision-rights.md)
 2. [Competitive Positioning and Operating Trade-offs](./02-competitive-positioning-and-operating-tradeoffs.md)
+3. [Product-Segment Fit and Multiple Supply-Chain Models](./03-product-segment-fit-and-multiple-supply-chains.md)
 
 This is an incremental feature-branch learning path, **not the complete final Section A outline**.
 
 ## Working data and visuals
 
-The first two lessons provide original, in-page Mermaid decision models, numerical fictional cases and evidence tables. Topic-specific SVGs and linked datasets will be introduced with the broader quantitative section build and must pass narrow/full-width review before release.
+The first three lessons provide original, in-page Mermaid decision models, numerical fictional cases and evidence tables. Topic-specific SVGs and linked datasets will be introduced with the broader quantitative section build and must pass narrow/full-width review before release.
 
 ## How to study the section
 
