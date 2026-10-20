@@ -1,0 +1,48 @@
+# Module 8: Optimization, Sustainability, and Technology
+
+> **Status: development in progress on the feature branch; NOT released.** Modules 1–7 remain the published baseline. The feature branch is not eligible for merge until all three sections and the integrated capstone meet the repository quality standard.
+
+The final CSCP module brings together enterprise strategic alignment, sustainable performance and the selection, deployment and maintenance of enabling technologies. It uses the foundations of the seven earlier modules without repeating their full planning, procurement, manufacturing, logistics, relationship or risk methods. All public teaching examples are independently authored; no proprietary curriculum files are committed.
+
+## Learning outcomes
+
+- Explain how business and supply-chain strategy align, and test competitive position, economic value and stakeholder consequences.
+- Evaluate whether different products and customers require different supply-chain operating models.
+- Apply network, financial and operations-research thinking to feasible optimization alternatives.
+- Incorporate environmental, social and economic sustainability into governance and reporting.
+- Assess emerging technologies, select appropriate implementations and manage change and maintenance.
+- Make a reproducible, gated executive recommendation in one integrated final capstone.
+
+## Module path
+
+1. [Section A — Optimizing Supply Chain Strategy and Tactics](./section-a-optimizing-supply-chain-strategy-and-tactics/README.md) — in development.
+2. **Section B — Sustainability:** planned, not yet authored.
+3. **Section C — Technology Trends:** planned, not yet authored.
+4. **Integrated capstone:** planned after completion of the three sections.
+
+## Module resources
+
+- [Shared learning paths](../LEARNING-PATHS.md)
+- [Shared glossary](../GLOSSARY.md)
+- [Repository content quality rules](../QUALITY.md)
+- Validated section data, originals visuals, formula references and capstone resources will be introduced with the lessons to which they belong.
+
+## Cross-module handoffs
+
+- [Module 1](../01-supply-chains-demand-forecasting/README.md) owns forecasting, demand and S&OP; Module 8 uses the market and demand evidence to test strategic fit.
+- [Module 2](../02-network-design-digital-connectivity-performance/README.md) owns network and data architecture and performance measurement; Module 8 evaluates strategic redesign choices.
+- [Module 3](../03-sourcing-strategy-product-design-supplier-execution/README.md) owns sourcing, product design and contracts; Module 8 places these choices within competitive and sustainable strategy.
+- [Module 4](../04-internal-operations-inventory/README.md) owns internal planning, inventory, quality and continuous improvement; Module 8 considers their enterprise value and strategic constraints.
+- [Module 5](../05-forward-reverse-logistics/README.md) owns logistics, trade and reverse flow; Module 8 integrates cost-to-serve, sustainability and lifecycle effects.
+- [Module 6](../06-supply-chain-relationships/README.md) owns customer and supplier relationship governance; Module 8 aligns stakeholder needs and change adoption.
+- [Module 7](../07-supply-chain-risk/README.md) owns risk assessment and continuity; Module 8 carries those mandatory gates into option selection.
+
+## How each lesson is structured
+
+Each published lesson must contain plain-language concepts, business decisions, original visuals suited to the subject, a fictional applied case, quantitative evidence where appropriate, trade-offs, common mistakes, original checks with explanations, and connections to the prior curriculum. A completed module requires section reviews, a solved integrated capstone and independent calculation/rendering checks.
+
+## Module snapshot
+
+This is an **in-progress branch snapshot**, initially consisting of original Section A learning material and navigation. A final count of lessons, diagrams, datasets and assessments will be published only after content completion and successful Modules 1–8 verification.
+
+**Source policy:** Scope is checked against the 2026 APICS CSCP Module 8 curriculum, accompanying slides and term cards privately. The learning text and examples here are independent, not reproduced source content.
