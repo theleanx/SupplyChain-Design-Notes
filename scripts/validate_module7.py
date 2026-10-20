@@ -73,6 +73,13 @@ def main() -> int:
     roadmap = (ROOT/'ROADMAP.md').read_text(encoding='utf-8')
     if '- [x] Obtain final release approval and publish v7.0.0' not in roadmap:
         failures.append('ROADMAP.md: Module 7 final approval/release gate is incomplete')
+    release_record = (ROOT/'MODULE7-IMPORT-AND-REVIEW-CHECKLIST.md').read_text(encoding='utf-8')
+    if '> **RELEASED.**' not in release_record:
+        failures.append('Module 7 import/review record does not show the completed release')
+    for stale in ('DRAFT ONLY', 'is not yet committed', 'Keep the PR in draft',
+                  'Do not merge before'):
+        if stale in release_record:
+            failures.append(f'Module 7 import/review record retains stale release text: {stale}')
     for p in sections:
         if not p.is_dir(): continue
         overview=p/'README.md'
