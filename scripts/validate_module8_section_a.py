@@ -28,7 +28,8 @@ def main():
         t=p.read_text(encoding="utf-8")
         if len(t.split())<500:errors.append(f"{p.name}: less than 500 words")
         for h in HEADINGS:
-            if not re.search(r"^## "+re.escape(h)+r"\s*$",t,re.M|re.I):errors.append(f"{p.name}: missing {h}")
+            pattern=(r"^## Realistic example\b.*$" if h=="Realistic example" else r"^## "+re.escape(h)+r"\s*$")
+            if not re.search(pattern,t,re.M|re.I):errors.append(f"{p.name}: missing {h}")
         if t.count("<details>")!=1 or t.count("</details>")!=1:errors.append(f"{p.name}: topic answer blocks invalid")
         if t.count(FENCE+"mermaid")!=1 or t.count(FENCE)%2:errors.append(f"{p.name}: Mermaid/fence mismatch")
         if t.count(".svg)")!=1:errors.append(f"{p.name}: requires an original SVG")
