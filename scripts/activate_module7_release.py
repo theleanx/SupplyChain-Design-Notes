@@ -85,11 +85,15 @@ def main() -> int:
         body=body.replace('## Module snapshot\n','## Module snapshot\n\n- **39** structured Markdown learning/reference pages\n- **31** topic lessons (12 in Section A, 19 in Section B)\n- **33** original SVG decision visuals\n- **32** fictional CSV datasets\n- **72** independently authored knowledge checks, including the capstone\n')
     for old,new in [
         ('**Status: complete development candidate; awaiting full-repository CI, GitHub rendering and release approval.**',
-         '**Status: validated release candidate; awaiting final human approval.**'),
+         '**Status: released in v7.0.0.**'),
+        ('**Status: validated release candidate; awaiting final human approval.**',
+         '**Status: released in v7.0.0.**'),
         ('— locally authored; final full-repository release gate pending.',
          '— locally authored and validated in the full repository.'),
         ('Both sections and their integrated capstone are authored; **do not publish as a finished module** until validator integration, independent final editorial/visual review and CI pass.',
-         'Both sections and their integrated capstone are authored and validated; the candidate remains unmerged pending final human approval.'),
+         'Both sections and their integrated capstone are authored, validated, merged, and released.'),
+        ('Both sections and their integrated capstone are authored and validated; the candidate remains unmerged pending final human approval.',
+         'Both sections and their integrated capstone are authored, validated, merged, and released.'),
     ]:
         body=body.replace(old,new)
     p.write_text(body)
@@ -149,7 +153,9 @@ def main() -> int:
     body=body.replace('Shared module and section overview contract across Modules 1–6','Shared module and section overview contract across Modules 1–7')
     body=body.replace('Modules 1–6 are complete. Future modules','Modules 1–7 are complete. Future modules')
     body=body.replace('- [ ] Confirm GitHub Actions validation, independent editorial review and final release approval',
-                      '- [x] Confirm GitHub Actions validation and final editorial/visual review\n- [ ] Obtain final release approval')
+                      '- [x] Confirm GitHub Actions validation and final editorial/visual review\n- [x] Obtain final release approval and publish v7.0.0')
+    body=body.replace('- [ ] Obtain final release approval',
+                      '- [x] Obtain final release approval and publish v7.0.0')
     p.write_text(body)
     p=ROOT/'CITATION.cff';body=p.read_text()
     body=body.replace('version: 6.0.1','version: 7.0.0').replace('date-released: 2026-10-18','date-released: 2026-10-19')
@@ -218,7 +224,7 @@ This release adds risk governance, analysis, response economics, disruption reco
 - exact normalized 10-word and 12-word originality scans with zero source/public overlap hits
 - no proprietary source PDFs, presentations, flashcards, question-bank material, or private audit artifacts in the public tree
 ''')
-    print('Module 7 integrated with shared validator, repo navigation, glossary, learning paths, roadmap.')
+    print('Module 7 integrated and released with shared validator, repo navigation, glossary, learning paths, roadmap.')
     return 0
 
 if __name__=='__main__':sys.exit(main())
