@@ -1,0 +1,7 @@
+year,period,net_cash_flow_usd,discount_rate_annual,description
+0,illustrative_investment,-180000,0.10,initial_outlay
+1,illustrative_year,50000,0.10,benefit
+2,illustrative_year,50000,0.10,benefit
+3,illustrative_year,50000,0.10,benefit
+4,illustrative_year,50000,0.10,benefit
+5,illustrative_year,50000,0.10,benefit

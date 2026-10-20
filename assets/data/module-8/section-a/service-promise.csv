@@ -1,0 +1,3 @@
+case_id,period,mode,total_orders,on_time_orders
+SP-01,illustrative_month,baseline,200,146
+SP-02,illustrative_month,pilot,200,186

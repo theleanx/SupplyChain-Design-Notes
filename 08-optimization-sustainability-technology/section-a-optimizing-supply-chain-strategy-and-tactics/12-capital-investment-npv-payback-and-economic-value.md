@@ -24,6 +24,11 @@ Network and technology investments lock the enterprise into costs, assets and op
 
 ## Decision model and workflow
 
+![NPV and discounted recovery](../../assets/diagrams/module-8/section-a/discounted-cash-flow-payback.svg)
+
+Invest $180k,Cash 5 x $50k,Rate 10%,NPV +$9,539
+
+
 The investment decision starts from the customer and strategic objective, establishes a dated incremental cash-flow model, screens hard eligibility conditions, and then compares economic criteria and sensitivities. Record a financial approver, technical qualification owner and date at which benefits will be checked against actual results.
 
 ### Evidence retained through the workflow
@@ -54,6 +59,10 @@ flowchart TD
 AlderGate is deciding whether to establish a regional service point. An initial estimate shows reduced freight and failure cost but does not say when the launch outlay occurs or how long savings persist. Finance prepares a five-year incremental cash-flow comparison. Operations verifies the service node has adequate throughput and certified processes, and the legal team checks that the operating site is eligible for the proposed activity. The annual savings remain an illustrative estimate until the node begins serving customers.
 
 ## Applied decision artifact or worked calculation
+
+[Working data: capital-investment-cash-flows.csv](../../assets/data/module-8/section-a/capital-investment-cash-flows.csv)
+
+
 
 The fictional investment has an initial outlay of **$180,000 at time zero** and **$50,000 of net cash benefit at the end of each of years 1–5**, with no modeled terminal value. At the hypothetical approved discount rate of **10% annually**, the value of each cash inflow is $50,000 / (1.10)^t for t = 1 through 5.
 

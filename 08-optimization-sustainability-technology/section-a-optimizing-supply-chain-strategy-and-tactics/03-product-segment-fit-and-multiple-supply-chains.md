@@ -24,6 +24,11 @@ The design also changes cash and obsolescence exposure. Finished-stock protectio
 
 ## Decision model and workflow
 
+![Product segmentation and service fit](../../assets/diagrams/module-8/section-a/segment-uncertainty-policy-map.svg)
+
+Stable demand,Uncertain demand,Supply lead,Customer loss
+
+
 Use demand characteristics, lifecycle state, service consequences, supply lead time and feasible capacity as joint evidence. No single metric classifies an item permanently. The record must identify what operating decision differs by segment.
 
 ### Evidence retained through the workflow
@@ -59,6 +64,10 @@ AlderGate's common couplings move steadily through distributors, while specializ
 The improvement team evaluates routine replenishment of common couplings and protected common critical parts for the repair line. It considers postponing final assembly until the repair specifications are known. That does not bypass safety or traceability tests: a rapid repair remains unacceptable if the required technical qualification cannot be completed.
 
 ## Applied decision artifact or worked calculation
+
+[Working data: segment-variability.csv](../../assets/data/module-8/section-a/segment-variability.csv)
+
+
 
 For a fictional comparison, weekly demand for a stable family averages **800 units** with standard deviation **60 units**. For an engineered repair family, mean weekly demand is **150** and standard deviation **90**. The coefficient of variation (CV) is standard deviation divided by mean, so stable family CV = **60 / 800 = 0.075**, while repair family CV = **90 / 150 = 0.60**.
 

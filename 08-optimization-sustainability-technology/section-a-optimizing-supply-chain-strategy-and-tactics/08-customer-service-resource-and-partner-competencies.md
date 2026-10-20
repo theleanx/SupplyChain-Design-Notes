@@ -22,6 +22,11 @@ Service excellence is not fully described by internal efficiency or on-time ship
 
 ## Decision model and workflow
 
+![Service and partner capability](../../assets/diagrams/module-8/section-a/service-capability-partner-gate.svg)
+
+Complete orders,Response time,Qualified partner,Cost to serve
+
+
 Compare service outcomes before and after a verified operating change, then reconcile the extra cost with customer retention and qualified service capacity. Test partner approval, qualification and continuity before a service model is called feasible.
 
 ### Evidence retained through the workflow
@@ -53,6 +58,10 @@ flowchart TD
 AlderGate's repair line uses a technically strong in-house testing operation, but the plant is weak at urgent final-mile delivery. A specialist carrier pilot improves complete and on-time orders. Supplier management verifies the carrier's contingency and escalation arrangements while Finance checks whether the premium service fees cover the extra delivery charges.
 
 ## Applied decision artifact or worked calculation
+
+[Working data: partner-service-pilot.csv](../../assets/data/module-8/section-a/partner-service-pilot.csv)
+
+
 
 In a fictional month, 880 of 1,000 orders arrive complete and on time, giving **88%** complete-and-on-time attainment. A tested provider arrangement improves this to 955 of the same 1,000 orders, **95.5%**, for a **7.5-percentage-point** improvement. If the arrangement adds $36,000 monthly and the modeled retained incremental contribution is only $28,000, the preliminary operating effect is **−$8,000** before other avoided service costs. Management must not approve on percentage improvement alone; it should test customer value, contractual terms and financially justified service tiers.
 

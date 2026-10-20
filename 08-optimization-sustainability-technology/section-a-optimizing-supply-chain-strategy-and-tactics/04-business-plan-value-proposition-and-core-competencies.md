@@ -20,6 +20,11 @@ AlderGate cannot price or promise an engineered repair until Finance, production
 
 ## Decision model and workflow
 
+![Business plan and competency fit](../../assets/diagrams/module-8/section-a/business-plan-competency-bridge.svg)
+
+Proposition,People skills,Partner fit,Funded plan
+
+
 Treat the value proposition, the capabilities that make it credible and the investment plan as one approval package. The evidence must distinguish capabilities AlderGate should build from those it can contract, and identify the moment a delayed qualification makes launch infeasible.
 
 ### Evidence retained through the workflow
@@ -51,6 +56,10 @@ flowchart TD
 AlderGate's market team proposes five-day engineered replacements for critical OEM machines. Engineering confirms the metalwork can be produced but reveals that qualified test technicians are already fully committed. Operations investigates a controlled second-shift qualification process while Procurement evaluates specialist capacity. The business plan distinguishes launch readiness from the forecast sales opportunity, and Finance refuses to treat expected revenue as approved cash availability.
 
 ## Applied decision artifact or worked calculation
+
+[Working data: business-plan-economics.csv](../../assets/data/module-8/section-a/business-plan-economics.csv)
+
+
 
 In a fictional annual business case, incremental service revenue is $420,000 and incremental variable expense is $250,000, leaving $170,000 contribution before dedicated fixed support. Annual engineering support of $92,000 and technology support of $24,000 lower the modeled incremental operating contribution to **$54,000**. This does not establish NPV or cash availability: training investments, working capital, taxes, financing and adoption uncertainty are outside the calculation. Finance must approve the complete horizon and Quality must confirm safe qualification before the launch can be authorized.
 

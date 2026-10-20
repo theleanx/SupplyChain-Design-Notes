@@ -22,6 +22,11 @@ A supply chain that fit yesterday's market may not fit a newly acquired business
 
 ## Decision model and workflow
 
+![Detecting strategy-to-supply gaps](../../assets/diagrams/module-8/section-a/strategy-gap-governance-loop.svg)
+
+Changed market,Measured gap,Diagnose cause,Retest design
+
+
 Write the gap as a measured baseline, a target and a relevant period. Classify whether the mismatch comes from business direction, demand, assets, partner behavior, technology or governance, and choose the least disruptive viable corrective alternative.
 
 ### Evidence retained through the workflow
@@ -53,6 +58,10 @@ flowchart TD
 Following an acquisition, AlderGate's newly combined sales teams promise six-day service for repair parts once produced from independent facilities. Customer service records falling attainment, but the true bottleneck is incompatible product qualification records rather than a shortage of warehouse space. The team harmonizes certification evidence before investing in physical network expansion.
 
 ## Applied decision artifact or worked calculation
+
+[Working data: strategic-gap-cases.csv](../../assets/data/module-8/section-a/strategic-gap-cases.csv)
+
+
 
 An illustrative customer-service target is **95%** complete-on-time delivery over a defined month, while actual performance is **88%**. The gap is **7 percentage points**, not a 7% relative change. Suppose 350 of 4,000 orders fail the stated completeness/timing requirement: attainment is 3,650/4,000 = **91.25%** for that separate sample, with a 3.75-point gap to 95%. These populations must not be combined without reconciling definitions and time windows. Record root cause, owner, target, measured counterfactual and reassessment date.
 

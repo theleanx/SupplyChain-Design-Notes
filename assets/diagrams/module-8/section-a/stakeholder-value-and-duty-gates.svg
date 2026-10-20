@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-labelledby="title desc">
+<title id="title">Stakeholder value boundaries</title><desc id="desc">Compare affected groups without treating customer avoided losses as company revenue.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#287a8b"/></marker></defs>
+<rect width="1000" height="600" fill="#ffffff"/>
+<rect x="0" y="0" width="1000" height="105" fill="#123d57"/>
+<text x="36" y="63" font-size="29" font-family="Arial, sans-serif" font-weight="700" fill="#ffffff">Stakeholder value boundaries</text>
+<g font-family="Arial, sans-serif"><rect x="28" y="220" width="210" height="105" rx="19" fill="#eff3ff" stroke="#286880" stroke-width="2"/><text x="133" y="279.5" text-anchor="middle" font-size="21" font-weight="600" fill="#15354a">Finance</text>
+<rect x="272" y="220" width="210" height="105" rx="19" fill="#e9f5f6" stroke="#286880" stroke-width="2"/><text x="377" y="279.5" text-anchor="middle" font-size="21" font-weight="600" fill="#15354a">Customers</text>
+<rect x="516" y="220" width="210" height="105" rx="19" fill="#eff3ff" stroke="#286880" stroke-width="2"/><text x="621" y="279.5" text-anchor="middle" font-size="21" font-weight="600" fill="#15354a">Workers</text>
+<rect x="760" y="220" width="210" height="105" rx="19" fill="#e9f5f6" stroke="#286880" stroke-width="2"/><text x="865" y="279.5" text-anchor="middle" font-size="21" font-weight="600" fill="#15354a">Community</text>
+<path d="M238 272 H264" stroke="#287a8b" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M482 272 H508" stroke="#287a8b" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M726 272 H752" stroke="#287a8b" stroke-width="4" marker-end="url(#arrow)"/></g>
+<line x1="40" y1="534" x2="960" y2="534" stroke="#d9e5e8" stroke-width="2"/>
+<text x="500" y="564" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#224759">Mandatory labor and safety duties precede ranking</text>
+</svg>

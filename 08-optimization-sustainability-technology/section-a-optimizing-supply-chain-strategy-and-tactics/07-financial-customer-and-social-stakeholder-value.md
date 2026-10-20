@@ -22,6 +22,11 @@ Different stakeholders capture different value from the same supply-chain interv
 
 ## Decision model and workflow
 
+![Stakeholder value boundaries](../../assets/diagrams/module-8/section-a/stakeholder-value-and-duty-gates.svg)
+
+Finance,Customers,Workers,Community
+
+
 Build an affected-party ledger before valuing alternatives. Label each financial quantity by the entity that bears or receives it, and separate contractual transfer mechanisms from estimated societal or customer benefits. Confirm labor and safety duties before discretionary comparison.
 
 ### Evidence retained through the workflow
@@ -53,6 +58,10 @@ flowchart TD
 AlderGate proposes weekend emergency operations after customers describe expensive equipment outages. The proposal could reduce customer downtime but requires certified weekend test staff and reliable transport. Finance calculates AlderGate's own cost, commercial teams test service-contract pricing, and the worker safety lead approves staffing conditions. The executive decision keeps community, worker, customer and owner impacts in distinct columns.
 
 ## Applied decision artifact or worked calculation
+
+[Working data: stakeholder-economic-boundaries.csv](../../assets/data/module-8/section-a/stakeholder-economic-boundaries.csv)
+
+
 
 In a fictional annual scenario, emergency-service customers may avoid **$180,000 in downtime losses** if response improves, while AlderGate would spend **$95,000** on the program. The arithmetic difference is **$85,000**, but it is **not** AlderGate's profit because customer benefit is not automatically company revenue. Management needs a credible value-capture model—such as a service contract or retention evidence—and must assess which people or communities bear extra costs.
 

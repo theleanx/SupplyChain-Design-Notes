@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-labelledby="title desc">
+<title id="title">Location decision full economics</title><desc id="desc">Combine annual facility and service costs before comparing feasible site alternatives.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#287a8b"/></marker></defs>
+<rect width="1000" height="600" fill="#ffffff"/>
+<rect x="0" y="0" width="1000" height="105" fill="#123d57"/>
+<text x="36" y="63" font-size="29" font-family="Arial, sans-serif" font-weight="700" fill="#ffffff">Location decision full economics</text>
+<g font-family="Arial, sans-serif"><rect x="55" y="205" width="220" height="140" rx="19" fill="#eff4fe" stroke="#286880" stroke-width="2"/><text x="165" y="282" text-anchor="middle" font-size="21" font-weight="600" fill="#15354a">Facility</text>
+<rect x="300" y="205" width="220" height="140" rx="19" fill="#edf9ee" stroke="#286880" stroke-width="2"/><text x="410" y="282" text-anchor="middle" font-size="21" font-weight="600" fill="#15354a">Transport</text>
+<rect x="545" y="205" width="220" height="140" rx="19" fill="#eff4fe" stroke="#286880" stroke-width="2"/><text x="655" y="282" text-anchor="middle" font-size="21" font-weight="600" fill="#15354a">Inventory</text>
+<rect x="790" y="205" width="220" height="140" rx="19" fill="#edf9ee" stroke="#286880" stroke-width="2"/><text x="900" y="282" text-anchor="middle" font-size="21" font-weight="600" fill="#15354a">Service loss</text>
+<path d="M125 390 H865" stroke="#287a8b" stroke-width="4"/><path d="M125 375 V405 M865 375 V405" stroke="#287a8b" stroke-width="3"/></g>
+<line x1="40" y1="534" x2="960" y2="534" stroke="#d9e5e8" stroke-width="2"/>
+<text x="500" y="564" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#224759">Recurring savings are not discounted NPV</text>
+</svg>

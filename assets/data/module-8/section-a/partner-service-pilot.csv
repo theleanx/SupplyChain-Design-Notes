@@ -1,0 +1,3 @@
+scenario,period,total_orders,complete_on_time_orders,incremental_cost_usd,incremental_modeled_contribution_usd
+baseline,illustrative_month,1000,880,0,0
+pilot,illustrative_month,1000,955,36000,28000

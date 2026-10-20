@@ -24,6 +24,11 @@ An optimizer can produce a precise-looking answer even when its objective, resou
 
 ## Decision model and workflow
 
+![Optimization objective and limits](../../assets/diagrams/module-8/section-a/linear-program-product-mix.svg)
+
+Variables,Max contribution,Hour constraint,Feasible mix
+
+
 Declare controllable variables, objective, hours per product and order caps first. Verify that the computed mix is feasible, then assess whether the simplified linear model covers the service, safety and other conditions needed for production approval.
 
 ### Evidence retained through the workflow
@@ -55,6 +60,10 @@ flowchart TD
 AlderGate has one constrained finishing cell serving two product lines. A planner proposes maximizing units, but the finance owner wants contribution under a fixed weekly labor-hour limit. The team formulates a two-product model, solves it manually and records excluded effects such as minimum campaign size and setup time. An implementation test is required before scheduling systems are changed.
 
 ## Applied decision artifact or worked calculation
+
+[Working data: production-mix.csv](../../assets/data/module-8/section-a/production-mix.csv)
+
+
 
 For one fictional **weekly** work center, let x = units of Product A and y = Product B. The contribution objective is **maximize 40x + 55y dollars**. Each A uses 2 hours and each B 4 hours, with **2x + 4y ≤ 120 hours**. Demand caps are **x ≤ 40**, **y ≤ 25**, and x,y are nonnegative integers. Since A yields $20 per constrained hour versus B's $13.75, use A to its 40-unit cap (80 hours) and allocate the remaining 40 hours to 10 units of B. The feasible solution **(x=40, y=10)** returns **$2,150**. This conclusion depends on these objective, limits and assumptions; it is not an enterprise-wide profit optimum.
 

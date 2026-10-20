@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-labelledby="title desc">
+<title id="title">Network cost and capacity gates</title><desc id="desc">The cheapest option cannot win if it fails the mandatory volume capacity.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#287a8b"/></marker></defs>
+<rect width="1000" height="600" fill="#ffffff"/>
+<rect x="0" y="0" width="1000" height="105" fill="#123d57"/>
+<text x="36" y="63" font-size="29" font-family="Arial, sans-serif" font-weight="700" fill="#ffffff">Network cost and capacity gates</text>
+<g font-family="Arial, sans-serif"><rect x="120" y="200" width="340" height="102" rx="19" fill="#e9f5ff" stroke="#286880" stroke-width="2"/><text x="290" y="258" text-anchor="middle" font-size="21" font-weight="600" fill="#15354a">Central $625k</text>
+<rect x="570" y="200" width="340" height="102" rx="19" fill="#e9f5ff" stroke="#286880" stroke-width="2"/><text x="740" y="258" text-anchor="middle" font-size="21" font-weight="600" fill="#15354a">Regional $575k</text>
+<rect x="120" y="365" width="340" height="102" rx="19" fill="#eff9ef" stroke="#286880" stroke-width="2"/><text x="290" y="423" text-anchor="middle" font-size="21" font-weight="600" fill="#15354a">Low $520k</text>
+<rect x="570" y="365" width="340" height="102" rx="19" fill="#eff9ef" stroke="#286880" stroke-width="2"/><text x="740" y="423" text-anchor="middle" font-size="21" font-weight="600" fill="#15354a">Capacity gate</text>
+<path d="M460 255 H552 M295 303 V358 M740 303 V358 M460 408 H552" stroke="#287a8b" stroke-width="4" fill="none" marker-end="url(#arrow)"/></g>
+<line x1="40" y1="534" x2="960" y2="534" stroke="#d9e5e8" stroke-width="2"/>
+<text x="500" y="564" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#224759">Infeasible 850/wk is below required 1,000/wk</text>
+</svg>

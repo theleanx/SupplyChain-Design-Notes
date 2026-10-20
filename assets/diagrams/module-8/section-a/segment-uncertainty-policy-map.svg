@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-labelledby="title desc">
+<title id="title">Product segmentation and service fit</title><desc id="desc">Classify products by demand uncertainty and feasible response, then select distinct service rules.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#287a8b"/></marker></defs>
+<rect width="1000" height="600" fill="#ffffff"/>
+<rect x="0" y="0" width="1000" height="105" fill="#123d57"/>
+<text x="36" y="63" font-size="29" font-family="Arial, sans-serif" font-weight="700" fill="#ffffff">Product segmentation and service fit</text>
+<g font-family="Arial, sans-serif"><rect x="70" y="175" width="370" height="115" rx="19" fill="#ecf5ff" stroke="#286880" stroke-width="2"/><text x="255" y="239.5" text-anchor="middle" font-size="21" font-weight="600" fill="#15354a">Stable demand</text>
+<rect x="560" y="175" width="370" height="115" rx="19" fill="#e7f6f3" stroke="#286880" stroke-width="2"/><text x="745" y="239.5" text-anchor="middle" font-size="21" font-weight="600" fill="#15354a">Uncertain demand</text>
+<rect x="70" y="380" width="370" height="115" rx="19" fill="#fff4e3" stroke="#286880" stroke-width="2"/><text x="255" y="444.5" text-anchor="middle" font-size="21" font-weight="600" fill="#15354a">Supply lead</text>
+<rect x="560" y="380" width="370" height="115" rx="19" fill="#f2ecfc" stroke="#286880" stroke-width="2"/><text x="745" y="444.5" text-anchor="middle" font-size="21" font-weight="600" fill="#15354a">Customer loss</text>
+<path d="M480 200 V500" stroke-dasharray="12 10" stroke="#8194a3" stroke-width="3"/><path d="M50 350 H945" stroke-dasharray="12 10" stroke="#8194a3" stroke-width="3"/></g>
+<line x1="40" y1="534" x2="960" y2="534" stroke="#d9e5e8" stroke-width="2"/>
+<text x="500" y="564" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#224759">CV informs policy; it never directly sets safety stock</text>
+</svg>

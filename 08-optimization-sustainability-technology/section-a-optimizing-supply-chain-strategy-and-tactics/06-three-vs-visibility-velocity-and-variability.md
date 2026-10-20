@@ -22,6 +22,11 @@ Visibility, velocity and variability affect decisions through different mechanis
 
 ## Decision model and workflow
 
+![Three Vs strategic metrics](../../assets/diagrams/module-8/section-a/visibility-velocity-variability-controls.svg)
+
+Trusted data,Elapsed time,Demand CV,Customer result
+
+
 Measure each V independently using a defined population and timestamps. Visibility requires trusted events, velocity requires matched process boundaries, and variability needs a consistent sample and statistic. Relate improvements to downstream customer outcomes only after validating them.
 
 ### Evidence retained through the workflow
@@ -53,6 +58,10 @@ flowchart TD
 At AlderGate, a supplier uploads shipment events in a portal, but the system often maps them to a retired material identifier. Planners see status updates but cannot tell which repair orders are threatened. The pilot fixes part identity and exception ownership first, then measures whether planners contact customers sooner. Its cost hypothesis remains unproven until those actions change service or expediting expense.
 
 ## Applied decision artifact or worked calculation
+
+[Working data: three-v-measures.csv](../../assets/data/module-8/section-a/three-v-measures.csv)
+
+
 
 In a fictional sample of 200 monitored orders, 140 have trustworthy status events, giving **70%** visibility completeness. A revised process covers 185 orders, or **92.5%**. The order-to-promise update cycle falls from 12 hours to 9 hours, a **25%** time reduction. Separately, a demand coefficient of variation decreases from 0.40 to 0.25, a **37.5%** relative reduction. Each metric describes a different result; none alone proves that customers were retained or profit increased.
 

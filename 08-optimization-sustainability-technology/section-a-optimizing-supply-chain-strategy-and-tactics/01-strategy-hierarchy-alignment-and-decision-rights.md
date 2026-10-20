@@ -22,6 +22,11 @@ Local optimization is especially dangerous when the cost and service consequence
 
 ## Decision model and workflow
 
+![Strategy to operating promises](../../assets/diagrams/module-8/section-a/strategy-alignment-decision-chain.svg)
+
+Market,Promise,Capability,Owned KPI
+
+
 The design decision is whether to approve a capability or process change that supports a chosen market promise under the available financial, physical and regulatory constraints. Retain a baseline, a candidate alternative, decision rights, applicable hard gates and review triggers.
 
 ### Evidence retained through the workflow
@@ -54,6 +59,10 @@ flowchart TD
 AlderGate is a fictional producer of standard mechanical couplings and engineer-to-order repair assemblies. The sales team promises rapid delivery for emergency repairs, while the plant is measured only on long-run machine utilization. A change to smaller production lots could support faster repairs but would add setups. The right question is not whether shorter runs look efficient in isolation. It is whether the customer value and retained revenue justify the capacity and cost consequences without bypassing quality inspection.
 
 ## Applied decision artifact or worked calculation
+
+[Working data: service-promise.csv](../../assets/data/module-8/section-a/service-promise.csv)
+
+
 
 AlderGate receives 200 expedited assembly orders during a fictional month. The existing system meets its promised date for 146 orders: **146 ÷ 200 = 73%** attainment. A pilot proposes meeting 186 of those 200 orders: **186 ÷ 200 = 93%** attainment, at an estimated incremental monthly conversion cost of $12,000. The difference is 20 percentage points, but that does not establish that the pilot is profitable. The team must still compare incremental contribution, expected avoided penalties, setup and inventory consequences, and capacity feasibility. These are training assumptions, not certification benchmarks.
 

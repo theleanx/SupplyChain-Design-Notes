@@ -22,6 +22,11 @@ Network redesign can commit an enterprise to years of facilities, freight patter
 
 ## Decision model and workflow
 
+![Network cost and capacity gates](../../assets/diagrams/module-8/section-a/network-alternative-feasibility.svg)
+
+Central $625k,Regional $575k,Low $520k,Capacity gate
+
+
 Test the central, regional and low-cost concepts against a 1,000-unit weekly requirement, physical capacity and operating gates. Sum comparable annual cost components only for eligible options and preserve the rejected cheapest alternative as evidence of the hard-capacity boundary.
 
 ### Evidence retained through the workflow
@@ -53,6 +58,10 @@ flowchart TD
 AlderGate receives three regional distribution proposals. The lowest quote relies on a warehouse staffed for only 850 units a week while the mandatory customer commitment is 1,000 units. The procurement group wants to average the shortfall into a total score, but the operations owner rejects it as infeasible and asks the team to rank only the remaining options.
 
 ## Applied decision artifact or worked calculation
+
+[Working data: location-design-alternatives.csv](../../assets/data/module-8/section-a/location-design-alternatives.csv)
+
+
 
 The **central** design has annual modeled facility $280,000, transport $220,000, inventory $85,000 and service-failure $40,000: total **$625,000**. The **regional** design totals $365,000 + $130,000 + $65,000 + $15,000 = **$575,000** and meets a fictional requirement of 1,000 units per week. A third **low-cost** design totals $315,000 + $120,000 + $75,000 + $10,000 = **$520,000**, but delivers only **850 units/week** against the 1,000-unit mandatory capacity requirement. It is **ineligible**, despite the lowest modeled cost. Among these assumptions, the regional option is the least-cost feasible design.
 

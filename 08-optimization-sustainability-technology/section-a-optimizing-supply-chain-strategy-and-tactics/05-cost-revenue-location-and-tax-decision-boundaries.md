@@ -22,6 +22,11 @@ A proposed fulfillment footprint can lower one reported cost while increasing ca
 
 ## Decision model and workflow
 
+![Location decision full economics](../../assets/diagrams/module-8/section-a/network-location-cost-stack.svg)
+
+Facility,Transport,Inventory,Service loss
+
+
 Compare the central and regional network options on the same annual service and cost horizon. List all recurring components, isolate the one-time launch expense, record capacity and legal feasibility, and keep simple payback separate from discounted investment results.
 
 ### Evidence retained through the workflow
@@ -53,6 +58,10 @@ flowchart TD
 AlderGate's finance team receives a regional-warehouse proposal showing only a lower outbound freight quote. The warehouse group adds site staffing, duplicate stock, technology interfaces and returns handling. Customer operations estimates the consequence of delayed emergency orders, while legal and tax advisers evaluate the relevant entities and location restrictions. Only the reconciled feasible options advance to approval.
 
 ## Applied decision artifact or worked calculation
+
+[Working data: location-design-alternatives.csv](../../assets/data/module-8/section-a/location-design-alternatives.csv)
+
+
 
 Central fulfillment's fictional annual cost is $280,000 facility expense + $220,000 transport + $85,000 carrying costs + $40,000 service-failure consequences = **$625,000**. A regional option models $365,000 + $130,000 + $65,000 + $15,000 = **$575,000**, for **$50,000** recurring annual saving under these assumptions. If launch costs $180,000 once, simple payback is **3.6 years**. This is not NPV and not a conclusion about taxes or statutory compliance.
 

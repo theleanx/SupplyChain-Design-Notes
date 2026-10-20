@@ -24,6 +24,11 @@ Competitive fit should be evaluated periodically. Price-sensitive markets can ch
 
 ## Decision model and workflow
 
+![Competitive positioning choices](../../assets/diagrams/module-8/section-a/competitive-positioning-service-cost-matrix.svg)
+
+Low cost,Distinctive value,Best cost,Focused buyer
+
+
 | Competitive emphasis | Supply-chain priority to test | Evidence required |
 | --- | --- | --- |
 | Low cost | Repetition, appropriate scale, cost stability | Unit and total delivered cost, quality, reliable fulfillment |
@@ -54,6 +59,10 @@ flowchart LR
 The distributor line runs in regular batches with common materials. Repair assemblies require variable specifications, equipment qualification and controlled rush capacity. AlderGate's leaders consider a fully standardized factory policy, but the maintenance customers would then experience delivery windows inconsistent with their high-value downtime situations. Instead, the team evaluates separate promise classes within shared operations, verifying the price premium and setup cost before approving the different treatment.
 
 ## Applied decision artifact or worked calculation
+
+[Working data: competitive-contribution.csv](../../assets/data/module-8/section-a/competitive-contribution.csv)
+
+
 
 In a fictional month, standardized couplings sell **6,000 units at $150** with **$113 variable cost per unit**, giving **6,000 × ($150 − $113) = $222,000** contribution before shared fixed expense. Engineered assemblies sell **3,300 at $210** with **$155 variable cost per unit**, giving **3,300 × ($210 − $155) = $181,500** contribution on the same basis.
 
