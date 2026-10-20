@@ -36,7 +36,7 @@ The design decision is whether to approve a capability or process change that su
 
 ## Practical process flow
 
-~~~mermaid
+```mermaid
 flowchart TD
     A[Define customer segment and business promise] --> B[Translate promise into required operating capabilities]
     B --> C[Compare current state against required capability]
@@ -47,7 +47,7 @@ flowchart TD
     F --> G[Approve owner, metrics, and review trigger]
     G --> H[Monitor performance and market changes]
     H --> B
-~~~
+```
 
 ## Realistic example — AlderGate Motion Products
 
