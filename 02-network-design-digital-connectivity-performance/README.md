@@ -38,6 +38,8 @@ After completing this module, you should be able to:
 
 Module 2 builds on the demand, service, forecasting, and planning context in [Module 1](../01-supply-chains-demand-forecasting/README.md). It hands network structure, digital-thread, data-governance, technology, performance, and financial requirements into [Module 3](../03-sourcing-strategy-product-design-supplier-execution/README.md), [Module 4](../04-internal-operations-inventory/README.md), and [Module 5](../05-forward-reverse-logistics/README.md). [Module 6](../06-supply-chain-relationships/README.md) consumes the same data, integration, analytics, performance, and technology-business-case foundations for CRM/SRM and relationship governance.
 
+- [**Module 7 — Supply Chain Risk**](../07-supply-chain-risk/README.md) adds the assessment, hard response gates, disruption/continuity choices and tested recovery evidence that use this module’s existing operating methods.
+
 ## How each lesson is structured
 
 Each topic moves from a plain-language concept to explicit business relevance, decision logic and evidence, a topic-appropriate visual and operational flow where needed, an AsterWorks example, and a reusable decision artifact or reproducible calculation. Lessons close with trade-offs, common confusion, failure modes, one original knowledge check with full rationale, practitioner perspective, related concepts, and sequential navigation.

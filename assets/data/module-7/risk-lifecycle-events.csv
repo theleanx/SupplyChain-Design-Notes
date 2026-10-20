@@ -1,0 +1,4 @@
+risk_id,event,evidence_status,response_state,owner,review_cycle_days,next_step
+SB-R01,connector fixture interruption,validated equipment dependency,monitor,Supplier Continuity Lead,7,verify spare-fixture test
+SB-R02,shared terminal closure,route dependency confirmed,identify,Logistics Continuity Lead,14,validate recovery lane
+SB-R03,preventive sensor pilot,pilot benefit unverified,assess,Maintenance Manager,30,run controlled pilot

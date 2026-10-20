@@ -1,6 +1,6 @@
 # Learning Paths
 
-All six modules can be read from beginning to end, but different roles may need a faster route to the decisions most relevant to their work. The paths below preserve the conceptual sequence while making focused study easier.
+All seven modules can be read from beginning to end, but different roles may need a faster route to the decisions most relevant to their work. The paths below preserve the conceptual sequence while making focused study easier.
 
 ## Module 1 complete foundation path
 
@@ -311,3 +311,16 @@ Read the sections in sequence:
 Use the [glossary](./GLOSSARY.md) whenever a term is unfamiliar. For quantitative reference, open the [forecasting formula sheet](./calculations/forecasting/formula-sheet.md) or the [network and performance formula sheet](./calculations/network-performance/formula-sheet.md), or [sourcing and procurement formula sheet](./calculations/sourcing-procurement/formula-sheet.md), or the [internal operations and inventory formula sheet](./calculations/internal-operations/formula-sheet.md).
 
 For Module 5 quantitative reference, open the [logistics, trade, and reverse-flow formula sheet](./calculations/logistics-trade-reverse/formula-sheet.md). For Module 6, use the [relationship-performance formula & control sheet](./calculations/relationship-performance/formula-sheet.md).
+
+
+## Module 7 risk-management and resilience path
+
+**For:** risk leads, sourcing leaders, operations, enterprise architects, logistics managers and continuity coordinators.
+
+1. [Risk governance and identification](./07-supply-chain-risk/section-a-risk-management-and-supply-chain-risks/README.md)
+2. [Risk analysis and response](./07-supply-chain-risk/section-b-risk-analysis-and-response/README.md)
+3. [Risk-response formula and control reference](./calculations/risk-response/formula-sheet.md)
+4. [Stonebridge integrated capstone](./07-supply-chain-risk/capstone/README.md)
+5. [Solved executive decision record](./07-supply-chain-risk/capstone/solution-guide.md)
+
+Use existing Modules 1–6 as the technical owners of the demand, network, procurement, production, logistics and relationship inputs. Module 7 adds the event exposure, decision gates, response economics and tested continuity treatment.

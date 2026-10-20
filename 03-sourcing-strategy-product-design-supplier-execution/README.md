@@ -40,6 +40,8 @@ After completing this module, you should be able to:
 
 Module 3 converts the demand and planning requirements developed in [Module 1](../01-supply-chains-demand-forecasting/README.md) and the network, digital-thread, performance, and financial requirements developed in [Module 2](../02-network-design-digital-connectivity-performance/README.md) into sourcing, product-design, supplier, contract, and procure-to-pay decisions. Those decisions become operating inputs to [Module 4](../04-internal-operations-inventory/README.md), logistics/trade/reverse-flow inputs to [Module 5](../05-forward-reverse-logistics/README.md), and the supplier-selection, contract, concentration, and execution foundation that [Module 6](../06-supply-chain-relationships/README.md) uses for ongoing SRM, supplier performance, certification, alliance, and collaboration decisions.
 
+- [**Module 7 — Supply Chain Risk**](../07-supply-chain-risk/README.md) adds the assessment, hard response gates, disruption/continuity choices and tested recovery evidence that use this module’s existing operating methods.
+
 ## How each lesson is structured
 
 Every topic moves from a plain-language concept to a topic-appropriate decision model, evidence requirements, an operational process flow where appropriate, a fictional Rivermark example, and a practitioner-ready artifact or worked calculation. Each lesson then tests decision logic through topic-specific trade-offs, failure patterns, common confusion, related concepts, and one answer-with-rationale knowledge check.

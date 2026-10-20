@@ -1,0 +1,13 @@
+{
+  "seed": 20261019,
+  "draws": 10000,
+  "counts": {
+    "0": 6540,
+    "80000": 2467,
+    "250000": 993
+  },
+  "sample_mean_usd": 44561,
+  "analytical_mean_usd": 45000,
+  "sample_p90_usd": 80000,
+  "sample_p95_usd": 250000
+}

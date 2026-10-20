@@ -1,0 +1,5 @@
+candidate_id,elicitation_method,source_record,claim,verification_needed,owner
+SB-I01,document and assumptions review,fixture uptime report,backup fixture exists but was not validated,test alternate process,Manufacturing Engineer
+SB-I02,structured interview,night-shift supervisor notes,temporary power transfer remains manual,exercise switch-over,Plant Manager
+SB-I03,process map review,two carrier paths,both carriers share intermodal hub,verify alternate terminal,Transport Planner
+SB-I04,anonymous expert round,cross-site survey,unlogged contractor privileged credentials,review access inventory,IT Security Owner

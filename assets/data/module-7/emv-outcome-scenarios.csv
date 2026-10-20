@@ -1,0 +1,4 @@
+scenario_id,outcome,probability,conditional_operating_impact_usd,analysis_horizon
+S1,No lane disruption,0.65,0,1 year
+S2,Moderate lane disruption,0.25,-80000,1 year
+S3,Severe lane disruption,0.10,-250000,1 year

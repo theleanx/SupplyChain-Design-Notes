@@ -1,0 +1,6 @@
+risk_id,category,origin,primary_event,shared_dependency,trigger,owner,horizon_months
+R7-11,supply,external,controller_chip_unavailable,Northport_freight_hub,open_orders_over_14_days,Procurement,12
+R7-12,process,internal,test_line_controller_failure,site_power_feed,repeated_equipment_alarms,Plant_operations,12
+R7-13,hazard,external,storm_blocks_primary_lane,Northport_freight_hub,river_flood_alert,Logistics,12
+R7-14,demand,external,unexpected_oem_order_surge,shared_bottleneck_materials,confirmed_orders_over_capacity,Demand_planning,12
+R7-15,financial,external,currency_change_increases_invoice_value,supplier_country_exposure,spot_rate_above_budget,Treasury,12

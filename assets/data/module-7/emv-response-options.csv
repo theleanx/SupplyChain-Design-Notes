@@ -1,0 +1,5 @@
+option_id,option,annual_probability,conditional_loss_usd,certain_annual_cost_usd,security_gate_pass,insurance_coverage_gate_pass,analysis_horizon,comment
+BASE,No new intervention,0.18,260000,0,no,yes,1 year,Existing exposure benchmark; mandatory security gate not met
+PATCH,Monitored hardening and supplier access controls,0.08,220000,11000,yes,yes,1 year,Controls lower chance of event while reducing loss severity
+FAILOVER,Isolated redundant recovery capability,0.06,145000,29000,yes,yes,1 year,Lower outage loss with higher certain operating cost
+INSURE,Insurance without the required security controls,0.18,30000,18000,no,no,1 year,Illustrative economics only; supplier-origin event is excluded and gate fails

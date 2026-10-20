@@ -1,0 +1,4 @@
+decision_id,governance_accountable,risk_owned_by,compliance_evidence,control_frequency,unresolved_gate
+SB-G01,Board risk committee,Operations Risk Lead,approved risk appetite statement,quarterly,none
+SB-G02,Head of Procurement,Supplier Risk Lead,signed supplier anti-bribery attestations,onboarding,open annual recheck
+SB-G03,Chief Information Security Officer,Identity Risk Owner,privileged access recertification,monthly,one elevated access unverified

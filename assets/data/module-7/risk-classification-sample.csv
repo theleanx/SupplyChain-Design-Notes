@@ -1,0 +1,4 @@
+risk_id,cause,event,consequence,uncertainty_type,owner,forward_signal,horizon
+R01,One specialist component requires nonstandard testing,Supplier misses confirmed production slot,Customer delivery and cost exposure,Threat,Supply manager,Repeated late pilot-lot acceptance,Next 12 months
+R02,Two logistics lanes share the same terminal,Terminal access is disrupted,Both nominal route options become unavailable,Threat,Logistics manager,Terminal notice and route-concentration dashboard,Next 12 months
+R03,New preventive-monitoring capability is not yet validated,Early fault detection works at pilot scale,Potentially fewer unplanned stoppages,Opportunity,Maintenance lead,Measured pilot detection rate,Next 12 months

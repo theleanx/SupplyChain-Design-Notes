@@ -1,0 +1,5 @@
+risk_id,likelihood_1_to_5,consequence_1_to_5,product_score,urgency_days,hard_gate,owner
+R7-11,4,4,16,21,none,Procurement
+R7-12,3,5,15,1,safety_review,Plant_operations
+R7-13,2,5,10,3,emergency_access,Logistics
+R7-14,4,3,12,7,customer_priority,Demand_planning

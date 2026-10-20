@@ -1,0 +1,5 @@
+risk_id,estimate_source,observations,latest_review,missing_data,confidence,urgency_days,decision
+R7-11,supplier_confirmed_shipments,38,2026-09-30,none,moderate,21,quantify_with_range
+R7-12,maintenance_alarm_history,7,2026-10-10,failure_mode_validation_needed,low,1,protect_and_investigate
+R7-13,regional_flood_alert_feed,24,2026-10-15,indirect_capacity_not_confirmed,moderate,3,stage_contingency
+R7-14,oem_order_book,60,2026-10-12,cancel_probability_unknown,low,7,scenario_only

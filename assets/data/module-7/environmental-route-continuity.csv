@@ -1,0 +1,4 @@
+lane,scheduled_shipments_week,storm_exposure,potential_capacity_week,expected_delay_days,activation_gate,owner
+Primary_River_Road,800,elevated,800,7,road_authority_clearance,Transport
+Eastgate_Alternate,0,lower,400,3,carrier_capacity_confirmed,Transport
+Air_Emergency,0,weather_correlated,100,2,safety_and_airspace_clearance,Transport

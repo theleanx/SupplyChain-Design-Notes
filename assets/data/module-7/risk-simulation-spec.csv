@@ -1,0 +1,2 @@
+run_id,seed,draws,p_no_disruption,p_moderate,p_severe,moderate_loss_usd,severe_loss_usd,independence_assumption
+STON-10000,20261019,10000,0.65,0.25,0.10,80000,250000,one_exclusive_event_per_year

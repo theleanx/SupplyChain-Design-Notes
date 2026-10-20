@@ -49,6 +49,8 @@ Module 6 consumes rather than reteaches the decision methods already established
 - [**Module 4**](../04-internal-operations-inventory/README.md) owns formal quality and continuous-improvement methods. Module 6 uses corrective-action evidence and supplier/customer feedback without reteaching DMAIC or quality-tool mechanics.
 - [**Module 5**](../05-forward-reverse-logistics/README.md) owns physical logistics, fulfillment, transportation, trade, and reverse-flow execution. Module 6 uses service and relationship evidence to influence those operating choices without duplicating execution design.
 
+- [**Module 7 — Supply Chain Risk**](../07-supply-chain-risk/README.md) adds the assessment, hard response gates, disruption/continuity choices and tested recovery evidence that use this module’s existing operating methods.
+
 ## How each lesson is structured
 
 Each topic contains learning objectives, a plain-English concept, explicit business relevance, a topic-specific original SVG, one operational Mermaid flow, a ClearSpan example, an applied decision artifact or reproducible calculation, retained-evidence guidance, decision logic, trade-offs, common confusion, common mistakes, one original knowledge check with full distractor rationale, practitioner perspective, related concepts, and sequential navigation.

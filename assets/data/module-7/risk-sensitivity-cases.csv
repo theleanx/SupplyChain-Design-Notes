@@ -1,0 +1,4 @@
+option,annual_certain_cost_usd,conditional_loss_usd,assumed_event_probability,expected_annual_cost_usd,hard_gate
+Monitored_hardening,11000,220000,0.08,28600,pass
+Isolated_failover,29000,145000,0.06,37700,pass
+Monitored_hardening_degraded,11000,220000,0.17,48400,fail

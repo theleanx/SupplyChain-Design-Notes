@@ -16,3 +16,5 @@ source-materials/
 # Generated output
 dist/
 build/
+__pycache__/
+*.pyc

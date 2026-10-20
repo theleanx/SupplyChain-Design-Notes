@@ -5,6 +5,7 @@
 from __future__ import annotations
 
 import csv
+import subprocess
 import copy
 import hashlib
 import math
@@ -22,6 +23,7 @@ MODULE_3 = ROOT / "03-sourcing-strategy-product-design-supplier-execution"
 MODULE_4 = ROOT / "04-internal-operations-inventory"
 MODULE_5 = ROOT / "05-forward-reverse-logistics"
 MODULE_6 = ROOT / "06-supply-chain-relationships"
+MODULE_7 = ROOT / "07-supply-chain-risk"
 MODULES = {
     "Module 1": (MODULE_1, 44),
     "Module 2": (MODULE_2, 43),
@@ -29,6 +31,7 @@ MODULES = {
     "Module 4": (MODULE_4, 51),
     "Module 5": (MODULE_5, 54),
     "Module 6": (MODULE_6, 32),
+    "Module 7": (MODULE_7, 31),
 }
 MARKDOWN_LINK = re.compile(r"(?<!!)\[[^\]]*\]\(([^)]+)\)")
 MARKDOWN_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
@@ -128,6 +131,10 @@ MODULE_RESOURCE_INDEXES = {
     MODULE_6: (
         ROOT / "assets/data/module-6/README.md",
         ROOT / "calculations/relationship-performance/README.md",
+    ),
+    MODULE_7: (
+        ROOT / "assets/data/module-7/README.md",
+        ROOT / "calculations/risk-response/README.md",
     ),
 }
 MODULE_1_DATASET_LINKS = {
@@ -389,6 +396,7 @@ def validate_shared_module_content() -> list[str]:
         MODULE_4: MODULE_4_DATASET_LINKS,
         MODULE_5: MODULE_5_DATASET_LINKS,
         MODULE_6: MODULE_6_DATASET_LINKS,
+        MODULE_7: {},
     }
 
     for label, (module, expected_count) in MODULES.items():
@@ -434,7 +442,7 @@ def validate_shared_module_content() -> list[str]:
             }
             lesson_key = str(path.relative_to(module))
             requires_process_flow = (
-                module in (MODULE_2, MODULE_3, MODULE_6)
+                module in (MODULE_2, MODULE_3, MODULE_6, MODULE_7)
                 or (module == MODULE_4 and lesson_key not in module_4_flow_exceptions)
                 or (module == MODULE_5 and lesson_key not in module_5_flow_exceptions)
             )
@@ -462,7 +470,7 @@ def validate_shared_module_content() -> list[str]:
             ):
                 errors.append(f"{relative}: missing reusable applied decision or worked-calculation section")
 
-            if not re.search(r"\b(example|northstar|asterworks|rivermark|pinehaven|harborpeak|clearspan)\b", body, re.IGNORECASE):
+            if not re.search(r"\b(example|northstar|asterworks|rivermark|pinehaven|harborpeak|clearspan|stonebridge)\b", body, re.IGNORECASE):
                 errors.append(f"{relative}: missing fictional applied example")
 
             related = re.search(
@@ -1718,6 +1726,7 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
             12,
             ("31.25%", "86.23%", "$242,000", "72.19", "74.18%", "88/100"),
         ),
+        "Module 7": (MODULE_7, 2200, 12, ("$45,000", "$28,600", "$36,500", "$11,500")),
     }
     for label, (module, solution_floor, data_count, results) in capstone_requirements.items():
         assignment = (module / "capstone/README.md").read_text(encoding="utf-8")
@@ -1746,19 +1755,55 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
 
     module_markdown = [path for path in markdown if any(path.is_relative_to(module) for module, _ in MODULES.values())]
     details = sum(path.read_text(encoding="utf-8").count("<details>") for path in module_markdown)
-    if len(module_markdown) != 330:
-        errors.append(f"Repository inventory: expected 330 module Markdown files, found {len(module_markdown)}")
-    if len(svg) != 217:
-        errors.append(f"Repository inventory: expected 217 SVG files, found {len(svg)}")
-    if len(datasets) != 69:
-        errors.append(f"Repository inventory: expected 69 CSV files, found {len(datasets)}")
-    if details != 651:
-        errors.append(f"Repository inventory: expected 651 knowledge checks, found {details}")
+    if len(module_markdown) != 369:
+        errors.append(f"Repository inventory: expected 369 module Markdown files, found {len(module_markdown)}")
+    if len(svg) != 250:
+        errors.append(f"Repository inventory: expected 250 SVG files, found {len(svg)}")
+    if len(datasets) != 101:
+        errors.append(f"Repository inventory: expected 101 CSV files, found {len(datasets)}")
+    if details != 723:
+        errors.append(f"Repository inventory: expected 723 knowledge checks, found {details}")
 
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    for statement in ("330 structured Markdown files", "217 original SVG diagrams", "69 original CSV datasets", "651 independently authored knowledge checks"):
+    for statement in (
+        "369 structured Markdown files",
+        "across seven completed modules",
+        "250 original SVG diagrams",
+        "101 original CSV datasets",
+        "723 independently authored knowledge checks",
+        "./calculations/risk-response/formula-sheet.md",
+        "07-supply-chain-risk/",
+        "assets/diagrams/module-7/",
+        "assets/data/module-7/",
+        "calculations/risk-response/",
+    ):
         if statement not in readme:
             errors.append(f"README inventory is missing the current statement ({statement})")
+
+    learning_paths = (ROOT / "LEARNING-PATHS.md").read_text(encoding="utf-8")
+    if "All seven modules can be read" not in learning_paths:
+        errors.append("LEARNING-PATHS.md: completed-module count is not seven")
+
+    roadmap = (ROOT / "ROADMAP.md").read_text(encoding="utf-8")
+    for statement in (
+        "Seven end-to-end case studies",
+        "Shared module and section overview contract across Modules 1–7",
+        "Modules 1–7 are complete.",
+    ):
+        if statement not in roadmap:
+            errors.append(f"ROADMAP.md: missing Module 7 release statement ({statement})")
+    if "- [ ] Supply-chain risk" in roadmap:
+        errors.append("ROADMAP.md: completed Module 7 is still listed as future work")
+
+    citation = (ROOT / "CITATION.cff").read_text(encoding="utf-8")
+    for statement in ("version: 7.0.0", "date-released: 2026-10-19", "supply chain risk management", "business continuity"):
+        if statement not in citation:
+            errors.append(f"CITATION.cff: missing Module 7 release metadata ({statement})")
+    changelog = (ROOT / "CHANGELOG.md").read_text(encoding="utf-8")
+    if "## Version 7.0.0 — Module 7" not in changelog:
+        errors.append("CHANGELOG.md: missing Module 7 release entry")
+    if not (ROOT / ".github/releases/v7.0.0.md").is_file():
+        errors.append("Release metadata: missing .github/releases/v7.0.0.md")
 
     module_snapshot_claims = {
         MODULE_1: ("**59** structured Markdown learning/reference pages", "**44** topic lessons", "**128** independently authored knowledge checks"),
@@ -1767,6 +1812,7 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
         MODULE_4: ("**63** structured Markdown learning/reference pages", "**51** topic lessons", "**126** knowledge checks"),
         MODULE_5: ("**68** structured Markdown learning/reference pages", "**54** topic lessons", "**137** independently authored knowledge checks"),
         MODULE_6: ("**40** structured Markdown learning/reference pages", "**32** topic lessons", "**69** independently authored knowledge checks"),
+        MODULE_7: ("**39** structured Markdown learning/reference pages", "**31** topic lessons", "**72** independently authored knowledge checks"),
     }
     for module, statements in module_snapshot_claims.items():
         module_readme = (module / "README.md").read_text(encoding="utf-8")
@@ -1899,6 +1945,14 @@ def main() -> int:
         + validate_module_6_assessment_distribution()
         + validate_capstones_and_inventory(markdown, svg, datasets)
     )
+
+    module7_check = subprocess.run(
+        [sys.executable, str(ROOT / "scripts/validate_module7.py")],
+        cwd=ROOT, text=True, capture_output=True, check=False,
+    )
+    print(module7_check.stdout, end="")
+    if module7_check.returncode:
+        errors.append("Module 7 specific validation failed:\n" + module7_check.stdout + module7_check.stderr)
 
     print(
         f"Validated {len(markdown)} Markdown files, {link_count} internal links, "

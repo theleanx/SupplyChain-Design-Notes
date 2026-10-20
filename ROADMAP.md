@@ -55,9 +55,16 @@
 - [x] Add the ClearSpan Customer-Supplier Relationship Stabilization capstone
 - [x] Complete source separation, data/calculation, visual, navigation, originality, and integration review
 
+## Module 7 — Supply Chain Risk
+
+- [x] Complete Sections A–B, with original lessons, assessments and decision visuals
+- [x] Add Stonebridge integrated capstone, controlled data and reproducible calculations
+- [x] Apply the shared overview, lesson, capstone, asset and cross-module validation gates
+- [x] Confirm GitHub Actions validation and final editorial/visual review
+- [ ] Obtain final release approval
+
 ## Future modules
 
-- [ ] Supply-chain risk
 - [ ] Optimization and sustainability
 
 Future module folders will be published only when substantive content is ready.
@@ -71,8 +78,8 @@ Future module folders will be published only when substantive content is ready.
 - [x] Internal operations and inventory calculations reference
 - [x] Logistics, trade, and reverse-flow calculations/control reference
 - [x] Relationship-performance calculations/control reference
-- [x] Six end-to-end case studies
-- [x] Shared module and section overview contract across Modules 1–6
+- [x] Seven end-to-end case studies
+- [x] Shared module and section overview contract across Modules 1–7
 - [ ] Commonly confused concepts index
 - [ ] Framework library
 - [ ] Cumulative knowledge review
@@ -84,4 +91,4 @@ Future module folders will be published only when substantive content is ready.
 
 ## Current status
 
-Modules 1–6 are complete. Future modules will follow the same full-release gate before they appear on the default branch.
+Modules 1–7 are complete. Future modules will follow the same full-release gate before they appear on the default branch.
