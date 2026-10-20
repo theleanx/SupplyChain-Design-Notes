@@ -2,6 +2,16 @@
 
 Significant public improvements to this repository are recorded here.
 
+## Version 7.0.2 — Module 7 review-record closure
+
+Release target: 2026-10-20
+
+### Release record and durable control
+
+- Converts the original Module 7 import checklist from pre-import draft instructions to an evidence-backed completed release record.
+- Extends the Module 7 validator and integration script to reject or remove obsolete draft, uncommitted, and do-not-merge wording.
+- Preserves all learning content, diagrams, datasets, assessments, and calculation results unchanged.
+
 ## Version 7.0.1 — Module 7 release-state synchronization
 
 Release target: 2026-10-20
