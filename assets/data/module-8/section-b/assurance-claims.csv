@@ -1,0 +1,4 @@
+supplier_claim,standard_version,review_state
+ISO_26000_certified,ISO_26000,invalid_certification_claim
+SA8000_certificate,SA8000_2014,verify_2026_transition
+ANSI_Z10_program,ANSI_ASSP_Z10_2019,needs_evidence

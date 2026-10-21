@@ -1,0 +1,4 @@
+supplier,standard,edition,site_in_scope,qualification_status
+Alpha,ISO_14001,2026,yes,valid_illustrative
+Beta,ISO_9001,2015,no,out_of_scope
+Gamma,ISO_14001,2015,yes,verify_transition
