@@ -36,11 +36,11 @@ Source data is fictional. The checked-in replay independently tests:
 - Iterative release completion, change participation and adoption;
 - Planned/unplanned maintenance and modeled hours.
 
-The script must **actually pass GitHub CI** before the section can be called automatically validated; it is not enough that the source file exists.
+The script **passed GitHub CI** in run [39628209038](https://github.com/theleanx/SupplyChain-Design-Notes/actions/runs/39628209038) with the three section validators and the released baseline gate. These automated results do not replace final rendered-visual or editorial review.
 
 ## Mandatory publication and merge gates
 
-- [ ] Combined GitHub Content Quality run must pass at the **current PR branch head**, including released Modules 1–7 and Module 8 Sections A, B and C.
+- [x] **Combined GitHub Content Quality passed at synchronized PR branch head** — [workflow run 39628209038](https://github.com/theleanx/SupplyChain-Design-Notes/actions/runs/39628209038), including the released Modules 1–7 validator and all Module 8 Section A/B/C validators, with Section C's independent CSV replay.
 - [ ] Inspect all actual committed SVGs at desktop and narrow widths, and GitHub-rendered Markdown, links and Mermaid flowcharts. XML validity alone does not guarantee visual legibility.
 - [ ] Editorially verify individual visual relevance, wording, calculation boundaries, course-source mapping and originality.
 - [ ] Complete integrated cross-section Module 8 AlderGate capstone with worked solution and independent replay.
