@@ -1,0 +1,5 @@
+measure,period,value,unit,owner
+operating_revenue,fictional_FY,2000000,USD,Finance
+operating_expense,fictional_FY,1600000,USD,Finance
+electricity,fictional_FY,1200,MWh,Facilities
+recorded_safety_events,fictional_FY,6,events,HSE

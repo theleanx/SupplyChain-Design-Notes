@@ -1,0 +1,3 @@
+scenario,period,shipments,tonnes_per_shipment,km_per_shipment,fictional_kg_co2e_per_tonne_km,incremental_transport_cost_usd
+baseline,illustrative_quarter,60,1,500,0.062,0
+alternative,illustrative_quarter,60,1,500,0.040,7500
