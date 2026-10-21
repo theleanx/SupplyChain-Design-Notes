@@ -17,7 +17,7 @@ The final CSCP module brings together enterprise strategic alignment, sustainabl
 
 1. [Section A — Optimizing Supply Chain Strategy and Tactics](./section-a-optimizing-supply-chain-strategy-and-tactics/README.md) — 12 lessons and the full section review authored; pending integrated Module 8 release.
 2. [Section B — Sustainability](./section-b-sustainability/README.md) — 12 lessons and original section review authored, pending integrated Module 8 release.
-3. **Section C — Technology Trends:** planned, not yet authored.
+3. [Section C — Technology Trends](./section-c-technology-trends/README.md) — 18 lessons and original review authored; final integrated release pending.
 4. **Integrated capstone:** planned after completion of the three sections.
 
 ## Module resources
@@ -27,6 +27,7 @@ The final CSCP module brings together enterprise strategic alignment, sustainabl
 - [Repository content quality rules](../QUALITY.md)
 - [Module 8 reference and source-scope register](./REFERENCES.md)
 - [Section B official sustainability references](./section-b-sustainability/REFERENCES.md)
+- [Section C curriculum and technology references](./section-c-technology-trends/REFERENCES.md)
 - Validated section data, originals visuals, formula references and capstone resources will be introduced with the lessons to which they belong.
 
 ## Cross-module handoffs
@@ -45,6 +46,6 @@ Each published lesson must contain plain-language concepts, business decisions, 
 
 ## Module snapshot
 
-This is an **in-progress branch snapshot** containing twelve Section A lessons and twelve Section B lessons, each section's twelve-question review, twenty-four original teaching SVGs, and twenty-three fictional CSV datasets. Section C and the integrated capstone remain pending. A final count of lessons, diagrams, datasets and assessments will be published only after content completion and successful Modules 1–8 verification.
+This is an **in-progress branch snapshot** with 12 Section A, 12 Section B and 18 Section C lessons (42 original lessons); three section reviews with 42 original questions; 42 original SVGs; and 41 fictional CSV datasets. The integrated capstone and full Modules 1–8 release validation remain pending. A final count of lessons, diagrams, datasets and assessments will be published only after content completion and successful Modules 1–8 verification.
 
 **Source policy:** Scope is checked against the 2026 APICS CSCP Module 8 curriculum, accompanying slides and term cards privately. The learning text and examples here are independent, not reproduced source content.
