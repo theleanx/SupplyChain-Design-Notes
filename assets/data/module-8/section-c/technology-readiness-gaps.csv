@@ -1,0 +1,4 @@
+capability,target_score,pilot_score,mandatory
+material_identity,95,97,yes
+trained_user_access,90,87,yes
+reporting_refresh,85,92,no

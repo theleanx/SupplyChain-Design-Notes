@@ -1,0 +1,4 @@
+phase,year,modeled_annual_saving_usd,prerequisite_verified
+asset_identity,1,18000,yes
+condition_monitoring,2,46000,yes
+shared_ledger,3,24000,no
