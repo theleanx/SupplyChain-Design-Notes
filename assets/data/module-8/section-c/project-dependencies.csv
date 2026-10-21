@@ -1,0 +1,5 @@
+task,duration_days,predecessor
+identity_mapping,8,none
+hardware_ready,6,none
+integration_test,5,identity_mapping
+operational_acceptance,4,integration_test

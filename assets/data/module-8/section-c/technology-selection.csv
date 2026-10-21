@@ -1,0 +1,4 @@
+vendor,annual_cost_usd,data_security_gate,response_time_gate,weighted_score
+A,92000,yes,yes,78
+B,84000,yes,yes,86
+C,65000,no,yes,94
