@@ -2,7 +2,7 @@
 
 ## Learning objectives
 
-Distinguish the change or maintenance approach from the actual operating outcome, identify the people and evidence required, and maintain qualified decisions beyond technology installation.
+Explain the decision and controls specific to **change management kotter urgency and coalitions**, recognize its human and technical dependencies, and provide evidence that outcomes persist after implementation.
 
 ## Concept in plain English
 
@@ -20,7 +20,7 @@ AlderGate introduces a cross-partner visibility workflow. Warehouse supervisors 
 
 ## Why it matters
 
-A new platform only creates value when operations and partners accept effective ways of working. Involving affected staff and treating concerns seriously reduces hidden workarounds and data manipulation.
+The new system changes how AlderGate employees and partners perceive authority and performance. Kotter's change themes emphasize urgency, coalitions and meaningful wins; a launch event alone cannot create credible long-term participation.
 
 ## Decision model and workflow
 
@@ -39,12 +39,12 @@ A new platform only creates value when operations and partners accept effective 
 
 ```mermaid
 flowchart TD
-    A[Identify intended operating change] --> B[Engage responsible people and partners]
-    B --> C{Mandatory training and safety conditions passed?}
-    C -- No --> D[Correct barriers and retest]
+    A[State big customer opportunity] --> B[Build frontline guiding coalition]
+    B --> C{Required operating gates satisfied?}
+    C -- No --> D[Address barriers and skills]
     D --> B
-    C -- Yes --> E[Measure actual use and sustained outcomes]
-    E --> F[Institutionalize routine ownership and review]
+    C -- Yes --> E[Publish meaningful early wins]
+    E --> F[Institutionalize process ownership]
 ```
 
 ## Realistic example — AlderGate Motion Products
@@ -59,11 +59,10 @@ The fictional pilot has **180 trained of 200 affected people = 90% training cove
 
 ## Decision logic
 
-- Explain the business change with evidence of why it matters to affected stakeholders.
-- Identify who can approve a change, who must learn it and who will own it afterward.
-- Use qualifications, safety, privacy and customer protections as independent gates.
-- Distinguish awareness, training, actual adoption and realized results.
-- Retain a practical monitoring and correction method after special project support ends.
+- Explain the reason for change in customer and worker terms.
+- Recruit credible operational and partner change agents.
+- Remove data access and incentive barriers before expansion.
+- Treat measurable sustained wins as evidence of adoption.
 
 ## Trade-offs
 
@@ -75,14 +74,13 @@ The fictional pilot has **180 trained of 200 affected people = 90% training cove
 
 ## Commonly confused with
 
-Completion of training, deployment of a feature and proof of sustained business adoption are different events. A percentage of tasks completed cannot establish that an unsafe condition is acceptable.
+Kotter's change leadership ideas address human and organizational momentum; they do not replace a project plan or mandated worker protections. Communication attendance is not effective process adoption, and a temporary pilot team cannot substitute for permanent roles and KPIs.
 
 ## Common mistakes
 
-- Treating resistance as irrational instead of investigating the cause.
-- Assuming a one-time project announcement creates lasting behavior.
-- Misstating a modeled scenario as verified production evidence.
-- Forgetting to budget ongoing support or to update operating policies.
+- Announcing change without explaining implications for workers.
+- Treating reported concerns as resistance to suppress.
+- Presenting training coverage as proof of customer improvement.
 
 ## Original knowledge check
 
@@ -117,7 +115,7 @@ Change success requires actual new operating behavior sustained over time and li
 
 ## Practitioner perspective
 
-A system architect and business process owner should agree on durable exception handling, documented user decisions, operational training and funded maintenance. A project is not a substitute for routine controls and measurable support performance.
+Change leaders should partner with supervisors and supplier representatives to correct actual workflow barriers. Embed coaching, honest feedback, new measures and escalation routes into routine operations.
 
 ## Related concepts
 

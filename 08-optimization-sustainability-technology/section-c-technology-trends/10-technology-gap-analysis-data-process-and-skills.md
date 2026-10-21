@@ -20,7 +20,7 @@ A gap may remain even when the average readiness score is high. A qualified emer
 
 ## Why it matters
 
-The decision changes AlderGate's ability to fulfill its intended customer promise, manage scarce resources and govern technology risks. Technical features matter only when the connected process can use them responsibly and support them after implementation.
+The purpose of gap analysis is to identify the actual missing capability, not automatically justify a replacement system. AlderGate's required user-access threshold still fails, so the initiative must address skills and permission design before the affected operating process can be accepted.
 
 ## Decision model and workflow
 
@@ -39,12 +39,12 @@ The decision changes AlderGate's ability to fulfill its intended customer promis
 
 ```mermaid
 flowchart TD
-    A[Document target operating result] --> B[Evaluate current capability and data]
-    B --> C{All critical requirements feasible?}
-    C -- No --> D[Remediate gap or reject proposal]
+    A[Map as is process and data] --> B[Set future capability thresholds]
+    B --> C{Required operating gates satisfied?}
+    C -- No --> D[Classify root causes and owners]
     D --> B
-    C -- Yes --> E[Compare costs, benefits and dependencies]
-    E --> F[Authorize owner-led implementation and review]
+    C -- Yes --> E[Retest mandatory user access]
+    E --> F[Release proven capabilities]
 ```
 
 ## Realistic example — AlderGate Motion Products
@@ -59,11 +59,10 @@ Pilot readiness reaches **97** against a material-identity target of **95**, and
 
 ## Decision logic
 
-- Establish the business goal and evidence denominator before describing technical success.
-- Confirm the relevant people, suppliers, physical resources and data controls are ready.
-- Exclude proposals with unresolved mandatory quality, legal, security or safety failures.
-- Compare the remaining alternatives on consistent cost and service horizons.
-- Link release, ongoing support and reassessment to the responsible business owner.
+- Confirm a documented as-is process with real users.
+- Link the to-be outcome to measurable evidence.
+- Distinguish process data technology and skills causes.
+- Approve release only after required gap closure.
 
 ## Trade-offs
 
@@ -75,14 +74,13 @@ Pilot readiness reaches **97** against a material-identity target of **95**, and
 
 ## Commonly confused with
 
-A project schedule is not a technology roadmap, a vendor feature demonstration is not an accepted requirement, and an audit closure ratio is not an authority to bypass a critical defect. Each record has its own specific decision use.
+A technology feature gap, a broken process, a data identity problem and a workforce skills deficit are different causes. Value-stream mapping can expose delay while a capability-gap register assigns ownership. Higher average readiness cannot repair failed required access.
 
 ## Common mistakes
 
-- Treating a better numerical average as a substitute for mandatory eligibility.
-- Buying an application before evaluating process, people or data causes.
-- Omitting the owners and acceptance conditions for project benefits.
-- Assuming a technology project ends when software is installed.
+- Buying replacement software before testing the existing process.
+- Using a composite readiness score to conceal a failed mandatory skill.
+- Failing to retest a corrected gap with actual affected users.
 
 ## Original knowledge check
 
@@ -117,7 +115,7 @@ Mandatory workforce and access readiness requires independent satisfaction.
 
 ## Practitioner perspective
 
-The solution team must preserve the relationship from requirement or finding to master data, processes, authorized user and acceptance test. Effective technology adoption requires post-go-live ownership.
+The master-data architect should map changed product identifiers, the security team validates correct roles, and the plant lead demonstrates qualification on real order scenarios before signing the gap closure.
 
 ## Related concepts
 

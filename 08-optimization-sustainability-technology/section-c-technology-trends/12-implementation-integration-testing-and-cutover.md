@@ -20,7 +20,7 @@ AlderGate retains a legacy status-reconciliation view while its new order-visibi
 
 ## Why it matters
 
-This topic determines whether a valuable supply-chain concept can be implemented without losing cost, quality, operational readiness or stakeholder accountability. Evidence must connect a chosen action to the enterprise's approved customer and operating outcomes.
+Cutover is a live business transition and requires more than installed functions. AlderGate's critical blocked-inventory test failures can cause unlawful or unsafe customer promises, so successful noncritical test counts do not make the process ready.
 
 ## Decision model and workflow
 
@@ -39,12 +39,12 @@ This topic determines whether a valuable supply-chain concept can be implemented
 
 ```mermaid
 flowchart TD
-    A[Authorize objective and responsible team] --> B[Define concrete readiness evidence]
-    B --> C{Critical constraints and approvals satisfied?}
-    C -- No --> D[Resolve findings and revise the plan]
+    A[Prepare converted inventory and order data] --> B[Test duplicate and negative scenarios]
+    B --> C{Required operating gates satisfied?}
+    C -- No --> D[Verify quality block and recovery]
     D --> B
-    C -- Yes --> E[Compare outcomes against cost and baseline]
-    E --> F[Accept delivery and transfer sustained ownership]
+    C -- Yes --> E[Choose phased or parallel transition]
+    E --> F[Accept operational handover]
 ```
 
 ## Realistic example — AlderGate Motion Products
@@ -59,11 +59,10 @@ The fictional suite passes **190 of 200 tests = 95%**, yet the two critical bloc
 
 ## Decision logic
 
-- Validate the precise customer outcome and the authorized scope.
-- Identify evidence owners, resource limits and implementation dependencies.
-- Treat legal, safety, quality and data security as threshold conditions.
-- Compare eligible choices and control changes to schedule, funding and deliverables.
-- Preserve follow-up ownership and measurable benefits after handover.
+- Define the full order-to-delivery acceptance scenario.
+- Retest partner retries quarantine and duplicate events.
+- Keep a safe rollback route until qualified signoff.
+- Transfer monitoring incidents and job ownership to operations.
 
 ## Trade-offs
 
@@ -75,14 +74,13 @@ The fictional suite passes **190 of 200 tests = 95%**, yet the two critical bloc
 
 ## Commonly confused with
 
-A delivered technical component is not an accepted business outcome. A cost, scope or schedule report is valid only for its clearly defined baseline. Accountability differs from execution responsibility.
+Unit testing checks components; integration testing checks exchanges; end-to-end acceptance checks the business result. Parallel cutover means controlled old/new co-operation, not two ungoverned sources of truth. Deployment date does not equal operational readiness.
 
 ## Common mistakes
 
-- Replacing acceptance evidence with a favorable aggregate percentage.
-- Claiming that a project plan eliminates operational risk.
-- Changing the scope informally and then reporting against the original baseline.
-- Completing deployment without transferring support responsibilities.
+- Declaring go-live on a favorable global test pass rate.
+- Decommissioning recovery before verifying event replay.
+- Leaving incident handling as an unnamed project responsibility.
 
 ## Original knowledge check
 
@@ -117,7 +115,7 @@ A critical release-control test remains a hard gate regardless of aggregate perc
 
 ## Practitioner perspective
 
-The enterprise delivery lead should connect charters, requirements, test results, project changes and operating handoff in one traceable record. The permanent process owner, not just the implementation team, must accept the ongoing responsibilities.
+The IT lead must reconcile ERP orders against WMS, carrier events and the legacy record during parallel operation. Operations and Quality independently sign critical release-control tests and the fallback checklist.
 
 ## Related concepts
 

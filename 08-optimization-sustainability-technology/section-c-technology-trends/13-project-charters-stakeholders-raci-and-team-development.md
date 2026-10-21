@@ -20,7 +20,7 @@ AlderGate begins a warehouse event-standardization project with IT, suppliers, Q
 
 ## Why it matters
 
-This topic determines whether a valuable supply-chain concept can be implemented without losing cost, quality, operational readiness or stakeholder accountability. Evidence must connect a chosen action to the enterprise's approved customer and operating outcomes.
+Project delivery crosses departments with different responsibilities and approval authority. A clear charter, communication plan and RACI matrix help AlderGate avoid three conflicting 'final' go-live owners and support constructive team development.
 
 ## Decision model and workflow
 
@@ -39,12 +39,12 @@ This topic determines whether a valuable supply-chain concept can be implemented
 
 ```mermaid
 flowchart TD
-    A[Authorize objective and responsible team] --> B[Define concrete readiness evidence]
-    B --> C{Critical constraints and approvals satisfied?}
-    C -- No --> D[Resolve findings and revise the plan]
+    A[Approve charter and benefit objective] --> B[Assign accountable decisions]
+    B --> C{Required operating gates satisfied?}
+    C -- No --> D[Plan stakeholder communications]
     D --> B
-    C -- Yes --> E[Compare outcomes against cost and baseline]
-    E --> F[Accept delivery and transfer sustained ownership]
+    C -- Yes --> E[Resolve cross functional conflicts]
+    E --> F[Accept named deliverables]
 ```
 
 ## Realistic example — AlderGate Motion Products
@@ -59,11 +59,10 @@ The fictional RACI matrix has **three deliverables** and exactly **one accountab
 
 ## Decision logic
 
-- Validate the precise customer outcome and the authorized scope.
-- Identify evidence owners, resource limits and implementation dependencies.
-- Treat legal, safety, quality and data security as threshold conditions.
-- Compare eligible choices and control changes to schedule, funding and deliverables.
-- Preserve follow-up ownership and measurable benefits after handover.
+- Name an empowered sponsor and project manager.
+- Give each deliverable a single clear approval owner.
+- Include partners and affected employees in communication.
+- Revisit responsibilities as team capability matures.
 
 ## Trade-offs
 
@@ -75,14 +74,13 @@ The fictional RACI matrix has **three deliverables** and exactly **one accountab
 
 ## Commonly confused with
 
-A delivered technical component is not an accepted business outcome. A cost, scope or schedule report is valid only for its clearly defined baseline. Accountability differs from execution responsibility.
+A project sponsor authorizes the initiative, while the manager coordinates work. Responsible team members carry out tasks, but accountable owners accept the result. Tuckman's forming, storming, norming and performing model describes possible team evolution, not mandatory calendar dates.
 
 ## Common mistakes
 
-- Replacing acceptance evidence with a favorable aggregate percentage.
-- Claiming that a project plan eliminates operational risk.
-- Changing the scope informally and then reporting against the original baseline.
-- Completing deployment without transferring support responsibilities.
+- Starting unfunded technology work without a charter.
+- Treating several conflicting final signers as clear accountability.
+- Excluding suppliers who must adopt the new interface.
 
 ## Original knowledge check
 
@@ -117,7 +115,7 @@ RACI separates execution and consultation from who accepts the specified outcome
 
 ## Practitioner perspective
 
-The enterprise delivery lead should connect charters, requirements, test results, project changes and operating handoff in one traceable record. The permanent process owner, not just the implementation team, must accept the ongoing responsibilities.
+Connect the approved charter to RACI decisions in the delivery tracker. The business acceptance owner, IT implementers, privacy officer and supplier contact each receive a documented communication role.
 
 ## Related concepts
 

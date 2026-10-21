@@ -2,7 +2,7 @@
 
 ## Learning objectives
 
-Distinguish the change or maintenance approach from the actual operating outcome, identify the people and evidence required, and maintain qualified decisions beyond technology installation.
+Explain the decision and controls specific to **technology maintenance support and lifecycle renewal**, recognize its human and technical dependencies, and provide evidence that outcomes persist after implementation.
 
 ## Concept in plain English
 
@@ -20,7 +20,7 @@ AlderGate's connected press-monitoring system enters routine ownership after pil
 
 ## Why it matters
 
-A technology project's benefits decay when no one funds repair, response and renewal. Lifecycle ownership prevents a successful initial installation from becoming future unplanned downtime.
+Technology value decays without timely maintenance, clear vendor boundaries and spare/incident support. AlderGate's planned servicing uses more scheduled hours but aims to avoid disruptive unplanned failures and protect critical manufacturing capacity.
 
 ## Decision model and workflow
 
@@ -39,12 +39,12 @@ A technology project's benefits decay when no one funds repair, response and ren
 
 ```mermaid
 flowchart TD
-    A[Identify intended operating change] --> B[Engage responsible people and partners]
-    B --> C{Mandatory training and safety conditions passed?}
-    C -- No --> D[Correct barriers and retest]
+    A[Assign contract and maintenance owner] --> B[Record asset criticality and failure modes]
+    B --> C{Required operating gates satisfied?}
+    C -- No --> D[Schedule qualified service windows]
     D --> B
-    C -- Yes --> E[Measure actual use and sustained outcomes]
-    E --> F[Institutionalize routine ownership and review]
+    C -- Yes --> E[Respond and recover from emergencies]
+    E --> F[Review remaining life and spare policy]
 ```
 
 ## Realistic example — AlderGate Motion Products
@@ -59,11 +59,10 @@ The fictional maintenance program increases planned work from **40 to 55 hours**
 
 ## Decision logic
 
-- Explain the business change with evidence of why it matters to affected stakeholders.
-- Identify who can approve a change, who must learn it and who will own it afterward.
-- Use qualifications, safety, privacy and customer protections as independent gates.
-- Distinguish awareness, training, actual adoption and realized results.
-- Retain a practical monitoring and correction method after special project support ends.
+- Distinguish vendor hosted support from local device responsibility.
+- Use safety based prioritization and permitted configuration.
+- Coordinate downtime with changeovers and material plans.
+- Update useful life and costs from verified maintenance records.
 
 ## Trade-offs
 
@@ -75,14 +74,13 @@ The fictional maintenance program increases planned work from **40 to 55 hours**
 
 ## Commonly confused with
 
-Completion of training, deployment of a feature and proof of sustained business adoption are different events. A percentage of tasks completed cannot establish that an unsafe condition is acceptable.
+A software subscription does not automatically provide every equipment repair. Predictive maintenance forecasts possible problems and does not replace physical qualification. Planned maintenance time and unplanned downtime need separate measurement before assessing availability or cost.
 
 ## Common mistakes
 
-- Treating resistance as irrational instead of investigating the cause.
-- Assuming a one-time project announcement creates lasting behavior.
-- Misstating a modeled scenario as verified production evidence.
-- Forgetting to budget ongoing support or to update operating policies.
+- Assuming a cloud vendor maintains every local scanner or robot.
+- Automating critical machine responses from unvalidated readings.
+- Omitting emergency response and repair spare arrangements.
 
 ## Original knowledge check
 
@@ -117,7 +115,7 @@ Long-term support needs documented ownership and sustained controls, whether pro
 
 ## Practitioner perspective
 
-A system architect and business process owner should agree on durable exception handling, documented user decisions, operational training and funded maintenance. A project is not a substitute for routine controls and measurable support performance.
+Establish equipment ownership, approved patch and calibration calendars, service escalation tiers and operational recovery drills. Maintenance evidence should inform planning and the asset's lifecycle financial assumptions.
 
 ## Related concepts
 

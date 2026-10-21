@@ -2,7 +2,7 @@
 
 ## Learning objectives
 
-Distinguish the change or maintenance approach from the actual operating outcome, identify the people and evidence required, and maintain qualified decisions beyond technology installation.
+Explain the decision and controls specific to **partner adoption resistance skills and institutionalization**, recognize its human and technical dependencies, and provide evidence that outcomes persist after implementation.
 
 ## Concept in plain English
 
@@ -20,7 +20,7 @@ AlderGate's pilot reaches 90% training coverage but much lower sustained use. Th
 
 ## Why it matters
 
-Many transformation programs deliver tools without the skills, incentives and partner agreements needed to use them. Durable adoption requires process ownership and corrected barriers rather than celebrating a training percentage.
+Transformation is sustained only when the new workflow becomes normal for every relevant participating organization. AlderGate's supplier adoption deficit requires more than training: correct partner mapping, incentives and accessible support must continue after project closure.
 
 ## Decision model and workflow
 
@@ -39,12 +39,12 @@ Many transformation programs deliver tools without the skills, incentives and pa
 
 ```mermaid
 flowchart TD
-    A[Identify intended operating change] --> B[Engage responsible people and partners]
-    B --> C{Mandatory training and safety conditions passed?}
-    C -- No --> D[Correct barriers and retest]
+    A[Identify stakeholder specific barriers] --> B[Resolve process and access gaps]
+    B --> C{Required operating gates satisfied?}
+    C -- No --> D[Measure real use not attendance]
     D --> B
-    C -- Yes --> E[Measure actual use and sustained outcomes]
-    E --> F[Institutionalize routine ownership and review]
+    C -- Yes --> E[Verify correct customer outcomes]
+    E --> F[Assign enduring routine owners]
 ```
 
 ## Realistic example — AlderGate Motion Products
@@ -59,11 +59,10 @@ The warehouse records **850/1,000 = 85% process adoption** and **820/1,000 = 82%
 
 ## Decision logic
 
-- Explain the business change with evidence of why it matters to affected stakeholders.
-- Identify who can approve a change, who must learn it and who will own it afterward.
-- Use qualifications, safety, privacy and customer protections as independent gates.
-- Distinguish awareness, training, actual adoption and realized results.
-- Retain a practical monitoring and correction method after special project support ends.
+- Distinguish training attendance from proven capability.
+- Collect outcomes by site and partner with shared definitions.
+- Preserve fallback where readiness is incomplete.
+- Embed incentives and support into routine management.
 
 ## Trade-offs
 
@@ -75,14 +74,13 @@ The warehouse records **850/1,000 = 85% process adoption** and **820/1,000 = 82%
 
 ## Commonly confused with
 
-Completion of training, deployment of a feature and proof of sustained business adoption are different events. A percentage of tasks completed cannot establish that an unsafe condition is acceptable.
+Training coverage measures who attended, adoption measures who actually uses the new process, and effectiveness measures whether that process produces correct results. Institutionalization means ongoing ownership and governance, not simply archiving project deliverables.
 
 ## Common mistakes
 
-- Treating resistance as irrational instead of investigating the cause.
-- Assuming a one-time project announcement creates lasting behavior.
-- Misstating a modeled scenario as verified production evidence.
-- Forgetting to budget ongoing support or to update operating policies.
+- Declaring adoption on the basis of completed online training.
+- Averaging supplier and plant metrics without relevant denominators.
+- Removing old processes before partners can safely transition.
 
 ## Original knowledge check
 
@@ -117,7 +115,7 @@ Sustained use depends on working data, roles, interfaces and practical incentive
 
 ## Practitioner perspective
 
-A system architect and business process owner should agree on durable exception handling, documented user decisions, operational training and funded maintenance. A project is not a substitute for routine controls and measurable support performance.
+Maintain a partner-by-partner event-quality score and unresolved onboarding cases. The process owner should demonstrate correct order handling after the temporary project helpdesk closes.
 
 ## Related concepts
 

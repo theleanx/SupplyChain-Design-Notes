@@ -20,7 +20,7 @@ AlderGate Motion Products compares three visibility providers. The lowest priced
 
 ## Why it matters
 
-This topic determines whether a valuable supply-chain concept can be implemented without losing cost, quality, operational readiness or stakeholder accountability. Evidence must connect a chosen action to the enterprise's approved customer and operating outcomes.
+Technology award decisions should compare comparable TCO and proven operational value only among eligible offers. AlderGate's apparently best-priced supplier lacks a required access control, so vendor C cannot enter the final feasible ranking.
 
 ## Decision model and workflow
 
@@ -39,12 +39,12 @@ This topic determines whether a valuable supply-chain concept can be implemented
 
 ```mermaid
 flowchart TD
-    A[Authorize objective and responsible team] --> B[Define concrete readiness evidence]
-    B --> C{Critical constraints and approvals satisfied?}
-    C -- No --> D[Resolve findings and revise the plan]
+    A[Define service requirements and pilot test] --> B[Verify security and capacity]
+    B --> C{Required operating gates satisfied?}
+    C -- No --> D[Calculate full ownership cost]
     D --> B
-    C -- Yes --> E[Compare outcomes against cost and baseline]
-    E --> F[Accept delivery and transfer sustained ownership]
+    C -- Yes --> E[Compare qualified proposals]
+    E --> F[Sign scope and support obligations]
 ```
 
 ## Realistic example — AlderGate Motion Products
@@ -59,11 +59,10 @@ Vendor C offers the lowest fictional recurring cost (**$65,000**) and top score 
 
 ## Decision logic
 
-- Validate the precise customer outcome and the authorized scope.
-- Identify evidence owners, resource limits and implementation dependencies.
-- Treat legal, safety, quality and data security as threshold conditions.
-- Compare eligible choices and control changes to schedule, funding and deliverables.
-- Preserve follow-up ownership and measurable benefits after handover.
+- Specify requirements and weights before vendor demonstration.
+- Apply nonnegotiable legal security and quality checks.
+- Include subscription integration skills and exit expense.
+- Check vendor references and selection sensitivity.
 
 ## Trade-offs
 
@@ -75,14 +74,13 @@ Vendor C offers the lowest fictional recurring cost (**$65,000**) and top score 
 
 ## Commonly confused with
 
-A delivered technical component is not an accepted business outcome. A cost, scope or schedule report is valid only for its clearly defined baseline. Accountability differs from execution responsibility.
+A weighted proposal score ranks preferences only within a feasible set; it cannot substitute for data-security eligibility. TCO includes more than initial license price and differs from a fully discounted NPV. Building internally is a strategy choice with lifelong product support costs.
 
 ## Common mistakes
 
-- Replacing acceptance evidence with a favorable aggregate percentage.
-- Claiming that a project plan eliminates operational risk.
-- Changing the scope informally and then reporting against the original baseline.
-- Completing deployment without transferring support responsibilities.
+- Selecting an ineligible low-price vendor from a composite score.
+- Changing score weights after seeing preferred proposal results.
+- Excluding integration or vendor exit from project economics.
 
 ## Original knowledge check
 
@@ -117,7 +115,7 @@ Mandatory data protection is a threshold, not a weighted preference.
 
 ## Practitioner perspective
 
-The enterprise delivery lead should connect charters, requirements, test results, project changes and operating handoff in one traceable record. The permanent process owner, not just the implementation team, must accept the ongoing responsibilities.
+Preserve a vendor-neutral decision record: use-case requirement, test inputs, scored evidence, disqualification reason, support contract and total-cost assumptions. No master-data cutover occurs before signed business acceptance.
 
 ## Related concepts
 

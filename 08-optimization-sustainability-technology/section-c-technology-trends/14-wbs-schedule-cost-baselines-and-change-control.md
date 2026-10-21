@@ -20,7 +20,7 @@ AlderGate's conveyor technology project uses deliverable-level work packages for
 
 ## Why it matters
 
-This topic determines whether a valuable supply-chain concept can be implemented without losing cost, quality, operational readiness or stakeholder accountability. Evidence must connect a chosen action to the enterprise's approved customer and operating outcomes.
+Project schedules are only credible when work packages, true predecessors and available resources are captured. AlderGate's critical path depends on identity mapping and subsequent testing rather than on the earliest-finished hardware workstream.
 
 ## Decision model and workflow
 
@@ -39,12 +39,12 @@ This topic determines whether a valuable supply-chain concept can be implemented
 
 ```mermaid
 flowchart TD
-    A[Authorize objective and responsible team] --> B[Define concrete readiness evidence]
-    B --> C{Critical constraints and approvals satisfied?}
-    C -- No --> D[Resolve findings and revise the plan]
+    A[Break scope into deliverables] --> B[Estimate activities and resources]
+    B --> C{Required operating gates satisfied?}
+    C -- No --> D[Build predecessor network]
     D --> B
-    C -- Yes --> E[Compare outcomes against cost and baseline]
-    E --> F[Accept delivery and transfer sustained ownership]
+    C -- Yes --> E[Approve schedule and cost baseline]
+    E --> F[Control proposed changes]
 ```
 
 ## Realistic example — AlderGate Motion Products
@@ -59,11 +59,10 @@ For the fictional network, identity mapping (8 days), integration test (5) and o
 
 ## Decision logic
 
-- Validate the precise customer outcome and the authorized scope.
-- Identify evidence owners, resource limits and implementation dependencies.
-- Treat legal, safety, quality and data security as threshold conditions.
-- Compare eligible choices and control changes to schedule, funding and deliverables.
-- Preserve follow-up ownership and measurable benefits after handover.
+- Use WBS deliverables with testable acceptance criteria.
+- Check working calendar and simultaneous resource loading.
+- Identify actual critical dependencies and project reserves.
+- Update baselines only after authorized impact review.
 
 ## Trade-offs
 
@@ -75,14 +74,13 @@ For the fictional network, identity mapping (8 days), integration test (5) and o
 
 ## Commonly confused with
 
-A delivered technical component is not an accepted business outcome. A cost, scope or schedule report is valid only for its clearly defined baseline. Accountability differs from execution responsibility.
+The WBS decomposes deliverables, while a schedule sequences activities to produce them. A Gantt chart visualizes timing but does not prove resource feasibility. Contingency budget for known risks and separately controlled management reserve have different approval logic.
 
 ## Common mistakes
 
-- Replacing acceptance evidence with a favorable aggregate percentage.
-- Claiming that a project plan eliminates operational risk.
-- Changing the scope informally and then reporting against the original baseline.
-- Completing deployment without transferring support responsibilities.
+- Treating percent of tasks started as percent of business delivered.
+- Ignoring resource constraints on a nominal critical path.
+- Adding work informally while reporting the original budget.
 
 ## Original knowledge check
 
@@ -117,7 +115,7 @@ The sequential dependent work totals 8+5+4 days, longer than the six-day paralle
 
 ## Practitioner perspective
 
-The enterprise delivery lead should connect charters, requirements, test results, project changes and operating handoff in one traceable record. The permanent process owner, not just the implementation team, must accept the ongoing responsibilities.
+Use one integrated baseline joining approved deliverables, schedule dependencies, cost and risk contingencies. Status reviews focus on critical deliverables and forecast completion rather than colorful task indicators.
 
 ## Related concepts
 
