@@ -20,7 +20,7 @@ AlderGate documents how its promise connects to process workflow and data accept
 
 ## Why it matters
 
-The decision changes AlderGate's ability to fulfill its intended customer promise, manage scarce resources and govern technology risks. Technical features matter only when the connected process can use them responsibly and support them after implementation.
+AlderGate needs requirements linking a fast customer promise to feasible workflows and testable application behavior. Its supplier confirmation failure should not disappear behind a successful priority-order percentage.
 
 ## Decision model and workflow
 
@@ -39,12 +39,12 @@ The decision changes AlderGate's ability to fulfill its intended customer promis
 
 ```mermaid
 flowchart TD
-    A[Document target operating result] --> B[Evaluate current capability and data]
-    B --> C{All critical requirements feasible?}
-    C -- No --> D[Remediate gap or reject proposal]
+    A[Capture competitive service promise] --> B[Define cross partner operating workflow]
+    B --> C{Mandatory gates passed?}
+    C -- No --> D[Specify SMART event thresholds]
     D --> B
-    C -- Yes --> E[Compare costs, benefits and dependencies]
-    E --> F[Authorize owner-led implementation and review]
+    C -- Yes --> E[Test each critical requirement]
+    E --> F[Approve service level evidence]
 ```
 
 ## Realistic example — AlderGate Motion Products
@@ -59,11 +59,10 @@ Of **200** priority events, **192** appear within the defined target: **96%**, e
 
 ## Decision logic
 
-- Establish the business goal and evidence denominator before describing technical success.
-- Confirm the relevant people, suppliers, physical resources and data controls are ready.
-- Exclude proposals with unresolved mandatory quality, legal, security or safety failures.
-- Compare the remaining alternatives on consistent cost and service horizons.
-- Link release, ongoing support and reassessment to the responsible business owner.
+- Use one denominator and timing boundary per requirement.
+- Trace business priority to permitted system actions.
+- Make partner confirmations independently testable.
+- Require named acceptance owners rather than feature count.
 
 ## Trade-offs
 
@@ -75,14 +74,13 @@ Of **200** priority events, **192** appear within the defined target: **96%**, e
 
 ## Commonly confused with
 
-A project schedule is not a technology roadmap, a vendor feature demonstration is not an accepted requirement, and an audit closure ratio is not an authority to bypass a critical defect. Each record has its own specific decision use.
+A strategic objective describes competitive intent, a tactical requirement defines a process capability, and an operational requirement states observable behavior. SMART targets improve testability but do not waive security, quality or capacity constraints.
 
 ## Common mistakes
 
-- Treating a better numerical average as a substitute for mandatory eligibility.
-- Buying an application before evaluating process, people or data causes.
-- Omitting the owners and acceptance conditions for project benefits.
-- Assuming a technology project ends when software is installed.
+- Calling a vague digital ambition an acceptance condition.
+- Hiding a failed supplier threshold in an overall average.
+- Using a vendor feature brochure instead of business test scenarios.
 
 ## Original knowledge check
 
@@ -117,7 +115,7 @@ The requirement specifies a real event population, named behavior, time boundary
 
 ## Practitioner perspective
 
-The solution team must preserve the relationship from requirement or finding to master data, processes, authorized user and acceptance test. Effective technology adoption requires post-go-live ownership.
+Maintain requirement-to-test traceability from commercial promise through order status field, partner event identity, timestamp and acceptance signer. Failures require owned remediation before rollout.
 
 ## Related concepts
 

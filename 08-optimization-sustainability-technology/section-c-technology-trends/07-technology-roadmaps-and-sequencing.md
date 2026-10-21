@@ -20,7 +20,7 @@ AlderGate Motion Products develops a three-stage plan for tool and die tracking.
 
 ## Why it matters
 
-The decision changes AlderGate's ability to fulfill its intended customer promise, manage scarce resources and govern technology risks. Technical features matter only when the connected process can use them responsibly and support them after implementation.
+AlderGate's phased asset program only delivers value when identity, sensing and partner governance mature in the correct order. The third-phase ledger benefit must remain a contingent scenario until participating organizations can exchange defined custody events.
 
 ## Decision model and workflow
 
@@ -39,12 +39,12 @@ The decision changes AlderGate's ability to fulfill its intended customer promis
 
 ```mermaid
 flowchart TD
-    A[Document target operating result] --> B[Evaluate current capability and data]
-    B --> C{All critical requirements feasible?}
-    C -- No --> D[Remediate gap or reject proposal]
+    A[Set tool availability goal] --> B[Qualify QR and RFID identification]
+    B --> C{Mandatory gates passed?}
+    C -- No --> D[Introduce reliable asset condition data]
     D --> B
-    C -- Yes --> E[Compare costs, benefits and dependencies]
-    E --> F[Authorize owner-led implementation and review]
+    C -- Yes --> E[Agree partner event governance]
+    E --> F[Verify phase benefits]
 ```
 
 ## Realistic example — AlderGate Motion Products
@@ -59,11 +59,10 @@ Year-one asset identity improvement models **$18,000 annual savings** and qualif
 
 ## Decision logic
 
-- Establish the business goal and evidence denominator before describing technical success.
-- Confirm the relevant people, suppliers, physical resources and data controls are ready.
-- Exclude proposals with unresolved mandatory quality, legal, security or safety failures.
-- Compare the remaining alternatives on consistent cost and service horizons.
-- Link release, ongoing support and reassessment to the responsible business owner.
+- Make verified asset master data a predecessor to scanning.
+- Gate IoT adoption on calibration and maintenance ownership.
+- Gate shared provenance on cross firm agreement.
+- Release later funding only after measured phase acceptance.
 
 ## Trade-offs
 
@@ -75,14 +74,13 @@ Year-one asset identity improvement models **$18,000 annual savings** and qualif
 
 ## Commonly confused with
 
-A project schedule is not a technology roadmap, a vendor feature demonstration is not an accepted requirement, and an audit closure ratio is not an authority to bypass a critical defect. Each record has its own specific decision use.
+A road map links business capabilities and dependencies over several horizons. A project schedule defines activities and dates for a particular deliverable. A technology wish list without named predecessors or benefit tests is neither.
 
 ## Common mistakes
 
-- Treating a better numerical average as a substitute for mandatory eligibility.
-- Buying an application before evaluating process, people or data causes.
-- Omitting the owners and acceptance conditions for project benefits.
-- Assuming a technology project ends when software is installed.
+- Purchasing shared-ledger infrastructure before partner data governance.
+- Counting tentative phase-three benefits as realized revenue.
+- Ignoring physical tag failure on metal equipment.
 
 ## Original knowledge check
 
@@ -117,7 +115,7 @@ A technology roadmap must protect the reliability of source information before p
 
 ## Practitioner perspective
 
-The solution team must preserve the relationship from requirement or finding to master data, processes, authorized user and acceptance test. Effective technology adoption requires post-go-live ownership.
+The architecture road map should identify controlled master data, physical tagging tests and independent partner sign-offs as predecessors. Treat benefit attribution as a financial evidence task.
 
 ## Related concepts
 

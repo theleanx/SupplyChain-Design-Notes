@@ -20,7 +20,7 @@ Ledger governance must specify who may write, see, challenge and correct informa
 
 ## Why it matters
 
-An immutable system can make an inaccurate physical event harder to correct. The technology must be judged by reliable provenance and actual partner adoption rather than record immutability in isolation.
+A shared ledger can make partner custody records tamper-evident, yet cannot establish that the original scan described the correct physical part. AlderGate's key control is physical-to-ledger evidence quality and enforceable dispute handling.
 
 ## Decision model and workflow
 
@@ -39,12 +39,12 @@ An immutable system can make an inaccurate physical event harder to correct. The
 
 ```mermaid
 flowchart TD
-    A[Define use case and customer outcome] --> B[Validate relevant data and physical constraints]
-    B --> C{Safety, quality, privacy and recovery gates satisfied?}
-    C -- No --> D[Hold and correct the proposed option]
+    A[Agree partner identities and roles] --> B[Verify physical serial and custody]
+    B --> C{Mandatory gates passed?}
+    C -- No --> D[Record authorized ledger event]
     D --> B
-    C -- Yes --> E[Compare full benefit and operating cost]
-    E --> F[Approve controlled pilot, owner and monitoring]
+    C -- Yes --> E[Reconcile independent evidence]
+    E --> F[Process disputed corrections]
 ```
 
 ## Realistic example — AlderGate Motion Products
@@ -59,11 +59,10 @@ In the fictional custody trial, recorded completeness improves from **92/100 = 9
 
 ## Decision logic
 
-- Name the customer or plant outcome and its measurement period.
-- Determine which observations or qualified input records enable the proposed technology.
-- Preserve legal, safety, security and technical feasibility as separate approval gates.
-- Compare eligible alternatives over a common horizon including ongoing costs and limits.
-- Review actual outcomes against the baseline and retain independent acceptance evidence.
+- Define who can append or inspect each custody record.
+- Verify part and lot identity before signing events.
+- Use corrections that retain original history and dispute context.
+- Compare ledger and conventional database governance costs.
 
 ## Trade-offs
 
@@ -75,14 +74,13 @@ In the fictional custody trial, recorded completeness improves from **92/100 = 9
 
 ## Commonly confused with
 
-A technical demonstration is not a completed business case. A model prediction, verified physical measurement and permitted business action are different evidence types. No vendor claim replaces the specified operating test.
+Cryptographic integrity protects recorded information under system rules; physical truth requires separate inspection. A smart contract automates specified conditions but does not resolve damaged-goods disputes by itself. A shared database may be sufficient without distributed consensus.
 
 ## Common mistakes
 
-- Selecting technology by name before defining the constrained process.
-- Assuming missing evidence implies a successful physical result.
-- Ignoring integration, support, recovery or upgrade costs.
-- Overriding mandatory qualifications using a weighted savings score.
+- Equating an immutable record with a valid quality certificate.
+- Automatically releasing disputed payments from ambiguous events.
+- Ignoring the cost and governance of distributed participants.
 
 ## Original knowledge check
 
@@ -117,7 +115,7 @@ Cryptographic record integrity cannot establish the truth of an originally incor
 
 ## Practitioner perspective
 
-Enterprise applications must preserve identity, event timing, permitted actions and error recovery. A solution architect should be able to explain where a pilot can fail safely and who is authorized to restart it.
+Business integration should link the permitted writer, physical custody check, serialized item and reversal or correction event. Payment-trigger conditions require Quality and contract ownership.
 
 ## Related concepts
 

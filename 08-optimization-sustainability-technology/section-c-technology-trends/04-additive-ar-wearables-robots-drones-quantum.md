@@ -18,7 +18,7 @@ AlderGate chooses among qualified supplier expedites, approved buffer stock and 
 
 ## Why it matters
 
-Emerging technologies can change the location of work and its hazard exposure. The right architecture starts with the constraint being solved and verifies implementation readiness, not enthusiasm for a new device.
+Emerging devices and algorithms solve fundamentally different bottlenecks. AlderGate cannot compare a printed spare part, AR training, robotics and route computation from their technology labels; qualification and actual customer service define feasibility.
 
 ## Decision model and workflow
 
@@ -37,12 +37,12 @@ Emerging technologies can change the location of work and its hazard exposure. T
 
 ```mermaid
 flowchart TD
-    A[Define use case and customer outcome] --> B[Validate relevant data and physical constraints]
-    B --> C{Safety, quality, privacy and recovery gates satisfied?}
-    C -- No --> D[Hold and correct the proposed option]
+    A[Define physical or computational task] --> B[Verify material and worker safety]
+    B --> C{Mandatory gates passed?}
+    C -- No --> D[Benchmark eligible technologies]
     D --> B
-    C -- Yes --> E[Compare full benefit and operating cost]
-    E --> F[Approve controlled pilot, owner and monitoring]
+    C -- Yes --> E[Compare support and lifecycle impacts]
+    E --> F[Approve validated option]
 ```
 
 ## Realistic example — AlderGate Motion Products
@@ -57,11 +57,10 @@ The two-day additive candidate is **not feasible** without material qualificatio
 
 ## Decision logic
 
-- Name the customer or plant outcome and its measurement period.
-- Determine which observations or qualified input records enable the proposed technology.
-- Preserve legal, safety, security and technical feasibility as separate approval gates.
-- Compare eligible alternatives over a common horizon including ongoing costs and limits.
-- Review actual outcomes against the baseline and retain independent acceptance evidence.
+- For printed parts require mechanical and traceability qualification.
+- For robots and wearables test interaction with workers.
+- Benchmark quantum claims against classical feasible solutions.
+- Fund maintenance and safe fallback before deployment.
 
 ## Trade-offs
 
@@ -73,14 +72,13 @@ The two-day additive candidate is **not feasible** without material qualificatio
 
 ## Commonly confused with
 
-A technical demonstration is not a completed business case. A model prediction, verified physical measurement and permitted business action are different evidence types. No vendor claim replaces the specified operating test.
+Additive manufacturing creates physical objects, while RPA automates structured digital steps. AR overlays work instructions; AGVs and mobile robots move material. Quantum computing remains a specialized developing field and is not guaranteed to outperform a conventional solver.
 
 ## Common mistakes
 
-- Selecting technology by name before defining the constrained process.
-- Assuming missing evidence implies a successful physical result.
-- Ignoring integration, support, recovery or upgrade costs.
-- Overriding mandatory qualifications using a weighted savings score.
+- Selecting an unqualified printed part because lead time is shorter.
+- Treating a robot demonstration as a plant safety approval.
+- Assuming every optimization problem benefits from quantum processing.
 
 ## Original knowledge check
 
@@ -115,7 +113,7 @@ Safety and technical suitability are hard eligibility gates prior to service or 
 
 ## Practitioner perspective
 
-Enterprise applications must preserve identity, event timing, permitted actions and error recovery. A solution architect should be able to explain where a pilot can fail safely and who is authorized to restart it.
+The technical owner should collect part test certificates, collision-stop evidence or algorithm benchmarks appropriate to the use case. Preserve what was excluded from each demonstration.
 
 ## Related concepts
 

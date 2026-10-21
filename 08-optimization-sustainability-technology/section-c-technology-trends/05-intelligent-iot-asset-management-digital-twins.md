@@ -20,7 +20,7 @@ The curriculum's intelligent supply-chain theme integrates other technologies, b
 
 ## Why it matters
 
-Connected assets can help identify problems sooner and coordinate repairs, yet a model is not a substitute for actual machine inspection and safe technical work.
+Connected presses and an asset-state model can improve reliability if sensors are calibrated, entities are correct and technicians own response. A static visualization is not enough to claim a synchronized digital twin or avoided downtime.
 
 ## Decision model and workflow
 
@@ -39,12 +39,12 @@ Connected assets can help identify problems sooner and coordinate repairs, yet a
 
 ```mermaid
 flowchart TD
-    A[Define use case and customer outcome] --> B[Validate relevant data and physical constraints]
-    B --> C{Safety, quality, privacy and recovery gates satisfied?}
-    C -- No --> D[Hold and correct the proposed option]
+    A[Identify qualified press and sensor] --> B[Validate physical timestamp and calibration]
+    B --> C{Mandatory gates passed?}
+    C -- No --> D[Update asset condition model]
     D --> B
-    C -- Yes --> E[Compare full benefit and operating cost]
-    E --> F[Approve controlled pilot, owner and monitoring]
+    C -- Yes --> E[Approve technician inspection]
+    E --> F[Measure actual downtime]
 ```
 
 ## Realistic example — AlderGate Motion Products
@@ -59,11 +59,10 @@ The fictional group experiences **140/2,000 = 7%** unplanned downtime before the
 
 ## Decision logic
 
-- Name the customer or plant outcome and its measurement period.
-- Determine which observations or qualified input records enable the proposed technology.
-- Preserve legal, safety, security and technical feasibility as separate approval gates.
-- Compare eligible alternatives over a common horizon including ongoing costs and limits.
-- Review actual outcomes against the baseline and retain independent acceptance evidence.
+- Reconcile device readings with qualified asset identifiers.
+- Record last update and quality flags on model state.
+- Keep maintenance safety interlocks outside unverified automation.
+- Compare downtime under matched production loads.
 
 ## Trade-offs
 
@@ -75,14 +74,13 @@ The fictional group experiences **140/2,000 = 7%** unplanned downtime before the
 
 ## Commonly confused with
 
-A technical demonstration is not a completed business case. A model prediction, verified physical measurement and permitted business action are different evidence types. No vendor claim replaces the specified operating test.
+IoT concerns device connectivity; intelligent asset management uses data to govern physical equipment across its lifecycle. A digital twin is a fit-for-purpose model related to physical state, not merely a 3D rendering. Condition predictions require physical validation.
 
 ## Common mistakes
 
-- Selecting technology by name before defining the constrained process.
-- Assuming missing evidence implies a successful physical result.
-- Ignoring integration, support, recovery or upgrade costs.
-- Overriding mandatory qualifications using a weighted savings score.
+- Counting sensor installations as proven efficiency improvement.
+- Using stale twin state to initiate safety sensitive repairs.
+- Ignoring asset calibration and load differences in pilot results.
 
 ## Original knowledge check
 
@@ -117,7 +115,7 @@ A useful twin depends on operational state synchronization fit for a particular 
 
 ## Practitioner perspective
 
-Enterprise applications must preserve identity, event timing, permitted actions and error recovery. A solution architect should be able to explain where a pilot can fail safely and who is authorized to restart it.
+Tie device serial, equipment hierarchy, time-series state and maintenance notification to the same governed asset ID. Technicians must be able to flag invalid readings and record a confirmed defect.
 
 ## Related concepts
 

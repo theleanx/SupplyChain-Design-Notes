@@ -20,7 +20,7 @@ AlderGate evaluates a visibility upgrade that passed factory acceptance testing 
 
 ## Why it matters
 
-The decision changes AlderGate's ability to fulfill its intended customer promise, manage scarce resources and govern technology risks. Technical features matter only when the connected process can use them responsibly and support them after implementation.
+Audit controls distinguish a delivered technology from a verified business result. One critical interface defect can invalidate automatic release even when most training, access and noncritical findings have been closed.
 
 ## Decision model and workflow
 
@@ -39,12 +39,12 @@ The decision changes AlderGate's ability to fulfill its intended customer promis
 
 ```mermaid
 flowchart TD
-    A[Document target operating result] --> B[Evaluate current capability and data]
-    B --> C{All critical requirements feasible?}
-    C -- No --> D[Remediate gap or reject proposal]
+    A[Define audit and business objectives] --> B[Test interfaces security and users]
+    B --> C{Mandatory gates passed?}
+    C -- No --> D[Rank findings by operational severity]
     D --> B
-    C -- Yes --> E[Compare costs, benefits and dependencies]
-    E --> F[Authorize owner-led implementation and review]
+    C -- Yes --> E[Verify critical correction and retest]
+    E --> F[Measure realized benefits]
 ```
 
 ## Realistic example — AlderGate Motion Products
@@ -59,11 +59,10 @@ The fictional audit has **20 total findings** and **15 verified closures**, a **
 
 ## Decision logic
 
-- Establish the business goal and evidence denominator before describing technical success.
-- Confirm the relevant people, suppliers, physical resources and data controls are ready.
-- Exclude proposals with unresolved mandatory quality, legal, security or safety failures.
-- Compare the remaining alternatives on consistent cost and service horizons.
-- Link release, ongoing support and reassessment to the responsible business owner.
+- Interview references and test actual operating scenarios.
+- Preserve independent reproduction steps for critical defects.
+- Approve only evidence backed fixes and containment.
+- Revisit benefits after production stabilizes.
 
 ## Trade-offs
 
@@ -75,14 +74,13 @@ The fictional audit has **20 total findings** and **15 verified closures**, a **
 
 ## Commonly confused with
 
-A project schedule is not a technology roadmap, a vendor feature demonstration is not an accepted requirement, and an audit closure ratio is not an authority to bypass a critical defect. Each record has its own specific decision use.
+A technology audit examines effectiveness, risk and controls; it is not merely a checklist of installed features. A post-implementation review compares actual results with approved objectives. Defect closure percentages cannot override critical release requirements.
 
 ## Common mistakes
 
-- Treating a better numerical average as a substitute for mandatory eligibility.
-- Buying an application before evaluating process, people or data causes.
-- Omitting the owners and acceptance conditions for project benefits.
-- Assuming a technology project ends when software is installed.
+- Accepting vendor marketing as independent qualification.
+- Closing a finding without retesting the business scenario.
+- Declaring a project valuable merely because it met its schedule.
 
 ## Original knowledge check
 
@@ -117,7 +115,7 @@ An explicit critical operational or compliance gate cannot be offset by aggregat
 
 ## Practitioner perspective
 
-The solution team must preserve the relationship from requirement or finding to master data, processes, authorized user and acceptance test. Effective technology adoption requires post-go-live ownership.
+Track audit issue severity, affected business document, reproduction, resolution evidence and owner. Post-go-live reviews should also measure customer outcomes against the project charter.
 
 ## Related concepts
 

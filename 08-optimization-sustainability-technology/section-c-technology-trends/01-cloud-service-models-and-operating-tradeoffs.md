@@ -18,7 +18,7 @@ The selection should therefore begin with a customer/service target, permitted d
 
 ## Why it matters
 
-Cloud services can shorten implementation for supply-chain partners, but an attractive subscription price may hide continuing support and interoperability burdens. A controlled pilot must show that shipment status becomes more useful, secure and timely.
+AlderGate's cloud choice affects partner response, operating costs and its ability to recover after connectivity loss. Cloud pricing is only one part of feasibility; the warehouse's physical response requirement and authorized access must be proved before comparing the three-year cost scenario.
 
 ## Decision model and workflow
 
@@ -37,12 +37,12 @@ Cloud services can shorten implementation for supply-chain partners, but an attr
 
 ```mermaid
 flowchart TD
-    A[Define use case and customer outcome] --> B[Validate relevant data and physical constraints]
-    B --> C{Safety, quality, privacy and recovery gates satisfied?}
-    C -- No --> D[Hold and correct the proposed option]
+    A[Define required warehouse latency] --> B[Verify SaaS identity and network performance]
+    B --> C{Mandatory gates passed?}
+    C -- No --> D[Test contract exit and recovery]
     D --> B
-    C -- Yes --> E[Compare full benefit and operating cost]
-    E --> F[Approve controlled pilot, owner and monitoring]
+    C -- Yes --> E[Compare three year costs]
+    E --> F[Approve qualified service]
 ```
 
 ## Realistic example — AlderGate Motion Products
@@ -57,11 +57,10 @@ Fictional SaaS recurring annual expense is **$123,000** ($96,000 subscription + 
 
 ## Decision logic
 
-- Name the customer or plant outcome and its measurement period.
-- Determine which observations or qualified input records enable the proposed technology.
-- Preserve legal, safety, security and technical feasibility as separate approval gates.
-- Compare eligible alternatives over a common horizon including ongoing costs and limits.
-- Review actual outcomes against the baseline and retain independent acceptance evidence.
+- Set a measurable event-delay and recovery limit.
+- Confirm data permissions and vendor responsibilities.
+- Stress test connectivity and safe local fallback.
+- Reconcile subscription, integration and exit costs.
 
 ## Trade-offs
 
@@ -73,14 +72,13 @@ Fictional SaaS recurring annual expense is **$123,000** ($96,000 subscription + 
 
 ## Commonly confused with
 
-A technical demonstration is not a completed business case. A model prediction, verified physical measurement and permitted business action are different evidence types. No vendor claim replaces the specified operating test.
+SaaS supplies application capabilities; PaaS supplies a managed development platform; IaaS exposes configurable infrastructure. These service models change the responsibility boundary, not the need for supply-chain data ownership. Cloud hosting alone is not business resilience.
 
 ## Common mistakes
 
-- Selecting technology by name before defining the constrained process.
-- Assuming missing evidence implies a successful physical result.
-- Ignoring integration, support, recovery or upgrade costs.
-- Overriding mandatory qualifications using a weighted savings score.
+- Assuming all physical controls should rely on public connectivity.
+- Omitting SaaS contract exit and data extraction from the cost case.
+- Accepting shared access without supplier and customer data segregation.
 
 ## Original knowledge check
 
@@ -115,7 +113,7 @@ Feasibility includes latency, authorized access, continuity and exit evidence be
 
 ## Practitioner perspective
 
-Enterprise applications must preserve identity, event timing, permitted actions and error recovery. A solution architect should be able to explain where a pilot can fail safely and who is authorized to restart it.
+An ERP integration architect should preserve event IDs across carriers, test rate limits and retry logic, and document what keeps operating during a cloud outage. Export and restore acceptance belong in the vendor contract.
 
 ## Related concepts
 

@@ -18,7 +18,7 @@ AI and analytics do not replace accountability. Data teams own technical perform
 
 ## Why it matters
 
-An algorithm can generate plausible forecasts or alerts while misunderstanding unusual operating conditions. Service owners should test detection quality and the cost of mistakes before permitting automatic production action.
+Rare press failures drive service loss even when a model appears accurate on mostly healthy machines. AlderGate should measure failure recall, precision and consequences of missed events before assigning technicians to an automated recommendation.
 
 ## Decision model and workflow
 
@@ -37,12 +37,12 @@ An algorithm can generate plausible forecasts or alerts while misunderstanding u
 
 ```mermaid
 flowchart TD
-    A[Define use case and customer outcome] --> B[Validate relevant data and physical constraints]
-    B --> C{Safety, quality, privacy and recovery gates satisfied?}
-    C -- No --> D[Hold and correct the proposed option]
+    A[Define safety relevant failure cases] --> B[Audit labels and training periods]
+    B --> C{Mandatory gates passed?}
+    C -- No --> D[Compare recall precision and misses]
     D --> B
-    C -- Yes --> E[Compare full benefit and operating cost]
-    E --> F[Approve controlled pilot, owner and monitoring]
+    C -- Yes --> E[Approve technician decision boundary]
+    E --> F[Monitor model drift]
 ```
 
 ## Realistic example — AlderGate Motion Products
@@ -57,11 +57,10 @@ The training pilot detects **18 of 20** actual machine failures (**90% recall**)
 
 ## Decision logic
 
-- Name the customer or plant outcome and its measurement period.
-- Determine which observations or qualified input records enable the proposed technology.
-- Preserve legal, safety, security and technical feasibility as separate approval gates.
-- Compare eligible alternatives over a common horizon including ongoing costs and limits.
-- Review actual outcomes against the baseline and retain independent acceptance evidence.
+- Test on held out operating periods and product variants.
+- Count false alerts and undetected failures separately.
+- Require qualified human confirmation of safety actions.
+- Retest after drift or changed equipment state.
 
 ## Trade-offs
 
@@ -73,14 +72,13 @@ The training pilot detects **18 of 20** actual machine failures (**90% recall**)
 
 ## Commonly confused with
 
-A technical demonstration is not a completed business case. A model prediction, verified physical measurement and permitted business action are different evidence types. No vendor claim replaces the specified operating test.
+A rules-based expert system is not identical to a model trained from examples. Classification accuracy is not the same as failure recall; a predictive maintenance alert is a hypothesis, not a confirmed breakdown. Optimization can exist without machine learning.
 
 ## Common mistakes
 
-- Selecting technology by name before defining the constrained process.
-- Assuming missing evidence implies a successful physical result.
-- Ignoring integration, support, recovery or upgrade costs.
-- Overriding mandatory qualifications using a weighted savings score.
+- Evaluating a rare-event model only by overall accuracy.
+- Automating machine shutdown without validated operational authority.
+- Ignoring changed operating regimes and model drift.
 
 ## Original knowledge check
 
@@ -115,7 +113,7 @@ Recall divides detected failures by all actual failures; the two missed failures
 
 ## Practitioner perspective
 
-Enterprise applications must preserve identity, event timing, permitted actions and error recovery. A solution architect should be able to explain where a pilot can fail safely and who is authorized to restart it.
+Data owners should version input signals, labels and models; maintenance owners should record the disposition of each significant alert. Monitoring needs action outcomes, not only algorithm scores.
 
 ## Related concepts
 

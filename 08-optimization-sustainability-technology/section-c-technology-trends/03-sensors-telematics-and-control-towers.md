@@ -20,7 +20,7 @@ AlderGate tests an order-level event feed against a manually maintained carrier 
 
 ## Why it matters
 
-Cross-partner visibility creates value only when an accurate event reaches someone authorized to act. Timestamp quality, order identity and escalation logic matter more than a colorful global map.
+A sensing network creates value when events can be reconciled to customer orders and acted on within promised time. AlderGate must verify physical-to-digital identity and response rights before describing its control tower as end-to-end visibility.
 
 ## Decision model and workflow
 
@@ -39,12 +39,12 @@ Cross-partner visibility creates value only when an accurate event reaches someo
 
 ```mermaid
 flowchart TD
-    A[Define use case and customer outcome] --> B[Validate relevant data and physical constraints]
-    B --> C{Safety, quality, privacy and recovery gates satisfied?}
-    C -- No --> D[Hold and correct the proposed option]
+    A[Capture physical sensor or RFID event] --> B[Link to lot order and shipment]
+    B --> C{Mandatory gates passed?}
+    C -- No --> D[Assess delay and data confidence]
     D --> B
-    C -- Yes --> E[Compare full benefit and operating cost]
-    E --> F[Approve controlled pilot, owner and monitoring]
+    C -- Yes --> E[Route exception to authorized owner]
+    E --> F[Confirm customer action]
 ```
 
 ## Realistic example — AlderGate Motion Products
@@ -59,11 +59,10 @@ Order linkage improves from **140/200 = 70%** to **188/200 = 94%** in the fictio
 
 ## Decision logic
 
-- Name the customer or plant outcome and its measurement period.
-- Determine which observations or qualified input records enable the proposed technology.
-- Preserve legal, safety, security and technical feasibility as separate approval gates.
-- Compare eligible alternatives over a common horizon including ongoing costs and limits.
-- Review actual outcomes against the baseline and retain independent acceptance evidence.
+- Reject duplicate and stale observations using event IDs.
+- Require a valid lot and customer order mapping.
+- Specify who may reroute or release an exception.
+- Track actual action latency and customer effect.
 
 ## Trade-offs
 
@@ -75,14 +74,13 @@ Order linkage improves from **140/200 = 70%** to **188/200 = 94%** in the fictio
 
 ## Commonly confused with
 
-A technical demonstration is not a completed business case. A model prediction, verified physical measurement and permitted business action are different evidence types. No vendor claim replaces the specified operating test.
+Telematics reports asset movement; RFID supports identification; a control tower relates events to end-to-end customer decisions. A status dashboard does not itself exercise operational control, and a missing scan does not conclusively mean material disappeared.
 
 ## Common mistakes
 
-- Selecting technology by name before defining the constrained process.
-- Assuming missing evidence implies a successful physical result.
-- Ignoring integration, support, recovery or upgrade costs.
-- Overriding mandatory qualifications using a weighted savings score.
+- Treating a count of connected sensors as customer visibility.
+- Combining events with inconsistent time zones or shipment IDs.
+- Permitting auto-allocation without ownership or quarantine checks.
 
 ## Original knowledge check
 
@@ -117,7 +115,7 @@ Correct order linkage and timely authorized action are meaningful process measur
 
 ## Practitioner perspective
 
-Enterprise applications must preserve identity, event timing, permitted actions and error recovery. A solution architect should be able to explain where a pilot can fail safely and who is authorized to restart it.
+The architect should standardize event timestamps, shipment references, location identity and retry handling. Exception routing needs explicit authorization and rollback for actions affecting constrained inventory.
 
 ## Related concepts
 
