@@ -1,0 +1,3 @@
+site,affected_workers,trained_workers,active_process_users
+pilot_warehouse,120,108,90
+partner_site,80,72,44

@@ -1,0 +1,3 @@
+period,planned_maintenance_hours,unplanned_downtime_hours,operating_hours
+before,40,95,2000
+after,55,48,2000
