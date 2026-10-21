@@ -26,7 +26,7 @@ Stakeholders need figures they can verify and compare. The reporting process sho
 
 ![Original Sustainability KPIs, Reporting Boundaries, and Claim Integrity decision visual](../../assets/diagrams/module-8/section-b/sustainability-kpi-evidence-and-greenwashing-controls.svg)
 
-The topic-specific labels in the visual represent stages of the evidence and response process. A supply-chain manager should undertake these actions in order, preserving evidence of why an option could or could not proceed.
+The diagram for **12** maps the sustainability decision to four distinct areas of responsibility. Each stage requires its own evidence and a clear stop or escalation condition before an unsupported approval can occur.
 
 ### Evidence retained through the workflow
 
@@ -41,17 +41,17 @@ The topic-specific labels in the visual represent stages of the evidence and res
 
 ```mermaid
 flowchart TD
-    A[Define topic scope] --> B[Collect business and primary framework evidence]
-    B --> C{Required eligibility and legal gates satisfied?}
-    C -- No --> D[Block or correct disputed claim]
+    A[Define impacts entities and the measurement boundary] --> B[Reconcile consistent units and primary source records]
+    B --> C{All mandatory gates met?}
+    C -- No --> D[Hold and remediate evidence]
     D --> B
-    C -- Yes --> E[Evaluate result and missing information]
-    E --> F[Approve outcome with owner and future review date]
+    C -- Yes --> E[Assess gaps and legal disclosure requirements]
+    E --> F[Authorize only claims supported by the reviewed scope]
 ```
 
 ## Realistic example — AlderGate Motion Products
 
-AlderGate is a fictional company with its own factories and suppliers. This scenario tests **sustainability kpis, reporting boundaries, and claim integrity** and requires the named decision makers to validate the standard and its business relevance. An attractive report does not replace a recorded review of implementation, scope and limitations. No actual supplier is identified or evaluated by this example.
+AlderGate's marketing team plans to announce a 70% company-wide recycling rate using only the stronger-performing plant. Site B has different volumes and two source exceptions. The controller reconstructs the network-level weighted rate from both sites, requires source reconciliation, and changes the draft report's boundary statement before approving any publication.
 
 ## Applied decision artifact or worked calculation
 
@@ -76,7 +76,7 @@ Site A has **8,400/12,000 = 70%** verified recycling; Site B has **4,800/8,000 =
 
 ## Commonly confused with
 
-Sustainability KPIs, Reporting Boundaries, and Claim Integrity establishes particular guidance, control or reporting meaning; it does not mean any reported percentage is an official sustainability score. **Accreditation**, **certification**, **voluntary alignment**, and **legal approval** are different terms, with distinct evidence requirements. Review their scope and edition before interpreting external claims.
+An **unweighted average of site percentages** can misstate a company-wide mass ratio. **A modeled waste outcome** is not verified recycling without destination evidence. **Voluntary GRI reporting** and **mandatory ESRS/CSRD reporting** have different applicability tests. A good-looking metric is not sufficient evidence of a sustainable outcome.
 
 ## Common mistakes
 
@@ -117,7 +117,7 @@ The correct calculation is 13,200 divided by 20,000 kilograms, 66%.
 
 ## Practitioner perspective
 
-The supplier or operational evidence in ERP and connected applications needs validity dates, covered sites, current standard edition, data-source identifiers and exception owners. A reviewer must distinguish a verified operating practice from a submitted PDF or marketing promise. An unresolved control blocks the specific claim or activity where relevant, rather than being converted into a favorable default.
+Sustainability information architecture must keep material quantity, waste destination, time period, site, denominator and evidence identifier together. Audit trails must expose excluded sites, late corrections and estimation methods. A public claim should be blocked when its wording exceeds the verified population or relies on superseded legal reporting scope.
 
 ## Related concepts
 

@@ -26,7 +26,7 @@ AlderGate wants its sustainability pledge to change what buyers and suppliers do
 
 ![Original UN Global Compact: Ten Principles and Operating Controls decision visual](../../assets/diagrams/module-8/section-b/un-global-compact-ten-principles.svg)
 
-The topic-specific labels in the visual represent stages of the evidence and response process. A supply-chain manager should undertake these actions in order, preserving evidence of why an option could or could not proceed.
+The diagram for **07** maps the sustainability decision to four distinct areas of responsibility. Each stage requires its own evidence and a clear stop or escalation condition before an unsupported approval can occur.
 
 ### Evidence retained through the workflow
 
@@ -41,17 +41,17 @@ The topic-specific labels in the visual represent stages of the evidence and res
 
 ```mermaid
 flowchart TD
-    A[Define topic scope] --> B[Collect business and primary framework evidence]
-    B --> C{Required eligibility and legal gates satisfied?}
-    C -- No --> D[Block or correct disputed claim]
+    A[Identify the affected partner operations and relevant principles] --> B[Compare implemented controls with signed commitments]
+    B --> C{All mandatory gates met?}
+    C -- No --> D[Hold and remediate evidence]
     D --> B
-    C -- Yes --> E[Evaluate result and missing information]
-    E --> F[Approve outcome with owner and future review date]
+    C -- Yes --> E[Escalate adverse findings and validate remediation]
+    E --> F[Retain disaggregated findings and owner review dates]
 ```
 
 ## Realistic example — AlderGate Motion Products
 
-AlderGate is a fictional company with its own factories and suppliers. This scenario tests **un global compact: ten principles and operating controls** and requires the named decision makers to validate the standard and its business relevance. An attractive report does not replace a recorded review of implementation, scope and limitations. No actual supplier is identified or evaluated by this example.
+AlderGate requests evidence that a contract manufacturer implements its UNGC-related worker commitments. The vendor provides a signed general code but cannot demonstrate how workers report coercive recruitment. Procurement retains the open labor finding, assigns a due-diligence owner and verifies the grievance channel before approving new high-risk purchases. The team's environmental metrics remain separate from the unresolved worker outcome.
 
 ## Applied decision artifact or worked calculation
 
@@ -76,7 +76,7 @@ The framework has **2 + 4 + 3 + 1 = 10 principles**. AlderGate's fictional regis
 
 ## Commonly confused with
 
-UN Global Compact: Ten Principles and Operating Controls establishes particular guidance, control or reporting meaning; it does not mean any reported percentage is an official sustainability score. **Accreditation**, **certification**, **voluntary alignment**, and **legal approval** are different terms, with distinct evidence requirements. Review their scope and edition before interpreting external claims.
+The **UNGC Ten Principles** are voluntary value commitments across four pillars. **Code acknowledgement** does not establish operational conformance. **UNGC participation** is not an independent certification to all ten principles. Nor do the ten principles replace specific labor, anti-bribery or environmental laws.
 
 ## Common mistakes
 
@@ -117,7 +117,7 @@ The ratio measures a fictional internal control ledger; the initiative does not 
 
 ## Practitioner perspective
 
-The supplier or operational evidence in ERP and connected applications needs validity dates, covered sites, current standard edition, data-source identifiers and exception owners. A reviewer must distinguish a verified operating practice from a submitted PDF or marketing promise. An unresolved control blocks the specific claim or activity where relevant, rather than being converted into a favorable default.
+The supplier portal should map the ten UNGC principles to control categories without representing that mapping as UNGC certification. A source document requires issue date, supplier site, reporting mechanism and independent review status. The executive dashboard shows the open worker finding even if most environmental records are complete.
 
 ## Related concepts
 

@@ -44,17 +44,17 @@ The visual identifies four subject-specific evidence stages. For this topic, the
 
 ```mermaid
 flowchart TD
-    A[Scope the specific decision] --> B[Collect topic evidence]
-    B --> C{Required obligation and eligibility gates met?}
-    C -- No --> D[Hold option and obtain corrective evidence]
+    A[Identify rights affected groups and mandatory obligations] --> B[Provide safe ways to report and verify impacts]
+    B --> C{All mandatory gates met?}
+    C -- No --> D[Hold and remediate evidence]
     D --> B
-    C -- Yes --> E[Compare scoped outcomes]
-    E --> F[Approve owner and review trigger]
+    C -- Yes --> E[Assign remedy owners and qualification gates]
+    E --> F[Review whether issues remain resolved and recurrence occurs]
 ```
 
 ## Realistic example — AlderGate Motion Products
 
-AlderGate Motion Products is a fictional industrial manufacturer used throughout Module 8. In the present scenario its sustainability team must document rights and affected people, while Finance, Operations and Compliance independently test the customer promise, data quality and applicable obligations. The affected suppliers or workers are not described as verified in the real world. The decision is an illustrative governance exercise only.
+AlderGate introduces a temporary night shift to assemble emergency repair products. The plant manager reports no new complaints, but the anonymous grievance route was removed during onboarding. The labor lead restores confidential reporting, checks worker-hours and training records, and commissions an independent review of temporary staffing practices. The changed complaint count is not presented as an improvement until access and retaliation safeguards are verified.
 
 ## Applied decision artifact or worked calculation
 
@@ -79,7 +79,7 @@ The fictional HSE register has **12** reported issues in Q1 and **eight** verifi
 
 ## Commonly confused with
 
-This topic involves **rights and affected people**, which should not be presented as the entire sustainability program. A modeled measurement is not verified external reporting, and a chosen voluntary program is not equivalent to legal permission. Requirements must be checked for their edition, geography, entity and applicable product/operation.
+**Corporate social responsibility** extends to day-to-day labor and community decisions; it is not identical to philanthropy. **Zero reported incidents** can signal underreporting. **Verified remediation** requires independent follow-up, not merely closing a ticket. Statutory worker rights are not voluntary ranking preferences.
 
 ## Common mistakes
 
@@ -120,7 +120,7 @@ A drop in complaints can reflect suppression of reporting rather than fewer unde
 
 ## Practitioner perspective
 
-A solution architect should preserve a trace from policy or obligation to the affected material, partner, shipment or operational process. A dashboard count or report submission does not prove the underlying process operates safely. Controls need evidence fields, responsible owners and a rule for unresolved records before release.
+Workforce records and supplier personnel evidence must distinguish actual hires, contractors and affected sites. Safety incidents, complaints, closure dates and severity cannot be interpreted without common definitions. Controls should permit confidential escalation and prevent operational managers from editing grievance history to improve a dashboard.
 
 ## Related concepts
 

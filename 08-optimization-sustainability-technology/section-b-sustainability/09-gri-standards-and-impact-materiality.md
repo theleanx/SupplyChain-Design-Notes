@@ -26,7 +26,7 @@ A polished sustainability dashboard may conceal a missing denominator or outdate
 
 ![Original GRI Standards, Impact Materiality, and Disclosure Traceability decision visual](../../assets/diagrams/module-8/section-b/gri-standards-and-impact-materiality.svg)
 
-The topic-specific labels in the visual represent stages of the evidence and response process. A supply-chain manager should undertake these actions in order, preserving evidence of why an option could or could not proceed.
+The diagram for **09** maps the sustainability decision to four distinct areas of responsibility. Each stage requires its own evidence and a clear stop or escalation condition before an unsupported approval can occur.
 
 ### Evidence retained through the workflow
 
@@ -41,17 +41,17 @@ The topic-specific labels in the visual represent stages of the evidence and res
 
 ```mermaid
 flowchart TD
-    A[Define topic scope] --> B[Collect business and primary framework evidence]
-    B --> C{Required eligibility and legal gates satisfied?}
-    C -- No --> D[Block or correct disputed claim]
+    A[Evaluate material impacts using affected-stakeholder evidence] --> B[Choose standards applicable to the material topics]
+    B --> C{All mandatory gates met?}
+    C -- No --> D[Hold and remediate evidence]
     D --> B
-    C -- Yes --> E[Evaluate result and missing information]
-    E --> F[Approve outcome with owner and future review date]
+    C -- Yes --> E[Reconcile source records and period boundaries]
+    E --> F[Disclose material limitations and management responses]
 ```
 
 ## Realistic example — AlderGate Motion Products
 
-AlderGate is a fictional company with its own factories and suppliers. This scenario tests **gri standards, impact materiality, and disclosure traceability** and requires the named decision makers to validate the standard and its business relevance. An attractive report does not replace a recorded review of implementation, scope and limitations. No actual supplier is identified or evaluated by this example.
+AlderGate prepares a GRI-oriented sustainability report but discovers that a supplier electricity figure has been copied into two different plant totals. Reporting controls isolate the duplicate, correct the period boundary and require the remaining material energy data to be reconciled. The committee also confirms that its selected GRI material-topic reference is from the current Universal system, not an older slide using GRI 103 as a Universal standard.
 
 ## Applied decision artifact or worked calculation
 
@@ -76,7 +76,7 @@ AlderGate verifies **18 of 20** required energy records and **12 of 15** worker-
 
 ## Commonly confused with
 
-GRI Standards, Impact Materiality, and Disclosure Traceability establishes particular guidance, control or reporting meaning; it does not mean any reported percentage is an official sustainability score. **Accreditation**, **certification**, **voluntary alignment**, and **legal approval** are different terms, with distinct evidence requirements. Review their scope and edition before interpreting external claims.
+**Impact materiality** identifies significant impacts on people, environment and economy; it is not just investor short-term profitability. **GRI 1/2/3 Universal Standards 2021** must not be confused with the former GRI 101/102/103 Universal architecture or newer similarly numbered topic standards. Reporting under GRI is not equivalent to receiving a product certificate.
 
 ## Common mistakes
 
@@ -117,7 +117,7 @@ GRI 3: Material Topics 2021 covers determining and managing material topics unde
 
 ## Practitioner perspective
 
-The supplier or operational evidence in ERP and connected applications needs validity dates, covered sites, current standard edition, data-source identifiers and exception owners. A reviewer must distinguish a verified operating practice from a submitted PDF or marketing promise. An unresolved control blocks the specific claim or activity where relevant, rather than being converted into a favorable default.
+Reporting tools should store standard code and edition, the actual source dataset, applicable site and reporting year. Changes and estimates require a correction log and an owner who can explain why a topic is material. A high document-completeness percentage is never labeled a GRI sustainability grade.
 
 ## Related concepts
 

@@ -42,17 +42,17 @@ The visual identifies four subject-specific evidence stages. For this topic, the
 
 ```mermaid
 flowchart TD
-    A[Scope the specific decision] --> B[Collect topic evidence]
-    B --> C{Required obligation and eligibility gates met?}
-    C -- No --> D[Hold option and obtain corrective evidence]
+    A[Identify the stakeholders affected and time boundary] --> B[Report separate economic environmental and social baselines]
+    B --> C{All mandatory gates met?}
+    C -- No --> D[Hold and remediate evidence]
     D --> B
-    C -- Yes --> E[Compare scoped outcomes]
-    E --> F[Approve owner and review trigger]
+    C -- Yes --> E[Apply legal safety and ethics gates before trade-offs]
+    E --> F[Approve a balanced improvement plan and outcome owners]
 ```
 
 ## Realistic example — AlderGate Motion Products
 
-AlderGate Motion Products is a fictional industrial manufacturer used throughout Module 8. In the present scenario its sustainability team must document tbl decision boundary, while Finance, Operations and Compliance independently test the customer promise, data quality and applicable obligations. The affected suppliers or workers are not described as verified in the real world. The decision is an illustrative governance exercise only.
+AlderGate's planning group proposes reducing freight cost while holding product availability constant. The candidate uses a carrier whose occupational authorization has expired. Finance records the $22,000 annual saving, but compliance rejects the option before Environmental and HSE teams even rank the remaining sustainability benefits. The board review therefore retains three separate TBL outcome columns plus a discrete authorization gate. Neither a strong energy trend nor a healthy margin makes the blocked option acceptable.
 
 ## Applied decision artifact or worked calculation
 
@@ -77,7 +77,7 @@ In a fictional year, AlderGate records **$2,000,000 revenue** and **$1,600,000 d
 
 ## Commonly confused with
 
-This topic involves **tbl decision boundary**, which should not be presented as the entire sustainability program. A modeled measurement is not verified external reporting, and a chosen voluntary program is not equivalent to legal permission. Requirements must be checked for their edition, geography, entity and applicable product/operation.
+**Economic sustainability** concerns long-term viability, not merely a favorable monthly margin. **Environmental sustainability** concerns lifecycle effects, not only factory electricity. **Social sustainability** concerns people and communities, not just voluntary donations. The three columns cannot be reduced to one unconstrained success percentage.
 
 ## Common mistakes
 
@@ -118,7 +118,7 @@ Mandatory authorization is a gate, not a negotiable contribution to a weighted s
 
 ## Practitioner perspective
 
-A solution architect should preserve a trace from policy or obligation to the affected material, partner, shipment or operational process. A dashboard count or report submission does not prove the underlying process operates safely. Controls need evidence fields, responsible owners and a rule for unresolved records before release.
+AlderGate's analytics architect maintains distinct finance, electricity and HSE data owners. The dashboard shows operating contribution, energy intensity and worker incidents with their own units and denominators, while a separate status field prevents an unauthorized provider from entering the decision set. The architecture does not convert injuries to invented dollars to force a single score.
 
 ## Related concepts
 

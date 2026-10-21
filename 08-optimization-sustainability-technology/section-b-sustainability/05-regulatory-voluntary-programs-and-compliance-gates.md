@@ -44,17 +44,17 @@ The visual identifies four subject-specific evidence stages. For this topic, the
 
 ```mermaid
 flowchart TD
-    A[Scope the specific decision] --> B[Collect topic evidence]
-    B --> C{Required obligation and eligibility gates met?}
-    C -- No --> D[Hold option and obtain corrective evidence]
+    A[Determine actual scope by product country entity and date] --> B[Differentiate law/contract from voluntary objectives]
+    B --> C{All mandatory gates met?}
+    C -- No --> D[Hold and remediate evidence]
     D --> B
-    C -- Yes --> E[Compare scoped outcomes]
-    E --> F[Approve owner and review trigger]
+    C -- Yes --> E[Retain credible documentary proof or documented exemption]
+    E --> F[Block uncovered transactions until the requirement is resolved]
 ```
 
 ## Realistic example — AlderGate Motion Products
 
-AlderGate Motion Products is a fictional industrial manufacturer used throughout Module 8. In the present scenario its sustainability team must document obligation classification, while Finance, Operations and Compliance independently test the customer promise, data quality and applicable obligations. The affected suppliers or workers are not described as verified in the real world. The decision is an illustrative governance exercise only.
+AlderGate proposes four lanes for a European product launch. Three have documented treatment, material and carrier records. One low-cost lane has a missing destination authorization. Rather than treating a voluntary GRI report as proof of eligibility, Compliance identifies the exact shipment rule, checks whether an exemption applies and blocks release until the required evidence is available.
 
 ## Applied decision artifact or worked calculation
 
@@ -79,7 +79,7 @@ In a purely fictional screening of four proposed shipping lanes, **three are eli
 
 ## Commonly confused with
 
-This topic involves **obligation classification**, which should not be presented as the entire sustainability program. A modeled measurement is not verified external reporting, and a chosen voluntary program is not equivalent to legal permission. Requirements must be checked for their edition, geography, entity and applicable product/operation.
+**Mandatory law** differs from **voluntary reporting**; a contract can also make an otherwise voluntary standard a binding commercial condition. **RoHS**, **WEEE**, **CSRD/ESRS** and **ISPM 15** address different products and activities and have distinct applicability rules. No historic curriculum slide should be treated as current jurisdictional advice.
 
 ## Common mistakes
 
@@ -120,7 +120,7 @@ Where the stated condition is mandatory, proof or a valid exemption must be esta
 
 ## Practitioner perspective
 
-A solution architect should preserve a trace from policy or obligation to the affected material, partner, shipment or operational process. A dashboard count or report submission does not prove the underlying process operates safely. Controls need evidence fields, responsible owners and a rule for unresolved records before release.
+Trade-compliance configurations must use a versioned rule matrix keyed to product, entity, origin, destination and date. A Boolean compliance field without supporting record, exception reason and review owner is inadequate. Regulatory and contractual blocks must precede carrier optimization and prevent automated fulfillment release for ineligible transactions.
 
 ## Related concepts
 

@@ -26,7 +26,7 @@ A supplier may present a sophisticated sustainability document that is neverthel
 
 ![Original ISO 26000, SA8000, ANSI Z10, Certification, and Accreditation decision visual](../../assets/diagrams/module-8/section-b/iso-26000-sa8000-ansi-z10-and-assurance.svg)
 
-The topic-specific labels in the visual represent stages of the evidence and response process. A supply-chain manager should undertake these actions in order, preserving evidence of why an option could or could not proceed.
+The diagram for **11** maps the sustainability decision to four distinct areas of responsibility. Each stage requires its own evidence and a clear stop or escalation condition before an unsupported approval can occur.
 
 ### Evidence retained through the workflow
 
@@ -41,17 +41,17 @@ The topic-specific labels in the visual represent stages of the evidence and res
 
 ```mermaid
 flowchart TD
-    A[Define topic scope] --> B[Collect business and primary framework evidence]
-    B --> C{Required eligibility and legal gates satisfied?}
-    C -- No --> D[Block or correct disputed claim]
+    A[Classify the claim as guidance certification or accreditation] --> B[Check version scope and issuing bodys competence]
+    B --> C{All mandatory gates met?}
+    C -- No --> D[Hold and remediate evidence]
     D --> B
-    C -- Yes --> E[Evaluate result and missing information]
-    E --> F[Approve outcome with owner and future review date]
+    C -- Yes --> E[Compare claim with practice and legal obligations]
+    E --> F[Resolve invalid expired or uncertain evidence before approval]
 ```
 
 ## Realistic example — AlderGate Motion Products
 
-AlderGate is a fictional company with its own factories and suppliers. This scenario tests **iso 26000, sa8000, ansi z10, certification, and accreditation** and requires the named decision makers to validate the standard and its business relevance. An attractive report does not replace a recorded review of implementation, scope and limitations. No actual supplier is identified or evaluated by this example.
+AlderGate's supplier-assurance workflow contains a single checkbox marked 'social certification.' One vendor uploads an 'ISO 26000 certified' badge and another offers a SA8000:2014 certificate without current transition evidence. The team separates guidance, certifiable framework, issuer accreditation, edition and site scope, requesting corrective documentation rather than approving both records as equivalent.
 
 ## Applied decision artifact or worked calculation
 
@@ -76,7 +76,7 @@ In a fictional three-claim sample, **zero** submissions can be accepted *without
 
 ## Commonly confused with
 
-ISO 26000, SA8000, ANSI Z10, Certification, and Accreditation establishes particular guidance, control or reporting meaning; it does not mean any reported percentage is an official sustainability score. **Accreditation**, **certification**, **voluntary alignment**, and **legal approval** are different terms, with distinct evidence requirements. Review their scope and edition before interpreting external claims.
+**ISO 26000** offers guidance and is not certifiable. **SA8000:2026** is a certifiable social-accountability framework with a documented transition from 2014. **ANSI/ASSP Z10** concerns occupational-health-and-safety management systems. **Accreditation** evaluates a conformity-assessment body's competence; it is not synonymous with organizational certification.
 
 ## Common mistakes
 
@@ -117,7 +117,7 @@ ISO states that ISO 26000 guidance is not suitable for certification.
 
 ## Practitioner perspective
 
-The supplier or operational evidence in ERP and connected applications needs validity dates, covered sites, current standard edition, data-source identifiers and exception owners. A reviewer must distinguish a verified operating practice from a submitted PDF or marketing promise. An unresolved control blocks the specific claim or activity where relevant, rather than being converted into a favorable default.
+Build the supplier assurance record with fields for standard owner, exact edition, intended guidance versus certification, certificate issuer, accredited scope, site, validity and findings. Where the underlying standard cannot be certified, label it as guidance use with separate implementation evidence. Keep real safety and labor controls independent of badge presentation.
 
 ## Related concepts
 

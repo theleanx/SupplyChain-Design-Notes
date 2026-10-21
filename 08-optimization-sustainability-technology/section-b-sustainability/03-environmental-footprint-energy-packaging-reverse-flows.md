@@ -44,17 +44,17 @@ The visual identifies four subject-specific evidence stages. For this topic, the
 
 ```mermaid
 flowchart TD
-    A[Scope the specific decision] --> B[Collect topic evidence]
-    B --> C{Required obligation and eligibility gates met?}
-    C -- No --> D[Hold option and obtain corrective evidence]
+    A[Draw the system boundary and all material flows] --> B[Check permits packaging treatment and safe transport]
+    B --> C{All mandatory gates met?}
+    C -- No --> D[Hold and remediate evidence]
     D --> B
-    C -- Yes --> E[Compare scoped outcomes]
-    E --> F[Approve owner and review trigger]
+    C -- Yes --> E[Quantify comparable factors and recovery assumptions]
+    E --> F[Compare cost service damage and environmental results]
 ```
 
 ## Realistic example — AlderGate Motion Products
 
-AlderGate Motion Products is a fictional industrial manufacturer used throughout Module 8. In the present scenario its sustainability team must document measured environmental system, while Finance, Operations and Compliance independently test the customer promise, data quality and applicable obligations. The affected suppliers or workers are not described as verified in the real world. The decision is an illustrative governance exercise only.
+AlderGate compares a lightweight outbound box with a reusable returnable container. Warehouse staff show the lighter box cuts outbound mass, but Quality warns of part damage for fragile engineered assemblies. Logistics estimates the empty-return distance for reusable packaging; the environmental analyst records actual collection rates and material disposal. The decision is delayed until the same product-protection and lifecycle boundary is applied to both options.
 
 ## Applied decision artifact or worked calculation
 
@@ -79,7 +79,7 @@ For a fictional quarter with 60 shipments of 1 tonne each travelling 500 km, the
 
 ## Commonly confused with
 
-This topic involves **measured environmental system**, which should not be presented as the entire sustainability program. A modeled measurement is not verified external reporting, and a chosen voluntary program is not equivalent to legal permission. Requirements must be checked for their edition, geography, entity and applicable product/operation.
+A **transport-scope estimate** does not equal a **product lifecycle assessment**. Recyclable material is not necessarily recycled in a specific market. Reusable packaging can outperform disposable packaging only when sufficient cycles and recovery occur. Lower freight emissions cannot offset a prohibited hazardous shipment.
 
 ## Common mistakes
 
@@ -120,7 +120,7 @@ The arithmetic supports a specific transport-scope modeled reduction, not an ent
 
 ## Practitioner perspective
 
-A solution architect should preserve a trace from policy or obligation to the affected material, partner, shipment or operational process. A dashboard count or report submission does not prove the underlying process operates safely. Controls need evidence fields, responsible owners and a rule for unresolved records before release.
+Material master and packaging data should identify material masses, approved handling restrictions, actual return paths and damaged-unit counts. A transport-emission estimate must retain its factor source, tonnes, kilometers and empty-leg assumptions. Hazardous and wood-packaging legal controls remain separate transaction-level release gates.
 
 ## Related concepts
 

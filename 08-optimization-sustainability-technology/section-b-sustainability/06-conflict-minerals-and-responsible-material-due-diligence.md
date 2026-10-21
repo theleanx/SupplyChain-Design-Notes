@@ -44,17 +44,17 @@ The visual identifies four subject-specific evidence stages. For this topic, the
 
 ```mermaid
 flowchart TD
-    A[Scope the specific decision] --> B[Collect topic evidence]
-    B --> C{Required obligation and eligibility gates met?}
-    C -- No --> D[Hold option and obtain corrective evidence]
+    A[Establish which company and products fall within inquiry scope] --> B[Collect and validate supplier material and source records]
+    B --> C{All mandatory gates met?}
+    C -- No --> D[Hold and remediate origin records]
     D --> B
-    C -- Yes --> E[Compare scoped outcomes]
-    E --> F[Approve owner and review trigger]
+    C -- Yes --> E[Distinguish unknown verified and potentially higher-risk evidence]
+    E --> F[Escalate and report according to verified requirements]
 ```
 
 ## Realistic example — AlderGate Motion Products
 
-AlderGate Motion Products is a fictional industrial manufacturer used throughout Module 8. In the present scenario its sustainability team must document risk-based origin inquiry, while Finance, Operations and Compliance independently test the customer promise, data quality and applicable obligations. The affected suppliers or workers are not described as verified in the real world. The decision is an illustrative governance exercise only.
+AlderGate's engineered repair assembly includes electronics from several suppliers. One vendor completes the mineral template but omits smelter identity; another provides a postal address with no origin data. The materials engineer verifies actual content and functional necessity, Procurement escalates unresolved declarations, and Legal independently determines whether the reporting entity is subject to SEC rules. No unknown response is silently marked conflict-free.
 
 ## Applied decision artifact or worked calculation
 
@@ -79,7 +79,7 @@ Of **120** fictional parts screened, **110** have adequate documentation under A
 
 ## Commonly confused with
 
-This topic involves **risk-based origin inquiry**, which should not be presented as the entire sustainability program. A modeled measurement is not verified external reporting, and a chosen voluntary program is not equivalent to legal permission. Requirements must be checked for their edition, geography, entity and applicable product/operation.
+**3TG content** means tin, tantalum, tungsten or gold in the relevant scope; it is not a finding that the material funds conflict. **Reasonable country-of-origin inquiry** and downstream **due diligence** have different roles. **Form SD filing** depends on covered registrant and product facts rather than automatically applying to every supplier.
 
 ## Common mistakes
 
@@ -120,7 +120,7 @@ The measure expresses documentation completion under the hypothetical screening 
 
 ## Practitioner perspective
 
-A solution architect should preserve a trace from policy or obligation to the affected material, partner, shipment or operational process. A dashboard count or report submission does not prove the underlying process operates safely. Controls need evidence fields, responsible owners and a rule for unresolved records before release.
+BOM, substance and supplier declaration systems need part-level identifiers, material composition, inquiry date and provenance. Trace a response through the relevant supplier and smelter where appropriate; preserve unresolved exceptions and legal filing decisions separately from product release. Absence of a completed template is not evidence of benign origin.
 
 ## Related concepts
 

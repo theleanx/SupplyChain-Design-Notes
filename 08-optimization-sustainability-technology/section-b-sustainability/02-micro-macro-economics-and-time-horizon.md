@@ -44,17 +44,17 @@ The visual identifies four subject-specific evidence stages. For this topic, the
 
 ```mermaid
 flowchart TD
-    A[Scope the specific decision] --> B[Collect topic evidence]
-    B --> C{Required obligation and eligibility gates met?}
-    C -- No --> D[Hold option and obtain corrective evidence]
+    A[Define which decision changes the incentive or operating commitment] --> B[Separate timing movements from lasting benefits]
+    B --> C{All mandatory gates met?}
+    C -- No --> D[Hold and remediate evidence]
     D --> B
-    C -- Yes --> E[Compare scoped outcomes]
-    E --> F[Approve owner and review trigger]
+    C -- Yes --> E[Estimate short- and long-term consequences]
+    E --> F[Require legal reporting and feasibility checks before approval]
 ```
 
 ## Realistic example — AlderGate Motion Products
 
-AlderGate Motion Products is a fictional industrial manufacturer used throughout Module 8. In the present scenario its sustainability team must document economic horizon and incentives, while Finance, Operations and Compliance independently test the customer promise, data quality and applicable obligations. The affected suppliers or workers are not described as verified in the real world. The decision is an illustrative governance exercise only.
+At AlderGate's quarterly close, sales wants to delay a completed customer shipment into the next period to smooth the reported results. Supply planning anticipates a false demand spike in the following week and escalating inventory at the distributor. The governance team rejects artificial scheduling and instead evaluates an independently costed reliability investment using actual demand and a multiyear review horizon.
 
 ## Applied decision artifact or worked calculation
 
@@ -79,7 +79,7 @@ A fictional reliability investment requires **$250,000 upfront** and is expected
 
 ## Commonly confused with
 
-This topic involves **economic horizon and incentives**, which should not be presented as the entire sustainability program. A modeled measurement is not verified external reporting, and a chosen voluntary program is not equivalent to legal permission. Requirements must be checked for their edition, geography, entity and applicable product/operation.
+**Short-run reported savings** may be a timing shift rather than reduced lifetime cost. **Microeconomic effects** describe organizational costs and incentives; **macroeconomic forces** include broader energy, inflation and infrastructure changes. **Undiscounted nominal benefit** cannot be called NPV without a dated cash-flow calculation.
 
 ## Common mistakes
 
@@ -120,7 +120,7 @@ Five times $85,000 minus $250,000 gives the nominal figure. No discount rate or 
 
 ## Practitioner perspective
 
-A solution architect should preserve a trace from policy or obligation to the affected material, partner, shipment or operational process. A dashboard count or report submission does not prove the underlying process operates safely. Controls need evidence fields, responsible owners and a rule for unresolved records before release.
+When finance calendars and ERP shipping statuses interact, planners must not create shipment events for reporting convenience. The solution architect keeps promised dates, actual goods movement and investment forecasts as distinct data streams, and exposes orders deliberately rescheduled for financial-period reasons to appropriate compliance review.
 
 ## Related concepts
 

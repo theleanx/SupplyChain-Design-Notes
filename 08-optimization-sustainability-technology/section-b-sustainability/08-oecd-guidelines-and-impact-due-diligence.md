@@ -26,7 +26,7 @@ Supplier performance reports often omit harms that do not immediately threaten d
 
 ![Original OECD Guidelines and Adverse-Impact Due Diligence decision visual](../../assets/diagrams/module-8/section-b/oecd-guidelines-and-impact-due-diligence.svg)
 
-The topic-specific labels in the visual represent stages of the evidence and response process. A supply-chain manager should undertake these actions in order, preserving evidence of why an option could or could not proceed.
+The diagram for **08** maps the sustainability decision to four distinct areas of responsibility. Each stage requires its own evidence and a clear stop or escalation condition before an unsupported approval can occur.
 
 ### Evidence retained through the workflow
 
@@ -41,17 +41,17 @@ The topic-specific labels in the visual represent stages of the evidence and res
 
 ```mermaid
 flowchart TD
-    A[Define topic scope] --> B[Collect business and primary framework evidence]
-    B --> C{Required eligibility and legal gates satisfied?}
-    C -- No --> D[Block or correct disputed claim]
+    A[Identify potential and actual impact in relevant relationships] --> B[Prioritize severity and validate evidence]
+    B --> C{All mandatory gates met?}
+    C -- No --> D[Hold and remediate evidence]
     D --> B
-    C -- Yes --> E[Evaluate result and missing information]
-    E --> F[Approve outcome with owner and future review date]
+    C -- Yes --> E[Develop prevention mitigation leverage or remedy actions]
+    E --> F[Track affected-party outcomes and communicate appropriately]
 ```
 
 ## Realistic example — AlderGate Motion Products
 
-AlderGate is a fictional company with its own factories and suppliers. This scenario tests **oecd guidelines and adverse-impact due diligence** and requires the named decision makers to validate the standard and its business relevance. An attractive report does not replace a recorded review of implementation, scope and limitations. No actual supplier is identified or evaluated by this example.
+AlderGate is considering renewing a key foundry's contract despite credible allegations of withheld wages at its subcontractor. The buyer owns little of the foundry's sales, so the company seeks joint engagement with other customers and local specialists. It documents the affected population, severity, leverage and protection against retaliation while deciding whether structured remediation, suspension or exit is justified.
 
 ## Applied decision artifact or worked calculation
 
@@ -76,7 +76,7 @@ In a fictional review, **50 suppliers** produce **12 adverse-impact signals** (2
 
 ## Commonly confused with
 
-OECD Guidelines and Adverse-Impact Due Diligence establishes particular guidance, control or reporting meaning; it does not mean any reported percentage is an official sustainability score. **Accreditation**, **certification**, **voluntary alignment**, and **legal approval** are different terms, with distinct evidence requirements. Review their scope and edition before interpreting external claims.
+**OECD risk-based diligence** concerns adverse impacts associated with business activity, not merely the probability of price increases or stockouts. **Engagement** is not an excuse for endless inaction; **disengagement** may be necessary but should consider harm to affected people. The 2023 Guidelines are recommendations, not a universal third-party certificate.
 
 ## Common mistakes
 
@@ -117,7 +117,7 @@ Responsible diligence separately addresses harm associated with the supplier; pu
 
 ## Practitioner perspective
 
-The supplier or operational evidence in ERP and connected applications needs validity dates, covered sites, current standard edition, data-source identifiers and exception owners. A reviewer must distinguish a verified operating practice from a submitted PDF or marketing promise. An unresolved control blocks the specific claim or activity where relevant, rather than being converted into a favorable default.
+Sourcing and ESG systems should preserve adverse-impact severity and affected-party information separately from commercial supply-risk scores. The architecture must support repeated evidence reviews, protected case notes and supplier corrective-action milestones. A favorable delivery score cannot automatically close a worker-harm investigation.
 
 ## Related concepts
 

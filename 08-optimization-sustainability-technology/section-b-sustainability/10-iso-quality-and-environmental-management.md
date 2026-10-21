@@ -26,7 +26,7 @@ A certificate with a respectable logo but wrong facility scope can create an unj
 
 ![Original ISO Quality and Environmental Management Systems decision visual](../../assets/diagrams/module-8/section-b/iso-quality-and-environmental-management.svg)
 
-The topic-specific labels in the visual represent stages of the evidence and response process. A supply-chain manager should undertake these actions in order, preserving evidence of why an option could or could not proceed.
+The diagram for **10** maps the sustainability decision to four distinct areas of responsibility. Each stage requires its own evidence and a clear stop or escalation condition before an unsupported approval can occur.
 
 ### Evidence retained through the workflow
 
@@ -41,17 +41,17 @@ The topic-specific labels in the visual represent stages of the evidence and res
 
 ```mermaid
 flowchart TD
-    A[Define topic scope] --> B[Collect business and primary framework evidence]
-    B --> C{Required eligibility and legal gates satisfied?}
-    C -- No --> D[Block or correct disputed claim]
+    A[Identify relevant quality or environmental system requirement] --> B[Verify exact certifiable standard and edition]
+    B --> C{All mandatory gates met?}
+    C -- No --> D[Hold and remediate certificate scope]
     D --> B
-    C -- Yes --> E[Evaluate result and missing information]
-    E --> F[Approve outcome with owner and future review date]
+    C -- Yes --> E[Confirm site scope and certification-body status]
+    E --> F[Review product controls and transition exceptions separately]
 ```
 
 ## Realistic example — AlderGate Motion Products
 
-AlderGate is a fictional company with its own factories and suppliers. This scenario tests **iso quality and environmental management systems** and requires the named decision makers to validate the standard and its business relevance. An attractive report does not replace a recorded review of implementation, scope and limitations. No actual supplier is identified or evaluated by this example.
+AlderGate receives a supplier brochure claiming ISO environmental certification for a multinational parent company. The actual certificate covers a different plant and an earlier standard edition. Supplier Quality checks the certifier, scope and transition status, then keeps the target plant's approval pending. A separate team examines whether the offered component meets product, transport and environmental laws.
 
 ## Applied decision artifact or worked calculation
 
@@ -76,7 +76,7 @@ In an invented three-supplier register, only **one** claim is marked current and
 
 ## Commonly confused with
 
-ISO Quality and Environmental Management Systems establishes particular guidance, control or reporting meaning; it does not mean any reported percentage is an official sustainability score. **Accreditation**, **certification**, **voluntary alignment**, and **legal approval** are different terms, with distinct evidence requirements. Review their scope and edition before interpreting external claims.
+**ISO 9000** and **ISO 14000** are families; **ISO 9001** and **ISO 14001** are specific certifiable management-system requirements standards. A certificate has a scope and edition, not an unlimited company-wide guarantee. The 2026 versions require an explicit transition review for holders of older certificates.
 
 ## Common mistakes
 
@@ -117,7 +117,7 @@ Certifications have specific scope and edition; they do not substitute for all p
 
 ## Practitioner perspective
 
-The supplier or operational evidence in ERP and connected applications needs validity dates, covered sites, current standard edition, data-source identifiers and exception owners. A reviewer must distinguish a verified operating practice from a submitted PDF or marketing promise. An unresolved control blocks the specific claim or activity where relevant, rather than being converted into a favorable default.
+Quality and environmental master data should identify which certification pertains to which legal entity, facility, process and edition. Certificates require an issuer and expiry/status check. A management-system conformance record cannot automatically release every product variant or cover sub-tier locations outside the documented scope.
 
 ## Related concepts
 
