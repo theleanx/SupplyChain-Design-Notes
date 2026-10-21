@@ -1,30 +1,46 @@
 # Section B: Sustainability
 
-> **Development in PR #17.** Lessons are being added directly to the feature branch. The ordered path and completeness totals will be finalized only with the full Section B review and validation.
+> **Development milestone:** twelve original topic lessons and a twelve-question review are authored directly in PR #17. The entire Module 8 is still unfinished, and no material from the private APICS PDFs or term cards is reproduced here.
 
-This section follows the privately supplied CSCP 2026 Module 8 Section B structure: economic, environmental and social sustainability; mandatory versus voluntary duties; responsible-material sourcing; global guidelines; quality, environment, safety and social-accountability standards. All teaching records are fictional and independently authored.
+Section B covers the environmental, economic and social dimensions of sustainability, effective and responsible supply-chain behaviors, and the meaning of applicable guidelines, standards and disclosures. AlderGate Motion Products is fictional, as are all calculations, supplier records and decision thresholds.
 
 ## Learning outcomes
 
-Distinguish sustainability from short-run profit, follow legal gates before weighted rankings, verify supplier and reporting evidence, and interpret what standards actually require or certify.
+- Describe the sustainability triple bottom line without reducing distinct duties to one monetary score.
+- Evaluate long-term and short-term economic choices, environment impacts, labor responsibility and supplier obligations.
+- Separate required legal controls and enforceable contracts from voluntary sustainability initiatives.
+- Assess conflict-minerals/3TG evidence and actual Form SD applicability without making universal filing claims.
+- Distinguish UN Global Compact principles from OECD due-diligence recommendations and GRI disclosure standards.
+- Differentiate ISO 9001 and 14001 management-system certification, ISO 26000 guidance, SA8000 social accountability and ANSI/ASSP Z10 occupational safety.
+- Explain accreditation versus certification and verify the edition, scope and actual issuer of external assurance.
+- Design emissions, waste, worker and reporting KPIs with boundaries and source records; identify misleading sustainability claims.
 
 ## Learning path
 
-- [Sustainable Supply Chains and the Triple Bottom Line](./01-sustainable-supply-chains-and-triple-bottom-line.md)
-- [Micro/Macroeconomics and Short- versus Long-Term Sustainability](./02-micro-macro-economics-and-time-horizon.md)
-- [Environmental Footprint, Energy, Packaging, and Reverse Flows](./03-environmental-footprint-energy-packaging-reverse-flows.md)
-- [Corporate Social Responsibility, Labor, and Community Impact](./04-corporate-social-responsibility-labor-and-community.md)
-- [Mandatory Regulations, Voluntary Programs, and Compliance Gates](./05-regulatory-voluntary-programs-and-compliance-gates.md)
-- [Conflict Minerals, 3TG, and Responsible Materials Due Diligence](./06-conflict-minerals-and-responsible-material-due-diligence.md)
-
-This is a **partial learning path**. Remaining UNGC/OECD/GRI, ISO/SA8000/ANSI, reporting and the original review are pending.
+1. [Sustainability and the Triple Bottom Line](./01-sustainable-supply-chains-and-triple-bottom-line.md)
+2. [Micro/Macroeconomics and Long-Term Outcomes](./02-micro-macro-economics-and-time-horizon.md)
+3. [Environmental Footprints and Recovery](./03-environmental-footprint-energy-packaging-reverse-flows.md)
+4. [CSR, Labor and Community Impact](./04-corporate-social-responsibility-labor-and-community.md)
+5. [Mandatory and Voluntary Compliance](./05-regulatory-voluntary-programs-and-compliance-gates.md)
+6. [3TG and Responsible Mineral Sourcing](./06-conflict-minerals-and-responsible-material-due-diligence.md)
+7. [United Nations Global Compact](./07-un-global-compact-ten-principles.md)
+8. [OECD Due Diligence and Adverse Impacts](./08-oecd-guidelines-and-impact-due-diligence.md)
+9. [GRI Standards and Impact Materiality](./09-gri-standards-and-impact-materiality.md)
+10. [ISO 9001 and ISO 14001](./10-iso-quality-and-environmental-management.md)
+11. [ISO 26000, SA8000, ANSI Z10 and Assurance](./11-iso-26000-sa8000-ansi-z10-and-assurance.md)
+12. [KPIs and Credible Reporting](./12-sustainability-kpi-evidence-and-greenwashing-controls.md)
+13. [Section B Review — Twelve Original Cases](./13-section-b-review.md)
 
 ## Working data and visuals
 
-Each committed topic links its original annotated SVG and fictional CSV. The Section B asset inventory is not final until all lessons are written.
+- [Twelve original Section B SVG diagrams](../../assets/diagrams/module-8/section-b/) — each lesson links its relevant asset.
+- [Twelve fictional Section B CSV datasets](../../assets/data/module-8/section-b/README.md) — examples include dollars, tonnes, kg CO2e, document coverage and worker outcomes.
+- [Official primary references and edition mapping](./REFERENCES.md).
+
+The **study manual's historical GRI 101/102/103 Universal designations** are explained as historic, while official current Universal GRI 1/2/3 are used for applied reporting. The ISO and SA8000 materials also require exact edition/transition confirmation.
 
 ## How to study the section
 
-Separate source-based concepts from current standards editions, legal obligations and hypothetical case figures. Seek explicit owners for every evidence requirement, and never interpret a voluntary pledge as proof of compliance.
+For each decision, identify the affected population, applicable legal/contract requirement, source framework and edition, primary evidence, reported numeric scope and accountable owner. Keep compliance gates ahead of price or weighted environmental rankings; challenge certificates with incorrect scope or non-certifiable claims. Complete the [Section B review](./13-section-b-review.md) before technology selection in Section C.
 
-[Back to Module 8](../README.md)
+[Back to Module 8](../README.md) · [Start Section B](./01-sustainable-supply-chains-and-triple-bottom-line.md)
