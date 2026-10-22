@@ -69,7 +69,7 @@
 - [x] Add 45 original SVGs, 47 fictional CSVs, and reproducible section/capstone calculations
 - [x] Create the integrated AlderGate optimization, sustainability and technology adoption capstone with fully worked solution
 - [x] Run independent development validators for each section and the capstone
-- [ ] Complete the shared eight-module quality validator and final cross-module audit
+- [x] Complete the shared eight-module quality validator and automated cross-module audit — [latest evidence](./MODULE8-RELEASE-AUDIT.md)
 - [ ] Inspect GitHub-rendered content and full/narrow raster previews, including all diagram labels
 - [ ] Complete manual editorial, originality, terminology and reference-edition review
 - [ ] Obtain explicit owner approval, then merge and publish a separately authorized Module 8 release
