@@ -26,3 +26,6 @@ jobs:
       - name: Validate Module 8 Section C (development branch only)
         if: github.event_name == 'pull_request' && github.head_ref == 'feature/module-8-optimization-sustainability-technology'
         run: python3 scripts/validate_module8_section_c.py
+      - name: Validate Module 8 integrated capstone (development branch only)
+        if: github.event_name == 'pull_request' && github.head_ref == 'feature/module-8-optimization-sustainability-technology'
+        run: python3 scripts/validate_module8_capstone.py
