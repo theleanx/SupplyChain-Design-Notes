@@ -15,4 +15,4 @@ The integrated case *also* links the previously authored, unchanged [Section A n
 
 **Financial boundaries:** Section A network costs exclude the two new disjoint manual activities; the Section C software fee and new support are not already included. Otherwise the incremental cash model would double count the same saving or expense. Values and eligibility flags are fictional; specific regulatory obligations and supplier certificates must be independently verified.
 
-Run [the replay](../../../calculations/module8-capstone/replay.py) and [the capstone validator](../../../scripts/validate_module8_capstone.py) to validate source consistency and calculations.
+Run [the replay](../../../../calculations/module8-capstone/replay.py) and [the capstone validator](../../../../scripts/validate_module8_capstone.py) to validate source consistency and calculations.
