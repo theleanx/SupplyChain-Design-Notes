@@ -2,9 +2,9 @@
 
 **Repository:** [theleanx/SupplyChain-Design-Notes](https://github.com/theleanx/SupplyChain-Design-Notes)  
 **Review branch:** `feature/module-8-optimization-sustainability-technology`  
-**Draft PR:** [#17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17)  
-**Last completed full-check evidence:** [GitHub Actions run #39806691865](https://github.com/theleanx/SupplyChain-Design-Notes/actions/runs/39806691865)  
-**Disposition:** **Authoring and automated audit complete; PR remains draft/unmerged. Human rendered-visual, full editorial/originality and owner release approval are open.**
+**Review PR:** [#17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17)  
+**Most recent validated content commit before owner-review record:** [GitHub Actions run #39807192677](https://github.com/theleanx/SupplyChain-Design-Notes/actions/runs/39807192677) (commit `30c1cbd30edaddad40424f75cb9195841863b91c`)  
+**Disposition as of 2026-10-22:** **Authoring and automated audit complete; owner self-reports completing all 45 visual inspections and editorial review with no issues or comments.** No independent outside review or formal GitHub PR approval is implied. PR #17 is unmerged; separate explicit merge/tag authorization is still required.
 
 ## 1. Scope and baseline preservation
 
@@ -62,6 +62,7 @@ The improved Module 8 diagrams have at least **6** structural arrangements in Se
 - [x] Public repository tree does **not** include uploaded APICS/ASCM course PDFs, slide decks, term cards or the proprietary question bank.
 - [x] Module 8 cases, spreadsheet-style CSV inputs, diagrams and knowledge checks are fictional and independently authored in this project. The repository validator screens exact repeated long explanatory paragraphs across lessons.
 - [x] Retain source/edition and public reference registers; historic curriculum language must be separated from currently applicable regulations.
+- [x] **Owner editorial review on 2026-10-22:** owner reported reviewing Module 8 content and finding no issues or comments. This is owner self-attestation, not a separate independent assessment.
 - [ ] **Independent editorial/originality sign-off remains open.** No external licensed-content similarity search or professional plagiarism determination is represented by the automated checks. A human reviewer should inspect a representative sample across all three sections and the capstone for overly similar source expression, overgeneralized standards claims or repetitive explanation.
 
 ## 6. GitHub rendering and actual visual sign-off
@@ -70,7 +71,8 @@ The improved Module 8 diagrams have at least **6** structural arrangements in Se
 - [x] GitHub repository **blob/lesson content is retrievable** for the actual feature-branch paths.
 - [x] [Actual GitHub visual review gallery](./MODULE8-VISUAL-REVIEW.md) provides every committed Module 8 SVG at a 720-pixel wide and a 320-pixel narrow embedded review size.
 - [x] All 45 original SVG source files pass structural, accessibility, text-bound heuristic and visual-diversity automated checks.
-- [ ] **Human actual browser/raster sign-off is still open.** API retrieval and a gallery file do not prove that the 45 images were visually viewed or that dense labels remain readable at 320 px. Review the GitHub page at both widths and inspect selected Markdown tables, Mermaid flows, question expanders and capstone outputs in the actual browser.
+- [x] **Owner visual review on 2026-10-22:** owner reports reviewing all 45 diagrams, with no issues or fixes requested, following the wide/narrow review instructions. The self-report is accepted as owner visual sign-off, not an independent raster verification.
+- [ ] **Separate GitHub-rendered interaction check, if required:** no distinct owner assertion specifically addresses selected Mermaid flows, tables, expandable answers and capstone behavior in an actual browser. Automated links/markup pass, but a reviewer spot-check would cover this remaining evidence.
 - [ ] Record any visual defect, correct it on this branch, rerun the same shared CI and re-inspect the affected graphic before sign-off.
 
 ## 7. Release governance and disposition
@@ -79,9 +81,9 @@ The improved Module 8 diagrams have at least **6** structural arrangements in Se
 
 Before approval, require:
 
-1. Manual rendered visual review and editorial/source-originality sign-off, including the [45-SVG gallery](./MODULE8-VISUAL-REVIEW.md) and selected GitHub-rendered lesson/capstone pages.
+1. **Owner visual and editorial acceptance completed on 2026-10-22** with no reported issues. **Independent originality/editorial and specific browser-interaction spot-check remain separate** if the release process requires them.
 2. Confirm zero unresolved high-severity accuracy, diagram clipping, permission or unsupported legal/certification claims.
 3. Confirm latest branch head has a passing shared Modules 1–8 CI run and the PR changes no Modules 1–7 learning content.
-4. Obtain **explicit owner authorization** to mark the PR ready, merge into `main`, update release metadata and create any Module 8 tag/release.
+4. The PR may be made **ready for review** without merging. **Merge into `main`, update of release metadata, and publication of any Module 8 tag/release each require later explicit owner authorization**; the manual-review update is not that authorization.
 
-**Current determination:** **Automated integration and numerical review passed; manual editorial/visual approval required.** The PR remains **draft and unmerged**. This is a high-quality review candidate, **not** a statement that Module 8 is already released or externally certified.
+**Current determination:** Automated checks pass, and **owner-reported manual editorial and 45-diagram visual approval are complete**. There are no submitted GitHub PR reviews as of this checkpoint; independent specialist review is not claimed. The PR is **unmerged**, and Module 8 is **not released or externally certified**.

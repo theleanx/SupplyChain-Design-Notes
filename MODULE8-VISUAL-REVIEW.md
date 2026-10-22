@@ -2,6 +2,8 @@
 
 > **Review candidate only.** This gallery links directly to the original SVG files committed in draft PR #17. It places each same image at a wide and a narrow display width for a convenient **GitHub-rendered spot-check**. The gallery is a human inspection aid; its existence is **not** evidence a reviewer has inspected every rasterized page or signed the visual/editorial release gate.
 
+**Owner visual review — 2026-10-22:** The owner reported inspecting all **45** diagrams, finding no issues, and requesting no corrections. This is recorded as a self-reported owner sign-off, not independent reviewer certification or evidence of an exact browser viewport. The owner explicitly prohibited merging at this stage.
+
 **Visual checklist:** At both widths confirm that every label is readable, text does not collide with bars or legends, decision steps remain meaningful, source example units and denominators are unambiguous, and the visual illustrates the lesson instead of repeating a generic card layout. Also open a linked lesson to inspect Mermaid workflows, questions and table rendering.
 
 The independent source-level [SVG audit script](./scripts/validate_module8_visuals.py) checks all 45 diagrams for accessible title/description, expected quantitative labels, diversity of layouts, basic text bounds and unsafe embedded content. It is a **static heuristic**, not a substitute for visual inspection or a rasterized preview.

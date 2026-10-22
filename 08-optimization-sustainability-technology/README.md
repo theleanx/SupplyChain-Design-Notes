@@ -1,6 +1,6 @@
 # Module 8: Optimization, Sustainability, and Technology
 
-> **Status: development in progress on the feature branch; NOT released.** Modules 1–7 remain the published baseline. The feature branch is not eligible for merge until all three sections and the integrated capstone meet the repository quality standard.
+> **Status: authored and automatically validated Module 8 review candidate; NOT released.** The owner reported reviewing all 45 visuals and editorial content without issues on 2026-10-22. Independent review where required and explicit merge/release authorization remain separate; Modules 1–7 on `main` are unchanged.
 
 The final CSCP module brings together enterprise strategic alignment, sustainable performance and the selection, deployment and maintenance of enabling technologies. It uses the foundations of the seven earlier modules without repeating their full planning, procurement, manufacturing, logistics, relationship or risk methods. All public teaching examples are independently authored; no proprietary curriculum files are committed.
 

@@ -1,7 +1,7 @@
 # Module 8 Section C — Development Review Gate
 
 **Branch:** `feature/module-8-optimization-sustainability-technology`  
-**Pull request:** [#17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17) (draft; do not merge)  
+**Pull request:** [#17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17) (review candidate; do not merge)  
 **Status:** Section C authored; final full Module 8 release not yet approved.
 
 This checklist records original study-content development only. It includes no private APICS/ASCM text, presentation, flashcards, copyrighted diagrams or examination questions.
@@ -37,6 +37,8 @@ Source data is fictional. The checked-in replay independently tests:
 - Planned/unplanned maintenance and modeled hours.
 
 The script **passed GitHub CI** in run [39628209038](https://github.com/theleanx/SupplyChain-Design-Notes/actions/runs/39628209038) with the three section validators and the released baseline gate. These automated results do not replace final rendered-visual or editorial review.
+
+**Owner review — 2026-10-22:** All 45 SVGs and editorial content reportedly reviewed without issues or comments. Independent originality review and specific interactive browser-render check were not separately attested. This is **not** merge authorization.
 
 ## Mandatory publication and merge gates
 

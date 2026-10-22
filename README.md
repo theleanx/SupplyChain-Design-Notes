@@ -2,7 +2,7 @@
 
 Independent, practitioner-oriented learning notes for designing supply networks, planning demand, sourcing and operating supply, moving goods, managing customer and supplier relationships, and measuring performance.
 
-> **Current release:** Modules 1–7 remain complete on `main`; **Module 8 is an unmerged draft review candidate** in [PR #17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17), not yet released. The learning pages use original explanations, fictional examples, editable visuals, worked calculations, and independently authored knowledge checks.
+> **Current release:** Modules 1–7 remain complete on `main`; **Module 8 is an unmerged review candidate** in [PR #17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17), not yet released. The learning pages use original explanations, fictional examples, editable visuals, worked calculations, and independently authored knowledge checks.
 
 ## Start here
 
@@ -92,7 +92,7 @@ QUALITY.md                                            Quality and originality st
 
 ## Module 8 review-candidate inventory (PR #17 only)
 
-The feature branch additionally contains **54 module learning/reference Markdown pages**, including 42 lessons, three section reviews and one integrated fully worked AlderGate capstone; **45 original Module 8 SVG diagrams**; and **47 fictional Module 8 CSV datasets**. Its 42 original section-review cases accompany the 42 lesson checks, and its capstone has five additional self-checks. **None of these counts change the seven-module published-release snapshot below.** This content is not released until cross-module, visual and editorial checks and owner approval are completed.
+The feature branch additionally contains **54 module learning/reference Markdown pages**, including 42 lessons, three section reviews and one integrated fully worked AlderGate capstone; **45 original Module 8 SVG diagrams**; and **47 fictional Module 8 CSV datasets**. Its 42 original section-review cases accompany the 42 lesson checks, and its capstone has five additional self-checks. **None of these counts change the seven-module published-release snapshot below.** Shared Modules 1–8 CI passed, and the owner reported reviewing all diagrams and content without issues on 2026-10-22. Independent review where required and **explicit merge/release authorization** are still separate; Module 8 is **not released**.
 
 - [Module 8 learning path](./08-optimization-sustainability-technology/README.md)
 - [Capstone student assignment](./08-optimization-sustainability-technology/capstone/README.md) and [worked solution](./08-optimization-sustainability-technology/capstone/solution-guide.md)
