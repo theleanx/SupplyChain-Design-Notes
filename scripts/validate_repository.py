@@ -24,6 +24,7 @@ MODULE_4 = ROOT / "04-internal-operations-inventory"
 MODULE_5 = ROOT / "05-forward-reverse-logistics"
 MODULE_6 = ROOT / "06-supply-chain-relationships"
 MODULE_7 = ROOT / "07-supply-chain-risk"
+MODULE_8 = ROOT / "08-optimization-sustainability-technology"
 MODULES = {
     "Module 1": (MODULE_1, 44),
     "Module 2": (MODULE_2, 43),
@@ -32,7 +33,12 @@ MODULES = {
     "Module 5": (MODULE_5, 54),
     "Module 6": (MODULE_6, 32),
     "Module 7": (MODULE_7, 31),
+    "Module 8": (MODULE_8, 42),
 }
+# Preserve the exact published inventory and substantive release checks for Modules 1–7;
+# extend the shared lesson/capstone rules to authored Module 8 without claiming it
+# has already been merged or released from the draft review PR.
+RELEASED_MODULES = {label: spec for label, spec in MODULES.items() if label != "Module 8"}
 MARKDOWN_LINK = re.compile(r"(?<!!)\[[^\]]*\]\(([^)]+)\)")
 MARKDOWN_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 FENCE = "`" * 3
@@ -135,6 +141,10 @@ MODULE_RESOURCE_INDEXES = {
     MODULE_7: (
         ROOT / "assets/data/module-7/README.md",
         ROOT / "calculations/risk-response/README.md",
+    ),
+    MODULE_8: (
+        ROOT / "assets/data/module-8/README.md",
+        ROOT / "calculations/module8-capstone/README.md",
     ),
 }
 MODULE_1_DATASET_LINKS = {
@@ -332,6 +342,10 @@ def validate_module_overviews_and_reviews() -> list[str]:
         for other_module, _ in MODULES.values():
             if other_module == module:
                 continue
+            # Preserve published Modules 1–7 content while requiring Module 8
+            # to link back to every earlier completed module.
+            if other_module == MODULE_8 and module in {m for m, _ in RELEASED_MODULES.values()}:
+                continue
             target = f"../{other_module.name}/README.md"
             if target not in module_body:
                 errors.append(
@@ -397,6 +411,7 @@ def validate_shared_module_content() -> list[str]:
         MODULE_5: MODULE_5_DATASET_LINKS,
         MODULE_6: MODULE_6_DATASET_LINKS,
         MODULE_7: {},
+        MODULE_8: {},
     }
 
     for label, (module, expected_count) in MODULES.items():
@@ -442,7 +457,7 @@ def validate_shared_module_content() -> list[str]:
             }
             lesson_key = str(path.relative_to(module))
             requires_process_flow = (
-                module in (MODULE_2, MODULE_3, MODULE_6, MODULE_7)
+                module in (MODULE_2, MODULE_3, MODULE_6, MODULE_7, MODULE_8)
                 or (module == MODULE_4 and lesson_key not in module_4_flow_exceptions)
                 or (module == MODULE_5 and lesson_key not in module_5_flow_exceptions)
             )
@@ -470,7 +485,7 @@ def validate_shared_module_content() -> list[str]:
             ):
                 errors.append(f"{relative}: missing reusable applied decision or worked-calculation section")
 
-            if not re.search(r"\b(example|northstar|asterworks|rivermark|pinehaven|harborpeak|clearspan|stonebridge)\b", body, re.IGNORECASE):
+            if not re.search(r"\b(example|northstar|asterworks|rivermark|pinehaven|harborpeak|clearspan|stonebridge|aldergate)\b", body, re.IGNORECASE):
                 errors.append(f"{relative}: missing fictional applied example")
 
             related = re.search(
@@ -480,7 +495,10 @@ def validate_shared_module_content() -> list[str]:
             )
             if not related or related.group("section").count("](") < 2:
                 errors.append(f"{relative}: related concepts require at least two working links")
-            if not re.search(r"\n---\n\n\[(?:Section overview|Previous(?::[^]]*)?)\]", body):
+            original_footer = bool(re.search(r"\n---\n\n\[(?:Section overview|Previous(?::[^]]*)?)\]", body))
+            module8_footer = (module == MODULE_8 and bool(re.search(
+                r"\n---\n\n\[(?:Section [ABC] overview|Previous study step|Previous learning step|Previous topic|Section overview)\]",body)))
+            if not (original_footer or module8_footer):
                 errors.append(f"{relative}: missing sequential navigation footer")
 
             h2 = [line.lower() for line in body.splitlines() if line.startswith("## ")]
@@ -1727,6 +1745,7 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
             ("31.25%", "86.23%", "$242,000", "72.19", "74.18%", "88/100"),
         ),
         "Module 7": (MODULE_7, 2200, 12, ("$45,000", "$28,600", "$36,500", "$11,500")),
+        "Module 8": (MODULE_8, 2500, 11, ("$35,813", "$185,000", "$108,000", "66%", "−$153,726")),
     }
     for label, (module, solution_floor, data_count, results) in capstone_requirements.items():
         assignment = (module / "capstone/README.md").read_text(encoding="utf-8")
@@ -1753,7 +1772,7 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
             if result not in solution:
                 errors.append(f"{label} capstone solution: missing verified result ({result})")
 
-    module_markdown = [path for path in markdown if any(path.is_relative_to(module) for module, _ in MODULES.values())]
+    module_markdown = [path for path in markdown if any(path.is_relative_to(module) for module, _ in RELEASED_MODULES.values())]
     details = sum(path.read_text(encoding="utf-8").count("<details>") for path in module_markdown)
     if len(module_markdown) != 369:
         errors.append(f"Repository inventory: expected 369 module Markdown files, found {len(module_markdown)}")
@@ -1769,6 +1788,20 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
         errors.append(f"Repository inventory: expected 101 released CSV files, found {len(released_data)}")
     if details != 723:
         errors.append(f"Repository inventory: expected 723 knowledge checks, found {details}")
+
+    # Keep v7 baseline immutable while testing the completed eighth-module draft.
+    module8_md = [p for p in markdown if p.is_relative_to(MODULE_8)]
+    module8_svgs = [p for p in svg if p.is_relative_to(ROOT / "assets/diagrams/module-8")]
+    module8_csvs = [p for p in datasets if p.is_relative_to(ROOT / "assets/data/module-8")]
+    module8_answer_blocks = sum(p.read_text(encoding="utf-8").count("<details>") for p in module8_md)
+    for name, actual, expected in (
+        ("module Markdown learning/reference files",len(module8_md),54),
+        ("module original SVGs",len(module8_svgs),45),
+        ("module original CSVs",len(module8_csvs),47),
+        ("module knowledge-check answer blocks",module8_answer_blocks,89),
+    ):
+        if actual != expected:
+            errors.append(f"Module 8 authoring inventory: expected {expected} {name}, found {actual}")
 
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     for statement in (
@@ -1837,6 +1870,7 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
         MODULE_6: ("**40** structured Markdown learning/reference pages", "**32** topic lessons", "**69** independently authored knowledge checks"),
         MODULE_7: ("**39** structured Markdown learning/reference pages", "**31** topic lessons", "**72** independently authored knowledge checks"),
     }
+    module_snapshot_claims[MODULE_8] = ("**45 original SVGs**", "**47 fictional CSV datasets**", "42 original lessons")
     for module, statements in module_snapshot_claims.items():
         module_readme = (module / "README.md").read_text(encoding="utf-8")
         for statement in statements:
@@ -1968,6 +2002,19 @@ def main() -> int:
         + validate_module_6_assessment_distribution()
         + validate_capstones_and_inventory(markdown, svg, datasets)
     )
+
+    # The one shared runner now owns all specialized eighth-module quality gates.
+    for label, validator in (
+        ("Module 8 Section A", "validate_module8_section_a.py"),
+        ("Module 8 Section B", "validate_module8_section_b.py"),
+        ("Module 8 Section C", "validate_module8_section_c.py"),
+        ("Module 8 Capstone", "validate_module8_capstone.py"),
+    ):
+        result = subprocess.run([sys.executable, str(ROOT / "scripts" / validator)],
+            cwd=ROOT, text=True, capture_output=True, check=False)
+        print(result.stdout, end="")
+        if result.returncode:
+            errors.append(f"{label} integrated shared validation failed:\n" + result.stdout + result.stderr)
 
     module7_check = subprocess.run(
         [sys.executable, str(ROOT / "scripts/validate_module7.py")],
