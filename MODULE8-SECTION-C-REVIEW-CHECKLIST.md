@@ -43,7 +43,7 @@ The script **passed GitHub CI** in run [39628209038](https://github.com/theleanx
 - [x] **Combined GitHub Content Quality passed at synchronized PR branch head** — [workflow run 39628209038](https://github.com/theleanx/SupplyChain-Design-Notes/actions/runs/39628209038), including the released Modules 1–7 validator and all Module 8 Section A/B/C validators, with Section C's independent CSV replay.
 - [ ] Inspect all actual committed SVGs at desktop and narrow widths, and GitHub-rendered Markdown, links and Mermaid flowcharts. XML validity alone does not guarantee visual legibility.
 - [ ] Editorially verify individual visual relevance, wording, calculation boundaries, course-source mapping and originality.
-- [ ] Complete integrated cross-section Module 8 AlderGate capstone with worked solution and independent replay.
+- [x] Complete integrated cross-section Module 8 [AlderGate capstone](./08-optimization-sustainability-technology/capstone/README.md), [worked solution](./08-optimization-sustainability-technology/capstone/solution-guide.md) and [independent replay](./calculations/module8-capstone/replay.py); the capstone and existing four validator steps passed in [run 39801560519](https://github.com/theleanx/SupplyChain-Design-Notes/actions/runs/39801560519).
 - [ ] Expand the shared full repository validator to Modules 1–8 without weakening the released Modules 1–7 baseline.
 - [ ] Obtain owner approval before merge/release.
 
