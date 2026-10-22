@@ -2013,6 +2013,7 @@ def main() -> int:
         ("Module 8 Section B", "validate_module8_section_b.py"),
         ("Module 8 Section C", "validate_module8_section_c.py"),
         ("Module 8 Capstone", "validate_module8_capstone.py"),
+        ("Module 8 SVG visual-structure audit", "validate_module8_visuals.py"),
     ):
         result = subprocess.run([sys.executable, str(ROOT / "scripts" / validator)],
             cwd=ROOT, text=True, capture_output=True, check=False)
