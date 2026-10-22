@@ -29,7 +29,7 @@ The final CSCP module brings together enterprise strategic alignment, sustainabl
 - [Module 8 reference and source-scope register](./REFERENCES.md)
 - [Section B official sustainability references](./section-b-sustainability/REFERENCES.md)
 - [Section C curriculum and technology references](./section-c-technology-trends/REFERENCES.md)
-- Validated section data, originals visuals, formula references and capstone resources will be introduced with the lessons to which they belong.
+- [Integrated capstone student assignment](./capstone/README.md), [full solution](./capstone/solution-guide.md), and [original dataset index](../assets/data/module-8/capstone/README.md)
 
 ## Cross-module handoffs
 
@@ -47,6 +47,6 @@ Each published lesson must contain plain-language concepts, business decisions, 
 
 ## Module snapshot
 
-This is an **in-progress branch snapshot** with 12 Section A, 12 Section B and 18 Section C lessons (42 original lessons); three section reviews with 42 original questions; 42 original SVGs; and 41 fictional CSV datasets. The integrated capstone is authored with a fully worked solution, 3 original SVGs and 6 added fictional CSVs; independent capstone and full Modules 1–8 release checks remain pending. A final count of lessons, diagrams, datasets and assessments will be published only after content completion and successful Modules 1–8 verification.
+This is an **in-progress branch snapshot** with 12 Section A, 12 Section B and 18 Section C lessons (42 original lessons); three section reviews with 42 original questions; **45 original SVGs** (42 lesson diagrams + 3 capstone diagrams); and **47 fictional CSV datasets** (41 section datasets + 6 capstone inputs). The integrated capstone is authored with a fully worked solution and an independent replay; final combined capstone CI, manual rendering and full Modules 1–8 release verification remain pending. A final count of lessons, diagrams, datasets and assessments will be published only after content completion and successful Modules 1–8 verification.
 
 **Source policy:** Scope is checked against the 2026 APICS CSCP Module 8 curriculum, accompanying slides and term cards privately. The learning text and examples here are independent, not reproduced source content.
