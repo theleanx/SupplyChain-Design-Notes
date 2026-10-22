@@ -1,0 +1,3 @@
+product,period,contribution_usd_per_unit,finishing_hours_per_unit,max_weekly_demand_units
+A,illustrative_week,40,2,40
+B,illustrative_week,55,4,25

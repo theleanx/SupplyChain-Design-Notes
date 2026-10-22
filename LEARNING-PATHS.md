@@ -324,3 +324,17 @@ For Module 5 quantitative reference, open the [logistics, trade, and reverse-flo
 5. [Solved executive decision record](./07-supply-chain-risk/capstone/solution-guide.md)
 
 Use existing Modules 1–6 as the technical owners of the demand, network, procurement, production, logistics and relationship inputs. Module 7 adds the event exposure, decision gates, response economics and tested continuity treatment.
+
+
+## Module 8 optimization and technology integration path — draft review candidate
+
+**For:** supply-chain architects, sustainability specialists, network leaders, transformation directors and executive decision makers. **Status:** This is part of unmerged [PR #17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17), not the published seven-module baseline.
+
+1. [Optimizing supply-chain strategy and tactics](./08-optimization-sustainability-technology/section-a-optimizing-supply-chain-strategy-and-tactics/README.md)
+2. [Sustainability, reporting and standards](./08-optimization-sustainability-technology/section-b-sustainability/README.md)
+3. [Technology trends, assessment, delivery and maintenance](./08-optimization-sustainability-technology/section-c-technology-trends/README.md)
+4. [AlderGate integrated decision assignment](./08-optimization-sustainability-technology/capstone/README.md)
+5. [Worked executive solution](./08-optimization-sustainability-technology/capstone/solution-guide.md)
+6. [Reproducible NPV and gate reference](./calculations/module8-capstone/formula-sheet.md)
+
+Do not treat a positive hypothetical investment NPV as production authorization; the case preserves security, worker-safety, capacity, reporting and change-acceptance gates. The demand, network, supplier, plant, logistics, relationship and risk-specific foundations continue to live in Modules 1–7.

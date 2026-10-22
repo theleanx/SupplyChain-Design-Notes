@@ -1,0 +1,5 @@
+actual,predicted,count
+failure,alert,18
+failure,no_alert,2
+no_failure,alert,30
+no_failure,no_alert,150

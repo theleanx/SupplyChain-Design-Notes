@@ -1,0 +1,4 @@
+option,qualified,setup_usd,annual_running_usd,response_days
+unqualified_print,no,70000,45000,2
+approved_supplier,yes,12000,68000,4
+stock_buffer,yes,9000,59000,3

@@ -1,0 +1,3 @@
+family,period,weekly_mean_units,weekly_stddev_units
+stable,illustrative_weekly_sample,800,60
+engineered,illustrative_weekly_sample,150,90
