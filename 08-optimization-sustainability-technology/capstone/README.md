@@ -112,6 +112,87 @@ Use [governance-action records](../../assets/data/module-8/capstone/governance-a
 - Who validates that the process benefits are real *cash avoidance*, who owns the business service, and who owns continuing technical and asset support.
 - One threshold or event that triggers executive reconsideration, and one backup response if partner or customer demand changes.
 
+## Integrated operating flow and decision checks
+
+The business release is a **sequence of dependent gates**, not one weighted score. The flow returns rejected alternatives for remediation rather than allowing economics to waive conditions.
+
+```mermaid
+flowchart TD
+    A[One market: base demand 1000 units per week] --> B[Screen network capacity and worker safety]
+    B --> C{Eligible network?}
+    C -- No --> D[Hold design and qualify capacity or workers]
+    D --> B
+    C -- Yes --> E[Screen vendor security response and spending]
+    E --> F{Eligible platform and finance scope?}
+    F -- No --> G[Reject vendor or revise proposal]
+    G --> E
+    F -- Yes --> H[Measure environmental and waste evidence]
+    H --> I[Recalculate cost and five-year NPV]
+    I --> J{Zero critical cutover defects and adoption gate met?}
+    J -- No --> K[Prepare controlled read-only pilot and remediate]
+    K --> J
+    J -- Yes --> L[Validate cash savings and owner approval]
+    L --> M[Staged production release with fallback]
+    M --> N[Review service claims and maintenance performance]
+```
+
+The following are independently authored **self-checks**, separate from the complete worked solution. Open them after making your own executive judgment.
+
+### Decision check 1 — Cheapest does not mean eligible
+
+Can the $520,000/year low-cost network beat regional when it can process only 850 units/week against a 1,000-unit promise and also fails the worker gate?
+
+<details>
+<summary>Answer and rationale</summary>
+
+**No.** It fails two mandatory conditions. Its cost and lower illustrative emission footprint remain diagnostic information but cannot justify selection. The regional design has 1,100/week nominal capacity and the best modeled annual cost among presently eligible options; it still requires proof of real throughput.
+
+</details>
+
+### Decision check 2 — Reporting evidence versus a percentage
+
+Can AlderGate publicly claim a fully verified 66% network recycling rate simply because the mass-weighted computation is arithmetically valid?
+
+<details>
+<summary>Answer and rationale</summary>
+
+**No.** The two Plant B record exceptions remain unresolved. Correct aggregation is a necessary arithmetic step, not sufficient reporting evidence. Sustainability owns the source reconciliation and the authorized wording of any future claim.
+
+</details>
+
+### Decision check 3 — Financial and eligibility boundaries
+
+Why is vendor B preferred to vendor A or C when B has neither the lowest service fee nor the absolute highest composite score?
+
+<details>
+<summary>Answer and rationale</summary>
+
+**B** meets the fictional data-security and response gates and costs $84,000/year plus $24,000 continuing support, totaling $108,000 within the $110,000 technology-spend limit. A reaches $116,000/year including support and exceeds that limit; C fails required security regardless of its lower price and higher score.
+
+</details>
+
+### Decision check 4 — Economic break-even versus operational adoption
+
+The five-year financial crossover is about 68.90% of assumed avoidable cash benefits. Does that permit launch when observed process adoption is only 67% and two critical test failures remain?
+
+<details>
+<summary>Answer and rationale</summary>
+
+**No.** The modeled 68.90% is a discounted financial sensitivity threshold conditional on real cash realization, not permission to override the separate 75% adoption gate or zero-critical-defect requirement. No observed one-to-one relationship from logins to cash savings has been established.
+
+</details>
+
+### Decision check 5 — Capacity and boundary sensitivity
+
+At 1,200 units/week, can management keep the original regional network's $575,000/year cost and 109-tonne emission footprint in its final approved NPV?
+
+<details>
+<summary>Answer and rationale</summary>
+
+**No.** Regional has a 100-unit/week nominal capacity deficit under that stress. Work methods, extra lanes or capacity, labor, actual service, costs and emissions must be requalified on the higher-volume scenario. The partial $50,000 savings-removal stress is only a limited illustration, not a recomputed operating model.
+
+</details>
+
 ## Required deliverables and readiness checklist
 
 Provide an executive summary; a scenario ledger with assumptions; network cost/capacity and sustainability comparison; technology-feasibility matrix; independently calculated investment model; quantified adoption/cutover dashboard; downside and demand-stress analysis; governance and risk register with named roles; and a realistic 30/60/90-day activation/decision plan.

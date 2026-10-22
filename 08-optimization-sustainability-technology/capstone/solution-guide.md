@@ -197,6 +197,30 @@ The review cadence begins **Day 0 = 2 November 2026**, while **investment time z
 
 **Ongoing:** Sponsor owns investment performance; Operations owns customer fulfillment; IT Operations maintains interfaces, service recovery and access; Procurement governs vendor obligations; Environment/Sustainability owns the reporting method; Finance tracks confirmed cost savings; the Change Lead validates adoption. KPIs include qualified capacity utilization, customer exceptions resolved within target, blocked-order violations (target zero), verified maintenance and incident recovery, active adoption, true avoidable cost, and environmental reporting exceptions.
 
+## Executive recommendation
+
+The executive decision is **conditional approval for governed design and a non-releasing pilot**, rather than an automatic production launch. At 1,000 units/week, regional is the least-cost network that currently passes modeled capacity and worker gates. Vendor B passes the proposed security, response and annual technology spending thresholds. This does not remove the two open critical release defects, failed active-adoption threshold, outstanding recycling evidence or unverified cash avoidability. Actual funding authority and final site qualification remain owner decisions.
+
+## Sensitivity and failure cases
+
+The 75%-realization financial case returns **+$35,813** five-year discounted NPV, but 60% and 67% benefit-realization cases are negative. The discounted financial crossover near 68.90% is not the 75% operational adoption gate. Under 1,200 units/week stress, regional capacity is short by 100/week and the existing annual cost and emissions modeling must be revised. Removing only the $50,000 annual network savings, without recomputing other assumptions, produces **−$153,726** five-year NPV and is explicitly a *partial* rather than a validated full-demand model.
+
+## Implementation roadmap
+
+**Days 0–30:** qualify base/stress network throughput, check vendor access and continuity, and repair the two critical cutover-control defects. **Days 31–60:** correct partner access/adoption barriers and source-document exceptions, validate cash-benefit avoidability with Finance, and retest required worker and business controls. **Days 61–90:** rehearse recovery, event replay and rollback; verify the joint customer process; re-estimate the model using corrected evidence; and ask the designated sponsor for a gated staged release decision. The continuing owner model remains Operations for customer promises, IT for service support, Quality for release controls, CISO for access and Finance for realized cost.
+
+## Evaluation rubric
+
+| Dimension and weight | Evidence of a high-quality capstone response |
+| --- | --- |
+| **20% strategic/network** | Correct 1,000/week baseline, cost aggregation, capacity slack, mandatory gate ranking and stress distinction |
+| **20% sustainability and worker duties** | Scope-bounded footprint, correctly weighted 66% recycling, preserved evidence holds and separate mandatory worker rules |
+| **20% vendor/financial economics** | Vendor A/B/C gates and budget, unduplicated labor benefit, $185,000 t0, $108,000 recurring, full NPV calculation and sensitivity |
+| **20% operational change and continuity** | Correct training/adoption denominator, two critical cutover blocks, qualified pilot, owners and rollback |
+| **20% professional evidence and judgment** | Transparently labeled fictional figures, verifiable source links, contingent versus observed outcomes, and honest escalation plan |
+
+A numerical answer is **not** sufficient if the candidate ranks an ineligible network/vendor or authorizes unsafe production. Any such error fails the case's mandatory-decision gate regardless of the arithmetic total. Unsubstantiated public environmental claims likewise require correction before the reporting component passes.
+
 ## 10. Final decision rule and cross-module handoffs
 
 **Conditional go for governed design/pilot; no full production go-live now.** A modeled positive financial value at 75% realization does not prove eligible capacity under stress, safety, verified sustainability reporting, secure vendor integration, cash avoidability, working adoption or critical cutover readiness. The policy's economic crossover and funding caps are necessary **but not sufficient** conditions.
