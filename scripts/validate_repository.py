@@ -1758,7 +1758,11 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
             errors.append(f"{label} capstone: requires at least five decision checks")
         if len(solution.split()) < solution_floor:
             errors.append(f"{label} capstone solution: below the {solution_floor}-word floor")
-        if solution.count("|---") < 2:
+        # Retain the exact legacy Modules 1–7 table check; Module 8 also
+        # permits valid Markdown separators written with spaces (| --- |).
+        module8_spaced_tables = (label == "Module 8" and len(re.findall(
+            r"(?m)^\|\s*-{3,}", solution)) >= 2)
+        if solution.count("|---") < 2 and not module8_spaced_tables:
             errors.append(f"{label} capstone solution: requires completed decision tables")
         for heading in (
             "Executive recommendation",
