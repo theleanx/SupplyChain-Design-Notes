@@ -1,0 +1,5 @@
+scenario,benefit_realization_fraction,interpretation
+downside,0.60,stress_only_not_a_go_live_case
+observed_training_pilot_proxy,0.67,adoption_is_only_a_proxy_for_benefit
+gated_minimum,0.75,approval_target_not_yet_achieved
+full_assumption,1.00,maximum_modeled_cash_avoidance_not_certainty
