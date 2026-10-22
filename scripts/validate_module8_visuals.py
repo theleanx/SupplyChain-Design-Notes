@@ -63,6 +63,7 @@ def audit(path):
     if len(text_nodes)<6:errors.append(f"{rel}: too few graphical labels ({len(text_nodes)})")
     if not any(local_name(n) in ("rect","circle","line","path","polygon","polyline") for n in nodes):
         errors.append(f"{rel}: no visual shapes")
+    parent_map={child: parent for parent in nodes for child in parent}
     for n in text_nodes:
         value="".join(n.itertext()).strip()
         if not value:errors.append(f"{rel}: empty visible label");continue
@@ -70,7 +71,12 @@ def audit(path):
         except ValueError:errors.append(f"{rel}: invalid text coordinates");continue
         # Loose heuristic, not exact font metrics. Still catches clipped titles.
         est_width=len(value)*sz*.44
-        anchor=n.get("text-anchor","start")
+        anchor=n.get("text-anchor")
+        parent=parent_map.get(n)
+        while anchor is None and parent is not None:
+            anchor=parent.get("text-anchor")
+            parent=parent_map.get(parent)
+        anchor=anchor or "start"
         left=x-(est_width if anchor=="end" else est_width/2 if anchor=="middle" else 0)
         right=left+est_width
         if left<-40 or right>width+40 or y<-10 or y>height+12:
