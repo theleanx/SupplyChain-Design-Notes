@@ -353,3 +353,22 @@ For deeper treatment, open the [Module 1 overview](./01-supply-chains-demand-for
 **Residual risk** — Exposure remaining after an implemented and verified response, not merely after a response has been planned.
 
 **Business continuity management (BCM)** — Establishing and testing the people, process, information and partner capabilities needed to continue or restore prioritized operations after disruption.
+
+
+## Module 8: Strategy, Sustainability, and Technology Terminology (draft PR #17)
+
+**Triple bottom line (TBL)** — A decision framework tracking economic, environmental and social outcomes separately, without allowing favorable scores in one dimension to waive hard obligations in another.
+
+**Sustainability impact materiality** — An assessment of significant organizational impacts on people, the environment or the economy, rather than only expected short-term financial return.
+
+**Technology feasibility gate** — A required condition such as data security, capacity, legal permission, physical qualification or qualified-worker access that must pass before ranking eligible alternatives.
+
+**Digital twin** — A model associated with meaningful updates from a particular physical system, for a defined condition, analysis or decision purpose.
+
+**Total cost of ownership (TCO)** — The relevant purchase, deployment, integration, operating, maintenance and retirement expenses over a stated scope and time horizon.
+
+**Change adoption** — Observed use of a new process by the specified eligible population; training attendance and adoption are distinct measures.
+
+**Net present value (NPV)** — The sum of future cash flows discounted to a common valuation time less specified time-zero investment, within explicit assumptions and rates.
+
+See [Module 8](./08-optimization-sustainability-technology/README.md) and its [original capstone](./08-optimization-sustainability-technology/capstone/README.md).

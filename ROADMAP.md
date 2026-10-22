@@ -63,11 +63,19 @@
 - [x] Confirm GitHub Actions validation and final editorial/visual review
 - [x] Obtain final release approval and publish v7.0.0
 
-## Future modules
+## Module 8 — Optimization, Sustainability, and Technology (DRAFT PR #17)
 
-- [ ] Optimization and sustainability
+- [x] Author Sections A–C: 42 original lessons, three reviews and 42 original review scenarios
+- [x] Add 45 original SVGs, 47 fictional CSVs, and reproducible section/capstone calculations
+- [x] Create the integrated AlderGate optimization, sustainability and technology adoption capstone with fully worked solution
+- [x] Run independent development validators for each section and the capstone
+- [ ] Complete the shared eight-module quality validator and final cross-module audit
+- [ ] Inspect GitHub-rendered content and full/narrow raster previews, including all diagram labels
+- [ ] Complete manual editorial, originality, terminology and reference-edition review
+- [ ] Obtain explicit owner approval, then merge and publish a separately authorized Module 8 release
 
-Future module folders will be published only when substantive content is ready.
+The Module 8 branch is a **review candidate**, not part of the published Modules 1–7 release on `main`.
+
 
 ## Cross-module learning layer
 
