@@ -77,6 +77,6 @@ def main():
     print(f"Section A: {len(lessons)} lessons, {len(svgs)} original SVGs, {len(csvs)} fictional CSVs")
     for e in errors:print("ERROR:",e)
     if errors:return 1
-    print("MODULE 8 SECTION A QUALITY GATE PASSED; FULL MODULE 8 NOT YET RELEASED")
+    print("MODULE 8 SECTION A QUALITY GATE PASSED")
     return 0
 if __name__=="__main__":sys.exit(main())
