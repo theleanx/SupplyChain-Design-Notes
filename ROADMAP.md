@@ -63,7 +63,7 @@
 - [x] Confirm GitHub Actions validation and final editorial/visual review
 - [x] Obtain final release approval and publish v7.0.0
 
-## Module 8 — Optimization, Sustainability, and Technology (PR #17 review candidate)
+## Module 8 — Optimization, Sustainability, and Technology (released v8.0.0)
 
 - [x] Author Sections A–C: 42 original lessons, three reviews and 42 original review scenarios
 - [x] Add 45 original SVGs, 47 fictional CSVs, and reproducible section/capstone calculations
@@ -74,9 +74,10 @@
 - [x] Owner waived separate outside browser spot-check as a release gate on 2026-10-25 (not represented as independently completed)
 - [x] Owner-reported editorial and content review, no issues (2026-10-22)
 - [x] Owner explicitly waived external independent editorial/originality reviewer requirement on 2026-10-25; only owner review and automated checks are represented as completed
-- [ ] Obtain **separate, explicit owner merge/release authorization**; do not merge or publish a tag based on review sign-off alone
+- [x] Obtain separate owner authorizations to merge PR #17 and publish the v8.0.0 GitHub release (2026-10-25)
+- [x] Preserve original Modules 1–7 learning content and revalidate all eight modules
 
-The Module 8 branch is a **review candidate**, not part of the published Modules 1–7 release on `main`.
+Module 8 is integrated on `main` following [merged PR #17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17) and [v8.0.0 publication](https://github.com/theleanx/SupplyChain-Design-Notes/releases/tag/v8.0.0). Owner review and the waived external-review requirement are transparently documented.
 
 
 ## Cross-module learning layer
@@ -88,8 +89,8 @@ The Module 8 branch is a **review candidate**, not part of the published Modules
 - [x] Internal operations and inventory calculations reference
 - [x] Logistics, trade, and reverse-flow calculations/control reference
 - [x] Relationship-performance calculations/control reference
-- [x] Seven end-to-end case studies
-- [x] Shared module and section overview contract across Modules 1–7
+- [x] Eight end-to-end case studies
+- [x] Shared module and section overview contract across Modules 1–8
 - [ ] Commonly confused concepts index
 - [ ] Framework library
 - [ ] Cumulative knowledge review
@@ -101,4 +102,4 @@ The Module 8 branch is a **review candidate**, not part of the published Modules
 
 ## Current status
 
-Modules 1–7 are complete. Future modules will follow the same full-release gate before they appear on the default branch.
+Modules 1–8 are complete. Future improvements will follow the same full-release gate before being published on the default branch.

@@ -1,8 +1,8 @@
 # Module 8 Section C — Development Review Gate
 
 **Branch:** `feature/module-8-optimization-sustainability-technology`  
-**Pull request:** [#17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17) (review candidate; do not merge)  
-**Status:** Section C authored; final full Module 8 release not yet approved.
+**Pull request:** [#17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17) (merged; published in v8.0.0)  
+**Status:** Section C authored, validated and included in the released v8.0.0 Module 8 baseline.
 
 This checklist records original study-content development only. It includes no private APICS/ASCM text, presentation, flashcards, copyrighted diagrams or examination questions.
 
@@ -38,7 +38,7 @@ Source data is fictional. The checked-in replay independently tests:
 
 The script **passed GitHub CI** in run [39628209038](https://github.com/theleanx/SupplyChain-Design-Notes/actions/runs/39628209038) with the three section validators and the released baseline gate. These automated results do not replace final rendered-visual or editorial review.
 
-**Owner review — 2026-10-22:** All 45 SVGs and editorial content reportedly reviewed without issues or comments. On 2026-10-25 the owner explicitly waived separate independent-review and additional browser spot-check requirements. This does **not** claim those reviews occurred, and is **not** merge authorization.
+**Owner review — 2026-10-22:** All 45 SVGs and editorial content reportedly reviewed without issues or comments. On 2026-10-25 the owner explicitly waived separate independent-review and additional browser spot-check requirements. This does **not** claim those reviews occurred. Merge and v8.0.0 release were separately owner-authorized afterward.
 
 ## Mandatory publication and merge gates
 
@@ -46,7 +46,7 @@ The script **passed GitHub CI** in run [39628209038](https://github.com/theleanx
 - [x] Owner reviewed all 45 diagrams and editorial materials with no reported issues; automated validation covers Markdown links, SVG and Mermaid structure. Additional third-party/browser checks are waived as project gates (2026-10-25), not claimed as executed.
 - [ ] Editorially verify individual visual relevance, wording, calculation boundaries, course-source mapping and originality.
 - [x] Complete integrated cross-section Module 8 [AlderGate capstone](./08-optimization-sustainability-technology/capstone/README.md), [worked solution](./08-optimization-sustainability-technology/capstone/solution-guide.md) and [independent replay](./calculations/module8-capstone/replay.py); the capstone and existing four validator steps passed in [run 39801560519](https://github.com/theleanx/SupplyChain-Design-Notes/actions/runs/39801560519).
-- [ ] Expand the shared full repository validator to Modules 1–8 without weakening the released Modules 1–7 baseline.
-- [ ] Obtain owner approval before merge/release.
+- [x] Expand the shared full repository validator to Modules 1–8 while preserving the original Modules 1–7 baseline checks.
+- [x] Owner authorized merge of PR #17 and subsequent publication of v8.0.0 on 2026-10-25.
 
 This Section C development review is not certification by ASCM/APICS or any independent assessor.

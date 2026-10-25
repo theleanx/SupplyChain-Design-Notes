@@ -2,6 +2,23 @@
 
 Significant public improvements to this repository are recorded here.
 
+## Version 8.0.0 — Module 8: Optimization, Sustainability, and Technology
+
+Release target: 2026-10-25
+
+### Learning content and capstone
+
+- Releases 42 original lessons: 12 in strategic optimization, 12 in sustainability, and 18 in technology, project delivery, organizational change and maintenance.
+- Adds 45 original accessible SVG diagrams, 47 fictional CSV datasets and 89 answered educational checks (42 lesson, 42 section-review and 5 capstone cases).
+- Publishes the integrated AlderGate student assignment and fully worked solution, five-year NPV sensitivities, network and technology decision gates, source registers and independent calculation replays.
+
+### Validation and provenance
+
+- Extends the **shared repository validator to the full published Modules 1–8 inventory**, keeping exact Modules 1–7 baseline inventory/quality checks.
+- Records owner visual/editorial review and the explicit waiver of an external independent review; no separate external certification or copyright determination is implied.
+- Synchronizes repository/module status, learning paths, roadmap, citation metadata and versioned release notes after the owner-authorized merge of PR #17.
+- Source figures, supplier evaluations, emissions and investment results are independently authored fictional educational assumptions, not verified operational results.
+
 ## Version 7.0.2 — Module 7 review-record closure
 
 Release target: 2026-10-20

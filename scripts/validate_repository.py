@@ -35,10 +35,10 @@ MODULES = {
     "Module 7": (MODULE_7, 31),
     "Module 8": (MODULE_8, 42),
 }
-# Preserve the exact published inventory and substantive release checks for Modules 1–7;
-# extend the shared lesson/capstone rules to authored Module 8 without claiming it
-# has already been merged or released from the draft review PR.
-RELEASED_MODULES = {label: spec for label, spec in MODULES.items() if label != "Module 8"}
+# Keep all legacy Modules 1–7 quality rules/inventory as independent invariants
+# while also enforcing the complete published Modules 1–8 v8.0.0 baseline.
+BASELINE_MODULES_1_TO_7 = {label: spec for label, spec in MODULES.items() if label != "Module 8"}
+PUBLISHED_MODULES = MODULES
 MARKDOWN_LINK = re.compile(r"(?<!!)\[[^\]]*\]\(([^)]+)\)")
 MARKDOWN_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 FENCE = "`" * 3
@@ -344,7 +344,7 @@ def validate_module_overviews_and_reviews() -> list[str]:
                 continue
             # Preserve published Modules 1–7 content while requiring Module 8
             # to link back to every earlier completed module.
-            if other_module == MODULE_8 and module in {m for m, _ in RELEASED_MODULES.values()}:
+            if other_module == MODULE_8 and module in {m for m, _ in BASELINE_MODULES_1_TO_7.values()}:
                 continue
             target = f"../{other_module.name}/README.md"
             if target not in module_body:
@@ -1776,24 +1776,33 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
             if result not in solution:
                 errors.append(f"{label} capstone solution: missing verified result ({result})")
 
-    module_markdown = [path for path in markdown if any(path.is_relative_to(module) for module, _ in RELEASED_MODULES.values())]
-    details = sum(path.read_text(encoding="utf-8").count("<details>") for path in module_markdown)
-    if len(module_markdown) != 369:
-        errors.append(f"Repository inventory: expected 369 module Markdown files, found {len(module_markdown)}")
-    # Baseline inventory counts describe the seven *released* modules.
-    # Draft Module 8 assets still pass the universal SVG/CSV/link/orphan gates
-    # and the separate Section A development validator, but must not alter
-    # the immutable released baseline snapshot before the full Module 8 release.
-    released_svg = [p for p in svg if not p.is_relative_to(ROOT / "assets/diagrams/module-8")]
-    released_data = [p for p in datasets if not p.is_relative_to(ROOT / "assets/data/module-8")]
-    if len(released_svg) != 250:
-        errors.append(f"Repository inventory: expected 250 released SVG files, found {len(released_svg)}")
-    if len(released_data) != 101:
-        errors.append(f"Repository inventory: expected 101 released CSV files, found {len(released_data)}")
-    if details != 723:
-        errors.append(f"Repository inventory: expected 723 knowledge checks, found {details}")
+    # Retain the exact seven-module published v7 baseline checks (no relaxation).
+    module_markdown = [p for p in markdown if any(p.is_relative_to(m) for m, _ in BASELINE_MODULES_1_TO_7.values())]
+    details = sum(p.read_text(encoding="utf-8").count("<details>") for p in module_markdown)
+    legacy_svg = [p for p in svg if not p.is_relative_to(ROOT / "assets/diagrams/module-8")]
+    legacy_data = [p for p in datasets if not p.is_relative_to(ROOT / "assets/data/module-8")]
+    for label, actual, expected in (
+        ("legacy module Markdown files", len(module_markdown), 369),
+        ("legacy original SVGs", len(legacy_svg), 250),
+        ("legacy CSV inputs", len(legacy_data), 101),
+        ("legacy answered assessments", details, 723),
+    ):
+        if actual != expected:
+            errors.append(f"Modules 1–7 unmodified baseline: expected {expected} {label}, found {actual}")
 
-    # Keep v7 baseline immutable while testing the completed eighth-module draft.
+    # v8.0.0 current release inventory across all eight completed modules.
+    published_md = [p for p in markdown if any(p.is_relative_to(m) for m, _ in PUBLISHED_MODULES.values())]
+    published_details = sum(p.read_text(encoding="utf-8").count("<details>") for p in published_md)
+    for label, actual, expected in (
+        ("module Markdown files", len(published_md), 423),
+        ("original SVGs", len(svg), 295),
+        ("fictional CSVs", len(datasets), 148),
+        ("answered assessment blocks", published_details, 812),
+    ):
+        if actual != expected:
+            errors.append(f"Modules 1–8 published inventory: expected {expected} {label}, found {actual}")
+
+    # Independently preserve exact new Module 8 content/assessment counts.
     module8_md = [p for p in markdown if p.is_relative_to(MODULE_8)]
     module8_svgs = [p for p in svg if p.is_relative_to(ROOT / "assets/diagrams/module-8")]
     module8_csvs = [p for p in datasets if p.is_relative_to(ROOT / "assets/data/module-8")]
@@ -1805,15 +1814,15 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
         ("module knowledge-check answer blocks",module8_answer_blocks,89),
     ):
         if actual != expected:
-            errors.append(f"Module 8 authoring inventory: expected {expected} {name}, found {actual}")
+            errors.append(f"Module 8 released inventory: expected {expected} {name}, found {actual}")
 
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     for statement in (
-        "369 structured Markdown files",
-        "across seven completed modules",
-        "250 original SVG diagrams",
-        "101 original CSV datasets",
-        "723 independently authored knowledge checks",
+        "423 structured Markdown files",
+        "across eight completed modules",
+        "295 original SVG diagrams",
+        "148 original CSV datasets",
+        "812 independently authored knowledge checks",
         "./calculations/risk-response/formula-sheet.md",
         "07-supply-chain-risk/",
         "assets/diagrams/module-7/",
@@ -1824,14 +1833,14 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
             errors.append(f"README inventory is missing the current statement ({statement})")
 
     learning_paths = (ROOT / "LEARNING-PATHS.md").read_text(encoding="utf-8")
-    if "All seven modules can be read" not in learning_paths:
-        errors.append("LEARNING-PATHS.md: completed-module count is not seven")
+    if "All eight modules can be read" not in learning_paths:
+        errors.append("LEARNING-PATHS.md: completed-module count is not eight")
 
     roadmap = (ROOT / "ROADMAP.md").read_text(encoding="utf-8")
     for statement in (
-        "Seven end-to-end case studies",
-        "Shared module and section overview contract across Modules 1–7",
-        "Modules 1–7 are complete.",
+        "Eight end-to-end case studies",
+        "Shared module and section overview contract across Modules 1–8",
+        "Modules 1–8 are complete.",
     ):
         if statement not in roadmap:
             errors.append(f"ROADMAP.md: missing Module 7 release statement ({statement})")
@@ -1841,6 +1850,8 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
     changelog = (ROOT / "CHANGELOG.md").read_text(encoding="utf-8")
     if "## Version 7.0.0 — Module 7" not in changelog:
         errors.append("CHANGELOG.md: missing Module 7 release entry")
+    if "## Version 8.0.0 — Module 8" not in changelog:
+        errors.append("CHANGELOG.md: missing Module 8 release entry")
     release_dir = ROOT / ".github/releases"
     release_manifests = sorted(
         (path for path in release_dir.glob("v*.md") if re.fullmatch(r"v\d+\.\d+\.\d+", path.stem)),
@@ -1875,6 +1886,17 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
         MODULE_7: ("**39** structured Markdown learning/reference pages", "**31** topic lessons", "**72** independently authored knowledge checks"),
     }
     module_snapshot_claims[MODULE_8] = ("**45 original SVGs**", "**47 fictional CSV datasets**", "42 original lessons")
+    # Guard against accidental reintroduction of pre-release navigation.
+    for path, stale in (
+        (ROOT / "README.md", ("Module 8 is an unmerged", "review-candidate inventory (PR #17 only)", "Module 8 is **not released**")),
+        (ROOT / "08-optimization-sustainability-technology/README.md", ("NOT released", "in-progress branch snapshot", "release decision remains pending")),
+        (ROOT / "LEARNING-PATHS.md", ("draft review candidate", "part of unmerged")),
+        (ROOT / "ROADMAP.md", ("PR #17 review candidate", "branch is a **review candidate**")),
+    ):
+        content = path.read_text(encoding="utf-8")
+        for phrase in stale:
+            if phrase in content:
+                errors.append(f"{path.relative_to(ROOT)}: obsolete Module 8 status ({phrase})")
     for module, statements in module_snapshot_claims.items():
         module_readme = (module / "README.md").read_text(encoding="utf-8")
         for statement in statements:

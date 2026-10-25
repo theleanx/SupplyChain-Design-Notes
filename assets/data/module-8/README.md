@@ -1,6 +1,6 @@
-# Module 8 — Original Fictional Data Catalog (Review Candidate)
+# Module 8 — Original Fictional Data Catalog (v8.0.0)
 
-The published seven-module data catalog remains intact. These Module 8 datasets are independently authored teaching assumptions, not ASCM/APICS source content, legal authorizations, supplier findings or verified emissions.
+The published Modules 1–7 data catalog remains intact; these added Module 8 datasets are part of the published eight-module baseline. They remain independently authored teaching assumptions, not ASCM/APICS source content, legal authorizations, supplier findings or verified emissions.
 
 - [Section A — Optimization datasets](./section-a/README.md): 11 original CSVs supporting 12 lessons
 - [Section B — Sustainability datasets](./section-b/README.md): 12 original CSVs supporting 12 lessons

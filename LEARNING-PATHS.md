@@ -1,6 +1,6 @@
 # Learning Paths
 
-All seven modules can be read from beginning to end, but different roles may need a faster route to the decisions most relevant to their work. The paths below preserve the conceptual sequence while making focused study easier.
+All eight modules can be read from beginning to end, but different roles may need a faster route to the decisions most relevant to their work. The paths below preserve the conceptual sequence while making focused study easier.
 
 ## Module 1 complete foundation path
 
@@ -326,9 +326,9 @@ For Module 5 quantitative reference, open the [logistics, trade, and reverse-flo
 Use existing Modules 1–6 as the technical owners of the demand, network, procurement, production, logistics and relationship inputs. Module 7 adds the event exposure, decision gates, response economics and tested continuity treatment.
 
 
-## Module 8 optimization and technology integration path — draft review candidate
+## Module 8 optimization and technology integration path — released v8.0.0
 
-**For:** supply-chain architects, sustainability specialists, network leaders, transformation directors and executive decision makers. **Status:** This is part of unmerged [PR #17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17), not the published seven-module baseline.
+**For:** supply-chain architects, sustainability specialists, network leaders, transformation directors and executive decision makers. **Status:** Published in [v8.0.0](https://github.com/theleanx/SupplyChain-Design-Notes/releases/tag/v8.0.0) following merged [PR #17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17).
 
 1. [Optimizing supply-chain strategy and tactics](./08-optimization-sustainability-technology/section-a-optimizing-supply-chain-strategy-and-tactics/README.md)
 2. [Sustainability, reporting and standards](./08-optimization-sustainability-technology/section-b-sustainability/README.md)

@@ -1,6 +1,6 @@
 # Module 8: Optimization, Sustainability, and Technology
 
-> **Status: authored and automatically validated Module 8 review candidate; NOT released.** The owner reported reviewing all 45 visuals and editorial content without issues on 2026-10-22. The owner waived an external independent reviewer requirement on 2026-10-25. Explicit merge/release authorization remains separate; Modules 1–7 on `main` are unchanged.
+> **Status: released in v8.0.0 on 2026-10-25.** Module 8 was merged into `main` through [PR #17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17) and separately approved for [publication](https://github.com/theleanx/SupplyChain-Design-Notes/releases/tag/v8.0.0). The owner reviewed all 45 visuals and editorial content without reported issues and waived a separate external reviewer. The shared Modules 1–8 CI passed and original Modules 1–7 instruction was preserved.
 
 The final CSCP module brings together enterprise strategic alignment, sustainable performance and the selection, deployment and maintenance of enabling technologies. It uses the foundations of the seven earlier modules without repeating their full planning, procurement, manufacturing, logistics, relationship or risk methods. All public teaching examples are independently authored; no proprietary curriculum files are committed.
 
@@ -15,10 +15,10 @@ The final CSCP module brings together enterprise strategic alignment, sustainabl
 
 ## Module path
 
-1. [Section A — Optimizing Supply Chain Strategy and Tactics](./section-a-optimizing-supply-chain-strategy-and-tactics/README.md) — 12 lessons and the full section review authored; pending integrated Module 8 release.
-2. [Section B — Sustainability](./section-b-sustainability/README.md) — 12 lessons and original section review authored, pending integrated Module 8 release.
-3. [Section C — Technology Trends](./section-c-technology-trends/README.md) — 18 lessons and original review authored; final integrated release pending.
-4. [Integrated AlderGate Capstone](./capstone/README.md) — complete student assignment, worked solution, original decision graphics, dataset register, sensitivity and source-data replay; final repository audit and release approval pending.
+1. [Section A — Optimizing Supply Chain Strategy and Tactics](./section-a-optimizing-supply-chain-strategy-and-tactics/README.md) — 12 published lessons and full section review.
+2. [Section B — Sustainability](./section-b-sustainability/README.md) — 12 published lessons and full section review.
+3. [Section C — Technology Trends](./section-c-technology-trends/README.md) — 18 published lessons and full section review.
+4. [Integrated AlderGate Capstone](./capstone/README.md) — published student assignment, worked solution, original decision graphics, dataset register, sensitivity and source-data replay.
 
 ## Module resources
 
@@ -47,6 +47,6 @@ Each published lesson must contain plain-language concepts, business decisions, 
 
 ## Module snapshot
 
-This is an **in-progress branch snapshot** with 12 Section A, 12 Section B and 18 Section C lessons (42 original lessons); three section reviews with 42 original questions; **45 original SVGs** (42 lesson diagrams + 3 capstone diagrams); and **47 fictional CSV datasets** (41 section datasets + 6 capstone inputs). The integrated capstone is authored with a fully worked solution and an independent replay; the combined Modules 1–8 CI and owner visual/editorial review passed. A separate explicit merge/release decision remains pending. A final count of lessons, diagrams, datasets and assessments will be published only after content completion and successful Modules 1–8 verification.
+The **v8.0.0 released snapshot** contains 12 Section A, 12 Section B and 18 Section C lessons (42 original lessons), three section reviews with 42 original questions, **45 original SVGs** (42 topic diagrams and three capstone diagrams), and **47 fictional CSV datasets** (41 section datasets and six capstone inputs). The capstone includes a fully worked solution and source-data replay. The combined Modules 1–8 checks and owner visual/editorial review passed. Module 8 contains **89 answered assessment blocks**.
 
 **Source policy:** Scope is checked against the 2026 APICS CSCP Module 8 curriculum, accompanying slides and term cards privately. The learning text and examples here are independent, not reproduced source content.

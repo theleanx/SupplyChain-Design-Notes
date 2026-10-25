@@ -2,7 +2,7 @@
 
 Independent, practitioner-oriented learning notes for designing supply networks, planning demand, sourcing and operating supply, moving goods, managing customer and supplier relationships, and measuring performance.
 
-> **Current release:** Modules 1–7 remain complete on `main`; **Module 8 is an unmerged review candidate** in [PR #17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17), not yet released. The learning pages use original explanations, fictional examples, editable visuals, worked calculations, and independently authored knowledge checks.
+> **Current release: v8.0.0 — all eight supply-chain learning modules are published on `main`.** Module 8 was merged through [PR #17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17) and separately authorized for [v8.0.0 publication](https://github.com/theleanx/SupplyChain-Design-Notes/releases/tag/v8.0.0). All content uses original explanations, fictional examples and independently authored practice checks.
 
 ## Start here
 
@@ -15,7 +15,7 @@ Independent, practitioner-oriented learning notes for designing supply networks,
 | 5 | Logistics, warehousing, fulfillment, transportation, international trade, returns, reverse logistics, and waste | [Forward and Reverse Logistics](./05-forward-reverse-logistics/) |
 | 6 | Customer relationships, CRM, supplier relationships, SRM, alliances, performance, certification, collaboration, and communication | [Supply Chain Relationships](./06-supply-chain-relationships/) |
 | 7 | Risk governance, qualitative/quantitative assessment, response economics, disruption recovery and business continuity | [Supply Chain Risk](./07-supply-chain-risk/) |
-| 8 (review candidate) | Strategic optimization, sustainability, technology adoption and lifecycle decisions | [Module 8 — Optimization, Sustainability, and Technology](./08-optimization-sustainability-technology/README.md) |
+| 8 | Strategic optimization, sustainability, technology adoption and lifecycle decisions | [Module 8 — Optimization, Sustainability, and Technology](./08-optimization-sustainability-technology/README.md) |
 
 Choose a route using the [role-based learning paths](./LEARNING-PATHS.md), look up a term in the [repository glossary](./GLOSSARY.md), or move directly to a quantitative reference:
 
@@ -36,6 +36,7 @@ Each module ends with an integrated fictional case:
 - [HarborPeak network, trade, and reverse-flow stabilization capstone](./05-forward-reverse-logistics/capstone/README.md)
 - [ClearSpan customer-supplier relationship stabilization capstone](./06-supply-chain-relationships/capstone/README.md)
 - [Stonebridge risk and resilience capstone](./07-supply-chain-risk/capstone/README.md)
+- [AlderGate integrated optimization, sustainability and technology capstone](./08-optimization-sustainability-technology/capstone/README.md)
 
 ## What makes this repository useful
 
@@ -62,6 +63,7 @@ The examples use fictional organizations and independently selected values. Diag
 05-forward-reverse-logistics/                        Module 5 learning content
 06-supply-chain-relationships/                        Module 6 learning content
 07-supply-chain-risk/                                 Module 7 learning content
+08-optimization-sustainability-technology/             Module 8 learning content
 assets/diagrams/module-1/                            Module 1 SVG diagrams
 assets/diagrams/module-2/                            Module 2 SVG diagrams
 assets/diagrams/module-3/                            Module 3 SVG diagrams
@@ -69,6 +71,7 @@ assets/diagrams/module-4/                            Module 4 SVG diagrams
 assets/diagrams/module-5/                            Module 5 SVG diagrams
 assets/diagrams/module-6/                            Module 6 SVG diagrams
 assets/diagrams/module-7/                            Module 7 SVG diagrams
+assets/diagrams/module-8/                            Module 8 SVG diagrams
 assets/data/module-1/                                Module 1 example datasets
 assets/data/module-2/                                Module 2 example datasets
 assets/data/module-3/                                Module 3 example datasets
@@ -76,6 +79,7 @@ assets/data/module-4/                                Module 4 example datasets
 assets/data/module-5/                                Module 5 example datasets
 assets/data/module-6/                                Module 6 example datasets
 assets/data/module-7/                                Module 7 example datasets
+assets/data/module-8/                                Module 8 example datasets
 calculations/forecasting/                            Forecasting references
 calculations/network-performance/                    Network and performance references
 calculations/sourcing-procurement/                   Sourcing and procurement references
@@ -83,6 +87,7 @@ calculations/internal-operations/                    Internal operations and inv
 calculations/logistics-trade-reverse/                Logistics, trade, and reverse-flow references
 calculations/relationship-performance/                 Relationship-management performance and control references
 calculations/risk-response/                           Risk-response calculations and decision-control references
+calculations/module8-capstone/                        Module 8 integrated decision models and replay
 GLOSSARY.md                                           Cross-module terminology index
 LEARNING-PATHS.md                                     Role- and time-based reading routes
 _templates/                                           Reusable authoring templates
@@ -90,9 +95,9 @@ scripts/                                              Automated repository valid
 QUALITY.md                                            Quality and originality standards
 ```
 
-## Module 8 review-candidate inventory (PR #17 only)
+## Module 8 published inventory — v8.0.0
 
-The feature branch additionally contains **54 module learning/reference Markdown pages**, including 42 lessons, three section reviews and one integrated fully worked AlderGate capstone; **45 original Module 8 SVG diagrams**; and **47 fictional Module 8 CSV datasets**. Its 42 original section-review cases accompany the 42 lesson checks, and its capstone has five additional self-checks. **None of these counts change the seven-module published-release snapshot below.** Shared Modules 1–8 CI passed, and the owner reported reviewing all diagrams and content without issues on 2026-10-22. On 2026-10-25 the owner waived an external independent review requirement. **Explicit merge and release authorization** remains separate, and Module 8 is **not released**.
+Module 8 contains **54 module learning/reference Markdown pages**, including **42 original lessons** across three sections, three section reviews, and the worked AlderGate integrated capstone; **45 original Module 8 SVG diagrams** and **47 fictional Module 8 CSV datasets**. It has **89 answered checks**: 42 lesson questions, 42 section-review scenarios and five capstone questions. The owner reviewed the visuals/editorial content and waived external independent review. [PR #17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17) was merged into `main` on October 25, 2026, and [v8.0.0](https://github.com/theleanx/SupplyChain-Design-Notes/releases/tag/v8.0.0) records the released baseline.
 
 - [Module 8 learning path](./08-optimization-sustainability-technology/README.md)
 - [Capstone student assignment](./08-optimization-sustainability-technology/capstone/README.md) and [worked solution](./08-optimization-sustainability-technology/capstone/solution-guide.md)
@@ -103,12 +108,12 @@ The feature branch additionally contains **54 module learning/reference Markdown
 
 The repository currently includes:
 
-- 369 structured Markdown files across seven completed modules;
-- twenty-four connected learning sections;
-- 250 original SVG diagrams plus repository-native Mermaid process flows;
-- 101 original CSV datasets for worked analysis;
-- 723 independently authored knowledge checks;
-- seven integrated end-to-end capstones; and
+- 423 structured Markdown files across eight completed modules;
+- twenty-seven connected learning sections;
+- 295 original SVG diagrams plus repository-native Mermaid process flows;
+- 148 original CSV datasets for worked analysis;
+- 812 independently authored knowledge checks;
+- eight integrated end-to-end capstones; and
 - automated validation of internal navigation, Markdown structure, process-flow presence, quantitative dataset linkage, worked results, SVG accessibility, CSV consistency, and module-specific calculation controls.
 
 The repository runs a read-only content-quality workflow on every push and pull request to detect broken links, malformed datasets, invalid or inaccessible SVGs, missing process flows, inconsistent calculations, weak assessment language, structural drift, unbalanced Markdown blocks, and drift from the shared module/section overview contract.

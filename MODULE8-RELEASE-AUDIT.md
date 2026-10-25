@@ -1,16 +1,16 @@
-# Module 8 — Final Integration and Release-Candidate Audit
+# Module 8 — Published v8.0.0 Integration and Release Audit
 
 **Repository:** [theleanx/SupplyChain-Design-Notes](https://github.com/theleanx/SupplyChain-Design-Notes)  
-**Review branch:** `feature/module-8-optimization-sustainability-technology`  
-**Review PR:** [#17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17)  
+**Development branch:** `feature/module-8-optimization-sustainability-technology` (merged into `main` through PR #17)  
+**Merged PR:** [#17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17) — merge commit [`fdeaf54`](https://github.com/theleanx/SupplyChain-Design-Notes/commit/fdeaf54a351a94a5561572529b53495141c7ccf3)  
 **Most recent validated content commit before owner-review record:** [GitHub Actions run #39807192677](https://github.com/theleanx/SupplyChain-Design-Notes/actions/runs/39807192677) (commit `30c1cbd30edaddad40424f75cb9195841863b91c`)  
-**Disposition as of 2026-10-22:** **Authoring and automated audit complete; owner self-reports completing all 45 visual inspections and editorial review with no issues or comments.** At the owner's instruction on **2026-10-25**, **external independent editorial/PR review is waived as a project gate**; the repository does not claim such a review occurred. PR #17 is unmerged and separately authorized merge/tag actions remain required.
+**Release disposition 2026-10-25:** The owner reviewed all 45 visuals and the editorial content without reported issues, waived an external independent-review requirement, explicitly authorized merging PR #17 (completed at `fdeaf54`), and subsequently authorized the `v8.0.0` metadata/tag/release. The shared Modules 1–8 validation succeeded after merge ([run 40233275974](https://github.com/theleanx/SupplyChain-Design-Notes/actions/runs/40233275974)). This is owner-reviewed educational content, not outside certification. [Release v8.0.0](https://github.com/theleanx/SupplyChain-Design-Notes/releases/tag/v8.0.0).
 
 ## 1. Scope and baseline preservation
 
-The previously released seven modules were checked against `main` in the GitHub pull-request comparison. **No files under the original `01-` through `07-` module directories are modified by PR #17.** The main branch release baseline stays at `dbd5890edb7a20480f3007ce402f9f79406cbab7` as of this audit. The feature branch changes only new Module 8 content/assets/scripts and shared cross-module indices/workflow/validator. The previous version, citation and published release manifests were **not prematurely revised to assert a Module 8 release**.
+The previously released seven modules were checked against `main` in the GitHub pull-request comparison. **No files under the original `01-` through `07-` module directories are modified by PR #17.** The protected pre-merge baseline was `dbd5890edb7a20480f3007ce402f9f79406cbab7`; the merge was `fdeaf54a351a94a5561572529b53495141c7ccf3`. PR #17 touched only Module 8 content/assets/scripts and shared navigation/quality tooling, not any original Modules 1–7 lesson files. This v8.0.0 metadata commit updates the published version, citation and release manifest after separate authorization.
 
-The shared [repository validator](./scripts/validate_repository.py) now counts Module 8 as a **42-topic completed authoring candidate** while retaining the original *seven-module released inventory* and verification expectations independently. The CI workflow calls this **one shared validator**; Section A/B/C/capstone and SVG-source checks are invoked from it, not redundantly as four separate CI workflow steps.
+The shared [repository validator](./scripts/validate_repository.py) now checks Module 8 as a **42-topic released module** and the complete eight-module inventory, while retaining the exact old seven-module inventory and substantive quality expectations independently. The CI workflow calls this **one shared validator**; Section A/B/C/capstone and SVG-source checks are invoked from it, not redundantly as four separate CI workflow steps.
 
 ## 2. Audited Module 8 development inventory
 
@@ -75,15 +75,13 @@ The improved Module 8 diagrams have at least **6** structural arrangements in Se
 - [x] **Additional outside browser/reviewer inspection not required by owner (2026-10-25).** Owner accepted the 45-diagram and editorial inspection plus existing automated Markdown/Mermaid/asset checks. Exact real-browser interaction beyond this evidence is not separately attested; this is a disclosed verification limit, not a release blocker.
 - [x] No defects reported in the owner's visual/editorial review. Any future discovered defect must still be corrected and validated before claiming its resolution.
 
-## 7. Release governance and disposition
+## 7. Owner approval, merge and v8.0.0 publication
 
-**Do not merge PR #17 or modify published release/CITATION metadata without the owner’s explicit approval.**
+- [x] Owner visual and editorial acceptance (all 45 diagrams, no issues reported).
+- [x] Owner waived the separate external review as a *project* gate; no independent certification is claimed.
+- [x] Shared Module 1–8 check passed on the reviewed PR head and again on merged `main`, including Sections A/B/C and AlderGate scenario replay.
+- [x] Owner authorized and completed merge of [PR #17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17) at commit [`fdeaf54`](https://github.com/theleanx/SupplyChain-Design-Notes/commit/fdeaf54a351a94a5561572529b53495141c7ccf3).
+- [x] Owner separately authorized publishing the `v8.0.0` version metadata and GitHub release on 2026-10-25.
+- [x] [Versioned GitHub release](https://github.com/theleanx/SupplyChain-Design-Notes/releases/tag/v8.0.0) and the committed [manifest](./.github/releases/v8.0.0.md) identify the published baseline.
 
-Before approval, require:
-
-1. **Owner visual and editorial acceptance completed on 2026-10-22**, and **the owner waived separate independent review and additional browser spot-check as project release gates on 2026-10-25**. Preserve the distinction between automated/owner checks and unperformed third-party certification.
-2. Confirm zero unresolved high-severity accuracy, diagram clipping, permission or unsupported legal/certification claims.
-3. Confirm latest branch head has a passing shared Modules 1–8 CI run and the PR changes no Modules 1–7 learning content.
-4. The PR may be made **ready for review** without merging. **Merge into `main`, update of release metadata, and publication of any Module 8 tag/release each require later explicit owner authorization**; the manual-review update is not that authorization.
-
-**Current determination:** Owner review and Modules 1–8 automated validation passed. The owner **does not require an independent reviewer**, which is not represented as having reviewed the materials. PR #17 is **ready for review but unmerged**; Module 8 is **not released**. The remaining project authorization is an explicit instruction to merge and, separately, to publish release metadata/tag. Any GitHub-enforced branch policy still applies if configured.
+**Final scope:** The release contains original educational material, with fictional examples and modeled outcomes. A passing automated validator and owner sign-off are not regulatory, legal, plagiarism, or professional standards certification. Subsequent changes must pass the established quality pipeline.
