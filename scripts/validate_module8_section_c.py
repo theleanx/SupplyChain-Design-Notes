@@ -87,6 +87,6 @@ def audit():
     print(f"Section C: {len(lessons)} lessons, {len(svgs)} SVGs, {len(datasets)} CSVs")
     for issue in ERRORS:print("ERROR:",issue)
     if ERRORS:return 1
-    print("MODULE 8 SECTION C QUALITY GATE PASSED; FULL MODULE 8 CAPSTONE/RELEASE PENDING")
+    print("MODULE 8 SECTION C QUALITY GATE PASSED")
     return 0
 if __name__=="__main__":sys.exit(audit())
