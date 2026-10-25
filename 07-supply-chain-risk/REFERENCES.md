@@ -1,4 +1,4 @@
-# Module 7 Reference Register — authored sections; capstone pending
+# Module 7 Reference Register — released sections and Stonebridge capstone
 
 These independently authored notes use the uploaded ASCM/APICS 2026 learning materials for the **topic outline only**. Those protected source documents are not redistributed. Source coverage is recorded in a separate non-public build audit.
 

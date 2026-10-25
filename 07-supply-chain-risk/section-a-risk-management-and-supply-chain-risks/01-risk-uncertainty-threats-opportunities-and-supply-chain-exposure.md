@@ -1,6 +1,6 @@
 # 1. Risk, Uncertainty, Threats, Opportunities, and Supply-Chain Exposure
 
-> **Section A authoring candidate.** Stonebridge and all values are fictional training cases; no protected source content is reproduced.
+> **Released Module 7 lesson.** Stonebridge and all values are fictional training cases; no protected source content is reproduced.
 
 ## Learning objectives
 
