@@ -39,10 +39,10 @@ Stonebridge Industrial Components is the fictional operating context. This secti
 
 First define the event path and objective, then establish the responsible owner and governance limits. Do not introduce quantitative ranking before the scenario and evidence are stable. Move from definitions (A01–A03) to tolerances/plans (A04–A08), then identification/registers (A09–A10) and losses (A11–A12). Complete the original review and retain an unresolved-evidence list. Section B owns probability-impact estimation, response choice, simulation and recovery decisions.
 
-## Section A release boundary
+## Section A release status
 
-**Authoring candidate:** the Section A package is available for review but Module 7 is not complete. This content should remain on an unmerged working branch until Section B, the integrated capstone, the full repository validator and rendered visual/editorial checks are completed.
+**Released.** Section A's 12 lessons and original section review are part of the completed Module 7 release alongside Section B and the Stonebridge capstone. The full-repository and Module 7 validators cover this published section. Module 7 was released in v7.0.0, with final review-record closure in v7.0.2.
 
 ---
 
-[Start Section A](./01-risk-uncertainty-threats-opportunities-and-supply-chain-exposure.md) · [Draft Module 7 overview](../README.md)
+[Start Section A](./01-risk-uncertainty-threats-opportunities-and-supply-chain-exposure.md) · [Module 7 overview](../README.md)

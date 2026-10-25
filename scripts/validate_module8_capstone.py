@@ -137,7 +137,7 @@ def validate() -> int:
     for msg in errors:print("ERROR:",msg)
     if errors:
         return 1
-    print("MODULE 8 CAPSTONE DEVELOPMENT QUALITY GATE PASSED — final full repository release approval still pending")
+    print("MODULE 8 CAPSTONE QUALITY GATE PASSED")
     return 0
 
 

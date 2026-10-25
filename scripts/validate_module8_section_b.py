@@ -82,6 +82,6 @@ def run():
     print(f"Section B audit: {len(topic)} lessons, {len(svg)} SVGs, {len(datasets)} CSVs")
     for e in err:print("ERROR:",e)
     if err:return 1
-    print("MODULE 8 SECTION B QUALITY GATE PASSED; MODULE 8 NOT YET RELEASED")
+    print("MODULE 8 SECTION B QUALITY GATE PASSED")
     return 0
 if __name__=="__main__":sys.exit(run())
