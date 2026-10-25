@@ -1,6 +1,6 @@
 # Module 8: Optimization, Sustainability, and Technology
 
-> **Status: released in v8.0.0 on 2026-10-25.** Module 8 was merged into `main` through [PR #17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17) and separately approved for [publication](https://github.com/theleanx/SupplyChain-Design-Notes/releases/tag/v8.0.0). The owner reviewed all 45 visuals and editorial content without reported issues and waived a separate external reviewer. The shared Modules 1–8 CI passed and original Modules 1–7 instruction was preserved.
+> **Status: released in v8.0.0 on 2026-10-25; current documentation baseline v8.0.1.** Module 8 was merged into `main` through [PR #17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17) and separately approved for [publication](https://github.com/theleanx/SupplyChain-Design-Notes/releases/tag/v8.0.0). The owner reviewed all 45 visuals and editorial content without reported issues and waived a separate external reviewer. The shared Modules 1–8 CI passed and original Modules 1–7 instruction was preserved.
 
 The final CSCP module brings together enterprise strategic alignment, sustainable performance and the selection, deployment and maintenance of enabling technologies. It uses the foundations of the seven earlier modules without repeating their full planning, procurement, manufacturing, logistics, relationship or risk methods. All public teaching examples are independently authored; no proprietary curriculum files are committed.
 

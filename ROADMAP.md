@@ -63,7 +63,7 @@
 - [x] Confirm GitHub Actions validation and final editorial/visual review
 - [x] Obtain final release approval and publish v7.0.0
 
-## Module 8 — Optimization, Sustainability, and Technology (released v8.0.0)
+## Module 8 — Optimization, Sustainability, and Technology (released v8.0.0; docs synchronized v8.0.1)
 
 - [x] Author Sections A–C: 42 original lessons, three reviews and 42 original review scenarios
 - [x] Add 45 original SVGs, 47 fictional CSVs, and reproducible section/capstone calculations

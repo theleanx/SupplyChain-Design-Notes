@@ -1886,6 +1886,15 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
         MODULE_7: ("**39** structured Markdown learning/reference pages", "**31** topic lessons", "**72** independently authored knowledge checks"),
     }
     module_snapshot_claims[MODULE_8] = ("**45 original SVGs**", "**47 fictional CSV datasets**", "42 original lessons")
+    for folder in (
+        MODULE_8 / "section-a-optimizing-supply-chain-strategy-and-tactics",
+        MODULE_8 / "section-b-sustainability",
+        MODULE_8 / "section-c-technology-trends",
+    ):
+        overview = (folder / "README.md").read_text(encoding="utf-8")
+        for stale in ("remains unreleased", "still unfinished", "release approval are pending"):
+            if stale in overview:
+                errors.append(f"{folder.relative_to(ROOT)}: obsolete section pre-release status ({stale})")
     # Guard against accidental reintroduction of pre-release navigation.
     for path, stale in (
         (ROOT / "README.md", ("Module 8 is an unmerged", "review-candidate inventory (PR #17 only)", "Module 8 is **not released**")),

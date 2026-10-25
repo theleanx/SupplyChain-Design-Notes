@@ -1,6 +1,6 @@
 # Section C: Technology Trends
 
-> **Development milestone:** eighteen original topic lessons and an eighteen-question review are authored directly in Module 8 PR #17, with eighteen original SVGs and eighteen fictional CSVs. The full Module 8 capstone, cross-module validator and final release approval are pending.
+> **Published Section C — Module 8 v8.0.0, carried forward in v8.0.1.** Includes eighteen original technology/implementation/change/maintenance lessons, eighteen original SVG diagrams, eighteen fictional CSV datasets, and an eighteen-question review. The AlderGate capstone, shared eight-module validator and owner-authorized release have been completed.
 
 Section C follows the privately supplied 2026 CSCP source across emerging technologies, intelligent supply-chain enablers, technology assessment, project management, change management and maintenance. AlderGate Motion Products is an independent fictional case.
 

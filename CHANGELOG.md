@@ -2,6 +2,17 @@
 
 Significant public improvements to this repository are recorded here.
 
+## Version 8.0.1 — Module 8 published section-status synchronization
+
+Release target: 2026-10-25
+
+### Documentation-only correction
+
+- Synchronizes the Section A, B and C overview banners with the completed and owner-authorized Module 8 v8.0.0 release.
+- Adds a shared-validator check to reject stale *unreleased*, *unfinished*, or *pending release approval* phrases in published Module 8 section overview statuses.
+- Updates the root/module release pointer and citation version to v8.0.1.
+- Preserves all 42 Module 8 lessons, 45 original SVGs, 47 fictional CSVs, all capstone results, and the entire Modules 1–7 educational baseline unchanged.
+
 ## Version 8.0.0 — Module 8: Optimization, Sustainability, and Technology
 
 Release target: 2026-10-25

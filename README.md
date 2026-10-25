@@ -2,7 +2,7 @@
 
 Independent, practitioner-oriented learning notes for designing supply networks, planning demand, sourcing and operating supply, moving goods, managing customer and supplier relationships, and measuring performance.
 
-> **Current release: v8.0.0 — all eight supply-chain learning modules are published on `main`.** Module 8 was merged through [PR #17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17) and separately authorized for [v8.0.0 publication](https://github.com/theleanx/SupplyChain-Design-Notes/releases/tag/v8.0.0). All content uses original explanations, fictional examples and independently authored practice checks.
+> **Current release: v8.0.1 — all eight supply-chain learning modules are published on `main`.** Module 8 was merged through [PR #17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17) and separately authorized for [v8.0.0 publication](https://github.com/theleanx/SupplyChain-Design-Notes/releases/tag/v8.0.0) and the [v8.0.1 documentation patch](https://github.com/theleanx/SupplyChain-Design-Notes/releases/tag/v8.0.1). All content uses original explanations, fictional examples and independently authored practice checks.
 
 ## Start here
 

@@ -1,6 +1,6 @@
 # Section B: Sustainability
 
-> **Development milestone:** twelve original topic lessons and a twelve-question review are authored directly in PR #17. The entire Module 8 is still unfinished, and no material from the private APICS PDFs or term cards is reproduced here.
+> **Published Section B — Module 8 v8.0.0, carried forward in v8.0.1.** Includes twelve independently authored sustainability lessons, twelve original diagrams, twelve fictional CSV datasets and a twelve-question assessment. The complete Module 8 and its integrated capstone are published. No material from private APICS/ASCM PDFs, presentations or term cards is reproduced here.
 
 Section B covers the environmental, economic and social dimensions of sustainability, effective and responsible supply-chain behaviors, and the meaning of applicable guidelines, standards and disclosures. AlderGate Motion Products is fictional, as are all calculations, supplier records and decision thresholds.
 

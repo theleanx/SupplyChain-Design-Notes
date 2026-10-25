@@ -1,6 +1,6 @@
 # Section A: Optimizing Supply Chain Strategy and Tactics
 
-> **Section A authored on the Module 8 review branch:** twelve topic lessons, twelve original decision visuals, eleven fictional datasets, and a twelve-question section assessment. The overall Module 8 remains unreleased until Sections B–C, the integrated capstone and full shared-validator extension pass.
+> **Published Section A — Module 8 v8.0.0, carried forward in v8.0.1.** Includes twelve original strategy and optimization lessons, twelve original decision diagrams, eleven fictional CSV datasets and a twelve-question assessment. All Module 8 sections and the integrated AlderGate capstone are published, and the shared Modules 1–8 validation passed.
 
 Section A connects business strategy to supply-chain operating design, analyzes stakeholder value, then evaluates financial, facility and quantitative optimization choices. The common teaching context is the fictional manufacturer **AlderGate Motion Products**; all numeric inputs are independently invented and not ASCM benchmarks.
 
