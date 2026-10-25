@@ -1,8 +1,8 @@
 # Module 8 — Actual GitHub SVG Visual Review Gallery
 
-> **Review candidate only.** This gallery links directly to the original SVG files committed in draft PR #17. It places each same image at a wide and a narrow display width for a convenient **GitHub-rendered spot-check**. The gallery is a human inspection aid; its existence is **not** evidence a reviewer has inspected every rasterized page or signed the visual/editorial release gate.
+> **Owner-reviewed release candidate only.** This gallery links directly to original SVG files in PR #17, which is ready for review and unmerged. It places each same image at a wide and a narrow display width for a convenient **GitHub-rendered spot-check**. The gallery is a human inspection aid; its existence is **not** evidence a reviewer has inspected every rasterized page or signed the visual/editorial release gate.
 
-**Owner visual review — 2026-10-22:** The owner reported inspecting all **45** diagrams, finding no issues, and requesting no corrections. This is recorded as a self-reported owner sign-off, not independent reviewer certification or evidence of an exact browser viewport. The owner explicitly prohibited merging at this stage.
+**Owner visual review — 2026-10-22:** The owner reported inspecting all **45** diagrams, finding no issues, and requesting no corrections. This is recorded as a self-reported owner sign-off, not independent reviewer certification or evidence of an exact browser viewport. The owner explicitly prohibited merging at this stage. On 2026-10-25, the owner confirmed that no external independent reviewer is required.
 
 **Visual checklist:** At both widths confirm that every label is readable, text does not collide with bars or legends, decision steps remain meaningful, source example units and denominators are unambiguous, and the visual illustrates the lesson instead of repeating a generic card layout. Also open a linked lesson to inspect Mermaid workflows, questions and table rendering.
 
@@ -91,6 +91,6 @@ The independent source-level [SVG audit script](./scripts/validate_module8_visua
 2. Open [Section A](./08-optimization-sustainability-technology/section-a-optimizing-supply-chain-strategy-and-tactics/README.md), [Section B](./08-optimization-sustainability-technology/section-b-sustainability/README.md), and [Section C](./08-optimization-sustainability-technology/section-c-technology-trends/README.md) lessons and check how source Markdown, Mermaid diagrams and SVGs actually render.
 3. Inspect the [integrated assignment](./08-optimization-sustainability-technology/capstone/README.md) and [worked solution](./08-optimization-sustainability-technology/capstone/solution-guide.md) at both widths.
 4. Record any clipped label, illegible plot, arithmetic mismatch, semantic flaw, repetitive or suspiciously copied prose, or broken external source. Close findings and rerun CI before release.
-5. Obtain explicit owner approval before changing PR #17 from draft to mergeable and updating the published release metadata.
+5. PR #17 has already been marked ready for review. Obtain explicit owner permission before **merging**, changing published release metadata or creating a version tag.
 
-**Status:** Gallery prepared. **Human visual and independent originality sign-off remains open.** The existing Modules 1–7 content on `main` is not modified.
+**Status:** All 45 diagrams were owner-reviewed with no reported issues. The owner waived an additional independent review on 2026-10-25. No claim of outside visual or originality certification is made. Modules 1–7 on `main` are unchanged and PR #17 remains unmerged.

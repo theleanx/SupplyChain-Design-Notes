@@ -1,6 +1,6 @@
 # Module 8: Optimization, Sustainability, and Technology
 
-> **Status: authored and automatically validated Module 8 review candidate; NOT released.** The owner reported reviewing all 45 visuals and editorial content without issues on 2026-10-22. Independent review where required and explicit merge/release authorization remain separate; Modules 1–7 on `main` are unchanged.
+> **Status: authored and automatically validated Module 8 review candidate; NOT released.** The owner reported reviewing all 45 visuals and editorial content without issues on 2026-10-22. The owner waived an external independent reviewer requirement on 2026-10-25. Explicit merge/release authorization remains separate; Modules 1–7 on `main` are unchanged.
 
 The final CSCP module brings together enterprise strategic alignment, sustainable performance and the selection, deployment and maintenance of enabling technologies. It uses the foundations of the seven earlier modules without repeating their full planning, procurement, manufacturing, logistics, relationship or risk methods. All public teaching examples are independently authored; no proprietary curriculum files are committed.
 
@@ -47,6 +47,6 @@ Each published lesson must contain plain-language concepts, business decisions, 
 
 ## Module snapshot
 
-This is an **in-progress branch snapshot** with 12 Section A, 12 Section B and 18 Section C lessons (42 original lessons); three section reviews with 42 original questions; **45 original SVGs** (42 lesson diagrams + 3 capstone diagrams); and **47 fictional CSV datasets** (41 section datasets + 6 capstone inputs). The integrated capstone is authored with a fully worked solution and an independent replay; final combined capstone CI, manual rendering and full Modules 1–8 release verification remain pending. A final count of lessons, diagrams, datasets and assessments will be published only after content completion and successful Modules 1–8 verification.
+This is an **in-progress branch snapshot** with 12 Section A, 12 Section B and 18 Section C lessons (42 original lessons); three section reviews with 42 original questions; **45 original SVGs** (42 lesson diagrams + 3 capstone diagrams); and **47 fictional CSV datasets** (41 section datasets + 6 capstone inputs). The integrated capstone is authored with a fully worked solution and an independent replay; the combined Modules 1–8 CI and owner visual/editorial review passed. A separate explicit merge/release decision remains pending. A final count of lessons, diagrams, datasets and assessments will be published only after content completion and successful Modules 1–8 verification.
 
 **Source policy:** Scope is checked against the 2026 APICS CSCP Module 8 curriculum, accompanying slides and term cards privately. The learning text and examples here are independent, not reproduced source content.

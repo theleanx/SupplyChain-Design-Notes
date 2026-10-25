@@ -71,9 +71,9 @@
 - [x] Run independent development validators for each section and the capstone
 - [x] Complete the shared eight-module quality validator and automated cross-module audit — [latest evidence](./MODULE8-RELEASE-AUDIT.md)
 - [x] Owner-reported manual review of all 45 diagrams, no issues (2026-10-22)
-- [ ] Separate spot-check of GitHub-rendered Mermaid/tables/expanders, if needed for independent release gate
+- [x] Owner waived separate outside browser spot-check as a release gate on 2026-10-25 (not represented as independently completed)
 - [x] Owner-reported editorial and content review, no issues (2026-10-22)
-- [ ] Independent editorial/source-originality sign-off (not implied by owner review)
+- [x] Owner explicitly waived external independent editorial/originality reviewer requirement on 2026-10-25; only owner review and automated checks are represented as completed
 - [ ] Obtain **separate, explicit owner merge/release authorization**; do not merge or publish a tag based on review sign-off alone
 
 The Module 8 branch is a **review candidate**, not part of the published Modules 1–7 release on `main`.

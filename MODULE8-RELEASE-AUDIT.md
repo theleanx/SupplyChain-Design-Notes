@@ -4,7 +4,7 @@
 **Review branch:** `feature/module-8-optimization-sustainability-technology`  
 **Review PR:** [#17](https://github.com/theleanx/SupplyChain-Design-Notes/pull/17)  
 **Most recent validated content commit before owner-review record:** [GitHub Actions run #39807192677](https://github.com/theleanx/SupplyChain-Design-Notes/actions/runs/39807192677) (commit `30c1cbd30edaddad40424f75cb9195841863b91c`)  
-**Disposition as of 2026-10-22:** **Authoring and automated audit complete; owner self-reports completing all 45 visual inspections and editorial review with no issues or comments.** No independent outside review or formal GitHub PR approval is implied. PR #17 is unmerged; separate explicit merge/tag authorization is still required.
+**Disposition as of 2026-10-22:** **Authoring and automated audit complete; owner self-reports completing all 45 visual inspections and editorial review with no issues or comments.** At the owner's instruction on **2026-10-25**, **external independent editorial/PR review is waived as a project gate**; the repository does not claim such a review occurred. PR #17 is unmerged and separately authorized merge/tag actions remain required.
 
 ## 1. Scope and baseline preservation
 
@@ -63,7 +63,7 @@ The improved Module 8 diagrams have at least **6** structural arrangements in Se
 - [x] Module 8 cases, spreadsheet-style CSV inputs, diagrams and knowledge checks are fictional and independently authored in this project. The repository validator screens exact repeated long explanatory paragraphs across lessons.
 - [x] Retain source/edition and public reference registers; historic curriculum language must be separated from currently applicable regulations.
 - [x] **Owner editorial review on 2026-10-22:** owner reported reviewing Module 8 content and finding no issues or comments. This is owner self-attestation, not a separate independent assessment.
-- [ ] **Independent editorial/originality sign-off remains open.** No external licensed-content similarity search or professional plagiarism determination is represented by the automated checks. A human reviewer should inspect a representative sample across all three sections and the capstone for overly similar source expression, overgeneralized standards claims or repetitive explanation.
+- [x] **Owner waived separate independent editorial/originality review (2026-10-25).** The owner-approved release process relies on the completed owner content review and automated checks. No independent professional plagiarism, legal, or standards-compliance certification is claimed or implied; copyright and accuracy responsibilities remain applicable.
 
 ## 6. GitHub rendering and actual visual sign-off
 
@@ -72,8 +72,8 @@ The improved Module 8 diagrams have at least **6** structural arrangements in Se
 - [x] [Actual GitHub visual review gallery](./MODULE8-VISUAL-REVIEW.md) provides every committed Module 8 SVG at a 720-pixel wide and a 320-pixel narrow embedded review size.
 - [x] All 45 original SVG source files pass structural, accessibility, text-bound heuristic and visual-diversity automated checks.
 - [x] **Owner visual review on 2026-10-22:** owner reports reviewing all 45 diagrams, with no issues or fixes requested, following the wide/narrow review instructions. The self-report is accepted as owner visual sign-off, not an independent raster verification.
-- [ ] **Separate GitHub-rendered interaction check, if required:** no distinct owner assertion specifically addresses selected Mermaid flows, tables, expandable answers and capstone behavior in an actual browser. Automated links/markup pass, but a reviewer spot-check would cover this remaining evidence.
-- [ ] Record any visual defect, correct it on this branch, rerun the same shared CI and re-inspect the affected graphic before sign-off.
+- [x] **Additional outside browser/reviewer inspection not required by owner (2026-10-25).** Owner accepted the 45-diagram and editorial inspection plus existing automated Markdown/Mermaid/asset checks. Exact real-browser interaction beyond this evidence is not separately attested; this is a disclosed verification limit, not a release blocker.
+- [x] No defects reported in the owner's visual/editorial review. Any future discovered defect must still be corrected and validated before claiming its resolution.
 
 ## 7. Release governance and disposition
 
@@ -81,9 +81,9 @@ The improved Module 8 diagrams have at least **6** structural arrangements in Se
 
 Before approval, require:
 
-1. **Owner visual and editorial acceptance completed on 2026-10-22** with no reported issues. **Independent originality/editorial and specific browser-interaction spot-check remain separate** if the release process requires them.
+1. **Owner visual and editorial acceptance completed on 2026-10-22**, and **the owner waived separate independent review and additional browser spot-check as project release gates on 2026-10-25**. Preserve the distinction between automated/owner checks and unperformed third-party certification.
 2. Confirm zero unresolved high-severity accuracy, diagram clipping, permission or unsupported legal/certification claims.
 3. Confirm latest branch head has a passing shared Modules 1–8 CI run and the PR changes no Modules 1–7 learning content.
 4. The PR may be made **ready for review** without merging. **Merge into `main`, update of release metadata, and publication of any Module 8 tag/release each require later explicit owner authorization**; the manual-review update is not that authorization.
 
-**Current determination:** Automated checks pass, and **owner-reported manual editorial and 45-diagram visual approval are complete**. There are no submitted GitHub PR reviews as of this checkpoint; independent specialist review is not claimed. The PR is **unmerged**, and Module 8 is **not released or externally certified**.
+**Current determination:** Owner review and Modules 1–8 automated validation passed. The owner **does not require an independent reviewer**, which is not represented as having reviewed the materials. PR #17 is **ready for review but unmerged**; Module 8 is **not released**. The remaining project authorization is an explicit instruction to merge and, separately, to publish release metadata/tag. Any GitHub-enforced branch policy still applies if configured.
