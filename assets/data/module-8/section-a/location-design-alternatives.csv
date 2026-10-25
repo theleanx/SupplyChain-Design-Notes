@@ -1,0 +1,4 @@
+option,period,facility_cost_usd,transport_cost_usd,inventory_cost_usd,service_failure_cost_usd,weekly_capacity_units,required_weekly_units
+central,illustrative_year,280000,220000,85000,40000,1200,1000
+regional,illustrative_year,365000,130000,65000,15000,1100,1000
+low-cost,illustrative_year,315000,120000,75000,10000,850,1000

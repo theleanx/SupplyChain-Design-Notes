@@ -1,0 +1,5 @@
+item,timing,amount_usd,scope
+integration_and_security_setup,at_t0,110000,new_technology_program
+training_and_partner_change,at_t0,45000,new_technology_program
+master_data_cleansing,at_t0,30000,new_technology_program
+new_technology_support,annual_years_1_to_5,24000,incremental_technology_operations

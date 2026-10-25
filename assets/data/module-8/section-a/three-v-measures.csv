@@ -1,0 +1,3 @@
+scenario,period,valid_events,total_orders,order_to_update_hours,demand_cv
+baseline,illustrative_month,140,200,12,0.40
+pilot,illustrative_month,185,200,9,0.25

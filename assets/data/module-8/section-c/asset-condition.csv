@@ -1,0 +1,3 @@
+period,scheduled_hours,unplanned_down_hours,connected_assets,total_assets
+baseline,2000,140,0,10
+pilot,2000,75,8,10

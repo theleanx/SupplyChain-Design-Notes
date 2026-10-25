@@ -1,0 +1,3 @@
+period,events_expected,events_recorded,physical_events_verified
+manual,100,92,82
+pilot,100,99,96

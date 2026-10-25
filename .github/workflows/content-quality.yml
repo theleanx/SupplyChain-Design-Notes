@@ -17,3 +17,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Validate learning content and assets
         run: python3 scripts/validate_repository.py
+      # The shared validator runs the released Modules 1–7 gates,
+      # Module 8 A/B/C, the integrated capstone and cross-module inventory.
+      # Keep one authoritative run instead of executing Module 8 four times.

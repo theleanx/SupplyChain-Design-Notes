@@ -1,0 +1,5 @@
+route,fictional_period,requires_special_document,document_verified,shipment_eligible
+L1,2026_training,yes,yes,yes
+L2,2026_training,yes,no,no
+L3,2026_training,no,not_applicable,yes
+L4,2026_training,yes,yes,yes

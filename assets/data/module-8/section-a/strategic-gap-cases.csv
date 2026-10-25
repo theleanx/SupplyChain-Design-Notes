@@ -1,0 +1,3 @@
+case_id,period,required_service_pct,observed_orders,complete_on_time_orders
+GAP-01,illustrative_month,95,1000,880
+GAP-02,alternate_illustrative_month,95,4000,3650

@@ -1,0 +1,4 @@
+option,warehouse_energy_tco2e_year,outbound_transport_tco2e_year,worker_safety_gate,destination_evidence_gate,emissions_model_status
+central,61,78,yes,yes,fictional_estimate_unverified
+regional,48,61,yes,yes,fictional_estimate_unverified
+low-cost,42,59,no,yes,fictional_estimate_unverified
