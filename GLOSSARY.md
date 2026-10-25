@@ -355,7 +355,7 @@ For deeper treatment, open the [Module 1 overview](./01-supply-chains-demand-for
 **Business continuity management (BCM)** — Establishing and testing the people, process, information and partner capabilities needed to continue or restore prioritized operations after disruption.
 
 
-## Module 8: Strategy, Sustainability, and Technology Terminology (draft PR #17)
+## Module 8: Strategy, Sustainability, and Technology Terminology (released v8.0.0)
 
 **Triple bottom line (TBL)** — A decision framework tracking economic, environmental and social outcomes separately, without allowing favorable scores in one dimension to waive hard obligations in another.
 
