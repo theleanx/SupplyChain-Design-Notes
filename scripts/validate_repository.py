@@ -1895,6 +1895,30 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
         for stale in ("remains unreleased", "still unfinished", "release approval are pending"):
             if stale in overview:
                 errors.append(f"{folder.relative_to(ROOT)}: obsolete section pre-release status ({stale})")
+    # Cross-module published-state regression gate (v7/v8).
+    module7_section_a = (MODULE_7 / "section-a-risk-management-and-supply-chain-risks" / "README.md").read_text(encoding="utf-8")
+    if "## Section A release status" not in module7_section_a or "**Released.**" not in module7_section_a:
+        errors.append("Module 7 Section A: released-state declaration is missing")
+    for stale in ("**Authoring candidate:**", "[Draft Module 7 overview]", "not complete. This content should remain on an unmerged"):
+        if stale in module7_section_a:
+            errors.append(f"Module 7 Section A: obsolete release-candidate text ({stale})")
+
+    glossary = (ROOT / "GLOSSARY.md").read_text(encoding="utf-8")
+    if "## Module 8: Strategy, Sustainability, and Technology Terminology (released v8.0.0)" not in glossary:
+        errors.append("GLOSSARY.md: Module 8 published-state heading is missing")
+    if "Terminology (draft PR #17)" in glossary:
+        errors.append("GLOSSARY.md: obsolete Module 8 draft heading")
+
+    for script_name, stale in (
+        ("validate_module8_section_a.py", "FULL MODULE 8 NOT YET RELEASED"),
+        ("validate_module8_section_b.py", "MODULE 8 NOT YET RELEASED"),
+        ("validate_module8_section_c.py", "FULL MODULE 8 CAPSTONE/RELEASE PENDING"),
+        ("validate_module8_capstone.py", "final full repository release approval still pending"),
+    ):
+        validator_source = (ROOT / "scripts" / script_name).read_text(encoding="utf-8")
+        if stale in validator_source:
+            errors.append(f"scripts/{script_name}: obsolete pre-release success message")
+
     # Guard against accidental reintroduction of pre-release navigation.
     for path, stale in (
         (ROOT / "README.md", ("Module 8 is an unmerged", "review-candidate inventory (PR #17 only)", "Module 8 is **not released**")),
