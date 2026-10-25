@@ -1896,6 +1896,20 @@ def validate_capstones_and_inventory(markdown: list[Path], svg: list[Path], data
             if stale in overview:
                 errors.append(f"{folder.relative_to(ROOT)}: obsolete section pre-release status ({stale})")
     # Cross-module published-state regression gate (v7/v8).
+    module7_refs = (MODULE_7 / "REFERENCES.md").read_text(encoding="utf-8")
+    if "Module 7 Reference Register — released sections and Stonebridge capstone" not in module7_refs:
+        errors.append("Module 7 REFERENCES.md: released-state reference title is missing")
+    if "capstone pending" in module7_refs.lower():
+        errors.append("Module 7 REFERENCES.md: obsolete capstone-pending status")
+    module7_first_lesson = (
+        MODULE_7 / "section-a-risk-management-and-supply-chain-risks"
+        / "01-risk-uncertainty-threats-opportunities-and-supply-chain-exposure.md"
+    ).read_text(encoding="utf-8")
+    if "**Released Module 7 lesson.**" not in module7_first_lesson:
+        errors.append("Module 7 A01: released-state lesson banner is missing")
+    if "**Section A authoring candidate.**" in module7_first_lesson:
+        errors.append("Module 7 A01: obsolete authoring-candidate banner")
+
     module7_section_a = (MODULE_7 / "section-a-risk-management-and-supply-chain-risks" / "README.md").read_text(encoding="utf-8")
     if "## Section A release status" not in module7_section_a or "**Released.**" not in module7_section_a:
         errors.append("Module 7 Section A: released-state declaration is missing")
